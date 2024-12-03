@@ -5,3 +5,6 @@
 
 # 同步.obsidian文件夹下指定的子文件夹, 这些插件都暂时没有用到, 将来找机会剔除
 .obsidian/*
+
+!.obsidian/plugins
+.obsidian/plugins/*
