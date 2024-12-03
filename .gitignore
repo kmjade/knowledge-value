@@ -3,9 +3,5 @@
 
 /knowledge-para/.idea/
 
-!/knowledge-para/.obsidian/
-/knowledge-para/.obsidian/app.json
-/knowledge-para/.obsidian/appearance.json
-/knowledge-para/.obsidian/core-plugins.json
-/knowledge-para/.obsidian/workspace.json
-
+# 同步.obsidian文件夹下指定的子文件夹, 这些插件都暂时没有用到, 将来找机会剔除
+.obsidian/*

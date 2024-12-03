@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "10d1593b10ee3ca4",
+    "id": "21c7a3e9df5b911d",
     "type": "split",
     "children": [
       {
-        "id": "21dc4212c6f53e5a",
+        "id": "344b12150e48c653",
         "type": "tabs",
         "children": [
           {
-            "id": "837397db85a07a64",
+            "id": "55abd29bd5127239",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -23,28 +23,27 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "46ba61302c6fea45",
+    "id": "809d34c91b118570",
     "type": "split",
     "children": [
       {
-        "id": "7b3a1f0b2331c4f9",
+        "id": "7892fe70ae2f509f",
         "type": "tabs",
         "children": [
           {
-            "id": "460a9e42de521b6a",
+            "id": "124262e29f322178",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical",
-                "autoReveal": false
+                "sortOrder": "alphabetical"
               },
               "icon": "lucide-folder-closed",
               "title": "檔案瀏覽器"
             }
           },
           {
-            "id": "58fc664eefc0a822",
+            "id": "1256403fd751b2e9",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -61,7 +60,7 @@
             }
           },
           {
-            "id": "68b664da9e28c2ea",
+            "id": "255a08d8a67b780c",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -77,15 +76,15 @@
     "width": 300
   },
   "right": {
-    "id": "19cea027a20285b0",
+    "id": "35662205ec5918f5",
     "type": "split",
     "children": [
       {
-        "id": "86630ac709e4f980",
+        "id": "aa7a9d11d6ddd6fc",
         "type": "tabs",
         "children": [
           {
-            "id": "bda97f14724f6bc4",
+            "id": "3edebc5b8ea2a1cd",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -103,7 +102,7 @@
             }
           },
           {
-            "id": "19f9920375c8de42",
+            "id": "91fdf0dc834f8fea",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -116,44 +115,24 @@
             }
           },
           {
-            "id": "77e26fb0ad90ee77",
+            "id": "02a75c3262beb3ca",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true,
-                "showSearch": false,
-                "searchQuery": ""
+                "useHierarchy": true
               },
               "icon": "lucide-tags",
               "title": "標籤"
             }
           },
           {
-            "id": "84098281e8e52b03",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-archive",
-              "title": "所有屬性"
-            }
-          },
-          {
-            "id": "a56d6ef8501522c1",
+            "id": "2bad916131c72637",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
+              "state": {},
               "icon": "lucide-list",
               "title": "大綱"
             }
@@ -172,10 +151,9 @@
       "canvas:建立新畫布": false,
       "daily-notes:開啟今天的每日筆記": false,
       "templates:插入模板": false,
-      "command-palette:開啟命令面板": false,
-      "bases:建立新的 base": false
+      "command-palette:開啟命令面板": false
     }
   },
-  "active": "837397db85a07a64",
+  "active": "55abd29bd5127239",
   "lastOpenFiles": []
 }
