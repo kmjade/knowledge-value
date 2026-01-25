@@ -2,3 +2,8 @@
 .gitignore
 
 /.idea/
+
+!/.claude/
+/.claude/commands/
+/.claude/sessions/
+/.claude/skills/
