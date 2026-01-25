@@ -1,0 +1,13 @@
+{
+  "name": "para-workflow",
+  "description": "PARA Method workflow for organizing notes - Projects, Areas, Resources, Archives",
+  "instructions": "para-workflow.md",
+  "commands": [
+    "para-workflow",
+    "new-project",
+    "new-area",
+    "new-resource",
+    "archive-note"
+  ],
+  "enabled": true
+}
