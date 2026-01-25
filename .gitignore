@@ -9,6 +9,7 @@
 /.claude/commands/创建指令.md
 /.claude/commands/english-first.md
 /.claude/commands/first-cn-zh.md
+/.claude/commands/first-cn-tw.md
 
 /.claude/sessions/
 
@@ -17,3 +18,4 @@
 /.claude/skills/obsidian-bases/
 /.claude/skills/json-canvas/
 /.claude/skills/first-cn-zh/
+/.claude/skills/first-cn-tw/
