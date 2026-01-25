@@ -4,6 +4,13 @@
 /.idea/
 
 !/.claude/
-/.claude/commands/
+!/.claude/commands/
+/.claude/commands/创建技能.md
+/.claude/commands/创建指令.md
+
 /.claude/sessions/
-/.claude/skills/
+
+!/.claude/skills/
+/.claude/skills/obsidian-markdown/
+/.claude/skills/obsidian-bases/
+/.claude/skills/json-canvas/
