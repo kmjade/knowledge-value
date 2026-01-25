@@ -1,7 +1,5 @@
 # knowledge-value
 
-
-
 git clone https://github.com/kmjade/knowledge-value.git
 
 …or create a new repository on the command line
