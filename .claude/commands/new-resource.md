@@ -20,5 +20,5 @@ Create a new resource note in the PARA structure.
 - Travel Ideas
 
 ## Creates
-- `PARA/Resources/Resource Topic.md`
+- `3 Resources/Resource Topic.md`
 - Pre-filled with content, links, and ideas sections

@@ -5,14 +5,14 @@ This skill implements the PARA method (Projects, Areas, Resources, Archives) for
 ## PARA Structure
 
 ```
-PARA/
-├── Projects/          # Active work with deadlines
+/
+1 Projects/          # Active work with deadlines
 │   └── [Project Name]/
-├── Areas/             # Ongoing responsibilities
+2 Areas/             # Ongoing responsibilities
 │   └── [Area Name]/
-├── Resources/         # Topics of interest
+3 Resources/         # Topics of interest
 │   └── [Topic Name]/
-└── Archive/           # Inactive items
+4 Archive/           # Inactive items
 ```
 
 ## Categories

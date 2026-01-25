@@ -19,5 +19,5 @@ Create a new project note in the PARA structure.
 - "Plan Family Vacation"
 
 ## Creates
-- `PARA/Projects/Project Name.md`
+- `1 Projects/Project Name.md`
 - Pre-filled with goals, tasks, and progress tracking

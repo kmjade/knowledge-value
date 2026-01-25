@@ -14,11 +14,11 @@ Manage your notes using the PARA method: **P**rojects, **A**reas, **R**esources,
 ## PARA Structure
 
 ```
-PARA/
-├── Projects/     # Active work with deadlines
-├── Areas/        # Ongoing responsibilities
-├── Resources/    # Topics of interest
-└── Archive/      # Inactive items
+/
+1 Projects/     # Active work with deadlines
+2 Areas/        # Ongoing responsibilities
+3 Resources/    # Topics of interest
+4 Archive/      # Inactive items
 ```
 
 ## What Goes Where?

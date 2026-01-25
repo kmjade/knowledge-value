@@ -16,7 +16,7 @@ Move a note to the Archive folder.
 ## Process
 1. Copy note content to Archive template
 2. Add summary and status
-3. Move original to `PARA/Archive/`
+3. Move original to `4 Archive/`
 4. Create link from original location
 
 ## What Gets Archived

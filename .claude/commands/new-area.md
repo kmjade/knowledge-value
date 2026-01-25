@@ -21,5 +21,5 @@ Create a new area note in the PARA structure.
 - Home
 
 ## Creates
-- `PARA/Areas/Area Name.md`
+- `2 Areas/Area Name.md`
 - Pre-filled with standards, checklist, and notes
