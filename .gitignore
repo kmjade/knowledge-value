@@ -1,4 +1,4 @@
 # 首先排除自己, 因为每个人情况不一样,单独配置
 .gitignore
 
-/knowledge-para/.idea/
+/.idea/
