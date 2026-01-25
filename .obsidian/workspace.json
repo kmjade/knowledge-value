@@ -157,8 +157,19 @@
               "icon": "lucide-list",
               "title": "大綱"
             }
+          },
+          {
+            "id": "31cc084bcb85d041",
+            "type": "leaf",
+            "state": {
+              "type": "claudian-view",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "claudian-view"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -167,6 +178,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "claudian:Open Claudian": false,
       "switcher:開啟快速切換": false,
       "graph:查看關聯圖": false,
       "canvas:建立新畫布": false,
@@ -176,6 +188,10 @@
       "bases:建立新的 base": false
     }
   },
-  "active": "837397db85a07a64",
-  "lastOpenFiles": []
+  "active": "460a9e42de521b6a",
+  "lastOpenFiles": [
+    "CLAUDE.md",
+    "在进行签出之前于_2026_1_25_20_53_取消提交了更改_[更改].patch",
+    "git knowledge-value.md"
+  ]
 }
