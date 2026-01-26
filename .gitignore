@@ -4,8 +4,8 @@
 /knowledge-para/.idea/
 
 !/knowledge-para/.obsidian/
-!/knowledge-para/.obsidian/app.json
-!/knowledge-para/.obsidian/appearance.json
-!/knowledge-para/.obsidian/core-plugins.json
-!/knowledge-para/.obsidian/workspace.json
+/knowledge-para/.obsidian/app.json
+/knowledge-para/.obsidian/appearance.json
+/knowledge-para/.obsidian/core-plugins.json
+/knowledge-para/.obsidian/workspace.json
 
