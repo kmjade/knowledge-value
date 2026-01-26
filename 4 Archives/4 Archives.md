@@ -49,12 +49,6 @@ SORT archived DESC
 
 ## 📋 歸檔索引
 
-### 2026
-
-| 日期 | 名稱 | 類型 | 狀態 | 摘要 |
-|------|------|------|------|------|
-| | | | | |
-
 ### 按狀態分類
 
 #### Completed 已完成
@@ -67,8 +61,20 @@ sort archived desc
 #### Cancelled 已取消
 ```dataview
 list from "4 Archives"
-where original-status = "completed"
+where original-status = "cancelled"
 sort archived desc
+```
+
+### 按類型分類
+
+```dataview
+TABLE without ID
+  file.link AS "名稱",
+  original-type AS "原始類型",
+  archived AS "歸檔日期"
+FROM "4 Archives"
+WHERE file.name != this.file.name
+SORT archived DESC
 ```
 
 ---

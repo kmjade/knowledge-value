@@ -32,21 +32,10 @@ SORT priority ASC, due ASC
 
 ```
 1 Projects/
-├── 01-Learning/              # 學習類
-│   ├── Obsidian學習計劃.md
-│   └── 語言學習.md
-│
-├── 02-Work/                  # 工作類
-│   ├── 專案A.md
-│   └── 專案B.md
-│
-├── 03-Personal/              # 個人類
-│   ├── 旅行規劃.md
-│   └── 健身目標.md
-│
-└── 04-Creative/              # 創作類
-    ├── 部落格寫作.md
-    └── 書籍撰寫.md
+├── 01-Learning/              # 學習類項目
+├── 02-Work/                  # 工作類項目
+├── 03-Personal/              # 個人類項目
+└── 04-Creative/              # 創作類項目
 ```
 
 ---
@@ -92,9 +81,16 @@ sort due asc
 
 ## ✅ 完成項目
 
-| 項目 | 完成日期 | 狀態 |
-|------|----------|------|
-| [[2024-Q1-技術報告]] | 2026-01-26 | ✅ Completed |
+```dataview
+TABLE without ID
+  file.link AS "項目",
+  completed-date AS "完成日期",
+  file.folder AS "分類"
+FROM "1 Projects"
+WHERE status = "completed"
+SORT completed-date DESC
+LIMIT 10
+```
 
 ---
 
@@ -122,10 +118,16 @@ sort due asc
 
 ## 📊 項目健康度
 
-| 項目 | 進度 | 狀態 | 風險 |
-|------|------|------|------|
-| Obsidian學習計劃 | 0% | ⚠️ 正常 | 低 |
-| 建立知識庫 | 0% | ⚠️ 正常 | 低 |
+```dataview
+TABLE without ID
+  file.link AS "項目",
+  progress AS "進度",
+  risk AS "風險",
+  due AS "截止日期"
+FROM "1 Projects"
+WHERE status = "active"
+SORT due ASC, priority ASC
+```
 
 ---
 

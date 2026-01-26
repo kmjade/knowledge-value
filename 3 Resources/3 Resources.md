@@ -89,17 +89,28 @@ sort file.name asc
 
 ## ⭐ 精選資源
 
-### 熱門主題
-- [[機器學習]] ⭐⭐⭐⭐⭐
-- [[數據分析方法]] ⭐⭐⭐⭐
+### 高優先級資源
+```dataview
+TABLE without ID
+  file.link AS "資源",
+  interest-level AS "興趣程度",
+  last-reviewed AS "上次檢視"
+FROM "3 Resources"
+WHERE file.name != this.file.name AND interest-level
+SORT interest-level DESC
+LIMIT 10
+```
 
 ### 最近新增
-- [[]] (新增日期：)
-
-### 待探索
-- [ ] 人工智慧
-- [ ] 區塊鏈
-- [ ] 雲端運算
+```dataview
+TABLE without ID
+  file.link AS "資源",
+  file.ctime AS "創建日期"
+FROM "3 Resources"
+WHERE file.name != this.file.name
+SORT file.ctime DESC
+LIMIT 5
+```
 
 ---
 
