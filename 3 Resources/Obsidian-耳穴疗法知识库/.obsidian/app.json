@@ -1,0 +1,36 @@
+{
+  "core-plugins": [
+    "file-explorer",
+    "search",
+    "switcher",
+    "graph",
+    "backlink",
+    "page-preview",
+    "command-palette",
+    "markdown-importer",
+    "word-count",
+    "templates",
+    "daily-notes"
+  ],
+  "foldHeading": true,
+  "foldIndent": true,
+  "showFrontmatter": true,
+  "alwaysUpdateLinks": true,
+  "useMarkdownLinks": false,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "01-基础知识",
+  "attachmentFolderPath": "09-附件",
+  "userIgnoreFilters": [
+    "09-附件/"
+  ],
+  "showLineNumber": true,
+  "strictLineBreaks": false,
+  "readableLineLength": false,
+  "showInlineTitle": true,
+  "promptDelete": false,
+  "newFileDefaultTitle": "without-extension",
+  "vimMode": false,
+  "legacyEditor": false,
+  "livePreview": true,
+  "propertiesInDocument": "visible"
+}

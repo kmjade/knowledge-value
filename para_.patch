@@ -1,0 +1,15 @@
+Index: .obsidian/app.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.obsidian/app.json b/.obsidian/app.json
+--- a/.obsidian/app.json	(revision ec2fa95124584006f03a2c10a1cf9f2607954a26)
++++ b/.obsidian/app.json	(date 1769366084214)
+@@ -1,1 +1,3 @@
+-{}
+\ No newline at end of file
++{
++  "alwaysUpdateLinks": true
++}
+\ No newline at end of file

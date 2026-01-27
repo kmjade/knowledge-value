@@ -1,0 +1,176 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "model": "gpt-oss:120b-cloud",
+  "provider": {
+    "ollama": {
+      "npm": "@ai-sdk/openai-compatible",
+      "name": "Ollama (Local)",
+      "options": {
+        "baseURL": "http://localhost:11434/v1",
+        "timeout": 120000,
+        "maxRetries": 3,
+        "headers": {
+          "Connection": "keep-alive",
+          "User-Agent": "OpenCode/1.0.0"
+        }
+      },
+      "models": {
+        "qwen2.5-coder:7b": {
+          "name": "Qwen2.5-Coder 7B (Local)",
+          "description": "专为编程优化的7B参数模型，平衡性能与资源使用",
+          "options": {
+            "temperature": 0.1,
+            "top_p": 0.9,
+            "top_k": 40,
+            "extraBody": {
+              "num_ctx": 8192,
+              "num_batch": 512,
+              "repeat_penalty": 1.1,
+              "seed": 42
+            }
+          },
+          "limit": {
+            "context": 8192,
+            "output": 4096
+          }
+        },
+        "qwen2.5-coder:7b-16k": {
+          "id": "qwen2.5-coder:7b",
+          "name": "Qwen2.5-Coder 7B (16K)",
+          "description": "大上下文版本，适合处理复杂文件和长对话",
+          "options": {
+            "temperature": 0.1,
+            "top_p": 0.9,
+            "extraBody": {
+              "num_ctx": 16384,
+              "num_batch": 1024,
+              "repeat_penalty": 1.05
+            }
+          },
+          "limit": {
+            "context": 16384,
+            "output": 8192
+          }
+        },
+        "qwen2.5-coder:14b": {
+          "name": "Qwen2.5-Coder 14B (Local)",
+          "description": "高性能14B模型，适合复杂编程任务",
+          "options": {
+            "temperature": 0.05,
+            "top_p": 0.95,
+            "extraBody": {
+              "num_ctx": 8192,
+              "num_batch": 256,
+              "repeat_penalty": 1.1
+            }
+          },
+          "limit": {
+            "context": 8192,
+            "output": 4096
+          }
+        },
+        "qwen2.5:3b": {
+          "name": "Qwen2.5 3B (Lightweight)",
+          "description": "轻量级模型，适合基础编程和快速响应",
+          "options": {
+            "temperature": 0.2,
+            "top_p": 0.9,
+            "extraBody": {
+              "num_ctx": 4096,
+              "num_batch": 1024
+            }
+          },
+          "limit": {
+            "context": 4096,
+            "output": 2048
+          }
+        },
+        "qwen2.5:7b": {
+          "name": "Qwen2.5 7B (General)",
+          "description": "通用7B模型，平衡的编程和对话能力",
+          "options": {
+            "temperature": 0.15,
+            "top_p": 0.9,
+            "extraBody": {
+              "num_ctx": 8192,
+              "num_batch": 512
+            }
+          },
+          "limit": {
+            "context": 8192,
+            "output": 4096
+          }
+        },
+        "mistral-nemo:12b": {
+          "name": "Mistral-Nemo 12B (Reasoning)",
+          "description": "强推理能力模型，适合代码审查和分析",
+          "options": {
+            "temperature": 0.1,
+            "top_p": 0.95,
+            "extraBody": {
+              "num_ctx": 32768,
+              "num_batch": 512
+            }
+          },
+          "limit": {
+            "context": 32768,
+            "output": 4096
+          }
+        }
+      }
+    }
+  },
+  "tools": {
+    "timeout": 60000,
+    "maxParallel": 3,
+    "enabled": [
+      "file-read",
+      "file-write", 
+      "file-edit",
+      "bash",
+      "search",
+      "glob"
+    ]
+  },
+  "plugin": [
+    "@opencode/file-operations",
+    "@opencode/code-analysis",
+    "@opencode/git-integration"
+  ],
+  "rules": [
+    "Always verify file paths before operations",
+    "Use appropriate error handling for file operations",
+    "Prefer non-destructive operations when possible",
+    "Provide clear explanations for code modifications"
+  ],
+  "permissions": {
+    "fileSystem": {
+      "allowedPaths": [
+        ".",
+        "./src",
+        "./docs",
+        "./tests"
+      ],
+      "deniedPaths": [
+        "./.git",
+        "./node_modules",
+        "./.env"
+      ]
+    },
+    "network": {
+      "allowedHosts": [
+        "localhost",
+        "127.0.0.1"
+      ],
+      "blockedHosts": [
+        "*"
+      ]
+    }
+  },
+  "logging": {
+    "level": "info",
+    "file": "~/.config/opencode/logs/opencode.log",
+    "maxSize": "10MB",
+    "maxFiles": 5
+  }
+}

@@ -19,4 +19,4 @@ interest-level:
 - [[Data-Science]] - 數據科學
 
 ## 🔗 相關項目
-- [[1 Projects]]
+- [[1 Projects|Projects]]

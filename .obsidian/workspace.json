@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0 Inbox/阅读分析拆解工作流.md",
+                "file": "3 Resources/Claudian/Obsidian + Claudian 集成方案.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "阅读分析拆解工作流"
+              "title": "Obsidian + Claudian 集成方案"
             }
           }
         ],
@@ -48,7 +48,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 Projects/01-Learning/阅读分析拆解工作流项目.md",
+                "file": "3 Resources/01-Tech/Programming/Programming.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -63,7 +63,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "阅读分析拆解工作流项目"
+              "title": "Programming"
             }
           }
         ]
@@ -98,7 +98,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#yin-yang",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -199,13 +199,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1 Projects/01-Learning/阅读分析拆解工作流项目.md",
+                "file": "3 Resources/Claudian/Obsidian + Claudian 集成方案.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "阅读分析拆解工作流项目 的大綱"
+              "title": "Obsidian + Claudian 集成方案 的大綱"
             }
           },
           {
@@ -237,43 +237,43 @@
       "bases:建立新的 base": false
     }
   },
-  "active": "d1619e15ccdecec3",
+  "active": "1a04b0ffa674f64d",
   "lastOpenFiles": [
-    "_meta/_meta.md",
-    "1 Projects/01-Learning/阅读分析拆解工作流项目.md",
-    "_meta",
-    "_Cache/Resources-Index.md",
-    "_Cache/Areas-Index.md",
-    "_Cache/Projects-Index.md",
-    "_Cache",
-    "AGENTS.md",
-    "2 Areas/05-Learning/PARA方法论-知识卡片.md",
-    "3 Resources/03-Productivity/Methods/Inbox 工作流.md",
-    "0 Inbox/阅读分析拆解工作流.md",
-    "3 Resources/03-Productivity/Methods/Zettelkasten 工作流.md",
-    "3 Resources/03-Productivity/Methods/Getting Things Done.md",
-    "3 Resources/03-Productivity/Methods/前端數據可視化.md",
-    "0 Inbox/Copilot插件完全指南：AI 对话、RAG、参数设置一次讲透.md",
-    "2 Areas/2 Areas.md",
-    "3 Resources/03-Productivity/Tools/DataviewJS 外掛.md",
-    "3 Resources/03-Productivity/Methods/Dataview 使用指南.md",
-    "1 Projects/PARA-索引文件優化報告.md",
-    "4 Archives/4 Archives.md",
-    "3 Resources/3 Resources.md",
-    "1 Projects/1 Projects.md",
-    "README_zh-TW.md",
-    "README_zh-CN.md",
-    "README.md",
-    "CLAUDE.md",
-    "0 Inbox",
-    "1 Projects/04-Creative",
-    "1 Projects/03-Personal",
-    "1 Projects/02-Work",
-    "1 Projects/01-Learning",
-    "2 Areas/06-Lifestyle",
-    "2 Areas/05-Learning",
-    "2 Areas/04-Relationships",
+    "3 Resources/Obsidian/Obsidian.md",
     "3 Resources/03-Productivity/Methods/時間管理.md",
-    "3 Resources/03-Productivity/Tools/Obsidian 外掛精選.md"
+    "3 Resources/03-Productivity/Methods/Methods.md",
+    "3 Resources/03-Productivity/Methods/PARA指南.md",
+    "3 Resources/01-Tech/Programming/Programming.md",
+    "3 Resources/01-Tech/医学/中医/中医-阴阳五行.md",
+    "3 Resources/01-Tech/医学/中医/耳诊-耳部解剖结构.md",
+    "3 Resources/耳穴診斷知識庫/03-臨床應用/心血管疾病耳穴診斷.md",
+    "3 Resources/耳穴診斷知識庫/02-耳穴診斷方法/耳穴觸診技術.md",
+    "3 Resources/耳穴診斷知識庫/02-耳穴診斷方法/耳穴聞診方法.md",
+    "3 Resources/耳穴診斷知識庫/02-耳穴診斷方法/耳穴望診技術.md",
+    "3 Resources/耳穴診斷知識庫/02-耳穴診斷方法/耳穴問診技巧.md",
+    "3 Resources/耳穴診斷知識庫/01-基礎知識/耳穴診斷概論.md",
+    "3 Resources/耳穴診斷知識庫/README.md",
+    "3 Resources/耳穴診斷知識庫/03-臨床應用",
+    "3 Resources/耳穴診斷知識庫/02-耳穴診斷方法",
+    "3 Resources/耳穴診斷知識庫/01-基礎知識",
+    "3 Resources/耳穴診斷知識庫",
+    "3 Resources/学习技巧/知识管理/How to Take Smart Notes.md",
+    "3 Resources/学习技巧/学习方法/学习方法.md",
+    "3 Resources/学习技巧/知识管理系统.md",
+    "3 Resources/学习技巧/知识管理",
+    "3 Resources/学习技巧/学习方法",
+    "3 Resources/学习技巧",
+    "3 Resources/写作技巧/自我管理方法.md",
+    "3 Resources/写作技巧/日记方法.md",
+    "3 Resources/写作技巧/成长追踪方法.md",
+    "3 Resources/写作技巧",
+    "3 Resources/健康知识体系/根据  耳夹疗法 PARA 创建养生馆项目.md",
+    "3 Resources/健康知识体系/健康知识体系.md",
+    "3 Resources/健康知识体系/2-素材.md",
+    "3 Resources/健康知识体系",
+    "3 Resources/计算机网络知识库/07-模板/问题排查模板.md",
+    "3 Resources/计算机网络知识库/07-模板/协议学习模板.md",
+    "3 Resources/计算机网络知识库/06-实践工具/网络诊断工具.md",
+    "3 Resources/计算机网络知识库/07-模板"
   ]
 }
