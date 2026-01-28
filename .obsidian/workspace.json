@@ -6,7 +6,6 @@
       {
         "id": "75a3f4c875b64d34",
         "type": "tabs",
-        "dimension": 50.39246467817896,
         "children": [
           {
             "id": "2b98e92261db29c7",
@@ -14,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_templates/para/TEMPLATER_GUIDE.md",
+                "file": "3 Resources/03-Productivity/Methods/Inbox 工作流.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TEMPLATER_GUIDE"
+              "title": "Inbox 工作流"
             }
           },
           {
@@ -28,62 +27,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_templates/_templates.md",
+                "file": "0 Inbox/Inbox Dashboard.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "_templates"
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "b0202a407eacaa1a",
-        "type": "tabs",
-        "dimension": 49.60753532182103,
-        "children": [
-          {
-            "id": "d1619e15ccdecec3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_templates/_templates.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "_templates"
+              "title": "Inbox Dashboard"
             }
           },
           {
-            "id": "dfdf73f02516ecdd",
+            "id": "7f07a992b054916d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_templates/para/para.md",
+                "file": "耳穴知识库-优化报告.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "para"
+              "title": "耳穴知识库-优化报告"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -216,13 +183,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_templates/_templates.md",
+                "file": "耳穴知识库-优化报告.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "_templates 的大綱"
+              "title": "耳穴知识库-优化报告 的大綱"
             }
           },
           {
@@ -255,37 +222,37 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "da83bc1b51e4cfa0",
+  "active": "7f07a992b054916d",
   "lastOpenFiles": [
+    "0 Inbox/Inbox Dashboard.md",
+    "耳穴知识库-优化报告.md",
+    "3 Resources/计算机网络/OpenCode+Ollama集成指南/閃念：如何在OpenCode中使用本地大模型（繁體中文）.md",
+    "3 Resources/计算机网络/OpenCode+Ollama集成指南/闪念：如何在OpenCode中使用本地大模型.md",
+    "5 Zettels/📌 permanent/20250125-0002 光貓密碼解密技術.md",
+    "3 Resources/03-Productivity/Methods/Inbox 工作流.md",
+    "0 Inbox/0 Inbox.md",
+    "5 Zettels/📌 permanent/20260128-0003 凱撒密碼基礎.md",
+    "_templates/para/TEMPLATER_GUIDE.md",
+    "5 Zettels/📌 permanent/20250125-0003 電信光貓配置頁面訪問.md",
+    "5 Zettels/📌 permanent/20250125-0004 網絡服務商內網現狀.md",
+    "5 Zettels/📚 literature/concept/20260125-企业AI采购决策框架.md",
+    "5 Zettels/5 Zettels.md",
+    "1 Projects/03-Personal/Core/📌 Zettelkasten 原子化标准摘要.md",
+    "1 Projects/03-Personal/Core/📖 [渐进] 如何远程管理二级路由器.md",
+    "1 Projects/03-Personal/Core/📖 [渐进] Google Gemini 模型概览.md",
+    "1 Projects/03-Personal/Core/📰 AI新闻-Apple选择Google而非OpenAI.md",
+    "1 Projects/03-Personal/Core/传统界面路由器-如何远程管理二级路由器？.md",
+    "1 Projects/03-Personal/Core/宽带突然变卡、被限速，前运营商员工教你怎么办！.md",
+    "1 Projects/03-Personal/Core/使用指南.md",
+    "1 Projects/01-Learning/阅读分析拆解工作流.md",
+    "1 Projects/03-Personal/Journal/2026/01-January/2026-01-28.md",
+    "1 Projects/03-Personal/Journal/Journal.md",
+    "1 Projects/03-Personal/Core/Core.md",
+    "_templates/_templates.md",
     "1 Projects/02-Work/Claudian/✅ PARA模板重构-三模板模式实施报告.md",
-    "1 Projects/02-Work/Claudian/✅ PARA模板重构-方案A双模板系统实施报告.md",
-    "_templates/para/📁 full/_template-zettel.md",
-    "1 Projects/02-Work/Claudian/✅ PARA模板重构-方案A实施报告.md",
-    "_templates/para/📁 quick/Archive.md",
-    "_templates/para/📁 quick/Area.md",
-    "_templates/para/📁 quick/Resource.md",
-    "_templates/para/para.md",
-    "_templates/para/📁 full/_template-archive.md",
-    "_templates/para/📁 full/_template-area.md",
-    "_templates/para/📁 full/_template-project.md",
-    "_templates/para/📁 full/_template-resource.md",
-    "_templates/para/📁 quick/Project.md",
-    "_templates/_template-zettel.md",
-    "1 Projects/1 Projects.md",
     "_templates/para/📁 advanced",
     "_templates/para/📁 full",
     "_templates/para/📁 quick",
-    "_templates/_templates.md",
-    "备份/20260128_para_模板清理/🗂️ Resource Template.md",
-    "备份/20260128_para_模板清理/🗂️ Resource Note Template.md",
-    "备份/20260128_para_模板清理/🎯 Project Template.md",
-    "备份/20260128_para_模板清理/🎯 Project Note Template.md",
-    "备份/20260128_para_模板清理/🌳 Area Template.md",
-    "备份/20260128_para_模板清理/🌳 Area Note Template.md",
-    "备份/20260128_para_模板清理/资源_繁體.md",
-    "备份/20260128_para_模板清理/项目_繁體.md",
-    "备份/20260128_para_模板清理/领域_繁體.md",
-    "备份/20260128_para_模板清理/领域.md",
     "备份/20260128_para_模板清理",
     "备份/20260128_templates/_templates/fleeting",
     "备份/20260128_templates/_templates/para",
