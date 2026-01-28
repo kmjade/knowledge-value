@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0 Inbox/Inbox Dashboard.md",
+                "file": "_templates/general/資源收集_繁體.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Inbox Dashboard"
+              "title": "資源收集_繁體"
             }
           },
           {
@@ -41,16 +41,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "耳穴知识库-优化报告.md",
+                "file": "1 Projects/03-Personal/Journal/2026/01-January/2026-01-28.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "耳穴知识库-优化报告"
+              "title": "2026-01-28"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -183,13 +183,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "耳穴知识库-优化报告.md",
+                "file": "_templates/general/資源收集_繁體.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "耳穴知识库-优化报告 的大綱"
+              "title": "資源收集_繁體 的大綱"
             }
           },
           {
@@ -222,9 +222,16 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "7f07a992b054916d",
+  "active": "da83bc1b51e4cfa0",
   "lastOpenFiles": [
+    "_templates/general/资源收集.md",
+    "_templates/general/想法捕獲_繁體.md",
+    "_templates/general/想法捕获.md",
+    "_templates/general/快速捕获工作流设置指南.md",
+    "_templates/para/📁 full/_template-project.md",
+    "_templates/general/Ultra Quick Capture.md",
     "0 Inbox/Inbox Dashboard.md",
+    "1 Projects/03-Personal/Journal/2026/01-January/2026-01-28.md",
     "耳穴知识库-优化报告.md",
     "3 Resources/计算机网络/OpenCode+Ollama集成指南/閃念：如何在OpenCode中使用本地大模型（繁體中文）.md",
     "3 Resources/计算机网络/OpenCode+Ollama集成指南/闪念：如何在OpenCode中使用本地大模型.md",
@@ -243,13 +250,6 @@
     "1 Projects/03-Personal/Core/📰 AI新闻-Apple选择Google而非OpenAI.md",
     "1 Projects/03-Personal/Core/传统界面路由器-如何远程管理二级路由器？.md",
     "1 Projects/03-Personal/Core/宽带突然变卡、被限速，前运营商员工教你怎么办！.md",
-    "1 Projects/03-Personal/Core/使用指南.md",
-    "1 Projects/01-Learning/阅读分析拆解工作流.md",
-    "1 Projects/03-Personal/Journal/2026/01-January/2026-01-28.md",
-    "1 Projects/03-Personal/Journal/Journal.md",
-    "1 Projects/03-Personal/Core/Core.md",
-    "_templates/_templates.md",
-    "1 Projects/02-Work/Claudian/✅ PARA模板重构-三模板模式实施报告.md",
     "_templates/para/📁 advanced",
     "_templates/para/📁 full",
     "_templates/para/📁 quick",
