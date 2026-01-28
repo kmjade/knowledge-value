@@ -1,7 +1,16 @@
 ---
 title: Tech - AI-ML
-tags: #resource/tech
+aliases:
+  - 人工智慧與機器學習
+  - AI-ML
+tags:
+  - resource/tech
+  - ai
+  - machine-learning
 interest-level: 5
+created: 2026-01-25
+para: resources
+language: zh-tw
 ---
 
 # AI-ML 人工智慧與機器學習

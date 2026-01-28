@@ -401,7 +401,7 @@ AI 时代:
 
 - [[PARA + AI 实践]] - PARA + AI 实践
 - [[3 Resources/Claudian/Obsidian + Claudian 集成方案.md]] - 技术实现
-- [[1 Projects/Claudian/Claudian 系统搭建指南.md]] - 开始搭建
+- [[Claudian 系统搭建指南]] - 开始搭建
 
 ---
 

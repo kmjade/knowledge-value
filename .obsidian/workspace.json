@@ -6,33 +6,34 @@
       {
         "id": "75a3f4c875b64d34",
         "type": "tabs",
+        "dimension": 50.39246467817896,
         "children": [
           {
-            "id": "2a3b21f1b3784dc2",
+            "id": "2b98e92261db29c7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0 Inbox/阅读分析拆解工作流.md",
+                "file": "_templates/para/TEMPLATER_GUIDE.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "阅读分析拆解工作流"
+              "title": "TEMPLATER_GUIDE"
             }
           },
           {
-            "id": "1a04b0ffa674f64d",
+            "id": "da83bc1b51e4cfa0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3 Resources/Claudian/Obsidian + Claudian 集成方案.md",
+                "file": "_templates/_templates.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Obsidian + Claudian 集成方案"
+              "title": "_templates"
             }
           }
         ],
@@ -41,6 +42,7 @@
       {
         "id": "b0202a407eacaa1a",
         "type": "tabs",
+        "dimension": 49.60753532182103,
         "children": [
           {
             "id": "d1619e15ccdecec3",
@@ -48,7 +50,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3 Resources/01-Tech/Programming/Programming.md",
+                "file": "_templates/_templates.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -63,10 +65,25 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Programming"
+              "title": "_templates"
+            }
+          },
+          {
+            "id": "dfdf73f02516ecdd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_templates/para/para.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "para"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -98,7 +115,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#yin-yang",
+                "query": "数学",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -123,7 +140,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 302.5
   },
   "right": {
     "id": "19cea027a20285b0",
@@ -199,13 +216,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3 Resources/Claudian/Obsidian + Claudian 集成方案.md",
+                "file": "_templates/_templates.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Obsidian + Claudian 集成方案 的大綱"
+              "title": "_templates 的大綱"
             }
           },
           {
@@ -223,7 +240,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 415.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -234,46 +251,47 @@
       "daily-notes:開啟今天的每日筆記": false,
       "templates:插入模板": false,
       "command-palette:開啟命令面板": false,
-      "bases:建立新的 base": false
+      "bases:建立新的 base": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "1a04b0ffa674f64d",
+  "active": "da83bc1b51e4cfa0",
   "lastOpenFiles": [
-    "3 Resources/Obsidian/Obsidian.md",
-    "3 Resources/03-Productivity/Methods/時間管理.md",
-    "3 Resources/03-Productivity/Methods/Methods.md",
-    "3 Resources/03-Productivity/Methods/PARA指南.md",
-    "3 Resources/01-Tech/Programming/Programming.md",
-    "3 Resources/01-Tech/医学/中医/中医-阴阳五行.md",
-    "3 Resources/01-Tech/医学/中医/耳诊-耳部解剖结构.md",
-    "3 Resources/耳穴診斷知識庫/03-臨床應用/心血管疾病耳穴診斷.md",
-    "3 Resources/耳穴診斷知識庫/02-耳穴診斷方法/耳穴觸診技術.md",
-    "3 Resources/耳穴診斷知識庫/02-耳穴診斷方法/耳穴聞診方法.md",
-    "3 Resources/耳穴診斷知識庫/02-耳穴診斷方法/耳穴望診技術.md",
-    "3 Resources/耳穴診斷知識庫/02-耳穴診斷方法/耳穴問診技巧.md",
-    "3 Resources/耳穴診斷知識庫/01-基礎知識/耳穴診斷概論.md",
-    "3 Resources/耳穴診斷知識庫/README.md",
-    "3 Resources/耳穴診斷知識庫/03-臨床應用",
-    "3 Resources/耳穴診斷知識庫/02-耳穴診斷方法",
-    "3 Resources/耳穴診斷知識庫/01-基礎知識",
-    "3 Resources/耳穴診斷知識庫",
-    "3 Resources/学习技巧/知识管理/How to Take Smart Notes.md",
-    "3 Resources/学习技巧/学习方法/学习方法.md",
-    "3 Resources/学习技巧/知识管理系统.md",
-    "3 Resources/学习技巧/知识管理",
-    "3 Resources/学习技巧/学习方法",
-    "3 Resources/学习技巧",
-    "3 Resources/写作技巧/自我管理方法.md",
-    "3 Resources/写作技巧/日记方法.md",
-    "3 Resources/写作技巧/成长追踪方法.md",
-    "3 Resources/写作技巧",
-    "3 Resources/健康知识体系/根据  耳夹疗法 PARA 创建养生馆项目.md",
-    "3 Resources/健康知识体系/健康知识体系.md",
-    "3 Resources/健康知识体系/2-素材.md",
-    "3 Resources/健康知识体系",
-    "3 Resources/计算机网络知识库/07-模板/问题排查模板.md",
-    "3 Resources/计算机网络知识库/07-模板/协议学习模板.md",
-    "3 Resources/计算机网络知识库/06-实践工具/网络诊断工具.md",
-    "3 Resources/计算机网络知识库/07-模板"
+    "1 Projects/02-Work/Claudian/✅ PARA模板重构-三模板模式实施报告.md",
+    "1 Projects/02-Work/Claudian/✅ PARA模板重构-方案A双模板系统实施报告.md",
+    "_templates/para/📁 full/_template-zettel.md",
+    "1 Projects/02-Work/Claudian/✅ PARA模板重构-方案A实施报告.md",
+    "_templates/para/📁 quick/Archive.md",
+    "_templates/para/📁 quick/Area.md",
+    "_templates/para/📁 quick/Resource.md",
+    "_templates/para/para.md",
+    "_templates/para/📁 full/_template-archive.md",
+    "_templates/para/📁 full/_template-area.md",
+    "_templates/para/📁 full/_template-project.md",
+    "_templates/para/📁 full/_template-resource.md",
+    "_templates/para/📁 quick/Project.md",
+    "_templates/_template-zettel.md",
+    "1 Projects/1 Projects.md",
+    "_templates/para/📁 advanced",
+    "_templates/para/📁 full",
+    "_templates/para/📁 quick",
+    "_templates/_templates.md",
+    "备份/20260128_para_模板清理/🗂️ Resource Template.md",
+    "备份/20260128_para_模板清理/🗂️ Resource Note Template.md",
+    "备份/20260128_para_模板清理/🎯 Project Template.md",
+    "备份/20260128_para_模板清理/🎯 Project Note Template.md",
+    "备份/20260128_para_模板清理/🌳 Area Template.md",
+    "备份/20260128_para_模板清理/🌳 Area Note Template.md",
+    "备份/20260128_para_模板清理/资源_繁體.md",
+    "备份/20260128_para_模板清理/项目_繁體.md",
+    "备份/20260128_para_模板清理/领域_繁體.md",
+    "备份/20260128_para_模板清理/领域.md",
+    "备份/20260128_para_模板清理",
+    "备份/20260128_templates/_templates/fleeting",
+    "备份/20260128_templates/_templates/para",
+    "备份/20260128_templates/_templates/general",
+    "备份/20260128_templates/_templates/report",
+    "备份/20260128_templates/_templates",
+    "备份/20260128_templates"
   ]
 }

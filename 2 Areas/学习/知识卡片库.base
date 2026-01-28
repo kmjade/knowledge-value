@@ -1,0 +1,142 @@
+---
+name: 知识卡片库
+description: 管理所有知识卡片（概念、观点、方法、案例）
+---
+
+# 知识卡片库
+
+> 概述：用于管理和浏览所有知识卡片，支持按类型、领域、重要性进行筛选和分组
+
+---
+
+filters:
+  and:
+    - file.hasTag("知识卡片", "concept", "method", "case")
+
+formulas:
+  card_type_icon: 'if(type == "concept", "💡", if(type == "method", "🛠️", if(type == "case", "📚", "📝")))'
+  importance_level: 'if(importance >= 5, "⭐⭐⭐⭐⭐", if(importance >= 4, "⭐⭐⭐⭐", if(importance >= 3, "⭐⭐⭐", if(importance >= 2, "⭐⭐", "⭐"))))'
+  review_status: 'if(file.mtime < now() - "30d", "🔄 需回顾", "✅ 已维护")'
+  domain_path: 'if(domain, "[" + domain + "]", "")'
+
+properties:
+  type:
+    displayName: 类型
+  domain:
+    displayName: 领域
+  importance:
+    displayName: 重要性
+  difficulty:
+    displayName: 难度
+  status:
+    displayName: 状态
+  links_count:
+    displayName: 关联数
+  file.tags:
+    displayName: 标签
+  file.mtime:
+    displayName: 最后更新
+  file.ctime:
+    displayName: 创建日期
+  formula.card_type_icon:
+    displayName: ""
+  formula.importance_level:
+    displayName: 重要性
+  formula.review_status:
+    displayName: 回顾状态
+  formula.domain_path:
+    displayName: 领域
+
+summaries:
+  total_cards:
+    display: 卡片总数
+    formula: 'values.length'
+  by_type:
+    display: 按类型统计
+    groupBy: type
+  high_importance:
+    display: 高重要性
+    formula: 'values.filter(importance >= 4).length'
+  needs_review:
+    display: 需回顾
+    formula: 'values.filter(file.mtime < now() - "30d").length'
+
+views:
+  - type: cards
+    name: 所有卡片
+    order:
+      - formula.importance_level
+      - file.mtime
+      - file.name
+
+  - type: table
+    name: 概念卡片
+    filters:
+      and:
+        - type == "concept"
+    order:
+      - importance
+      - file.mtime
+      - file.name
+
+  - type: table
+    name: 方法卡片
+    filters:
+      and:
+        - type == "method"
+    order:
+      - importance
+      - file.mtime
+      - file.name
+
+  - type: table
+    name: 案例卡片
+    filters:
+      and:
+        - type == "case"
+    order:
+      - importance
+      - file.mtime
+      - file.name
+
+  - type: cards
+    name: 高重要性卡片
+    filters:
+      and:
+        - importance >= 4
+    order:
+      - importance
+      - file.mtime
+
+  - type: table
+    name: 需要回顾
+    filters:
+      and:
+        - file.mtime < now() - "30d"
+    order:
+      - file.mtime
+      - importance
+
+  - type: table
+    name: 按领域分组
+    groupBy:
+      property: domain
+      direction: ASC
+    order:
+      - importance
+      - file.mtime
+
+  - type: list
+    name: 按标签浏览
+    groupBy:
+      property: file.tags
+      direction: ASC
+    order:
+      - file.name
+
+  - type: table
+    name: 最近创建
+    order:
+      - file.ctime
+      - file.name
+    limit: 20

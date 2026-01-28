@@ -331,7 +331,7 @@ AI 会：
 3. 配置智谱 AI
 4. 测试基本功能
 
-**参考**: [[1 Projects/Claudian/Claudian 系统搭建指南.md]]
+**参考**: [[Claudian 系统搭建指南]]
 
 ### 阶段二：熟悉使用（1 周）
 
@@ -447,10 +447,10 @@ AI 会：
 ### 新手三步走
 
 1. **搭建系统**
-   → [[1 Projects/Claudian/Claudian 系统搭建指南.md]]
+   → [[Claudian 系统搭建指南]]
 
 2. **配置 AI**
-   → [[1 Projects/Claudian/智谱 AI 配置实战.md]]
+   → [[智谱 AI 配置实战]]
 
 3. **开始使用**
    → 输入 `/obsidian 你好，帮我整理这篇笔记`
@@ -459,7 +459,7 @@ AI 会：
 
 ## 相关主题
 
-- [[1 Projects/Claudian/Claudian 系统搭建指南.md]] - 详细安装教程
+- [[Claudian 系统搭建指南]] - 详细安装教程
 - [[2 Areas/Claudian/Claudian 技能系统.md]] - 技能包详解
 - [[2 Areas/Claudian/Claudian MCP 服务器.md]] - 扩展能力说明
 - [[AI 时代知识管理思维]] - 理念深入

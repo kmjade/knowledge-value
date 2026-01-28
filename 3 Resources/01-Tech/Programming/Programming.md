@@ -1,7 +1,15 @@
 ---
 title: Tech - Programming
-tags: #resource/tech
-interest-level:
+aliases:
+  - 程式設計
+  - Programming
+tags:
+  - resource/tech
+  - programming
+interest-level: 4
+created: 2026-01-25
+para: resources
+language: zh-tw
 ---
 
 # Programming 程式設計

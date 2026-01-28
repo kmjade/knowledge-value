@@ -1,5 +1,8 @@
 [
   "dataview",
   "folder-notes",
-  "claudian"
+  "claudian",
+  "templater-obsidian",
+  "obsidian-tasks-plugin",
+  "quickadd"
 ]

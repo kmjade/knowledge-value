@@ -508,7 +508,7 @@ description: 总结当前笔记的核心观点
 
 - [[2 Areas/Claudian/Claudian 技能系统.md]] - 复杂任务用技能
 - [[2 Areas/PARA/PARA 工作流.md]] - PARA 方法论详解
-- [[1 Projects/Claudian/Claudian 系统搭建指南.md]] - 系统配置
+- [[Claudian 系统搭建指南]] - 系统配置
 
 ---
 

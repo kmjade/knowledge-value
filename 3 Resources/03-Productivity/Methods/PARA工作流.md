@@ -935,10 +935,10 @@ const priority = await select("優先權", ["high", "medium", "low"]);
 ### 相關筆記
 - [[PARA指南]]
 - [[PARA歸檔結構]]
-- [[Project]]
-- [[Area]]
-- [[Resource]]
-- [[Archive]]
+- [[_templates/para/📁 quick/Project]]
+- [[_templates/para/📁 quick/Area]]
+- [[_templates/para/📁 quick/Resource]]
+- [[_templates/para/📁 quick/Archive]]
 
 ---
 

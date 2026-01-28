@@ -10,7 +10,8 @@ language: zh-cn
 ![License](https://img.shields.io/badge/License-Apache--2.0-FF6B6B?style=for-the-badge)
 
  [English](README.md) | [[README_zh-CN|简体中文]] | [[README_zh-TW| 繁体中文]]
-
+ 
+---
 ## 概述
 
 > PARA 是由 [Tiago Forte](https://fortelabs.co/) 提出的生产力方法论，用于组织个人知识和任务。
