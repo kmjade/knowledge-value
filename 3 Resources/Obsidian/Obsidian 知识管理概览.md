@@ -69,6 +69,31 @@ aliases: []
 - **定期回顾**：每月检视模板使用情况，更新 `standard_note.md` 或添加新模板。
 - **版本控制**：所有模板与关键笔记均在 Git 中，使用 Conventional Commits 记录更改。
 
+## ⚙️ 进阶插件配置
+
+| 插件 | 进阶功能 | 推荐设置 |
+|------|----------|----------|
+| **QuickAdd** | 多步骤捕获、自动标签 | 在 `quickAdd` 中启用 “Append link” 与 “Open file” 选项 |
+| **Templater** | JavaScript 脚本、条件渲染 | 在模板中使用 `tp.user` 辅助函数 |
+| **Dataview** | 查询跨 folder、聚合 | 使用 `GROUP BY` 与 `FLATTEN` 进行统计 |
+| **Tasks** | 自动重复、过滤视图 | 在 `tasks` 中使用 `filter` 表达式 |
+| **Obsidian AI** | 自定义系统提示 | 在插件设置中添加 `systemPrompt` 来统一风格 |
+
+## 💡 实践技巧
+
+- **统一标签**：所有知识管理相关笔记统一使用 `#knowledge-management`，并在子标签如 `#km/project`、`#km/area` 中细分。
+- **双向链接策略**：在项目笔记的末尾添加 `[[相关资源]]`，资源笔记中添加 `[[所属项目]]`，形成闭环。
+- **模板快捷键**：为常用模板绑定快捷键（Settings → Hotkeys），提升捕获速度。
+- **自动归档脚本**：使用 Templater 或 QuickAdd 编写脚本，将符合 `status = "completed"` 且 `updated` 超过 30 天的笔记移动至 `4 Archives`。
+- **版本快照**：定期在 `0 Inbox` 中创建 “每日回顾” 笔记，使用 `{{date}}-Daily Review` 命名，记录当天的关键决策。
+
+## 📚 参考资源
+
+- [[Obsidian 官方文档]]
+- [[Dataview 官方手册]]
+- [[QuickAdd 社区指南]]
+- [[Templater 高级教程]]
+
 ---
 
 > 🛎️ **提示**：将此页固定在侧边栏，作为日常参考手册。
