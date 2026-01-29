@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0 Inbox/Inbox Dashboard.md",
+                "file": "2 Areas/Digital Organization/Digital Organization Index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Inbox Dashboard"
+              "title": "Digital Organization Index"
             }
           },
           {
@@ -47,12 +47,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2 Areas/2 Areas.md",
+                "file": "2 Areas/Digital Organization/01 Tools/01 Tools.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2 Areas"
+              "title": "01 Tools"
             }
           }
         ]
@@ -188,13 +188,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2 Areas/2 Areas.md",
+                "file": "2 Areas/Digital Organization/Digital Organization Index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2 Areas 的大綱"
+              "title": "Digital Organization Index 的大綱"
             }
           },
           {
@@ -227,13 +227,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "460a9e42de521b6a",
+  "active": "de06f48ddccdbeaa",
   "lastOpenFiles": [
+    "2 Areas/Digital Organization/01 Tools/Obsidian Tools.md",
+    "2 Areas/Digital Organization/01 Tools/Obsidian Tools",
+    "0 Inbox/Inbox Dashboard.md",
+    "2 Areas/Digital Organization/01 Tools/01 Tools.md",
+    "2 Areas/Digital Organization/Digital Organization Index.md",
+    "2 Areas/2 Areas.md",
     "2 Areas/Digital Organization/04 Automation.md",
     "2 Areas/Digital Organization/03 Knowledge Base.md",
     "2 Areas/Digital Organization/02 Workflows.md",
-    "2 Areas/Digital Organization/01 Tools.md",
-    "2 Areas/Digital Organization/Digital Organization Index.md",
     "Archives",
     "Templates",
     "2 Areas/Digital Organization/04 Automation",
@@ -249,7 +253,6 @@
     "0 Inbox/0 Inbox.md",
     "_meta/🔗 知识关联/Dashboard/Dashboard.md",
     "_meta/_meta.md",
-    "0 Inbox/Inbox Dashboard.md",
     "4 Archives/Automating PARA in Obsidian 请用英文、简体和繁体回复.md",
     "4 Archives/obsidian 搭建AI员工.md",
     "0 Inbox/quickadd PARA 内嵌脚本.md",
@@ -261,9 +264,6 @@
     "1 Projects/01-Learning/obsidian知识库/obsidian知识库.md",
     "1 Projects/01-Learning/阅读分析拆解工作流.md",
     "1 Projects/01-Learning/阅读分析拆解工作流项目.md",
-    "1 Projects/01-Learning/Obsidian學習計劃.md",
-    "1 Projects/01-Learning/阅读追踪库.base",
-    "1 Projects/01-Learning/PARA 學習計畫.md",
-    "1 Projects/📁 已完成/PARA-索引文件優化報告.md"
+    "1 Projects/01-Learning/Obsidian學習計劃.md"
   ]
 }
