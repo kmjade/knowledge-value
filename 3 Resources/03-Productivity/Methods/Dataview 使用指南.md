@@ -470,7 +470,7 @@ SORT archived DESC
 - [Obsidian 中文社群](https://forum-zh.obsidian.md/c/obsidian/7)
 
 ### 相關外掛
-- [[3 Resources/03-Productivity/Tools/DataviewJS 外掛]]
+- [[DataviewJS 外掛]]
 - [[3 Resources/03-Productivity/Methods/前端數據可視化]]
 
 ---

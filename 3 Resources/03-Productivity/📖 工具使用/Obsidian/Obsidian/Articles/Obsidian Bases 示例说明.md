@@ -208,7 +208,7 @@ filters:
 
 - [[0 Inbox/阅读分析拆解工作流.md]] - 阅读工作流文档
 - [[2 Areas/05-Learning/PARA方法论-知识卡片.md]] - PARA 方法论
-- [[3 Resources/Obsidian/Obsidian.md]] - Obsidian 使用指南
+- [[Obsidian]] - Obsidian 使用指南
 
 ---
 

@@ -515,7 +515,7 @@ cutoffDate.setDate(cutoffDate.getDate() - daysOld);
 - [[3 Resources/03-Productivity/Methods/Getting Things Done]] (待創建)
 
 ### 工具
-- [[3 Resources/03-Productivity/Tools/Obsidian 外掛精選]]
+- [[Obsidian 外掛精選]]
 - [[3 Resources/03-Productivity/Methods/時間管理]]
 
 ### 參考
