@@ -1,8 +1,77 @@
 {
-  "choices": [],
-  "inputPrompt": "single-line",
+  "choices": [
+    {
+      "id": "ad9935c6-bde5-49e8-93af-426c1678e815",
+      "name": "快速捕获",
+      "type": "Multi",
+      "command": false,
+      "choices": [],
+      "collapsed": true
+    },
+    {
+      "id": "77096c43-00bc-48cb-b265-02e91f9873ab",
+      "name": "网页快速",
+      "type": "Template",
+      "command": false,
+      "templatePath": "_templates/fleeting/_template-网页快速.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "{{date}}-{{VALUE:主题}}"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "0 Inbox"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFile": false,
+      "fileOpening": {
+        "location": "tab",
+        "direction": "vertical",
+        "mode": "default",
+        "focus": true
+      },
+    "fileExistsMode": "Increment the file name",
+    "setFileExistsBehavior": false
+  },
+  {
+    "id": "quick-note-001",
+    "name": "快速笔记",
+    "type": "Template",
+    "command": false,
+    "templatePath": "_templates/fleeting/_template-快速笔记.md",
+    "fileNameFormat": {
+      "enabled": true,
+      "format": "{{date}}-{{VALUE:标题}}"
+    },
+    "folder": {
+      "enabled": true,
+      "folders": [
+        "0 Inbox"
+      ],
+      "chooseWhenCreatingNote": false,
+      "createInSameFolderAsActiveFile": false,
+      "chooseFromSubfolders": false
+    },
+    "appendLink": false,
+    "openFile": false,
+    "fileOpening": {
+      "location": "tab",
+      "direction": "vertical",
+      "mode": "default",
+      "focus": true
+    },
+    "fileExistsMode": "Increment the file name",
+    "setFileExistsBehavior": false
+  }
+],
+  "inputPrompt": "multi-line",
   "devMode": false,
-  "templateFolderPath": "",
+  "templateFolderPath": "_templates",
   "announceUpdates": true,
   "version": "2.9.4",
   "disableOnlineFeatures": true,
