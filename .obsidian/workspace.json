@@ -13,26 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3 Resources/03-Productivity/Methods/Inbox 工作流.md",
+                "file": "3 Resources/Obsidian/Obsidian.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Inbox 工作流"
-            }
-          },
-          {
-            "id": "da83bc1b51e4cfa0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_templates/general/資源收集_繁體.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "資源收集_繁體"
+              "title": "Obsidian"
             }
           },
           {
@@ -41,16 +27,35 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 Projects/03-Personal/Journal/2026/01-January/2026-01-28.md",
+                "file": "0 Inbox/2026-01-29-本地开发闭环了  Ollama-GLM-Claude Code.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-01-28"
+              "title": "2026-01-29-本地开发闭环了  Ollama-GLM-Claude Code"
             }
           }
-        ],
-        "currentTab": 1
+        ]
+      },
+      {
+        "id": "8a0ddd0a930e659f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f5e9f11f5517f425",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "0 Inbox/obsidian 知识管理.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "obsidian 知识管理"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -183,13 +188,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_templates/general/資源收集_繁體.md",
+                "file": "0 Inbox/obsidian 知识管理.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "資源收集_繁體 的大綱"
+              "title": "obsidian 知识管理 的大綱"
             }
           },
           {
@@ -207,7 +212,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 415.5
+    "width": 378.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -222,43 +227,43 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "da83bc1b51e4cfa0",
+  "active": "f5e9f11f5517f425",
   "lastOpenFiles": [
-    "_templates/general/资源收集.md",
-    "_templates/general/想法捕獲_繁體.md",
-    "_templates/general/想法捕获.md",
-    "_templates/general/快速捕获工作流设置指南.md",
-    "_templates/para/📁 full/_template-project.md",
-    "_templates/general/Ultra Quick Capture.md",
+    "3 Resources/Obsidian/知识管理仪表板.md",
+    "_templates/fleeting/_template-快速笔记.md",
+    "3 Resources/Obsidian/Obsidian 知识管理概览.md",
+    "_templates/standard_note.md",
     "0 Inbox/Inbox Dashboard.md",
-    "1 Projects/03-Personal/Journal/2026/01-January/2026-01-28.md",
-    "耳穴知识库-优化报告.md",
-    "3 Resources/计算机网络/OpenCode+Ollama集成指南/閃念：如何在OpenCode中使用本地大模型（繁體中文）.md",
-    "3 Resources/计算机网络/OpenCode+Ollama集成指南/闪念：如何在OpenCode中使用本地大模型.md",
-    "5 Zettels/📌 permanent/20250125-0002 光貓密碼解密技術.md",
-    "3 Resources/03-Productivity/Methods/Inbox 工作流.md",
-    "0 Inbox/0 Inbox.md",
-    "5 Zettels/📌 permanent/20260128-0003 凱撒密碼基礎.md",
-    "_templates/para/TEMPLATER_GUIDE.md",
-    "5 Zettels/📌 permanent/20250125-0003 電信光貓配置頁面訪問.md",
-    "5 Zettels/📌 permanent/20250125-0004 網絡服務商內網現狀.md",
-    "5 Zettels/📚 literature/concept/20260125-企业AI采购决策框架.md",
-    "5 Zettels/5 Zettels.md",
-    "1 Projects/03-Personal/Core/📌 Zettelkasten 原子化标准摘要.md",
-    "1 Projects/03-Personal/Core/📖 [渐进] 如何远程管理二级路由器.md",
-    "1 Projects/03-Personal/Core/📖 [渐进] Google Gemini 模型概览.md",
-    "1 Projects/03-Personal/Core/📰 AI新闻-Apple选择Google而非OpenAI.md",
-    "1 Projects/03-Personal/Core/传统界面路由器-如何远程管理二级路由器？.md",
-    "1 Projects/03-Personal/Core/宽带突然变卡、被限速，前运营商员工教你怎么办！.md",
-    "_templates/para/📁 advanced",
-    "_templates/para/📁 full",
-    "_templates/para/📁 quick",
-    "备份/20260128_para_模板清理",
-    "备份/20260128_templates/_templates/fleeting",
-    "备份/20260128_templates/_templates/para",
-    "备份/20260128_templates/_templates/general",
-    "备份/20260128_templates/_templates/report",
-    "备份/20260128_templates/_templates",
-    "备份/20260128_templates"
+    "3 Resources/Obsidian/Obsidian.md",
+    "0 Inbox/obsidian 知识管理.md",
+    "0 Inbox/obsidian 搭建AI员工.md",
+    "0 Inbox/quickadd PARA 内嵌脚本.md",
+    "0 Inbox/如何搭建AI 员工.md",
+    "0 Inbox/你是笔记专家，以  📓 少記·分層·AI 輔助  为主题，创建一个实例，升成的文章先放进  0 Personals-📥 00_InBox 。使用PARA架构对这些文章进行分类管理。并创建学习资料和管理手册。使用简体、繁体和英文回复.md",
+    "0 Inbox/跟据 耳夹疗法 创建养生馆项目 商铺有27平方 二层带地下室 按日式风格简单装修 房租5000月 请一个员工 3000月.md",
+    "0 Inbox/📥 00_InBox.md 优化，使用英文、简体和繁体回复.md",
+    "3 Resources/02-Learning/📚 学习资源/n8n 與 Obsidian 集成指南.md",
+    "3 Resources/02-Learning/易经知识库/学习资源/书籍推荐.md",
+    "3 Resources/02-Learning/易经知识库/六十四卦/乾卦.md",
+    "3 Resources/02-Learning/易经知识库/六十四卦/坤卦.md",
+    "3 Resources/02-Learning/易经知识库/六十四卦/既济卦.md",
+    "3 Resources/02-Learning/易经知识库/易经知识库.md",
+    "3 Resources/3 Resources.md",
+    "3 Resources/Ollama/自动化脚本示例.md",
+    "3 Resources/Obsidian-耳穴疗法知识库",
+    "3 Resources/PARA方法论/Implement PARA in Obsidian/Implement PARA in Obsidian.md",
+    "3 Resources/PARA方法论/用 Claude Code 开发了一个Claude Code.md",
+    "3 Resources/PARA方法论/使用 Skills 按需动态加载，解决 CLAUDE.md 上下文太长，token 消耗问题.md",
+    "3 Resources/PARA方法论/PARA知识管理.md",
+    "3 Resources/PARA方法论/Implement PARA in Obsidian",
+    "3 Resources/PARA方法论",
+    "3 Resources/健康知识体系/根据  耳夹疗法 PARA 创建养生馆项目.md",
+    "3 Resources/健康知识体系",
+    "3 Resources/学习技巧/知识管理",
+    "3 Resources/学习技巧/学习方法",
+    "3 Resources/学习技巧",
+    "3 Resources/写作技巧",
+    "para_.patch",
+    "3 Resources/耳穴診斷知識庫/03-臨床應用"
   ]
 }
