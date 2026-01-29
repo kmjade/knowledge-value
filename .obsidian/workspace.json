@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3 Resources/Obsidian/Obsidian.md",
+                "file": "3 Resources/03-Productivity/📖 工具使用/Obsidian/Obsidian/Obsidian.md",
                 "mode": "source",
                 "source": false
               },
@@ -47,12 +47,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0 Inbox/obsidian 知识管理.md",
+                "file": "3 Resources/03-Productivity/📖 工具使用/Obsidian/Obsidian/Obsidian.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "obsidian 知识管理"
+              "title": "Obsidian"
             }
           }
         ]
@@ -188,13 +188,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "0 Inbox/obsidian 知识管理.md",
+                "file": "3 Resources/03-Productivity/📖 工具使用/Obsidian/Obsidian/Obsidian.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "obsidian 知识管理 的大綱"
+              "title": "Obsidian 的大綱"
             }
           },
           {
@@ -227,43 +227,43 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "f5e9f11f5517f425",
+  "active": "460a9e42de521b6a",
   "lastOpenFiles": [
-    "3 Resources/Obsidian/知识管理仪表板.md",
-    "_templates/fleeting/_template-快速笔记.md",
-    "3 Resources/Obsidian/Obsidian 知识管理概览.md",
-    "_templates/standard_note.md",
-    "0 Inbox/Inbox Dashboard.md",
-    "3 Resources/Obsidian/Obsidian.md",
-    "0 Inbox/obsidian 知识管理.md",
-    "0 Inbox/obsidian 搭建AI员工.md",
-    "0 Inbox/quickadd PARA 内嵌脚本.md",
-    "0 Inbox/如何搭建AI 员工.md",
-    "0 Inbox/你是笔记专家，以  📓 少記·分層·AI 輔助  为主题，创建一个实例，升成的文章先放进  0 Personals-📥 00_InBox 。使用PARA架构对这些文章进行分类管理。并创建学习资料和管理手册。使用简体、繁体和英文回复.md",
-    "0 Inbox/跟据 耳夹疗法 创建养生馆项目 商铺有27平方 二层带地下室 按日式风格简单装修 房租5000月 请一个员工 3000月.md",
-    "0 Inbox/📥 00_InBox.md 优化，使用英文、简体和繁体回复.md",
-    "3 Resources/02-Learning/📚 学习资源/n8n 與 Obsidian 集成指南.md",
-    "3 Resources/02-Learning/易经知识库/学习资源/书籍推荐.md",
-    "3 Resources/02-Learning/易经知识库/六十四卦/乾卦.md",
-    "3 Resources/02-Learning/易经知识库/六十四卦/坤卦.md",
-    "3 Resources/02-Learning/易经知识库/六十四卦/既济卦.md",
-    "3 Resources/02-Learning/易经知识库/易经知识库.md",
-    "3 Resources/3 Resources.md",
-    "3 Resources/Ollama/自动化脚本示例.md",
-    "3 Resources/Obsidian-耳穴疗法知识库",
-    "3 Resources/PARA方法论/Implement PARA in Obsidian/Implement PARA in Obsidian.md",
-    "3 Resources/PARA方法论/用 Claude Code 开发了一个Claude Code.md",
-    "3 Resources/PARA方法论/使用 Skills 按需动态加载，解决 CLAUDE.md 上下文太长，token 消耗问题.md",
-    "3 Resources/PARA方法论/PARA知识管理.md",
-    "3 Resources/PARA方法论/Implement PARA in Obsidian",
-    "3 Resources/PARA方法论",
-    "3 Resources/健康知识体系/根据  耳夹疗法 PARA 创建养生馆项目.md",
-    "3 Resources/健康知识体系",
-    "3 Resources/学习技巧/知识管理",
-    "3 Resources/学习技巧/学习方法",
-    "3 Resources/学习技巧",
-    "3 Resources/写作技巧",
-    "para_.patch",
-    "3 Resources/耳穴診斷知識庫/03-臨床應用"
+    "4 Archives/医学/医学/耳穴診斷知識庫/03-臨床應用/心血管疾病耳穴診斷.md",
+    "4 Archives/医学/医学/耳穴診斷知識庫/02-耳穴診斷方法/耳穴觸診技術.md",
+    "4 Archives/医学/医学/耳穴診斷知識庫/02-耳穴診斷方法/耳穴聞診方法.md",
+    "4 Archives/医学/医学/耳穴診斷知識庫/02-耳穴診斷方法/耳穴望診技術.md",
+    "4 Archives/医学/医学/耳穴診斷知識庫/02-耳穴診斷方法/耳穴問診技巧.md",
+    "4 Archives/医学/医学/耳穴診斷知識庫/01-基礎知識/耳穴診斷概論.md",
+    "4 Archives/医学/医学/耳穴疗法知识库/10-日记/2026-01-21.md",
+    "4 Archives/医学/医学/耳穴疗法知识库/08-模板/治疗方案模板.md",
+    "4 Archives/医学/医学/耳穴疗法知识库/08-模板/MOC模板.md",
+    "4 Archives/医学/医学/耳穴疗法知识库/07-实践指南/标签系统使用指南.md",
+    "4 Archives/医学/医学/耳穴疗法知识库/06-研究文献/文献索引目录.md",
+    "4 Archives/医学/医学/耳穴疗法知识库/05-安全性/安全操作规范.md",
+    "4 Archives/医学/医学/耳穴疗法知识库/04-临床应用/疾病治疗指南.md",
+    "4 Archives/医学/医学/耳穴疗法知识库/04-临床应用/失眠症耳穴治疗方案.md",
+    "4 Archives/医学/医学/耳穴疗法知识库/03-刺激方法/王不留行籽贴压技术.md",
+    "4 Archives/医学/医学/耳穴疗法知识库/03-刺激方法/刺激技术操作.md",
+    "4 Archives/医学/医学/耳穴疗法知识库/02-耳穴定位/标准耳穴定位.md",
+    "4 Archives/医学/医学/耳穴疗法知识库/01-基础知识/耳穴疗法概述.md",
+    "4 Archives/医学/医学/耳穴疗法知识库/01-基础知识/耳穴疗法历史发展.md",
+    "4 Archives/医学/医学/耳穴疗法知识库/01-基础知识/定义与原理.md",
+    "4 Archives/医学/医学/耳穴疗法知识库/00-MOCs/MOC-耳穴定位.md",
+    "4 Archives/医学/医学/耳穴疗法知识库/00-MOCs/MOC-基础知识.md",
+    "4 Archives/医学/医学/耳穴疗法知识库/00-MOCs/MOC-临床应用.md",
+    "4 Archives/医学/医学/耳穴知识库/耳穴图谱/耳垂区.md",
+    "4 Archives/医学/医学/耳穴知识库/理论基础/耳穴历史起源.md",
+    "4 Archives/医学/医学/耳穴知识库/理论基础/全息胚理论.md",
+    "4 Archives/医学/医学/耳穴診斷知識庫/03-臨床應用",
+    "4 Archives/医学/医学/耳穴診斷知識庫/02-耳穴診斷方法",
+    "4 Archives/医学/医学/耳穴診斷知識庫/01-基礎知識",
+    "4 Archives/医学/医学/耳穴疗法知识库/10-日记",
+    "4 Archives/医学/医学/耳穴疗法知识库/08-模板",
+    "4 Archives/医学/医学/耳穴疗法知识库/07-实践指南",
+    "4 Archives/医学/医学/耳穴疗法知识库/06-研究文献",
+    "4 Archives/医学/医学/耳穴疗法知识库/05-安全性",
+    "4 Archives/医学/医学/耳穴疗法知识库/04-临床应用",
+    "4 Archives/医学/医学/耳穴疗法知识库/03-刺激方法"
   ]
 }
