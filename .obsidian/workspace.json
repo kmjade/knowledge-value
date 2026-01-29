@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3 Resources/03-Productivity/📖 工具使用/Obsidian/Obsidian/Obsidian.md",
+                "file": "0 Inbox/Inbox Dashboard.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Obsidian"
+              "title": "Inbox Dashboard"
             }
           },
           {
@@ -47,12 +47,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3 Resources/03-Productivity/📖 工具使用/Obsidian/Obsidian/Obsidian.md",
+                "file": "2 Areas/2 Areas.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Obsidian"
+              "title": "2 Areas"
             }
           }
         ]
@@ -188,13 +188,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3 Resources/03-Productivity/📖 工具使用/Obsidian/Obsidian/Obsidian.md",
+                "file": "2 Areas/2 Areas.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Obsidian 的大綱"
+              "title": "2 Areas 的大綱"
             }
           },
           {
@@ -229,41 +229,41 @@
   },
   "active": "460a9e42de521b6a",
   "lastOpenFiles": [
-    "4 Archives/医学/医学/耳穴診斷知識庫/03-臨床應用/心血管疾病耳穴診斷.md",
-    "4 Archives/医学/医学/耳穴診斷知識庫/02-耳穴診斷方法/耳穴觸診技術.md",
-    "4 Archives/医学/医学/耳穴診斷知識庫/02-耳穴診斷方法/耳穴聞診方法.md",
-    "4 Archives/医学/医学/耳穴診斷知識庫/02-耳穴診斷方法/耳穴望診技術.md",
-    "4 Archives/医学/医学/耳穴診斷知識庫/02-耳穴診斷方法/耳穴問診技巧.md",
-    "4 Archives/医学/医学/耳穴診斷知識庫/01-基礎知識/耳穴診斷概論.md",
-    "4 Archives/医学/医学/耳穴疗法知识库/10-日记/2026-01-21.md",
-    "4 Archives/医学/医学/耳穴疗法知识库/08-模板/治疗方案模板.md",
-    "4 Archives/医学/医学/耳穴疗法知识库/08-模板/MOC模板.md",
-    "4 Archives/医学/医学/耳穴疗法知识库/07-实践指南/标签系统使用指南.md",
-    "4 Archives/医学/医学/耳穴疗法知识库/06-研究文献/文献索引目录.md",
-    "4 Archives/医学/医学/耳穴疗法知识库/05-安全性/安全操作规范.md",
-    "4 Archives/医学/医学/耳穴疗法知识库/04-临床应用/疾病治疗指南.md",
-    "4 Archives/医学/医学/耳穴疗法知识库/04-临床应用/失眠症耳穴治疗方案.md",
-    "4 Archives/医学/医学/耳穴疗法知识库/03-刺激方法/王不留行籽贴压技术.md",
-    "4 Archives/医学/医学/耳穴疗法知识库/03-刺激方法/刺激技术操作.md",
-    "4 Archives/医学/医学/耳穴疗法知识库/02-耳穴定位/标准耳穴定位.md",
-    "4 Archives/医学/医学/耳穴疗法知识库/01-基础知识/耳穴疗法概述.md",
-    "4 Archives/医学/医学/耳穴疗法知识库/01-基础知识/耳穴疗法历史发展.md",
-    "4 Archives/医学/医学/耳穴疗法知识库/01-基础知识/定义与原理.md",
-    "4 Archives/医学/医学/耳穴疗法知识库/00-MOCs/MOC-耳穴定位.md",
-    "4 Archives/医学/医学/耳穴疗法知识库/00-MOCs/MOC-基础知识.md",
-    "4 Archives/医学/医学/耳穴疗法知识库/00-MOCs/MOC-临床应用.md",
-    "4 Archives/医学/医学/耳穴知识库/耳穴图谱/耳垂区.md",
-    "4 Archives/医学/医学/耳穴知识库/理论基础/耳穴历史起源.md",
-    "4 Archives/医学/医学/耳穴知识库/理论基础/全息胚理论.md",
-    "4 Archives/医学/医学/耳穴診斷知識庫/03-臨床應用",
-    "4 Archives/医学/医学/耳穴診斷知識庫/02-耳穴診斷方法",
-    "4 Archives/医学/医学/耳穴診斷知識庫/01-基礎知識",
-    "4 Archives/医学/医学/耳穴疗法知识库/10-日记",
-    "4 Archives/医学/医学/耳穴疗法知识库/08-模板",
-    "4 Archives/医学/医学/耳穴疗法知识库/07-实践指南",
-    "4 Archives/医学/医学/耳穴疗法知识库/06-研究文献",
-    "4 Archives/医学/医学/耳穴疗法知识库/05-安全性",
-    "4 Archives/医学/医学/耳穴疗法知识库/04-临床应用",
-    "4 Archives/医学/医学/耳穴疗法知识库/03-刺激方法"
+    "2 Areas/Digital Organization/04 Automation.md",
+    "2 Areas/Digital Organization/03 Knowledge Base.md",
+    "2 Areas/Digital Organization/02 Workflows.md",
+    "2 Areas/Digital Organization/01 Tools.md",
+    "2 Areas/Digital Organization/Digital Organization Index.md",
+    "Archives",
+    "Templates",
+    "2 Areas/Digital Organization/04 Automation",
+    "2 Areas/Digital Organization/03 Knowledge Base",
+    "2 Areas/Digital Organization/02 Workflows",
+    "2 Areas/Digital Organization/01 Tools",
+    "2 Areas/Digital Organization/0 Inbox",
+    "2 Areas/Digital Organization",
+    "2 Areas/ai-knowledge",
+    "2 Areas/AI 知识库.md",
+    "4 Archives/2026/📥 00_InBox.md 优化，使用英文、简体和繁体回复.md",
+    "2 Areas/ai-knowledge/ai-knowledge.md",
+    "0 Inbox/0 Inbox.md",
+    "_meta/🔗 知识关联/Dashboard/Dashboard.md",
+    "_meta/_meta.md",
+    "0 Inbox/Inbox Dashboard.md",
+    "4 Archives/Automating PARA in Obsidian 请用英文、简体和繁体回复.md",
+    "4 Archives/obsidian 搭建AI员工.md",
+    "0 Inbox/quickadd PARA 内嵌脚本.md",
+    "0 Inbox/2026-01-30-Obsidian知识管理：从零到一构建个人第二大脑的完整实践.md",
+    "2 Areas/Claudian/Claudian MCP 服务器.md",
+    "2 Areas/Claudian/Claudian 命令体系.md",
+    "2 Areas/Claudian/Claudian 技能系统.md",
+    "1 Projects/02-Work/建立知識庫.md",
+    "1 Projects/01-Learning/obsidian知识库/obsidian知识库.md",
+    "1 Projects/01-Learning/阅读分析拆解工作流.md",
+    "1 Projects/01-Learning/阅读分析拆解工作流项目.md",
+    "1 Projects/01-Learning/Obsidian學習計劃.md",
+    "1 Projects/01-Learning/阅读追踪库.base",
+    "1 Projects/01-Learning/PARA 學習計畫.md",
+    "1 Projects/📁 已完成/PARA-索引文件優化報告.md"
   ]
 }
