@@ -142,9 +142,9 @@ claude --version
 
 ## 相关主题
 
-- [[2 Areas/Claudian/Claudian 技能系统.md]] - 了解技能包机制
-- [[2 Areas/Claudian/Claudian MCP 服务器.md]] - 了解 MCP 服务器
-- [[2 Areas/Claudian/Claudian 命令体系.md]] - 了解命令系统
+- [[Claudian 技能系统]] - 了解技能包机制
+- [[Claudian MCP 服务器]] - 了解 MCP 服务器
+- [[Claudian 命令体系]] - 了解命令系统
 - [[3 Resources/Claudian/Obsidian + Claudian 集成方案.md]] - 了解整体架构
 
 ## 故障排除

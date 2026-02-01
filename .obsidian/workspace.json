@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3 Resources/Obsidian知识管理：从零到一构建个人第二大脑的完整实践.md",
+                "file": "2 Areas/2 Areas.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Obsidian知识管理：从零到一构建个人第二大脑的完整实践"
+              "title": "2 Areas"
             }
           },
           {
@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3 Resources/01-Tech/🧠 AI/Ollama + Clawdbot 免费本地 AI 智能体.md",
+                "file": "3 Resources/01-Tech/🧠 AI/🔧 技术/Ollama + Clawdbot 免费本地 AI 智能体.md",
                 "mode": "source",
                 "source": false
               },
@@ -36,6 +36,65 @@
             }
           }
         ]
+      },
+      {
+        "id": "15053ff6e4f9614b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ee21e7466a45be25",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2 Areas/02-Career/Digital Organization/2026-01-31-知识管理-Obsidian实践目录.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2026-01-31-知识管理-Obsidian实践目录"
+            }
+          },
+          {
+            "id": "ce1b660030059e96",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "5 Zettels/5 Zettels.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "5 Zettels"
+            }
+          },
+          {
+            "id": "fd00d8e82f37602e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3 Resources/01-Tech/Programming/Python/01-基础入门/Python安装与环境配置.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Python安装与环境配置"
+            }
+          }
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -92,7 +151,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 302.5
+    "width": 391.5
   },
   "right": {
     "id": "19cea027a20285b0",
@@ -207,43 +266,43 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "2b98e92261db29c7",
+  "active": "fd00d8e82f37602e",
   "lastOpenFiles": [
-    "1 Projects/Python学习项目.md",
-    "2 Areas/Python开发领域.md",
-    "_templates/Python笔记模板.md",
-    "3 Resources/01-Tech/Programming/Python/01-基础入门/基础语法与数据类型.md",
-    "git knowledge-value.md",
-    "3 Resources/01-Tech/Programming/Python/01-基础入门/Python安装与环境配置.md",
     "3 Resources/01-Tech/Programming/Python/Python知识库导航.md",
-    "2 Areas/Digital Organization/2026-01-31-知识管理-Obsidian实践目录.md",
-    "3 Resources/01-Tech/AI/2026-01-31-飞书接入ClawdBot，打造7-24小时AI员工(附完整教程).md",
-    "3 Resources/01-Tech/AI/2026-01-30-Ollama一个命令运行Clawdbot，免费又方便！.md",
-    "3 Resources/01-Tech/AI/2026-01-29-通用智能体 + MCP Servers + Skills 构建企业智能体落地新范式.md",
+    "2 Areas/2 Areas.md",
+    "3 Resources/01-Tech/Programming/Python/01-基础入门/基础语法与数据类型.md",
+    "2 Areas/02-Career/Digital Organization/01 Tools/01 Tools.md",
+    "2 Areas/02-Career/Digital Organization/02 Workflows/02 Workflows.md",
+    "2 Areas/02-Career/Digital Organization/03 Knowledge Base.md",
+    "2 Areas/02-Career/Digital Organization/04 Automation.md",
+    "2 Areas/05-Learning/閃念-學習.md",
+    "5 Zettels/5 Zettels.md",
+    "4 Archives/4 Archives.md",
+    "3 Resources/3 Resources.md",
+    "2 Areas/05-Learning/持續學習.md",
+    "2 Areas/04-Relationships/家人關係.md",
+    "2 Areas/04-Relationships/專業人脈.md",
+    "2 Areas/06-Lifestyle/休閒娛樂.md",
+    "2 Areas/06-Lifestyle/居住環境.md",
+    "2 Areas/03-Finance/財務規劃.md",
+    "2 Areas/03-Finance/财务管理.md",
+    "2 Areas/02-Career/職業發展.md",
+    "2 Areas/02-Career/技能提升.md",
+    "2 Areas/05-Learning/Python开发领域.md",
+    "2 Areas/01-Health/健康管理.md",
+    "2 Areas/02-Career/Digital Organization/2026-01-31-知识管理-Obsidian实践目录.md",
+    "2 Areas/02-Career/Digital Organization/Digital Organization Index.md",
+    "2 Areas/02-Career/Digital Organization/01 Tools/Obsidian Tools/Obsidian Tools.md",
+    "2 Areas/02-Career/Claudian/Claudian 技能系统.md",
+    "2 Areas/学习/知识卡片库.base",
+    "3 Resources/01-Tech/🧠 AI/🤖 基础概念",
+    "3 Resources/01-Tech/🧠 AI/📖 学习",
+    "3 Resources/01-Tech/🧠 AI/🛠️ 工具",
+    "3 Resources/01-Tech/🧠 AI/🔧 技术",
+    "3 Resources/01-Tech/🧠 AI/📚 研究",
     "3 Resources/01-Tech/AI",
     "3 Resources/01-Tech/Programming/Python/06-资源与工具",
     "3 Resources/01-Tech/Programming/Python/05-高级主题",
-    "3 Resources/01-Tech/Programming/Python/04-实战应用",
-    "3 Resources/01-Tech/Programming/Python/03-生态系统",
-    "3 Resources/01-Tech/Programming/Python/02-进阶编程",
-    "3 Resources/01-Tech/Programming/Python/01-基础入门",
-    "3 Resources/01-Tech/Programming/Python",
-    "3 Resources/03-Productivity/工作技巧/Obsidian-OpenCode-Ollama-GPT集成指南/01-环境准备/系统要求.md",
-    "3 Resources/03-Productivity/工作技巧/Obsidian-OpenCode-Ollama-GPT集成指南/02-Obsidian配置/基础配置.md",
-    "3 Resources/3 Resources.md",
-    "0 Inbox/2026-01-31-飞书接入ClawdBot，打造7-24小时AI员工(附完整教程).md",
-    "3 Resources/01-Tech/🧠 AI/Ollama + Clawdbot 免费本地 AI 智能体.md",
-    "3 Resources/03-Productivity/ClawBot/Clawdbot 完整使用指南.md",
-    "3 Resources/01-Tech/🧠 AI/AI知识库.md",
-    "3 Resources/01-Tech/Programming/Programming.md",
-    "3 Resources/02-Learning/02-Learning.md",
-    "3 Resources/03-Productivity/ClawBot/性能优化实践.md",
-    "3 Resources/03-Productivity/ClawBot/ClawdBot完整指南.md",
-    "3 Resources/03-Productivity/ClawBot/插件安全规范.md",
-    "~/新建文件夹",
-    "~",
-    "3 Resources/03-Productivity/ClawBot/插件开发指南.md",
-    "3 Resources/03-Productivity/ClawBot/自动化场景案例.md",
-    "3 Resources/03-Productivity/ClawBot/OpenClaw插件生态.md"
+    "3 Resources/01-Tech/Programming/Python/04-实战应用"
   ]
 }

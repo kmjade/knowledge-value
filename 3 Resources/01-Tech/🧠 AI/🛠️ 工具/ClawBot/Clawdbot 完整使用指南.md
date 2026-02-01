@@ -1399,7 +1399,7 @@ clawdbot run --debug "任务描述"
 
 - [[Ollama 本地开发闭环-分析报告.md]] - Ollama 使用实践
 - [[3 Resources/自动化工具对比.md]] - 自动化工具对比
-- [[1 Projects/Clawdbot自动化机器人.md]] - Clawdbot 项目
+- [[Clawdbot自动化机器人]] - Clawdbot 项目
 
 ---
 

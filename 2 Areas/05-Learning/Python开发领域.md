@@ -2,8 +2,13 @@
 title: Python开发领域
 status: active
 priority: medium
-tags: [area/tech/programming, python, development]
-aliases: [Python学习领域]
+tags:
+  - area/tech/programming
+  - python
+  - development
+  - area/learning
+aliases:
+  - Python学习领域
 created: 2026-02-01
 ---
 

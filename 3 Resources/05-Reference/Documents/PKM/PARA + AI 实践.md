@@ -508,7 +508,7 @@ AI: "基于你的知识库推荐:
 
 - [[AI 时代知识管理思维]] - 理念基础
 - [[3 Resources/Claudian/Obsidian + Claudian 集成方案.md]] - 技术实现
-- [[2 Areas/Claudian/Claudian 命令体系.md]] - PARA 命令详解
+- [[Claudian 命令体系]] - PARA 命令详解
 
 ---
 

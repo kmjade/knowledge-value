@@ -384,8 +384,8 @@ AI: 好的，我需要知道：
 ## 相关主题
 
 - [[智谱 AI 配置实战]] - MCP 配置说明
-- [[2 Areas/Claudian/Claudian 技能系统.md]] - MCP 与技能的结合
-- [[2 Areas/Claudian/Claudian 命令体系.md]] - MCP 在命令中的应用
+- [[Claudian 技能系统]] - MCP 与技能的结合
+- [[Claudian 命令体系]] - MCP 在命令中的应用
 
 ---
 

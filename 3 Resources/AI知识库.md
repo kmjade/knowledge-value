@@ -180,7 +180,7 @@ dv.table(['指标', '当前值'], [
 
 ### 核心资源文档
 
-- [[3 Resources/01-Tech/🧠 AI/AI知识库.md]] - AI 知识库索引
+- [[3 Resources/01-Tech/🧠 AI/🤖 基础概念/AI知识库]] - AI 知识库索引
 - [[3 Resources/01-Tech/AI-ML/Prompt模板.md]] - Prompt 模板库
 - [[OpenCode本地模型集成指南]] - 本地模型配置指南
 

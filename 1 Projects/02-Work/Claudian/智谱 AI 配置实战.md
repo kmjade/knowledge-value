@@ -167,7 +167,7 @@ https://open.bigmodel.cn
 ```
 
 > [!info] 详细说明
-> 更多 MCP 服务器介绍见 [[2 Areas/Claudian/Claudian MCP 服务器.md]]
+> 更多 MCP 服务器介绍见 [[Claudian MCP 服务器]]
 
 ---
 
@@ -198,8 +198,8 @@ https://open.bigmodel.cn
 ## 下一步
 
 配置完成后，开始探索 Claudian 的强大功能：
-- → [[2 Areas/Claudian/Claudian 技能系统.md]] - 了解技能包机制
-- → [[2 Areas/Claudian/Claudian 命令体系.md]] - 学习常用命令
+- → [[Claudian 技能系统]] - 了解技能包机制
+- → [[Claudian 命令体系]] - 学习常用命令
 - → 开始你的 AI 知识管理之旅！
 
 ---
@@ -207,7 +207,7 @@ https://open.bigmodel.cn
 ## 相关主题
 
 - [[Claudian 系统搭建指南]] - 前置：系统安装
-- [[2 Areas/Claudian/Claudian MCP 服务器.md]] - MCP 服务器详解
+- [[Claudian MCP 服务器]] - MCP 服务器详解
 - [[3 Resources/Claudian/Obsidian + Claudian 集成方案.md]] - 整体架构
 
 ---

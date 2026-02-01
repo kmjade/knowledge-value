@@ -316,7 +316,7 @@ AI 会自动调用 `obsidian-bases` 技能。
 
 ## 相关主题
 
-- [[2 Areas/Claudian/Claudian 命令体系.md]] - 命令和技能的配合使用
+- [[Claudian 命令体系]] - 命令和技能的配合使用
 - [[Claudian 系统搭建指南]] - 系统安装和配置
 - [[3 Resources/PKM/工作流自动化.md]] - 更多自动化技巧
 

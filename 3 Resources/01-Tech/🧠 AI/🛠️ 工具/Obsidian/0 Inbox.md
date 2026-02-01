@@ -907,7 +907,7 @@ for (let note of notes) {
 ## 🔗 相关资源
 
 ### PARA 系统文档
-- [[2 Areas/🛠️ 工作流优化/PARA 工作流指南]] - 完整 PARA 说明
+- [[PARA 工作流指南]] - 完整 PARA 说明
 - [[3 Resources/03-Productivity/Methods/Inbox 工作流]] - 详细的 Inbox 工作流
 - [[3 Resources/03-Productivity/Methods/PARA工作流]] - PARA 方法论
 

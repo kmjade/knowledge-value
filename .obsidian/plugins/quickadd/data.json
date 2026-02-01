@@ -78,7 +78,7 @@
     },
     {
       "id": "77096c43-00bc-48cb-b265-02e91f9873ab",
-      "name": "网页快速",
+      "name": "1 网页快速",
       "type": "Template",
       "command": false,
       "templatePath": "_templates/fleeting/_template-网页快速.md",

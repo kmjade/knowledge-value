@@ -343,7 +343,7 @@ AI 会：
 3. 体验 MCP 能力
 4. 建立使用习惯
 
-**参考**: [[2 Areas/Claudian/Claudian 命令体系.md]]
+**参考**: [[Claudian 命令体系]]
 
 ### 阶段三：深度定制（持续）
 
@@ -355,7 +355,7 @@ AI 会：
 3. 优化工作流程
 4. 分享最佳实践
 
-**参考**: [[2 Areas/Claudian/Claudian 技能系统.md]]
+**参考**: [[Claudian 技能系统]]
 
 ---
 
@@ -460,8 +460,8 @@ AI 会：
 ## 相关主题
 
 - [[Claudian 系统搭建指南]] - 详细安装教程
-- [[2 Areas/Claudian/Claudian 技能系统.md]] - 技能包详解
-- [[2 Areas/Claudian/Claudian MCP 服务器.md]] - 扩展能力说明
+- [[Claudian 技能系统]] - 技能包详解
+- [[Claudian MCP 服务器]] - 扩展能力说明
 - [[AI 时代知识管理思维]] - 理念深入
 
 ---

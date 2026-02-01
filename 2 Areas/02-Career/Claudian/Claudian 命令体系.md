@@ -222,7 +222,7 @@ AI: ✅ 命令「日报」已创建！
 - 有重复性工作流程
 - 需要给团队共享工作方法
 
-**详细说明**: 见 [[2 Areas/Claudian/Claudian 技能系统.md]]
+**详细说明**: 见 [[Claudian 技能系统]]
 
 #### `/claudian`
 
@@ -506,7 +506,7 @@ description: 总结当前笔记的核心观点
 
 ## 相关主题
 
-- [[2 Areas/Claudian/Claudian 技能系统.md]] - 复杂任务用技能
+- [[Claudian 技能系统]] - 复杂任务用技能
 - [[2 Areas/PARA/PARA 工作流.md]] - PARA 方法论详解
 - [[Claudian 系统搭建指南]] - 系统配置
 
