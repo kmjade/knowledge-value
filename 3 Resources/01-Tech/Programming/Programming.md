@@ -10,6 +10,7 @@ interest-level: 4
 created: 2026-01-25
 para: resources
 language: zh-tw
+subtopic: programming
 ---
 
 # Programming 程式設計

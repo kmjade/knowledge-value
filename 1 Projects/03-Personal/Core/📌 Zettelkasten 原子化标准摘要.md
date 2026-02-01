@@ -53,7 +53,7 @@ created: 2026-01-25
 
 ---
 
-**完整文檔位置**：[[Zettelkasten]]
+**完整文檔位置**：[[5 Zettels|Zettelkasten]]
 
 這個文檔詳細介紹了Zettelkasten方法論，包括工作流程、模板配置、插件推薦等，建議深入閱讀！
 

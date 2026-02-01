@@ -20,6 +20,6 @@ tags: #archive/status
 
 ## 🔗 相關
 
-- [[4 Archives]] - 歸檔總覽
-- [[4 Archives/by-status/Completed]] - 已完成
-- [[4 Archives/by-status/On-Hold]] - 擱置中
+- [[4 Archives|Archives]] - 歸檔總覽
+- [[Completed]] - 已完成
+- [[On-Hold]] - 擱置中

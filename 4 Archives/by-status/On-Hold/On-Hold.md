@@ -21,5 +21,5 @@ tags: #archive/status
 ## 🔗 相關
 
 - [[4 Archives]] - 歸檔總覽
-- [[4 Archives/by-status/Completed]] - 已完成
-- [[4 Archives/by-status/Cancelled]] - 已取消
+- [[Completed]] - 已完成
+- [[Cancelled]] - 已取消

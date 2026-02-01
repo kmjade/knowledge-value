@@ -1,6 +1,7 @@
 ---
 title: By Type - Areas
-tags: #archive/type
+tags:
+  - archive
 ---
 
 # Archived Areas
@@ -20,6 +21,6 @@ tags: #archive/type
 
 ## 🔗 相關
 
-- [[4 Archives]] - 歸檔總覽
-- [[4 Archives/by-type/Projects]] - 項目歸檔
-- [[4 Archives/by-type/Resources]] - 資源歸檔
+- [[4 Archives|Archives]] - 歸檔總覽
+- [[Projects]] - 項目歸檔
+- [[Resources]] - 資源歸檔

@@ -20,6 +20,6 @@ tags: #archive/type
 
 ## 🔗 相關
 
-- [[4 Archives]] - 歸檔總覽
-- [[4 Archives/by-type/Areas]] - 領域歸檔
-- [[4 Archives/by-type/Resources]] - 資源歸檔
+- [[4 Archives|Archives]] - 歸檔總覽
+- [[Areas]] - 領域歸檔
+- [[Resources]] - 資源歸檔
