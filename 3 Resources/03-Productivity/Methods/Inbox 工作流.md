@@ -511,7 +511,7 @@ cutoffDate.setDate(cutoffDate.getDate() - daysOld);
 ## 🔗 相關資源
 
 ### PARA 系統
-- [[PARA工作流]] - 完整 PARA 說明
+- [[3 Resources/03-Productivity/Methods/PARA工作流]] - 完整 PARA 說明
 - [[3 Resources/03-Productivity/Methods/Getting Things Done]] (待創建)
 
 ### 工具

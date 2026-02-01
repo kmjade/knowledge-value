@@ -628,7 +628,7 @@ date: 2026-01-26
 ### 相關方法
 - [[3 Resources/03-Productivity/Methods/Inbox 工作流]]
 - [[3 Resources/03-Productivity/Methods/時間管理]]
-- [[PARA工作流]]
+- [[3 Resources/03-Productivity/Methods/PARA工作流]]
 
 ---
 

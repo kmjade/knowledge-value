@@ -122,7 +122,7 @@ sort by created reverse
 ### 相关文档 / Related Notes
 
 #### PARA 相关
-- [[PARA工作流 1]]
+- [[3 Resources/05-Reference/Methods/PARA 自动化工作流]]
 - [[分类标签系统]]
 - [[归档触发系统]]
 - [[智能分类系统]]

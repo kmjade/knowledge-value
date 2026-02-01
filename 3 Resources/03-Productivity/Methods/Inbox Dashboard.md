@@ -166,7 +166,7 @@ SORT file.ctime DESC
 
 - [[0 Inbox]] - Inbox 使用指南
 - [[Inbox 工作流]] - 详细的 Inbox 工作流
-- [[PARA工作流 1]] - PARA 系统完整指南
+- [[3 Resources/05-Reference/Methods/PARA 自动化工作流]] - PARA 系统完整指南
 
 ---
 

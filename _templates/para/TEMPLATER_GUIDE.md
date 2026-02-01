@@ -488,7 +488,7 @@ type:
 ### 使用指南
 
 - [[0 Inbox]] - Inbox 使用指南
-- [[PARA工作流 1]] - PARA 系统完整指南
+- [[3 Resources/05-Reference/Methods/PARA 自动化工作流]] - PARA 系统完整指南
 - [[Inbox 工作流]] - Inbox 详细工作流
 - [[问题卡指南]] - 问题卡使用指南
 

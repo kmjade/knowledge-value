@@ -696,7 +696,7 @@ SORT (file.inlinks.length + file.outlinks.length) ASC
 - 項目跟踪
 - 日程安排
 
-對於這些，使用 [[PARA工作流]] 或專門的任務管理工具。
+對於這些，使用 [[3 Resources/03-Productivity/Methods/PARA工作流]] 或專門的任務管理工具。
 
 ### Q5: 需要多少筆記才能看到效果？
 

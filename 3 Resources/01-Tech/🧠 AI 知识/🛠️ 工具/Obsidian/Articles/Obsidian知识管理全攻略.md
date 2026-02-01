@@ -323,5 +323,5 @@ tR = `202406${tp.date("DD")}-${String(next).padStart(3, "0")}-${tp.file.title}`;
 
 - [[Obsidian PARA自动化实施指南]] - PARA 自动化完整指南
 - [[超快速捕获]] - 3秒快速捕获模板
-- [[PARA工作流 1]] - PARA 方法论详解
+- [[3 Resources/05-Reference/Methods/PARA 自动化工作流]] - PARA 方法论详解
 - [[Claudian]] - AI 辅助笔记创建工具

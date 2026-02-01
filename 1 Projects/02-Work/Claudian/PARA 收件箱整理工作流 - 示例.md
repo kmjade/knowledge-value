@@ -235,7 +235,7 @@ status: 使用中
 ### 相关笔记
 
 - [[0 Inbox/0 Inbox]] - 收件箱使用指南
-- [[PARA工作流 1]] - PARA 系统完整指南
+- [[3 Resources/05-Reference/Methods/PARA 自动化工作流]] - PARA 系统完整指南
 - [[2 Areas/Knowledge Management]] - 知识管理领域
 
 ### 相关项目

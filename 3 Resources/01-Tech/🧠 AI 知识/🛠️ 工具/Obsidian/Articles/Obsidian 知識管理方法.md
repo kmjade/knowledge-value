@@ -245,7 +245,7 @@ graph TD
 
 ### 內部連結
 
-- [[PARA工作流 1]] - PARA 工作流詳解
+- [[3 Resources/05-Reference/Methods/PARA 自动化工作流]] - PARA 工作流詳解
 - [[5 Zettels/📁 structure/知識管理原則]] - 知識管理核心原則
 - [[_Template/para_template-resource]] - 資源筆記範本
 

@@ -293,4 +293,4 @@ new Notice("✅ 已归档所有 status=done 的项目");
 - [[Obsidian知识管理全攻略]] - 完整的 Obsidian 知识管理指南
 - [[超快速捕获]] - 3秒快速捕获模板
 - [[快速捕获工作流设置指南]] - QuickAdd 和 Templater 配置指南
-- [[PARA工作流 1]] - PARA 方法论详解
+- [[3 Resources/05-Reference/Methods/PARA 自动化工作流]] - PARA 方法论详解
