@@ -182,7 +182,7 @@ Obsidian學習計劃 (Project)
 
 ## 🔗 相關
 
-- [[PARA工作流]] - 完整 PARA 說明
+- [[PARA工作流 1]] - 完整 PARA 說明
 - [[2 Areas/]] - 相關領域
 - [[3 Resources/]] - 相關資源
 - [[4 Archives/]] - 歸檔

@@ -264,6 +264,6 @@ tags:
 
 ## 🔗 相關資源
 
-- [[PARA工作流]] - 完整 PARA 說明
+- [[PARA工作流 1]] - 完整 PARA 說明
 - [[3 Resources/03-Productivity/Methods/Dataview 使用指南]] (待創建)
-- [[3 Resources/03-Productivity/Tools/Obsidian 外掛精選]]
+- [[Obsidian 外掛精選]]

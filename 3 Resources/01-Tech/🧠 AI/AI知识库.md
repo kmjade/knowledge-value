@@ -154,6 +154,7 @@ dv.table(['类别', '数量'], [
 
 ## 🔗 相关资源
 
+- [[2 Areas/ai-knowledge/ai-knowledge.md]] - AI 知识库领域（Area）
 - [[3 Resources/📖 工具使用/Obsidian/Obsidian]] - Obsidian使用指南
 - [[PARA知识管理]] - 整体知识管理框架
 - [[Zettelkasten|Zettelkasten原子化标准]] - 笔记组织规范

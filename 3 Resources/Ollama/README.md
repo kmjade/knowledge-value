@@ -9,7 +9,7 @@ tags: [ollama, knowledge]
 
 ## 目录
 
-- [[系统要求]]
+- [[3 Resources/Ollama/系统要求]]
 - [[安装与配置]]
 - [[模型管理]]
 - [[提示工程 & Prompt]]

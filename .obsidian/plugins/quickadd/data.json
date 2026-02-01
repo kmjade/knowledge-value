@@ -1,12 +1,80 @@
 {
   "choices": [
     {
+      "id": "b9dc8a5d-ce57-4fda-b629-2c4d0bfba8a3",
+      "name": "para-advanced",
+      "type": "Multi",
+      "command": false,
+      "choices": [
+        {
+          "id": "ba01718a-8949-4976-8c2b-fa6462ab0d29",
+          "name": "🌳 Area Note",
+          "type": "Template",
+          "command": false,
+          "templatePath": "_templates/para/📁 advanced/🌳 Area Note Template.md",
+          "fileNameFormat": {
+            "enabled": false,
+            "format": ""
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "2 Areas"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false,
+            "chooseFromSubfolders": false
+          },
+          "appendLink": false,
+          "openFile": false,
+          "fileOpening": {
+            "location": "tab",
+            "direction": "vertical",
+            "mode": "default",
+            "focus": true
+          },
+          "fileExistsMode": "Increment the file name",
+          "setFileExistsBehavior": false
+        },
+        {
+          "id": "47c99d8c-48fa-4992-916e-608a539bdf17",
+          "name": "🌳 Area Template",
+          "type": "Template",
+          "command": false,
+          "templatePath": "_templates/para/📁 advanced/🌳 MOC_Area Template.md",
+          "fileNameFormat": {
+            "enabled": false,
+            "format": ""
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "2 Areas"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false,
+            "chooseFromSubfolders": false
+          },
+          "appendLink": false,
+          "openFile": false,
+          "fileOpening": {
+            "location": "tab",
+            "direction": "vertical",
+            "mode": "default",
+            "focus": true
+          },
+          "fileExistsMode": "Increment the file name",
+          "setFileExistsBehavior": false
+        }
+      ]
+    },
+    {
       "id": "ad9935c6-bde5-49e8-93af-426c1678e815",
       "name": "快速捕获",
       "type": "Multi",
       "command": false,
       "choices": [],
-      "collapsed": true
+      "collapsed": false
     },
     {
       "id": "77096c43-00bc-48cb-b265-02e91f9873ab",
@@ -35,40 +103,10 @@
         "mode": "default",
         "focus": true
       },
-    "fileExistsMode": "Increment the file name",
-    "setFileExistsBehavior": false
-  },
-  {
-    "id": "quick-note-001",
-    "name": "快速笔记",
-    "type": "Template",
-    "command": false,
-    "templatePath": "_templates/fleeting/_template-快速笔记.md",
-    "fileNameFormat": {
-      "enabled": true,
-      "format": "{{date}}-{{VALUE:标题}}"
-    },
-    "folder": {
-      "enabled": true,
-      "folders": [
-        "0 Inbox"
-      ],
-      "chooseWhenCreatingNote": false,
-      "createInSameFolderAsActiveFile": false,
-      "chooseFromSubfolders": false
-    },
-    "appendLink": false,
-    "openFile": false,
-    "fileOpening": {
-      "location": "tab",
-      "direction": "vertical",
-      "mode": "default",
-      "focus": true
-    },
-    "fileExistsMode": "Increment the file name",
-    "setFileExistsBehavior": false
-  }
-],
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": false
+    }
+  ],
   "inputPrompt": "multi-line",
   "devMode": false,
   "templateFolderPath": "_templates",

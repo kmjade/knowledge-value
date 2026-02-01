@@ -58,7 +58,7 @@
     "scrollDownKey": "s",
     "focusInputKey": "i"
   },
-  "locale": "en",
+  "locale": "zh-TW",
   "claudeCliPath": "",
   "claudeCliPaths": {
     "macos": "",
@@ -66,7 +66,7 @@
     "windows": ""
   },
   "loadUserClaudeSettings": true,
-  "activeConversationId": "conv-1769611508532-i20ypkd6u",
+  "activeConversationId": "conv-1769829293494-3xrpy9kc1",
   "lastClaudeModel": "haiku",
   "lastCustomModel": "",
   "lastEnvHash": ""

@@ -13,46 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2 Areas/Digital Organization/Digital Organization Index.md",
+                "file": "3 Resources/Obsidian知识管理：从零到一构建个人第二大脑的完整实践.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Digital Organization Index"
+              "title": "Obsidian知识管理：从零到一构建个人第二大脑的完整实践"
             }
           },
           {
-            "id": "7f07a992b054916d",
+            "id": "69d2e5de79910448",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0 Inbox/2026-01-29-本地开发闭环了  Ollama-GLM-Claude Code.md",
+                "file": "3 Resources/01-Tech/🧠 AI/Ollama + Clawdbot 免费本地 AI 智能体.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-01-29-本地开发闭环了  Ollama-GLM-Claude Code"
-            }
-          }
-        ]
-      },
-      {
-        "id": "8a0ddd0a930e659f",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "f5e9f11f5517f425",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2 Areas/Digital Organization/01 Tools/01 Tools.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "01 Tools"
+              "title": "Ollama + Clawdbot 免费本地 AI 智能体"
             }
           }
         ]
@@ -188,13 +168,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2 Areas/Digital Organization/Digital Organization Index.md",
+                "file": "_templates/opencode/README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Digital Organization Index 的大綱"
+              "title": "README 的大綱"
             }
           },
           {
@@ -227,43 +207,43 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "de06f48ddccdbeaa",
+  "active": "2b98e92261db29c7",
   "lastOpenFiles": [
-    "2 Areas/Digital Organization/01 Tools/Obsidian Tools.md",
-    "2 Areas/Digital Organization/01 Tools/Obsidian Tools",
-    "0 Inbox/Inbox Dashboard.md",
-    "2 Areas/Digital Organization/01 Tools/01 Tools.md",
-    "2 Areas/Digital Organization/Digital Organization Index.md",
-    "2 Areas/2 Areas.md",
-    "2 Areas/Digital Organization/04 Automation.md",
-    "2 Areas/Digital Organization/03 Knowledge Base.md",
-    "2 Areas/Digital Organization/02 Workflows.md",
-    "Archives",
-    "Templates",
-    "2 Areas/Digital Organization/04 Automation",
-    "2 Areas/Digital Organization/03 Knowledge Base",
-    "2 Areas/Digital Organization/02 Workflows",
-    "2 Areas/Digital Organization/01 Tools",
-    "2 Areas/Digital Organization/0 Inbox",
-    "2 Areas/Digital Organization",
-    "2 Areas/ai-knowledge",
-    "2 Areas/AI 知识库.md",
-    "4 Archives/2026/📥 00_InBox.md 优化，使用英文、简体和繁体回复.md",
-    "2 Areas/ai-knowledge/ai-knowledge.md",
-    "0 Inbox/0 Inbox.md",
-    "_meta/🔗 知识关联/Dashboard/Dashboard.md",
-    "_meta/_meta.md",
-    "4 Archives/Automating PARA in Obsidian 请用英文、简体和繁体回复.md",
-    "4 Archives/obsidian 搭建AI员工.md",
-    "0 Inbox/quickadd PARA 内嵌脚本.md",
-    "0 Inbox/2026-01-30-Obsidian知识管理：从零到一构建个人第二大脑的完整实践.md",
-    "2 Areas/Claudian/Claudian MCP 服务器.md",
-    "2 Areas/Claudian/Claudian 命令体系.md",
-    "2 Areas/Claudian/Claudian 技能系统.md",
-    "1 Projects/02-Work/建立知識庫.md",
-    "1 Projects/01-Learning/obsidian知识库/obsidian知识库.md",
-    "1 Projects/01-Learning/阅读分析拆解工作流.md",
-    "1 Projects/01-Learning/阅读分析拆解工作流项目.md",
-    "1 Projects/01-Learning/Obsidian學習計劃.md"
+    "1 Projects/Python学习项目.md",
+    "2 Areas/Python开发领域.md",
+    "_templates/Python笔记模板.md",
+    "3 Resources/01-Tech/Programming/Python/01-基础入门/基础语法与数据类型.md",
+    "git knowledge-value.md",
+    "3 Resources/01-Tech/Programming/Python/01-基础入门/Python安装与环境配置.md",
+    "3 Resources/01-Tech/Programming/Python/Python知识库导航.md",
+    "2 Areas/Digital Organization/2026-01-31-知识管理-Obsidian实践目录.md",
+    "3 Resources/01-Tech/AI/2026-01-31-飞书接入ClawdBot，打造7-24小时AI员工(附完整教程).md",
+    "3 Resources/01-Tech/AI/2026-01-30-Ollama一个命令运行Clawdbot，免费又方便！.md",
+    "3 Resources/01-Tech/AI/2026-01-29-通用智能体 + MCP Servers + Skills 构建企业智能体落地新范式.md",
+    "3 Resources/01-Tech/AI",
+    "3 Resources/01-Tech/Programming/Python/06-资源与工具",
+    "3 Resources/01-Tech/Programming/Python/05-高级主题",
+    "3 Resources/01-Tech/Programming/Python/04-实战应用",
+    "3 Resources/01-Tech/Programming/Python/03-生态系统",
+    "3 Resources/01-Tech/Programming/Python/02-进阶编程",
+    "3 Resources/01-Tech/Programming/Python/01-基础入门",
+    "3 Resources/01-Tech/Programming/Python",
+    "3 Resources/03-Productivity/工作技巧/Obsidian-OpenCode-Ollama-GPT集成指南/01-环境准备/系统要求.md",
+    "3 Resources/03-Productivity/工作技巧/Obsidian-OpenCode-Ollama-GPT集成指南/02-Obsidian配置/基础配置.md",
+    "3 Resources/3 Resources.md",
+    "0 Inbox/2026-01-31-飞书接入ClawdBot，打造7-24小时AI员工(附完整教程).md",
+    "3 Resources/01-Tech/🧠 AI/Ollama + Clawdbot 免费本地 AI 智能体.md",
+    "3 Resources/03-Productivity/ClawBot/Clawdbot 完整使用指南.md",
+    "3 Resources/01-Tech/🧠 AI/AI知识库.md",
+    "3 Resources/01-Tech/Programming/Programming.md",
+    "3 Resources/02-Learning/02-Learning.md",
+    "3 Resources/03-Productivity/ClawBot/性能优化实践.md",
+    "3 Resources/03-Productivity/ClawBot/ClawdBot完整指南.md",
+    "3 Resources/03-Productivity/ClawBot/插件安全规范.md",
+    "~/新建文件夹",
+    "~",
+    "3 Resources/03-Productivity/ClawBot/插件开发指南.md",
+    "3 Resources/03-Productivity/ClawBot/自动化场景案例.md",
+    "3 Resources/03-Productivity/ClawBot/OpenClaw插件生态.md"
   ]
 }

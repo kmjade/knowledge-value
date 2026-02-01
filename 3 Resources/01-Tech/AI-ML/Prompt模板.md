@@ -206,6 +206,7 @@ language: zh-cn
 
 ## 相关资源
 
+- [[2 Areas/ai-knowledge/ai-knowledge.md]] - AI 知识库领域（Area）
 - [[OpenCode-智能体搭建教程]] - OpenCode 平台教程
 - [[如何搭建AI员工]] - AI员工搭建完整指南
 - [[Claude Code 安装指南]] - Claude Code 安装说明

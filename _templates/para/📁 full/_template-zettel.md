@@ -96,9 +96,9 @@ LIMIT 10
 - [[Note 3]] - 关联说明
 
 ### 关联的 PARA 内容
-- [[Project]] - 相关项目
-- [[Area]] - 相关领域
-- [[Resource]] - 相关资源
+- [[_templates/para/📁 quick/Project]] - 相关项目
+- [[_templates/para/📁 quick/Area]] - 相关领域
+- [[_templates/para/📁 quick/Resource]] - 相关资源
 
 ## 标签 / Tags
 

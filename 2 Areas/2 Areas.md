@@ -178,7 +178,7 @@ SORT health-score DESC
 
 ## 🔗 相關
 
-- [[PARA工作流]] - 完整 PARA 說明
+- [[PARA工作流 1]] - 完整 PARA 說明
 - [[1 Projects/]] - 相關項目
 - [[3 Resources/]] - 相關資源
 - [[4 Archives/]] - 歸檔
