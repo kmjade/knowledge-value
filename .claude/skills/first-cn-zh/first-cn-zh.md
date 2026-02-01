@@ -19,7 +19,7 @@ Call this skill when you want to:
 
 ### For Obsidian Notes
 - Create notes with Chinese titles and content
-- Use Chinese tags (e.g., #标签/标签名)
+# 標籤
 - Frontmatter properties can use Chinese values
 - Dataview queries and inline fields in Chinese
 

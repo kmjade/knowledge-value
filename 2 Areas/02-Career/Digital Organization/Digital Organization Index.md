@@ -8,19 +8,19 @@ tags:
 
 # Digital Organization Index
 
-> 这里聚合所有关于数字化组织的工具、工作流、知识库与自动化脚本，帮助你打造高效的个人或团队数字化体系。
+# 知識庫
 
 ---
-## 📦 目录
+# 目錄
 
-- [[01 Tools | 🛠️ 工具目录]]
-- [[02 Workflows | 🔄 工作流目录]]
-- [[03 Knowledge Base | 📚 知识库]]
+- [[01 Tools | 🛠️ 工具目錄]]
+# 工作流
+- [[03 Knowledge Base | 📚 知識庫]]
 - [[04 Automation | 🤖 自动化脚本]]
 
 ---
 
-## 🔎 最新笔记（Dataview 示例）
+# 筆記
 
 ```dataview
 TABLE title, tags, created

@@ -1,6 +1,6 @@
 ---
 aliases:
-  - 资源
+# 資源
 para: resource
 domain:
 ---

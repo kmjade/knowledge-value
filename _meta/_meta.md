@@ -1,27 +1,27 @@
 ---
 aliases:
-  - 元数据
+# 數據
 tags:
   - meta
   - index
 created: 2026-01-30
 ---
 
-# 📋 Meta 文件夹
+# 檔案
 
-> 此文件夹包含关于知识库本身的结构、配置和管理信息。
+# 知識庫
 
 ---
 
-## 📁 文件夹结构
+# 檔案
 
 ```text
-_meta/                    # 元数据文件夹
-├── _meta.md             # 元数据索引页
-├── ⚙️ 系统配置/           # 系统配置
-│   └── ⚙️ 系统配置.md
-├── 🔗 知识关联/          # 知识关联
-│   ├── 🔗 知识关联.md
+# 檔案
+# 數據
+# 系統
+# 系統
+# 知識
+# 知識
 │   ├── MOCs/
 │   │   └── MOCs.md
 │   ├── Index/
@@ -31,18 +31,18 @@ _meta/                    # 元数据文件夹
 └── scripts/             # 自动化脚本
 ```
 
-> 📌 **说明**：此结构展示 `_meta` 文件夹的组织方式。
+# 檔案
 
 ---
 
-## 🔗 按目录分组
+# 目錄
 
-此表格按文件夹分组展示所有文件，便于快速查看每个目录下的内容。
+# 檔案
 
 ```dataview
 TABLE WITHOUT ID
-  link(file.path, split(file.folder, "/")[-1]) as "目录",
-  rows.file.link as "文件列表"
+# 目錄
+# 檔案
 WHERE contains(file.path, this.file.folder)
   AND file.name != this.file.name
   AND !contains(file.name, "meta")
@@ -50,48 +50,48 @@ GROUP BY file.folder
 SORT file.folder
 ```
 
-> 📌 **说明**：点击目录名可跳转到对应文件夹，点击文件名可打开具体文件。
+# 檔案
 
 ---
 
-## 📊 文件统计
+# 檔案
 
-统计 `_meta` 文件夹中的文件数量，了解知识库元数据的规模。
+# 知識庫
 
 ```dataview
-TABLE WITHOUT ID length(rows) as "文件数量"
+# 檔案
 WHERE contains(file.path, this.file.folder)
   AND file.name != this.file.name
 GROUP BY "总计"
 ```
 
-> 📌 **说明**：此统计不包括 `_meta.md` 自身，仅计算子文件夹中的文件。
+# 檔案
 
 ---
 
 ## 🗂️ 使用说明
 
-### 子目录功能介绍
+# 目錄
 
-- **⚙️ 系统配置**：包含插件配置、模板、技能和命令设置
-  - 管理知识库的技术基础设施
-  - 配置自动化工具和工作流
+# 系統
+# 知識庫
+# 工作流
 
-- **🔗 知识关联**：包含 MOCs（Map of Contents）、Index 和 Dashboard 等知识导航工具
+# 知識
   - **MOCs**：高层次的领域地图，提供主题导航
   - **Index**：字母索引，快速定位特定内容
-  - **Dashboard**：知识库仪表板，提供整体概览
+# 知識庫
 
 - **scripts**：存储自动化脚本和工具
   - 定制化脚本和自动化任务
-  - 辅助知识管理的实用工具
+# 管理
 
-### 视图选择指南
+# 指南
 
-- **文件夹结构**：查看文件夹的树型组织结构
-- **按目录分组**：适合查看每个目录的具体文件
-- **文件统计**：快速了解元数据规模
+# 檔案
+# 檔案
+# 檔案
 
 ---
 
-> 💡 **提示**：此页面自动更新，反映 `_meta` 文件夹的最新结构。
+# 檔案

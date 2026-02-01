@@ -35,8 +35,8 @@ updated: 2026-01-22
 
 #### ⚠️ 不推薦場景
 - **快速原型開發** - 需要最高效能和最新模型
-- **企業級部署** - 需要穩定性和 SLA 保證
-- **初學者入門** - 配置複雜度較高
+# 部署
+# 配置
 
 ---
 
@@ -52,13 +52,13 @@ updated: 2026-01-22
 ### 步驟 1: 安裝 OpenCode
 
 ```bash
-# 方法 1: 官方安裝腳本（推薦）
+# 方法
 curl -fsSL https://opencode.ai/install | bash
 
-# 方法 2: 透過 npm 安裝
+# 方法
 npm install -g @opencode-ai/cli
 
-# 方法 3: 透過 yarn 安裝
+# 方法
 yarn global add @opencode-ai/cli
 ```
 
@@ -88,9 +88,9 @@ ollama pull qwen2.5-coder:7b
 ollama pull qwen2.5:3b
 ```
 
-### 步驟 4: 基礎配置驗證
+# 配置
 
-建立配置檔 `~/.config/opencode/opencode.json`：
+# 配置
 
 ```json
 {
@@ -170,7 +170,7 @@ opencode
 
 ---
 
-## 🔧 完整配置指南 / Complete Configuration Guide
+# 指南
 
 ### 系統要求詳解
 
@@ -186,19 +186,19 @@ opencode
 #### 軟體環境要求
 
 ```bash
-# Node.js 版本要求
+# 版本
 node --version  # 需要 v18.0.0 或更高
 
-# Python 版本（某些模型需要）
+# 版本
 python --version  # 需要 v3.8 或更高
 
 # CUDA 支援（NVIDIA GPU）
-nvidia-smi  # 檢查 CUDA 版本
+# 版本
 ```
 
-### OpenCode 深度配置
+# 配置
 
-#### 進階配置選項
+# 配置
 
 ```json
 {
@@ -257,7 +257,7 @@ nvidia-smi  # 檢查 CUDA 版本
 }
 ```
 
-### Ollama 服務配置
+# 配置
 
 #### 環境變數設定
 
@@ -269,11 +269,11 @@ export OLLAMA_MODELS=/path/to/models
 export OLLAMA_KEEP_ALIVE=24h
 export OLLAMA_MAX_LOADED_MODELS=2
 
-# 重新載入配置
+# 配置
 source ~/.bashrc
 ```
 
-#### 系統服務配置（Linux）
+# 配置
 
 ```ini
 # /etc/systemd/system/ollama.service
@@ -337,7 +337,7 @@ graph TD
     L -->|否| N[Qwen2.5:3B]
 ```
 
-### 模型下載與配置
+# 配置
 
 ```bash
 # 推薦模型下載指令
@@ -346,7 +346,7 @@ ollama pull qwen2.5:7b                 # 通用模型，平衡
 ollama pull mistral-nemo:12b            # 推理能力強
 ollama pull qwen2.5:3b                 # 輕量級選擇
 
-# 建立大上下文版本
+# 版本
 ollama run qwen2.5-coder:7b
 /set parameter num_ctx 16384
 /save qwen2.5-coder:7b-16k
@@ -397,17 +397,17 @@ def fibonacci(n):
     return fib_sequence
 ```
 
-### 場景 2: 檔案重構與修改
+# 修改
 
-#### 工作流程
+# 工作流
 1. 開啟需要重構的檔案
 2. 使用 OpenCode 讀取檔案內容
 3. 指定重構要求
-4. 套用修改建議
+# 修改
 
 #### 範例請求
 ```
-分析當前檔案，找出可以最佳化的程式碼模式，並套用以下改進：
+# 分析
 1. 提取重複程式碼為函數
 2. 改進錯誤處理
 3. 新增型別提示
@@ -416,13 +416,13 @@ def fibonacci(n):
 
 ### 場景 3: 專案級程式碼理解
 
-#### 多檔案分析
+# 分析
 ```bash
-# 分析整個專案結構
-opencode run "分析這個專案的架構，識別主要模組和依賴關係"
+# 分析
+# 分析
 
-# 產生專案文件
-opencode run "為這個專案產生 README 文件，包括安裝說明和使用範例"
+# 產生專案檔案
+opencode run "為這個專案產生 README 檔案，包括安裝說明和使用範例"
 ```
 
 ### 場景 4: 批次處理自動化
@@ -441,11 +441,11 @@ done
 
 ---
 
-## 🔗 Obsidian 整合工作流 / Obsidian Integration Workflow
+# 工作流
 
-### QuickAdd 配置
+# 配置
 
-參考配置檔案：`./配置文件/opencode-ollama.quickadd.json`
+# 配置
 
 ### Templater 範本
 
@@ -453,11 +453,11 @@ done
 
 - **OpenCode 請求.md** - 主要請求範本
 - **批次處理操作.md** - 批次操作範本
-- **模型設定.md** - 配置精靈範本
+# 配置
 
 ### 與 PARA 系統整合
 
-#### 專案管理整合
+# 管理
 ```markdown
 ---
 para: project
@@ -477,9 +477,9 @@ tags:
 建立完整的本地 AI 程式設計環境，實現隱私保護的程式碼助手
 
 ## 期望成果
-- [x] 完整的安裝指南
-- [x] 配置檔案範本
-- [x] Obsidian 整合工作流
+# 指南
+# 配置
+# 工作流
 - [ ] 效能最佳化方案
 - [ ] 故障排除手冊
 ```
@@ -488,7 +488,7 @@ tags:
 
 ## ⚡ 效能最佳化技巧 / Performance Optimization
 
-### 模型量化配置
+# 配置
 
 #### 量化級別選擇
 | 量化級別 | 模型大小 | 效能影響 | 品質損失 |
@@ -506,7 +506,7 @@ ollama run qwen2.5-coder:7b
 ollama create qwen2.5-coder:7b-quantized -f ./quantized_model.gguf
 ```
 
-### GPU 加速配置
+# 配置
 
 #### NVIDIA GPU 最佳化
 ```bash
@@ -525,7 +525,7 @@ export OLLAMA_METAL=1
 export OLLAMA_MAX_QUEUE=512
 ```
 
-### 上下文管理策略
+# 管理
 
 #### 動態上下文調整
 ```json
@@ -571,7 +571,7 @@ function chunkContent(content, maxTokens = 4000) {
 - [ ] OpenCode 無法啟動
 - [ ] Ollama 服務未執行
 - [ ] 模型載入失敗
-- [ ] 配置檔案錯誤
+# 配置
 
 #### 效能問題
 - [ ] 回應速度過慢
@@ -581,7 +581,7 @@ function chunkContent(content, maxTokens = 4000) {
 
 #### 功能問題
 - [ ] 工具呼叫失敗
-- [ ] 檔案修改錯誤
+# 修改
 - [ ] 上下文截斷
 - [ ] 輸出格式異常
 
@@ -593,7 +593,7 @@ function chunkContent(content, maxTokens = 4000) {
 
 **原因**：
 - 模型未正確下載
-- 配置中的模型名稱不匹配
+# 配置
 - Ollama 服務路徑問題
 
 **解決方案**：
@@ -604,7 +604,7 @@ ollama list
 # 重新下載模型
 ollama pull qwen2.5-coder:7b
 
-# 驗證配置檔案
+# 配置
 cat ~/.config/opencode/opencode.json
 
 # 重新啟動 Ollama 服務
@@ -617,7 +617,7 @@ pkill ollama && ollama serve &
 
 **原因**：
 - 使用了不支援工具呼叫的模型
-- 配置中工具選項未啟用
+# 配置
 - 權限設定問題
 
 **解決方案**：
@@ -628,7 +628,7 @@ ollama show qwen2.5-coder:7b | grep "tool"
 # 更換為支援工具的模型
 opencode run "測試工具功能" --model ollama/qwen2.5-coder:7b
 
-# 驗證工具配置
+# 配置
 grep -A 10 '"tools"' ~/.config/opencode/opencode.json
 ```
 
@@ -663,7 +663,7 @@ nvtop  # GPU 使用
 
 **原因**：
 - 模型預設上下文視窗太小
-- 配置中未設定大上下文
+# 配置
 
 **解決方案**：
 ```bash
@@ -672,7 +672,7 @@ ollama run qwen2.5-coder:7b
 /set parameter num_ctx 16384
 /save qwen2.5-coder:7b-16k
 
-# 在配置中指定
+# 配置
 {
   "models": {
     "qwen2.5-coder:7b-16k": {
@@ -723,7 +723,7 @@ watch -n 1 'ps aux | grep ollama'
 
 ## 🔮 進階應用 / Advanced Applications
 
-### 多模型工作流
+# 工作流
 
 #### 模型切換策略
 ```javascript
@@ -753,8 +753,8 @@ opencode run "產生實作功能的程式碼" --model ollama/qwen2.5-coder:7b "$
 echo "階段 2: 程式碼審查 (DeepSeek-Coder)"
 opencode run "審查程式碼品質和安全性" --model ollama/deepseek-coder:6.7b stage1.py > stage2_review.txt
 
-echo "階段 3: 文件生成 (Mistral-Nemo)"
-opencode run "產生程式碼文件" --model ollama/mistral-nemo:12b stage1.py > stage3_docs.md
+echo "階段 3: 檔案生成 (Mistral-Nemo)"
+opencode run "產生程式碼檔案" --model ollama/mistral-nemo:12b stage1.py > stage3_docs.md
 ```
 
 ### 自訂技能開發
@@ -807,7 +807,7 @@ module.exports = async function(params, context) {
 
 ### CI/CD 整合
 
-#### GitHub Actions 配置
+# 配置
 ```yaml
 name: Local AI Code Review
 on: [pull_request]
@@ -834,9 +834,9 @@ jobs:
           opencode run "審查這個 PR 的程式碼變更" --model ollama/qwen2.5-coder:7b
 ```
 
-### 企業級部署方案
+# 部署
 
-#### Docker 容器化部署
+# 部署
 ```dockerfile
 FROM nvidia/cuda:12.1-devel-ubuntu22.04
 
@@ -867,7 +867,7 @@ EXPOSE 11434
 ENTRYPOINT ["/entrypoint.sh"]
 ```
 
-#### Docker Compose 配置
+# 配置
 ```yaml
 version: '3.8'
 services:
@@ -894,10 +894,10 @@ services:
 
 ## 📚 參考資源 / Reference Resources
 
-### 📖 官方文件
+### 📖 官方檔案
 
-- **[OpenCode Documentation](https://opencode.ai/docs)** - 完整的官方文件
-- **[Ollama Documentation](https://github.com/ollama/ollama)** - Ollama 使用指南
+- **[OpenCode Documentation](https://opencode.ai/docs)** - 完整的官方檔案
+# 指南
 - **[Qwen Models](https://huggingface.co/Qwen)** - Qwen 模型系列
 - **[AI SDK Documentation](https://ai-sdk.dev/)** - AI 開發工具包
 
@@ -920,14 +920,14 @@ services:
 - **[Ollama GitHub](https://github.com/ollama/ollama/discussions)** - GitHub 討論
 - **[Reddit r/LocalLLaMA](https://reddit.com/r/LocalLLaMA)** - 本地模型討論
 
-#### 教程與指南
+# 指南
 - **[Local AI Course](https://github.com/danielmiessler/fabric)** - 本地 AI 課程
-- **[AI at Home](https://github.com/matttwj/ai-at-home)** - 家庭 AI 指南
+# 指南
 
 ### 🔧 開發工具
 
-#### 配置產生器
-- **[OpenCode Config Generator](https://opencode.ai/config-generator)** - 線上配置產生
+# 配置
+# 配置
 - **[Ollama Web UI](https://github.com/ollama-webui/ollama-webui)** - Web 介面
 
 #### 除錯工具
@@ -936,26 +936,26 @@ services:
 
 ---
 
-## 📊 更新日誌與版本相容性 / Changelog & Compatibility
+# 更新
 
-### 版本相容性矩陣
+# 版本
 
-| OpenCode 版本 | Ollama 版本 | 推薦模型 | 狀態 |
+# 版本
 |--------------|------------|----------|------|
 | v1.0.x | v0.1.x | Qwen2.5-Coder | ✅ 穩定 |
 | v1.1.x | v0.2.x | Qwen2.5-Coder | ✅ 穩定 |
 | v1.2.x | v0.3.x | Qwen2.5-Coder | 🔄 測試中 |
 
-### 模型更新記錄
+# 更新
 
-#### 2026 年 1 月更新
+# 更新
 - **新增**: Qwen2.5-Coder 系列模型支援
-- **改進**: 上下文視窗管理演算法
+# 管理
 - **修復**: 工具呼叫在某些模型上的相容性問題
 
-#### 2025 年 12 月更新
+# 更新
 - **新增**: DeepSeek-Coder-V2 支援
-- **最佳化**: GPU 記憶體使用效率
+# 效率
 - **改進**: 批次處理效能
 
 ### 未來發展路線圖
@@ -968,57 +968,57 @@ services:
 #### Q2 2026 計畫
 - **自適應量化** - 動態調整模型精度
 - **智慧快取** - 上下文智慧快取機制
-- **企業功能** - 團隊協作和權限管理
+# 管理
 
 ---
 
 ## 🎓 最佳實踐總結 / Best Practices Summary
 
-### 💡 配置最佳實踐
+# 配置
 
 1. **選擇合適的模型** - 根據硬體和需求平衡效能與品質
 2. **最佳化上下文視窗** - 避免不必要的記憶體浪費
 3. **啟用 GPU 加速** - 最大化硬體效能
-4. **定期更新模型** - 追蹤最新改進
+# 更新
 
 ### 🛡️ 安全最佳實踐
 
 1. **本地執行** - 確保資料不離開本地網路
-2. **定期更新** - 保持軟體和模型的安全更新
+# 更新
 3. **網路隔離** - 在受限環境中執行敏感專案
-4. **資料備份** - 定期備份重要配置和模型
+# 配置
 
 ### 🚀 效能最佳實踐
 
 1. **量化模型** - 在品質和速度間找到平衡
-2. **批次處理** - 合併相似任務提高效率
+# 效率
 3. **快取策略** - 重用常見查詢結果
 4. **資源監控** - 持續監控和最佳化資源使用
 
 ### 🔧 維護最佳實踐
 
-1. **配置版本控制** - 追蹤配置變更歷史
+# 配置
 2. **日誌記錄** - 保持詳細的使用日誌
 3. **定期清理** - 清理不用的模型和快取
-4. **文件更新** - 及時更新使用文件
+# 更新
 
 ---
 
-## 🔗 相關文件連結 / Related Documentation Links
+## 🔗 相關檔案連結 / Related Documentation Links
 
 ### 在本文檔中
-- **[[opencode.json]]** - OpenCode 主配置檔案
+# 配置
 - **[[OpenCode 請求]]** - 主要請求範本
-- **[[opencode-ollama.quickadd.json]]** - QuickAdd 配置
+# 配置
 
 ### 在本倉庫中
-- **[[AGENTS.md]]** - AI 代理操作指南
-- **[[_meta_使用手冊/使用指南.md]]** - 完整使用指南
-- **[[6️⃣ Claude Code 整合工作流]]** - Claude Code 整合參考
+# 指南
+# 指南
+# 工作流
 
 ### 外部資源
-- **[OpenCode 官網](https://opencode.ai)** - 官方網站和文件
-- **[Ollama 官網](https://ollama.ai)** - Ollama 模型庫和文件
+- **[OpenCode 官網](https://opencode.ai)** - 官方網站和檔案
+- **[Ollama 官網](https://ollama.ai)** - Ollama 模型庫和檔案
 - **[Hugging Face](https://huggingface.co)** - 開源模型庫
 
 ---
@@ -1026,12 +1026,12 @@ services:
 > [!tip] 💭 最後思考
 > 本地 AI 模型代表著程式設計輔助的未來方向。雖然目前效能和便利性可能不如雲端方案，但隱私保護、成本控制和離線使用的優勢使其成為特定場景下的最佳選擇。隨著硬體效能提升和模型最佳化，本地模型將會越來越強大。
 
-> 選擇本地模型不僅是技術決策，更是對資料主權和隱私保護的重視。希望這個指南能幫助您成功建立自己的本地 AI 程式設計環境。
+# 指南
 
 ---
 
-*本文件持續更新中，歡迎回饋和貢獻建議。*
+# 更新
 
-**最後更新**: 2026-01-22
-**文件版本**: v1.0.0
+# 更新
+# 版本
 **維護者**: OpenCode 本地模型整合專案

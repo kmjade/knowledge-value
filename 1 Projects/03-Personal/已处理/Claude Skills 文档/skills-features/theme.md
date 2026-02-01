@@ -2,15 +2,15 @@
 
 ## 概述
 
-深入了解 Claude Skills 的核心特性，包括 Token 效率优化、知识注入方法、一致性和速度优势。
+# 知識
 
 ---
 
-## 1. Token 效率优化
+# 效率
 
 ### 惰性加载机制（Lazy Loading）
 
-Claude Skills 采用惰性加载机制，最大化 Token 效率：
+# 效率
 
 ```
 传统方式（CLAUDE.md）:
@@ -18,7 +18,7 @@ Claude Skills 采用惰性加载机制，最大化 Token 效率：
 ├─ 25,000 tokens 固定消耗
 ├─ 无论任务类型
 ├─ 无论需要与否
-└─ 资源浪费严重
+# 資源
 
 Skills 方式:
 按需渐进式加载
@@ -50,7 +50,7 @@ Skills 方式:
 │
 └── ...
 
-初始加载：只读取名称和描述（约 500 tokens）
+# 讀取
 完整内容：仅在需要时加载
 ```
 
@@ -59,7 +59,7 @@ Skills 方式:
 **完整内容仅在与当前任务相关时加载：**
 
 ```
-场景：编写 README 文档
+# 文檔
 
 加载的 Skills:
 ✅ chinese-first-rule（完整内容 200 行）
@@ -82,7 +82,7 @@ Token 消耗：约 2,000 tokens（节省 92%）
 mall-api-development Skill（645 行）
 
 第 1 轮：加载摘要和核心原则（约 100 行）
-第 2 轮：如果需要，加载 API 设计规范（约 300 行）
+# 設計
 第 3 轮：如果需要，加载错误处理标准（约 100 行）
 第 4 轮：如果需要，加载其他部分（约 145 行）
 
@@ -125,35 +125,35 @@ mall-api-development Skill（645 行）
 
 ---
 
-## 2. 知识注入方法
+# 知識
 
 ### 多种注入方式
 
-Skills 通过多种方式将知识注入到 Claude 中：
+# 知識
 
-| 方法 | 说明 | 用途 | 示例 |
+# 方法
 |------|------|------|------|
-| **直接专业知识** | 嵌入在 SKILL.md 文件中 | 核心流程和最佳实践 | API 设计规范、代码质量标准 |
-| **操作一致性** | 确保跨交互的稳定质量 | 标准化输出 | 语言规范、命名规范 |
-| **参考文档** | 存储在专用目录中 | 按需访问的详细材料 | 技术文档、设计模式说明 |
-| **模板资产** | 位于指定文件夹内 | 可重用的模板和资源 | 代码模板、文档模板 |
+# 專業知識
+# 輸出
+# 設計
+# 文檔
 
 ### 详细说明
 
-#### 方法 1：直接专业知识（Direct Expertise）
+# 專業知識
 
-**嵌入在 SKILL.md 文件中：**
+# 檔案
 
 ```markdown
 # mall-api-development/SKILL.md
 
-## API 设计原则
+# 設計
 
 ### RESTful 标准
 
 所有 API 必须遵循 RESTful 标准：
 
-#### 1. 资源命名
+# 資源
 
 - 使用名词，不是动词
 - 使用复数形式
@@ -169,15 +169,15 @@ GET /api/v1/getProducts
 POST /api/v1/createOrder
 PUT /api/v1/updateUser/123
 
-#### 2. HTTP 方法使用
+# 方法
 
-| HTTP 方法 | 用途 | 幂等性 |
+# 方法
 |-----------|------|--------|
-| GET | 获取资源 | 是 |
-| POST | 创建资源 | 否 |
-| PUT | 更新资源（完整） | 是 |
-| PATCH | 更新资源（部分） | 否 |
-| DELETE | 删除资源 | 是 |
+# 資源
+# 創建
+# 更新
+# 更新
+# 刪除
 ```
 
 **特点：**
@@ -185,7 +185,7 @@ PUT /api/v1/updateUser/123
 - ✅ Claude 立即可用
 - ✅ 适合核心流程和标准
 
-#### 方法 2：操作一致性（Operational Consistency）
+# 方法
 
 **确保跨交互的稳定质量：**
 
@@ -196,12 +196,12 @@ PUT /api/v1/updateUser/123
 
 ### 基本规则
 
-**所有交流、文档、注释必须使用简体中文**
+# 文檔
 
 #### 1. 用户交流
 
 ✅ 正确：
-"我理解您的需求，现在开始分析代码..."
+# 分析
 
 ❌ 错误：
 "I understand your requirements. Now I'll analyze the code..."
@@ -211,9 +211,9 @@ PUT /api/v1/updateUser/123
 ```java
 // ✅ 正确
 /**
- * 创建订单服务
- * @param orderDTO 订单数据传输对象
- * @return 创建的订单ID
+# 創建
+# 數據
+# 創建
  */
 public Long createOrder(OrderDTO orderDTO) {
     // ...
@@ -230,15 +230,15 @@ public Long createOrder(OrderDTO orderDTO) {
 }
 ```
 
-#### 3. 文档编写
+# 文檔
 
 ✅ 正确：
 ```markdown
-# API 文档
+# 文檔
 
 ## 接口说明
 
-创建商品评论接口，允许用户对购买的商品进行评价。
+# 創建
 ```
 
 ❌ 错误：
@@ -253,33 +253,33 @@ Create product comment interface, allowing users to review purchased products.
 
 **特点：**
 - ✅ 强制一致性
-- ✅ 标准化输出
+# 輸出
 - ✅ 适合所有任务
 
-#### 方法 3：参考文档（Reference Documentation）
+# 方法
 
-**存储在专用目录中，按需访问：**
+# 目錄
 
 ```
 .claude/skills/mall-api-development/
-├── SKILL.md              # 主要技能文件
+# 檔案
 ├── reference/
-│   ├── restful-api-guide.md      # RESTful API 指南
+# 指南
 │   ├── http-status-codes.md      # HTTP 状态码参考
-│   ├── api-versioning.md        # API 版本控制策略
+# 版本
 │   └── authentication.md        # 认证机制说明
 └── examples/
     └── api-examples.md          # API 示例代码
 ```
 
-**SKILL.md 中引用参考文档：**
+# 文檔
 
 ```markdown
 # mall-api-development/SKILL.md
 
-## API 设计规范
+# 設計
 
-### 核心 API 设计
+# 設計
 
 参考：[[reference/restful-api-guide.md]]
 
@@ -287,7 +287,7 @@ Create product comment interface, allowing users to review purchased products.
 
 参考：[[reference/http-status-codes.md]]
 
-### API 版本控制
+# 版本
 
 参考：[[reference/api-versioning.md]]
 
@@ -301,13 +301,13 @@ Create product comment interface, allowing users to review purchased products.
 - ✅ 按需加载
 - ✅ 适合详细材料和扩展内容
 
-#### 方法 4：模板资产（Template Assets）
+# 方法
 
-**位于指定文件夹内，提供可重用模板：**
+# 檔案
 
 ```
 .claude/skills/mall-crud-generator/
-├── SKILL.md              # 主要技能文件
+# 檔案
 ├── templates/
 │   ├── entity.java.template         # Entity 模板
 │   ├── mapper.java.template        # Mapper 模板
@@ -327,7 +327,7 @@ Create product comment interface, allowing users to review purchased products.
 
 ### 生成流程
 
-1. 分析需求
+# 分析
 2. 选择模板：[[templates/entity.java.template]]
 3. 填充模板参数
 4. 生成代码
@@ -347,8 +347,8 @@ Create product comment interface, allowing users to review purchased products.
 
 **特点：**
 - ✅ 可重用
-- ✅ 标准化输出
-- ✅ 适合代码模板和文档模板
+# 輸出
+# 文檔
 
 ---
 
@@ -356,22 +356,22 @@ Create product comment interface, allowing users to review purchased products.
 
 ### 一致的执行（Consistent Execution）
 
-**按照预定义的工作流程和标准执行任务：**
+# 工作流
 
 ```
 传统方式（无 Skills）:
 每次对话都可能有不同的执行方式
-├─ 第 1 次：使用方法 A
-├─ 第 2 次：使用方法 B
-├─ 第 3 次：使用方法 C
-└─ 输出不一致 ❌
+# 方法
+# 方法
+# 方法
+# 輸出
 
 Skills 方式:
 所有任务都按照 Skill 中的标准执行
-├─ 第 1 次：使用标准方法
-├─ 第 2 次：使用标准方法
-├─ 第 3 次：使用标准方法
-└─ 输出一致 ✅
+# 方法
+# 方法
+# 方法
+# 輸出
 ```
 
 **实际示例：**
@@ -415,14 +415,14 @@ public class Comment {
 
 ### 提升速度（Speed Improvement）
 
-**通过预加载的知识减少思考时间：**
+# 知識
 
 ```
 传统方式:
 1. 接收任务
 2. 思考如何执行
-3. 查找相关规范
-4. 分析最佳实践
+# 尋找
+# 分析
 5. 执行任务
    └─ 耗时：较长 ❌
 
@@ -437,26 +437,26 @@ Skills 方式:
 
 | 原因 | 说明 | 效果 |
 |------|------|------|
-| **预加载知识** | Skills 包含最佳实践和标准 | 减少查找时间 |
-| **标准流程** | 预定义的工作流程 | 减少思考时间 |
-| **一致输出** | 已知的标准和规范 | 减少验证时间 |
+# 知識
+# 工作流
+# 輸出
 | **按需加载** | 只加载必要内容 | 减少加载时间 |
 
 **实际效果：**
 
 ```
-任务：创建商品评论功能
+# 創建
 
 传统方式：
-├─ 思考：如何设计 API？
-├─ 查找：项目规范在哪里？
-├─ 分析：需要考虑哪些方面？
+# 設計
+# 專案
+# 分析
 ├─ 执行：开始编码...
 └─ 总耗时：较长
 
 Skills 方式：
-├─ 加载：mall-api-development Skill（已知 API 设计标准）
-├─ 应用：直接按照标准设计 API
+# 設計
+# 設計
 ├─ 加载：mall-multi-tenant Skill（已知多租户隔离标准）
 ├─ 应用：直接按照标准实现隔离
 ├─ 加载：mall-crud-generator Skill（已知 CRUD 生成规则）
@@ -466,16 +466,16 @@ Skills 方式：
 
 ### 质量保证（Quality Assurance）
 
-**确保输出符合组织或个人标准：**
+# 輸出
 
 ```
 质量保证机制：
 
 1. 语言规范
-   └─ 所有输出使用简体中文 ✅
+# 輸出
 
 2. 代码规范
-   └─ 符合项目编码标准 ✅
+# 專案
 
 3. API 规范
    └─ 遵循 RESTful 标准 ✅
@@ -483,27 +483,27 @@ Skills 方式：
 4. 多租户规范
    └─ 正确实现租户隔离 ✅
 
-5. 文档规范
+# 文檔
    └─ 包含必要的使用说明 ✅
 
-结果：所有输出都符合标准 ✅
+# 輸出
 ```
 
 **实际示例：**
 
 ```java
-// 输出：符合所有规范的代码
+# 輸出
 
 @Service
 public class ProductCommentService {
 
     /**
-     * 创建商品评论
+# 創建
      * 符合规范：
      * 1. 简体中文注释 ✅
      * 2. 标准命名 ✅
      * 3. 多租户隔离 ✅
-     * 4. 完整文档 ✅
+# 文檔
      */
     public Long createComment(ProductCommentDTO dto) {
         // 1. 验证租户权限
@@ -516,7 +516,7 @@ public class ProductCommentService {
         comment.setContent(dto.getContent());
         comment.setTenantId(dto.getTenantId());
 
-        // 3. 保存数据
+# 儲存
         productCommentMapper.insert(comment);
 
         // 4. 返回结果
@@ -531,12 +531,12 @@ public class ProductCommentService {
 
 ### 详细对比表
 
-| 场景 | 传统 CLAUDE.md | Skills 方案 | 节省比例 |
+# 場景
 |------|---------------|-------------|----------|
-| 简单文档编写 | 25,000 tokens | 2,000 tokens | **92%** |
-| 功能开发 | 25,000 tokens | 12,000 tokens | **52%** |
+# 文檔
+# 開發
 | 代码审查 | 25,000 tokens | 6,500 tokens | **74%** |
-| Bug 修复 | 25,000 tokens | 8,000 tokens | **68%** |
+# 修復
 | **平均消耗** | **25,000 tokens** | **约 7,000 tokens** | **约 72%** |
 
 ### 每日成本对比
@@ -561,8 +561,8 @@ Skills 方案：
 - **Skills 简介**：[[./skills-introduction/theme.md|了解 Claude Skills 的基本概念]]
 - **Skills 工作原理**：[[./skills-mechanism/theme.md|了解加载机制和执行流程]]
 - **Skills vs MCP**：[[./skills-vs-mcp/theme.md|比较 Skills 和 MCP 的区别]]
-- **Skills 实施方案**：[[./skills-implementation/theme.md|学习如何实施 Skills]]
-- **Skills 优化效果**：[[./skills-optimization/theme.md|Token 消耗对比和实际收益]]
+- **Skills 实施方案**：[[./skills-implementation/theme.md|學習如何实施 Skills]]
+# 優化
 
 ---
 
@@ -570,22 +570,22 @@ Skills 方案：
 
 Claude Skills 的核心特性：
 
-### 1. Token 效率优化
+# 效率
 - ✅ 惰性加载机制
 - ✅ 渐进式披露
 - ✅ 按需加载
 - ✅ 节省 72% Token
 
-### 2. 知识注入方法
-- ✅ 直接专业知识
+# 知識
+# 專業知識
 - ✅ 操作一致性
-- ✅ 参考文档
+# 文檔
 - ✅ 模板资产
 
 ### 3. 一致性和速度
 - ✅ 一致的执行
 - ✅ 提升速度（60% 以上）
 - ✅ 质量保证
-- ✅ 标准化输出
+# 輸出
 
-这些特性共同构成了 Skills 强大的知识管理能力，既节省了 Token，又提升了效率和质量。
+# 管理

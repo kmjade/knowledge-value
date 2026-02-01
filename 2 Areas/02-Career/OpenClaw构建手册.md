@@ -3,35 +3,35 @@ title: OpenClaw构建手册
 status: active
 priority: high
 tags: [openclaw, build, deployment]
-aliases: [构建指南, 部署手册]
+# 指南
 created: 2024-01-30
 updated: 2024-01-30
 ---
 
 # OpenClaw构建手册
 
-## 构建架构设计
+# 設計
 
-### 构建系统概览
+# 系統
 
 ```mermaid
 graph TB
     subgraph "代码仓库"
         REPO[源代码仓库]
         PLUGINS[插件仓库]
-        DOCS[文档仓库]
+# 文檔
     end
     
     subgraph "构建流水线"
         LINT[代码检查]
-        TEST[自动化测试]
+# 測試
         BUILD[应用程序构建]
         DOCKER[Docker镜像构建]
     end
     
-    subgraph "部署环境"
-        DEV[开发环境]
-        STAGING[预发布环境]
+# 部署
+# 開發
+# 發佈
         PROD[生产环境]
     end
     
@@ -48,9 +48,9 @@ graph TB
     DOCS --> BUILD
 ```
 
-## 开发环境构建
+# 開發
 
-### 本地开发环境
+# 開發
 
 #### 1. 环境准备
 ```bash
@@ -59,10 +59,10 @@ sudo apt-get update
 sudo apt-get install python3.9 python3.9-venv python3.9-dev gcc g++ make
 
 # Windows
-# 安装Python 3.9+从python.org
-# 安装Microsoft Visual C++ Build Tools
+# 安裝
+# 安裝
 
-# 系统依赖（Ubuntu）
+# 系統
 sudo apt-get install -y build-essential libpq-dev libssl-dev libffi-dev
 ```
 
@@ -72,40 +72,40 @@ sudo apt-get install -y build-essential libpq-dev libssl-dev libffi-dev
 git clone https://github.com/openclaw/openclaw.git
 cd openclaw
 
-# 创建虚拟环境
+# 創建
 python3 -m venv venv
 source venv/bin/activate  # Linux/macOS
 # venv\Scripts\activate     # Windows
 
-# 安装依赖
+# 安裝
 pip install --upgrade pip
 pip install -r requirements.txt
 pip install -r requirements-dev.txt
 
-# 安装前端依赖
+# 安裝
 cd frontend
 npm install
 npm run build
 cd ..
 
-# 配置环境变量
+# 配置
 cp .env.example .env
-# 编辑.env文件
+# 檔案
 ```
 
-#### 3. 数据库初始化
+# 數據
 ```bash
-# 创建数据库
+# 創建
 createdb openclaw_dev
 
 # 运行迁移
 alembic upgrade head
 
-# 创建初始数据
+# 創建
 python scripts/create_initial_data.py
 ```
 
-#### 4. 启动开发服务
+# 開發
 ```bash
 # 启动基础服务（Redis、PostgreSQL）
 docker-compose -f docker-compose.dev.yml up -d
@@ -118,12 +118,12 @@ python run.py
 # 或者使用uvicorn（推荐）
 uvicorn core.app:app --reload --host 0.0.0.0 --port 8000
 
-# 启动前端开发服务器（新终端）
+# 開發
 cd frontend
 npm run dev
 ```
 
-### Docker开发环境
+# 開發
 
 #### 1. Dockerfile
 ```dockerfile
@@ -132,7 +132,7 @@ FROM python:3.9-slim
 
 WORKDIR /app
 
-# 安装系统依赖
+# 系統
 RUN apt-get update && apt-get install -y \
     gcc \
     g++ \
@@ -140,11 +140,11 @@ RUN apt-get update && apt-get install -y \
     curl \
     && rm -rf /var/lib/apt/lists/*
 
-# 安装Python依赖
+# 安裝
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-# 安装前端依赖
+# 安裝
 WORKDIR /app/frontend
 COPY frontend/package.json frontend/package-lock.json ./
 RUN npm ci --only=production
@@ -168,7 +168,7 @@ HEALTHCHECK --interval=30s --timeout=30s --start-period=5s --retries=3 \
 CMD ["uvicorn", "core.app:app", "--host", "0.0.0.0", "--port", "8000"]
 ```
 
-#### 2. Docker Compose开发配置
+# 開發
 ```yaml
 # docker-compose.dev.yml
 version: '3.8'
@@ -216,53 +216,53 @@ volumes:
   node_modules:
 ```
 
-#### 3. 开发工具脚本
+# 開發
 ```bash
 #!/bin/bash
 # scripts/dev-setup.sh
 
-echo "🚀 设置OpenClaw开发环境..."
+# 開發
 
 # 检查Docker
 if ! command -v docker &> /dev/null; then
-    echo "❌ Docker未安装，请先安装Docker"
+# 安裝
     exit 1
 fi
 
 # 检查Docker Compose
 if ! command -v docker-compose &> /dev/null; then
-    echo "❌ Docker Compose未安装，请先安装Docker Compose"
+# 安裝
     exit 1
 fi
 
-# 启动开发环境
-echo "📦 启动开发环境..."
+# 開發
+# 開發
 docker-compose -f docker-compose.dev.yml up -d
 
-# 等待数据库启动
-echo "⏳ 等待数据库启动..."
+# 數據
+# 數據
 sleep 10
 
-# 运行数据库迁移
-echo "🔄 运行数据库迁移..."
+# 數據
+# 數據
 docker-compose -f docker-compose.dev.yml exec app alembic upgrade head
 
-# 创建初始数据
-echo "📝 创建初始数据..."
+# 創建
+# 創建
 docker-compose -f docker-compose.dev.yml exec app python scripts/create_initial_data.py
 
-echo "✅ 开发环境设置完成！"
+# 開發
 echo "🌐 Web界面: http://localhost:8000"
-echo "📊 API文档: http://localhost:8000/docs"
-echo "📊 管理界面: http://localhost:8000/admin"
+# 文檔
+# 管理
 
 # 获取日志
 docker-compose -f docker-compose.dev.yml logs -f app
 ```
 
-## 构建系统配置
+# 系統
 
-### 构建工具配置
+# 配置
 
 #### 1. Makefile
 ```makefile
@@ -272,22 +272,22 @@ docker-compose -f docker-compose.dev.yml logs -f app
 # 默认目标
 help:
 	@echo "可用的构建命令:"
-	@echo "  make install     - 安装依赖"
-	@echo "  make test        - 运行测试"
+# 安裝
+# 測試
 	@echo "  make lint        - 代码检查"
 	@echo "  make format      - 代码格式化"
-	@echo "  make coverage    - 测试覆盖率"
+# 測試
 	@echo "  make build       - 构建应用"
-	@echo "  make publish     - 发布应用"
+# 發佈
 
-# 安装依赖
+# 安裝
 install:
 	pip install --upgrade pip
 	pip install -r requirements.txt
 	pip install -r requirements-dev.txt
 	cd frontend && npm install
 
-# 运行测试
+# 測試
 test:
 	pytest tests/ -v --cov=core --cov-report=html --cov-report=term
 
@@ -304,11 +304,11 @@ format:
 	isort core/
 	cd frontend && npm run format
 
-# 测试覆盖率
+# 測試
 coverage:
 	pytest tests/ --cov=core --cov-report=html --cov-fail-under=80
 
-# 清理临时文件
+# 檔案
 clean:
 	find . -name "*.pyc" -delete
 	find . -name "__pycache__" -type d -exec rm -rf {} +
@@ -319,7 +319,7 @@ build:
 	docker build -t openclaw/core:latest .
 	docker build -t openclaw/frontend:latest -f frontend/Dockerfile frontend/
 
-# 发布包
+# 發佈
 publish: clean
 	python setup.py bdist_wheel
 	twine upload dist/*
@@ -378,7 +378,7 @@ testpaths = [
 ]
 ```
 
-#### 3. GitHub Actions工作流
+# 工作流
 ```yaml
 # .github/workflows/ci.yml
 name: CI
@@ -484,7 +484,7 @@ jobs:
 
 ### React应用构建
 
-#### 1. 构建配置
+# 配置
 ```javascript
 // frontend/vite.config.js
 import { defineConfig } from 'vite'
@@ -538,7 +538,7 @@ FROM node:18-alpine as builder
 
 WORKDIR /app
 
-# 安装依赖
+# 安裝
 COPY package.json package-lock.json ./
 RUN npm ci --only=production
 
@@ -552,7 +552,7 @@ FROM nginx:alpine
 # 复制构建结果
 COPY --from=builder /app/dist /usr/share/nginx/html
 
-# 复制nginx配置
+# 配置
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 
 EXPOSE 80
@@ -560,9 +560,9 @@ EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]
 ```
 
-## 生产环境部署
+# 部署
 
-### Docker部署
+# 部署
 
 #### 1. 生产Dockerfile
 ```dockerfile
@@ -571,22 +571,22 @@ FROM python:3.9-slim as builder
 
 WORKDIR /app
 
-# 安装构建依赖
+# 安裝
 RUN apt-get update && apt-get install -y \
     build-essential \
     libpq-dev \
     && rm -rf /var/lib/apt/lists/*
 
-# 安装Python依赖
+# 安裝
 COPY requirements.txt .
 RUN pip install --user --no-cache-dir -r requirements.txt
-# 将用户site-packages添加到PATH
+# 新增
 ENV PATH=/root/.local/bin:/root/.local:$PATH
 
 # 生产镜像
 FROM python:3.9-slim
 
-# 安装运行时依赖
+# 安裝
 RUN apt-get update && apt-get install -y \
     libpq5 \
     curl \
@@ -596,11 +596,11 @@ RUN apt-get update && apt-get install -y \
 COPY --from=builder /root/.local /root/.local
 ENV PATH=/root/.local/bin:/root/.local:$PATH
 
-# 添加应用代码
+# 新增
 WORKDIR /app
 COPY . .
 
-# 创建非root用户
+# 創建
 RUN useradd --create-home --shell /bin/bash openclaw
 USER openclaw
 
@@ -718,14 +718,14 @@ volumes:
   log_files:
 ```
 
-#### 3. 生产部署脚本
+# 部署
 ```bash
 #!/bin/bash
 # scripts/deploy-prod.sh
 
 set -e
 
-echo "🚀 部署OpenClaw到生产环境..."
+# 部署
 
 # 检查环境变量
 if [ -z "$SECRET_KEY" ] || [ -z "$DB_PASSWORD" ]; then
@@ -733,8 +733,8 @@ if [ -z "$SECRET_KEY" ] || [ -z "$DB_PASSWORD" ]; then
     exit 1
 fi
 
-# 备份数据库
-echo "📦 备份数据库..."
+# 備份
+# 備份
 docker-compose -f docker-compose.prod.yml exec postgres pg_dump -U openclaw openclaw > backup_$(date +%Y%m%d_%H%M%S).sql
 
 # 拉取最新代码
@@ -745,8 +745,8 @@ git pull origin main
 echo "🔨 构建Docker镜像..."
 docker-compose -f docker-compose.prod.yml build
 
-# 运行数据库迁移
-echo "🔄 运行数据库迁移..."
+# 數據
+# 數據
 docker-compose -f docker-compose.prod.yml exec -T app alembic upgrade head
 
 # 重启服务
@@ -759,9 +759,9 @@ sleep 30
 
 # 检查服务状态
 if curl -f http://localhost/health; then
-    echo "✅ 部署成功！"
+# 部署
 else
-    echo "❌ 部署失败，进行回滚..."
+# 部署
     # 回滚逻辑
     docker-compose -f docker-compose.prod.yml down
     git reset --hard HEAD~1
@@ -773,12 +773,12 @@ fi
 echo "🧹 清理旧镜像..."
 docker image prune -f
 
-echo "🎉 部署完成！"
+# 部署
 ```
 
-### Kubernetes部署
+# 部署
 
-#### 1. 清单文件
+# 檔案
 ```yaml
 # k8s/namespace.yaml
 apiVersion: v1
@@ -988,7 +988,7 @@ spec:
             cpu: "200m"
 ```
 
-#### 2. 部署脚本
+# 部署
 ```bash
 #!/bin/bash
 # scripts/k8s-deploy.sh
@@ -998,35 +998,35 @@ set -e
 NAMESPACE="openclaw"
 ENVIRONMENT="production"
 
-echo "🚀 部署OpenClaw到Kubernetes集群..."
+# 部署
 
 # 检查kubectl
 if ! command -v kubectl &> /dev/null; then
-    echo "❌ kubectl未安装"
+# 安裝
     exit 1
 fi
 
-# 创建命名空间
-echo "📦 创建命名空间..."
+# 創建
+# 創建
 kubectl create namespace $NAMESPACE --dry-run=client -o yaml | kubectl apply -f -
 
-# 应用配置
-echo "⚙️ 应用配置..."
+# 配置
+# 配置
 kubectl apply -f k8s/configmap.yaml
 kubectl apply -f k8s/secret.yaml
 
-# 部署数据库
-echo "🗄️ 部署数据库..."
+# 部署
+# 部署
 kubectl apply -f k8s/postgres.yaml
 kubectl apply -f k8s/redis.yaml
 
-# 等待数据库就绪
-echo "⏳ 等待数据库就绪..."
+# 數據
+# 數據
 kubectl wait --for=condition=ready pod -l app=postgres -n $NAMESPACE --timeout=300s
 kubectl wait --for=condition=ready pod -l app=redis -n $NAMESPACE --timeout=300s
 
-# 部署应用
-echo "🚀 部署应用..."
+# 部署
+# 部署
 kubectl apply -f k8s/deployment.yaml
 
 # 等待应用就绪
@@ -1038,8 +1038,8 @@ echo "🌐 暴露服务..."
 kubectl apply -f k8s/service.yaml
 kubectl apply -f k8s/ingress.yaml
 
-# 检查部署状态
-echo "📊 检查部署状态..."
+# 部署
+# 部署
 kubectl get all -n $NAMESPACE
 
 # 健康检查
@@ -1047,25 +1047,25 @@ echo "🔍 健康检查..."
 # 获取Ingress IP
 INGRESS_IP=$(kubectl get ingress openclaw-ingress -n $NAMESPACE -o jsonpath='{.status.loadBalancer.ingress[0].ip}')
 if [ -n "$INGRESS_IP" ]; then
-    echo "✅ 部署成功！"
+# 部署
     echo "🌐 访问地址: http://$INGRESS_IP"
     echo "🔒 HTTPS地址: https://openclaw.example.com"
 else
-    echo "⚠️ 部署完成，但无法获取外部IP"
+# 部署
 fi
 
-# 运行数据库迁移
-echo "🔄 运行数据库迁移..."
+# 數據
+# 數據
 kubectl exec -n $NAMESPACE deployment/openclaw-app -- alembic upgrade head
 
-echo "🎉 部署完成！"
+# 部署
 ```
 
 ## 监控与运维
 
-### 监控配置
+# 配置
 
-#### 1. Prometheus配置
+# 配置
 ```yaml
 # monitoring/prometheus.yml
 global:
@@ -1137,9 +1137,9 @@ alerting:
 }
 ```
 
-### 日志管理
+# 管理
 
-#### 1. 日志配置
+# 配置
 ```yaml
 # logging/logging.yaml
 version: 1
@@ -1199,15 +1199,15 @@ logging.files:
   permissions: 0644
 ```
 
-## 相关文档
+# 文檔
 
-- [[OpenClaw项目]] - 项目总览
-- [[OpenClaw技术架构]] - 技术设计
-- [[OpenClaw开发指南]] - 开发教程
-- [[插件开发指南]] - 插件开发
-- [[Docker最佳实践]] - 容器化指南
+# 專案
+# 設計
+# 開發
+# 開發
+# 指南
 
 ---
-*创建时间: 2024-01-30*
-*更新时间: 2024-01-30*
-*分类: 2 Areas*
+# 創建
+# 更新
+# 分類

@@ -28,7 +28,7 @@ MQL4 (MetaQuotes Language 4) 是一種用於開發交易策略、技術指標、
 ## 交易函數
 - `OrderSend()`: 發送交易訂單。
 - `OrderClose()`: 關閉現有訂單。
-- `OrderModify()`: 修改訂單參數。
+# 修改
 - `OrderSelect()`: 選擇要處理的訂單。
 - `OrderLots()`: 獲取訂單的手數。
 - `OrderProfit()`: 獲取訂單的利潤。

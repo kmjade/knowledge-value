@@ -2,7 +2,7 @@
 
 ## 概述
 
-了解 Claude Skills 的工作机制，包括渐进式披露流程、加载时机和执行过程。这有助于更好地设计和使用 Skills。
+# 設計
 
 ---
 
@@ -17,54 +17,54 @@
 └─────────────┘    └─────────────┘    └─────────────┘    └─────────────┘
       │                  │                  │                  │
       ▼                  ▼                  ▼                  ▼
- 查看可用的     判断哪些与        仅加载必要的      应用技能指令
-   skills         当前任务相关        信息              完成任务
+# 查看
+# 資訊
 ```
 
 ### 详细步骤
 
 #### 第 1 步：审查（Review）
 
-**Claude 查看可用的 skills**
+# 查看
 
-- 扫描 `.claude/skills/` 目录
+# 目錄
 - 识别所有可用的 Skill 名称
-- 读取每个 Skill 的简短描述
-- **不加载完整内容**，只获取元数据
+# 讀取
+# 數據
 
-**示例输出：**
+# 輸出
 ```
 发现 8 个可用 Skills:
 1. chinese-first-rule - 中文优先规范
 2. context-retrieval-checklist - 上下文检索强制清单
-3. five-stage-workflow - 五阶段开发工作流程
+# 開發
 4. mandatory-verification - 强制验证机制
 5. mall-crud-generator - Mall CRUD 代码生成器
 6. mall-code-review - Mall 代码审查
-7. mall-multi-tenant - Mall 多租户开发
-8. mall-api-development - Mall API 开发规范
+# 開發
+# 開發
 ```
 
 #### 第 2 步：确定（Determine）
 
 **判断哪些与当前任务相关**
 
-- 分析用户请求的类型
-- 识别任务所需的知识领域
+# 分析
+# 知識
 - 匹配最相关的 Skills
-- 按相关性排序
+# 排序
 
-**示例场景分析：**
+# 分析
 
-| 用户请求 | 分析 | 相关 Skills |
+# 分析
 |---------|------|-----------|
-| "帮我写一个 README" | 文档编写任务 | chinese-first-rule |
-| "创建商品评论功能" | 功能开发任务 | chinese-first-rule, context-retrieval, five-stage-workflow, mandatory-verification, mall-crud-generator, mall-multi-tenant, mall-api-development |
+# 文檔
+# 開發
 | "审查这段代码" | 代码审查任务 | chinese-first-rule, mall-code-review, mall-multi-tenant, mall-api-development |
 
 #### 第 3 步：加载（Load）
 
-**仅加载必要的信息**
+# 資訊
 
 - 从高相关性到低相关性加载
 - **不是加载全部内容**，而是选择性加载
@@ -85,7 +85,7 @@
 **示例加载流程：**
 
 ```
-任务：创建商品评论功能
+# 創建
 
 第 1 轮加载（高相关性）:
   ✅ chinese-first-rule（200 行）
@@ -101,7 +101,7 @@
   ❓ 如果需要，加载 mall-api-development（645 行）
 
 未加载（不相关）:
-  ❌ mall-code-review（开发时不需要）
+# 開發
 ```
 
 #### 第 4 步：应用（Apply）
@@ -110,7 +110,7 @@
 
 - 根据 Skills 中的指令执行任务
 - 遵循最佳实践和规范
-- 生成符合标准的输出
+# 輸出
 - 在需要时加载更多 Skills
 
 ---
@@ -123,9 +123,9 @@ Skills 在以下情况下被触发加载：
 
 | 触发条件 | 说明 | 示例 |
 |---------|------|------|
-| **任务类型匹配** | 任务描述与 Skill 描述匹配 | 用户说"创建新功能" → 加载开发流程 Skill |
+# 開發
 | **关键词触发** | 请求中包含特定关键词 | 提到"API" → 加载 API 规范 Skill |
-| **文件类型** | 操作特定类型的文件 | 编辑 `.md` 文件 → 加载 Markdown 规范 Skill |
+# 檔案
 | **显式调用** | 用户明确要求使用某个 Skill | "使用 code-review Skill" |
 | **上下文依赖** | Skills 之间互相引用 | context-retrieval Skill 引用 five-stage-workflow Skill |
 
@@ -157,7 +157,7 @@ Skills 按以下优先级加载：
   └─ 例如：中文优先规范（所有任务都需要）
 
 优先级 2：任务相关 Skills
-  └─ 例如：开发流程（开发任务）、代码审查（审查任务）
+# 開發
 
 优先级 3：领域相关 Skills
   └─ 例如：API 规范（API 相关）、多租户（多租户相关）
@@ -178,7 +178,7 @@ Skills 按以下优先级加载：
    ▼
 ┌─────────────────────────────┐
 │ 1. 上下文识别              │
-│    - 分析用户请求           │
+# 分析
 │    - 理解当前上下文        │
 │    - 识别任务类型           │
 └─────────────────────────────┘
@@ -201,7 +201,7 @@ Skills 按以下优先级加载：
    │
    ▼
 ┌─────────────────────────────┐
-│ 4. 知识应用                │
+# 知識
 │    - 应用技能中的指令       │
 │    - 遵循最佳实践          │
 │    - 执行任务              │
@@ -209,35 +209,35 @@ Skills 按以下优先级加载：
    │
    ▼
 ┌─────────────────────────────┐
-│ 5. 输出生成                │
+# 輸出
 │    - 按照技能标准生成       │
 │    - 确保符合规范           │
 │    - 提供结果              │
 └─────────────────────────────┘
    │
    ▼
-生成输出
+# 輸出
 ```
 
 ### 详细说明
 
 #### 1. 上下文识别（Context Recognition）
 
-**分析用户请求和当前上下文：**
+# 分析
 
 - **用户意图** - 用户想做什么？
-- **任务类型** - 开发、审查、文档、其他？
-- **涉及领域** - API、数据库、前端、后端？
+# 開發
+# 數據
 - **复杂度评估** - 简单任务还是复杂任务？
 
 **示例：**
 ```
-用户请求："帮我创建一个商品评论功能"
+# 創建
 
 上下文识别结果：
-├─ 意图：创建新功能
-├─ 任务类型：功能开发
-├─ 涉及领域：电商、API、数据库、后端
+# 創建
+# 開發
+# 數據
 └─ 复杂度：复杂（需要多个步骤）
 ```
 
@@ -251,15 +251,15 @@ Skills 按以下优先级加载：
              mall-crud-generator, mall-code-review,
              mall-multi-tenant, mall-api-development]
 
-匹配分析：
+# 分析
 ├─ chinese-first-rule: 相关性 100%（所有任务都需要）
 ├─ context-retrieval-checklist: 相关性 90%（编码前必须）
-├─ five-stage-workflow: 相关性 85%（开发任务）
-├─ mandatory-verification: 相关性 80%（开发任务）
+# 開發
+# 開發
 ├─ mall-crud-generator: 相关性 75%（生成 CRUD 代码）
 ├─ mall-multi-tenant: 相关性 70%（涉及多租户）
-├─ mall-api-development: 相关性 85%（开发 API）
-└─ mall-code-review: 相关性 10%（开发时不需要）
+# 開發
+# 開發
 
 选择结果：
 ✅ 高相关性：chinese-first-rule, context-retrieval-checklist,
@@ -269,7 +269,7 @@ Skills 按以下优先级加载：
 ❌ 不相关：mall-code-review
 ```
 
-#### 3. 知识应用（Knowledge Application）
+# 知識
 
 **应用技能中的指令和最佳实践：**
 
@@ -277,13 +277,13 @@ Skills 按以下优先级加载：
 应用 Skills 指令：
 
 1. 遵循 chinese-first-rule：
-   ✓ 所有输出使用简体中文
+# 輸出
    ✓ 代码注释使用简体中文
-   ✓ 文档使用简体中文
+# 文檔
 
 2. 执行 context-retrieval-checklist：
-   ✓ 第 1 步：查看项目结构
-   ✓ 第 2 步：分析相关文件
+# 專案
+# 分析
    ✓ ...
    ✓ 第 7 步：验证理解
 
@@ -306,19 +306,19 @@ Skills 按以下优先级加载：
    ✓ 生成 Controller
 ```
 
-#### 4. 输出生成（Output Generation）
+# 輸出
 
 **按照技能标准生成结果：**
 
 ```
-生成符合规范的输出：
+# 輸出
 
 ✅ 语言：简体中文
-✅ 代码风格：符合项目规范
-✅ API 设计：遵循 RESTful 标准
+# 專案
+# 設計
 ✅ 多租户支持：正确实现租户隔离
 ✅ 代码注释：详细且清晰
-✅ 文档完整：包含使用说明
+# 文檔
 ```
 
 ---
@@ -327,11 +327,11 @@ Skills 按以下优先级加载：
 
 ### 1. 智能匹配
 
-Claude 会智能分析任务，自动选择最相关的 Skills，无需用户手动指定。
+# 分析
 
 ### 2. 渐进式披露
 
-Skills 内容采用渐进式披露，防止一次性加载过多信息导致上下文过载。
+# 資訊
 
 ### 3. 按需加载
 
@@ -345,15 +345,15 @@ Claude 会考虑整个对话上下文，动态调整 Skills 的加载策略。
 
 ## 实际示例
 
-### 示例 1：简单文档编写
+# 文檔
 
 ```
 用户：帮我写一个 README
 
 执行过程：
 1. 上下文识别
-   - 意图：编写文档
-   - 任务类型：文档编写
+# 文檔
+# 文檔
    - 复杂度：简单
 
 2. 技能匹配
@@ -363,25 +363,25 @@ Claude 会考虑整个对话上下文，动态调整 Skills 的加载策略。
 3. 渐进式加载
    - 加载 chinese-first-rule（200 行）
 
-4. 知识应用
+# 知識
    - 使用简体中文编写
 
-5. 输出生成
+# 輸出
    - 生成符合规范的 README
 
 Token 消耗：约 2,000 tokens
 ```
 
-### 示例 2：复杂功能开发
+# 開發
 
 ```
-用户：创建商品评论功能
+# 創建
 
 执行过程：
 1. 上下文识别
-   - 意图：创建新功能
-   - 任务类型：功能开发
-   - 涉及领域：API、数据库、多租户
+# 創建
+# 開發
+# 數據
    - 复杂度：复杂
 
 2. 技能匹配
@@ -396,10 +396,10 @@ Token 消耗：约 2,000 tokens
    - 第 1 轮：加载核心 Skills（约 1,500 行）
    - 第 2 轮：加载领域 Skills（约 1,000 行）
 
-4. 知识应用
+# 知識
    - 应用所有相关 Skills 的指令
 
-5. 输出生成
+# 輸出
    - 生成符合所有规范的完整功能
 
 Token 消耗：约 12,000 tokens
@@ -410,24 +410,24 @@ Token 消耗：约 12,000 tokens
 ## 相关主题
 
 - **Skills 简介**：[[./skills-introduction/theme.md|了解 Claude Skills 的基本概念]]
-- **Skills 核心特性**：[[./skills-features/theme.md|深入了解 Token 效率优化]]
+# 效率
 - **Skills vs MCP**：[[./skills-vs-mcp/theme.md|比较 Skills 和 MCP 的区别]]
-- **Skills 实施方案**：[[./skills-implementation/theme.md|学习如何实施 Skills]]
-- **Skills 优化效果**：[[./skills-optimization/theme.md|Token 消耗对比分析]]
+- **Skills 实施方案**：[[./skills-implementation/theme.md|學習如何实施 Skills]]
+# 優化
 
 ---
 
 ## 总结
 
-Claude Skills 通过**渐进式披露流程**和**智能按需加载**，实现了高效的知识管理：
+# 管理
 
-- **审查** → 查看 Skills 列表
+# 查看
 - **确定** → 匹配相关 Skills
 - **加载** → 仅加载必要内容
 - **应用** → 执行任务
 
 这种机制确保了：
-1. **Token 效率** - 只加载必要的内容
+# 效率
 2. **响应速度** - 减少加载时间
 3. **灵活性** - 根据任务动态调整
-4. **可扩展性** - 轻松添加新 Skills
+# 新增

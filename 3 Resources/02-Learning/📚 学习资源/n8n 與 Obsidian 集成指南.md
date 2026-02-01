@@ -1,33 +1,33 @@
 ---
-title: n8n 與 Obsidian 集成指南
+# 指南
 date: 2026-01-23
-tags: [n8n, Obsidian, 集成, 工作流, 自動化]
+# 工作流
 para: resources
 status: active
 language: zh-tw
 ---
 
-# n8n 與 Obsidian 集成指南
+# 指南
 
 > [!info] 概述
-> n8n 是一個開源的工作流自動化工具，可與 Obsidian 透過 Local REST API 插件進行集成，實現從 RSS → AI → Obsidian 的完整自動化生產線。
+# 工作流
 
 ---
 
 ## 一、n8n 的安裝與啟動
 
-### 方法一：透過 Node.js 安裝（推薦新手）
+# 方法
 
 #### 前置條件
 
-安裝 Node.js，訪問 [Node.js 官網](https://nodejs.org/) 下載並安裝最新 LTS 版本。
+# 版本
 
 ```bash
 node -v
 npm -v
 ```
 
-若能正常顯示版本號，則說明安裝成功。
+# 版本
 
 #### 全域安裝 n8n
 
@@ -45,7 +45,7 @@ n8n
 
 ---
 
-### 方法二：透過 Docker 安裝
+# 方法
 
 #### 前置條件
 
@@ -61,19 +61,19 @@ docker run -it --rm --name n8n -p 5678:5678 -v ~/.n8n:/home/node/.n8n n8nio/n8n
 
 #### 首次設置
 
-首次訪問 n8n 需要設定一個管理員帳戶。完成註冊後即可進入 n8n 主介面。
+# 管理
 
 ---
 
-## 二、Obsidian 配置
+# 配置
 
-### 安裝插件
+### 安裝外掛
 
-在 Obsidian 中，進入 `設定` → `第三方插件` → `社群插件市集`，搜尋並安裝 `Local REST API` 插件。
+在 Obsidian 中，進入 `設定` → `第三方外掛` → `社群外掛市集`，搜尋並安裝 `Local REST API` 外掛。
 
-### 啟用並配置 Local REST API
+# 配置
 
-安裝後啟用該插件：
+安裝後啟用該外掛：
 
 - **開啟 HTTP 服務**：找到並開啟 `Enable Non-encrypted (HTTP) Server` 開關
 - **獲取 API Key**：複製頁面上的 `Your API Key`（這是後續操作的身份憑證）
@@ -81,13 +81,13 @@ docker run -it --rm --name n8n -p 5678:5678 -v ~/.n8n:/home/node/.n8n n8nio/n8n
 
 ---
 
-## 三、n8n 工作流配置
+# 工作流
 
-### 工作流 1：讀取 Vault 目錄表
+# 工作流
 
-在 n8n 主頁點擊 `Create Workflow` 創建新工作流。
+# 工作流
 
-**配置節點：**
+# 配置
 
 | 項定 | 設定 |
 |------|--------|
@@ -99,13 +99,13 @@ docker run -it --rm --name n8n -p 5678:5678 -v ~/.n8n:/home/node/.n8n n8nio/n8n
 | **Name** | `Obsidian API Key` |
 | **Bearer Token** | 粘上步驟中複製的 API Key |
 
-**測試：** 點擊節點右上角的 `Execute step`。若配置正確，右側的 `OUTPUT` 區域將顯示包含您 Vault 的 JSON 物件。
+# 配置
 
 ---
 
-### 工作流 2：建立新筆記
+# 工作流
 
-**修改節點：**
+# 修改
 
 | 設定 | 新值 |
 |------|------|
@@ -125,39 +125,39 @@ docker run -it --rm --name n8n -p 5678:5678 -v ~/.n8n:/home/node/.n8n n8nio/n8n
 
 ---
 
-## 四、建構自動化工作流：RSS → AI → Obsidian
+# 工作流
 
-### 工作流概覽
+# 工作流
 
 ```mermaid
 flowchart LR
-RSS[订阅源] -->|AI智譜 GLM]
-RSS[读取節點] -->|AI摘要生成節點]
+RSS[訂閱源] -->|AI智譜 GLM]
+RSS[讀取節點] -->|AI摘要生成節點]
 AI摘要節點[摘要文案] -->|HTTP請求節點]
 HTTP請求節點] -->|Obsidian筆記建立節點]
 Obsidian筆記建立節點[筆記內容] -->|完成
 ```
 
-### 步驟一：添加 RSS 讀取節點
+### 步驟一：新增 RSS 讀取節點
 
-在工作流中添加一個 `RSS Read` 節點：
+# 工作流
 
-**配置：**
+# 配置
 - **URL**: 輸入您想訂閱的 RSS 來源地址
 
 **執行：** 點擊節點右上角的 `Execute step`
 
 ---
 
-### 步驟二：添加 AI 處理節點
+### 步驟二：新增 AI 處理節點
 
-添加 `OpenAI` 節點並配置智譜 GLM：
+# 配置
 
-**配置：**
+# 配置
 - **Resource**: `Chat`
 - **Model**: 將輸入模型 ID，例如 `"glm-4-flash"`
 
-**提示詞配置**：在左側 `INPUT` 模板中，將上一步 RSS 節點的輸出（如 `description` 欄位）拖曳到提示詞中。
+# 配置
 
 **範例提示詞：**
 ```markdown
@@ -168,16 +168,16 @@ Obsidian筆記建立節點[筆記內容] -->|完成
 
 ---
 
-### 步驟三：添加 HTTP 請求節點
+### 步驟三：新增 HTTP 請求節點
 
-回到之前配置好的 `HTTP Request` 節點。
+# 配置
 
-**修改節點：**
+# 修改
 
 | 設定 | 新值 |
 |------|------|
 | **Method** | `POST` |
-| **URL** | `http://127.0.0.1:27123/vault/新闻文件夹/{{ $('RSS Read').item.json.title.replace(/[\/\\:*?"<>|%]/g, '-') }}.md` |
+| **URL** | `http://127.0.0.1:27123/vault/新聞資料夾/{{ $('RSS Read').item.json.title.replace(/[\/\\:*?"<>|%]/g, '-') }}.md` |
 | **Body** | `{{ $json.message.content }}` |
 
 **URL 表達式說明**：
@@ -188,30 +188,30 @@ Obsidian筆記建立節點[筆記內容] -->|完成
 
 ### 步驟四：連接到 Obsidian 筆記建立節點
 
-回到我們之前配置的 `HTTP Request` 節點。
+# 配置
 
-**測試：** 儲存工作流並點擊 `Execute step`。
+# 工作流
 
 **注意：** 如果提示詞中包含特殊字元字（如 `:`、"<>|%]`），需要在 URL 表達式中加入正則表達式來處理。
 
 ---
 
-## 五、工作流的匯出與匯入
+# 工作流
 
-### 匯出工作流
+# 工作流
 
-在工作流編輯頁面點擊右上角的三個點 `...`，選擇 `Download` 可將當前工作流下載為 `.json` 檔案。
+# 工作流
 
-**安全性**：匯出的 JSON 檔案中不包含您的憑證（如 API Key）的實際內容，而是包含一個指向憑證的內部 ID。因此分享工作流是安全的。
+# 工作流
 
 ---
 
-### 匯入工作流
+# 工作流
 
-1. 建立新的空白工作流
+# 工作流
 2. 點擊右上角 `...` 選擇 `Import from File`
 3. 選擇您下載的 `.json` 檔案
-4. 選擇匯入後，工作流中所有需要憑證的節點（如 OpenAI、HTTP Request）會顯示錯誤。需要逐個點擊並設定或建立自己的憑證。
+# 工作流
 
 ---
 
@@ -234,12 +234,12 @@ Obsidian筆記建立節點[筆記內容] -->|完成
 
 | 來源 | 連結 |
 |------|------|
-| n8n 官方文件 | https://docs.n8n.io/ |
-| Local REST API 插件 | Obsidian 社群插件市集 |
+| n8n 官方檔案 | https://docs.n8n.io/ |
+| Local REST API 外掛 | Obsidian 社群外掛市集 |
 | Obsidian Wiki | https://help.obsidian.md/ |
 
 ### 相關主題
 
-| [[Obsidian 知識管理方法]]
-| [[Claude Code 國內使用教程]]
-| [[n8n 與 Obsidian 集成指南]]
+# 方法
+# 教程
+# 指南

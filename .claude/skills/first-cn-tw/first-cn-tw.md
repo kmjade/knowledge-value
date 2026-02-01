@@ -26,13 +26,13 @@ Call this skill when you want to:
 ### General
 - Use Traditional Chinese punctuation (，。：；？！"", but keep as needed)
 - Maintain consistent terminology with Traditional Chinese standards
-- Use Traditional Chinese characters (臺灣/台灣, 資料/数据, etc.)
+# 數據
 
 ### Character Mapping Examples
 - 资料 → 資料
-- 信息 → 資訊
-- 数据 → 資料
-- 网络 → 網路
+# 資訊
+# 數據
+# 網路
 - 程序 → 程式
 - 软件 → 軟體
 - 硬件 → 硬體
@@ -40,7 +40,7 @@ Call this skill when you want to:
 - 带宽 → 頻寬
 - 鼠标 → 滑鼠
 - 键盘 → 鍵盤
-- 打印机 → 印表機
+# 列印
 
 ## Trigger
 

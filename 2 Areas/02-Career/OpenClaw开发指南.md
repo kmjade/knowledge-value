@@ -1,20 +1,20 @@
 ---
-title: OpenClaw开发指南
+# 開發
 status: active
 priority: high
 tags: [openclaw, development, tutorial]
-aliases: [开发教程, 贡献指南]
+# 開發
 created: 2024-01-30
 updated: 2024-01-30
 ---
 
-# OpenClaw开发指南
+# 開發
 
-## 快速开始开发环境
+# 開發
 
 ### 环境要求
 
-#### 开发工具
+# 開發
 ```yaml
 # 基础环境
 python: "3.9+"
@@ -23,12 +23,12 @@ git: "2.30+"
 docker: "20.10+"
 docker-compose: "2.2+"
 
-# 开发工具
+# 開發
 vscode: "推荐"
-postman: "API测试"
+# 測試
 ```
 
-#### 系统依赖
+# 系統
 ```bash
 # Ubuntu/Debian
 sudo apt-get update
@@ -38,11 +38,11 @@ sudo apt-get install -y python3-dev build-essential libpq-dev
 brew install postgresql redis python@3.9
 
 # Windows
-# 安装Visual Studio Build Tools
-# 安装PostgreSQL和Redis
+# 安裝
+# 安裝
 ```
 
-### 项目本地搭建
+# 專案
 
 #### 1. 克隆仓库
 ```bash
@@ -54,36 +54,36 @@ cd openclaw
 git clone https://github.com/openclaw/plugin-examples.git
 ```
 
-#### 2. 创建虚拟环境
+# 創建
 ```bash
-# 创建虚拟环境
+# 創建
 python3 -m venv venv
 source venv/bin/activate  # Linux/macOS
 # 或
 venv\Scripts\activate     # Windows
 
-# 安装依赖
+# 安裝
 pip install -r requirements.txt
 pip install -r requirements-dev.txt
 ```
 
-#### 3. 数据库设置
+# 設置
 ```bash
-# 创建数据库
+# 創建
 createdb openclaw_dev
 
-# 配置环境变量
+# 配置
 cp .env.example .env
-# 编辑.env文件设置数据库连接
+# 檔案
 
-# 运行数据迁移
+# 數據
 alembic upgrade head
 
-# 创建初始数据
+# 創建
 python scripts/create_initial_data.py
 ```
 
-#### 4. 启动开发环境
+# 開發
 ```bash
 # 启动基础服务
 docker-compose -f docker-compose.dev.yml up -d
@@ -101,48 +101,48 @@ npm run dev
 
 ## 代码结构与架构
 
-### 项目结构
+# 專案
 ```
 openclaw/
 ├── core/                   # 核心模块
 │   ├── auth/              # 认证授权
 │   ├── blockchain/        # 区块链集成
 │   ├── cryptos/           # 加密资产
-│   ├── database/          # 数据库操作
+# 數據
 │   ├── events/            # 事件处理
-│   ├── files/             # 文件管理
-│   ├── finance/           # 财务管理
+# 管理
+# 管理
 │   ├── http/              # HTTP服务
 │   ├── kyc/               # KYC处理
-│   ├── log/               # 日志管理
+# 管理
 │   ├── maintenance/       # 维护模式
-│   ├── networks/          # 网络配置
+# 配置
 │   ├── payments/          # 支付处理
-│   ├── plugins/           # 插件系统
+# 系統
 │   ├── restful/           # REST API
 │   ├── shell/             # Shell命令
-│   ├── testnet_faucets/   # 测试网水龙头
+# 測試
 │   ├── trading/           # 交易功能
 │   ├── unit_of_account/   # 记账单位
-│   ├── users/             # 用户管理
+# 管理
 │   ├── utils/             # 工具函数
-│   └── wallets/           # 钱包管理
+# 管理
 ├── cli/                   # 命令行工具
-├── docs/                  # 文档
+# 文檔
 ├── frontend/              # 前端应用
-├── plugins/               # 插件目录
-├── tests/                 # 测试代码
-├── tools/                 # 开发工具
+# 目錄
+# 測試
+# 開發
 └── scripts/              # 脚本工具
 ```
 
 ### 核心模块详解
 
-#### 1. 工作流引擎
+# 工作流
 ```python
 # core/workflow/engine.py
 class WorkflowEngine:
-    """工作流执行引擎"""
+# 工作流
     
     def __init__(self, plugin_manager, task_scheduler):
         self.plugin_manager = plugin_manager
@@ -150,11 +150,11 @@ class WorkflowEngine:
         self.state_manager = WorkflowStateManager()
     
     async def execute_workflow(self, workflow, inputs):
-        """执行工作流"""
+# 工作流
         context = ExecutionContext(workflow, inputs)
         
         try:
-            # 创建执行记录
+# 記錄
             execution = await self.state_manager.create_execution(
                 workflow.id, inputs
             )
@@ -181,11 +181,11 @@ class WorkflowEngine:
             raise
 ```
 
-#### 2. 插件系统
+# 系統
 ```python
 # core/plugins/manager.py
 class PluginManager:
-    """插件管理器"""
+# 管理
     
     def __init__(self):
         self.registry = PluginRegistry()
@@ -193,15 +193,15 @@ class PluginManager:
         self.sandbox = PluginSandbox()
     
     async def load_plugin_from_file(self, plugin_path: str):
-        """从文件加载插件"""
+# 檔案
         # 验证插件签名
         if not await self._verify_signature(plugin_path):
             raise PluginError("Invalid plugin signature")
         
-        # 解析插件信息
+# 資訊
         metadata = await self.loader.parse_metadata(plugin_path)
         
-        # 创建沙箱环境
+# 創建
         sandbox_context = self.sandbox.create_context(metadata)
         
         # 加载插件代码
@@ -242,7 +242,7 @@ class TaskScheduler:
         if not await self._validate_task(task):
             raise ValueError("Invalid task")
         
-        # 添加到队列
+# 新增
         await self.queue.push(task.serialize())
         
         # 触发执行
@@ -259,34 +259,34 @@ class TaskScheduler:
         # 执行插件
         result = await plugin.execute(task.inputs)
         
-        # 更新任务状态
+# 更新
         await self._update_task_status(task_id, "completed", result)
         
         return result
 ```
 
-## 开发流程
+# 開發
 
-### 1. 功能开发流程
+# 開發
 
 #### 环境准备
 ```bash
-# 创建功能分支
+# 創建
 git checkout -b feature/awesome-feature
 
-# 启动开发服务
+# 開發
 make dev-setup
 
-# 运行测试确保环境正常
+# 測試
 make test-lint
 ```
 
-#### 代码开发
+# 開發
 ```python
-# 开发新功能示例
+# 開發
 def feature_implementation():
     """功能实现示例"""
-    # 1. 定义数据模型
+# 數據
     class NewFeatureModel(BaseModel):
         name: str
         config: Dict[str, Any]
@@ -304,21 +304,21 @@ def feature_implementation():
         pass
 ```
 
-#### 测试编写
+# 測試
 ```python
 # tests/test_feature.py
 import pytest
 from openclaw.core.feature import NewFeatureService
 
 class TestNewFeature:
-    """新功能测试类"""
+# 測試
     
     @pytest.fixture
     def service(self):
         return NewFeatureService()
     
     async def test_create_feature(self, service):
-        """测试创建功能"""
+# 創建
         data = {"name": "test", "config": {}}
         result = await service.create_feature(data)
         
@@ -326,7 +326,7 @@ class TestNewFeature:
         assert result.id is not None
     
     async def test_invalid_data(self, service):
-        """测试无效数据处理"""
+# 測試
         invalid_data = {}
         
         with pytest.raises(ValueError):
@@ -339,7 +339,7 @@ class TestNewFeature:
 make format
 make lint
 
-# 运行测试
+# 測試
 make test-unit
 make test-integration
 
@@ -351,20 +351,20 @@ git commit -m "feat: add awesome feature"
 git push origin feature/awesome-feature
 ```
 
-### 2. 插件开发流程
+# 開發
 
-#### 创建插件项目
+# 專案
 ```bash
-# 使用CLI工具创建插件
+# 創建
 openclaw create-plugin my-plugin --template basic
 
-# 插件项目结构
+# 專案
 my-plugin/
 ├── src/
 │   └── my_plugin/
 │       ├── __init__.py
-│       ├── plugin.py      # 主插件文件
-│       └── models.py      # 数据模型
+# 檔案
+# 數據
 ├── tests/
 │   └── test_plugin.py
 ├── README.md
@@ -390,7 +390,7 @@ class MyPlugin(BasePlugin):
     
     async def execute(self, inputs: Dict, context: ExecutionContext) -> Dict:
         """执行插件逻辑"""
-        # 验证输入
+# 輸入
         self._validate_inputs(inputs)
         
         # 执行业务逻辑
@@ -399,7 +399,7 @@ class MyPlugin(BasePlugin):
         return result
     
     async def _process_inputs(self, inputs: Dict) -> Dict:
-        """处理输入数据"""
+# 數據
         # 实现具体业务逻辑
         processed_data = {}
         for key, value in inputs.items():
@@ -408,11 +408,11 @@ class MyPlugin(BasePlugin):
         return {"processed_data": processed_data}
     
     def _transform_value(self, value):
-        """转换数据值"""
+# 數據
         return value.upper() if isinstance(value, str) else value
 ```
 
-#### 插件测试
+# 測試
 ```python
 # tests/test_plugin.py
 import pytest
@@ -420,7 +420,7 @@ from openclaw_sdk.testing import PluginTestHarness
 from src.my_plugin.plugin import MyPlugin
 
 class TestMyPlugin:
-    """插件测试类"""
+# 測試
     
     @pytest.fixture
     def plugin(self):
@@ -428,7 +428,7 @@ class TestMyPlugin:
         return MyPlugin(config)
     
     async def test_basic_execution(self, plugin):
-        """测试基本执行"""
+# 測試
         inputs = {"text": "hello"}
         context = PluginTestHarness().create_mock_context()
         
@@ -438,34 +438,34 @@ class TestMyPlugin:
         assert result["processed_data"]["text"] == "HELLO"
     
     async def test_error_handling(self, plugin):
-        """测试错误处理"""
-        invalid_inputs = {}  # 空输入
+# 測試
+# 輸入
         
         with pytest.raises(ValidationError):
             await plugin.execute(invalid_inputs, None)
 ```
 
-#### 插件发布
+# 發佈
 ```bash
 # 构建插件包
 openclaw build-plugin
 
-# 发布到插件市场
+# 發佈
 openclaw publish-plugin
 ```
 
-## 测试策略
+# 測試
 
-### 测试分层
+# 測試
 ```mermaid
 graph TB
-    subgraph "测试金字塔"
-        UNIT[单元测试]
-        INTEGRATION[集成测试]
-        E2E[端到端测试]
+# 測試
+# 測試
+# 測試
+# 測試
     end
     
-    subgraph "测试工具"
+# 測試
         PYTEST[pytest]
         TESTCONTAINERS[testcontainers]
         PLAYWRIGHT[playwright]
@@ -476,7 +476,7 @@ graph TB
     E2E --> PLAYWRIGHT
 ```
 
-### 测试配置
+# 配置
 ```python
 # tests/conftest.py
 import pytest
@@ -485,7 +485,7 @@ from testcontainers.postgres import PostgresContainer
 
 @pytest.fixture(scope="session")
 def test_db():
-    """测试数据库"""
+# 測試
     with PostgresContainer("postgres:14") as pg:
         db = Database(
             host=pg.get_container_host_ip(),
@@ -498,100 +498,100 @@ def test_db():
 
 @pytest.fixture
 async def test_client(test_db):
-    """测试客户端"""
+# 測試
     app = create_app().test_client()
     app.app_context.push()
     yield app
     app.app_context.pop()
 ```
 
-### 测试运行
+# 測試
 ```bash
-# 单元测试
+# 測試
 make test-unit
 
-# 集成测试
+# 測試
 make test-integration
 
-# 端到端测试
+# 測試
 make test-e2e
 
-# 性能测试
+# 測試
 make test-performance
 
-# 安全测试
+# 測試
 make test-security
 ```
 
-## 贡献指南
+# 指南
 
 ### 代码贡献流程
 
 #### 1. 选择任务
 ```bash
-# 查看开放任务
+# 查看
 openclaw list-tasks --state open
 
 # 认领任务
 openclaw claim-task TASK_ID
 ```
 
-#### 2. 开发规范
+# 開發
 
 #### 代码风格
 ```python
 # 遵循PEP 8规范
 # 使用类型提示
 def process_data(data: List[Dict]) -> Dict[str, Any]:
-    """处理数据
+# 數據
     
     Args:
-        data: 输入数据列表
+# 數據
         
     Returns:
-        处理后的数据字典
+# 數據
     """
     # 实现...
     pass
 
-# 使用文档字符串
+# 文檔
 class DataProcessor:
-    """数据处理器"""
+# 數據
     
     def __init__(self, config: Dict[str, Any]):
         """初始化处理器
         
         Args:
-            config: 配置参数
+# 配置
         """
         self.config = config
 ```
 
 #### 提交规范
 ```bash
-# 提交信息格式
-feat: 添加新功能
-fix: 修复bug
-docs: 更新文档
+# 資訊
+# 新增
+# 修復
+# 文檔
 style: 代码格式调整
 refactor: 重构代码
-test: 添加测试
+# 新增
 chore: 构建工具或辅助工具的变动
 
 # 提交示例
-git commit -m "feat: 添加工作流步骤验证功能"
-git commit -m "fix: 修复插件加载失败问题"
+# 工作流
+# 修復
 ```
 
 ### Pull Request流程
 
-#### 1. 创建PR
+# 創建
 ```bash
 # 推送分支
 git push origin feature/awesome-feature
 
-# 创建Pull Request
-# 在GitHub上创建Pull Request
+# 創建
+# 創建
 # 填写PR模板
 ```
 
@@ -602,21 +602,21 @@ git push origin feature/awesome-feature
 
 ## 变更类型
 - [ ] 新功能
-- [ ] bug修复
-- [ ] 文档更新
+# 修復
+# 文檔
 - [ ] 重构
-- [ ] 性能优化
+# 優化
 - [ ] 其他
 
-## 测试
-- [ ] 单元测试通过
-- [ ] 集成测试通过
-- [ ] 手动测试完成
+# 測試
+# 測試
+# 測試
+# 測試
 
 ## 检查清单
 - [ ] 代码遵循规范
-- [ ] 文档已更新
-- [ ] 测试覆盖充分
+# 文檔
+# 測試
 - [ ] 无安全漏洞
 ```
 
@@ -635,12 +635,12 @@ requirements:
     - 注释是否充分
     
   performance:
-    - 是否存在性能问题
-    - 是否添加了性能测试
+# 效能
+# 新增
     
   security:
     - 是否存在安全漏洞
-    - 敏感信息是否妥善处理
+# 資訊
 ```
 
 ### 社区参与
@@ -657,7 +657,7 @@ labels:
 详细描述遇到的问题
 
 ## 复现步骤
-1. 打开系统
+# 系統
 2. 执行操作
 3. 点击某按钮
 4. 看到错误
@@ -668,13 +668,13 @@ labels:
 ## 实际结果
 描述实际发生的情况
 
-## 环境信息
-- 操作系统:
-- Python版本:
-- 浏览器:
-- OpenClaw版本:
+# 資訊
+# 系統
+# 版本
+# 瀏覽
+# 版本
 
-## 附加信息
+# 資訊
 截图、日志等
 ```
 
@@ -695,54 +695,54 @@ labels:
 ## 替代方案
 描述其他可能的解决方案
 
-## 附加信息
-相关文档、参考资料等
+# 資訊
+# 文檔
 ```
 
-## 调试与诊断
+# 除錯
 
-### 开发调试
+# 開發
 
-#### API调试
+# 除錯
 ```python
-# 使用调试断点
+# 除錯
 import pdb; pdb.set_trace()
 
 # 使用日志
 import logging
 logger = logging.getLogger(__name__)
-logger.info(f"调试信息: {variable}")
+# 除錯
 
-# 使用性能分析
+# 分析
 import cProfile
 cProfile.run('your_function()', 'profile_output.prof')
 
-# 分析性能结果
+# 分析
 import pstats
 p = pstats.Stats('profile_output.prof')
 p.sort_stats('cumulative').print_stats(10)
 ```
 
-#### 数据库调试
+# 除錯
 ```bash
-# 查看查询日志
+# 查詢
 tail -f logs/postgres.log
 
-# 使用数据库客户端
+# 數據
 psql -h localhost -U postgres -d openclaw_dev
 
-# 分析慢查询
+# 分析
 SELECT query, mean_time, calls
 FROM pg_stat_statements
 ORDER BY mean_time DESC
 LIMIT 10;
 ```
 
-### 性能优化
+# 優化
 
-#### API性能
+# 效能
 ```python
-# 添加缓存
+# 新增
 from functools import lru_cache
 
 @lru_cache(maxsize=128)
@@ -758,36 +758,36 @@ async def process_data_async(data_list):
     return await asyncio.gather(*tasks)
 ```
 
-#### 数据库优化
+# 優化
 ```sql
--- 添加索引
+# 新增
 CREATE INDEX idx_user_email ON users(email);
 
--- 分析查询计划
+# 分析
 EXPLAIN ANALYZE SELECT * FROM workflows WHERE user_id = 1;
 
--- 优化表结构
+# 優化
 VACUUM ANALYZE workflows;
 ```
 
-## 参考资源
+# 資源
 
-### 开发文档
-- [API文档](https://api.openclaw.dev)
-- [插件开发指南](https://docs.openclaw.dev/plugins)
-- [架构设计文档](https://docs.openclaw.dev/architecture)
+# 開發
+# 文檔
+# 開發
+# 設計
 
-### 社区资源
+# 資源
 - [GitHub仓库](https://github.com/openclaw/openclaw)
 - [Discord社区](https://discord.gg/openclaw)
-- [Stack Overflow标签](https://stackoverflow.com/questions/tagged/openclaw)
+# 標籤
 
-### 开发工具
+# 開發
 - [VS Code插件](https://marketplace.visualstudio.com/items?itemName=openclaw.vscode)
 - [Docker镜像](https://hub.docker.com/r/openclaw/runtime)
 - [云IDE集成](https://github.com/openclaw/cloudide)
 
 ---
-*创建时间: 2024-01-30*
-*更新时间: 2024-01-30*
-*分类: 2 Areas*
+# 創建
+# 更新
+# 分類

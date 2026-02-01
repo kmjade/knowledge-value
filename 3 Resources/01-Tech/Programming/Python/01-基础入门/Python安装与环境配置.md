@@ -1,47 +1,47 @@
 ---
-title: Python安装与环境配置
+# 配置
 status: active
 priority: high
 tags: [resource/tech/programming/python, python/setup, python/beginner]
-aliases: [Python环境搭建]
+aliases: [Python環境搭建]
 created: 2026-02-01
 ---
 
-# Python安装与环境配置
+# 配置
 
-> 🎯 **学习目标**：掌握Python的安装、环境管理和开发工具配置，为后续学习做好准备。
+# 管理
 
-## 📋 环境配置概览
+# 配置
 
-| 工具/组件 | 推荐版本 | 适用场景 | 安装难度 |
+# 版本
 |-----------|----------|----------|----------|
-| Python解释器 | 3.9+ | 基础运行环境 | ⭐ |
-| 包管理器 | pip/conda | 依赖管理 | ⭐ |
-| 虚拟环境 | venv/conda | 项目隔离 | ⭐⭐ |
-| 代码编辑器 | VS Code/PyCharm | 开发工具 | ⭐⭐ |
-| 版本管理 | Git | 代码版本控制 | ⭐⭐ |
+| Python解釋器 | 3.9+ | 基礎運行環境 | ⭐ |
+# 管理
+| 虚拟環境 | venv/conda | 專案隔离 | ⭐⭐ |
+| 代碼編輯器 | VS Code/PyCharm | 開發工具 | ⭐⭐ |
+# 管理
 
-## 🐍 Python解释器安装
+## 🐍 Python解釋器安裝
 
-### Windows系统
+### Windows系統
 
-#### 方法1：官方安装包
+# 方法
 ```bash
-# 1. 下载Python安装包
+# 1. 下載Python安裝包
 # 访问 https://python.org/downloads/
-# 选择Python 3.9+版本
+# 版本
 
-# 2. 安装步骤
+# 2. 安裝步骤
 # ✅ 勾选"Add Python to PATH"
-# ✅ 选择"Install for all users"
-# ✅ 自定义安装路径（推荐C:\Python39）
+# ✅ 選擇"Install for all users"
+# ✅ 自定义安裝路徑（推荐C:\Python39）
 
-# 3. 验证安装
+# 3. 驗證安裝
 python --version
 pip --version
 ```
 
-#### 方法2：包管理器安装
+# 方法
 ```powershell
 # 使用Chocolatey
 choco install python
@@ -53,44 +53,44 @@ scoop install python
 winget install Python.Python.3.9
 ```
 
-### macOS系统
+### macOS系統
 
-#### 方法1：官方安装包
+# 方法
 ```bash
-# 1. 安装Homebrew（如果没有）
+# 1. 安裝Homebrew（如果没有）
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-# 2. 安装Python
+# 2. 安裝Python
 brew install python@3.9
 
-# 3. 配置环境变量
+# 配置
 echo 'export PATH="/usr/local/opt/python@3.9/bin:$PATH"' >> ~/.zshrc
 source ~/.zshrc
 ```
 
-#### 方法2：使用pyenv版本管理
+# 方法
 ```bash
-# 安装pyenv
+# 安裝pyenv
 brew install pyenv
 
-# 安装Python 3.9
+# 安裝Python 3.9
 pyenv install 3.9.16
 
-# 使用该版本
+# 版本
 pyenv global 3.9.16
 ```
 
-### Linux系统
+### Linux系統
 
 #### Ubuntu/Debian
 ```bash
-# 更新包管理器
+# 管理
 sudo apt update
 
-# 安装Python和相关工具
+# 安裝Python和相關工具
 sudo apt install python3.9 python3.9-venv python3.9-dev python3-pip
 
-# 创建符号链接
+# 創建符号連結
 sudo ln -s /usr/bin/python3.9 /usr/bin/python
 ```
 
@@ -103,73 +103,73 @@ sudo yum install python39 python39-devel python3-pip
 sudo dnf install python39 python39-devel python3-pip
 ```
 
-## 📦 包管理工具配置
+# 管理
 
-### pip配置优化
+# 配置
 
-#### 基础配置
+# 配置
 ```bash
-# 升级pip到最新版本
+# 版本
 pip install --upgrade pip
 
-# 配置国内镜像源（提升下载速度）
+# 配置
 pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
 pip config set global.trusted-host pypi.tuna.tsinghua.edu.cn
 
-# 验证配置
+# 配置
 pip config list
 ```
 
-#### requirements.txt管理
+# 管理
 ```bash
-# 生成依赖文件
+# 生成依赖檔案
 pip freeze > requirements.txt
 
-# 安装项目依赖
+# 安裝專案依赖
 pip install -r requirements.txt
 
-# 生成最小依赖文件
+# 生成最小依赖檔案
 pip install pipreqs
 pipreqs --encoding=utf8 /path/to/project
 ```
 
-### Anaconda配置（科学计算推荐）
+# 配置
 
-#### 安装Anaconda
+#### 安裝Anaconda
 ```bash
-# 下载安装包
+# 下載安裝包
 # Windows: https://repo.anaconda.com/archive/Anaconda3-2023.09-0-Windows-x86_64.exe
 # macOS: https://repo.anaconda.com/archive/Anaconda3-2023.09-0-MacOSX-x86_64.pkg
 # Linux: https://repo.anaconda.com/archive/Anaconda3-2023.09-0-Linux-x86_64.sh
 
-# 安装后验证
+# 安裝后驗證
 conda --version
 python --version
 ```
 
-#### Conda基础命令
+#### Conda基礎命令
 ```bash
-# 创建虚拟环境
+# 創建虚拟環境
 conda create -n myenv python=3.9
 
-# 激活环境
+# 激活環境
 conda activate myenv
 
-# 安装包
+# 安裝包
 conda install numpy pandas matplotlib
 
-# 保存环境配置
+# 配置
 conda env export > environment.yml
 
-# 从配置创建环境
+# 配置
 conda env create -f environment.yml
 ```
 
-## 🗂️ 虚拟环境管理
+# 管理
 
 ### venv（Python内置）
 ```bash
-# 创建虚拟环境
+# 創建虚拟環境
 python -m venv myenv
 
 # Windows激活
@@ -178,39 +178,39 @@ myenv\Scripts\activate
 # macOS/Linux激活
 source myenv/bin/activate
 
-# 查看环境类型
+# 查看
 which python
 
-# 停用环境
+# 停用環境
 deactivate
 ```
 
-### poetry（现代Python依赖管理）
+# 管理
 ```bash
-# 安装poetry
+# 安裝poetry
 curl -sSL https://install.python-poetry.org | python3
 
-# 配置环境变量
+# 配置
 export PATH="$HOME/.local/bin:$PATH"
 
-# 创建新项目
+# 創建新專案
 poetry new myproject
 
-# 安装依赖
+# 安裝依赖
 poetry install
 
-# 激活环境
+# 激活環境
 poetry shell
 
-# 添加依赖
+# 新增依赖
 poetry add requests
 ```
 
-## 💻 开发工具配置
+# 配置
 
-### VS Code配置
+# 配置
 
-#### 必装扩展
+#### 必装擴展
 ```json
 {
   "recommendations": [
@@ -224,7 +224,7 @@ poetry add requests
 }
 ```
 
-#### 配置文件（.vscode/settings.json）
+# 配置
 ```json
 {
   "python.defaultInterpreterPath": "python",
@@ -242,7 +242,7 @@ poetry add requests
 }
 ```
 
-#### 调试配置（.vscode/launch.json）
+# 配置
 ```json
 {
     "version": "0.2.0",
@@ -259,98 +259,98 @@ poetry add requests
 }
 ```
 
-### PyCharm配置
+# 配置
 
-#### 环境设置
+#### 環境設置
 ```python
-# 项目创建步骤
+# 專案創建步骤
 # 1. File → New Project
-# 2. 选择Pure Python
-# 3. 配置项目名称和位置
-# 4. 配置Python解释器
-# 5. 选择"Previously configured interpreter"
-# 6. 选择安装的Python解释器
+# 2. 選擇Pure Python
+# 配置
+# 配置
+# 5. 選擇"Previously configured interpreter"
+# 6. 選擇安裝的Python解釋器
 ```
 
-#### 代码风格配置
+# 配置
 ```python
-# 配置代码格式化
+# 配置
 # Settings → Editor → Code Style → Python
-# - 设置缩进为4空格
-# - 设置行长度为88
-# - 启用PEP 8检查
-# - 配置导入排序
+# - 設置缩进为4空格
+# - 設置行长度为88
+# - 启用PEP 8檢查
+# 配置
 ```
 
-## 🔄 版本管理最佳实践
+# 管理
 
-### Git配置
+# 配置
 ```bash
-# 全局配置
+# 配置
 git config --global user.name "Your Name"
 git config --global user.email "your.email@example.com"
 
-# 忽略文件配置（.gitignore）
+# 配置
 echo "__pycache__/" >> .gitignore
 echo "*.pyc" >> .gitignore
 echo ".venv/" >> .gitignore
 echo ".env" >> .gitignore
 ```
 
-### 多Python版本管理（pyenv）
+# 管理
 ```bash
-# 安装pyenv
+# 安裝pyenv
 curl https://pyenv.run | bash
 
-# 安装Python 3.8, 3.9, 3.10
+# 安裝Python 3.8, 3.9, 3.10
 pyenv install 3.8.16
 pyenv install 3.9.16  
 pyenv install 3.10.11
 
-# 项目版本设置
+# 版本
 echo "3.9.16" > .python-version
 
-# 查看可用版本
+# 查看
 pyenv versions
 ```
 
-## 🛠️ 高级配置技巧
+# 配置
 
-### Jupyter环境配置
+# 配置
 ```bash
-# 安装Jupyter Lab
+# 安裝Jupyter Lab
 pip install jupyterlab
 
-# 安装常用扩展
+# 安裝常用擴展
 pip install jupyterlab-language-pack-zh-CN
 
-# 启动Jupyter Lab
+# 啟動Jupyter Lab
 jupyter lab
 
-# 配置Jupyter Lab
-# 创建 ~/.jupyter/jupyter_lab_config.py
-# 添加自定义配置
+# 配置
+# 創建 ~/.jupyter/jupyter_lab_config.py
+# 配置
 ```
 
-### Docker环境（容器化开发）
+### Docker環境（容器化開發）
 ```dockerfile
 # Dockerfile示例
 FROM python:3.9-slim
 
 WORKDIR /app
 
-# 复制依赖文件
+# 複製依赖檔案
 COPY requirements.txt .
 RUN pip install -r requirements.txt
 
-# 复制代码
+# 複製代碼
 COPY . .
 
-# 启动命令
+# 啟動命令
 CMD ["python", "main.py"]
 ```
 
-### Docker Compose配置
+# 配置
 ```yaml
 # docker-compose.yml
 version: '3.8'
@@ -367,21 +367,21 @@ services:
     command: python main.py
 ```
 
-## 🔧 环境故障排除
+## 🔧 環境故障排除
 
-### 常见问题及解决方案
+### 常见問題及解決方案
 
 #### 1. "python不是内部或外部命令"
 ```bash
-# Windows解决方案
-# 1. 检查Python安装路径
+# Windows解決方案
+# 1. 檢查Python安裝路徑
 where python
 
-# 2. 手动添加到PATH
-# 打开系统属性 → 环境变量 → 系统变量 → Path
-# 添加: C:\Python39; C:\Python39\Scripts
+# 2. 手動新增到PATH
+# 打開系統属性 → 環境变量 → 系統变量 → Path
+# 新增: C:\Python39; C:\Python39\Scripts
 
-# 3. 重新启动命令提示符
+# 3. 重新啟動命令提示符
 ```
 
 #### 2. pip缓慢或失败
@@ -389,109 +389,109 @@ where python
 # 更换为国内镜像源
 pip install -i https://pypi.douban.com/simple/ package-name
 
-# 或者永久配置
+# 配置
 pip config set global.index-url https://pypi.douban.com/simple/
 ```
 
 #### 3. 依赖冲突
 ```bash
-# 查看当前环境中的包
+# 查看
 pip list
 
-# 升级pip到最新版本
+# 版本
 pip install --upgrade pip
 
-# 重新安装环境
+# 重新安裝環境
 pip uninstall -r requirements.txt -y
 pip install -r requirements.txt
 ```
 
-#### 4. 虚拟环境不激活
+#### 4. 虚拟環境不激活
 ```bash
-# Windows PowerShell执行策略问题
+# Windows PowerShell执行策略問題
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 # 或者使用PowerShell Core
-# 下载Windows Terminal并使用PowerShell 7+
+# 下載Windows Terminal并使用PowerShell 7+
 ```
 
-## 📚 推荐工具和插件
+## 📚 推荐工具和外掛
 
-### 浏览器扩展
-- **Python Docs**：快速查找Python文档
-- **Python Tutor**：可视化代码执行
-- **Online Python**：在线Python运行环境
+### 瀏覽器擴展
+- **Python Docs**：快速尋找Python文檔
+- **Python Tutor**：可视化代碼执行
+- **Online Python**：線上Python運行環境
 
 ### 命令行工具
 ```bash
-# 安装有用的全局工具
+# 安裝有用的全局工具
 pip install ipython           # 交互式Python
-pip install black           # 代码格式化
-pip install flake8          # 代码检查
-pip install mypy            # 类型检查
-pip install pytest          # 测试框架
+pip install black           # 代碼格式化
+pip install flake8          # 代碼檢查
+pip install mypy            # 类型檢查
+pip install pytest          # 測試框架
 ```
 
-### IDE插件推荐
-- **GitLens**：GitHub代码可视化
-- **Python Docstring Generator**：自动生成文档字符串
-- **Tabnine**：AI代码自动补全
-- **Better Comments**：增强注释显示
+### IDE外掛推荐
+- **GitLens**：GitHub代碼可视化
+- **Python Docstring Generator**：自動生成文檔字符串
+- **Tabnine**：AI代碼自動补全
+# 顯示
 
-## 🎯 下一步学习路径
+## 🎯 下一步學習路徑
 
-现在你的环境已经配置完成，可以开始正式的学习旅程了！
+# 配置
 
-### 📈 建议学习顺序
-1. [[基础语法与数据类型]] - 掌握Python基础语法
-2. [[控制流与函数]] - 学习程序逻辑控制
-3. [[模块与包管理]] - 了解代码组织方式
-4. [[面向对象编程]] - 进阶到面向对象思维
+### 📈 建議學習顺序
+1. [[基礎语法与數據类型]] - 掌握Python基礎语法
+2. [[控制流与函数]] - 學習程式逻辑控制
+# 管理
+4. [[面向对象編程]] - 进阶到面向对象思维
 
-### 💡 学习建议
-- **代码实践**：每个概念都要写代码验证
-- **循序渐进**：不要跳跃学习，打好基础
-- **善用工具**：充分利用IDE和调试工具
-- **记录笔记**：建立自己的知识体系
+### 💡 學習建議
+- **代碼實踐**：每个概念都要写代碼驗證
+- **循序渐进**：不要跳跃學習，打好基礎
+- **善用工具**：充分利用IDE和除錯工具
+# 知識
 
 ---
 
-## 🧪 测试你的安装
+## 🧪 測試你的安裝
 
-运行以下代码验证环境配置是否成功：
+# 配置
 
 ```python
-# 环境测试脚本
+# 環境測試腳本
 import sys
 import platform
 import requests
 
-print(f"Python版本: {sys.version}")
-print(f"系统平台: {platform.platform()}")
+# 版本
+print(f"系統平台: {platform.platform()}")
 
-# 测试常用库
+# 測試常用库
 try:
     import numpy as np
-    print(f"NumPy版本: {np.__version__}")
+# 版本
 except ImportError:
-    print("NumPy未安装，可使用: pip install numpy")
+    print("NumPy未安裝，可使用: pip install numpy")
 
-# 测试网络请求
+# 測試網路请求
 try:
     response = requests.get("https://python.org")
-    print("网络连接正常")
+    print("網路連接正常")
 except Exception as e:
-    print(f"网络问题: {e}")
+    print(f"網路問題: {e}")
 
-print("🎉 Python环境配置完成！")
+# 配置
 ```
 
-## 🔗 相关资源
+## 🔗 相關資源
 
-- [[开发工具与IDE配置]] - 详细的开发环境设置
-- [[虚拟环境最佳实践]] - 虚拟环境深度指南
-- [[Python版本管理]] - 多版本Python管理方案
+# 配置
+# 指南
+# 管理
 
 ---
-*最后更新: 2026-02-01*  
-*分类: 3 Resources*
+# 更新
+*分類: 3 Resources*

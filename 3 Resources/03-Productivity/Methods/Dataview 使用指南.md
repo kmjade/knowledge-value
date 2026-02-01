@@ -1,5 +1,5 @@
 ---
-title: Dataview 使用指南
+# 指南
 interest-level: ⭐⭐⭐⭐⭐
 last-reviewed: 2026-01-26
 tags:
@@ -8,7 +8,7 @@ tags:
   - dataview
 ---
 
-# Dataview 使用指南
+# 指南
 
 > Obsidian 的數據查詢外掛，讓你從筆記中提取和顯示結構化數據
 
@@ -20,16 +20,16 @@ tags:
 
 Dataview 是 Obsidian 的一個外掛，能夠：
 - 從筆記的 frontmatter 中讀取數據
-- 查詢和聚合筆記信息
+- 查詢和聚合筆記資訊
 - 動態生成表格、列表和任務列表
-- 支持數據排序、過濾和分組
+# 排序
 
 ### 為什麼使用 Dataview？
 
 | 傳統方式 | Dataview |
 |----------|----------|
 | 手動維護表格 | 自動聚合數據 |
-| 重複更新內容 | 寫一次查詢 |
+# 更新
 | 容易過時 | 實時同步 |
 | 不支持統計 | 支持計算和聚合 |
 
@@ -40,7 +40,7 @@ Dataview 是 Obsidian 的一個外掛，能夠：
 ### 安裝步驟
 
 1. 打開 Obsidian 設置 → 社群外掛
-2. 瀏覽並搜索 "Dataview"
+2. 瀏覽並搜尋 "Dataview"
 3. 安裝並啟用外掛
 4. (可選) 啟用 DataviewJS 以使用進階功能
 
@@ -66,7 +66,7 @@ Dataview 是 Obsidian 的一個外掛，能夠：
 <查詢命令>
 FROM <數據源>
 WHERE <條件>
-SORT <排序規則>
+# 排序
 LIMIT <結果數量>
 ```
 ````
@@ -172,7 +172,7 @@ WHERE due
 
 ## 📊 高級查詢技巧
 
-### 1. 去除索引文件
+### 1. 去除索引檔案
 
 ```dataview
 TABLE title
@@ -284,7 +284,7 @@ WHERE link.path = "1 Projects"
 GROUP BY file.name
 ```
 
-### 2. 查找引用此文件的筆記
+### 2. 尋找引用此檔案的筆記
 
 ```dataview
 TABLE without ID
@@ -294,7 +294,7 @@ WHERE contains([[current-note]] + ".md", file.outlinks)
 ```
 > 顯示所有引用當前筆記的其他筆記
 
-或者查找包含特定內容的筆記：
+或者尋找包含特定內容的筆記：
 
 ```dataview
 TABLE without ID
@@ -318,7 +318,7 @@ FROM "1 Projects"
 
 ---
 
-## 🚀 性能優化
+## 🚀 效能優化
 
 ### 最佳實踐
 
@@ -340,7 +340,7 @@ FROM "1 Projects"
 
 4. **適當使用索引**
 
-   基於標籤查詢比全文搜索更快：
+   基於標籤查詢比全文搜尋更快：
    ```dataview
    LIST FROM #project
    ```
@@ -360,7 +360,7 @@ FROM "1 Projects"
 LIST FROM "1 Projects"
 ```
 
-然後逐步添加條件：
+然後逐步新增條件：
 ```dataview
 LIST FROM "1 Projects" WHERE status = "active"
 ```
@@ -386,7 +386,7 @@ due: 2024-02-01T10:30
 
 **解決**: 檢查 frontmatter 中的屬性名稱與查詢中的名稱是否一致
 
-### 錯誤 4: 排序結果不如預期
+# 排序
 
 **原因**: 數據類型不匹配
 

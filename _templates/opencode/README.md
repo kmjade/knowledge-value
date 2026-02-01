@@ -1,39 +1,39 @@
 # OpenCode 模板集成说明
 
-> OpenCode Templater 模板集成文档
+# 文檔
 
 ## 概述
 
 本集成方案实现了从 Obsidian 中一键调用 OpenCode 本地模型，无需手动复制命令到终端。
 
-## 文件结构
+# 檔案
 
 ```
 _templates/
 ├── opencode/
 │   ├── 一键调用.md          # 完整功能模板
 │   ├── 快速调用.md          # 简化模板
-│   └── README.md            # 本文件
+# 檔案
 └── scripts/
     └── opencode.js          # OpenCode 执行核心脚本
 ```
 
-## 安装步骤
+# 安裝
 
-### 1. 配置 Templater 插件
+# 配置
 
 在 Obsidian 中：
 
-1. 进入 `设置 → 社区插件 → Templater`
-2. 启用以下设置：
-   - **Enable System Commands** (启用系统命令): `true`
-   - **User Scripts Folder** (用户脚本文件夹): `_templates/scripts`
-3. 重启 Obsidian 使配置生效
+# 設置
+# 設置
+# 系統
+# 檔案
+# 配置
 
-### 2. 验证配置
+# 配置
 
 ```bash
-# 检查 Templater 配置文件
+# 檔案
 # .obsidian/plugins/templater-obsidian/data.json
 # 应包含:
 # "enable_system_commands": true
@@ -53,30 +53,30 @@ opencode --version
 ollama list
 ```
 
-## 使用方法
+# 方法
 
-### 方法一：一键调用（推荐）
+# 方法
 
-1. 在 Obsidian 中打开或创建一个笔记
-2. 按 `Ctrl+E` (或配置的快捷键) 打开 Templater 命令面板
+# 筆記
+# 配置
 3. 选择 `OpenCode: 一键调用` 模板
 4. 按照提示选择：
-   - 任务类型（代码分析、生成、重构等）
+# 分析
    - 本地模型
-   - 是否使用当前文件内容作为上下文
-   - 输入您的指令
-5. 等待执行完成，结果自动显示在笔记中
+# 檔案
+# 輸入
+# 筆記
 
-### 方法二：快速调用
+# 方法
 
-适用于不需要选择模型和任务类型的快速查询：
+# 查詢
 
 1. 打开 Templater 命令面板
 2. 选择 `OpenCode: 快速调用` 模板
-3. 直接输入指令
+# 輸入
 4. 使用默认模型 (qwen2.5:7b) 执行
 
-### 方法三：仅生成命令
+# 方法
 
 如果需要在终端中手动执行：
 
@@ -90,12 +90,12 @@ ollama list
 
 | 类型 | 图标 | 说明 | 推荐模型 |
 |------|------|------|----------|
-| 代码分析 | 🔍 | 分析代码结构、查找问题 | qwen2.5:7b |
+# 分析
 | 代码生成 | ✏️ | 根据需求生成新代码 | qwen2.5-coder:7b |
-| 代码重构 | 🛠️ | 优化和改进现有代码 | qwen2.5-coder:14b |
-| 文档生成 | 📝 | 生成代码文档和注释 | qwen2.5:7b |
+# 優化
+# 文檔
 | 代码审查 | 🔍 | 审查代码质量 | mistral-nemo:12b |
-| 调试辅助 | 🐛 | 帮助定位和修复 bug | qwen2.5-coder:7b |
+# 除錯
 | 翻译 | 🌐 | 在不同语言间翻译 | qwen2.5:7b |
 | 总结 | 📋 | 总结长文本内容 | qwen2.5:3b |
 | 问答 | 💡 | 回答问题、提供解释 | qwen2.5:7b |
@@ -103,22 +103,22 @@ ollama list
 
 ### 推荐模型
 
-| 模型 | 大小 | 特点 | 适用场景 |
+# 場景
 |------|------|------|----------|
 | qwen2.5:3b | ~2GB | 最快、最轻 | 快速问答、总结 |
-| qwen2.5:7b | ~4GB | 平衡性能 | 日常任务、通用 |
-| qwen2.5:14b | ~8GB | 高质量 | 复杂任务、深度分析 |
-| qwen2.5-coder:7b | ~4GB | 编程专用 | 代码生成、调试 |
+# 效能
+# 分析
+# 除錯
 | qwen2.5-coder:14b | ~8GB | 高级编程 | 复杂重构、代码审查 |
 
 ## 故障排除
 
 ### 问题 1: "child_process 模块不可用"
 
-**原因**: Templater 未启用系统命令
+# 系統
 
 **解决方案**:
-1. 打开 Templater 插件设置
+# 設置
 2. 勾选 `Enable System Commands`
 3. 重启 Obsidian
 
@@ -135,20 +135,20 @@ ollama serve
 netstat -an | grep 11434  # Linux/Mac
 netstat -an | findstr 11434  # Windows
 
-# 测试连接
+# 測試
 curl http://localhost:11434/api/tags
 ```
 
 ### 问题 3: "模型未找到"
 
-**原因**: 指定的模型未下载
+# 下載
 
 **解决方案**:
 ```bash
-# 查看可用模型
+# 查看
 ollama list
 
-# 下载缺失的模型
+# 下載
 ollama pull qwen2.5:7b
 ollama pull qwen2.5-coder:7b
 ```
@@ -159,36 +159,36 @@ ollama pull qwen2.5-coder:7b
 
 **解决方案**:
 1. 使用更小的模型（如 qwen2.5:3b）
-2. 减少输入内容长度
-3. 修改脚本中的 `commandTimeout` 参数
+# 輸入
+# 修改
 
-### 问题 5: 输出被截断
+# 輸出
 
-**原因**: 输出超过命令缓冲区大小
+# 輸出
 
 **解决方案**:
 1. 在 `opencode.js` 中增加 `maxBuffer` 值
 2. 分块处理任务
-3. 使用输出文件模式
+# 檔案
 
-## 高级配置
+# 配置
 
-### 修改默认超时时间
+# 修改
 
-编辑 `_templates/scripts/opencode.js`:
+# 編輯
 
 ```javascript
 const OPENCODE_CONFIG = {
     defaultModel: 'qwen2.5:7b',
     ollamaEndpoint: 'http://localhost:11434',
-    commandTimeout: 300000,  // 修改此值（毫秒）
+# 修改
     verbose: true
 };
 ```
 
-### 添加自定义模型预设
+# 新增
 
-编辑 `_templates/opencode/快速调用.md`:
+# 編輯
 
 ```javascript
 // 使用自定义模型
@@ -197,36 +197,36 @@ const OPENCODE_CONFIG = {
 
 ### 禁用详细日志
 
-编辑 `_templates/scripts/opencode.js`:
+# 編輯
 
 ```javascript
 const OPENCODE_CONFIG = {
     // ...
-    verbose: false  // 设置为 false 禁用日志
+# 設置
 };
 ```
 
-## 快捷键设置
+# 設置
 
-可以为模板设置快捷键以便快速访问：
+# 設置
 
-1. 打开 Templater 插件设置
+# 設置
 2. 找到 `Keyboard Shortcuts` 部分
-3. 为 `OpenCode: 一键调用` 设置快捷键（如 `Ctrl+Shift+O`）
+# 設置
 
-## 相关资源
+# 資源
 
-- [OpenCode 官方文档](https://opencode.ai/docs)
+# 文檔
 - [Ollama 模型库](https://ollama.ai/library)
-- [Templater 插件文档](https://silentvoid13.github.io/Templater/)
-- [[OpenCode本地模型集成指南]] - OpenCode 集成完整指南
+# 文檔
+# 指南
 
-## 更新日志
+# 更新
 
-| 版本 | 日期 | 更新内容 |
+# 更新
 |------|------|----------|
-| 1.0.0 | 2026-01-30 | 初始版本，实现一键调用功能 |
+# 版本
 
 ---
 
-*如有问题或建议，请参考故障排除部分或查阅相关文档。*
+# 文檔

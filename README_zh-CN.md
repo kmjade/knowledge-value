@@ -2,7 +2,7 @@
 language: zh-cn
 ---
 
-# 🧠 AI-value 知识管理系统
+# 管理
 
 ![PARA Method](https://img.shields.io/badge/PARA-Method-blue?style=for-the-badge)
 ![Obsidian](https://img.shields.io/badge/Obsidian-📎-7C3AED?style=for-the-badge)
@@ -14,21 +14,21 @@ language: zh-cn
 ---
 ## 概述
 
-> PARA 是由 [Tiago Forte](https://fortelabs.co/) 提出的生产力方法论，用于组织个人知识和任务。
+# 知識
 
-> 一个基于 PARA 方法论的个人知识管理系统，与 Obsidian 集成，旨在系统化地组织信息。
+# 管理
 ---
 
-## 目录
+# 目錄
 
 - [特性亮点](#-特性亮点)
-- [系统结构](#-系统结构)
-- [PARA 方法论](#-para-方法论)
-- [工作流](#-工作流)
+# 系統
+# 方法
+# 工作流
 - [Claude Code 命令](#-claude-code-命令)
 - [最佳实践](#-最佳实践)
-- [文档资源](#-文档资源)
-- [贡献指南](#-贡献指南)
+# 文檔
+# 指南
 - [常见问题](#-常见问题)
 
 ---
@@ -37,51 +37,51 @@ language: zh-cn
 
 | 特性 | 说明 | 状态 |
 |------|------|------|
-| 📥 **InBox 收件箱** | 快速捕获想法和笔记 | ✅ 已启用 |
-| 🎯 **PARA 组织** | 按可执行性分类信息 | ✅ 已启用 |
-| 🧠 **Zettelkasten** | 原子化知识网络 | ✅ 已启用 |
-| 🤖 **Claude Code** | AI 辅助知识管理 | ✅ 已启用 |
-| 📊 **Skills 系统** | 按需加载模块 | ✅ 已启用 |
+# 筆記
+# 資訊
+# 知識
+# 管理
+# 系統
 | 🌐 **多语言支持** | 简体中文/繁体中文/English | ✅ 已启用 |
 
 ---
 
-## 系统结构
+# 系統
 
 ```
 AI-value/
-├── 📁 0 Personals/              # 📥 个人项目与收件箱
+# 專案
 │   └── 📥 00_InBox/           #   快速捕获 / Inbox
-├── 📁 1 Projects/               # 🎯 有期限的活跃项目
+# 專案
 ├── 📁 2 Areas/                  # 🌳 长期责任领域
 ├── 📁 3 Resources/              # 📚 持续感兴趣的主题
 ├── 📁 4 Archives/               # 🗃️ 已完成或非活跃内容
-├── 📁 5 Zettels/                # 💎 原子化笔记
-│   ├── 💡 fleeting/           #   闪念笔记
-│   ├── 📌 permanent/          #   永久笔记
-│   ├── 📚 literature/         #   文献笔记
-│   └── 📁 structure/          #   结构笔记
+# 筆記
+# 筆記
+# 筆記
+# 筆記
+# 筆記
 ├── 📁 _Template/                # 📋 模板库
-├── 📁 _meta/                    # ⚙️ 系统元数据
-└── 📁 .claude/                  # 🤖 Claude Code 配置
+# 系統
+# 配置
 ```
 
 ---
 
-## PARA 方法论
+# 方法
 
-| 分类 | 文件夹 | 说明 | 示例 |
+# 檔案
 |------|--------|------|------|
-| 🔴 **Projects** | `1 Projects/` | 有截止日期的活跃项目 | "2026年度计划", "产品发布", "发布新网站", "完成报税" |
-| 🟢 **Areas** | `2 Areas/` | 无截止日期的长期责任 | "健康管理", "职业发展" |
+# 專案
+# 管理
 | 🔵 **Resources** | `3 Resources/` | 持续感兴趣的主题 | "Obsidian技巧", "AI资讯", "生产力技巧", "烹饪食谱", "市场调研" |
-| ⚪ **Archives** | `4 Archives/` | 已完成或不活跃内容 | "2025年度总结", 旧项目, 过时的资源 |
+# 專案
 
-### 分类决策树
+# 分類
 
 ```
 ❓ 这件事有明确的目标和截止日期吗？
-  └─ ✅ 是 → Projects（有期限项目）
+# 專案
   └─ ❌ 否 → 继续
 
 ❓ 这件事需要持续维护吗？
@@ -95,86 +95,86 @@ AI-value/
 
 ---
 
-## 工作流
+# 工作流
 
-### PARA 工作流
+# 工作流
 
 ```mermaid
 flowchart LR
-    A[📥 捕获] --> B[🧹 整理]
+# 整理
     B --> C[👀 复查]
     C --> D[📦 归档]
 
-    A -.-> |"添加到 InBox"| A1[0 Personals/📥 00_InBox/]
-    B -.-> |"/para-整理收集"| B1[分发到 PARA]
+# 新增
+# 整理
     C -.-> |"/para-库概览"| C1[审查状态]
     D -.-> |"移动到"| D1[4 Archives/]
 ```
 
 | 步骤 | 操作 | 命令 |
 |------|------|------|
-| 1️⃣ 捕获 | 添加新信息到收件箱 | 手动添加 |
-| 2️⃣ 整理 | 按 PARA 分类 | `/para-整理收集` |
+# 新增
+# 分類
 | 3️⃣ 复查 | 审查库状态 | `/para-库概览` |
 | 4️⃣ 归档 | 移至已完成 | 手动移动 |
 
-### Zettelkasten 工作流
+# 工作流
 
 ```mermaid
 flowchart LR
     A[💡 闪念] --> B[📌 处理]
-    B --> C[🔗 链接]
+# 連結
     C --> D[📚 发展]
     D --> E[📁 结构化]
 
     A -.-> |"5 Zettels/💡 fleeting/"| A1[捕获灵感]
-    B -.-> |"5 Zettels/📌 permanent/"| B1[转换为永久笔记]
-    C -.-> |"[[wikilinks]]"| C1[建立连接]
-    D -.-> |"5 Zettels/📚 literature/"| D1[添加文献]
-    E -.-> |"5 Zettels/📁 structure/"| E1[创建概览]
+# 筆記
+# 連接
+# 新增
+# 創建
 ```
 
 | 步骤 | 操作 | 位置 |
 |------|------|------|
-| 1️⃣ 创建 | 快速捕获想法 | `💡 fleeting/` |
-| 2️⃣ 处理 | 转为永久笔记 | `📌 permanent/` |
-| 3️⃣ 链接 | 连接相关概念 | wikilinks |
-| 4️⃣ 发展 | 添加文献笔记 | `📚 literature/` |
-| 5️⃣ 结构化 | 创建概览笔记 | `📁 structure/` |
+# 創建
+# 筆記
+# 連結
+# 筆記
+# 筆記
 
 ---
 
 ## Claude Code 命令
 
-### PARA 管理命令
+# 管理
 
 | 命令 | 功能 | 说明 |
 |------|------|------|
-| `/para-库概览` | 📊 显示库概览 | 查看各分类文件数和状态 |
-| `/para-整理收集` | 🧹 整理收件箱 | 按 PARA 原则分发内容 |
-| `/para-刷新缓存` | 🔄 刷新缓存 | 更新性能缓存文件 |
+# 檔案
+# 整理
+# 檔案
 
 ### 辅助命令
 
 | 命令 | 功能 | 说明 |
 |------|------|------|
-| `/search` | 🔍 搜索内容 | 快速搜索 InBox 和 PARA |
-| `/obsidian` | 📎 自动选择技能 | 根据文件类型选 Obsidian 技能 |
-| `/claudian` | 🤖 PARA 助手 | PARA 管理的交互式菜单 |
+# 搜尋
+# 檔案
+# 管理
 | `/导出: 周报` | 📅 导出周报 | 从日报生成周报 |
 | `/导出: 月报` | 📆 导出月报 | 从周报生成月报 |
 
 ### 快速操作
 
 ```bash
-# 搜索包含 "Obsidian" 的笔记
+# 筆記
 /search Obsidian
 
-# 查看 PARA 库状态
+# 查看
 /para-库概览
 
-# 整理收件箱
-/para-整理收集
+# 整理
+# 整理
 
 # 自动选择技能
 /obsidian
@@ -187,10 +187,10 @@ flowchart LR
 ### 使用 InBox
 
 - 📝 **快速捕获** - 不要担心格式，先记下来
-- 📅 **定期整理** - 每天或每周整理一次
+# 整理
 - 🧹 **清空原则** - 保持 InBox 最小化
 
-### PARA 分类
+# 分類
 
 - 🎯 **有截止日期** → Projects
 - 🌳 **长期责任** → Areas
@@ -199,12 +199,12 @@ flowchart LR
 
 ### Zettelkasten 原则
 
-- 💎 **原子性** - 每个笔记一个想法
+# 筆記
 - 🔢 **独特 ID** - 使用 `YYYYMMDD-XXXX`
-- 🔗 **充分链接** - 连接相关概念
+# 連結
 - 📦 **自包含** - 独立可理解
 
-### 文件命名
+# 檔案
 
 - 📛 **描述性名称** - 清晰描述内容
 - ␣ **使用空格** - Obsidian wikilinks 支持
@@ -213,35 +213,35 @@ flowchart LR
 
 ---
 
-## 文档资源
+# 文檔
 
-### 核心文档
+# 文檔
 
-| 文档                                                        | 说明               | 优先级 |
+# 文檔
 | --------------------------------------------------------- | ---------------- | --- |
 | [📘 CLAUDE.md](CLAUDE.md)                                 | Claude Code 核心规则 | ⭐⭐⭐ |
-| [🧠 PARA 方法论](.claude/skills/para-methodology/SKILL.md)   | PARA 完整指南        | ⭐⭐⭐ |
+# 方法
 | [📎 Obsidian 语法](.claude/skills/obsidian-syntax/SKILL.md) | 语法参考             | ⭐⭐⭐ |
 
-### Skills 文档
+# 文檔
 
 | Skill | 说明 |
 |-------|------|
-| [para-methodology](.claude/skills/para-methodology/SKILL.md) | PARA 结构、工作流、元数据 |
+# 工作流
 | [obsidian-syntax](.claude/skills/obsidian-syntax/SKILL.md) | Wikilinks、提示块、属性 |
 | [repo-context](.claude/skills/repo-context/SKILL.md) | 仓库结构、路径、Git |
-| [markdown-standards](.claude/skills/markdown-standards/SKILL.md) | 文件命名、多语言支持 |
-| [claude-commands](.claude/skills/claude-commands/SKILL.md) | 命令使用和工作流 |
-| [zettelkasten-workflow](.claude/skills/zettelkasten-workflow/SKILL.md) | 原子笔记、链接、唯一 ID |
+# 檔案
+# 工作流
+# 筆記
 
 ---
 
-## 贡献指南
+# 指南
 
 欢迎贡献！您可以：
 
 - 📝 **提交改进建议** - 报告问题或功能请求
-- 🔧 **提交 Pull Request** - 贡献代码或文档
+# 文檔
 - 💬 **参与讨论** - 在 Issues 中交流
 
 ---
@@ -254,33 +254,33 @@ flowchart LR
 1. 打开 Obsidian
 2. 导入 AI-value 仓库
 3. 开始在 `0 Personals/📥 00_InBox/` 中捕获想法
-4. 使用 `/para-整理收集` 命令整理
+# 整理
 
 </details>
 
 <details>
 <summary>PARA 和 Zettelkasten 有什么区别？</summary>
 
-- **PARA** - 按可执行性组织信息（Projects/Areas/Resources/Archives）
-- **Zettelkasten** - 按知识原子化组织（闪念/永久/文献/结构）
+# 資訊
+# 知識
 
 两者可以结合使用！
 
 </details>
 
 <details>
-<summary>如何添加新笔记？</summary>
+# 筆記
 
 1. 在收件箱捕获想法
-2. 使用 `/para-整理收集` 自动分类
-3. 或手动移动到对应文件夹
+# 分類
+# 檔案
 
 </details>
 
 <details>
 <summary>支持多语言吗？</summary>
 
-是的！系统支持：
+# 系統
 - 简体中文（默认）
 - 繁体中文
 - English
@@ -291,7 +291,7 @@ flowchart LR
 
 ## 联系方式
 
-| 渠道 | 链接 |
+# 連結
 |------|------|
 | 🐙 **GitHub** | [AI-value](https://github.com/kmjade/AI-value.git) |
 | 🐛 **Issues** | [报告问题](https://github.com/kmjade/AI-value/issues) |
@@ -308,9 +308,9 @@ Apache License 2.0
 
 ---
 
-> 💡 **提示**：使用 `/obsidian` 命令可以根据文件类型自动选择合适的技能！
+# 檔案
 
-**开始您的知识管理之旅吧！**
+# 管理
 
 ---
 

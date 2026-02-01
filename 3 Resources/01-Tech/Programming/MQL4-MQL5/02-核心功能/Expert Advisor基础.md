@@ -1,48 +1,48 @@
 ---
-title: Expert Advisor基础
+title: Expert Advisor基礎
 status: active
 priority: high
 tags: [resource/tech/programming/mql, mql4/ea, mql4/expert-advisor]
-aliases: [MQL4 EA开发, 自动交易系统]
+aliases: [MQL4 EA開發, 自動交易系統]
 created: 2026-02-01
 ---
 
-# Expert Advisor基础
+# Expert Advisor基礎
 
-> 🎯 **学习目标**：掌握EA的框架结构、生命周期和开发流程，能够开发基础的自动化交易系统。
+> 🎯 **學習目標**：掌握EA的框架结构、生命周期和開發流程，能夠開發基礎的自動化交易系統。
 
 ## 📚 EA概述
 
 ### EA基本概念
 ```mermaid
 graph TB
-    A[Expert Advisor] --> B[自动化交易]
+    A[Expert Advisor] --> B[自動化交易]
     A --> C[信号检测]
-    A --> D[订单执行]
-    A --> E[风险管理]
+    A --> D[訂單执行]
+# 管理
     
-    B --> B1[无需人工干预]
-    B --> B2[24小时运行]
+    B --> B1[無需人工干预]
+    B --> B2[24小时運行]
     B --> B3[快速反应]
     
-    C --> C1[技术分析]
-    C --> C2[指标计算]
+# 分析
+    C --> C2[指标計算]
     C --> C3[信号生成]
     
     D --> D1[开仓]
     D --> D2[平仓]
-    D --> D3[订单管理]
+# 管理
     
-    E --> E1[止损设置]
+    E --> E1[止损設置]
     E --> E2[仓位控制]
-    E --> E3[风险监控]
+    E --> E3[风险監控]
 ```
 
 ## 🏗️ EA结构
 
 ### EA基本框架
 
-#### 标准EA模板
+#### 標準EA模板
 ```mql4
 //+------------------------------------------------------------------+
 //|                                            MyFirstEA.mq4       |
@@ -54,7 +54,7 @@ graph TB
 #property version   "1.00"
 #property strict
 
-// 输入参数
+// 輸入参数
 input double LotSize = 0.1;        // 交易手数
 input int    StopLoss = 50;        // 止损点数
 input int    TakeProfit = 100;     // 止盈点数
@@ -69,17 +69,17 @@ double totalProfit = 0.0;          // 总利润
 //+------------------------------------------------------------------+
 int OnInit()
   {
-   // EA启动时执行一次
-   Print("=== EA启动 ===");
+   // EA啟動时执行一次
+   Print("=== EA啟動 ===");
    Print("EA名称: ", WindowExpertName());
    Print("交易品种: ", _Symbol);
-   Print("时间周期: ", _Period);
-   Print("账户号: ", AccountNumber());
+   Print("時間周期: ", _Period);
+   Print("帳戶号: ", AccountNumber());
    
-   // 初始化检查
+   // 初始化檢查
    if(!CheckAccountConditions())
      {
-      Print("账户条件检查失败，EA停止运行");
+      Print("帳戶条件檢查失败，EA停止運行");
       return(INIT_FAILED);
      }
    
@@ -95,10 +95,10 @@ void OnDeinit(const int reason)
    Print("=== EA停止 ===");
    Print("停止原因: ", GetDeinitReasonString(reason));
    
-   // 输出统计信息
+   // 輸出統計資訊
    PrintEAStatistics();
    
-   // 清理资源
+   // 清理資源
    ObjectsDeleteAll(0, "MyFirstEA_");
   }
 
@@ -110,13 +110,13 @@ void OnTick()
    // 每次价格变动时执行
    // 这是EA的主要逻辑部分
    
-   // 检查新K线
+   // 檢查新K线
    static datetime lastBarTime = 0;
    if(Time[0] == lastBarTime)
       return;  // 等待新K线
    lastBarTime = Time[0];
    
-   // 检查交易条件
+   // 檢查交易条件
    int signal = CheckTradingSignal();
    
    if(signal != 0)
@@ -133,14 +133,14 @@ void OnChartEvent(const int id,
                   const double &dparam,
                   const string &sparam)
   {
-   // 处理图表事件
+   // 處理圖表事件
    if(id == CHARTEVENT_KEYDOWN)
      {
       Print("按键事件: ", lparam);
      }
    else if(id == CHARTEVENT_CLICK)
      {
-      Print("图表点击事件");
+      Print("圖表点击事件");
      }
   }
 ```
@@ -149,53 +149,53 @@ void OnChartEvent(const int id,
 
 #### 生命周期详解
 ```mql4
-// EA生命周期阶段
-// 1. 加载阶段
+// EA生命周期階段
+// 1. 加载階段
 int OnInit()
   {
-   Print("=== 阶段1: EA加载 ===");
+   Print("=== 階段1: EA加载 ===");
    
    // 初始化变量
-   // 设置参数
-   // 验证账户
-   // 创建对象
+   // 設置参数
+   // 驗證帳戶
+   // 創建对象
    
    return(INIT_SUCCEEDED);
   }
 
-// 2. 运行阶段
+// 2. 運行階段
 void OnTick()
   {
    // 每个tick都可能执行
    // 检测信号
    // 执行交易
-   // 管理订单
-   // 更新状态
+# 管理
+# 更新
   }
 
-// 3. 卸载阶段
+// 3. 移除階段
 void OnDeinit(const int reason)
   {
-   Print("=== 阶段3: EA卸载 ===");
+   Print("=== 階段3: EA移除 ===");
    
-   // 关闭持仓
-   // 保存数据
-   // 删除对象
-   // 输出统计
+   // 關閉持仓
+   // 儲存數據
+   // 刪除对象
+   // 輸出統計
   }
 
-// 获取卸载原因字符串
+// 获取移除原因字符串
 string GetDeinitReasonString(int reason)
   {
    switch(reason)
      {
-      case REASON_PROGRAM:     return "程序被卸载";
-      case REASON_REMOVE:     return "从图表中删除";
+      case REASON_PROGRAM:     return "程式被移除";
+      case REASON_REMOVE:     return "从圖表中刪除";
       case REASON_RECOMPILE:  return "重新编译";
-      case REASON_CHARTCHANGE: return "时间周期改变";
-      case REASON_CHARTCLOSE: return "图表关闭";
-      case REASON_PARAMETERS: return "输入参数改变";
-      case REASON_ACCOUNT:    return "账户改变";
+      case REASON_CHARTCHANGE: return "時間周期改变";
+      case REASON_CHARTCLOSE: return "圖表關閉";
+      case REASON_PARAMETERS: return "輸入参数改变";
+      case REASON_ACCOUNT:    return "帳戶改变";
       default:                return "未知原因";
      }
   }
@@ -203,7 +203,7 @@ string GetDeinitReasonString(int reason)
 
 ## 🎯 信号检测
 
-### 技术分析信号
+# 分析
 
 #### 移动平均线交叉
 ```mql4
@@ -229,7 +229,7 @@ int DetectMACrossSignal(int fastPeriod, int slowPeriod)
       return -1; // 卖出信号
      }
    
-   return 0;  // 无信号
+   return 0;  // 無信号
   }
 
 // 使用MA交叉信号
@@ -269,7 +269,7 @@ int DetectRSISignal(int period, int overbought, int oversold)
       return -1; // 卖出信号
      }
    
-   return 0;  // 无信号
+   return 0;  // 無信号
   }
 
 // 使用RSI信号
@@ -299,18 +299,18 @@ int DetectBreakoutSignal(int period)
       return -1; // 卖出信号
      }
    
-   return 0;  // 无信号
+   return 0;  // 無信号
   }
 
 // 使用突破信号
 int breakoutSignal = DetectBreakoutSignal(20);
 ```
 
-### 综合信号系统
+### 综合信号系統
 
-#### 多信号确认
+#### 多信号確認
 ```mql4
-// 检查交易信号
+// 檢查交易信号
 int CheckTradingSignal()
   {
    // 获取各个指标信号
@@ -318,7 +318,7 @@ int CheckTradingSignal()
    int rsiSignal = DetectRSISignal(14, 70, 30);
    int breakoutSignal = DetectBreakoutSignal(20);
    
-   // 买入条件：至少两个指标确认买入
+   // 买入条件：至少两个指标確認买入
    int buySignals = 0;
    if(maSignal == 1) buySignals++;
    if(rsiSignal == 1) buySignals++;
@@ -326,11 +326,11 @@ int CheckTradingSignal()
    
    if(buySignals >= 2)
      {
-      Print("综合买入信号: ", buySignals, " 个指标确认");
+      Print("综合买入信号: ", buySignals, " 个指标確認");
       return 1;
      }
    
-   // 卖出条件：至少两个指标确认卖出
+   // 卖出条件：至少两个指标確認卖出
    int sellSignals = 0;
    if(maSignal == -1) sellSignals++;
    if(rsiSignal == -1) sellSignals++;
@@ -338,34 +338,34 @@ int CheckTradingSignal()
    
    if(sellSignals >= 2)
      {
-      Print("综合卖出信号: ", sellSignals, " 个指标确认");
+      Print("综合卖出信号: ", sellSignals, " 个指标確認");
       return -1;
      }
    
-   return 0;  // 无明确信号
+   return 0;  // 無明确信号
   }
 ```
 
 ## 🚀 交易执行
 
-### 订单管理
+# 管理
 
 #### 开仓函数
 ```mql4
 // 执行交易
 bool ExecuteTrade(int signal)
   {
-   // 检查是否已经有持仓
+   // 檢查是否已经有持仓
    if(HasOpenPosition(_Symbol))
      {
       Print("已有持仓，等待平仓信号");
       return false;
      }
    
-   // 检查市场状态
+   // 檢查市场狀態
    if(!MarketInfo(_Symbol, MODE_TRADEALLOWED))
      {
-      Print("市场未开放");
+      Print("市场未開放");
       return false;
      }
    
@@ -374,7 +374,7 @@ bool ExecuteTrade(int signal)
    
    if(signal == 1)  // 买入
      {
-      // 计算止损止盈
+      // 計算止损止盈
       sl = Ask - StopLoss * _Point;
       tp = Ask + TakeProfit * _Point;
       
@@ -383,7 +383,7 @@ bool ExecuteTrade(int signal)
      }
    else if(signal == -1)  // 卖出
      {
-      // 计算止损止盈
+      // 計算止损止盈
       sl = Bid + StopLoss * _Point;
       tp = Bid - TakeProfit * _Point;
       
@@ -416,12 +416,12 @@ bool OpenBuyOrder(double lots, double sl = 0, double tp = 0)
    if(ticket > 0)
      {
       totalTrades++;
-      Print("买入订单成功: ", ticket);
+      Print("买入訂單成功: ", ticket);
       return true;
      }
    else
      {
-      Print("买入订单失败: ", GetLastError());
+      Print("买入訂單失败: ", GetLastError());
       return false;
      }
   }
@@ -448,22 +448,22 @@ bool OpenSellOrder(double lots, double sl = 0, double tp = 0)
    if(ticket > 0)
      {
       totalTrades++;
-      Print("卖出订单成功: ", ticket);
+      Print("卖出訂單成功: ", ticket);
       return true;
      }
    else
      {
-      Print("卖出订单失败: ", GetLastError());
+      Print("卖出訂單失败: ", GetLastError());
       return false;
      }
   }
 ```
 
-### 持仓管理
+# 管理
 
 #### 平仓函数
 ```mql4
-// 检查是否有持仓
+// 檢查是否有持仓
 bool HasOpenPosition(string symbol)
   {
    for(int i = 0; i < OrdersTotal(); i++)
@@ -480,7 +480,7 @@ bool HasOpenPosition(string symbol)
    return false;
   }
 
-// 关闭当前持仓
+// 關閉当前持仓
 bool CloseCurrentPosition()
   {
    for(int i = 0; i < OrdersTotal(); i++)
@@ -507,21 +507,21 @@ bool CloseCurrentPosition()
   }
 ```
 
-## 📊 状态管理
+# 管理
 
-### 交易统计
+### 交易統計
 
-#### 统计信息
+#### 統計資訊
 ```mql4
-// 打印EA统计信息
+// 列印EA統計資訊
 void PrintEAStatistics()
   {
-   Print("=== EA统计信息 ===");
+   Print("=== EA統計資訊 ===");
    Print("总交易次数: ", totalTrades);
    Print("总利润: ", totalProfit);
    Print("当前持仓: ", OrdersTotal());
    
-   // 计算历史统计
+   // 計算歷史統計
    int totalOrders = OrdersHistoryTotal();
    int profitableOrders = 0;
    int lossOrders = 0;
@@ -546,9 +546,9 @@ void PrintEAStatistics()
         }
      }
    
-   Print("历史订单总数: ", totalOrders);
-   Print("盈利订单: ", profitableOrders);
-   Print("亏损订单: ", lossOrders);
+   Print("歷史訂單总数: ", totalOrders);
+   Print("盈利訂單: ", profitableOrders);
+   Print("亏损訂單: ", lossOrders);
    
    if(lossOrders > 0)
      {
@@ -557,7 +557,7 @@ void PrintEAStatistics()
      }
   }
 
-// 更新统计信息
+# 更新
 void UpdateStatistics()
   {
    double currentProfit = 0;
@@ -575,15 +575,15 @@ void UpdateStatistics()
    
    totalProfit = currentProfit;
    
-   // 在图表上显示信息
+# 顯示
    DisplayStatistics();
   }
 
-// 在图表上显示统计信息
+# 顯示
 void DisplayStatistics()
   {
    string info = "";
-   info += "=== EA统计 ===\n";
+   info += "=== EA統計 ===\n";
    info += "交易品种: " + _Symbol + "\n";
    info += "总交易: " + IntegerToString(totalTrades) + "\n";
    info += "当前利润: " + DoubleToString(totalProfit, 2) + "\n";
@@ -595,32 +595,32 @@ void DisplayStatistics()
 
 ## 🛡️ 风险控制
 
-### 账户检查
+### 帳戶檢查
 
-#### 账户条件验证
+#### 帳戶条件驗證
 ```mql4
-// 检查账户条件
+// 檢查帳戶条件
 bool CheckAccountConditions()
   {
-   // 检查账户类型
+   // 檢查帳戶类型
    if(IsDemo())
      {
-      Print("检测到模拟账户");
+      Print("检测到模拟帳戶");
      }
    else
      {
-      Print("检测到真实账户，请谨慎操作");
+      Print("检测到真实帳戶，请谨慎操作");
      }
    
-   // 检查账户资金
+   // 檢查帳戶资金
    double balance = AccountBalance();
    if(balance < 100)
      {
-      Print("账户余额过低: ", balance);
+      Print("帳戶余额过低: ", balance);
       return false;
      }
    
-   // 检查账户状态
+   // 檢查帳戶狀態
    if(!AccountInfoInteger(ACCOUNT_TRADE_EXPERT))
      {
       Print("EA交易未启用");
@@ -630,17 +630,17 @@ bool CheckAccountConditions()
    return true;
   }
 
-// 检查交易时间
+// 檢查交易時間
 bool CheckTradingTime()
   {
-   // 定义允许的交易时间
+   // 定义允许的交易時間
    int startHour = 8;
    int endHour = 20;
    
    MqlDateTime tm;
    TimeToStruct(TimeCurrent(), tm);
    
-   // 只在工作时间交易
+   // 只在工作時間交易
    if(tm.hour >= startHour && tm.hour < endHour)
      {
       return true;
@@ -649,17 +649,17 @@ bool CheckTradingTime()
    return false;
   }
 
-// 检查市场状态
+// 檢查市场狀態
 bool CheckMarketStatus()
   {
-   // 检查交易是否允许
+   // 檢查交易是否允许
    if(!MarketInfo(_Symbol, MODE_TRADEALLOWED))
      {
       Print("市场不允许交易");
       return false;
      }
    
-   // 检查点差
+   // 檢查点差
    double spread = MarketInfo(_Symbol, MODE_SPREAD);
    if(spread > 30)  // 点差过大
      {
@@ -675,7 +675,7 @@ bool CheckMarketStatus()
 
 ### MA交叉EA
 
-#### 完整代码
+#### 完整代碼
 ```mql4
 //+------------------------------------------------------------------+
 //|                                       MACrossoverEA.mq4       |
@@ -699,7 +699,7 @@ datetime lastBarTime = 0;
 
 int OnInit()
   {
-   Print("MA交叉EA启动");
+   Print("MA交叉EA啟動");
    Print("快速MA: ", FastMAPeriod, " 慢速MA: ", SlowMAPeriod);
    return(INIT_SUCCEEDED);
   }
@@ -712,7 +712,7 @@ void OnDeinit(const int reason)
 
 void OnTick()
   {
-   // 检查新K线
+   // 檢查新K线
    if(Time[0] == lastBarTime)
       return;
    lastBarTime = Time[0];
@@ -723,7 +723,7 @@ void OnTick()
    // 信号变化时执行交易
    if(signal != 0 && signal != currentSignal)
      {
-      // 关闭现有持仓
+      // 關閉现有持仓
       CloseAllPositions();
       
       // 开新仓
@@ -739,7 +739,7 @@ void OnTick()
       currentSignal = signal;
      }
    
-   // 显示信息
+# 顯示
    DisplayStatus();
   }
 
@@ -768,7 +768,7 @@ void OpenBuyPosition()
                          "MA Buy", MagicNumber, 0, clrBlue);
    
    if(ticket > 0)
-      Print("买入订单: ", ticket);
+      Print("买入訂單: ", ticket);
    else
       Print("买入失败: ", GetLastError());
   }
@@ -782,7 +782,7 @@ void OpenSellPosition()
                          "MA Sell", MagicNumber, 0, clrRed);
    
    if(ticket > 0)
-      Print("卖出订单: ", ticket);
+      Print("卖出訂單: ", ticket);
    else
       Print("卖出失败: ", GetLastError());
   }
@@ -828,34 +828,34 @@ void DisplayStatus()
   }
 ```
 
-## 💡 最佳实践
+## 💡 最佳實踐
 
-### EA开发建议
+### EA開發建議
 
-#### 设计原则
-- ✅ **简单优先**：从简单策略开始
-- ✅ **充分测试**：在模拟账户中充分测试
-- ✅ **风险控制**：始终设置止损
-- ❌ **过度优化**：避免过度拟合历史数据
+#### 設計原則
+- ✅ **简单优先**：从简单策略開始
+- ✅ **充分測試**：在模拟帳戶中充分測試
+- ✅ **风险控制**：始终設置止损
+- ❌ **过度優化**：避免过度拟合歷史數據
 
-#### 代码质量
-- ✅ **模块化设计**：将功能分解为函数
-- ✅ **注释清晰**：添加详细的代码注释
-- ✅ **错误处理**：完善的错误处理机制
+#### 代碼品質
+- ✅ **模块化設計**：将功能分解为函数
+- ✅ **注释清晰**：新增詳細的代碼注释
+- ✅ **错误處理**：完善的错误處理機制
 - ❌ **忽略警告**：重视编译器警告
 
-## 🔗 相关资源
+## 🔗 相關資源
 
 - [[MQL4函数与控制流]] - 函数和控制流
-- [[MQL4交易操作基础]] - 交易操作
-- [[风险管理模块]] - 风险管理
-- [[调试与错误处理]] - 调试技巧
+- [[MQL4交易操作基礎]] - 交易操作
+# 管理
+- [[除錯与错误處理]] - 除錯技巧
 
-### 官方文档
+### 官方文檔
 
-- **EA开发指南**：https://www.mql5.com/en/articles/mql4
+# 指南
 - **MQL4交易函数**：https://www.mql5.com/en/docs/mql4/trading
 
 ---
-*创建时间: 2026-02-01*  
-*分类: 3 Resources*
+*創建時間: 2026-02-01*  
+*分類: 3 Resources*

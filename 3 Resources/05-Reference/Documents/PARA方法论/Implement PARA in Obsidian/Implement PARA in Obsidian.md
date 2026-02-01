@@ -10,7 +10,7 @@ start-date:
 achieve-date:
 tags:
 ---
-# Implement PARA in Obsidian (项目名称)
+# Implement PARA in Obsidian (專案名称)
 
 ## 📌 屬性
 
@@ -19,13 +19,13 @@ tags:
 - **負責人** :: 
 - **狀態** :: #待開始 
 
-## 🎯 Desired outcome（预期结果）
+## 🎯 Desired outcome（预期結果）
 
 - 完成完整的 PARA 檔案結構
 - 建立可重用的模板與自動化腳本
 - 實作每週回顧流程
 
-## 🗂️ Action Plan（行动计划）
+## 🗂️ Action Plan（行动計劃）
 - [x] 建立根層級資料夾（已完成 ✅） 
 - [ ] 撰寫模板（待完成）
 - [ ] 設定 QuickAdd 快捷指令（待完成）

@@ -105,7 +105,7 @@ flowchart LR
     C --> D[📦 Archive]
 
     A -.-> |"Add to InBox"| A1[0 Personals/📥 00_InBox/]
-    B -.-> |"/para-整理收集"| B1[Distribute to PARA]
+# 整理
     C -.-> |"/para-库概览"| C1[Review status]
     D -.-> |"Move to"| D1[4 Archives/]
 ```
@@ -113,7 +113,7 @@ flowchart LR
 | Step | Action | Command |
 |------|--------|---------|
 | 1️⃣ Capture | Add new information to InBox | Manual add |
-| 2️⃣ Organize | Classify by PARA | `/para-整理收集` |
+# 整理
 | 3️⃣ Review | Review library status | `/para-库概览` |
 | 4️⃣ Archive | Move to completed | Manual move |
 
@@ -150,7 +150,7 @@ flowchart LR
 | Command | Function | Description |
 |---------|----------|-------------|
 | `/para-库概览` | 📊 Display library overview | View file count and status by category |
-| `/para-整理收集` | 🧹 Organize InBox | Distribute content by PARA principles |
+# 整理
 | `/para-刷新缓存` | 🔄 Refresh cache | Update performance cache files |
 
 ### 🔍 Auxiliary Commands
@@ -173,7 +173,7 @@ flowchart LR
 /para-库概览
 
 # Organize InBox
-/para-整理收集
+# 整理
 
 # Auto-select skill
 /obsidian
@@ -253,7 +253,7 @@ Contributions are welcome! You can:
 1. Open Obsidian
 2. Import AI-value repository
 3. Start capturing ideas in `0 Personals/📥 00_InBox/`
-4. Use `/para-整理收集` command to organize
+# 整理
 
 </details>
 
@@ -271,7 +271,7 @@ They can be used together!
 <summary>❓ How do I add new notes?</summary>
 
 1. Capture ideas in InBox
-2. Use `/para-整理收集` for automatic classification
+# 整理
 3. Or manually move to appropriate folder
 
 </details>

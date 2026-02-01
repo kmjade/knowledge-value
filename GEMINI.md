@@ -32,7 +32,7 @@ New, unsorted notes and ideas are captured in the `0 Inbox/` directory before be
 This knowledge base is intended to be used within Obsidian. The primary workflow is as follows:
 
 1.  **Capture**: Quickly add new thoughts, notes, and information into the `0 Inbox/` directory. The goal is to capture ideas without worrying about initial organization.
-2.  **Organize**: Periodically process the items in the `Inbox`. Use the PARA decision tree to move each note to the appropriate folder (`Projects`, `Areas`, or `Resources`). The AI command `/para-整理收集` is designed to assist with this process.
+# 整理
 3.  **Review**: Regularly review the contents of your `Projects` and `Areas` to stay on top of your tasks and responsibilities. The `/para-库概览` command can provide a status overview.
 4.  **Archive**: Once a project is complete or an area/resource is no longer active, move it to the `4 Archives/` folder to keep your active workspace clean.
 

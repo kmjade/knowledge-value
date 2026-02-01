@@ -2,10 +2,10 @@
 created: 2026-01-26
 ---
 
-# PARA 工作流完整指南
+# 工作流
 
-> 基於 Tiago Forte 的 PARA 方法
-> 適用於 Obsidian 筆記管理
+# 方法
+# 管理
 
 ---
 
@@ -40,7 +40,7 @@ PARA 是一個資訊組織系統，將所有資訊分為四個類別：
 
 - **簡單**：只有四個分類
 - **實用**：按行動價值組織
-- **靈活**：適應任何工作流程
+# 工作流
 - **可擴展**：從個人到團隊都適用
 
 ### PARA vs 傳統分類
@@ -111,7 +111,7 @@ PARA 是一個資訊組織系統，將所有資訊分為四個類別：
 
 **範例：**
 ```
-✓ 健康管理
+# 管理
 ✓ 財務規劃
 ✓ 人際關係
 ✓ 職業發展
@@ -155,7 +155,7 @@ PARA 是一個資訊組織系統，將所有資訊分為四個類別：
 ✓ 機器學習研究
 ✓ 投資理財文章
 ✓ 旅行靈感
-✓ 食譜收藏
+# 收藏
 ✓ 設計資源
 ✓ 有趣的Podcast
 ```
@@ -196,7 +196,7 @@ PARA/
 
 ### 步驟 2：建立模板
 
-建立 `Templates/PARA/` 資料夾，添加以下模板：
+建立 `Templates/PARA/` 資料夾，新增以下模板：
 
 #### 項目模板（Project.md）
 ```markdown
@@ -260,7 +260,7 @@ tags: #area
 - 指標 2：
 
 ## 📝 筆記
-<!-- 持續更新的筆記 -->
+# 更新
 
 ## 🔗 相關
 - [[]]
@@ -327,7 +327,7 @@ tags: #archive
 - [[]]
 ```
 
-### 步驟 3：整理現有筆記
+# 整理
 
 1. 導出所有筆記標題
 2. 逐一分類：
@@ -341,8 +341,8 @@ tags: #archive
 
 建議每天/每週：
 - [ ] 檢查 Projects 進度
-- [ ] 更新 Areas 狀態
-- [ ] 添加新 Resources
+# 更新
+- [ ] 新增新 Resources
 - [ ] 處理收件匣
 
 ---
@@ -353,9 +353,9 @@ tags: #archive
 
 | 指令 | 功能 | 範例 |
 |------|------|------|
-| `/para-workflow` | 查看 PARA 總覽 | `/para-workflow` |
+# 查看
 | `/new-project` | 建立新項目 | `/new-project 網站改版` |
-| `/new-area` | 建立新領域 | `/new-area 健康管理` |
+# 管理
 | `/new-resource` | 建立新資源 | `/new-resource 機器學習` |
 | `/archive-note` | 歸檔當前筆記 | `/archive-note 已完成` |
 
@@ -404,7 +404,7 @@ tags: #archive
            └────────┘  └────────┘
 ```
 
-### 每日工作流程
+# 工作流
 
 **早晨（5分鐘）**
 1. 打開 `/para-workflow`
@@ -418,8 +418,8 @@ tags: #archive
 
 **晚間（5分鐘）**
 1. 記錄新的想法/任務
-2. 更新 Projects 進度
-3. 规划明天的工作
+# 更新
+3. 規劃明天的工作
 
 ### 每週檢視（週日/週一）
 
@@ -427,19 +427,19 @@ tags: #archive
 ## 每週檢視清單
 
 ### Projects
-- [ ] 更新項目進度
+# 更新
 - [ ] 檢查截止日期
-- [ ] 添加新任務
+- [ ] 新增新任務
 - [ ] 完成本週任務
 
 ### Areas
 - [ ] 檢查領域狀態
-- [ ] 更新檢查清單
+# 更新
 - [ ] 處理待辦事項
 
 ### Resources
-- [ ] 添加新資源
-- [ ] 整理現有資源
+- [ ] 新增新資源
+# 整理
 - [ ] 探索有興趣的主題
 
 ### 收件匣
@@ -460,7 +460,7 @@ tags: #archive
 | 檢視 | 頻率 | 內容 |
 |------|------|------|
 | 每日 | 每天 | Projects 進度、明天計劃 |
-| 每週 | 週日/一 | 全部類別更新 |
+# 更新
 | 每月 | 每月初 | 領域標準、項目狀態 |
 | 每季 | 每季初 | 歸檔、策略調整 |
 
@@ -781,7 +781,7 @@ reason: 等待外部回應
 
 ### 7. 命名規範
 
-建立命名規範，方便搜尋和排序：
+# 排序
 ```markdown
 YYYY-MM-DD_專案名稱
 領域_專案名稱
@@ -789,7 +789,7 @@ YYYY-MM-DD_專案名稱
 
 ### 8. 設定優先順序
 
-Projects 排序：
+# 排序
 - 高優先權在前
 - 截止日期近的在前
 
@@ -888,7 +888,7 @@ SORT due ASC
 ```dataview
 TABLE
   regexreplace(join(filter(file.tags, (t) => startswith(t, "#")), ", "), "#area/", "") AS "領域",
-  file.mtime AS "上次更新"
+# 更新
 FROM "PARA/Areas"
 SORT file.mtime DESC
 ```
@@ -933,7 +933,7 @@ const priority = await select("優先權", ["high", "medium", "low"]);
 - [Building a Second Brain](https://www.buildingasecondbrain.com/)
 
 ### 相關筆記
-- [[PARA指南]]
+# 指南
 - [[PARA歸檔結構]]
 - [[_templates/para/📁 quick/Project]]
 - [[_templates/para/📁 quick/Area]]
@@ -978,8 +978,8 @@ const priority = await select("優先權", ["high", "medium", "low"]);
 
 ```
 □ 檢查 Projects 進度
-□ 更新 Areas 狀態
-□ 添加新 Resources
+# 更新
+□ 新增新 Resources
 □ 清空收件匣
 □ 歸檔完成項目
 □ 規劃下週工作
@@ -987,5 +987,5 @@ const priority = await select("優先權", ["high", "medium", "low"]);
 
 ---
 
-> **最後更新：** {{date}}
-> **版本：** 1.0
+# 更新
+# 版本

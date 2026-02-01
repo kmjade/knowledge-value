@@ -4,7 +4,7 @@ tags: #resource/productivity
 interest-level:
 ---
 
-# Productivity Methods 生產力方法
+# 方法
 
 ## 📚 資源列表
 

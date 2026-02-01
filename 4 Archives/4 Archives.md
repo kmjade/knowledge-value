@@ -101,5 +101,5 @@ SORT archived DESC
 
 ## 🔗 相關
 
-- [[PARA歸檔結構]] - 歸檔策略指南
-- [[3 Resources/05-Reference/Methods/PARA 自动化工作流]] - 完整 PARA 說明
+# 指南
+# 工作流

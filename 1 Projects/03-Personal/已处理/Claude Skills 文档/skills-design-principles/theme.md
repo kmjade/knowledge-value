@@ -1,8 +1,8 @@
-# Skills 设计原则 / Skills Design Principles
+# 設計
 
 ## 概述
 
-学习设计高质量 Claude Skills 的核心原则，确保 Skills 易于使用、维护和扩展。
+# 學習
 
 ---
 
@@ -14,13 +14,13 @@
 
 ### 实践示例
 
-#### ✅ 好的设计
+# 設計
 
 ```
 chinese-first-rule Skill:
 └─ 只负责：语言规范
    ├─ 用户交流语言
-   ├─ 文档编写语言
+# 文檔
    └─ 代码注释语言
 
 context-retrieval-checklist Skill:
@@ -30,19 +30,19 @@ context-retrieval-checklist Skill:
    └─ 验证理解
 
 five-stage-workflow Skill:
-└─ 只负责：开发流程
+# 開發
    ├─ 5 个阶段定义
    ├─ 各阶段任务
    └─ 阶段转换条件
 ```
 
-#### ❌ 不好的设计
+# 設計
 
 ```
 development-standards Skill:
 ├─ 语言规范
 ├─ 上下文检索
-├─ 开发流程
+# 開發
 ├─ 验证机制
 ├─ API 规范
 ├─ 多租户规范
@@ -62,18 +62,18 @@ development-standards Skill:
 
 1. **内容长度**：超过 650 行考虑拆分
 2. **主题数量**：包含 2 个以上明确主题
-3. **使用场景**：在不同场景下使用不同部分
-4. **更新频率**：不同部分更新频率不同
+# 場景
+# 更新
 
 **示例拆分：**
 
 ```
 原 Skill：api-standards（800 行）
-├─ RESTful API 设计（300 行）
+# 設計
 ├─ HTTP 状态码使用（150 行）
 ├─ 错误处理标准（200 行）
 ├─ 认证机制（100 行）
-└─ 版本控制策略（50 行）
+# 版本
 
 拆分为：
 ├─ api-design/SKILL.md（300 行）
@@ -94,7 +94,7 @@ development-standards Skill:
 
 ### 实践示例
 
-#### ✅ 好的设计
+# 設計
 
 ```
 chinese-first-rule/SKILL.md:
@@ -105,7 +105,7 @@ chinese-first-rule/SKILL.md:
 
 ## 规则
 1. 用户交流使用简体中文
-2. 文档编写使用简体中文
+# 文檔
 3. 代码注释使用简体中文
 
 ## 示例
@@ -118,7 +118,7 @@ chinese-first-rule/SKILL.md:
 └─ 独立理解
 ```
 
-#### ❌ 不好的设计
+# 設計
 
 ```
 chinese-first-rule/SKILL.md:
@@ -141,10 +141,10 @@ chinese-first-rule/SKILL.md:
 
 ### 实现要点
 
-1. **完整的内容**：包含所有必要的信息
+# 資訊
 2. **清晰的说明**：不依赖外部参考即可理解
 3. **充足的示例**：提供足够的示例说明
-4. **自包含的规则**：规则完整，不依赖其他文件
+# 檔案
 
 ---
 
@@ -156,11 +156,11 @@ Skills 之间可以互相引用，但避免重复内容。
 
 ### 实践示例
 
-#### ✅ 好的设计
+# 設計
 
 ```
 five-stage-workflow/SKILL.md:
-# 五阶段开发工作流程
+# 開發
 
 ## 第 1 阶段：研究
 
@@ -185,18 +185,18 @@ context-retrieval-checklist/SKILL.md:
 └─ 易于维护
 ```
 
-#### ❌ 不好的设计
+# 設計
 
 ```
 five-stage-workflow/SKILL.md:
-# 五阶段开发工作流程
+# 開發
 
 ## 第 1 阶段：研究
 
 在开始编码之前，必须执行上下文检索：
 
-1. 第 1 步：查看项目结构
-2. 第 2 步：分析相关文件
+# 專案
+# 分析
 3. ...
 7. 第 7 步：验证理解
 
@@ -207,8 +207,8 @@ context-retrieval-checklist/SKILL.md:
 
 ## 7 步检索流程
 
-1. 第 1 步：查看项目结构
-2. 第 2 步：分析相关文件
+# 專案
+# 分析
 3. ...
 7. 第 7 步：验证理解
 
@@ -216,7 +216,7 @@ context-retrieval-checklist/SKILL.md:
 ├─ 内容重复
 ├─ 维护困难
 ├─ 同步问题
-└─ 文件冗余
+# 檔案
 ```
 
 ### 引用策略
@@ -244,54 +244,54 @@ context-retrieval-checklist/SKILL.md:
 
 ---
 
-## 4. 易于更新
+# 更新
 
 ### 原则说明
 
-独立的 Skills 便于维护和更新，不影响其他部分。
+# 更新
 
 ### 实践示例
 
-#### ✅ 好的设计
+# 設計
 
 ```
 mall-api-development/SKILL.md:
-# Mall API 开发规范
+# 開發
 
-## API 设计原则
+# 設計
 
 ### RESTful 标准
 
 所有 API 必须遵循 RESTful 标准...
 
-### 版本控制
+# 版本
 
-使用 URL 路径版本控制：
+# 版本
 /v1/api/...
 
-更新场景：
-├─ 修改 RESTful 标准时
-│  ├─ 只编辑 mall-api-development/SKILL.md
+# 更新
+# 修改
+# 編輯
 │  ├─ 不影响其他 Skills
 │  └─ 风险：低
 │
-└─ 修改中文规范时
-   ├─ 只编辑 chinese-first-rule/SKILL.md
+# 修改
+# 編輯
    ├─ 不影响其他 Skills
    └─ 风险：低
 
 特点：
-├─ 独立更新
+# 更新
 ├─ 影响范围小
 ├─ 风险低
 └─ 易于回滚
 ```
 
-#### ❌ 不好的设计
+# 設計
 
 ```
 monolithic-CLAUDE.md (628 行):
-# 开发规范
+# 開發
 
 ## 语言规范
 ...
@@ -299,44 +299,44 @@ monolithic-CLAUDE.md (628 行):
 ## 上下文检索
 ...
 
-## API 设计
+# 設計
 ...
 
 ## 代码审查
 ...
 
-更新场景：
-├─ 修改 API 规准时
+# 更新
+# 修改
 │  ├─ 需要在 628 行中找到 API 部分
 │  ├─ 可能误改其他部分
-│  ├─ 需要全面测试
+# 測試
 │  └─ 风险：高
 │
-└─ 修改中文规范时
+# 修改
    ├─ 需要在 628 行中找到语言部分
    ├─ 可能误改其他部分
-   ├─ 需要全面测试
+# 測試
    └─ 风险：高
 
 问题：
 ├─ 难以定位
 ├─ 容易误改
-├─ 需要全面测试
+# 測試
 └─ 回滚困难
 ```
 
-### 版本控制优势
+# 版本
 
 ```
 Git 提交历史对比：
 
 Skills 方式：
-commit 1: 更新 mall-api-development/SKILL.md（RESTful 标准）
-commit 2: 更新 mall-api-development/SKILL.md（版本控制）
-commit 3: 更新 chinese-first-rule/SKILL.md（语言规范）
+# 更新
+# 更新
+# 更新
 
 优势：
-├─ 清晰的修改历史
+# 修改
 ├─ 易于追溯
 ├─ 易于回滚
 └─ 易于审查
@@ -350,7 +350,7 @@ commit 3: 更新 chinese-first-rule/SKILL.md（语言规范）
 
 单个 Skill 建议控制在 200-650 行，平衡可读性和模块化。
 
-### 大小分析
+# 分析
 
 | 大小范围 | 评价 | 建议 |
 |---------|------|------|
@@ -365,11 +365,11 @@ commit 3: 更新 chinese-first-rule/SKILL.md（语言规范）
 
 ```
 原 Skill：mall-api-development（800 行）
-├─ API 设计原则（300 行）
+# 設計
 ├─ HTTP 标准（200 行）
 ├─ 认证机制（150 行）
 ├─ 错误处理（100 行）
-└─ 版本控制（50 行）
+# 版本
 
 拆分为：
 ├─ mall-api-design/SKILL.md（300 行）
@@ -392,16 +392,16 @@ commit 3: 更新 chinese-first-rule/SKILL.md（语言规范）
 合并为：
 └─ mall-api-design/SKILL.md（200 行）
    ├─ API 命名规范（50 行）
-   ├─ API 路径设计（60 行）
-   ├─ HTTP 方法使用（40 行）
+# 設計
+# 方法
    └─ HTTP 状态码（50 行）
 ```
 
-### 大小优化策略
+# 優化
 
-1. **参考文档分离**：将详细参考移到 reference/ 目录
-2. **示例分离**：将示例移到 examples/ 目录
-3. **模板分离**：将模板移到 templates/ 目录
+# 文檔
+# 目錄
+# 目錄
 4. **核心内容保留**：只保留核心规则和说明
 
 ---
@@ -414,23 +414,23 @@ commit 3: 更新 chinese-first-rule/SKILL.md（语言规范）
 
 ### 实践示例
 
-#### ✅ 好的设计
+# 設計
 
 ```markdown
 # mall-api-development/SKILL.md
 
-## 适用场景
+# 場景
 
 **何时使用这个 Skill：**
 
-✅ 开发新的 API 接口时
-✅ 修改现有 API 接口时
-✅ 设计 API 响应格式时
+# 開發
+# 修改
+# 設計
 ✅ 实现 API 错误处理时
 
 **何时不需要使用这个 Skill：**
 
-❌ 编写文档时（使用 chinese-first-rule）
+# 文檔
 ❌ 审查代码时（使用 mall-code-review）
 ❌ 生成 CRUD 代码时（使用 mall-crud-generator）
 
@@ -439,26 +439,26 @@ commit 3: 更新 chinese-first-rule/SKILL.md（语言规范）
 Claude 会在以下情况下自动加载此 Skill：
 
 1. 用户提到"API"或"接口"
-2. 任务涉及设计新的 API
-3. 任务涉及修改现有 API
-4. 任务涉及 API 相关的文档
+# 設計
+# 修改
+# 文檔
 
 **关键词**：
 - API, 接口, endpoint, RESTful, HTTP, POST, GET, PUT, DELETE
 ```
 
-#### ❌ 不好的设计
+# 設計
 
 ```markdown
 # mall-api-development/SKILL.md
 
-## API 设计原则
+# 設計
 
 ...
 
 （没有说明何时使用）
 （没有说明触发条件）
-（没有说明适用场景）
+# 場景
 
 问题：
 ├─ 不清楚何时加载
@@ -479,7 +479,7 @@ Claude 会在以下情况下自动加载此 Skill：
 ├─ chinese-first-rule - 清楚说明是中文优先规则
 ├─ context-retrieval-checklist - 清楚说明是检索清单
 ├─ five-stage-workflow - 清楚说明是 5 阶段流程
-└─ mall-api-development - 清楚说明是 Mall API 开发
+# 開發
 
 ❌ 不好的命名：
 ├─ rule-1 - 不清楚是什么规则
@@ -521,9 +521,9 @@ Claude 会在以下情况下自动加载此 Skill：
 └─ api
 ```
 
-### 目录组织
+# 目錄
 
-1. **分类清晰**：按照功能或类型分类
+# 分類
 
 ```
 .claude/skills/
@@ -532,7 +532,7 @@ Claude 会在以下情况下自动加载此 Skill：
 │   ├── context-retrieval-checklist/
 │   └── five-stage-workflow/
 │
-└── project-specific/     # 项目特定 Skills
+# 專案
     ├── mall-crud-generator/
     ├── mall-code-review/
     ├── mall-multi-tenant/
@@ -561,13 +561,13 @@ Claude 会在以下情况下自动加载此 Skill：
 
 ---
 
-## 8. 文档化触发场景
+# 文檔
 
 ### 原则说明
 
 在每个 Skill 中明确说明：
 1. 何时应该使用这个 Skill
-2. 典型的应用场景
+# 場景
 3. 与其他 Skills 的关系
 
 ### 完整示例
@@ -577,69 +577,69 @@ Claude 会在以下情况下自动加载此 Skill：
 
 ## 概述
 
-提供 Mall 项目的 API 开发规范，包括 RESTful 标准、错误处理、认证机制等。
+# 專案
 
-## 适用场景
+# 場景
 
 ### 何时使用这个 Skill
 
 ✅ **以下情况应该使用此 Skill：**
 
-1. **开发新的 API 接口**
-   - 例如：创建商品评论 API
-   - 例如：添加用户认证 API
+# 開發
+# 創建
+# 新增
 
-2. **修改现有 API 接口**
-   - 例如：更新订单查询 API
-   - 例如：优化商品列表 API
+# 修改
+# 查詢
+# 優化
 
-3. **设计 API 响应格式**
+# 設計
    - 例如：定义成功的响应格式
    - 例如：定义错误的响应格式
 
 4. **实现 API 错误处理**
-   - 例如：添加参数校验错误处理
-   - 例如：添加业务逻辑错误处理
+# 新增
+# 新增
 
 ### 何时不需要使用这个 Skill
 
 ❌ **以下情况不需要使用此 Skill：**
 
-1. **编写文档时** → 使用 [[chinese-first-rule/SKILL.md]]
+# 文檔
 2. **审查代码时** → 使用 [[mall-code-review/SKILL.md]]
 3. **生成 CRUD 代码时** → 使用 [[mall-crud-generator/SKILL.md]]
 4. **检索上下文时** → 使用 [[context-retrieval-checklist/SKILL.md]]
 
-### 典型应用场景
+# 場景
 
-#### 场景 1：创建商品评论 API
+# 創建
 
-**任务描述**：创建商品评论的增删改查 API
+# 創建
 
 **使用的 Skills**：
 - chinese-first-rule（语言规范）
 - context-retrieval-checklist（上下文检索）
-- mall-api-development（API 设计规范）
+# 設計
 - mall-multi-tenant（多租户隔离）
 - mall-crud-generator（CRUD 代码生成）
 
 **具体应用**：
-- 按照 mall-api-development 设计 API 路径、方法、参数
-- 按照 mall-multi-tenant 添加租户字段和过滤
+# 方法
+# 新增
 - 按照 mall-crud-generator 生成基础代码
 
-#### 场景 2：优化现有 API
+# 優化
 
-**任务描述**：优化商品列表 API，添加分页和排序
+# 優化
 
 **使用的 Skills**：
 - chinese-first-rule（语言规范）
-- mall-api-development（API 设计规范）
+# 設計
 - mall-code-review（代码审查标准）
 
 **具体应用**：
-- 按照 mall-api-design 优化分页参数设计
-- 按照 mall-code-review 审查优化后的代码
+# 優化
+# 優化
 
 ### 与其他 Skills 的关系
 
@@ -647,7 +647,7 @@ Claude 会在以下情况下自动加载此 Skill：
 
 ```
 mall-api-development
-├─ 依赖：chinese-first-rule（所有 API 文档使用中文）
+# 文檔
 ├─ 依赖：mall-multi-tenant（API 需要支持多租户）
 └─ 被依赖：mall-code-review（审查 API 时参考 API 规范）
 ```
@@ -655,9 +655,9 @@ mall-api-development
 **配合使用**：
 
 ```
-完整 API 开发流程：
+# 開發
 1. context-retrieval-checklist（检索上下文）
-2. mall-api-development（设计 API）
+# 設計
 3. mall-crud-generator（生成代码）
 4. mandatory-verification（验证代码）
 5. mall-code-review（审查代码）
@@ -676,14 +676,14 @@ Claude 会在检测到以下关键词时加载此 Skill：
 **次要关键词**：
 - HTTP, URL, 路径, 参数
 - 认证, 授权, token
-- 版本控制, v1, v2
+# 版本
 
 ## 触发优先级
 
 **高优先级**（总是加载）：
 - chinese-first-rule
 
-**中优先级**（开发任务时加载）：
+# 開發
 - context-retrieval-checklist
 - mall-api-development
 - mall-crud-generator
@@ -695,9 +695,9 @@ Claude 会在检测到以下关键词时加载此 Skill：
 
 ---
 
-## 设计检查清单
+# 設計
 
-使用此检查清单确保你的 Skill 设计符合最佳实践：
+# 設計
 
 ```
 □ 单一职责
@@ -709,8 +709,8 @@ Claude 会在检测到以下关键词时加载此 Skill：
 □ 相互协作
   └─ Skills 之间可以互相引用
 
-□ 易于更新
-  └─ Skill 可以独立更新
+# 更新
+# 更新
 
 □ 合理大小
   └─ Skill 在 200-650 行之间
@@ -721,17 +721,17 @@ Claude 会在检测到以下关键词时加载此 Skill：
 □ 清晰的命名
   └─ 名称描述性强且一致
 
-□ 文档化触发场景
-  └─ 说明适用场景和关系
+# 文檔
+# 場景
 
 □ 完整的内容
-  └─ 包含所有必要的信息
+# 資訊
 
 □ 充足的示例
   └─ 提供足够的示例说明
 
-□ 版本控制友好
-  └─ 易于追踪修改历史
+# 版本
+# 修改
 ```
 
 ---
@@ -740,22 +740,22 @@ Claude 会在检测到以下关键词时加载此 Skill：
 
 - **Skills 简介**：[[./skills-introduction/theme.md|了解 Claude Skills 的基本概念]]
 - **Skills 工作原理**：[[./skills-mechanism/theme.md|了解加载机制和执行流程]]
-- **Skills 核心特性**：[[./skills-features/theme.md|深入了解 Token 效率优化]]
-- **Skills 实施方案**：[[./skills-implementation/theme.md|学习如何实施 Skills]]
+# 效率
+- **Skills 实施方案**：[[./skills-implementation/theme.md|學習如何实施 Skills]]
 
 ---
 
 ## 总结
 
-设计高质量 Skills 的核心原则：
+# 設計
 
 1. **单一职责** - 每个 Skill 专注一个主题
 2. **可独立使用** - Skill 可以独立理解和应用
 3. **相互协作** - Skills 之间可以互相引用
-4. **易于更新** - 独立的 Skills 便于维护
+# 更新
 5. **合理大小** - 控制在 200-650 行
 6. **清晰的触发条件** - 明确说明何时使用
 7. **清晰的命名和组织** - 一致的命名风格
-8. **文档化触发场景** - 说明适用场景和关系
+# 文檔
 
-遵循这些原则，你将创建出易于使用、维护和扩展的高质量 Skills！
+# 創建

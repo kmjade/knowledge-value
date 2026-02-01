@@ -2,17 +2,17 @@
 title: 超级快速捕获
 aliases:
   - Ultra Quick Capture
-  - 快速笔记
+# 筆記
 tags: [template, quick-capture]
 ---
 
 > [!info] 使用说明
 
-这是一个超快速捕获模板，适用于零延迟的瞬间想法记录。
+# 記錄
 
 **触发方式**：`Ctrl+Shift+U` (全局快捷键)
 
-**适用场景**：
+# 場景
 - 会议中一闪而过的想法
 - 走路、洗澡时突然的灵感
 - 阅读时的新观点
@@ -20,8 +20,8 @@ tags: [template, quick-capture]
 
 **特点**：
 - 最少化字段：title + created
-- 文件名自动格式：`YYYY-MM-DD_标题.md`
-- 自动添加 `inbox` 标签
+# 檔案
+# 新增
 
 ---
 
@@ -32,14 +32,14 @@ tags: [template, quick-capture]
 **捕获时间**：{{date}}
 
 **备注**：
-- [ ] 快速笔记（30秒内完成）
-- [ ] 问题卡（需要深入分析）
-- [ ] 资源收集（后续参考）
-- [ ] 会议记录
+# 筆記
+# 分析
+# 資源
+# 記錄
 
 ---
 
 ## 下一步建议
 
 [ ] 在每日回顾时，用 `Inbox Dashboard` 检查未处理条目
-- [ ] 根据性质，移动到对应 PARA 文件夹
+# 檔案

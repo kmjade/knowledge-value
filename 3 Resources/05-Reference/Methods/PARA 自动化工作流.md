@@ -1,17 +1,17 @@
 ---
-title: PARA 自动化工作流
+# 工作流
 aliases:
-  - 工作流
+# 工作流
 tags:
   - workflow
   - inbox
   - quick-action
 ---
 
-> [!note] PARA 自动化工作流 / PARA Automated Workflow
-> 自动触发 PARA 整理和文档创建的流程配置
+# 工作流
+# 配置
 
-## 工作流配置 / Workflow Configuration
+# 工作流
 ---
 
 ### 触发器 / Triggers
@@ -27,22 +27,22 @@ WHERE contains(tags, "workflow-trigger")
 SORT file.mtime DESC
 ```
 
-| 类型 | 条件 | 动作 | 说明 |
+| 类型 | 条件 | 动作 | 說明 |
 |------|--------|------|----------|
-| schedule | 定时 | 归档 | 按计划自动归档 |
-| project | 项目完成 | 整理 | 将完成项目自动归档 |
-| inbox | 收件箱满 | 整理 | 提醒整理 InBox |
-| manual | 手动触发 | 整理 | 执行 `/para-整理收集` |
+| schedule | 定时 | 歸檔 | 按計劃自動歸檔 |
+# 整理
+# 整理
+# 整理
 
-### 工作流模板 / Workflow Templates
+# 工作流
 ---
 
-#### 项目归档流程
+#### 專案歸檔流程
 
 ```dataview
 TABLE WITHOUT ID
   title as "模板",
-  description as "说明",
+  description as "說明",
   steps as "步骤"
 FROM ""
 WHERE contains(tags, "workflow-template")
@@ -50,17 +50,17 @@ WHERE contains(tags, "workflow-template")
 
 ---
 
-## 实现说明
+## 實現說明
 ---
 
-### 触发器实现
+### 触发器實現
 
 ```dataview
 TABLE WITHOUT ID
   title as "触发器",
   trigger_condition as "触发条件",
   trigger_action as "触发动作",
-  file_path as "关联文件"
+  file_path as "关联檔案"
 FROM ""
 WHERE contains(tags, "workflow-trigger")
 SORT file.mtime DESC
@@ -68,22 +68,22 @@ SORT file.mtime DESC
 
 ---
 
-## 使用方法 / Usage
+# 方法
 ---
 
-### 手动触发
+### 手動触发
 
 ```
-/para-触发: 归档:项目完成
+/para-触发: 歸檔:專案完成
 ```
 
-### 自动触发
+### 自動触发
 
-配置好触发器后，系统会自动执行相应的整理命令。
+# 配置
 
 ---
 
-> [!tip] 自动化建议
-> - 定期触发 InBox 整理
-> - 项目完成后自动归档
-> - 按周/月自动创建工作流报告
+> [!tip] 自動化建議
+# 整理
+> - 專案完成後自動歸檔
+# 工作流

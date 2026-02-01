@@ -1,22 +1,22 @@
 ---
-title: 🤖 Claude Code 使用整合指南
+# 指南
 status: active
 priority: high
-tags: [Claude Code, AI编程, 开发工具, 国内使用]
+tags: [Claude Code, AI編程, 開發工具, 国内使用]
 aliases: [Claude Code Integration Guide, Claude Code Tutorial]
 created: 2026-01-31
 modified: 2026-01-31
 ---
 
-# 🤖 Claude Code 使用整合指南
+# 指南
 
-> Claude Code 是 Anthropic 推出的 agentic 编码工具，可在命令行或 IDE 中运行，借助 Claude 的语言模型能力来辅助写代码、重构、调试、维护和理解代码库。本文檔整合所有 Claude Code 相關資源，提供完整的使用指南。
+# 指南
 
 ## 📋 目錄
 
 - [Claude Code 概述](#claude-code-概述)
 - [快速開始](#快速開始)
-- [安裝指南](#安裝指南)
+# 指南
 - [國內使用方案](#國內使用方案)
 - [高級功能](#高級功能)
 - [開發實踐](#開發實踐)
@@ -34,10 +34,10 @@ modified: 2026-01-31
 
 ```
 智能編碼能力
-├── 理解整個代碼庫（不只是單個文件）
+├── 理解整個代碼庫（不只是單個檔案）
 ├── 支持自然語言命令（"說"的方式）
 ├── 執行命令/運行 shell 或 bash 命令
-└── 支持項目記憶（CLAUDE.md 文件）
+└── 支持項目記憶（CLAUDE.md 檔案）
 ```
 
 ### 主要功能
@@ -45,10 +45,10 @@ modified: 2026-01-31
 | 功能 | 說明 | 應用場景 |
 |------|------|----------|
 | **智能代碼生成** | 快速生成高質量代碼 | 新功能開發、腳本編寫 |
-| **代碼分析** | 深度理解和分析代碼結構 | 代碼審查、架構理解 |
+# 分析
 | **調試助手** | 智能發現和修復代碼問題 | Bug 修復、錯誤定位 |
 | **文檔生成** | 自動生成代碼文檔 | API 文檔、README 編寫 |
-| **命令行集成** | 無縫集成到開發流程 | CI/CD、自動化腳本 |
+| **命令行整合** | 無縫整合到開發流程 | CI/CD、自動化腳本 |
 
 ---
 
@@ -61,7 +61,7 @@ modified: 2026-01-31
   ↓
 步驟 2：全局安裝 Claude Code
   ↓
-步驟 3：配置 API 密鑰（國內用戶需要）
+# 配置
   ↓
 步驟 4：進入項目目錄
   ↓
@@ -81,13 +81,13 @@ claude
 **首次啟動後需要**:
 - 選擇喜歡的主題（回車）
 - 確認安全須知（回車）
-- 使用默認 Terminal 配置（回車）
+# 配置
 - 信任工作目錄（回車）
 - **開始編程！🚀**
 
 ---
 
-## 安裝指南
+# 指南
 
 ### Windows 安裝
 
@@ -100,11 +100,11 @@ claude
 
 **1. 安裝 Node.js**
 ```
-訪問 Node.js 官網，下載並安裝 LTS 版本
+# 版本
 驗證安裝: node -v
 ```
 
-**2. 設置 npm 配置**
+# 配置
 ```powershell
 # 設置 npm 在安裝包時忽略執行腳本
 setx NPM_CONFIG_IGNORE_SCRIPTS true
@@ -120,32 +120,32 @@ npm install -g @anthropic-ai/claude-code
 claude-code --version
 ```
 
-#### 配置環境變量
+# 配置
 
-**方法一：圖形化配置（推薦，永久生效）**
+# 方法
 
 1. 右鍵點擊「此電腦」→ 選擇「屬性」
 2. 點擊「高級系統設置」
-3. 在「系統屬性」窗口中點擊「環境變量」
+3. 在「系統屬性」視窗中點擊「環境變量」
 4. **重要**: 在「系統變量」部分點擊「新建」（多人共用電腦可選擇「用戶變量」）
-5. 添加以下兩個變量：
+5. 新增以下兩個變量：
    - 變量名：`ANTHROPIC_AUTH_TOKEN`，變量值：`sk-your-api-key`
    - 變量名：`ANTHROPIC_BASE_URL`，變量值：`https://api.whatai.cc`
-6. 點擊「確定」保存
+6. 點擊「確定」儲存
 
-**方法二：PowerShell（永久設置）**
+# 方法
 ```powershell
 [Environment]::SetEnvironmentVariable("ANTHROPIC_AUTH_TOKEN", "sk-your-api-key", "User")
 [Environment]::SetEnvironmentVariable("ANTHROPIC_BASE_URL", "https://api.whatai.cc", "User")
 ```
 
-**方法三：通過 settings.json 設置**
+# 方法
 
 ```powershell
-# 找到 settings.json 文件
+# 找到 settings.json 檔案
 C:\Users\{user}\.claude\settings.json
 
-# 設置 API 信息
+# 設置 API 資訊
 {
   "env": {
     "ANTHROPIC_MODEL": "claude-sonnet-4-20250514",
@@ -156,14 +156,14 @@ C:\Users\{user}\.claude\settings.json
 }
 ```
 
-**方法四：命令提示符（臨時設置）**
+# 方法
 ```cmd
 set ANTHROPIC_AUTH_TOKEN=sk-your-api-key
 set ANTHROPIC_BASE_URL=https://api.whatai.cc
 claude
 ```
 
-**注意**: 永久設置後需要重啟終端才能生效。推薦使用永久配置方式。
+# 配置
 
 ---
 
@@ -172,7 +172,7 @@ claude
 #### 系統要求
 - 操作系統: macOS 10.14+ 或 Linux
 - 終端: Bash 或 Zsh
-- 包管理器: Homebrew（推薦）
+# 管理
 
 #### 安裝步驟
 
@@ -191,18 +191,18 @@ brew install node
 npm install -g @anthropic-ai/claude-code
 ```
 
-#### 配置 API 密鑰
+# 配置
 
 **獲取 Auth Token（參考神馬中轉 API 文檔）**
 
-**方法一：使用 Bash（推薦）**
+# 方法
 ```bash
 echo 'export ANTHROPIC_AUTH_TOKEN="sk-your-api-key"' >> ~/.bash_profile
 echo 'export ANTHROPIC_BASE_URL="https://api.whatai.cc"' >> ~/.bash_profile
 source ~/.bash_profile
 ```
 
-**方法二：使用 Zsh（如果使用 Oh My Zsh）**
+# 方法
 ```bash
 echo 'export ANTHROPIC_AUTH_TOKEN="sk-your-api-key"' >> ~/.zshrc
 echo 'export ANTHROPIC_BASE_URL="https://api.whatai.cc"' >> ~/.zshrc
@@ -227,13 +227,13 @@ Claude Code 官方 API 在國內可能無法直接訪問，神馬中轉 API（ap
 - ✅ 穩定的服務質量
 - ✅ 按用量計費，透明計價
 
-### 配置神馬中轉
+# 配置
 
 **獲取 API 密鑰**:
 1. 訪問 [神馬中轉 API](https://api.whatai.cc/)
 2. 註冊並獲取 API 密鑰（格式：`sk-xxxx`）
 
-**配置環境變量**:
+# 配置
 
 **Windows**:
 ```powershell
@@ -248,10 +248,10 @@ echo 'export ANTHROPIC_BASE_URL="https://api.whatai.cc"' >> ~/.bash_profile
 source ~/.bash_profile
 ```
 
-### API 密鑰管理建議
+# 管理
 
 - **令牌分組**: 在神馬中轉創建令牌時，建議選擇「企業分組中轉分組」
-- **密鑰安全**: 不要將 API 密鑰提交到版本控制系統
+# 版本
 - **定期更換**: 建議定期更換 API 密鑰
 - **用量監控**: 定期檢查 API 使用量，避免超額費用
 
@@ -259,15 +259,15 @@ source ~/.bash_profile
 
 ## 高級功能
 
-### IDE 集成
+### IDE 整合
 
 **支持的 IDE**:
-- VS Code - 通過擴展集成
+- VS Code - 通過擴展整合
 - Cursor - 內置 Claude Code 支持
-- JetBrains 系列 - 通過插件支持
+- JetBrains 系列 - 通過外掛支持
 - 其他支持終端的 IDE
 
-**VS Code 集成示例**:
+**VS Code 整合示例**:
 ```json
 {
   "version": "2.0.0",
@@ -287,9 +287,9 @@ source ~/.bash_profile
 
 **擴展 Agent 能力**
 
-MCP (Model Context Protocol) 服務器允許 Claude Code 與外部工具和數據源集成。
+MCP (Model Context Protocol) 服務器允許 Claude Code 與外部工具和數據源整合。
 
-**配置示例**:
+# 配置
 ```json
 {
   "mcpServers": {
@@ -305,7 +305,7 @@ MCP (Model Context Protocol) 服務器允許 Claude Code 與外部工具和數�
 }
 ```
 
-### CI/CD 集成
+### CI/CD 整合
 
 **GitHub Actions 示例**:
 ```yaml
@@ -333,7 +333,7 @@ jobs:
 
 ### 團隊規範
 
-**通過 CLAUDE.md 文件定義團隊規範**
+**通過 CLAUDE.md 檔案定義團隊規範**
 
 ```markdown
 # 項目規範
@@ -345,14 +345,14 @@ jobs:
 
 ## 項目結構
 - src/ - 源代碼
-- tests/ - 測試文件
+- tests/ - 測試檔案
 - docs/ - 文檔
 - scripts/ - 構建腳本
 
 ## 常用腳本
 - npm run dev - 開發服務器
 - npm run test - 運行測試
-- npm run build - 構建生產版本
+# 版本
 ```
 
 ---
@@ -361,7 +361,7 @@ jobs:
 
 ### 快速項目初始化
 
-**場景**: 需要快速搭建一個包含前後端的完整項目結構，包括配置文件、Docker 支持、測試框架等。
+# 配置
 
 **操作步驟**:
 ```bash
@@ -375,13 +375,13 @@ claude
 
 1. 後端：Node.js + Express + TypeScript + Prisma ORM
 2. 前端：React + TypeScript + Vite + TailwindCSS
-3. 包含 Docker Compose 配置（前端、後端、PostgreSQL、Redis）
-4. 包含 ESLint、Prettier 配置
-5. 包含 GitHub Actions CI/CD 配置
+# 配置
+# 配置
+# 配置
 6. 包含完整的 README.md
 
 項目名稱：task-manager
-請生成完整的目錄結構和所有必要的配置文件。
+# 配置
 ```
 
 **預期輸出結構**:
@@ -440,23 +440,23 @@ task-manager/
 1. 為每個模型生成完整的 CRUD 端點
 2. 包含身份驗證中間件（JWT）
 3. 包含輸入驗證（使用 Joi 或 Zod）
-4. 包含分頁、排序、過濾功能
+# 排序
 5. 生成 OpenAPI/Swagger 文檔
 6. 包含示例請求和響應
-7. 輸出格式：完整的 routes 文件和 controller 文件
+7. 輸出格式：完整的 routes 檔案和 controller 檔案
 ```
 
-### 性能優化分析
+# 分析
 
-**場景**: 發現代碼性能問題，需要 Claude 分析並提供優化方案。
+# 分析
 
 **Prompt 示例**:
 ```markdown
-分析以下 React 組件的性能問題並提供優化方案：
+# 分析
 
 [粘貼你的代碼]
 
-請從以下角度分析：
+# 分析
 1. 不必要的重渲染
 2. 內存洩漏風險
 3. 大列表渲染優化
@@ -464,10 +464,10 @@ task-manager/
 5. Bundle size 優化
 
 輸出：
-- 問題清單（按嚴重程度排序）
+# 排序
 - 每個問題的具體優化方案
 - 優化後的完整代碼
-- 性能提升預期
+- 效能提升預期
 ```
 
 ### 代碼現代化升級
@@ -478,18 +478,18 @@ task-manager/
 ```markdown
 將以下 JavaScript 代碼升級為現代 TypeScript，要求：
 
-1. 添加完整的類型定義
+1. 新增完整的類型定義
 2. 使用 ES6+ 特性（async/await、解構、模板字符串等）
 3. 改進錯誤處理
-4. 添加 JSDoc 註釋
+4. 新增 JSDoc 註釋
 5. 遵循 TypeScript 最佳實踐
 
 [粘貼舊代碼]
 
 額外要求：
-- 保持向後兼容
+- 保持向後相容
 - 列出所有破壞性變更
-- 提供遷移指南
+# 指南
 ```
 
 ### 測試代碼生成
@@ -504,17 +504,17 @@ task-manager/
 
 測試要求：
 1. 單元測試（Jest/Vitest）
-2. 集成測試
+2. 整合測試
 3. 邊界條件測試
 4. 錯誤場景測試
 5. Mock 外部依賴
 6. 測試覆蓋率目標：>90%
 
 輸出：
-- 完整的測試文件
+- 完整的測試檔案
 - 測試用例說明表格
 - Mock 數據生成函數
-- 測試運行配置
+# 配置
 ```
 
 ---
@@ -525,27 +525,27 @@ task-manager/
 
 | 命令 | 說明 |
 |------|------|
-| `claude-code --help` | 顯示幫助信息 |
-| `claude-code --version` | 顯示版本號 |
+| `claude-code --help` | 顯示幫助資訊 |
+# 版本
 | `claude-code --chat` | 進入交互式對話模式 |
 | `claude-code --prompt "<prompt>"` | 直接發送提示並獲取回覆 |
-| `claude-code --diff <file1> <file2>` | 比較兩個文件差異 |
+| `claude-code --diff <file1> <file2>` | 比較兩個檔案差異 |
 
-### 文件操作命令
-
-| 命令 | 說明 |
-|------|------|
-| `claude-code read <file>` | 讀取文件內容 |
-| `claude-code write <file> <content>` | 寫入文件內容 |
-| `claude-code edit <file>` | 使用默認編輯器編輯文件 |
-
-### 代碼分析命令
+### 檔案操作命令
 
 | 命令 | 說明 |
 |------|------|
-| `claude-code analyze <file>` | 分析代碼文件 |
+| `claude-code read <file>` | 讀取檔案內容 |
+| `claude-code write <file> <content>` | 寫入檔案內容 |
+| `claude-code edit <file>` | 使用默認編輯器編輯檔案 |
+
+# 分析
+
+| 命令 | 說明 |
+|------|------|
+# 分析
 | `claude-code explain <code>` | 解釋代碼片段 |
-| `claude-code refactor <file>` | 重構代碼文件 |
+| `claude-code refactor <file>` | 重構代碼檔案 |
 
 ---
 
@@ -589,24 +589,24 @@ claude-code /model claude-3-5-sonnet-20250219
 | 命令未找到 | 未在系統 PATH 中 | 重啟終端或使用完整路徑 |
 | 認證失敗 | API 密鑰無效 | 檢查密鑰格式，重新登錄 |
 | 網絡錯誤 | 防火牆或網絡限制 | 檢查網絡連接，使用代理 |
-| 文件訪問權限 | 文件訪問權限 | 以管理員身份運行 PowerShell |
+# 管理
 | 配額不足 | Claude Code API 配額用盡 | 檢查 API 使用量，升級套餐 |
 
 ### 調試建議
 
-**1. API 密鑰配置**
+# 配置
 - 請將 `sk-your-api-key` 替換為您在本站生成的實際 API 密鑰
 - 令牌分組：在本站創建令牌時，建議選擇「企業分組中轉分組」
-- 網絡連接：確保網絡連接穩定，工具需要與 API 服務器通信
+- 網絡連接：確保網絡連接穩定，工具需要與 API 服務器通訊
 - 項目目錄：建議在具體項目目錄下使用，以獲得更好的上下文理解
 
 **2. 安裝問題**
-- Windows: 確保以管理員身份運行 PowerShell
-- Node.js: 確認 Node.js 版本 >= 18
+# 管理
+# 版本
 - 環境變量: 重啟終端使環境變量生效
 
 **3. 使用問題**
-- 上下文文件: 通過 `--context` 參數傳遞項目配置
+# 配置
 - 模型選擇: 使用 `/model` 命令切換模型
 - 對話歷史: 使用 `/clear` 清除對話歷史
 
@@ -623,31 +623,31 @@ claude-code /model claude-3-5-sonnet-20250219
 ### 國內資源
 
 - [神馬中轉 API](https://api.whatai.cc/) - 國內 API 轉發服務
-- [Claude Code 國內使用教程](https://www.cnblogs.com/whatai/p/19108865) - 完整教學
-- [Claude Code 安裝指南](https://www.cnblogs.com/whatai/p/19108866) - Windows 安裝
+# 教程
+# 指南
 
 ### AI 輔助相關
 
-- [[3 Resources/01-Tech/🧠 AI 知识/🛠️ 工具/OpenCode/OpenCode+Ollama集成指南/README.md]] - OpenCode + Ollama 集成
-- [[3 Resources/03-Productivity/🚀 生產力資源整合指南]] - 生產力工具整合
+# 指南
+# 指南
 
 ---
 
-## 更新日誌
+# 更新
 
 ### 2026-01-31
-- ✅ 創建 Claude Code 使用整合指南
-- ✅ 整理現有 Claude Code 教程資源
-- ✅ 提供完整的安裝和配置指南
+# 指南
+# 教程
+# 指南
 - ✅ 包含國內使用方案（神馬中轉 API）
-- ✅ 添加高級功能和開發實踐示例
+- ✅ 新增高級功能和開發實踐示例
 - ✅ 完善故障排除知識庫
 
 ### 待辦事項
-- [ ] 定期更新 Claude Code 教程資源
+# 教程
 - [ ] 收集更多開發實踐案例
 - [ ] 充實故障排除知識庫
-- [ ] 跟蹤 Claude Code 新功能更新
+# 更新
 
 ---
 
@@ -663,11 +663,11 @@ claude-code /model claude-3-5-sonnet-20250219
 ├── /help                     - 顯示幫助
 └── /clear                    - 清除歷史
 
-文件操作
-├── claude-code read <file>     - 讀取文件
-├── claude-code write <file>    - 寫入文件
-├── claude-code edit <file>     - 編輯文件
-└── claude-code analyze <file>  - 分析文件
+檔案操作
+├── claude-code read <file>     - 讀取檔案
+├── claude-code write <file>    - 寫入檔案
+├── claude-code edit <file>     - 編輯檔案
+# 分析
 
 模型切換
 ├── /model sonnet             - 默認模型
@@ -676,7 +676,7 @@ claude-code /model claude-3-5-sonnet-20250219
 └── /model moonshotai/kimi-k2  - Kimi 模型
 ```
 
-### 配置檢查清單
+# 配置
 
 ```
 安裝檢查
@@ -695,5 +695,5 @@ claude-code /model claude-3-5-sonnet-20250219
 ---
 
 *創建時間: 2026-01-31*
-*最後更新: 2026-01-31*
+# 更新
 *分類: 3 Resources*

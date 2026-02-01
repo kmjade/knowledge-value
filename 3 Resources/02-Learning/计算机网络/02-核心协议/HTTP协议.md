@@ -9,87 +9,87 @@ tags:
   - 核心协议
   - HTTP
   - HTTPS
-  - 应用层协议
-  - 计算机网络
+  - 應用程式层协议
+  - 計算机網路
 created: 2026-01-21
 ---
 
 > [!summary] HTTP协议概述
-> HTTP (HyperText Transfer Protocol) 是应用层协议，用于在Web浏览器和Web服务器之间传输超文本数据。
+> HTTP (HyperText Transfer Protocol) 是應用程式层协议，用于在Web瀏覽器和Web伺服器之间傳輸超文本數據。
 
 ---
 
-## 📋 目录
+## 📋 目錄
 
-- [HTTP基础](#http基础)
-- [HTTP方法](#http方法)
-- [HTTP状态码](#http状态码)
+- [HTTP基礎](#http基礎)
+# 方法
+- [HTTP狀態码](#http狀態码)
 - [HTTP头部](#http头部)
 - [HTTPS](#https)
-- [HTTP版本](#http版本)
+# 版本
 
 ---
 
-## 🔍 HTTP基础
+## 🔍 HTTP基礎
 
 ### 定义
 
-HTTP是一个**无状态**的**请求-响应**协议，运行在**TCP协议**之上（默认端口80）。
+HTTP是一个**無狀態**的**请求-響應**协议，運行在**TCP协议**之上（默认端口80）。
 
-### 工作流程
+# 工作流
 
 ```
-客户端                         服务器
+客户端                         伺服器
   │                              │
-  │─── 1.建立TCP连接 ────────────→│
+  │─── 1.建立TCP連接 ────────────→│
   │                              │
-  │─── 2.发送HTTP请求 ───────────→│
+  │─── 2.發送HTTP请求 ───────────→│
   │                              │
-  │←── 3.处理请求 ───────────────│
+  │←── 3.處理请求 ───────────────│
   │                              │
-  │←── 4.返回HTTP响应 ───────────│
+  │←── 4.返回HTTP響應 ───────────│
   │                              │
-  │─── 5.渲染页面 ───────────────→│
+  │─── 5.渲染頁面 ───────────────→│
   │                              │
-  │─── 6.关闭连接 ───────────────→│
+  │─── 6.關閉連接 ───────────────→│
   │                              │
 ```
 
-### 特点
+### 特點
 
-| 特性 | 说明 |
+| 特性 | 說明 |
 |------|------|
-| **无状态** | 服务器不保存客户端的任何状态 |
-| **请求-响应** | 客户端发起请求，服务器返回响应 |
-| **灵活** | 可以传输任意类型的数据 |
-| **可扩展** | 通过头部字段扩展功能 |
+| **無狀態** | 伺服器不儲存客户端的任何狀態 |
+| **请求-響應** | 客户端发起请求，伺服器返回響應 |
+| **灵活** | 可以傳輸任意类型的數據 |
+| **可擴展** | 通過头部字段擴展功能 |
 
 ---
 
-## 📤 HTTP方法
+# 方法
 
-### 常用方法
+# 方法
 
-| 方法 | 说明 | 幂等性 | 请求体 |
+# 方法
 |------|------|--------|--------|
-| GET | 获取资源 | ✅ 是 | ❌ 无 |
-| POST | 创建/提交数据 | ❌ 否 | ✅ 有 |
-| PUT | 更新资源（整体替换） | ✅ 是 | ✅ 有 |
-| DELETE | 删除资源 | ✅ 是 | ❌ 无 |
-| PATCH | 部分更新资源 | ❌ 否 | ✅ 有 |
-| HEAD | 获取响应头（无响应体） | ✅ 是 | ❌ 无 |
-| OPTIONS | 获取服务器支持的方法 | ✅ 是 | ❌ 无 |
-| CONNECT | 建立隧道（常用于HTTPS代理） | ❌ 否 | ❌ 无 |
-| TRACE | 回显服务器收到的请求 | ✅ 是 | ❌ 无 |
+| GET | 获取資源 | ✅ 是 | ❌ 無 |
+| POST | 創建/提交數據 | ❌ 否 | ✅ 有 |
+# 更新
+| DELETE | 刪除資源 | ✅ 是 | ❌ 無 |
+# 更新
+| HEAD | 获取響應头（無響應体） | ✅ 是 | ❌ 無 |
+# 方法
+| CONNECT | 建立隧道（常用于HTTPS代理） | ❌ 否 | ❌ 無 |
+| TRACE | 回显伺服器收到的请求 | ✅ 是 | ❌ 無 |
 
-### 方法详解
+# 方法
 
 #### GET
 ```
 GET /index.html HTTP/1.1
 Host: www.example.com
 ```
-- 用于获取资源
+- 用于获取資源
 - 参数在URL中
 - 可被缓存
 
@@ -104,7 +104,7 @@ Content-Type: application/json
   "email": "john@example.com"
 }
 ```
-- 用于创建资源或提交数据
+- 用于創建資源或提交數據
 - 参数在请求体中
 - 不可缓存
 
@@ -119,71 +119,71 @@ Content-Type: application/json
   "email": "john@example.com"
 }
 ```
-- 用于更新资源（整体替换）
-- 幂等：多次PUT结果相同
+# 更新
+- 幂等：多次PUT結果相同
 
 #### DELETE
 ```
 DELETE /api/users/1 HTTP/1.1
 Host: www.example.com
 ```
-- 用于删除资源
-- 幂等：多次DELETE结果相同
+- 用于刪除資源
+- 幂等：多次DELETE結果相同
 
 ---
 
-## 📊 HTTP状态码
+## 📊 HTTP狀態码
 
-### 状态码分类
+### 狀態码分類
 
 ```
-1xx 信息性 - 请求已接收，继续处理
-2xx 成功 - 请求成功处理
+1xx 資訊性 - 请求已接收，繼續處理
+2xx 成功 - 请求成功處理
 3xx 重定向 - 需要进一步操作
 4xx 客户端错误 - 客户端请求错误
-5xx 服务器错误 - 服务器处理错误
+5xx 伺服器错误 - 伺服器處理错误
 ```
 
-### 常见状态码
+### 常见狀態码
 
 #### 2xx 成功
 
-| 状态码 | 说明 | 使用场景 |
+| 狀態码 | 說明 | 使用場景 |
 |--------|------|----------|
 | 200 OK | 请求成功 | GET/POST成功 |
-| 201 Created | 资源创建成功 | POST成功 |
-| 204 No Content | 成功但无返回内容 | DELETE成功 |
-| 206 Partial Content | 部分内容 | 断点续传 |
+| 201 Created | 資源創建成功 | POST成功 |
+| 204 No Content | 成功但無返回內容 | DELETE成功 |
+| 206 Partial Content | 部分內容 | 断点续传 |
 
 #### 3xx 重定向
 
-| 状态码 | 说明 | 使用场景 |
+| 狀態码 | 說明 | 使用場景 |
 |--------|------|----------|
 | 301 Moved Permanently | 永久重定向 | URL永久改变 |
 | 302 Found | 临时重定向 | URL临时改变 |
-| 304 Not Modified | 未修改 | 缓存验证 |
-| 307 Temporary Redirect | 临时重定向（保留方法） | URL临时改变 |
+# 修改
+# 方法
 
 #### 4xx 客户端错误
 
-| 状态码 | 说明 | 使用场景 |
+| 狀態码 | 說明 | 使用場景 |
 |--------|------|----------|
 | 400 Bad Request | 请求错误 | 请求格式错误 |
-| 401 Unauthorized | 未认证 | 需要登录 |
+| 401 Unauthorized | 未认证 | 需要登入 |
 | 403 Forbidden | 禁止访问 | 权限不足 |
-| 404 Not Found | 资源不存在 | URL错误 |
-| 405 Method Not Allowed | 方法不允许 | 不支持的HTTP方法 |
-| 409 Conflict | 冲突 | 资源冲突 |
+| 404 Not Found | 資源不存在 | URL错误 |
+# 方法
+| 409 Conflict | 冲突 | 資源冲突 |
 | 429 Too Many Requests | 请求过多 | 超出速率限制 |
 
-#### 5xx 服务器错误
+#### 5xx 伺服器错误
 
-| 状态码 | 说明 | 使用场景 |
+| 狀態码 | 說明 | 使用場景 |
 |--------|------|----------|
-| 500 Internal Server Error | 服务器内部错误 | 服务器故障 |
+| 500 Internal Server Error | 伺服器内部错误 | 伺服器故障 |
 | 502 Bad Gateway | 网关错误 | 网关不可用 |
-| 503 Service Unavailable | 服务不可用 | 服务器过载 |
-| 504 Gateway Timeout | 网关超时 | 响应超时 |
+| 503 Service Unavailable | 服务不可用 | 伺服器过载 |
+| 504 Gateway Timeout | 网关超时 | 響應超时 |
 
 ---
 
@@ -194,25 +194,25 @@ Host: www.example.com
 ```
 GET /index.html HTTP/1.1
 Host: www.example.com              # 主机名
-User-Agent: Mozilla/5.0...          # 浏览器信息
+User-Agent: Mozilla/5.0...          # 瀏覽器資訊
 Accept: text/html,application/xhtml+xml  # 可接受的类型
 Accept-Language: zh-CN,en-US        # 可接受的语言
 Accept-Encoding: gzip, deflate      # 可接受的编码
-Connection: keep-alive              # 连接方式
+Connection: keep-alive              # 連接方式
 Cookie: session=abc123              # Cookie
 Cache-Control: no-cache             # 缓存控制
 ```
 
-### 响应头示例
+### 響應头示例
 
 ```
 HTTP/1.1 200 OK
 Date: Tue, 21 Jan 2026 14:00:00 GMT  # 日期
-Server: nginx/1.18.0                # 服务器信息
-Content-Type: text/html             # 内容类型
-Content-Length: 1234                # 内容长度
-Connection: keep-alive              # 连接方式
-Set-Cookie: session=xyz789; Secure   # 设置Cookie
+Server: nginx/1.18.0                # 伺服器資訊
+Content-Type: text/html             # 內容类型
+Content-Length: 1234                # 內容长度
+Connection: keep-alive              # 連接方式
+Set-Cookie: session=xyz789; Secure   # 設置Cookie
 Cache-Control: max-age=3600         # 缓存控制
 ```
 
@@ -220,28 +220,28 @@ Cache-Control: max-age=3600         # 缓存控制
 
 #### 请求头
 
-| 头部 | 说明 |
+| 头部 | 說明 |
 |------|------|
 | Host | 请求的主机名（必填） |
-| User-Agent | 客户端信息 |
-| Accept | 可接受的内容类型 |
-| Authorization | 认证信息 |
-| Content-Type | 请求体的内容类型 |
+| User-Agent | 客户端資訊 |
+| Accept | 可接受的內容类型 |
+| Authorization | 认证資訊 |
+| Content-Type | 请求体的內容类型 |
 | Content-Length | 请求体的长度 |
 | Cookie | 客户端Cookie |
-| Referer | 来源页面 |
+| Referer | 来源頁面 |
 
-#### 响应头
+#### 響應头
 
-| 头部 | 说明 |
+| 头部 | 說明 |
 |------|------|
-| Server | 服务器信息 |
-| Content-Type | 响应体的内容类型 |
-| Content-Length | 响应体的长度 |
-| Set-Cookie | 设置Cookie |
+| Server | 伺服器資訊 |
+| Content-Type | 響應体的內容类型 |
+| Content-Length | 響應体的长度 |
+| Set-Cookie | 設置Cookie |
 | Location | 重定向的URL |
 | Cache-Control | 缓存策略 |
-| ETag | 资源标识 |
+| ETag | 資源标识 |
 
 ---
 
@@ -249,24 +249,24 @@ Cache-Control: max-age=3600         # 缓存控制
 
 ### 定义
 
-HTTPS (HTTP Secure) 是 HTTP 的安全版本，通过 **TLS/SSL** 加密通信内容。
+# 版本
 
 ### 工作原理
 
 ```
-客户端                         服务器
+客户端                         伺服器
   │                              │
-  │─── 1.发送ClientHello ──────→│
+  │─── 1.發送ClientHello ──────→│
   │←── 2.返回ServerHello ───────│
   │←── 3.返回数字证书 ──────────│
   │                              │
-  │─── 4.验证证书 ───────────────│
+  │─── 4.驗證证书 ───────────────│
   │                              │
-  │─── 5.发送预主密钥(加密) ─────→│
+  │─── 5.發送预主密钥(加密) ─────→│
   │                              │
   │─── 6.双方生成会话密钥 ───────→│
   │                              │
-  │─── 7.加密通信 ───────────────→│
+  │─── 7.加密通訊 ───────────────→│
   │←─────────────────────────────│
 ```
 
@@ -275,38 +275,38 @@ HTTPS (HTTP Secure) 是 HTTP 的安全版本，通过 **TLS/SSL** 加密通信�
 | 特性 | HTTP | HTTPS |
 |------|------|-------|
 | 端口 | 80 | 443 |
-| 加密 | ❌ 无 | ✅ 有 |
-| 认证 | ❌ 无 | ✅ 有 |
-| 数据安全 | ⚠️ 明文传输 | ✅ 加密传输 |
+| 加密 | ❌ 無 | ✅ 有 |
+| 认证 | ❌ 無 | ✅ 有 |
+| 數據安全 | ⚠️ 明文傳輸 | ✅ 加密傳輸 |
 | SEO排名 | 低 | 高 |
-| 成本 | 低 | 高（证书费用） |
+| 成本 | 低 | 高（证书費用） |
 
-### TLS/SSL握手过程
+### TLS/SSL握手過程
 
-1. **ClientHello**: 客户端发送支持的加密套件和随机数
-2. **ServerHello**: 服务器选择加密套件和发送随机数
-3. **证书验证**: 服务器发送数字证书，客户端验证
-4. **密钥交换**: 客户端生成预主密钥，用服务器公钥加密发送
+1. **ClientHello**: 客户端發送支持的加密套件和随机数
+2. **ServerHello**: 伺服器選擇加密套件和發送随机数
+3. **证书驗證**: 伺服器發送数字证书，客户端驗證
+4. **密钥交换**: 客户端生成预主密钥，用伺服器公钥加密發送
 5. **会话密钥生成**: 双方使用预主密钥和随机数生成会话密钥
-6. **加密通信**: 使用会话密钥加密后续通信
+6. **加密通訊**: 使用会话密钥加密後續通訊
 
 ---
 
-## 📈 HTTP版本
+# 版本
 
 ### HTTP/1.0
 
-- 每次请求都需要建立新连接
-- 无持久连接
+- 每次请求都需要建立新連接
+- 無持久連接
 
 ### HTTP/1.1
 
 ```
-Connection: keep-alive  # 持久连接
+Connection: keep-alive  # 持久連接
 ```
-- 默认持久连接
+- 默认持久連接
 - 支持管道化（Pipeline）
-- 分块传输编码（Chunked Transfer）
+- 分块傳輸编码（Chunked Transfer）
 - 缓存控制增强
 
 ### HTTP/2
@@ -316,7 +316,7 @@ Connection: keep-alive  # 持久连接
 - 多路复用（Multiplexing）
 - 二进制协议
 - 头部压缩（HPACK）
-- 服务器推送（Server Push）
+- 伺服器推送（Server Push）
 ```
 
 ### HTTP/3
@@ -324,44 +324,44 @@ Connection: keep-alive  # 持久连接
 ```
 特性：
 - 基于QUIC协议（UDP）
-- 解决队头阻塞
-- 更快的连接建立
+- 解決队头阻塞
+- 更快的連接建立
 ```
 
 ---
 
-## 🛠️ 实践示例
+## 🛠️ 實踐示例
 
-### 示例1：使用curl查看HTTP请求
+# 查看
 
 ```bash
-# 发送GET请求
+# 發送GET请求
 curl -v https://www.example.com
 
-# 查看响应头
+# 查看
 curl -I https://www.example.com
 
-# 发送POST请求
+# 發送POST请求
 curl -X POST https://api.example.com/users \
   -H "Content-Type: application/json" \
   -d '{"name":"John"}'
 ```
 
-### 示例2：浏览器开发者工具
+### 示例2：瀏覽器開發者工具
 
-1. 打开浏览器开发者工具（F12）
-2. 切换到"Network"标签
-3. 刷新页面
-4. 查看请求和响应的详细信息
+1. 打開瀏覽器開發者工具（F12）
+2. 切換到"Network"標籤
+3. 刷新頁面
+# 查看
 
 ---
 
-## 💡 性能优化
+## 💡 效能優化
 
 ### 1. 减少HTTP请求数
-- 合并CSS/JS文件
+- 合并CSS/JS檔案
 - 使用雪碧图（Sprite）
-- 内联小资源
+- 内联小資源
 
 ### 2. 利用缓存
 ```
@@ -369,7 +369,7 @@ Cache-Control: max-age=3600
 ETag: "abc123"
 ```
 
-### 3. 压缩内容
+### 3. 压缩內容
 ```
 Accept-Encoding: gzip, deflate
 Content-Encoding: gzip
@@ -377,7 +377,7 @@ Content-Encoding: gzip
 
 ### 4. 使用CDN
 - 就近访问
-- 减少延迟
+- 减少延遲
 
 ### 5. 使用HTTP/2
 - 多路复用
@@ -385,24 +385,24 @@ Content-Encoding: gzip
 
 ---
 
-## 📝 学习检查清单
+## 📝 學習檢查清單
 
-- [ ] 能说出HTTP是无状态的请求-响应协议
-- [ ] 掌握常用的HTTP方法（GET, POST, PUT, DELETE）
-- [ ] 能识别常见的HTTP状态码
+- [ ] 能说出HTTP是無狀態的请求-響應协议
+# 方法
+- [ ] 能识别常见的HTTP狀態码
 - [ ] 了解HTTP头部的作用
 - [ ] 理解HTTPS的加密原理
-- [ ] 知道HTTP各版本的差异
+# 版本
 
 ---
 
-## 🔗 相关链接
+## 🔗 相關連結
 
 - 🔙 [[02-核心协议|返回核心协议]]
 - 🔒 [[HTTPS]]
 - 🔐 [[TLS SSL]]
-- 🛠️ [[06-实践工具]]
+- 🛠️ [[06-實踐工具]]
 
 ---
 
-最后更新：2026-01-21
+# 更新

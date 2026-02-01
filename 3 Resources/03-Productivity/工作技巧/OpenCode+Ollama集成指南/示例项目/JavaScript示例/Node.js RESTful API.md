@@ -1,25 +1,25 @@
-# JavaScript Node.js API项目示例
+# JavaScript Node.js API專案示例
 # JavaScript Node.js API Project Example
 
-## 📋 项目描述 / Project Description
+## 📋 專案描述 / Project Description
 
-这是一个使用Node.js和Express构建的RESTful API项目，展示了如何使用OpenCode + Ollama进行JavaScript开发。
+这是一个使用Node.js和Express構建的RESTful API專案，展示了如何使用OpenCode + Ollama進行JavaScript開發。
 
 This is a RESTful API project built with Node.js and Express, demonstrating JavaScript development with OpenCode + Ollama.
 
-## 🎯 学习目标 / Learning Objectives
+## 🎯 學習目標 / Learning Objectives
 
-- Node.js RESTful API开发
-- Express框架应用
-- MongoDB数据库集成
-- JWT认证系统
-- API文档生成
-- 错误处理中间件
-- 测试驱动开发
+- Node.js RESTful API開發
+- Express框架應用程式
+- MongoDB資料庫整合
+- JWT认证系統
+- API文檔生成
+- 错误處理中间件
+- 測試驅動程式開發
 
 ---
 
-## 📁 项目结构 / Project Structure
+## 📁 專案结构 / Project Structure
 
 ```
 nodejs-api/
@@ -28,7 +28,7 @@ nodejs-api/
 │   │   ├── authController.js
 │   │   ├── userController.js
 │   │   └── postController.js
-│   ├── models/               # 数据模型
+│   ├── models/               # 數據模型
 │   │   ├── User.js
 │   │   └── Post.js
 │   ├── routes/               # 路由定义
@@ -43,47 +43,47 @@ nodejs-api/
 │   │   ├── database.js
 │   │   ├── jwt.js
 │   │   └── logger.js
-│   ├── config/              # 配置文件
+# 配置
 │   │   ├── database.js
 │   │   └── server.js
-│   └── app.js               # 应用入口
-├── tests/                   # 测试文件
+│   └── app.js               # 應用程式入口
+├── tests/                   # 測試檔案
 │   ├── auth.test.js
 │   ├── users.test.js
 │   ├── posts.test.js
 │   └── setup.js
-├── docs/                    # 文档
+├── docs/                    # 文檔
 │   ├── api.md
 │   └── deployment.md
-├── package.json             # 项目配置
-├── .env.example            # 环境变量模板
-├── .gitignore              # Git忽略文件
-├── README.md               # 项目说明
-└── ecosystem.config.js      # PM2配置
+# 配置
+├── .env.example            # 環境变量模板
+├── .gitignore              # Git忽略檔案
+├── README.md               # 專案說明
+# 配置
 ```
 
 ---
 
-## 🐍 使用OpenCode + Ollama生成代码示例
+## 🐍 使用OpenCode + Ollama生成代碼示例
 # Code Generation Examples Using OpenCode + Ollama
 
-### 示例1: 生成Express基础应用结构
+### 示例1: 生成Express基礎應用程式结构
 
 **OpenCode提示词**:
 ```
-创建一个Node.js Express RESTful API的基础结构，包含以下功能：
-1. 用户注册和登录
+創建一个Node.js Express RESTful API的基礎结构，包含以下功能：
+1. 使用者註冊和登入
 2. JWT认证中间件
-3. CRUD操作（用户和文章）
-4. MongoDB数据库集成
-5. 输入验证中间件
-6. 全局错误处理
-7. API文档生成
-8. 测试用例
+3. CRUD操作（使用者和文章）
+4. MongoDB資料庫整合
+5. 輸入驗證中间件
+6. 全局错误處理
+7. API文檔生成
+8. 測試用例
 使用async/await语法和现代ES6+特性。
 ```
 
-**预期输出**:
+**预期輸出**:
 ```javascript
 // src/app.js
 const express = require('express');
@@ -104,7 +104,7 @@ const postRoutes = require('./routes/posts');
 
 const app = express();
 
-// 中间件设置
+// 中间件設置
 app.use(helmet()); // 安全头
 app.use(cors({
     origin: process.env.NODE_ENV === 'production' 
@@ -126,7 +126,7 @@ app.use(morgan('combined', { stream: { write: message => logger.info(message.tri
 app.use(express.json({ limit: '10mb' }));
 app.use(express.urlencoded({ extended: true }));
 
-// 数据库连接
+// 資料庫連接
 mongoose.connect(config.database.uri, {
     useNewUrlParser: true,
     useUnifiedTopology: true
@@ -139,7 +139,7 @@ app.use('/api/auth', authRoutes);
 app.use('/api/users', userRoutes);
 app.use('/api/posts', postRoutes);
 
-// 健康检查
+// 健康檢查
 app.get('/health', (req, res) => {
     res.status(200).json({
         status: 'OK',
@@ -148,7 +148,7 @@ app.get('/health', (req, res) => {
     });
 });
 
-// 404处理
+// 404處理
 app.use('*', (req, res) => {
     res.status(404).json({
         error: 'Route not found',
@@ -156,10 +156,10 @@ app.use('*', (req, res) => {
     });
 });
 
-// 全局错误处理
+// 全局错误處理
 app.use(errorHandler);
 
-// 优雅关闭
+// 优雅關閉
 process.on('SIGTERM', () => {
     logger.info('SIGTERM received, shutting down gracefully');
     mongoose.connection.close(() => {
@@ -171,22 +171,22 @@ process.on('SIGTERM', () => {
 module.exports = app;
 ```
 
-### 示例2: 生成用户控制器
+### 示例2: 生成使用者控制器
 
 **OpenCode提示词**:
 ```
-创建一个完整的用户控制器，包含：
-1. 用户注册（邮箱验证、密码加密）
-2. 用户登录（JWT生成）
-3. 获取用户资料
-4. 更新用户资料
-5. 删除用户账户
-6. 密码重置功能
-7. 输入验证和错误处理
-8. 安全最佳实践
+創建一个完整的使用者控制器，包含：
+1. 使用者註冊（邮箱驗證、密碼加密）
+2. 使用者登入（JWT生成）
+3. 获取使用者资料
+# 更新
+5. 刪除使用者帳戶
+6. 密碼重置功能
+7. 輸入驗證和错误處理
+8. 安全最佳實踐
 ```
 
-**预期输出**:
+**预期輸出**:
 ```javascript
 // src/controllers/userController.js
 const bcrypt = require('bcryptjs');
@@ -197,10 +197,10 @@ const { validationResult } = require('express-validator');
 const logger = require('../utils/logger');
 const emailService = require('../utils/emailService');
 
-// 用户注册
+// 使用者註冊
 exports.register = async (req, res) => {
     try {
-        // 验证输入
+        // 驗證輸入
         const errors = validationResult(req);
         if (!errors.isEmpty()) {
             return res.status(400).json({
@@ -211,7 +211,7 @@ exports.register = async (req, res) => {
 
         const { username, email, password } = req.body;
 
-        // 检查用户是否已存在
+        // 檢查使用者是否已存在
         const existingUser = await User.findOne({
             $or: [{ email }, { username }]
         });
@@ -223,14 +223,14 @@ exports.register = async (req, res) => {
             });
         }
 
-        // 密码加密
+        // 密碼加密
         const salt = await bcrypt.genSalt(12);
         const hashedPassword = await bcrypt.hash(password, salt);
 
-        // 创建验证令牌
+        // 創建驗證令牌
         const emailVerificationToken = crypto.randomBytes(32).toString('hex');
 
-        // 创建新用户
+        // 創建新使用者
         const user = new User({
             username,
             email,
@@ -241,7 +241,7 @@ exports.register = async (req, res) => {
 
         await user.save();
 
-        // 发送验证邮件
+        // 發送驗證電子郵件
         await emailService.sendVerificationEmail(email, emailVerificationToken);
 
         logger.info(`New user registered: ${email}`);
@@ -260,7 +260,7 @@ exports.register = async (req, res) => {
     }
 };
 
-// 用户登录
+// 使用者登入
 exports.login = async (req, res) => {
     try {
         const errors = validationResult(req);
@@ -273,7 +273,7 @@ exports.login = async (req, res) => {
 
         const { email, password } = req.body;
 
-        // 查找用户
+        // 尋找使用者
         const user = await User.findOne({ email }).select('+password +emailVerificationToken');
         if (!user) {
             return res.status(401).json({
@@ -282,7 +282,7 @@ exports.login = async (req, res) => {
             });
         }
 
-        // 检查邮箱是否验证
+        // 檢查邮箱是否驗證
         if (!user.isEmailVerified) {
             return res.status(403).json({
                 error: 'Email not verified',
@@ -290,7 +290,7 @@ exports.login = async (req, res) => {
             });
         }
 
-        // 验证密码
+        // 驗證密碼
         const isPasswordValid = await bcrypt.compare(password, user.password);
         if (!isPasswordValid) {
             return res.status(401).json({
@@ -313,7 +313,7 @@ exports.login = async (req, res) => {
             }
         );
 
-        // 更新最后登录时间
+# 更新
         user.lastLoginAt = new Date();
         await user.save();
 
@@ -340,7 +340,7 @@ exports.login = async (req, res) => {
     }
 };
 
-// 获取用户资料
+// 获取使用者资料
 exports.getProfile = async (req, res) => {
     try {
         const userId = req.user.userId;
@@ -376,7 +376,7 @@ exports.getProfile = async (req, res) => {
     }
 };
 
-// 更新用户资料
+# 更新
 exports.updateProfile = async (req, res) => {
     try {
         const errors = validationResult(req);
@@ -390,7 +390,7 @@ exports.updateProfile = async (req, res) => {
         const userId = req.user.userId;
         const updates = req.body;
 
-        // 过滤允许更新的字段
+# 更新
         const allowedUpdates = ['username', 'avatar', 'bio', 'website', 'location'];
         const filteredUpdates = {};
         
@@ -400,7 +400,7 @@ exports.updateProfile = async (req, res) => {
             }
         });
 
-        // 检查用户名是否已被占用
+        // 檢查使用者名是否已被占用
         if (filteredUpdates.username) {
             const existingUser = await User.findOne({
                 _id: { $ne: userId },
@@ -452,13 +452,13 @@ exports.updateProfile = async (req, res) => {
     }
 };
 
-// 删除用户账户
+// 刪除使用者帳戶
 exports.deleteAccount = async (req, res) => {
     try {
         const userId = req.user.userId;
         const { password, confirmation } = req.body;
 
-        // 验证确认信息
+        // 驗證確認資訊
         if (confirmation !== 'DELETE_ACCOUNT') {
             return res.status(400).json({
                 error: 'Invalid confirmation',
@@ -473,7 +473,7 @@ exports.deleteAccount = async (req, res) => {
             });
         }
 
-        // 验证密码
+        // 驗證密碼
         const isPasswordValid = await bcrypt.compare(password, user.password);
         if (!isPasswordValid) {
             return res.status(401).json({
@@ -482,7 +482,7 @@ exports.deleteAccount = async (req, res) => {
             });
         }
 
-        // 删除用户（软删除或硬删除）
+        // 刪除使用者（软刪除或硬刪除）
         await User.findByIdAndDelete(userId);
 
         logger.info(`User account deleted: ${user.email}`);
@@ -505,18 +505,18 @@ exports.deleteAccount = async (req, res) => {
 
 **OpenCode提示词**:
 ```
-创建一个JWT认证中间件，包含：
-1. 令牌验证
-2. 用户信息加载
-3. 令牌刷新机制
-4. 权限检查
-5. 错误处理
-6. 安全最佳实践
-7. 性能优化
-8. 可配置性
+創建一个JWT认证中间件，包含：
+1. 令牌驗證
+2. 使用者資訊加载
+3. 令牌刷新機制
+4. 权限檢查
+5. 错误處理
+6. 安全最佳實踐
+7. 效能優化
+# 配置
 ```
 
-**预期输出**:
+**预期輸出**:
 ```javascript
 // src/middleware/auth.js
 const jwt = require('jsonwebtoken');
@@ -524,7 +524,7 @@ const User = require('../models/User');
 const logger = require('../utils/logger');
 const config = require('../config');
 
-// JWT令牌验证中间件
+// JWT令牌驗證中间件
 const authenticateToken = (req, res, next) => {
     try {
         // 获取令牌
@@ -540,10 +540,10 @@ const authenticateToken = (req, res, next) => {
             });
         }
 
-        // 验证令牌
+        // 驗證令牌
         const decoded = jwt.verify(token, config.jwt.secret);
         
-        // 检查令牌是否在黑名单中（如果实现了令牌撤销）
+        // 檢查令牌是否在黑名单中（如果實現了令牌撤銷）
         if (tokenBlacklist.has(token)) {
             return res.status(401).json({
                 error: 'Token has been revoked',
@@ -551,7 +551,7 @@ const authenticateToken = (req, res, next) => {
             });
         }
 
-        // 加载用户信息
+        // 加载使用者資訊
         const user = await User.findById(decoded.userId).select('-password -emailVerificationToken');
         if (!user) {
             return res.status(401).json({
@@ -560,7 +560,7 @@ const authenticateToken = (req, res, next) => {
             });
         }
 
-        // 检查用户是否被禁用
+        // 檢查使用者是否被禁用
         if (user.status === 'disabled') {
             return res.status(403).json({
                 error: 'Account disabled',
@@ -568,7 +568,7 @@ const authenticateToken = (req, res, next) => {
             });
         }
 
-        // 将用户信息添加到请求对象
+        // 将使用者資訊新增到请求对象
         req.user = user;
         req.token = token;
 
@@ -595,7 +595,7 @@ const authenticateToken = (req, res, next) => {
     }
 };
 
-// 可选权限检查中间件
+// 可选权限檢查中间件
 const requirePermission = (permission) => {
     return (req, res, next) => {
         if (!req.user) {
@@ -616,7 +616,7 @@ const requirePermission = (permission) => {
     };
 };
 
-// 可选角色检查中间件
+// 可选角色檢查中间件
 const requireRole = (role) => {
     return (req, res, next) => {
         if (!req.user) {
@@ -649,10 +649,10 @@ const refreshToken = async (req, res) => {
             });
         }
 
-        // 验证刷新令牌
+        // 驗證刷新令牌
         const decoded = jwt.verify(refreshToken, config.jwt.refreshSecret);
         
-        // 检查刷新令牌是否有效
+        // 檢查刷新令牌是否有效
         const user = await User.findById(decoded.userId).select('-password -emailVerificationToken');
         if (!user || user.refreshToken !== refreshToken) {
             return res.status(401).json({
@@ -675,7 +675,7 @@ const refreshToken = async (req, res) => {
             { expiresIn: '7d' }
         );
 
-        // 更新用户的刷新令牌
+# 更新
         user.refreshToken = newRefreshToken;
         await user.save();
 
@@ -694,10 +694,10 @@ const refreshToken = async (req, res) => {
     }
 };
 
-// 令牌黑名单（简单实现）
+// 令牌黑名单（简单實現）
 const tokenBlacklist = new Set();
 
-// 撤销令牌
+// 撤銷令牌
 const revokeToken = (req, res) => {
     try {
         const token = req.token;
@@ -709,10 +709,10 @@ const revokeToken = (req, res) => {
             });
         }
 
-        // 将令牌添加到黑名单
+        // 将令牌新增到黑名单
         tokenBlacklist.add(token);
 
-        // 可选：从数据库中删除刷新令牌
+        // 可选：从資料庫中刪除刷新令牌
         if (req.user) {
             req.user.refreshToken = null;
             req.user.save();
@@ -743,26 +743,26 @@ module.exports = {
 
 ---
 
-## 🧪 测试用例生成示例
+## 🧪 測試用例生成示例
 # Test Case Generation Examples
 
-### 使用OpenCode生成集成测试
+### 使用OpenCode生成整合測試
 
 **OpenCode提示词**:
 ```
-为Node.js Express API创建全面的Jest测试套件，包含：
-1. 用户注册和登录测试
-2. JWT认证中间件测试
-3. CRUD操作测试
-4. 错误处理测试
-5. 边界条件测试
-6. 安全性测试
-7. 性能测试
-8. 测试数据和清理
-使用现代测试最佳实践和Mock技术。
+为Node.js Express API創建全面的Jest測試套件，包含：
+1. 使用者註冊和登入測試
+2. JWT认证中间件測試
+3. CRUD操作測試
+4. 错误處理測試
+5. 边界条件測試
+6. 安全性測試
+7. 效能測試
+8. 測試數據和清理
+使用现代測試最佳實踐和Mock技術。
 ```
 
-**预期输出**:
+**预期輸出**:
 ```javascript
 // tests/auth.test.js
 const request = require('supertest');
@@ -780,7 +780,7 @@ describe('Authentication Endpoints', () => {
     });
 
     beforeEach(async () => {
-        // 清理用户集合
+        // 清理使用者集合
         await User.deleteMany({});
     });
 
@@ -801,12 +801,12 @@ describe('Authentication Endpoints', () => {
             expect(response.body).toHaveProperty('userId');
             expect(response.body.message).toContain('registered successfully');
 
-            // 验证用户是否保存到数据库
+            // 驗證使用者是否儲存到資料庫
             const savedUser = await User.findOne({ email: userData.email });
             expect(savedUser).toBeTruthy();
             expect(savedUser.username).toBe(userData.username);
             expect(savedUser.email).toBe(userData.email);
-            expect(savedUser.password).not.toBe(userData.password); // 密码应该被加密
+            expect(savedUser.password).not.toBe(userData.password); // 密碼應該被加密
             expect(savedUser.isEmailVerified).toBe(false);
         });
 
@@ -830,7 +830,7 @@ describe('Authentication Endpoints', () => {
             const userData = {
                 username: 'testuser',
                 email: 'test@example.com',
-                password: '123' // 弱密码
+                password: '123' // 弱密碼
             };
 
             const response = await request(app)
@@ -842,7 +842,7 @@ describe('Authentication Endpoints', () => {
         });
 
         it('should not register user with existing email', async () => {
-            // 先创建一个用户
+            // 先創建一个使用者
             const existingUser = new User({
                 username: 'existing',
                 email: 'existing@example.com',
@@ -870,7 +870,7 @@ describe('Authentication Endpoints', () => {
         let testUser;
 
         beforeEach(async () => {
-            // 创建测试用户
+            // 創建測試使用者
             const bcrypt = require('bcryptjs');
             const hashedPassword = await bcrypt.hash('password123', 12);
             
@@ -933,7 +933,7 @@ describe('Authentication Endpoints', () => {
         it('should not login user with missing fields', async () => {
             const response = await request(app)
                 .post('/api/auth/login')
-                .send({ email: 'test@example.com' }) // 缺少密码
+                .send({ email: 'test@example.com' }) // 缺少密碼
                 .expect(400);
 
             expect(response.body).toHaveProperty('error');
@@ -945,7 +945,7 @@ describe('Authentication Endpoints', () => {
         let token;
 
         beforeEach(async () => {
-            // 登录获取token
+            // 登入获取token
             const loginResponse = await request(app)
                 .post('/api/auth/login')
                 .send({
@@ -989,70 +989,70 @@ describe('Authentication Endpoints', () => {
 
 ---
 
-## 🚀 部署和配置示例
+# 配置
 # Deployment and Configuration Examples
 
-### 使用OpenCode生成Docker配置
+# 配置
 
 **OpenCode提示词**:
 ```
-为Node.js Express API创建完整的Docker部署配置，包含：
-1. 多阶段构建优化
-2. 生产环境配置
-3. 安全最佳实践
-4. 健康检查
-5. 日志管理
-6. 环境变量管理
+# 配置
+1. 多階段構建優化
+# 配置
+3. 安全最佳實踐
+4. 健康檢查
+# 管理
+# 管理
 7. 负载均衡
-8. 监控集成
-使用Docker Compose编排多个服务。
+8. 監控整合
+使用Docker Compose编排多個服务。
 ```
 
-**预期输出**:
+**预期輸出**:
 ```dockerfile
 # Dockerfile
-# 构建阶段
+# 構建階段
 FROM node:18-alpine AS builder
 
 WORKDIR /app
 
-# 复制package文件
+# 複製package檔案
 COPY package*.json ./
 
-# 安装依赖
+# 安裝依赖
 RUN npm ci --only=production
 
-# 复制源代码
+# 複製原始碼
 COPY . .
 
-# 构建应用
+# 構建應用程式
 RUN npm run build
 
-# 生产阶段
+# 生产階段
 FROM node:18-alpine AS production
 
-# 创建非root用户
+# 創建非root使用者
 RUN addgroup -g 1001 -S nodejs
 RUN adduser -S nodejs -u 1001
 
 WORKDIR /app
 
-# 复制构建产物和依赖
+# 複製構建产物和依赖
 COPY --from=builder --chown=nodejs:nodejs /app/node_modules ./node_modules
 COPY --from=builder --chown=nodejs:nodejs /app/dist ./dist
 COPY --from=builder --chown=nodejs:nodejs /app/package.json ./package.json
 
-# 设置权限
+# 設置权限
 USER nodejs
 
 # 暴露端口
 EXPOSE 3000
 
-# 健康检查
+# 健康檢查
 HEALTHCHECK --interval=30s --timeout=3s --start-period=5s --retries=3 \
     CMD node healthcheck.js
 
-# 启动应用
+# 啟動應用程式
 CMD ["node", "dist/app.js"]
 ```
 
@@ -1147,91 +1147,91 @@ networks:
 
 ---
 
-## 📊 性能优化和监控
+## 📊 效能優化和監控
 # Performance Optimization and Monitoring
 
-### 使用OpenCode生成监控配置
+# 配置
 
 **OpenCode提示词**:
 ```
-为Node.js API创建完整的性能监控和优化配置，包含：
-1. PM2进程管理
-2. 日志收集和分析
-3. 性能指标收集
+# 配置
+# 管理
+# 分析
+3. 效能指标收集
 4. 错误追踪
-5. 健康检查端点
+5. 健康檢查端点
 6. 缓存策略
-7. 负载测试
-8. 监控仪表板
-使用现代DevOps最佳实践。
+7. 负载測試
+8. 監控儀表板
+使用现代DevOps最佳實踐。
 ```
 
 ---
 
-## 📚 学习要点总结 / Learning Points Summary
+## 📚 學習要點總結 / Learning Points Summary
 
 ### Node.js核心概念
-- 事件驱动架构
-- 异步编程模式
-- 模块系统
-- 包管理和依赖
-- 错误处理机制
+- 事件驅動程式架構
+- 异步編程模式
+- 模块系統
+# 管理
+- 错误處理機制
 
 ### Express框架特性
 - 路由和中间件
-- 请求响应处理
-- 模板引擎集成
-- 静态文件服务
+- 请求響應處理
+- 模板引擎整合
+- 静态檔案服务
 - 安全中间件
 
-### 数据库集成
-- MongoDB连接和操作
+### 資料庫整合
+- MongoDB連接和操作
 - Mongoose ODM使用
-- 数据模型设计
-- 查询优化
-- 迁移管理
+- 數據模型設計
+- 查詢優化
+# 管理
 
 ### 认证和安全
 - JWT令牌认证
-- 密码加密和验证
-- 输入验证和清理
-- CORS配置
-- 安全头设置
+- 密碼加密和驗證
+- 輸入驗證和清理
+# 配置
+- 安全头設置
 
-### API设计最佳实践
-- RESTful设计原则
-- HTTP状态码正确使用
-- API版本控制
-- 文档生成
-- 错误响应标准化
+### API設計最佳實踐
+- RESTful設計原則
+- HTTP狀態码正确使用
+# 版本
+- 文檔生成
+- 错误響應標準化
 
-### 测试和质量保证
-- 单元测试编写
-- 集成测试设计
+### 測試和品質保证
+- 单元測試編寫
+- 整合測試設計
 - Mock和Stub使用
-- 代码覆盖率检查
-- 持续集成流程
+- 代碼覆盖率檢查
+- 持續整合流程
 
-### 部署和运维
-- 容器化技术
-- 环境配置管理
-- 负载均衡配置
-- 监控和日志收集
-- 性能优化技巧
+# 部署
+- 容器化技術
+# 管理
+# 配置
+- 監控和日志收集
+- 效能優化技巧
 
 ---
 
-> [!tip] 💡 最佳实践建议 / Best Practice Tips
+> [!tip] 💡 最佳實踐建議 / Best Practice Tips
 > 
-> 1. **使用TypeScript**增强代码质量和开发体验
-> 2. **实施CI/CD**自动化测试和部署流程
-> 3. **监控和日志**建立完善的可观测性体系
-> 4. **安全编码**遵循OWASP安全指南
-> 5. **性能优化**使用缓存和数据库索引
-> 6. **版本控制**使用语义化版本和Git工作流
-> 7. **文档维护**保持API文档的及时更新
-> 8. **测试覆盖**确保关键功能的测试覆盖率
+> 1. **使用TypeScript**增强代碼品質和開發體驗
+# 部署
+> 3. **監控和日志**建立完善的可观测性体系
+# 指南
+> 5. **效能優化**使用缓存和資料庫索引
+# 工作流
+# 更新
+> 8. **測試覆盖**确保關鍵功能的測試覆盖率
 
 ---
 
-*这个示例展示了如何使用OpenCode + Ollama进行完整的Node.js API开发*
+*這個示例展示了如何使用OpenCode + Ollama進行完整的Node.js API開發*

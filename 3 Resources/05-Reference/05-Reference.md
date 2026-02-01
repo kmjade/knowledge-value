@@ -1,6 +1,6 @@
 ---
 aliases:
-  - 参考
+  - 參考
 ---
 
 ```dataview

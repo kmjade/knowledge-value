@@ -17,30 +17,30 @@ importance: 4
 # IP Address Allocation Table
 
 > [!info] 说明 / Information
-> 此文档用于追踪网络中所有IP地址的分配情况。
+# 文檔
 > This document tracks all IP address allocations in the network.
 
 ---
 
 ## 📊 总览仪表板 / Overview Dashboard
 
-| 项目 / Item | 数量 / Count | 说明 / Description |
+# 專案
 |-------------|--------------|-------------------|
 | 总VLAN数 / Total VLANs | 7 | 1, 10, 20, 30, 40, 50, 99 |
 | 总IP地址池 / Total IP Pools | 7 | 各VLAN独立子网 |
-| 静态分配 / Static Allocated | 0 | 待添加设备 |
+# 新增
 | DHCP池 / DHCP Pool | ~500 | 动态分配 |
 | 保留IP / Reserved | ~100 | 预留使用 |
 
 ---
 
-## 🏷️ VLAN10 - 主网络 / Main Network (192.168.1.0/24)
+# 網路
 
-### 网络信息 / Network Information
+# 資訊
 
-| 项目 / Item | 值 / Value |
+# 專案
 |-------------|-----------|
-| 网络地址 / Network Address | 192.168.1.0 |
+# 網路
 | 子网掩码 / Subnet Mask | 255.255.255.0 |
 | 网关 / Gateway | 192.168.1.1 |
 | 广播地址 / Broadcast | 192.168.1.255 |
@@ -63,11 +63,11 @@ importance: 4
 | 192.168.1.104 | 待分配 / Unassigned | - | 🔶 可用 | 预留给主要设备 |
 | 192.168.1.105 | 待分配 / Unassigned | - | 🔶 可用 | 预留给主要设备 |
 | 192.168.1.106-192.168.1.199 | 保留池 / Reserved Pool | - | 🔶 保留 | 预留设备 |
-| 192.168.1.200-192.168.1.254 | 系统保留 / System Reserved | - | 🔒 系统保留 | 不可分配 |
+# 系統
 
 ### 已注册设备 / Registered Devices
 
-> 添加设备时，请在下方填写信息
+# 新增
 > Add device information below when registering
 
 ```dataview
@@ -84,19 +84,19 @@ SORT ip_number ASC
 
 ---
 
-## 🏷️ VLAN20 - IoT 网络 / IoT Network (192.168.10.0/24)
+# 網路
 
-### 网络信息 / Network Information
+# 資訊
 
-| 项目 / Item | 值 / Value |
+# 專案
 |-------------|-----------|
-| 网络地址 / Network Address | 192.168.10.0 |
+# 網路
 | 子网掩码 / Subnet Mask | 255.255.255.0 |
 | 网关 / Gateway | 192.168.10.1 |
 | 广播地址 / Broadcast | 192.168.10.255 |
 | 可用范围 / Available Range | 192.168.10.1 - 192.168.10.254 |
 
-### IoT 设备分类分配 / IoT Device Category Allocation
+# 分類
 
 | IP 段 / IP Range | 设备类型 / Device Type | 数量 / Count | 分配数 / Allocated |
 |------------------|-----------------------|--------------|-------------------|
@@ -127,11 +127,11 @@ SORT ip_number ASC
 
 ## 🏷️ VLAN30 - 服务器区 / Server Zone (192.168.20.0/24)
 
-### 网络信息 / Network Information
+# 資訊
 
-| 项目 / Item | 值 / Value |
+# 專案
 |-------------|-----------|
-| 网络地址 / Network Address | 192.168.20.0 |
+# 網路
 | 子网掩码 / Subnet Mask | 255.255.255.0 |
 | 网关 / Gateway | 192.168.20.1 |
 | 广播地址 / Broadcast | 192.168.20.255 |
@@ -144,10 +144,10 @@ SORT ip_number ASC
 | 192.168.20.1 | 网关 / Gateway | - | Router | ✅ 固定 | - |
 | 192.168.20.2 | NAS | - | Storage | 🔶 可用 | SMB, WebDAV, Photo |
 | 192.168.20.3 | 主服务器 / Main Server | - | App Server | 🔶 可用 | Web, API, DB |
-| 192.168.20.4 | 开发服务器 / Dev Server | - | Dev Env | 🔶 可用 | Docker, Git |
-| 192.168.20.5 | 数据库服务器 / DB Server | - | Database | 🔶 可用 | MySQL, PostgreSQL |
+# 開發
+# 數據
 | 192.168.20.6 | 监控服务器 / Monitor Server | - | Monitoring | 🔶 可用 | Grafana, Prometheus |
-| 192.168.20.7 | 备份服务器 / Backup Server | - | Backup | 🔶 可用 | Rsync, BackupPC |
+# 備份
 
 ### 容器/虚拟机分配 / Container/VM Allocation
 
@@ -160,18 +160,18 @@ SORT ip_number ASC
 | 192.168.20.55 | GitLab | 代码仓库 / Code Repository | 🔶 | 80, 443, 22 |
 | 192.168.20.56 | Nginx Proxy | 反向代理 / Reverse Proxy | 🔶 | 80, 443 |
 | 192.168.20.57 | Pi-hole | DNS 广告拦截 / Ad Blocker | 🔶 | 53, 80, 443 |
-| 192.168.20.58 | Portainer | 容器管理 / Container Mgmt | 🔶 | 9000 |
-| 192.168.20.59 | Grafana | 数据可视化 / Data Viz | 🔶 | 3000 |
+# 管理
+# 數據
 
 ---
 
-## 🏷️ VLAN40 - 访客网络 / Guest Network (192.168.30.0/24)
+# 網路
 
-### 网络信息 / Network Information
+# 資訊
 
-| 项目 / Item | 值 / Value |
+# 專案
 |-------------|-----------|
-| 网络地址 / Network Address | 192.168.30.0 |
+# 網路
 | 子网掩码 / Subnet Mask | 255.255.255.0 |
 | 网关 / Gateway | 192.168.30.1 |
 | 广播地址 / Broadcast | 192.168.30.255 |
@@ -179,13 +179,13 @@ SORT ip_number ASC
 
 ### IP 分配状态 / IP Allocation Status
 
-| IP 地址 / IP | 设备 / Device | 连接时间 / Connected Time | 状态 / Status |
+# 連接
 |--------------|---------------|-------------------------|----------------|
 | 192.168.30.1 | 网关 / Gateway | - | ✅ 固定 |
 | 192.168.30.2-192.168.30.150 | DHCP 池 / DHCP Pool | 动态 | 🔄 动态 |
 | 192.168.30.151-192.168.30.254 | 保留池 / Reserved Pool | - | 🔶 保留 |
 
-### 访客设备记录 / Guest Device Log
+# 記錄
 
 | 时间 / Time | MAC 地址 / MAC | 分配IP / Assigned IP | 设备类型 / Device Type |
 |------------|----------------|---------------------|------------------------|
@@ -195,11 +195,11 @@ SORT ip_number ASC
 
 ## 🏷️ VLAN50 - 媒体中心 / Media Center (192.168.40.0/24)
 
-### 网络信息 / Network Information
+# 資訊
 
-| 项目 / Item | 值 / Value |
+# 專案
 |-------------|-----------|
-| 网络地址 / Network Address | 192.168.40.0 |
+# 網路
 | 子网掩码 / Subnet Mask | 255.255.255.0 |
 | 网关 / Gateway | 192.168.40.1 |
 | 广播地址 / Broadcast | 192.168.40.255 |
@@ -220,11 +220,11 @@ SORT ip_number ASC
 
 ## 🏷️ VLAN99 - DMZ 区域 / DMZ Zone (192.168.99.0/24)
 
-### 网络信息 / Network Information
+# 資訊
 
-| 项目 / Item | 值 / Value |
+# 專案
 |-------------|-----------|
-| 网络地址 / Network Address | 192.168.99.0 |
+# 網路
 | 子网掩码 / Subnet Mask | 255.255.255.0 |
 | 网关 / Gateway | 192.168.99.1 |
 | 广播地址 / Broadcast | 192.168.99.255 |
@@ -244,7 +244,7 @@ SORT ip_number ASC
 
 ## 📝 设备登记模板 / Device Registration Template
 
-### 添加新设备 / Add New Device
+# 新增
 
 使用以下模板登记新设备：
 Use the following template to register new devices:
@@ -269,7 +269,7 @@ VLAN: [选择 / Select]
 - 🖥️ 电脑 / PC
 - 📱 手机 / Phone
 - 📟 平板 / Tablet
-- 🖨️ 打印机 / Printer
+# 列印
 - 📷 摄像头 / Camera
 - 💡 智能灯具 / Smart Light
 - 🔌 智能插座 / Smart Plug
@@ -307,9 +307,9 @@ SORT count DESC
 
 ---
 
-## 🔍 快速查找 / Quick Search
+# 尋找
 
-### 按IP查找 / Search by IP
+# 尋找
 
 ```dataview
 LIST
@@ -317,7 +317,7 @@ FROM [[#IP地址分配表]]
 WHERE ip_number = <search_ip>
 ```
 
-### 按MAC查找 / Search by MAC
+# 尋找
 
 ```dataview
 LIST
@@ -325,7 +325,7 @@ FROM [[#IP地址分配表]]
 WHERE mac_address = "<search_mac>"
 ```
 
-### 按状态查找 / Search by Status
+# 尋找
 
 ```dataview
 TABLE file.link as "设备 / Device", ip_address as "IP", mac_address as "MAC"
@@ -335,7 +335,7 @@ WHERE status = "在线" OR status = "Online"
 
 ---
 
-## 📚 参考资源 / References
+# 資源
 
 - [私有IP地址范围](https://en.wikipedia.org/wiki/Private_network)
 - [子网计算器](https://www.subnet-calculator.com/)

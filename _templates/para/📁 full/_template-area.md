@@ -23,21 +23,21 @@ tags:
 > - 标准导向：维持一定的标准或水平
 > - 可衡量性：应该能够评估其健康状态
 
-## 基本信息 / Basic Information
+# 資訊
 ---
 
-| 项目 | 内容 |
+# 專案
 |------|------|
-| 创建日期 | <% tp.date.now("YYYY-MM-DD") %> |
-| 最后更新 | <% tp.date.now("YYYY-MM-DD") %> |
+# 創建
+# 更新
 | 状态 | [[#active]] [[#inactive]] [[#archived]] |
 | 重要性 | [[#high]] [[#medium]] [[#low]] |
 
-## 关联项目 / Related Projects
+# 專案
 ---
 ```dataview
 TABLE WITHOUT id
-  file.link as "项目",
+# 專案
   status as "状态",
   due as "截止日期"
 FROM [[{{title}}]]
@@ -71,11 +71,11 @@ SORT due ASC
 
 ## 当前状态 / Current Status
 
-> 记录当前该领域的状态和近期变化
+# 記錄
 ---
-### 近期更新
+# 更新
 <% tp.date.now("YYYY-MM-DD") %>
-> 记录近期的重要更新或变化
+# 記錄
 
 ### 待办事项
 - [ ] 待办事项 1
@@ -87,7 +87,7 @@ SORT due ASC
 
 ```dataview
 TABLE WITHOUT id
-  updated as "更新日期",
+# 更新
   summary as "回顾摘要"
 FROM [[{{title}}]]
 WHERE contains(file.path, "Reviews/Monthly")
@@ -97,7 +97,7 @@ LIMIT 3
 
 **本月重点：**
 
-> 本月需要关注的重点事项
+# 關注
 
 **完成情况：**
 
@@ -128,20 +128,20 @@ LIMIT 3
 
 > 为下一年设定的目标
 
-## 资源链接 / Resources
+# 連結
 ---
-### 相关文档
+# 文檔
 - [[Resource 1]]
 - [[Resource 2]]
 
 ### 参考资料
-- [链接](url)
+# 連結
 
-## 笔记与记录 / Notes
+# 筆記
 ---
-### 持续记录的重要信息
+# 記錄
 
-> 记录该领域持续维护过程中的重要信息
+# 記錄
 
 ### 改进想法 / Improvement Ideas
 
@@ -150,7 +150,7 @@ LIMIT 3
 | 想法 1 | [[#high]] [[#medium]] [[#low]] | [[#todo]] [[#done]] |
 | 想法 2 | | |
 
-### 问题记录 / Issue Log
+# 記錄
 
 | 问题 | 发现日期 | 状态 | 解决方案 |
 |------|---------|------|---------|
@@ -158,8 +158,8 @@ LIMIT 3
 
 ---
 
-> [!tip] Area 管理提示
+# 管理
 > - 每月回顾一次领域状态
-> - 确保有持续的项目在进行
+# 專案
 > - 保持指标的可追踪性
-> - 定期更新目标状态
+# 更新

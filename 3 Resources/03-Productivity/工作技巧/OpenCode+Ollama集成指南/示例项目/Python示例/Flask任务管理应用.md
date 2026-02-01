@@ -1,32 +1,32 @@
-# Python Web应用项目示例
+# Python Web應用程式專案示例
 # Python Web Application Project Example
 
-## 📋 项目描述 / Project Description
+## 📋 專案描述 / Project Description
 
-这是一个使用Flask构建的简单任务管理Web应用，展示了如何使用OpenCode + Ollama进行Python开发。
+# 管理
 
 This is a simple task management web application built with Flask, demonstrating Python development with OpenCode + Ollama.
 
-## 🎯 学习目标 / Learning Objectives
+## 🎯 學習目標 / Learning Objectives
 
-- Flask Web框架应用
-- RESTful API设计
-- 数据库集成
+- Flask Web框架應用程式
+- RESTful API設計
+- 資料庫整合
 - 前端交互
-- 部署配置
+# 配置
 
 ---
 
-## 📁 项目结构 / Project Structure
+## 📁 專案结构 / Project Structure
 
 ```
 flask_task_manager/
-├── app.py                 # 主应用文件
+├── app.py                 # 主應用程式檔案
 ├── requirements.txt        # Python依赖
-├── config.py             # 配置文件
-├── models.py             # 数据模型
+# 配置
+├── models.py             # 數據模型
 ├── routes.py             # 路由定义
-├── static/               # 静态文件
+├── static/               # 静态檔案
 │   ├── css/
 │   ├── js/
 │   └── images/
@@ -35,33 +35,33 @@ flask_task_manager/
 │   ├── index.html
 │   ├── add_task.html
 │   └── edit_task.html
-├── tests/               # 测试文件
+├── tests/               # 測試檔案
 │   ├── test_app.py
 │   └── test_models.py
-├── instance/            # 实例配置
-├── .env                 # 环境变量
-└── README.md            # 项目说明
+# 配置
+├── .env                 # 環境变量
+└── README.md            # 專案說明
 ```
 
 ---
 
-## 🐍 使用OpenCode + Ollama生成代码示例
+## 🐍 使用OpenCode + Ollama生成代碼示例
 # Code Generation Examples Using OpenCode + Ollama
 
-### 示例1: 生成Flask基础应用结构
+### 示例1: 生成Flask基礎應用程式结构
 
 **OpenCode提示词**:
 ```
-创建一个Flask任务管理应用的基础结构，包含以下功能：
-1. 任务列表显示
-2. 添加新任务
-3. 编辑任务
-4. 删除任务
-5. 任务状态管理
+# 管理
+# 顯示
+2. 新增新任務
+3. 編輯任務
+4. 刪除任務
+# 管理
 使用SQLAlchemy作为ORM，Bootstrap作为前端框架。
 ```
 
-**预期输出**:
+**预期輸出**:
 ```python
 # app.py
 from flask import Flask, render_template, request, redirect, url_for, flash, jsonify
@@ -161,16 +161,16 @@ if __name__ == '__main__':
 
 **OpenCode提示词**:
 ```
-为Flask任务管理应用创建Bootstrap 5的前端模板，包含：
-1. 响应式设计
-2. 任务卡片展示
-3. 添加任务表单
-4. 编辑任务模态框
-5. 状态和优先级筛选
-6. 现代化UI设计
+# 管理
+1. 響應式設計
+2. 任務卡片展示
+3. 新增任務表单
+4. 編輯任務模态框
+5. 狀態和優先級篩選
+6. 现代化UI設計
 ```
 
-**预期输出**:
+**预期輸出**:
 ```html
 <!-- templates/base.html -->
 <!DOCTYPE html>
@@ -178,7 +178,7 @@ if __name__ == '__main__':
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% block title %}任务管理系统{% endblock %}</title>
+# 管理
     
     <!-- Bootstrap 5 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -191,16 +191,16 @@ if __name__ == '__main__':
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
         <div class="container">
             <a class="navbar-brand" href="{{ url_for('index') }}">
-                <i class="fas fa-tasks"></i> 任务管理系统
+# 管理
             </a>
             
             <div class="navbar-nav ms-auto">
                 <div class="btn-group" role="group">
                     <button type="button" class="btn btn-outline-light" id="filterAll">
-                        全部任务
+                        全部任務
                     </button>
                     <button type="button" class="btn btn-outline-light" id="filterPending">
-                        待处理
+                        待處理
                     </button>
                     <button type="button" class="btn btn-outline-light" id="filterCompleted">
                         已完成
@@ -214,7 +214,7 @@ if __name__ == '__main__':
         {% block content %}{% endblock %}
     </main>
 
-    <!-- 添加任务按钮 -->
+    <!-- 新增任務按鈕 -->
     <button type="button" class="btn btn-primary btn-lg rounded-circle position-fixed bottom-0 end-0 m-4" 
             data-bs-toggle="modal" data-bs-target="#addTaskModal">
         <i class="fas fa-plus"></i>
@@ -232,19 +232,19 @@ if __name__ == '__main__':
 </html>
 ```
 
-### 示例3: 生成API测试代码
+### 示例3: 生成API測試代碼
 
 **OpenCode提示词**:
 ```
-为Flask任务管理API创建全面的测试用例，包含：
-1. 所有API端点测试
-2. 错误处理测试
-3. 边界条件测试
-4. 数据验证测试
+# 管理
+1. 所有API端点測試
+2. 错误處理測試
+3. 边界条件測試
+4. 數據驗證測試
 使用pytest框架
 ```
 
-**预期输出**:
+**预期輸出**:
 ```python
 # tests/test_app.py
 import pytest
@@ -263,23 +263,23 @@ def client():
             db.drop_all()
 
 def test_index_page(client):
-    """测试主页访问"""
+    """測試主页访问"""
     response = client.get('/')
     assert response.status_code == 200
-    assert b'任务管理系统' in response.data
+# 管理
 
 def test_get_tasks_empty(client):
-    """测试获取空任务列表"""
+    """測試获取空任務列表"""
     response = client.get('/api/tasks')
     assert response.status_code == 200
     data = json.loads(response.data)
     assert data == []
 
 def test_create_task_valid(client):
-    """测试创建有效任务"""
+    """測試創建有效任務"""
     task_data = {
-        'title': '测试任务',
-        'description': '这是一个测试任务',
+        'title': '測試任務',
+        'description': '这是一个測試任務',
         'priority': 'high'
     }
     
@@ -289,14 +289,14 @@ def test_create_task_valid(client):
     
     assert response.status_code == 201
     data = json.loads(response.data)
-    assert data['title'] == '测试任务'
+    assert data['title'] == '測試任務'
     assert data['priority'] == 'high'
     assert 'id' in data
 
 def test_create_task_missing_title(client):
-    """测试缺少标题的任务创建"""
+    """測試缺少标题的任務創建"""
     task_data = {
-        'description': '没有标题的任务'
+        'description': '没有标题的任務'
     }
     
     response = client.post('/api/tasks',
@@ -309,14 +309,14 @@ def test_create_task_missing_title(client):
     assert 'Title is required' in data['error']
 
 def test_update_task(client):
-    """测试更新任务"""
-    # 先创建一个任务
-    task = Task(title='原任务', description='原描述')
+# 更新
+    # 先創建一个任務
+    task = Task(title='原任務', description='原描述')
     db.session.add(task)
     db.session.commit()
     
     update_data = {
-        'title': '更新后的任务',
+# 更新
         'status': 'completed'
     }
     
@@ -326,13 +326,13 @@ def test_update_task(client):
     
     assert response.status_code == 200
     data = json.loads(response.data)
-    assert data['title'] == '更新后的任务'
+# 更新
     assert data['status'] == 'completed'
 
 def test_delete_task(client):
-    """测试删除任务"""
-    # 先创建一个任务
-    task = Task(title='待删除任务')
+    """測試刪除任務"""
+    # 先創建一个任務
+    task = Task(title='待刪除任務')
     db.session.add(task)
     db.session.commit()
     
@@ -343,7 +343,7 @@ def test_delete_task(client):
     assert 'Task deleted successfully' in data['message']
 
 def test_get_nonexistent_task(client):
-    """测试获取不存在的任务"""
+    """測試获取不存在的任務"""
     response = client.get('/api/tasks/99999')
     
     assert response.status_code == 404
@@ -354,37 +354,37 @@ if __name__ == '__main__':
 
 ---
 
-## 🚀 部署指南 / Deployment Guide
+# 指南
 
-### 本地开发环境
+### 本地開發環境
 
 **OpenCode提示词**:
 ```
-创建Flask应用的开发环境配置脚本，包含：
-1. 虚拟环境设置
-2. 依赖安装
-3. 环境变量配置
-4. 开发服务器启动
-5. 数据库初始化
+# 配置
+1. 虚拟環境設置
+2. 依赖安裝
+# 配置
+4. 開發伺服器啟動
+5. 資料庫初始化
 ```
 
 ```bash
 #!/bin/bash
 # setup_dev.sh
 
-echo "🚀 设置Flask应用开发环境..."
+echo "🚀 設置Flask應用程式開發環境..."
 
-# 1. 创建虚拟环境
+# 1. 創建虚拟環境
 python3 -m venv venv
 source venv/bin/activate
 
-# 2. 升级pip
+# 2. 升級pip
 pip install --upgrade pip
 
-# 3. 安装依赖
+# 3. 安裝依赖
 pip install flask flask-sqlalchemy pytest python-dotenv
 
-# 4. 创建环境变量文件
+# 4. 創建環境变量檔案
 cat > .env << EOF
 FLASK_APP=app.py
 FLASK_ENV=development
@@ -392,29 +392,29 @@ SECRET_KEY=dev-secret-key-change-in-production
 DATABASE_URL=sqlite:///tasks.db
 EOF
 
-# 5. 初始化数据库
+# 5. 初始化資料庫
 python3 -c "
 from app import app, db
 with app.app_context():
     db.create_all()
-print('数据库初始化完成')
+print('資料庫初始化完成')
 "
 
-# 6. 启动开发服务器
-echo "启动Flask开发服务器..."
+# 6. 啟動開發伺服器
+echo "啟動Flask開發伺服器..."
 flask run --host=0.0.0.0 --port=5000 --debug
 ```
 
-### Docker部署配置
+# 配置
 
 **OpenCode提示词**:
 ```
-创建Flask应用的Docker部署配置，包含：
-1. 多阶段构建
-2. 生产环境优化
-3. 健康检查
-4. 数据库集成
-5. 环境变量管理
+# 配置
+1. 多階段構建
+2. 生产環境優化
+3. 健康檢查
+4. 資料庫整合
+# 管理
 ```
 
 ```dockerfile
@@ -423,23 +423,23 @@ FROM python:3.11-slim as builder
 
 WORKDIR /app
 
-# 安装依赖
+# 安裝依赖
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-# 生产阶段
+# 生产階段
 FROM python:3.11-slim as production
 
 WORKDIR /app
 
-# 复制依赖
+# 複製依赖
 COPY --from=builder /usr/local/lib/python3.11/site-packages /usr/local/lib/python3.11/site-packages
 COPY --from=builder /usr/local/bin /usr/local/bin
 
-# 复制应用代码
+# 複製應用程式代碼
 COPY . .
 
-# 创建非root用户
+# 創建非root使用者
 RUN useradd --create-home --shell /bin/bash app
 RUN chown -R app:app /app
 USER app
@@ -447,11 +447,11 @@ USER app
 # 暴露端口
 EXPOSE 5000
 
-# 健康检查
+# 健康檢查
 HEALTHCHECK --interval=30s --timeout=30s --start-period=5s --retries=3 \
     CMD curl -f http://localhost:5000/api/tasks || exit 1
 
-# 启动命令
+# 啟動命令
 CMD ["gunicorn", "--bind", "0.0.0.0:5000", "--workers", "4", "app:app"]
 ```
 
@@ -491,19 +491,19 @@ volumes:
 
 ---
 
-## 📊 性能优化建议 / Performance Optimization
+## 📊 效能優化建議 / Performance Optimization
 
 ### OpenCode提示词示例:
 ```
-分析Flask应用的性能瓶颈并提供优化建议，重点关注：
-1. 数据库查询优化
+# 分析
+1. 資料庫查詢優化
 2. 缓存策略
-3. 异步处理
-4. 静态文件优化
-5. 数据库连接池
+3. 异步處理
+4. 静态檔案優化
+5. 資料庫連接池
 ```
 
-**预期优化代码**:
+**预期優化代碼**:
 ```python
 # optimized_app.py
 from flask import Flask
@@ -514,7 +514,7 @@ import os
 
 app = Flask(__name__)
 
-# 性能优化配置
+# 配置
 app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('DATABASE_URL')
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.config['SQLALCHEMY_ENGINE_OPTIONS'] = {
@@ -523,7 +523,7 @@ app.config['SQLALCHEMY_ENGINE_OPTIONS'] = {
     'pool_pre_ping': True
 }
 
-# 缓存配置
+# 配置
 cache = Cache(app, config={
     'CACHE_TYPE': 'redis',
     'CACHE_REDIS_URL': os.environ.get('REDIS_URL', 'redis://localhost:6379/0'),
@@ -532,13 +532,13 @@ cache = Cache(app, config={
 
 db = SQLAlchemy(app)
 
-# 代理修复
+# 代理修復
 app.wsgi_app = ProxyFix(app.wsgi_app)
 
 # 缓存装饰器
 @cache.memoize(timeout=300)
 def get_task_statistics():
-    """获取任务统计（缓存5分钟）"""
+    """获取任務統計（缓存5分钟）"""
     total_tasks = Task.query.count()
     pending_tasks = Task.query.filter_by(status='pending').count()
     completed_tasks = Task.query.filter_by(status='completed').count()
@@ -553,7 +553,7 @@ def get_task_statistics():
 @app.route('/api/tasks')
 @cache.cached(timeout=60, query_string=True)
 def get_tasks():
-    """获取任务列表（缓存1分钟）"""
+    """获取任務列表（缓存1分钟）"""
     page = request.args.get('page', 1, type=int)
     per_page = request.args.get('per_page', 20, type=int)
     
@@ -571,84 +571,84 @@ def get_tasks():
 
 ---
 
-## 🧪 测试和质量保证 / Testing & Quality Assurance
+## 🧪 測試和品質保证 / Testing & Quality Assurance
 
-### 使用OpenCode进行代码审查
+### 使用OpenCode進行代碼審查
 
 **提示词**:
 ```
-审查Flask应用代码，检查以下方面：
+審查Flask應用程式代碼，檢查以下方面：
 1. 安全漏洞
-2. 性能问题
-3. 代码规范
-4. 错误处理
-5. 可维护性
-提供具体的改进建议和代码示例。
+2. 效能問題
+3. 代碼規範
+4. 错误處理
+5. 可維護性
+提供具体的改进建議和代碼示例。
 ```
 
-### 自动化测试脚本
+### 自動化測試腳本
 
 **OpenCode提示词**:
 ```
-创建Flask应用的CI/CD测试脚本，包含：
-1. 单元测试执行
-2. 代码覆盖率检查
+創建Flask應用程式的CI/CD測試腳本，包含：
+1. 单元測試执行
+2. 代碼覆盖率檢查
 3. 安全漏洞扫描
-4. 代码质量分析
-5. 依赖漏洞检查
+# 分析
+5. 依赖漏洞檢查
 ```
 
 ---
 
-## 📚 学习要点总结 / Learning Points Summary
+## 📚 學習要點總結 / Learning Points Summary
 
 ### Flask框架核心概念
 - 路由和视图函数
 - 模板渲染
-- 请求和响应处理
-- 会话管理
+- 请求和響應處理
+# 管理
 - 中间件使用
 
-### 数据库设计最佳实践
+### 資料庫設計最佳實踐
 - SQLAlchemy ORM使用
-- 数据模型定义
-- 关系设计
-- 迁移管理
-- 查询优化
+- 數據模型定义
+- 关系設計
+# 管理
+- 查詢優化
 
-### RESTful API设计
-- HTTP方法正确使用
-- 状态码规范
-- 错误处理
-- API版本控制
-- 文档生成
+### RESTful API設計
+# 方法
+- 狀態码規範
+- 错误處理
+# 版本
+- 文檔生成
 
-### 前端集成技巧
-- Bootstrap组件使用
-- AJAX请求处理
-- 响应式设计
-- 用户体验优化
+### 前端整合技巧
+- Bootstrap組件使用
+- AJAX请求處理
+- 響應式設計
+- 使用者體驗優化
 
-### 部署和运维
+# 部署
 - Docker容器化
-- 环境配置管理
-- 日志和监控
-- 性能优化
-- 安全配置
+# 管理
+- 日志和監控
+- 效能優化
+# 配置
 
 ---
 
-> [!tip] 💡 最佳实践建议 / Best Practice Tips
+> [!tip] 💡 最佳實踐建議 / Best Practice Tips
 > 
-> 1. **使用虚拟环境**隔离项目依赖
-> 2. **环境变量管理**敏感配置信息
-> 3. **编写全面测试**确保代码质量
-> 4. **版本控制**所有配置文件
-> 5. **定期更新**依赖包和框架
-> 6. **监控生产环境**性能和错误
-> 7. **文档化**所有API端点和功能
+> 1. **使用虚拟環境**隔离專案依赖
+# 管理
+> 3. **編寫全面測試**确保代碼品質
+# 配置
+# 更新
+> 6. **監控生产環境**效能和错误
+> 7. **文檔化**所有API端点和功能
 > 8. **安全编码**防范常见漏洞
 
 ---
 
-*这个示例展示了如何使用OpenCode + Ollama进行完整的Python Web应用开发*
+*這個示例展示了如何使用OpenCode + Ollama進行完整的Python Web應用程式開發*

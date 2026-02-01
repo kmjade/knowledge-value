@@ -147,7 +147,7 @@ Examples:
 - `/english-first` - English-first content creation
 
 #### Command Patterns
-- **PARA management**: `/para-整理收集`, `/para-库概览`, `/para-刷新缓存`
+# 整理
 - **Quick creation**: `/new-project`, `/new-area`, `/new-resource`, `/archive-note`
 - **Multi-language**: Use language-specific commands for consistent output
 

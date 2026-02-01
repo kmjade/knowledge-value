@@ -12,7 +12,7 @@ language: zh-tw
 # ASCII 編碼與解碼
 
 > [!info] 概述
-> ASCII（American Standard Code for Information Interchange）是計算機中最基本的字符編碼標準，本文檔介紹 ASCII 編碼原理、解碼方法和實際應用。
+# 方法
 
 ---
 
@@ -25,7 +25,7 @@ ASCII 是一種將字母、數字、符號轉換為數字的編碼標準。
 | 類型 | 範圍 | 數量 |
 |------|------|------|
 | **控制字符** | 0-31 | 32 個 |
-| **可打印字符** | 32-126 | 95 個 |
+| **可列印字符** | 32-126 | 95 個 |
 | **擴展 ASCII** | 128-255 | 128 個 |
 
 ### 1.2 常用 ASCII 對照表
@@ -106,7 +106,7 @@ from urllib.parse import unquote
 
 # URL 編碼格式 (%XX)
 url_encoded = "xipigsqehqmr98168856"
-# URL 編碼版本可能是 "xipigsqehqmr98168856"（無需轉換）
+# 版本
 
 print(f"URL 解碼: {url_encoded}")
 ```
@@ -210,7 +210,7 @@ decoded_gbk = gbk_bytes.decode('gbk')
 | **核心概念** | ASCII 將字符映射為數字 |
 | **常用函數** | `ord()` 轉 ASCII，`chr()` 轉字符 |
 | **應用場景** | 密碼解密、數據傳輸、編程處理 |
-| **注意事項** | 注意字符編碼兼容性 |
+| **注意事項** | 注意字符編碼相容性 |
 
 ---
 

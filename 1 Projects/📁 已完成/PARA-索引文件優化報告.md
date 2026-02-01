@@ -1,5 +1,5 @@
 ---
-title: PARA 索引文件優化報告
+# 檔案
 date: 2026-01-26
 tags:
   - project/report
@@ -8,33 +8,33 @@ status: completed
 completed-date: 2026-01-26
 ---
 
-# PARA 索引文件優化報告
+# 檔案
 
-> 將 PARA 索引文件從靜態內容轉換為動態 Dataview 查詢
+# 檔案
 
 ---
 
 ## 📋 優化概述
 
-| 文件 | 優化類型 | 變更內容 |
+# 檔案
 |------|----------|----------|
-| 1 Projects/1 Projects.md | 靜態→動態 | 3 處修改 |
-| 2 Areas/2 Areas.md | 靜態→動態 | 2 處修改 |
-| 3 Resources/3 Resources.md | 靜態→動態 | 3 處修改 |
-| 4 Archives/4 Archives.md | 靜態→動態 | 3 處修改 |
+# 修改
+# 修改
+# 修改
+# 修改
 
 ---
 
-## 📁 詳細修改
+# 修改
 
 ### 1. Projects 項目索引
 
-#### 修改 1: 更新項目結構
-- **修改前**: 顯示虛擬的範例檔案名稱
-- **修改後**: 簡化為實際的 4 個分類資料夾
+# 更新
+# 修改
+# 修改
 - **原因**: 與實際資料夾結構保持一致
 
-#### 修改 2: 完成項目動態查詢
+# 修改
 ```dataview
 TABLE without ID
   file.link AS "項目",
@@ -47,7 +47,7 @@ LIMIT 10
 ```
 - **優勢**: 自動顯示已完成項目，無需手動維護表格
 
-#### 修改 3: 項目健康度動態查詢
+# 修改
 ```dataview
 TABLE without ID
   file.link AS "項目",
@@ -64,7 +64,7 @@ SORT due ASC, priority ASC
 
 ### 2. Areas 領域索引
 
-#### 修改 1: 核心領域動態查詢
+# 修改
 ```dataview
 TABLE without ID
   file.link AS "領域",
@@ -77,7 +77,7 @@ SORT importance DESC
 ```
 - **依賴屬性**: `importance`、`review-frequency`、`last-reviewed`
 
-#### 修改 2: 領域健康度動態查詢
+# 修改
 ```dataview
 TABLE without ID
   file.link AS "領域",
@@ -89,13 +89,13 @@ WHERE file.name != this.file.name AND health-score
 SORT health-score DESC
 ```
 - **依賴屬性**: `health-score`、`issues`、`action-items`
-- **特殊處理**: 添加了使用提示，說明需要為各領域添加相應屬性
+# 新增
 
 ---
 
 ### 3. Resources 資源索引
 
-#### 修改 1: 高優先級資源查詢
+# 修改
 ```dataview
 TABLE without ID
   file.link AS "資源",
@@ -108,7 +108,7 @@ LIMIT 10
 ```
 - **依賴屬性**: `interest-level`、`last-reviewed`
 
-#### 修改 2: 最近新增資源查詢
+# 修改
 ```dataview
 TABLE without ID
   file.link AS "資源",
@@ -120,7 +120,7 @@ LIMIT 5
 ```
 - **優勢**: 利用內置 `file.ctime` 屬性，無需手動標記
 
-#### 修改 3: 移除靜態待辦清單
+# 修改
 - **移除內容**: 手動維護的"待探索"清單
 - **替代方案**: 建議直接創建對應的資源筆記
 
@@ -128,11 +128,11 @@ LIMIT 5
 
 ### 4. Archives 歸檔索引
 
-#### 修改 1: 移除空表格
+# 修改
 - **移除**: 2026 年度的靜態表格
 - **原因**: 表格為空，改用 Dataview 查詢替代
 
-#### 修改 2: 修正 Cancelled 查詢
+# 修改
 ```dataview
 list from "4 Archives"
 where original-status = "cancelled"
@@ -140,7 +140,7 @@ sort archived desc
 ```
 - **修正**: 將 `original-status = "completed"` 改為 `"cancelled"`
 
-#### 修改 3: 新增按類型分類查詢
+# 修改
 ```dataview
 TABLE without ID
   file.link AS "名稱",
@@ -161,16 +161,16 @@ SORT archived DESC
 |------|--------|--------|
 | 項目統計 | 靜態 | ✅ 動態 |
 | 領域健康度 | 手動維護 | ✅ 自動查詢 |
-| 資源推薦 | 手動列表 | ✅ 自動排序 |
+# 排序
 | 歸檔記錄 | 空表格 | ✅ 自動顯示 |
 
 ### 維護成本
-- **優化前**: 需要手動更新多個靜態表格和列表
+# 更新
 - **優化後**: 僅需在筆記中設置屬性，Dataview 自動聚合顯示
 
 ---
 
-## 📝 屬性使用指南
+# 指南
 
 ### 推薦屬性清單
 
@@ -227,7 +227,7 @@ tags:
 
 ## 🔧 未來改進方向
 
-1. **添加 DataviewJS 進階查詢**
+# 新增
    - 圖表化顯示項目進度
    - 熱力圖顯示活動頻率
 
@@ -235,9 +235,9 @@ tags:
    - 使用 Templater 插件確保必要屬性存在
    - 自動填充默認值
 
-3. **優化歸檔工作流**
+# 工作流
    - 自動歸檔腳本
-   - 歸檔時自動添加屬性
+# 新增
 
 ---
 
@@ -249,7 +249,7 @@ tags:
 - [x] 4 Archives/4 Archives.md - 完成
 - [x] 所有靜態內容改為動態查詢
 - [x] 移除過時的範例內容
-- [x] 添加屬性使用指南
+# 指南
 
 ---
 
@@ -264,6 +264,6 @@ tags:
 
 ## 🔗 相關資源
 
-- [[3 Resources/05-Reference/Methods/PARA 自动化工作流]] - 完整 PARA 說明
-- [[3 Resources/03-Productivity/Methods/Dataview 使用指南]] (待創建)
+# 工作流
+# 指南
 - [[Obsidian 外掛精選]]
