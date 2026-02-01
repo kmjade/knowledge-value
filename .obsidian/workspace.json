@@ -27,16 +27,36 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3 Resources/04-Interests/易学/03-占卜方法/梅花易数入门.md",
+                "file": "3 Resources/04-Interests/易学/README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "梅花易数入门"
+              "title": "README"
             }
           }
         ],
         "currentTab": 1
+      },
+      {
+        "id": "0a2101a2558a1f14",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2eb489c1f2e42492",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3 Resources/04-Interests/易学/README.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -208,38 +228,38 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3eef207685951576",
+  "active": "2eb489c1f2e42492",
   "lastOpenFiles": [
-    "繁體中文優先-修正完成報告.md",
-    "3 Resources/04-Interests/易学/03-占卜方法/铜钱卦法.md",
+    "3 Resources/04-Interests/易学/易学知识库导航.md",
+    "3 Resources/04-Interests/易学/README.md",
+    "3 Resources/04-Interests/易学/06-学习资源/線上學習資源.md",
+    "3 Resources/04-Interests/易学/06-学习资源/推薦閱讀書單.md",
+    "3 Resources/04-Interests/易学/06-学习资源/易學流派與傳承.md",
+    "3 Resources/04-Interests/易学/06-学习资源/学习方法与建议.md",
+    "3 Resources/04-Interests/易学/06-学习资源/經典文獻導讀.md",
+    "3 Resources/04-Interests/易学/05-实践应用/現代易經案例解析.md",
+    "3 Resources/04-Interests/易学/05-实践应用/易經與健康養生.md",
+    "3 Resources/04-Interests/易学/05-实践应用/易經與人際關係.md",
+    "3 Resources/04-Interests/易学/05-实践应用/易經與決策智慧.md",
+    "3 Resources/04-Interests/易学/05-实践应用/個人修身與易經.md",
+    "3 Resources/04-Interests/易学/04-哲学智慧/儒道釋三教融合.md",
+    "3 Resources/04-Interests/易学/04-哲学智慧/易學與現代生活.md",
+    "3 Resources/04-Interests/易学/04-哲学智慧/陰陽變化與變易之道.md",
+    "3 Resources/04-Interests/易学/04-哲学智慧/易經中的處世哲學.md",
+    "3 Resources/04-Interests/易学/03-占卜方法/現代易學應用.md",
+    "3 Resources/04-Interests/易学/03-占卜方法/六爻預測基礎.md",
+    "3 Resources/04-Interests/易学/03-占卜方法/銅錢卦法.md",
+    "3 Resources/04-Interests/易学/02-易经核心/易理哲學思想.md",
+    "3 Resources/04-Interests/易学/02-易经核心/彖辭象辭解析.md",
+    "3 Resources/04-Interests/易学/02-易经核心/六十四卦詳解.md",
+    "3 Resources/04-Interests/易学/01-基础入门/陰陽五行理論基礎.md",
+    "3 Resources/04-Interests/易学/01-基础入门/八卦基礎與象徵.md",
+    "3 Resources/04-Interests/易学/01-基础入门/易經結構與組成.md",
+    "3 Resources/04-Interests/易学/01-基础入门/易學概述與發展史.md",
     "update_wikilinks.py",
-    "3 Resources/04-Interests/易学/03-占卜方法/现代易学应用.md",
-    "3 Resources/04-Interests/易学/03-占卜方法/蓍草占卜法.md",
     "rename_folders.py",
-    "3 Resources/01-Tech/🧠 AI 知識(舊)/🤖 基礎概念/🤖 基础概念.md",
-    "3 Resources/01-Tech/🧠 AI 知識(舊)/🤖 基礎概念/AI知识库.md",
     "3 Resources/01-Tech/🧠 AI 知識(舊)/🤖 基礎概念",
-    "3 Resources/01-Tech/🧠 AI 知識(舊)/🔧 技術/Ollama + Clawdbot 免费本地 AI 智能体.md",
-    "3 Resources/01-Tech/🧠 AI 知識(舊)/🔧 技術/🔧 技术.md",
-    "3 Resources/01-Tech/🧠 AI 知識(舊)/🔧 技術/2026-01-31-飞书接入ClawdBot，打造7-24小时AI员工(附完整教程).md",
-    "3 Resources/01-Tech/🧠 AI 知識(舊)/🔧 技術/2026-01-30-Ollama一个命令运行Clawdbot，免费又方便！.md",
-    "3 Resources/01-Tech/🧠 AI 知識(舊)/🔧 技術/2026-01-29-通用智能体 + MCP Servers + Skills 构建企业智能体落地新范式.md",
     "3 Resources/01-Tech/🧠 AI 知識(舊)/🔧 技術",
-    "3 Resources/01-Tech/🧠 AI 知識(舊)/🛠️ 工具/Obsidian/工作流/Obsidian阅读、分析、拆解-AI.md",
-    "3 Resources/01-Tech/🧠 AI 知識(舊)/🛠️ 工具/Obsidian/Scripts/QuickAdd PARA内嵌脚本.md",
-    "3 Resources/01-Tech/🧠 AI 知識(舊)/🛠️ 工具/Obsidian/Articles/属性UUID自动生成.md",
-    "3 Resources/01-Tech/🧠 AI 知識(舊)/🛠️ 工具/Obsidian/Articles/在 Obsidian 中调用本地 LLM （適用於 Obsidian ≥ 1.10.6，插件版本：QuickAdd v2.9.4、Templater v2.16.4、Dataview v0.5.68），使用英文、简体和繁体回复.md",
-    "3 Resources/01-Tech/🧠 AI 知識(舊)/🛠️ 工具/Obsidian/Articles/Obsidian闪念笔记管理指南.md",
-    "3 Resources/01-Tech/🧠 AI 知識(舊)/🛠️ 工具/Obsidian/Articles/Obsidian知识管理全攻略.md",
-    "3 Resources/01-Tech/🧠 AI 知識(舊)/🛠️ 工具/Obsidian/Articles/obsidian-local-rest-api.md",
-    "3 Resources/01-Tech/🧠 AI 知識(舊)/🛠️ 工具/Obsidian/Articles/Obsidian+AI=让所有app听你指挥.md",
-    "3 Resources/01-Tech/🧠 AI 知識(舊)/🛠️ 工具/Obsidian/Articles/Obsidian 终极玩法：打造你的 AI 指挥中心 (Smart Composer + MCP).md",
-    "3 Resources/01-Tech/🧠 AI 知識(舊)/🛠️ 工具/Obsidian/Articles/Obsidian 知识管理概览.md",
-    "3 Resources/01-Tech/🧠 AI 知識(舊)/🛠️ 工具/Obsidian/Articles/Obsidian 知识管理从零到一.md",
-    "3 Resources/01-Tech/🧠 AI 知識(舊)/🛠️ 工具/Obsidian/Articles/Obsidian 知識管理方法.md",
-    "3 Resources/01-Tech/🧠 AI 知識(舊)/🛠️ 工具/Obsidian/Articles/obsidian skills+Claude Code 零基础小白攻略1：从安装到跑起来，最短路径全在这.md",
-    "3 Resources/01-Tech/🧠 AI 知識(舊)/🛠️ 工具/Obsidian/Articles/Obsidian PARA自动化实施指南.md",
-    "3 Resources/01-Tech/🧠 AI 知識(舊)/🛠️ 工具/Obsidian/Articles/Obsidian Bases 示例说明.md",
     "3 Resources/01-Tech/🧠 AI 知識(舊)/🛠️ 工具/Obsidian-OpenCode-Ollama-GPT集成指南/10-附录",
     "3 Resources/01-Tech/🧠 AI 知識(舊)/🛠️ 工具/Obsidian-OpenCode-Ollama-GPT集成指南/09-资源下载",
     "3 Resources/01-Tech/🧠 AI 知識(舊)/🛠️ 工具/Obsidian/工作流",
