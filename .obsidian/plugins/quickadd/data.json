@@ -136,7 +136,9 @@
           },
           "folder": {
             "enabled": true,
-            "folders": [],
+            "folders": [
+              "3 Resources"
+            ],
             "chooseWhenCreatingNote": false,
             "createInSameFolderAsActiveFile": false,
             "chooseFromSubfolders": false

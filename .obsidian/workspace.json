@@ -13,47 +13,40 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3 Resources/05-Reference/Methods/PARA 自动化工作流.md",
+                "file": "5 Zettels/📁 structures/黄帝内经/黄帝内经-灵枢索引.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PARA 自动化工作流"
+              "title": "黄帝内经-灵枢索引"
             }
           },
           {
-            "id": "3eef207685951576",
+            "id": "9d3cc7a72a07037a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3 Resources/04-Interests/易学/README.md",
+                "file": "5 Zettels/📚 literature/黄帝内经/02-灵枢/灵枢-小针解第三.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "灵枢-小针解第三"
             }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "0a2101a2558a1f14",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "2eb489c1f2e42492",
+            "id": "fa066a9f7b6985ff",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3 Resources/04-Interests/易学/README.md",
+                "file": "5 Zettels/📚 literature/黄帝内经/02-灵枢/灵枢-小针解第三.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "灵枢-小针解第三"
             }
           }
         ]
@@ -113,7 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 308.5
+    "width": 320.5
   },
   "right": {
     "id": "19cea027a20285b0",
@@ -213,7 +206,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 393.5
+    "width": 376.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -228,43 +221,43 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "2eb489c1f2e42492",
+  "active": "890dac90bd5dcabb",
   "lastOpenFiles": [
-    "3 Resources/04-Interests/易学/易学知识库导航.md",
-    "3 Resources/04-Interests/易学/README.md",
-    "3 Resources/04-Interests/易学/06-学习资源/線上學習資源.md",
-    "3 Resources/04-Interests/易学/06-学习资源/推薦閱讀書單.md",
-    "3 Resources/04-Interests/易学/06-学习资源/易學流派與傳承.md",
-    "3 Resources/04-Interests/易学/06-学习资源/学习方法与建议.md",
-    "3 Resources/04-Interests/易学/06-学习资源/經典文獻導讀.md",
-    "3 Resources/04-Interests/易学/05-实践应用/現代易經案例解析.md",
-    "3 Resources/04-Interests/易学/05-实践应用/易經與健康養生.md",
-    "3 Resources/04-Interests/易学/05-实践应用/易經與人際關係.md",
-    "3 Resources/04-Interests/易学/05-实践应用/易經與決策智慧.md",
-    "3 Resources/04-Interests/易学/05-实践应用/個人修身與易經.md",
-    "3 Resources/04-Interests/易学/04-哲学智慧/儒道釋三教融合.md",
-    "3 Resources/04-Interests/易学/04-哲学智慧/易學與現代生活.md",
-    "3 Resources/04-Interests/易学/04-哲学智慧/陰陽變化與變易之道.md",
-    "3 Resources/04-Interests/易学/04-哲学智慧/易經中的處世哲學.md",
-    "3 Resources/04-Interests/易学/03-占卜方法/現代易學應用.md",
-    "3 Resources/04-Interests/易学/03-占卜方法/六爻預測基礎.md",
-    "3 Resources/04-Interests/易学/03-占卜方法/銅錢卦法.md",
-    "3 Resources/04-Interests/易学/02-易经核心/易理哲學思想.md",
-    "3 Resources/04-Interests/易学/02-易经核心/彖辭象辭解析.md",
-    "3 Resources/04-Interests/易学/02-易经核心/六十四卦詳解.md",
-    "3 Resources/04-Interests/易学/01-基础入门/陰陽五行理論基礎.md",
-    "3 Resources/04-Interests/易学/01-基础入门/八卦基礎與象徵.md",
-    "3 Resources/04-Interests/易学/01-基础入门/易經結構與組成.md",
-    "3 Resources/04-Interests/易学/01-基础入门/易學概述與發展史.md",
-    "update_wikilinks.py",
-    "rename_folders.py",
-    "3 Resources/01-Tech/🧠 AI 知識(舊)/🤖 基礎概念",
-    "3 Resources/01-Tech/🧠 AI 知識(舊)/🔧 技術",
-    "3 Resources/01-Tech/🧠 AI 知識(舊)/🛠️ 工具/Obsidian-OpenCode-Ollama-GPT集成指南/10-附录",
-    "3 Resources/01-Tech/🧠 AI 知識(舊)/🛠️ 工具/Obsidian-OpenCode-Ollama-GPT集成指南/09-资源下载",
-    "3 Resources/01-Tech/🧠 AI 知識(舊)/🛠️ 工具/Obsidian/工作流",
-    "3 Resources/01-Tech/🧠 AI 知識(舊)/🛠️ 工具/Obsidian/Scripts",
-    "3 Resources/01-Tech/🧠 AI 知識(舊)/🛠️ 工具/Obsidian/Articles",
-    "3 Resources/01-Tech/🧠 AI 知識(舊)/🛠️ 工具/OpenCode"
+    "5 Zettels/📚 literature/黄帝内经/02-灵枢/灵枢77-九宫八风第七十七.md",
+    "5 Zettels/📚 literature/黄帝内经/02-灵枢/灵枢76-卫气行第七十六.md",
+    "5 Zettels/📚 literature/黄帝内经/02-灵枢/灵枢75-刺节真邪第七十五.md",
+    "5 Zettels/📚 literature/黄帝内经/02-灵枢/灵枢74-论疾诊尺第七十四.md",
+    "5 Zettels/📚 literature/黄帝内经/02-灵枢/灵枢73-官能第七十三.md",
+    "5 Zettels/📚 literature/黄帝内经/02-灵枢/灵枢72-通天第七十二.md",
+    "5 Zettels/📚 literature/黄帝内经/02-灵枢/灵枢71-邪客第七十一.md",
+    "5 Zettels/📚 literature/黄帝内经/02-灵枢/灵枢70-寒热第七十.md",
+    "5 Zettels/📚 literature/黄帝内经/02-灵枢/灵枢69-忧恚无言第六十九.md",
+    "5 Zettels/📚 literature/黄帝内经/02-灵枢/灵枢68-上膈第六十八.md",
+    "5 Zettels/📚 literature/黄帝内经/02-灵枢/灵枢67-行针第六十七.md",
+    "5 Zettels/📚 literature/黄帝内经/02-灵枢/灵枢66-百病始生第六十六.md",
+    "5 Zettels/📚 literature/黄帝内经/02-灵枢/灵枢65-五音五味第六十五.md",
+    "5 Zettels/📚 literature/黄帝内经/02-灵枢/灵枢64-阴阳二十五人第六十四.md",
+    "5 Zettels/📚 literature/黄帝内经/02-灵枢/灵枢63-五味论第六十三.md",
+    "5 Zettels/📚 literature/黄帝内经/02-灵枢/灵枢62-动输第六十二.md",
+    "5 Zettels/📚 literature/黄帝内经/02-灵枢/灵枢61-五禁第六十一.md",
+    "5 Zettels/📚 literature/黄帝内经/02-灵枢/灵枢60-玉版第六十.md",
+    "5 Zettels/📚 literature/黄帝内经/02-灵枢/灵枢59-卫气失常第五十九.md",
+    "5 Zettels/📚 literature/黄帝内经/02-灵枢/灵枢58-贼风第五十八.md",
+    "5 Zettels/📚 literature/黄帝内经/02-灵枢/灵枢57-水胀第五十七.md",
+    "5 Zettels/📚 literature/黄帝内经/02-灵枢/灵枢56-五味第五十六.md",
+    "5 Zettels/📚 literature/黄帝内经/02-灵枢/灵枢55-逆顺第五十五.md",
+    "5 Zettels/📚 literature/黄帝内经/02-灵枢/灵枢54-天年第五十四.md",
+    "5 Zettels/📚 literature/黄帝内经/02-灵枢/灵枢53-论痛第五十三.md",
+    "5 Zettels/📚 literature/黄帝内经/02-灵枢/灵枢52-卫气第五十二.md",
+    "5 Zettels/📁 structures/黄帝内经/02-灵枢",
+    "5 Zettels/📚 literature/黄帝内经/02-灵枢",
+    "5 Zettels/📚 literature/黄帝内经/01-素问",
+    "5 Zettels/📚 literature/黄帝内经",
+    "5 Zettels/📁 structures/黄帝内经",
+    "3 Resources/04-Interests/易學/01-基础入门/八卦",
+    "3 Resources/04-Interests/易學_TEMP/05-学习资源",
+    "3 Resources/04-Interests/易學_TEMP/04-实践应用",
+    "3 Resources/04-Interests/易學_TEMP/03-哲学智慧",
+    "3 Resources/04-Interests/易學_TEMP/02-占卜方法"
   ]
 }

@@ -1,5 +1,9 @@
 {
   "alwaysUpdateLinks": true,
   "showLineNumber": true,
-  "readableLineLength": false
+  "readableLineLength": false,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "0 Inbox",
+  "attachmentFolderPath": "0 Inbox",
+  "trashOption": "system"
 }
