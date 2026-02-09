@@ -41,15 +41,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5 Zettels/📚 literature/黄帝内经/02-灵枢/灵枢-小针解第三.md",
+                "file": "5 Zettels/📁 structures/易经/MOC-易经知识库.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "灵枢-小针解第三"
+              "title": "MOC-易经知识库"
+            }
+          },
+          {
+            "id": "0f337b439342b835",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1 Projects/03-Personal/Journal/2026/02-February/2026W6-周报.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2026W6-周报"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -221,34 +236,35 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "890dac90bd5dcabb",
+  "active": "0f337b439342b835",
   "lastOpenFiles": [
+    "1 Projects/03-Personal/Journal/2026/02-February/2026-02-08.md",
+    "1 Projects/03-Personal/Journal/2026/02-February/2026W6-周报.md",
+    "1 Projects/03-Personal/Journal/2026/02-February/February-2026.md",
+    "1 Projects/03-Personal/Journal/2026/02-February/2026-02-07.md",
+    "1 Projects/03-Personal/Journal/2026/02-February/2026-02-06.md",
+    "1 Projects/03-Personal/Journal/2026/02-February/2026-02-05.md",
+    "1 Projects/03-Personal/Journal/2026/02-February/2026-02-04.md",
+    "1 Projects/03-Personal/Journal/2026/02-February/2026-02-03.md",
+    "1 Projects/03-Personal/Journal/2026/02-February/2026-02-02.md",
+    "1 Projects/03-Personal/Core/MOC-易经知识库优化报告-20260209.md",
+    "nul",
+    "5 Zettels/📁 structures/易经/MOC-易经知识库.md",
+    "3 Resources/04-Interests/易學/MOC_易學知識庫.md",
+    "5 Zettels/📁 structures/黄帝内经/黄帝内经-灵枢索引.md",
+    "5 Zettels/📚 literature/黄帝内经/02-灵枢/灵枢01-九针十二原第一.md",
+    "5 Zettels/📁 structures/黄帝内经/MOC-黄帝内经知识库.md",
+    "5 Zettels/📚 literature/黄帝内经/02-灵枢/灵枢-小针解第三.md",
+    "5 Zettels/📚 literature/黄帝内经/02-灵枢/灵枢-痈疽第八十一.md",
+    "5 Zettels/📚 literature/黄帝内经/02-灵枢/灵枢78-九针论第七十八.md",
+    "5 Zettels/📚 literature/黄帝内经/02-灵枢/灵枢-邪客第七十一.md",
+    "5 Zettels/📚 literature/黄帝内经/02-灵枢/灵枢-寒热第七十.md",
+    "5 Zettels/📚 literature/黄帝内经/02-灵枢/灵枢-忧恚无言第六十九.md",
+    "5 Zettels/📚 literature/黄帝内经/02-灵枢/灵枢-大惑论第八十.md",
+    "5 Zettels/📚 literature/黄帝内经/02-灵枢/灵枢-岁露论第七十九.md",
     "5 Zettels/📚 literature/黄帝内经/02-灵枢/灵枢77-九宫八风第七十七.md",
     "5 Zettels/📚 literature/黄帝内经/02-灵枢/灵枢76-卫气行第七十六.md",
     "5 Zettels/📚 literature/黄帝内经/02-灵枢/灵枢75-刺节真邪第七十五.md",
-    "5 Zettels/📚 literature/黄帝内经/02-灵枢/灵枢74-论疾诊尺第七十四.md",
-    "5 Zettels/📚 literature/黄帝内经/02-灵枢/灵枢73-官能第七十三.md",
-    "5 Zettels/📚 literature/黄帝内经/02-灵枢/灵枢72-通天第七十二.md",
-    "5 Zettels/📚 literature/黄帝内经/02-灵枢/灵枢71-邪客第七十一.md",
-    "5 Zettels/📚 literature/黄帝内经/02-灵枢/灵枢70-寒热第七十.md",
-    "5 Zettels/📚 literature/黄帝内经/02-灵枢/灵枢69-忧恚无言第六十九.md",
-    "5 Zettels/📚 literature/黄帝内经/02-灵枢/灵枢68-上膈第六十八.md",
-    "5 Zettels/📚 literature/黄帝内经/02-灵枢/灵枢67-行针第六十七.md",
-    "5 Zettels/📚 literature/黄帝内经/02-灵枢/灵枢66-百病始生第六十六.md",
-    "5 Zettels/📚 literature/黄帝内经/02-灵枢/灵枢65-五音五味第六十五.md",
-    "5 Zettels/📚 literature/黄帝内经/02-灵枢/灵枢64-阴阳二十五人第六十四.md",
-    "5 Zettels/📚 literature/黄帝内经/02-灵枢/灵枢63-五味论第六十三.md",
-    "5 Zettels/📚 literature/黄帝内经/02-灵枢/灵枢62-动输第六十二.md",
-    "5 Zettels/📚 literature/黄帝内经/02-灵枢/灵枢61-五禁第六十一.md",
-    "5 Zettels/📚 literature/黄帝内经/02-灵枢/灵枢60-玉版第六十.md",
-    "5 Zettels/📚 literature/黄帝内经/02-灵枢/灵枢59-卫气失常第五十九.md",
-    "5 Zettels/📚 literature/黄帝内经/02-灵枢/灵枢58-贼风第五十八.md",
-    "5 Zettels/📚 literature/黄帝内经/02-灵枢/灵枢57-水胀第五十七.md",
-    "5 Zettels/📚 literature/黄帝内经/02-灵枢/灵枢56-五味第五十六.md",
-    "5 Zettels/📚 literature/黄帝内经/02-灵枢/灵枢55-逆顺第五十五.md",
-    "5 Zettels/📚 literature/黄帝内经/02-灵枢/灵枢54-天年第五十四.md",
-    "5 Zettels/📚 literature/黄帝内经/02-灵枢/灵枢53-论痛第五十三.md",
-    "5 Zettels/📚 literature/黄帝内经/02-灵枢/灵枢52-卫气第五十二.md",
     "5 Zettels/📁 structures/黄帝内经/02-灵枢",
     "5 Zettels/📚 literature/黄帝内经/02-灵枢",
     "5 Zettels/📚 literature/黄帝内经/01-素问",
@@ -257,7 +273,6 @@
     "3 Resources/04-Interests/易學/01-基础入门/八卦",
     "3 Resources/04-Interests/易學_TEMP/05-学习资源",
     "3 Resources/04-Interests/易學_TEMP/04-实践应用",
-    "3 Resources/04-Interests/易學_TEMP/03-哲学智慧",
-    "3 Resources/04-Interests/易學_TEMP/02-占卜方法"
+    "3 Resources/04-Interests/易學_TEMP/03-哲学智慧"
   ]
 }
