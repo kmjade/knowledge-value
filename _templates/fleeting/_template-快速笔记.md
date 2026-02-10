@@ -1,6 +1,6 @@
 ---
 title: ${title}
-tags: [${tag}]
+tags: []
 created: {{date}}
 updated: {{date}}
 ---

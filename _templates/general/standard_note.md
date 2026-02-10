@@ -2,7 +2,7 @@
 title: "${title}"
 created: {{date}}
 updated: {{date}}
-tags: ["${tag}"]
+tags: []
 status: active
 priority: medium
 aliases: []
