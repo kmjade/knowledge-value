@@ -24,6 +24,7 @@ language: English
 - [🏗️ System Structure](#️-system-structure)
 - [📊 PARA Methodology](#-para-methodology)
 - [🔄 Workflows](#-workflows)
+- [🏷️ Tag System](#️-tag-system)
 - [🛠️ Claude Code Commands](#️-claude-code-commands)
 - [📖 Best Practices](#-best-practices)
 - [📚 Documentation Resources](#-documentation-resources)
@@ -140,6 +141,55 @@ flowchart LR
 | 3️⃣ Link | Connect related concepts | wikilinks |
 | 4️⃣ Develop | Add literature notes | `📚 literature/` |
 | 5️⃣ Structure | Create overview notes | `📁 structure/` |
+
+---
+
+## 🏷️ Tag System
+
+The vault uses a unified tag system to organize and categorize notes across all methodologies.
+
+### Tag Architecture
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│              Unified Tag System                               │
+└─────────────────────────────────────────────────────────────────┘
+                              │
+        ┌─────────────────────┼─────────────────────┐
+        │                     │                     │
+   PARA Core            Specialized           General Utility
+   Tags                Knowledge Base        Auxiliary Tags
+        │                     │                     │
+   ┌────┴────┐           ┌────┴────┐           ┌────┴────┐
+   │         │           │         │           │         │
+ #para   #status   #type   #system   #report  #zettel
+           #priority  #topic   #workflow
+                     #discipline  #method
+```
+
+### Quick Tag Reference
+
+| Category | Tags | Usage |
+|----------|------|-------|
+| **PARA Area** | `#para/area/health`, `#para/area/career`, etc. | Long-term responsibility areas |
+| **PARA Project** | `#para/project/work`, `#para/project/learning` | Active projects |
+| **PARA Resource** | `#para/resource/tech`, `#para/resource/learning` | Reference materials |
+| **Status** | `#status/active`, `#status/completed` | Track progress |
+| **Priority** | `#priority/high`, `#priority/urgent` | Task importance |
+| **Zettelkasten** | `#zettel/type/permanent`, `#zettel/type/literature` | Note classification |
+| **Specialized KB** | `#type/`, `#topic/`, `#discipline/`, `#method/` | Knowledge base organization |
+| **Yixue** | `#yixue/basics`, `#yixue/hexagram` | I Ching knowledge base |
+
+### Documentation
+
+For complete tag system specifications and usage examples, see:
+
+- [[tag-system-guide]] - Comprehensive tag system guide
+- [[tag-quick-reference]] - Quick lookup table
+- [[示例笔记-领域标签使用]] - Area tag examples
+- [[示例笔记-项目标签使用]] - Project tag examples
+- [[示例笔记-资源标签使用]] - Resource tag examples
+- [[示例笔记-Zettelkasten标签使用]] - Zettelkasten tag examples
 
 ---
 
