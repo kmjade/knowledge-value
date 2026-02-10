@@ -13,26 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5 Zettels/📁 structures/黄帝内经/黄帝内经-灵枢索引.md",
+                "file": "3 Resources/04-Interests/魔獸世界/遊戲機制/戰鬥系統/英雄天賦系統分析-地心之战12.0.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "黄帝内经-灵枢索引"
-            }
-          },
-          {
-            "id": "9d3cc7a72a07037a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "5 Zettels/📚 literature/黄帝内经/02-灵枢/灵枢-小针解第三.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "灵枢-小针解第三"
+              "title": "英雄天賦系統分析-地心之战12.0"
             }
           },
           {
@@ -41,30 +27,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "5 Zettels/📁 structures/易经/MOC-易经知识库.md",
+                "file": "3 Resources/04-Interests/魔獸世界/魔獸世界地心之战12.0版本機制變化深度分析.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MOC-易经知识库"
-            }
-          },
-          {
-            "id": "0f337b439342b835",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1 Projects/03-Personal/Journal/2026/02-February/2026W6-周报.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2026W6-周报"
+              "title": "魔獸世界地心之战12.0版本機制變化深度分析"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -236,43 +207,52 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "0f337b439342b835",
+  "active": "890dac90bd5dcabb",
   "lastOpenFiles": [
-    "1 Projects/03-Personal/Journal/2026/02-February/2026-02-08.md",
-    "1 Projects/03-Personal/Journal/2026/02-February/2026W6-周报.md",
-    "1 Projects/03-Personal/Journal/2026/02-February/February-2026.md",
-    "1 Projects/03-Personal/Journal/2026/02-February/2026-02-07.md",
-    "1 Projects/03-Personal/Journal/2026/02-February/2026-02-06.md",
-    "1 Projects/03-Personal/Journal/2026/02-February/2026-02-05.md",
-    "1 Projects/03-Personal/Journal/2026/02-February/2026-02-04.md",
-    "1 Projects/03-Personal/Journal/2026/02-February/2026-02-03.md",
-    "1 Projects/03-Personal/Journal/2026/02-February/2026-02-02.md",
-    "1 Projects/03-Personal/Core/MOC-易经知识库优化报告-20260209.md",
-    "nul",
-    "5 Zettels/📁 structures/易经/MOC-易经知识库.md",
-    "3 Resources/04-Interests/易學/MOC_易學知識庫.md",
-    "5 Zettels/📁 structures/黄帝内经/黄帝内经-灵枢索引.md",
-    "5 Zettels/📚 literature/黄帝内经/02-灵枢/灵枢01-九针十二原第一.md",
+    "1 Projects/03-Personal/Journal/2026/02-February/2026-02-09.md",
+    "3 Resources/04-Interests/魔獸世界/遊戲機制/戰鬥系統/地心之战-系統變化總結-12.0版本.md",
+    "3 Resources/04-Interests/魔獸世界/遊戲機制/職業體系/地心之战-職業專精重構分析.md",
+    "3 Resources/04-Interests/魔獸世界/遊戲機制/職業體系/術士-機制分析-地心之战12.0.md",
+    "3 Resources/04-Interests/魔獸世界/魔獸世界地心之战12.0版本機制變化深度分析.md",
+    "3 Resources/04-Interests/魔兽世界/魔兽世界知识库建设方案.md",
+    "4 Archives/3 SOCIAL SCIENCES/33 Economics/336 Finance/336.7 Money/img/Pasted image 20240727092547.png",
+    "4 Archives/3 SOCIAL SCIENCES/33 Economics/336 Finance/336.7 Money/img/Pasted image 20240727092515.png",
+    "4 Archives/3 SOCIAL SCIENCES/33 Economics/336 Finance/336.7 Money/img/Pasted image 20240727092449.png",
+    "4 Archives/3 SOCIAL SCIENCES/33 Economics/336 Finance/336.7 Money/img/Pasted image 20240727092410.png",
+    "4 Archives/3 SOCIAL SCIENCES/33 Economics/336 Finance/336.7 Money/img/Pasted image 20240727092329.png",
+    "4 Archives/3 SOCIAL SCIENCES/33 Economics/336 Finance/336.7 Money/img/Pasted image 20240727091637.png",
+    "4 Archives/3 SOCIAL SCIENCES/33 Economics/336 Finance/336.7 Money/img/Pasted image 20240727091615.png",
+    "4 Archives/3 SOCIAL SCIENCES/33 Economics/336 Finance/336.7 Money/img/Pasted image 20240727091541.png",
+    "4 Archives/3 SOCIAL SCIENCES/33 Economics/336 Finance/336.7 Money/img/Pasted image 20240727091222.png",
+    "4 Archives/3 SOCIAL SCIENCES/33 Economics/336 Finance/336.7 Money/img",
+    "4 Archives/3 SOCIAL SCIENCES/33 Economics/336 Finance/336.7 Money/零基础学MQL：基于EA的自动化交易编程.pdf",
+    "4 Archives/3 SOCIAL SCIENCES/33 Economics/336 Finance/336.7 Money/金融风险管理师手册(中文第二版).pdf",
+    "4 Archives/3 SOCIAL SCIENCES/33 Economics/336 Finance/336.7 Money/量化投资技术分析实战：解码股票与期货交易模型_nodrm.rtf",
+    "4 Archives/3 SOCIAL SCIENCES/33 Economics/336 Finance/336.7 Money/通向财务自由之路 珍藏版.pdf",
+    "4 Archives/3 SOCIAL SCIENCES/33 Economics/336 Finance/336.7 Money/超级交易员(高清).pdf",
+    "4 Archives/3 SOCIAL SCIENCES/33 Economics/336 Finance/336.7 Money/订单策略。多目标 EA 交易.md",
+    "4 Archives/3 SOCIAL SCIENCES/33 Economics/336 Finance/336.7 Money/索罗斯都要用的外汇交易术 3 外汇自动化交易必备工具书(高清).pdf",
+    "4 Archives/3 SOCIAL SCIENCES/33 Economics/336 Finance/336.7 Money/索罗斯都要用的外汇交易术 2.pdf",
+    "4 Archives/3 SOCIAL SCIENCES/33 Economics/336 Finance/336.7 Money/索罗斯都要用的外汇交易术  1(高清).pdf",
+    "4 Archives/3 SOCIAL SCIENCES/33 Economics/336 Finance/336.7 Money/海龟交易A4.pdf",
+    "4 Archives/3 SOCIAL SCIENCES/33 Economics/336 Finance/336.7 Money/交易理念.md",
+    "4 Archives/3 SOCIAL SCIENCES/33 Economics/336 Finance/336.7 Money/MetaQuotes.md",
+    "4 Archives/3 SOCIAL SCIENCES/33 Economics/336 Finance/336.7 Money/336.7 货币.md",
+    "4 Archives/3 SOCIAL SCIENCES/33 Economics/336 Finance/336.7 Money/336.7 Money.md",
+    "4 Archives/3 SOCIAL SCIENCES/33 Economics/336 Finance/336 金融.md",
+    "4 Archives/3 SOCIAL SCIENCES/33 Economics/336 Finance/336 Finance.md",
+    "4 Archives/3 SOCIAL SCIENCES/33 Economics/33 经济.md",
+    "4 Archives/3 SOCIAL SCIENCES/33 Economics/33 Economics.md",
+    "4 Archives/3 SOCIAL SCIENCES/3 社会科学.md",
+    "4 Archives/3 SOCIAL SCIENCES/3 SOCIAL SCIENCES.md",
+    "3 Resources/04-Interests/魔獸世界/遊戲機制/職業體系/聖騎士-機制分析-人類.md",
+    "3 Resources/04-Interests/魔獸世界/遊戲機制/戰鬥系統/英雄天賦系統分析-地心之战12.0.md",
+    "3 Resources/04-Interests/魔獸世界/structures/MOC-魔獸世界知識庫.md",
+    "3 Resources/04-Interests/魔獸世界/遊戲機制/職業體系/潛行者-機制分析-暗夜精靈.md",
     "5 Zettels/📁 structures/黄帝内经/MOC-黄帝内经知识库.md",
-    "5 Zettels/📚 literature/黄帝内经/02-灵枢/灵枢-小针解第三.md",
-    "5 Zettels/📚 literature/黄帝内经/02-灵枢/灵枢-痈疽第八十一.md",
-    "5 Zettels/📚 literature/黄帝内经/02-灵枢/灵枢78-九针论第七十八.md",
-    "5 Zettels/📚 literature/黄帝内经/02-灵枢/灵枢-邪客第七十一.md",
-    "5 Zettels/📚 literature/黄帝内经/02-灵枢/灵枢-寒热第七十.md",
-    "5 Zettels/📚 literature/黄帝内经/02-灵枢/灵枢-忧恚无言第六十九.md",
-    "5 Zettels/📚 literature/黄帝内经/02-灵枢/灵枢-大惑论第八十.md",
-    "5 Zettels/📚 literature/黄帝内经/02-灵枢/灵枢-岁露论第七十九.md",
-    "5 Zettels/📚 literature/黄帝内经/02-灵枢/灵枢77-九宫八风第七十七.md",
-    "5 Zettels/📚 literature/黄帝内经/02-灵枢/灵枢76-卫气行第七十六.md",
-    "5 Zettels/📚 literature/黄帝内经/02-灵枢/灵枢75-刺节真邪第七十五.md",
-    "5 Zettels/📁 structures/黄帝内经/02-灵枢",
-    "5 Zettels/📚 literature/黄帝内经/02-灵枢",
-    "5 Zettels/📚 literature/黄帝内经/01-素问",
-    "5 Zettels/📚 literature/黄帝内经",
-    "5 Zettels/📁 structures/黄帝内经",
-    "3 Resources/04-Interests/易學/01-基础入门/八卦",
-    "3 Resources/04-Interests/易學_TEMP/05-学习资源",
-    "3 Resources/04-Interests/易學_TEMP/04-实践应用",
-    "3 Resources/04-Interests/易學_TEMP/03-哲学智慧"
+    "3 Resources/04-Interests/魔獸世界/structures/魔獸世界-標籤體系.md",
+    "3 Resources/04-Interests/魔獸世界/structures/模板-魔獸世界職業機制分析.md",
+    "4 Archives/4 Archives.md",
+    "3 Resources/04-Interests/易學/README.md"
   ]
 }
