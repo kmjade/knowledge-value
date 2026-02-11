@@ -106,8 +106,6 @@ flowchart LR
     C --> D[📦 Archive]
 
     A -.-> |"Add to InBox"| A1[0 Personals/📥 00_InBox/]
-# 整理
-    C -.-> |"/para-库概览"| C1[Review status]
     D -.-> |"Move to"| D1[4 Archives/]
 ```
 
