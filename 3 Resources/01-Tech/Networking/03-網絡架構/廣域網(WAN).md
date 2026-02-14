@@ -8,10 +8,15 @@ para: resource
 tags:
   - #para/resource/tech
   - #topic/networking
+  - #topic/architecture
   - #protocol/wan
+  - #layer/network
   - #type/concept
   - #zettel/type/permanent
+  - #difficulty/intermediate
+  - #learning/mastered
 created: 2026-02-15
+updated: 2026-02-15
 ---
 
 > [!summary] 廣域網概述

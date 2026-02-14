@@ -7,11 +7,16 @@ para: resource
 tags:
   - #para/resource/tech
   - #topic/networking
+  - #topic/architecture
   - #protocol/vlan
+  - #protocol/stp
   - #layer/data-link
   - #type/concept
   - #zettel/type/permanent
+  - #difficulty/intermediate
+  - #learning/mastered
 created: 2026-02-14
+updated: 2026-02-15
 ---
 
 # VLAN 虚拟局域网

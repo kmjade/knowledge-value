@@ -9,12 +9,17 @@ para: resource
 tags:
   - #para/resource/tech
   - #topic/networking
-  - #topic/sdn
+  - #topic/architecture
+  - #topic/architecture/sdn
   - #protocol/openflow
   - #protocol/nfv
+  - #layer/application
   - #type/concept
   - #zettel/type/permanent
+  - #difficulty/intermediate
+  - #learning/review
 created: 2026-02-15
+updated: 2026-02-15
 ---
 
 > [!summary] SDN軟體定義網絡概述

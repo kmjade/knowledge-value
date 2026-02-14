@@ -8,10 +8,16 @@ para: resource
 tags:
   - #para/resource/tech
   - #topic/networking
+  - #topic/architecture
   - #protocol/lan
+  - #layer/data-link
+  - #layer/physical
   - #type/concept
   - #zettel/type/permanent
+  - #difficulty/beginner
+  - #learning/mastered
 created: 2026-01-21
+updated: 2026-02-15
 ---
 
 > [!summary] 局域网概述
