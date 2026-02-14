@@ -4,14 +4,18 @@ aliases:
   - 網絡技術
   - 網路技術
   - Networking
-  - 网络技术
+  - 網絡技術
 para: resource
 tags:
   - #para/resource/tech
   - #topic/networking
-  - #system/moc
+  - #system/index
+  - #type/guide
   - #zettel/type/permanent
+  - #difficulty/beginner
+  - #learning/mastered
 created: 2026-02-14
+updated: 2026-02-15
 ---
 
 # Networking 網絡技術

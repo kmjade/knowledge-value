@@ -3,15 +3,18 @@ title: 計算機網絡學習路徑
 aliases:
   - Network Learning Path
   - 網絡學習路線圖
-  - 学习路径
+  - 學習路徑
 para: resource
 tags:
+  - #para/resource/tech
   - #system/moc
   - #topic/networking
   - #type/guide
   - #zettel/type/structure
+  - #difficulty/beginner
+  - #learning/mastered
 created: 2026-01-21
-updated: 2026-02-11
+updated: 2026-02-15
 ---
 
 # 計算機網絡學習路徑

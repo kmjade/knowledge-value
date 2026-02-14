@@ -1,5 +1,5 @@
 ---
-title: IP地址与子网划分
+title: IP地址與子網劃分
 aliases:
   - IP Addressing
   - Subnetting
@@ -9,11 +9,17 @@ para: resource
 tags:
   - #para/resource/tech
   - #topic/networking
+  - #topic/basics
   - #protocol/ip
-  - #topic/subnetting
+  - #protocol/ipv4
+  - #protocol/ipv6
+  - #layer/network
   - #type/concept
   - #zettel/type/permanent
+  - #difficulty/beginner
+  - #learning/mastered
 created: 2026-01-21
+updated: 2026-02-15
 ---
 
 > [!summary] IP地址概述

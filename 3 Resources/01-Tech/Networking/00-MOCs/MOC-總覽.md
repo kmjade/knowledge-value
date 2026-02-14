@@ -5,9 +5,13 @@ aliases:
   - Network MOC
 para: resource
 tags:
+  - #para/resource/tech
   - #system/moc
   - #topic/networking
+  - #type/moc
   - #zettel/type/structure
+  - #difficulty/beginner
+  - #learning/mastered
 created: 2026-01-21
 ---
 

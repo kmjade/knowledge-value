@@ -1,19 +1,22 @@
 ---
 title: Networking - 知識庫
 aliases:
-  - 計算机網路
+  - 計算機網路
   - Network Knowledge
   - 網絡技術知識庫
-  - 计算机网络
-  - 网络技术知识库
+  - 計算機網絡
+  - 網絡技術知識庫
 para: resource
 tags:
   - #para/resource/tech
   - #topic/networking
   - #system/index
+  - #type/guide
   - #zettel/type/permanent
+  - #difficulty/beginner
+  - #learning/mastered
 created: 2026-01-21
-updated: 2026-02-14
+updated: 2026-02-15
 ---
 
 # Networking 網絡技術知識庫

@@ -1,18 +1,29 @@
 ---
-title: OSI七层模型
+title: OSI七層模型
 aliases:
   - Open Systems Interconnection
   - OSI模型
-  - OSI七层
+  - OSI七層
 para: resource
 tags:
   - #para/resource/tech
   - #topic/networking
+  - #topic/basics
+  - #topic/layers
   - #protocol/osi
-  - #topic/protocol-stack
+  - #layer/application
+  - #layer/presentation
+  - #layer/session
+  - #layer/transport
+  - #layer/network
+  - #layer/data-link
+  - #layer/physical
   - #type/concept
   - #zettel/type/permanent
+  - #difficulty/beginner
+  - #learning/mastered
 created: 2026-01-21
+updated: 2026-02-15
 ---
 
 > [!summary] OSI模型概述

@@ -1,18 +1,26 @@
 ---
-title: TCP/IP协议棧
+title: TCP/IP協議棧
 aliases:
   - TCP/IP Model
   - Internet Protocol Suite
-  - TCP IP协议栈
+  - TCP IP協議棧
 para: resource
 tags:
   - #para/resource/tech
   - #topic/networking
+  - #topic/basics
+  - #topic/layers
   - #protocol/tcp-ip
-  - #topic/protocol-stack
+  - #layer/application
+  - #layer/transport
+  - #layer/network
+  - #layer/data-link
   - #type/concept
   - #zettel/type/permanent
+  - #difficulty/beginner
+  - #learning/mastered
 created: 2026-01-21
+updated: 2026-02-15
 ---
 
 > [!summary] TCP/IP协议棧概述
