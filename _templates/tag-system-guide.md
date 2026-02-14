@@ -1,32 +1,33 @@
 ---
-title: "标签系统使用指南"
+title: "標籤系統使用指南"
 created: 2026-02-11
+updated: 2026-02-15
 tags:
   - #system/template
   - #system/navigation
 aliases:
-  - 标签系统
+  - 標籤系統
   - tag-system
 ---
 
-# 标签系统使用指南
+# 標籤系統使用指南
 
 > [!info] 概述
-> 本指南定义了 Obsidian vault 中统一的标签体系，涵盖 PARA、Zettelkasten、报告、系统功能和专用知识库等各个维度。
+> 本指南定義了 Obsidian vault 中統一的標籤體系，涵蓋 PARA、Zettelkasten、報告、系統功能和專用知識庫等各個維度。
 
 ---
 
-## 标签体系架构
+## 標籤體系架構
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│                    统一标签体系                        │
+│                    統一標籤體系                        │
 └─────────────────────────────────────────────────────────────────┘
                               │
         ┌─────────────────────┼─────────────────────┐
         │                     │                     │
-   PARA 核心               专用知识库             通用功能
-   标签体系                标签系统                辅助标签
+   PARA 核心               專用知識庫             通用功能
+   標籤體系                標籤系統                輔助標籤
         │                     │                     │
    ┌────┴────┐           ┌────┴────┐           ┌────┴────┐
    │         │           │         │           │         │
@@ -37,23 +38,23 @@ aliases:
 
 ---
 
-## 一、PARA 核心标签体系
+## 一、PARA 核心標籤體系
 
-PARA 标签以 `#para/` 为前缀，使用英文命名，用于组织和分类笔记。
+PARA 標籤以 `#para/` 為前綴，使用英文命名，用於組織和分類筆記。
 
-### 1.1 Area (领域) 标签
+### 1.1 Area (領域) 標籤
 
 ```
-#para/area/                # 领域
+#para/area/                # 領域
 ├── #para/area/health       # 健康
-├── #para/area/career       # 职业发展
-├── #para/area/finance      # 财务管理
-├── #para/area/relationships # 人际关系
-├── #para/area/learning     # 学习成长
+├── #para/area/career       # 職業發展
+├── #para/area/finance      # 財務管理
+├── #para/area/relationships # 人際關係
+├── #para/area/learning     # 學習成長
 └── #para/area/lifestyle   # 生活方式
 ```
 
-**使用场景**：记录某个领域相关的知识、资源和思考，不依赖特定项目。
+**使用場景**：記錄某個領域相關的知識、資源和思考，不依賴特定項目。
 
 **示例**：
 ```yaml
@@ -62,22 +63,22 @@ tags:
   - #para/area/health
   - #zettel/type/permanent
 aliases:
-  - 健康领域
+  - 健康領域
   - 健康
 ---
 ```
 
-### 1.2 Project (项目) 标签
+### 1.2 Project (項目) 標籤
 
 ```
-#para/project/              # 项目
-├── #para/project/work       # 工作项目
-├── #para/project/learning   # 学习项目
-├── #para/project/personal   # 个人项目
-└── #para/project/creative  # 创作项目
+#para/project/              # 項目
+├── #para/project/work       # 工作項目
+├── #para/project/learning   # 學習項目
+├── #para/project/personal   # 個人項目
+└── #para/project/creative  # 創作項目
 ```
 
-**使用场景**：跟踪具有明确目标和时间限制的项目。
+**使用場景**：追蹤具有明確目標和時間限制的項目。
 
 **示例**：
 ```yaml
@@ -87,16 +88,16 @@ tags:
   - #status/active
   - #priority/high
 aliases:
-  - 工作项目
+  - 工作項目
 ---
 ```
 
-### 1.3 Resource (资源) 标签
+### 1.3 Resource (資源) 標籤
 
 ```
-#para/resource/             # 资源
-├── #para/resource/tech     # 技术资源
-│   └── #para/resource/tech/programming # 编程
+#para/resource/             # 資源
+├── #para/resource/tech     # 技術資源
+│   └── #para/resource/tech/programming # 編程
 │       ├── #para/resource/tech/programming/python
 │       └── #para/resource/tech/programming/mql
 ├── #para/resource/learning # 学习资源
@@ -170,30 +171,43 @@ aliases:
 
 专用知识库标签纳入主标签体系，具有特定用途。
 
-### 4.1 Type (内容类型) - 耳穴知识库
+### 4.1 Type (內容類型) - 專用知識庫
 
 ```
-#type/                          # 内容类型
-├── #type/concept               # 概念性笔记
-├── #type/clinical              # 临床相关
-├── #type/research              # 研究性内容
-├── #type/treatment             # 治疗方案
-├── #type/moc                   # 内容地图
+#type/                          # 內容類型
+├── #type/concept               # 概念性筆記
+├── #type/clinical              # 臨床相關
+├── #type/research              # 研究性內容
+├── #type/treatment             # 治療方案
+├── #type/moc                   # 內容地圖
 ├── #type/template              # 模板
-├── #type/reference             # 参考资料
-├── #type/guide                 # 指导性内容
-└── #type/summary               # 总结性内容
+├── #type/reference             # 參考資料
+├── #type/guide                 # 指導性內容
+├── #type/summary               # 總結性內容
+├── #type/tutorial              # 教程（網絡技術知識庫）
+├── #type/example               # 示例
+├── #type/case-study            # 案例研究
+└── #type/documentation         # 文檔
 ```
 
-### 4.2 Topic (主题分类) - 耳穴知识库
+### 4.2 Topic (主題分類) - 專用知識庫
 
 ```
-#topic/                         # 主题分类
-├── #topic/basics                # 基础理论
-├── #topic/anatomy               # 解剖相关
-├── #topic/physiology            # 生理学
-├── #topic/diagnosis             # 诊断学
-└── #topic/treatment            # 治疗
+#topic/                         # 主題分類
+├── #topic/basics                # 基礎理論
+├── #topic/anatomy               # 解剖相關
+├── #topic/physiology            # 生理學
+├── #topic/diagnosis             # 診斷學
+├── #topic/treatment            # 治療
+├── #topic/networking           # 網絡技術主題
+├── #topic/protocols            # 協議主題
+├── #topic/layers              # 網絡分層主題
+├── #topic/architecture        # 網絡架構主題
+├── #topic/security            # 安全主題
+├── #topic/management          # 管理主題
+├── #topic/tools               # 工具主題
+├── #topic/subnetting          # 子網劃分主題
+└── #topic/troubleshooting     # 故障排查主題
 ```
 
 ### 4.3 Discipline (学科分类) - 耳穴知识库
@@ -223,7 +237,67 @@ aliases:
 └── #yixue/divination/          # 占卜方法
 ```
 
-**使用场景**：标记特定知识库的内容类型和主题。
+### 4.6 Protocol (协议分类) - 网络技术知识库
+
+```
+#protocol/                       # 协议分类
+├── #protocol/os                # OSI 协议
+├── #protocol/tcp-ip            # TCP/IP 协议栈
+├── #protocol/http              # HTTP/HTTPS 协议
+├── #protocol/tcp               # TCP 协议
+├── #protocol/udp               # UDP 协议
+├── #protocol/ip                # IP 协议
+├── #protocol/icmp              # ICMP 协议
+├── #protocol/arp               # ARP 协议
+├── #protocol/dns               # DNS 协议
+├── #protocol/smtp              # SMTP 协议
+├── #protocol/dhcp              # DHCP 协议
+├── #protocol/ssh               # SSH 协议
+├── #protocol/ssl-tls           # SSL/TLS 协议
+├── #protocol/vlan              # VLAN 协议
+├── #protocol/stp               # STP 生成树协议
+├── #protocol/snmp              # SNMP 网络管理协议
+├── #protocol/bgp               # BGP 路由协议
+├── #protocol/ospf              # OSPF 路由协议
+├── #protocol/rip               # RIP 路由协议
+├── #protocol/lan               # LAN 局域网
+└── #protocol/switch            # 交换机相关
+```
+
+### 4.7 Layer (網絡分層) - 網絡技術知識庫
+
+```
+#layer/                          # 網絡分層
+├── #layer/application          # 應用程式層 (Layer 7)
+├── #layer/presentation          # 表示層 (Layer 6)
+├── #layer/session               # 會話層 (Layer 5)
+├── #layer/transport            # 傳輸層 (Layer 4)
+├── #layer/network              # 網路層 (Layer 3)
+├── #layer/data-link            # 數據鏈路層 (Layer 2)
+└── #layer/physical             # 物理層 (Layer 1)
+```
+
+### 4.8 Learning (學習狀態) - 網絡技術知識庫
+
+```
+#learning/                       # 學習狀態
+├── #learning/new              # 新學習
+├── #learning/progress         # 學習中
+├── #learning/review           # 複習中
+├── #learning/mastered         # 已掌握
+└── #learning/archived         # 已歸檔
+```
+
+### 4.9 Difficulty (難度等級) - 網絡技術知識庫
+
+```
+#difficulty/                     # 難度等級
+├── #difficulty/beginner       # 入門級
+├── #difficulty/intermediate   # 中級
+└── #difficulty/advanced        # 高級
+```
+
+**使用場景**：標記特定知識庫的內容類型和主題。
 
 **示例**：
 ```yaml
@@ -470,60 +544,83 @@ aliases:
 ---
 ```
 
+### 網絡技術知識庫筆記標籤組合
+
+```yaml
+---
+tags:
+  - #para/resource/tech
+  - #topic/networking
+  - #protocol/tcp-ip
+  - #layer/transport
+  - #type/concept
+  - #zettel/type/permanent
+  - #learning/mastered      # 已掌握
+  - #difficulty/intermediate # 中級
+aliases:
+  - TCP/IP協議棧
+  - 傳輸層
+  - 計算機網路
+---
+```
+
 ---
 
-## 标签使用场景速查
+## 標籤使用場景速查
 
-### PARA 标签使用场景
+### PARA 標籤使用場景
 
-| 场景 | 使用标签 | 示例 |
+| 場景 | 使用標籤 | 示例 |
 |------|----------|------|
-| 领域笔记 | `#para/area/` + 子分类 | `#para/area/health` |
-| 项目笔记 | `#para/project/` + 子分类 + `#status/` + `#priority/` | `#para/project/work #status/active #priority/high` |
-| 资源笔记 | `#para/resource/` + 子分类 | `#para/resource/tech` |
-| 归档笔记 | `#para/archive/` + 子分类 | `#para/archive/completed` |
+| 領域筆記 | `#para/area/` + 子分類 | `#para/area/health` |
+| 項目筆記 | `#para/project/` + 子分類 + `#status/` + `#priority/` | `#para/project/work #status/active #priority/high` |
+| 資源筆記 | `#para/resource/` + 子分類 | `#para/resource/tech` |
+| 歸檔筆記 | `#para/archive/` + 子分類 | `#para/archive/completed` |
 
-### Zettelkasten 标签使用场景
+### Zettelkasten 標籤使用場景
 
-| 卡片类型 | 标签组合 |
+| 卡片類型 | 標籤組合 |
 |----------|-----------|
-| 闪念笔记 | `#zettel/type/fleeting #zettel/status/draft` |
-| 文献笔记 | `#zettel/type/literature #zettel/category/[分类]` |
-| 永久笔记 | `#zettel/type/permanent #zettel/status/verified` |
-| 结构笔记 | `#zettel/type/structure` |
+| 閃念筆記 | `#zettel/type/fleeting #zettel/status/draft` |
+| 文獻筆記 | `#zettel/type/literature #zettel/category/[分類]` |
+| 永久筆記 | `#zettel/type/permanent #zettel/status/verified` |
+| 結構筆記 | `#zettel/type/structure` |
 
-### 报告标签使用场景
+### 報告標籤使用場景
 
 ```markdown
-日常记录: #report/daily #journal
-周回顾: #report/weekly #review
-月总结: #report/monthly #reflection
-年回顾: #report/annual #reflection
+日常記錄: #report/daily #journal
+週回顧: #report/weekly #review
+月總結: #report/monthly #reflection
+年回顧: #report/annual #reflection
 ```
 
-### 专用知识库标签使用场景
+### 專用知識庫標籤使用場景
 
 ```markdown
-耳穴知识库: #type/[类型] #topic/[主题] #discipline/[学科] #method/[方法]
-易学知识库: #yixue/[分类]
+耳穴知識庫: #type/[類型] #topic/[主題] #discipline/[學科] #method/[方法]
+易學知識庫: #yixue/[分類]
+網絡技術知識庫: #type/[類型] #topic/[主題] #protocol/[協議] #layer/[分層] #learning/[狀態] #difficulty/[等級]
 ```
 
 ---
 
-## 实施注意事项
+## 實施注意事項
 
-1. **本规范仅建立标签体系标准**，不进行大规模现有标签迁移
-2. **新创建的笔记应直接使用新规范**
-3. **用户可手动选择何时更新现有笔记的标签**
-4. **专用知识库标签纳入主体系后**，保留了其特殊用途和分类逻辑
-5. **中英文标签通过 aliases 实现搜索便利性**，英文标签作为系统查询的主键
+1. **本規範僅建立標籤體系標準**，不進行大規模現有標籤遷移
+2. **新創建的筆記應直接使用新規範**
+3. **用戶可手動選擇何時更新現有筆記的標籤**
+4. **專用知識庫標籤納入主體系後**，保留了其特殊用途和分類邏輯
+5. **中英文標籤通過 aliases 實現搜索便利性**，英文標籤作為系統查詢的主鍵
 
 ---
 
-## 相关文档
+## 相關文檔
 
-- [[tag-quick-reference.md]] - 标签速查表
-- [[示例笔记-领域标签使用.md]] - 领域标签使用示例
-- [[示例笔记-项目标签使用.md]] - 项目标签使用示例
-- [[示例笔记-资源标签使用.md]] - 资源标签使用示例
-- [[示例笔记-Zettelkasten标签使用.md]] - Zettelkasten 标签使用示例
+- [[networking-tag-system.md]] - 網絡技術知識庫標籤系統規範
+- [[tag-validation-checklist.md]] - 標籤驗證清單
+- [[tag-quick-reference.md]] - 標籤速查表
+- [[示例筆記-領域標籤使用.md]] - 領域標籤使用示例
+- [[示例筆記-項目標籤使用.md]] - 項目標籤使用示例
+- [[示例筆記-資源標籤使用.md]] - 資源標籤使用示例
+- [[示例筆記-Zettelkasten標籤使用.md]] - Zettelkasten 標籤使用示例
