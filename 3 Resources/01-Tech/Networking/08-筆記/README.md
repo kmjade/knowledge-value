@@ -6,10 +6,14 @@ aliases:
 para: resource
 tags:
   - #system/note
+  - #system/index
   - #topic/networking
-  - #type/documentation
+  - #type/guide
   - #zettel/type/structure
+  - #difficulty/beginner
+  - #learning/mastered
 created: 2026-02-15
+updated: 2026-02-15
 ---
 
 > [!info] 筆記目錄說明
