@@ -1,5 +1,5 @@
 ---
-language: English
+language: en-US
 ---
 
 # 🧠 AI-value Knowledge Management System
@@ -9,7 +9,7 @@ language: English
 ![Claude Code](https://img.shields.io/badge/Claude-Code-🤖-10B981?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-Apache--2.0-FF6B6B?style=for-the-badge)
 
- [English](README.md) | [[README_zh-CN|简体中文]] | [[README_zh-TW| 繁体中文]]
+ [English](README.md) | [简体中文](README_zh-CN.md) | [繁体中文](README_zh-TW.md)
 
 ## Overview
 
@@ -50,8 +50,7 @@ language: English
 
 ```
 AI-value/
-├── 📁 0 Personals/              # 📥 Personal projects and InBox
-│   └── 📥 00_InBox/           #   Quick capture / Inbox
+├── 📁 0 Inbox/                 # 📥 Quick capture / Inbox
 ├── 📁 1 Projects/               # 🎯 Active projects with deadlines
 ├── 📁 2 Areas/                  # 🌳 Long-term responsibility areas
 ├── 📁 3 Resources/              # 📚 Topics of ongoing interest
@@ -61,9 +60,12 @@ AI-value/
 │   ├── 📌 permanent/          #   Permanent notes
 │   ├── 📚 literature/         #   Literature notes
 │   └── 📁 structure/          #   Structure notes
-├── 📁 _Template/                # 📋 Template library
-├── 📁 _meta/                    # ⚙️ System metadata
-└── 📁 .claude/                  # 🤖 Claude Code configuration
+├── 📁 _templates/              # 📋 Template library
+├── 📁 _meta/                   # ⚙️ System metadata
+├── 📁 _Cache/                  # 💾 Performance cache
+├── 📁 ~                        # 🔄 Temporary files
+├── 📁 .claude/                  # 🤖 Claude Code configuration
+└── 📁 .obsidian/                # ⚙️ Obsidian configuration
 ```
 
 ---
@@ -112,10 +114,8 @@ flowchart LR
 | Step | Action | Command |
 |------|--------|---------|
 | 1️⃣ Capture | Add new information to InBox | Manual add |
-# 整理
+| 2️⃣ Organize | Organize InBox content | `/para-整理收集` |
 | 3️⃣ Review | Review library status | `/para-库概览` |
-| 4️⃣ Archive | Move to completed | Manual move |
-
 ### 2️⃣ Zettelkasten Workflow
 
 ```mermaid
@@ -176,18 +176,18 @@ The vault uses a unified tag system to organize and categorize notes across all 
 | **Priority** | `#priority/high`, `#priority/urgent` | Task importance |
 | **Zettelkasten** | `#zettel/type/permanent`, `#zettel/type/literature` | Note classification |
 | **Specialized KB** | `#type/`, `#topic/`, `#discipline/`, `#method/` | Knowledge base organization |
-| **Yixue** | `#yixue/basics`, `#yixue/hexagram` | I Ching knowledge base |
+| **Yuque** | `#yuque/basics`, `#yuque/hexagram` | I Ching knowledge base |
 
 ### Documentation
 
 For complete tag system specifications and usage examples, see:
 
-- [[tag-system-guide]] - Comprehensive tag system guide
-- [[tag-quick-reference]] - Quick lookup table
-- [[示例笔记-领域标签使用]] - Area tag examples
-- [[示例笔记-项目标签使用]] - Project tag examples
-- [[示例笔记-资源标签使用]] - Resource tag examples
-- [[示例笔记-Zettelkasten标签使用]] - Zettelkasten tag examples
+- [tag-system-guide](tag-system-guide.md) - Comprehensive tag system guide
+- [tag-quick-reference](tag-quick-reference.md) - Quick lookup table
+- [示例笔记-领域标签使用](示例笔记-领域标签使用.md) - Area tag examples
+- [示例笔记-项目标签使用](示例笔记-项目标签使用.md) - Project tag examples
+- [示例笔记-资源标签使用](示例笔记-资源标签使用.md) - Resource tag examples
+- [示例笔记-Zettelkasten标签使用](示例笔记-Zettelkasten标签使用.md) - Zettelkasten tag examples
 
 ---
 
@@ -198,7 +198,7 @@ For complete tag system specifications and usage examples, see:
 | Command | Function | Description |
 |---------|----------|-------------|
 | `/para-库概览` | 📊 Display library overview | View file count and status by category |
-# 整理
+| `/para-整理收集` | 🧹 Organize and collect | Organize InBox content into PARA folders |
 | `/para-刷新缓存` | 🔄 Refresh cache | Update performance cache files |
 
 ### 🔍 Auxiliary Commands
@@ -221,7 +221,7 @@ For complete tag system specifications and usage examples, see:
 /para-库概览
 
 # Organize InBox
-# 整理
+/para-整理收集
 
 # Auto-select skill
 /obsidian
@@ -300,8 +300,8 @@ Contributions are welcome! You can:
 
 1. Open Obsidian
 2. Import AI-value repository
-3. Start capturing ideas in `0 Personals/📥 00_InBox/`
-# 整理
+3. Start capturing ideas in `0 Inbox/`
+4. Use `/para-整理收集` to organize content
 
 </details>
 
@@ -319,7 +319,7 @@ They can be used together!
 <summary>❓ How do I add new notes?</summary>
 
 1. Capture ideas in InBox
-# 整理
+2. Use `/para-整理收集` to organize content
 3. Or manually move to appropriate folder
 
 </details>
