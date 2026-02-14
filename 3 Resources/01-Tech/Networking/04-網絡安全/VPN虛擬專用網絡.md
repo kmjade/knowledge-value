@@ -10,11 +10,17 @@ para: resource
 tags:
   - #para/resource/tech
   - #topic/networking
-  - #topic/network-security
+  - #topic/security
+  - #topic/security/vpn
   - #protocol/vpn
+  - #protocol/ipsec
+  - #layer/network
   - #type/concept
   - #zettel/type/permanent
+  - #difficulty/intermediate
+  - #learning/mastered
 created: 2026-02-15
+updated: 2026-02-15
 ---
 
 > [!summary] VPN虛擬專用網絡概述
