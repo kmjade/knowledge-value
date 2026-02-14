@@ -1,19 +1,23 @@
 ---
-title: HTTP协议
+title: HTTP協議
 aliases:
   - HyperText Transfer Protocol
   - HTTPS
-  - Web协议
+  - Web協議
 para: resource
 tags:
   - #para/resource/tech
   - #topic/networking
+  - #topic/protocols
   - #protocol/http
   - #protocol/https
   - #layer/application
   - #type/concept
   - #zettel/type/permanent
+  - #difficulty/intermediate
+  - #learning/mastered
 created: 2026-01-21
+updated: 2026-02-15
 ---
 
 > [!summary] HTTP协议概述

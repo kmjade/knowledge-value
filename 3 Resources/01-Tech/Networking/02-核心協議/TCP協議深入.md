@@ -1,18 +1,22 @@
 ---
-title: TCP协议深入
+title: TCP協議深入
 aliases:
   - Transmission Control Protocol
   - 三次握手
-  - 四次挥手
+  - 四次揮手
 para: resource
 tags:
   - #para/resource/tech
   - #topic/networking
+  - #topic/protocols
   - #protocol/tcp
   - #layer/transport
   - #type/concept
   - #zettel/type/permanent
+  - #difficulty/intermediate
+  - #learning/mastered
 created: 2026-01-21
+updated: 2026-02-15
 ---
 
 > [!summary] TCP协议概述
