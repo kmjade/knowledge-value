@@ -8,31 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "890dac90bd5dcabb",
+            "id": "ad6252237b466b03",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 Projects/03-Personal/Journal/2026/02-February/2026-02-08.md",
+                "file": "_templates/模板使用指南.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-02-08"
+              "title": "模板使用指南"
             }
           },
           {
-            "id": "fa066a9f7b6985ff",
+            "id": "d27446224f840a76",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3 Resources/04-Interests/魔獸世界/魔獸世界地心之战12.0版本機制變化深度分析.md",
+                "file": "3 Resources/01-Tech/Networking/重構報告.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "魔獸世界地心之战12.0版本機制變化深度分析"
+              "title": "重構報告"
             }
           }
         ]
@@ -192,7 +192,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 376.5
+    "width": 376.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -207,18 +208,44 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "890dac90bd5dcabb",
+  "active": "ad6252237b466b03",
   "lastOpenFiles": [
-    "1 Projects/03-Personal/Journal/2026/02-February/2026-02-09.md",
-    "1 Projects/03-Personal/Journal/2026/02-February/2026-02-08.md",
-    "1 Projects/03-Personal/Journal/Journal.md",
-    "1 Projects/03-Personal/Core/Core.md",
-    "3 Resources/04-Interests/魔獸世界/遊戲機制/戰鬥系統/英雄天賦系統分析-地心之战12.0.md",
-    "3 Resources/04-Interests/魔獸世界/遊戲機制/戰鬥系統/地心之战-系統變化總結-12.0版本.md",
-    "3 Resources/04-Interests/魔獸世界/遊戲機制/職業體系/地心之战-職業專精重構分析.md",
-    "3 Resources/04-Interests/魔獸世界/遊戲機制/職業體系/術士-機制分析-地心之战12.0.md",
-    "3 Resources/04-Interests/魔獸世界/魔獸世界地心之战12.0版本機制變化深度分析.md",
-    "3 Resources/04-Interests/魔兽世界/魔兽世界知识库建设方案.md",
+    "3 Resources/02-Learning/计算机网络/07-模板/问题排查模板.md",
+    "3 Resources/02-Learning/计算机网络/07-模板/协议学习模板.md",
+    "3 Resources/02-Learning/计算机网络/06-实践工具/网络诊断工具.md",
+    "3 Resources/02-Learning/计算机网络/05-网络管理/网络监控.md",
+    "3 Resources/02-Learning/计算机网络/04-网络安全/网络安全基础.md",
+    "3 Resources/02-Learning/计算机网络/03-网络架构/局域网(LAN).md",
+    "3 Resources/02-Learning/计算机网络/02-核心协议/TCP协议深入.md",
+    "3 Resources/02-Learning/计算机网络/02-核心协议/HTTP协议.md",
+    "3 Resources/02-Learning/计算机网络/01-基础知识/网络拓扑结构.md",
+    "3 Resources/02-Learning/计算机网络/01-基础知识/TCP IP协议栈.md",
+    "3 Resources/02-Learning/计算机网络/00-MOCs/MOC-总览.md",
+    "3 Resources/02-Learning/计算机网络/01-基础知识/IP地址与子网划分.md",
+    "3 Resources/02-Learning/计算机网络/01-基础知识/OSI七层模型.md",
+    "3 Resources/02-Learning/计算机网络/00-MOCs/MOC-学习路径.md",
+    "3 Resources/02-Learning/计算机网络/README.md",
+    "3 Resources/02-Learning/计算机网络/07-模板",
+    "3 Resources/02-Learning/计算机网络/06-实践工具",
+    "3 Resources/02-Learning/计算机网络/05-网络管理",
+    "3 Resources/02-Learning/计算机网络/04-网络安全",
+    "3 Resources/02-Learning/计算机网络/03-网络架构",
+    "3 Resources/02-Learning/计算机网络/02-核心协议",
+    "3 Resources/02-Learning/计算机网络/01-基础知识",
+    "3 Resources/02-Learning/计算机网络/00-MOCs",
+    "3 Resources/02-Learning/计算机网络",
+    "1 Projects/03-Personal/“耳一生”健康养生馆/🎧 耳夹养生馆.md",
+    "1 Projects/03-Personal/“耳一生”健康养生馆/“耳一生”健康养生馆.md",
+    "1 Projects/03-Personal/“耳一生”健康养生馆",
+    "_templates/模板索引_完整版.md",
+    "_templates/模板使用指南.md",
+    "_templates/networking-tag-system.md",
+    "_templates/tag-system-guide.md",
+    "_templates/tag-validation-checklist.md",
+    "_templates/tag-quick-reference.md",
+    "3 Resources/01-Tech/Networking/Networking.md",
+    "3 Resources/01-Tech/Networking/08-筆記/資料收集.md",
+    "3 Resources/01-Tech/Networking/重構報告.md",
     "4 Archives/3 SOCIAL SCIENCES/33 Economics/336 Finance/336.7 Money/img/Pasted image 20240727092547.png",
     "4 Archives/3 SOCIAL SCIENCES/33 Economics/336 Finance/336.7 Money/img/Pasted image 20240727092515.png",
     "4 Archives/3 SOCIAL SCIENCES/33 Economics/336 Finance/336.7 Money/img/Pasted image 20240727092449.png",
@@ -227,32 +254,6 @@
     "4 Archives/3 SOCIAL SCIENCES/33 Economics/336 Finance/336.7 Money/img/Pasted image 20240727091637.png",
     "4 Archives/3 SOCIAL SCIENCES/33 Economics/336 Finance/336.7 Money/img/Pasted image 20240727091615.png",
     "4 Archives/3 SOCIAL SCIENCES/33 Economics/336 Finance/336.7 Money/img/Pasted image 20240727091541.png",
-    "4 Archives/3 SOCIAL SCIENCES/33 Economics/336 Finance/336.7 Money/img/Pasted image 20240727091222.png",
-    "4 Archives/3 SOCIAL SCIENCES/33 Economics/336 Finance/336.7 Money/img",
-    "4 Archives/3 SOCIAL SCIENCES/33 Economics/336 Finance/336.7 Money/零基础学MQL：基于EA的自动化交易编程.pdf",
-    "4 Archives/3 SOCIAL SCIENCES/33 Economics/336 Finance/336.7 Money/金融风险管理师手册(中文第二版).pdf",
-    "4 Archives/3 SOCIAL SCIENCES/33 Economics/336 Finance/336.7 Money/量化投资技术分析实战：解码股票与期货交易模型_nodrm.rtf",
-    "4 Archives/3 SOCIAL SCIENCES/33 Economics/336 Finance/336.7 Money/通向财务自由之路 珍藏版.pdf",
-    "4 Archives/3 SOCIAL SCIENCES/33 Economics/336 Finance/336.7 Money/超级交易员(高清).pdf",
-    "4 Archives/3 SOCIAL SCIENCES/33 Economics/336 Finance/336.7 Money/订单策略。多目标 EA 交易.md",
-    "4 Archives/3 SOCIAL SCIENCES/33 Economics/336 Finance/336.7 Money/索罗斯都要用的外汇交易术 3 外汇自动化交易必备工具书(高清).pdf",
-    "4 Archives/3 SOCIAL SCIENCES/33 Economics/336 Finance/336.7 Money/索罗斯都要用的外汇交易术 2.pdf",
-    "4 Archives/3 SOCIAL SCIENCES/33 Economics/336 Finance/336.7 Money/索罗斯都要用的外汇交易术  1(高清).pdf",
-    "4 Archives/3 SOCIAL SCIENCES/33 Economics/336 Finance/336.7 Money/海龟交易A4.pdf",
-    "4 Archives/3 SOCIAL SCIENCES/33 Economics/336 Finance/336.7 Money/交易理念.md",
-    "4 Archives/3 SOCIAL SCIENCES/33 Economics/336 Finance/336.7 Money/MetaQuotes.md",
-    "4 Archives/3 SOCIAL SCIENCES/33 Economics/336 Finance/336.7 Money/336.7 货币.md",
-    "4 Archives/3 SOCIAL SCIENCES/33 Economics/336 Finance/336.7 Money/336.7 Money.md",
-    "4 Archives/3 SOCIAL SCIENCES/33 Economics/336 Finance/336 金融.md",
-    "4 Archives/3 SOCIAL SCIENCES/33 Economics/336 Finance/336 Finance.md",
-    "4 Archives/3 SOCIAL SCIENCES/33 Economics/33 经济.md",
-    "4 Archives/3 SOCIAL SCIENCES/33 Economics/33 Economics.md",
-    "4 Archives/3 SOCIAL SCIENCES/3 社会科学.md",
-    "4 Archives/3 SOCIAL SCIENCES/3 SOCIAL SCIENCES.md",
-    "3 Resources/04-Interests/魔獸世界/遊戲機制/職業體系/聖騎士-機制分析-人類.md",
-    "3 Resources/04-Interests/魔獸世界/structures/MOC-魔獸世界知識庫.md",
-    "3 Resources/04-Interests/魔獸世界/遊戲機制/職業體系/潛行者-機制分析-暗夜精靈.md",
-    "5 Zettels/📁 structures/黄帝内经/MOC-黄帝内经知识库.md",
-    "3 Resources/04-Interests/魔獸世界/structures/魔獸世界-標籤體系.md"
+    "4 Archives/3 SOCIAL SCIENCES/33 Economics/336 Finance/336.7 Money/img/Pasted image 20240727091222.png"
   ]
 }
