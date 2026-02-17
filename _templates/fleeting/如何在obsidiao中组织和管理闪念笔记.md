@@ -30,14 +30,6 @@ flash/
 └─ Templates/
 ```
 
-```
-flash/
-├─ flash‑notes/
-├─ ideas/
-├─ archives/
-└─ Templates/
-```
-
 # 檔案
 
 ---
@@ -80,21 +72,6 @@ uuid: <%= tp.uuid() %>
 来源：<%- tp.prompt("来源（会议、书本、灵感）") %>
 ```
 
-```
----
-uuid: <% tp.uuid() %>
-created: <% tp.date.now("YYYY-MM-DD HH:mm") %>
-tags: [[flash]]
-source: [[source-%TP_TAGS]]
-uuid: <%= tp.uuid() %>
----
-## <%- tp.file.title %>（闪念标题）
-
-# 記錄
-
-来源：<%- tp.prompt("来源（会议、书本、灵感）") %>
-```
-
 > 如何放到 Templater  
 # 檔案
 > 2️⃣ 在 Settings → Templater → Template folder location 设为 `flash/Templates`。
@@ -121,15 +98,6 @@ Ctrl+Shift+F
 ```
 
 ```
-Ctrl+Shift+F
-```
-
-```
-# 優化
-来源：会议
-```
-
-```
 # 優化
 来源：会议
 ```
@@ -137,15 +105,6 @@ Ctrl+Shift+F
 > 自动生成的 YAML：
 
 yaml
-
-```
----
-uuid: 4b2f7c3e-2d5a-4f4d-9e9b-1a5d2f7c3e8b
-created: 2025-08-23 10:14
-tags: [[flash]]
-source: [[source-meeting]]
----
-```
 
 ```
 ---
@@ -174,14 +133,6 @@ source: [[source-meeting]]
 # 查詢
 
 markdown
-
-````
-```dataview
-table created, title, source
-from "flash/flash‑notes"
-where contains(file.tags, "flash")
-sort file.mtime desc
-````
 
 ````
 ```dataview

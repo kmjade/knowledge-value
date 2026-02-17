@@ -361,7 +361,7 @@ Time format: HH:mm:ss
 
 ### 详细索引
 
-- [[_templates/para/README]] - PARA 模板详细索引
+- [[PARA 模板库]] - PARA 模板详细索引
 # 指南
 
 # 指南

@@ -19,8 +19,6 @@ created: 2026-01-30
 # 檔案
 # 數據
 # 系統
-# 系統
-# 知識
 # 知識
 │   ├── MOCs/
 │   │   └── MOCs.md
@@ -41,8 +39,6 @@ created: 2026-01-30
 
 ```dataview
 TABLE WITHOUT ID
-# 目錄
-# 檔案
 WHERE contains(file.path, this.file.folder)
   AND file.name != this.file.name
   AND !contains(file.name, "meta")
@@ -59,7 +55,6 @@ SORT file.folder
 # 知識庫
 
 ```dataview
-# 檔案
 WHERE contains(file.path, this.file.folder)
   AND file.name != this.file.name
 GROUP BY "总计"

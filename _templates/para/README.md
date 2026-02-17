@@ -1,209 +1,258 @@
 ---
-# 系統
-para: template
+title: PARA 方法原子化指南
+type: atomic-index
+created: 2026-02-15
 tags:
-  - 模板
-  - 索引
-  - PARA
-created: 2026-01-28
+  - #para
+  - #productivity
+  - #atomic-task
+  - #guide
 ---
 
-# 系統
-# 系統
+# PARA 方法原子化指南
 
----
+> 本指南將 PARA 方法拆分為原子化、可執行的最小單元，便於理解、學習和實施。
 
-# 檔案
+## 📚 指南概覽
 
-### 核心模板 (Core Templates - 9 个)
+### 原子化原則
 
-#### 1. 问题卡 (Problem Card)
-- [[_templates/general/问题卡]] - 简体中文
-- [[_templates/general/問題卡_繁體]] - 繁体中文
-- [[_templates/general/Problem Card]] - English
+**最小可執行單元**：
+- ✅ **獨立性**：可單獨完成，不依賴其他任務
+- ✅ **明確性**：有清晰的輸入和輸出
+- ✅ **可測試性**：有明確的完成標準
+- ✅ **不可分割性**：無法再拆分為更小單元
 
-# 系統
-
----
-
-#### 2. 想法捕获 (Idea Capture)
-- [[_templates/general/想法捕获]] - 简体中文
-- [[_templates/general/想法捕獲_繁體]] - 繁体中文
-- [[_templates/general/Idea Capture]] - English
-
-**用途**：快速捕获突发想法和灵感
+### 原子化策略
+1. **按功能分層**：概念、流程、工具、模板分離
+2. **按執行順序**：從收集到執行的完整鏈條
+3. **按目標對象**：Projects、Areas、Resources、Archives 分別處理
+4. **按使用場景**：日常、週度、月度分別定義
 
 ---
 
-# 資源
-- [[_templates/general/資源收集]] - 简体中文
-- [[_templates/general/資源收集_繁體]] - 繁体中文
-- [[_templates/general/Resource Collection]] - English
+## 🗂️ 原子任務架構
 
-# 資源
+### 01 核心概念（Foundation）
+**目標**：理解 PARA 的核心概念和決策流程
 
----
+| 原子任務 | 說明 | 預估時間 | 難度 |
+|---------|------|----------|------|
+| [[01-Concepts/PARA-Definition.md]] | 理解 PARA 定義 | 15 分鐘 | 入門 |
+| [[01-Concepts/Decision-Flow.md]] | 執行 PARA 決策流程 | 5-10 分鐘 | 入門 |
+| [[01-Concepts/Question-1-Action.md]] | 問題 1：需要行動嗎？ | 3-5 分鐘 | 入門 |
+| [[01-Concepts/Question-2-Areas.md]] | 問題 2：影響生活領域嗎？ | 3-5 分鐘 | 入門 |
+| [[01-Concepts/Question-3-Resources.md]] | 問題 3：有興趣學習嗎？ | 3-5 分鐘 | 入門 |
 
-### PARA 基础模板 (Basic PARA Templates - 12 个)
-
-# 專案
-- [[專案.md]] - 简体中文
-- [[4 Archives/templates/20260128_para_模板清理/Project_繁體]] - 繁体中文
-- [[_templates/para/📁 quick/Project]] - English
-
-# 專案
+**完成標準**：能準確執行三問測試並正確分類資訊
 
 ---
 
-#### 5. 领域模板 (Area)
-- [[4 Archives/templates/20260128_para_模板清理/领域]] - 简体中文
-- [[4 Archives/templates/20260128_para_模板清理/领域_繁體]] - 繁体中文
-- [[_templates/para/📁 quick/Area]] - English
+### 02 收集系統（Capture System）
+**目標**：建立高效的收集和分類機制
 
-# 管理
+| 原子任務 | 說明 | 預估時間 | 難度 |
+|---------|------|----------|------|
+| [[02-Capture/Setup-Collection-Points.md]] | 建立收集點 | 20-30 分鐘 | 入門 |
+| [[02-Capture/Setup-Quick-Classification.md]] | 設置快速分類機制 | 30-45 分鐘 | 中級 |
+| [[02-Capture/Daily-Inbox-Processing.md]] | 每日收件箱處理 | 15-30 分鐘 | 入門 |
+| [[02-Capture/Decision-Flow-Application.md]] | 決策流程應用 | 10-15 分鐘 | 入門 |
 
----
-
-# 資源
-- [[資源.md]] - 简体中文
-- [[4 Archives/templates/20260128_para_模板清理/Resource_繁體]] - 繁体中文
-- [[_templates/para/📁 quick/Resource]] - English
-
-# 整理
+**完成標準**：收件箱每日清空，所有資訊正確分類
 
 ---
 
-#### 7. 归档模板 (Archive)
-- [[归档.md]] - 简体中文
-- [[4 Archives/templates/20260128_para_模板清理/Archive_繁體]] - 繁体中文
-- [[_templates/para/📁 quick/Archive]] - English
+### 03 組織系統（Organize System）
+**目標**：建立標準化的資料夾結構和模板
 
-# 專案
+| 原子任務 | 說明 | 預估時間 | 難度 |
+|---------|------|----------|------|
+| [[03-Organize/Create-Folder-Structure.md]] | 建立資料夾結構 | 20-30 分鐘 | 入門 |
+| [[03-Organize/Naming-Conventions.md]] | 命名規則設置 | 15-20 分鐘 | 入門 |
+| [[03-Organize/Create-Projects-Template.md]] | 建立 Projects 模板 | 30-40 分鐘 | 中級 |
+| [[03-Organize/Create-Areas-Template.md]] | 建立 Areas 模板 | 20-30 分鐘 | 中級 |
+| [[03-Organize/Create-Resources-Template.md]] | 建立 Resources 模板 | 20-30 分鐘 | 中級 |
+| [[03-Organize/Create-Archives-Template.md]] | 建立 Archives 模板 | 15-20 分鐘 | 入門 |
 
----
-
-## 📊 模板统计
-
-### 按语言统计
-
-| 模板类型 | 简体中文 | 繁体中文 | English | 小计 |
-|---------|---------|---------|---------|------|
-| 问题卡 | ✅ | ✅ | ✅ | 3 |
-| 想法捕获 | ✅ | ✅ | ✅ | 3 |
-# 資源
-| Project | ✅ | ✅ | ✅ | 3 |
-| Area | ✅ | ✅ | ✅ | 3 |
-| Resource | ✅ | ✅ | ✅ | 3 |
-| Archive | ✅ | ✅ | ✅ | 3 |
-| **总计** | **7** | **7** | **6** | **20** |
-
-# 分類
-
-| 复杂度 | 模板 | 说明 |
-|--------|------|------|
-| ⭐ | Archive, 归档 | 简单归档模板 |
-# 專案
-| ⭐⭐⭐ | Idea Capture, 想法捕获, Idea Capture | 中等复杂度模板 |
-| ⭐⭐⭐⭐ | Problem Card, 问题卡, Problem Card | 高复杂度模板（9 个部分）|
-# 資源
+**完成標準**：完整的 PARA 結構和標準化模板已建立
 
 ---
 
-# 指南
+### 04 檢視系統（Review System）
+**目標**：建立定期檢視和調整機制
 
-### 选择合适的模板
+| 原子任務 | 說明 | 預估時間 | 難度 |
+|---------|------|----------|------|
+| [[04-Review/Weekly-Review.md]] | 每週檢視 | 30-40 分鐘 | 中級 |
+| [[04-Review/Projects-Weekly-Review.md]] | Projects 週度檢視 | 20-30 分鐘 | 中級 |
+| [[04-Review/Areas-Weekly-Review.md]] | Areas 週度檢視 | 15-20 分鐘 | 入門 |
+| [[04-Review/Resources-Weekly-Review.md]] | Resources 週度檢視 | 10-15 分鐘 | 入門 |
+| [[04-Review/Monthly-Review.md]] | 月度檢視 | 1-2 小時 | 中級 |
+| [[04-Review/Quarterly-Review.md]] | 季度檢視 | 3-4 小時 | 高級 |
 
-```
-遇到问题？
-├─ 是 → 使用问题卡
-│   简体：问题卡.md
-│   繁体：問題卡_繁體.md
-│   English：Problem Card.md
-│
-└─ 否
-   有明确目标和截止日期？
-   ├─ 是 → 使用 Project
-# 專案
-   │   繁体：Project_繁體.md
-   │   English：Project.md
-   │
-   └─ 否
-      是持续的责任？
-      ├─ 是 → 使用 Area
-      │   简体：领域.md
-      │   繁体：领域_繁體.md
-      │   English：Area.md
-      │
-      └─ 否
-# 資源
-         ├─ 是 → 使用 Resource Collection
-# 資源
-         │   繁体：資源收集_繁體.md
-         │   English：Resource Collection.md
-         │
-         └─ 否 → 使用 Resource
-# 資源
-            繁体：Resource_繁體.md
-            English：Resource.md
-```
+**完成標準**：定期檢視機制已建立並持續執行
 
 ---
 
-# 資源
+### 05 執行系統（Do System）
+**目標**：優化時間管理和執行效率
 
-# 指南
+| 原子任務 | 說明 | 預估時間 | 難度 |
+|---------|------|----------|------|
+| [[05-Do/Focus-Time-Scheduling.md]] | 專注時間安排 | 10-15 分鐘 | 中級 |
+| [[05-Do/Deep-Work-Session.md]] | 深度工作會話 | 2-4 小時 | 中級 |
+| [[05-Do/Maintenance-Time.md]] | 維護時間安排 | 10-15 分鐘 | 入門 |
+| [[05-Do/Time-Blocking.md]] | 時間區塊管理 | 15-20 分鐘 | 中級 |
+| [[05-Do/Priority-Management.md]] | 優先級管理 | 10-15 分鐘 | 入門 |
+| [[05-Do/Energy-Management.md]] | 能量管理 | 10-15 分鐘 | 中級 |
 
-# 指南
-# 工作流
-# 工作流
-# 指南
-
-### 外部参考
-
-- [The PARA Method](https://fortelabs.com/blog/para/)
-- [Building a Second Brain](https://www.buildingasecondbrain.com/)
-
----
-
-## 💡 最佳实践
-
-### 模板使用技巧
-
-# 創建
-2. **保持一致** - 使用统一的模板保持格式一致
-# 優化
-# 版本
-
-### 模板维护建议
-
-- **定期回顾** - 每月回顾模板使用情况
-# 記錄
-# 優化
-# 版本
+**完成標準**：有效管理時間和精力，提高執行效率
 
 ---
 
-## 🎉 总结
+### 06 工具整合（Tools Integration）
+**目標**：選擇和配置適合的工具支持 PARA 系統
 
-# 系統
+| 原子任務 | 說明 | 預估時間 | 難度 |
+|---------|------|----------|------|
+| [[06-Tools/Digital-Tool-Selection.md]] | 數位工具選擇 | 1 小時 | 中級 |
+| [[06-Tools/Tool-Integration.md]] | 工具整合 | 1-2 小時 | 中級 |
+| [[06-Tools/Automation-Setup.md]] | 自動化設置 | 1-2 小時 | 高級 |
+| [[06-Tools/Physical-Tools.md]] | 實體工具設置 | 20-30 分鐘 | 入門 |
 
-# 檔案
-✅ **3 种语言支持**（简体中文、繁体中文、English）
-✅ **7 种模板类型**
-✅ **统一的模板索引**
-✅ **统一的结构和格式**
-# 檔案
-# 檔案
-# 檔案
-
-### 语言覆盖
-
-- **简体中文用户** → 7 个模板完全支持
-- **繁体中文用户** → 7 个模板完全支持
-- **English 用户** → 6 个模板完全支持
+**完成標準**：工具系統已配置並有效支持 PARA 運作
 
 ---
 
-# 創建
-# 更新
-**状态**：[x] 完成
+## 🚀 快速開始路徑
+
+### 入門階段（第 1-2 週）
+
+**目標**：理解概念，建立基本系統
+
+**步驟**：
+1. **Day 1-2**：學習核心概念
+   - [[01-Concepts/PARA-Definition.md]]
+   - [[01-Concepts/Decision-Flow.md]]
+
+2. **Day 3-4**：建立收集系統
+   - [[02-Capture/Setup-Collection-Points.md]]
+   - [[02-Capture/Setup-Quick-Classification.md]]
+
+3. **Day 5-7**：建立組織系統
+   - [[03-Organize/Create-Folder-Structure.md]]
+   - [[03-Organize/Create-Projects-Template.md]]
+   - [[03-Organize/Create-Areas-Template.md]]
+
+---
+
+### 進階階段（第 3-4 週）
+
+**目標**：熟練操作，優化流程
+
+**步驟**：
+1. **Week 3**：建立檢視系統
+   - [[04-Review/Weekly-Review.md]]
+   - [[04-Review/Projects-Weekly-Review.md]]
+   - [[04-Review/Areas-Weekly-Review.md]]
+
+2. **Week 4**：建立執行系統
+   - [[05-Do/Focus-Time-Scheduling.md]]
+   - [[05-Do/Time-Blocking.md]]
+   - [[05-Do/Priority-Management.md]]
+
+---
+
+### 專精階段（第 5-8 週）
+
+**目標**：個人化定制，持續改進
+
+**步驟**：
+1. **Week 5-6**：工具整合和自動化
+   - [[06-Tools/Digital-Tool-Selection.md]]
+   - [[06-Tools/Tool-Integration.md]]
+   - [[06-Tools/Automation-Setup.md]]
+
+2. **Week 7-8**：深度檢視和優化
+   - [[04-Review/Monthly-Review.md]]
+   - [[04-Review/Quarterly-Review.md]]
+   - 持續改進系統
+
+---
+
+## 📊 實施時間表
+
+| 階段 | 任務數 | 預估時間 | 週數 |
+|--------|--------|----------|------|
+| 階段 1：核心概念 | 5 個任務 | 1-2 天 | 0.5 週 |
+| 階段 2：收集系統 | 4 個任務 | 2 天 | 0.5 週 |
+| 階段 3：組織系統 | 6 個任務 | 3 天 | 1 週 |
+| 階段 4：檢視系統 | 6 個任務 | 4-5 天 | 1 週 |
+| 階段 5：執行系統 | 6 個任務 | 2-3 天 | 0.5 週 |
+| 階段 6：工具整合 | 4 個任務 | 2-3 天 | 0.5 週 |
+| **總計** | **31 個任務** | **14-15 天** | **4 週** |
+
+---
+
+## ✅ 驗證方法
+
+### 原子任務完整性檢查
+- ✅ 每個原子任務都有明確標題
+- ✅ 每個原子任務都有具體目標
+- ✅ 每個原子任務都有預估時間
+- ✅ 每個原子任務都有難度等級
+- ✅ 每個原子任務都有完成標準
+
+### 原子任務獨立性檢查
+- ✅ 原子任務不依賴其他任務（除非明確說明）
+- ✅ 原子任務可單獨完成
+- ✅ 原子任務輸入輸出明確
+
+### 流程連貫性檢查
+- ✅ 概念→收集→組織→檢視→執行流程完整
+- ✅ 每個階段都有原子任務支持
+- ✅ 任務間有清晰的路徑指引
+
+---
+
+## 🔗 相關資源
+
+### 核心 PARA 文件
+- [[PARA 方法概述]] - PARA 方法概述
+- [[PARA-實踐流程]] - 實踐流程
+- [[PARA整理報告]] - 當前 PARA 系統分析
+
+### 模板文件
+- [[_templates/para/📁 quick/Project.md]] - Project 快速模板
+- [[_templates/para/📁 quick/Area.md]] - Area 快速模板
+- [[_templates/para/📁 quick/Resource.md]] - Resource 快速模板
+- [[_templates/para/📁 quick/Archive.md]] - Archive 快速模板
+
+---
+
+## 📈 成功標準
+
+### 結構完整性
+- ✅ 所有核心概念有原子任務
+- ✅ 所有四步工作流有原子任務
+- ✅ 所有工具整合有原子任務
+- ✅ 概念、流程、工具層次分明
+
+### 可執行性
+- ✅ 每個原子任務可在 1 小時內完成
+- ✅ 每個原子任務都有明確的完成標準
+- ✅ 每個原子任務都提供必要的指引
+- ✅ 原子任務之間有清晰的依賴關係
+
+### 導航便利性
+- ✅ 有清晰的文件組織結構
+- ✅ 有完整的使用指南
+- ✅ 有快速開始路徑
+- ✅ 有問題解答資源
+
+---
+
+*本指南持續更新中，如有建議請反饋。*
+
+**最後更新**：2026-02-15
+**版本**：v1.0.0

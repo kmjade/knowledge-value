@@ -74,12 +74,12 @@ AI-value/
 
 ## PARA 方法论
 
-| 分类 | 文件夹 | 说明 | 示例 |
-|------|--------|------|------|
-| 🔴 **Projects** | `1 Projects/` | 有截止日期的活跃项目 | "2026年度计划", "产品发布", "发布新网站", "完成报税" |
-| 🟢 **Areas** | `2 Areas/` | 长期责任领域 | "健康管理", "职业发展" |
-| 🔵 **Resources** | `3 Resources/` | 持续感兴趣的主题 | "Obsidian技巧", "AI资讯", "生产力技巧", "烹饪食谱", "市场调研" |
-| ⚪ **Archives** | `4 Archives/` | 已完成或非活跃内容 | "2025年度总结", 旧项目, 过时的资源 |
+| 分类               | 文件夹            | 说明         | 示例                                            |
+| ---------------- | -------------- | ---------- | --------------------------------------------- |
+| 🔴 **Projects**  | `1 Projects/`  | 有截止日期的活跃项目 | "2026年度计划", "产品发布", "发布新网站", "完成报税"           |
+| 🟢 **Areas**     | `2 Areas/`     | 长期责任领域     | "健康管理", "职业发展"                                |
+| 🔵 **Resources** | `3 Resources/` | 持续感兴趣的主题   | "Obsidian技巧", "AI资讯", "生产力技巧", "烹饪食谱", "市场调研" |
+| ⚪ **Archives**   | `4 Archives/`  | 已完成或非活跃内容  | "2025年度总结", 旧项目, 过时的资源                        |
 
 ### 分类决策树
 
@@ -269,23 +269,23 @@ flowchart LR
 
 ### 核心文档
 
-| 文档 | 说明 | 优先级 |
-|------|------|--------|
-| [📘 CLAUDE.md](CLAUDE.md) | Claude Code 核心规则 | ⭐⭐⭐ |
-| [[tag-system-guide]] | 标签系统完整指南 | ⭐⭐⭐ |
-| [[PARA 工作流]](.claude/skills/para-methodology/SKILL.md) | 完整 PARA 指南 | ⭐⭐⭐ |
-| [📎 Obsidian 语法](.claude/skills/obsidian-syntax/SKILL.md) | 语法参考 | ⭐⭐⭐ |
+| 文档                                                        | 说明               | 优先级 |
+| --------------------------------------------------------- | ---------------- | --- |
+| [📘 CLAUDE.md](CLAUDE.md)                                 | Claude Code 核心规则 | ⭐⭐⭐ |
+| [[tag-system-guide]]                                      | 标签系统完整指南         | ⭐⭐⭐ |
+| [PARA 工作流](.claude/skills/para-methodology/SKILL.md)      | 完整 PARA 指南       | ⭐⭐⭐ |
+| [📎 Obsidian 语法](.claude/skills/obsidian-syntax/SKILL.md) | 语法参考             | ⭐⭐⭐ |
 
 ### Skills 文档
 
-| Skill | 说明 |
-|-------|------|
-| [para-methodology](.claude/skills/para-methodology/SKILL.md) | PARA 结构、工作流、元数据 |
-| [obsidian-syntax](.claude/skills/obsidian-syntax/SKILL.md) | Wikilinks、提示块、属性 |
-| [repo-context](.claude/skills/repo-context/SKILL.md) | 仓库结构、路径、Git |
-| [markdown-standards](.claude/skills/markdown-standards/SKILL.md) | 文件命名、多语言支持 |
-| [claude-commands](.claude/skills/claude-commands/SKILL.md) | 命令使用和工作流 |
-| [zettelkasten-workflow](.claude/skills/zettelkasten-workflow/SKILL.md) | 原子笔记、连接、唯一 ID |
+| Skill                                                                  | 说明               |
+| ---------------------------------------------------------------------- | ---------------- |
+| [para-methodology](.claude/skills/para-methodology/SKILL.md)           | PARA 结构、工作流、元数据  |
+| [obsidian-syntax](.claude/skills/obsidian-syntax/SKILL.md)             | Wikilinks、提示块、属性 |
+| [repo-context](.claude/skills/repo-context/SKILL.md)                   | 仓库结构、路径、Git      |
+| [markdown-standards](.claude/skills/markdown-standards/SKILL.md)       | 文件命名、多语言支持       |
+| [claude-commands](.claude/skills/claude-commands/SKILL.md)             | 命令使用和工作流         |
+| [zettelkasten-workflow](.claude/skills/zettelkasten-workflow/SKILL.md) | 原子笔记、连接、唯一 ID    |
 
 ---
 
