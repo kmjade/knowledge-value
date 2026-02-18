@@ -39,8 +39,8 @@
     ]
   },
   "permissionMode": "yolo",
-  "model": "haiku",
-  "thinkingBudget": "off",
+  "model": "opus",
+  "thinkingBudget": "medium",
   "enableAutoTitleGeneration": true,
   "titleGenerationModel": "",
   "excludedTags": [],
@@ -66,8 +66,8 @@
     "windows": ""
   },
   "loadUserClaudeSettings": true,
-  "activeConversationId": "conv-1771325086076-sfs963piz",
-  "lastClaudeModel": "haiku",
+  "activeConversationId": "conv-1771337310548-s2i70lfee",
+  "lastClaudeModel": "opus",
   "lastCustomModel": "",
   "lastEnvHash": ""
 }

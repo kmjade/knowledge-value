@@ -238,7 +238,7 @@ source: https://www.yahboom.com/study/MicroROS-Board
 - [[ESP32开发基础]] - 嵌入式开发
 - [[ROS2基础概念]] - Robot Operating System 2
 - [[机器人控制笔记]] - 运动学与控制理论
-- [[MicroROS机器人控制板]] - MicroROS开发平台
+- [[3 Resources/01-Tech/MicroROS机器人控制板]] - MicroROS开发平台
 
 ### 相关笔记
 - [[MicroROS-Board学习项目]] - 学习项目规划

@@ -1,7 +1,7 @@
 {
   "mySetting": "default",
   "openAIapiKey": "",
-  "anthropicApiKey": "",
+  "anthropicApiKey": "0a0e2dc789c64a81b7fd9f5fd5e3aeca.Q5gFUqBhywcTnjkt",
   "modelName": "claude-opus-4-20250514",
   "imageModelName": "dall-e-3",
   "maxTokens": 500,

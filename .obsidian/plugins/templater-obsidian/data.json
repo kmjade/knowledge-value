@@ -11,7 +11,7 @@
   "auto_jump_to_cursor": false,
   "enable_system_commands": true,
   "shell_path": "",
-  "user_scripts_folder": "_templates/scripts",
+  "user_scripts_folder": "_meta/scripts",
   "enable_folder_templates": true,
   "folder_templates": [
     {

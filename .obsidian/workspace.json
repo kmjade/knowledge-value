@@ -13,43 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3 Resources/04-Interests/魔獸世界/地心之戰/地心之戰12.0建設方案.md",
+                "file": "3 Resources/04-Interests/魔獸世界/魔獸世界-MOC.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "地心之戰12.0建設方案"
+              "title": "魔獸世界-MOC"
             }
           },
           {
-            "id": "5151b60936be8a8c",
+            "id": "c93d146c8cbc98f6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3 Resources/04-Interests/魔獸世界/地心之戰/地心之戰12.0工作清單.md",
+                "file": "4 Archives/6 APPLIED SCIENCES. MEDICINE. TECHNOLOGY/62 Engineering/UGV01-X3/3. Samples示例/3.2. 图像多媒体示例.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "地心之戰12.0工作清單"
-            }
-          },
-          {
-            "id": "871af61aa5cb3730",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3 Resources/04-Interests/魔獸世界/結構文件/MOC-地心之戰.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "MOC-地心之戰"
+              "title": "3.2. 图像多媒体示例"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -106,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 320.5
+    "width": 445.5
   },
   "right": {
     "id": "19cea027a20285b0",
@@ -221,52 +208,53 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "ad6252237b466b03",
+  "active": "de06f48ddccdbeaa",
   "lastOpenFiles": [
-    "3 Resources/04-Interests/魔獸世界/地心之戰/地心之戰12.0/知識庫.md",
-    "3 Resources/04-Interests/魔獸世界/地心之戰/地心之戰12.0/聖騎士/宏命令.md",
-    "3 Resources/04-Interests/魔獸世界/地心之戰/地心之戰12.0/聖騎士/核心系統/防騎-天賦系統.md",
-    "3 Resources/04-Interests/魔獸世界/地心之戰/地心之戰12.0/聖騎士/核心系統/防騎-神聖印系統.md",
-    "3 Resources/04-Interests/魔獸世界/地心之戰/地心之戰12.0/聖騎士/技能詳解/防騎-技能詳解.md",
-    "3 Resources/04-Interests/魔獸世界/地心之戰/地心之戰12.0/聖騎士/核心系統/防騎-神聖力量系統.md",
-    "3 Resources/04-Interests/魔獸世界/地心之戰/地心之戰12.0/聖騎士/基礎知識/防騎-職業定位.md",
-    "3 Resources/04-Interests/魔獸世界/地心之戰/地心之戰12.0/聖騎士/知識庫索引.md",
-    "3 Resources/04-Interests/魔獸世界/地心之戰/地心之戰12.0/聖騎士/高階進階",
-    "3 Resources/04-Interests/魔獸世界/地心之戰/地心之戰12.0/聖騎士/實戰技巧",
-    "3 Resources/04-Interests/魔獸世界/地心之戰/地心之戰12.0/聖騎士/宏命令",
-    "3 Resources/04-Interests/魔獸世界/地心之戰/地心之戰12.0/聖騎士/PVP技巧",
-    "3 Resources/04-Interests/魔獸世界/地心之戰/地心之戰12.0/聖騎士/副本攻略",
-    "3 Resources/04-Interests/魔獸世界/地心之戰/地心之戰12.0/聖騎士/裝備指南",
-    "3 Resources/04-Interests/魔獸世界/地心之戰/地心之戰12.0/聖騎士/技能詳解",
-    "3 Resources/04-Interests/魔獸世界/地心之戰/地心之戰12.0/聖騎士/核心系統",
-    "3 Resources/04-Interests/魔獸世界/地心之戰/地心之戰12.0/聖騎士/基礎知識",
-    "3 Resources/04-Interests/魔獸世界/地心之戰/地心之戰12.0/聖騎士/知識庫索引",
-    "3 Resources/04-Interests/魔獸世界/地心之戰/地心之戰12.0目录结构设计.md",
-    "3 Resources/04-Interests/魔獸世界/地心之戰/地心之戰12.0工作清單.md",
-    "3 Resources/04-Interests/魔獸世界/地心之戰/地心之戰12.0建設方案.md",
-    "3 Resources/04-Interests/魔獸世界/結構文件/地心之戰-標籤體系.md",
-    "3 Resources/04-Interests/魔獸世界/結構文件/MOC-地心之戰.md",
-    "3 Resources/04-Interests/魔獸世界/地心之戰/地心之战12.0版本機制變化深度分析.md",
-    "3 Resources/04-Interests/魔獸世界/地心之戰/地心之戰12.0知識庫建設報告.md",
-    "_templates/general/快速捕获工作流设置指南.md",
-    "3 Resources/04-Interests/魔獸世界/地心之戰/🏆 成就系統/地心之戰12.0成就系統指南.md",
-    "3 Resources/04-Interests/魔獸世界/地心之戰/⚒️ 專業技能/地心之戰12.0專業技能攻略.md",
-    "3 Resources/04-Interests/魔獸世界/structures/MOC-魔獸世界知識庫.md",
-    "3 Resources/04-Interests/魔獸世界/地心之戰/📈 升級路線/地心之戰12.0升級路線指南.md",
-    "3 Resources/04-Interests/魔獸世界/地心之戰/📊 物品等級/地心之戰12.0物品等級對照表.md",
-    "3 Resources/04-Interests/魔獸世界/地心之戰/⚔️ 副本攻略/地心之戰12.0副本攻略總覽.md",
-    "_meta/_meta.md",
-    "3 Resources/04-Interests/魔獸世界/地心之戰/⚖️ PVP環境分析/PVP環境變化分析.md",
-    "3 Resources/04-Interests/魔獸世界/地心之戰/⚔️ 職業機制重構/職業機構重構總覽.md",
-    "3 Resources/04-Interests/魔獸世界/地心之戰/📊 機制複雜度分析/機制複雜度演變分析.md",
-    "4 Archives/3 SOCIAL SCIENCES/33 Economics/336 Finance/336.7 Money/img/Pasted image 20240727092547.png",
-    "4 Archives/3 SOCIAL SCIENCES/33 Economics/336 Finance/336.7 Money/img/Pasted image 20240727092515.png",
-    "4 Archives/3 SOCIAL SCIENCES/33 Economics/336 Finance/336.7 Money/img/Pasted image 20240727092449.png",
-    "4 Archives/3 SOCIAL SCIENCES/33 Economics/336 Finance/336.7 Money/img/Pasted image 20240727092410.png",
-    "4 Archives/3 SOCIAL SCIENCES/33 Economics/336 Finance/336.7 Money/img/Pasted image 20240727092329.png",
-    "4 Archives/3 SOCIAL SCIENCES/33 Economics/336 Finance/336.7 Money/img/Pasted image 20240727091637.png",
-    "4 Archives/3 SOCIAL SCIENCES/33 Economics/336 Finance/336.7 Money/img/Pasted image 20240727091615.png",
-    "4 Archives/3 SOCIAL SCIENCES/33 Economics/336 Finance/336.7 Money/img/Pasted image 20240727091541.png",
-    "4 Archives/3 SOCIAL SCIENCES/33 Economics/336 Finance/336.7 Money/img/Pasted image 20240727091222.png"
+    "4 Archives/6 APPLIED SCIENCES. MEDICINE. TECHNOLOGY/62 Engineering/UGV01-X3/3. Samples示例/3.2.2 RTSP視頻流解碼.md",
+    "4 Archives/6 APPLIED SCIENCES. MEDICINE. TECHNOLOGY/62 Engineering/UGV01-X3/3. Samples示例/3.2.1 hobot_vio庫介紹.md",
+    "4 Archives/6 APPLIED SCIENCES. MEDICINE. TECHNOLOGY/62 Engineering/UGV01-X3/3. Samples示例/3.2. 图像多媒体示例.md.backup",
+    "4 Archives/6 APPLIED SCIENCES. MEDICINE. TECHNOLOGY/62 Engineering/UGV01-X3/3. Samples示例/3.1. 模型推理示例.md",
+    "4 Archives/6 APPLIED SCIENCES. MEDICINE. TECHNOLOGY/62 Engineering/UGV01-X3/3. Samples示例/3.2. 图像多媒体示例.md",
+    "4 Archives/6 APPLIED SCIENCES. MEDICINE. TECHNOLOGY/62 Engineering/UGV01-X3/3. Samples示例/3.1.1 hobot_dnn庫介紹.md",
+    "4 Archives/6 APPLIED SCIENCES. MEDICINE. TECHNOLOGY/62 Engineering/UGV01-X3/3. Samples示例/3.1.3 靜態圖像推理.md",
+    "4 Archives/6 APPLIED SCIENCES. MEDICINE. TECHNOLOGY/62 Engineering/UGV01-X3/3. Samples示例/3.1.2 環境準備.md",
+    "4 Archives/6 APPLIED SCIENCES. MEDICINE. TECHNOLOGY/62 Engineering/UGV01-X3/3. Samples示例/3.1.5 Web端可視化.md",
+    "4 Archives/6 APPLIED SCIENCES. MEDICINE. TECHNOLOGY/62 Engineering/UGV01-X3/3. Samples示例/3.1.4 視頻推理.md",
+    "日常工作/工作報告-2026-02-19-2.md",
+    "4 Archives/6 APPLIED SCIENCES. MEDICINE. TECHNOLOGY/62 Engineering/UGV01-X3/3. Samples示例/3.1. 模型推理示例.md.backup",
+    "4 Archives/6 APPLIED SCIENCES. MEDICINE. TECHNOLOGY/62 Engineering/UGV01-X3/旭日X3派用户手册.md",
+    "4 Archives/6 APPLIED SCIENCES. MEDICINE. TECHNOLOGY/62 Engineering/UGV01-X3/UGV01-X3.md",
+    "4 Archives/6 APPLIED SCIENCES. MEDICINE. TECHNOLOGY/62 Engineering/UGV01-X3/3. Samples示例",
+    "4 Archives/6 APPLIED SCIENCES. MEDICINE. TECHNOLOGY/62 Engineering/UGV01-X3/3. Samples示例.md",
+    "4 Archives/6 APPLIED SCIENCES. MEDICINE. TECHNOLOGY/62 Engineering/UGV01-X3/6. 算法工具链开发指南.md",
+    "4 Archives/6 APPLIED SCIENCES. MEDICINE. TECHNOLOGY/62 Engineering/UGV01-X3/7. Linux 内核.md",
+    "4 Archives/6 APPLIED SCIENCES. MEDICINE. TECHNOLOGY/62 Engineering/UGV01-X3/7.1. 内核头文件.md",
+    "4 Archives/6 APPLIED SCIENCES. MEDICINE. TECHNOLOGY/62 Engineering/UGV01-X3/8. FAQ.md",
+    "4 Archives/6 APPLIED SCIENCES. MEDICINE. TECHNOLOGY/62 Engineering/UGV01-X3/5. C C++开发指南.md",
+    "4 Archives/6 APPLIED SCIENCES. MEDICINE. TECHNOLOGY/62 Engineering/UGV01-X3/4. Python开发指南.md",
+    "4 Archives/6 APPLIED SCIENCES. MEDICINE. TECHNOLOGY/62 Engineering/UGV01-X3/2. 系统配置.md",
+    "0 Inbox/Pasted image 20260219041742.png",
+    "4 Archives/6 APPLIED SCIENCES. MEDICINE. TECHNOLOGY/62 Engineering/UGV01-X3/1.3. 远程登录.md",
+    "0 Inbox/Pasted image 20260219041958.png",
+    "0 Inbox/Pasted image 20260219041524.png",
+    "0 Inbox/Pasted image 20260219041326.png",
+    "4 Archives/6 APPLIED SCIENCES. MEDICINE. TECHNOLOGY/62 Engineering/UGV01-X3/1. 快速开始.md",
+    "4 Archives/6 APPLIED SCIENCES. MEDICINE. TECHNOLOGY/62 Engineering/UGV01-X3/Pasted image 20250321070848.png",
+    "0 Inbox/Pasted image 20260219040921.png",
+    "4 Archives/6 APPLIED SCIENCES. MEDICINE. TECHNOLOGY/62 Engineering/Transbot ROS机器人/Transbot ROS机器人.md",
+    "4 Archives/6 APPLIED SCIENCES. MEDICINE. TECHNOLOGY/62 Engineering/UGV01-X3/2 产品特性.md",
+    "4 Archives/6 APPLIED SCIENCES. MEDICINE. TECHNOLOGY/62 Engineering/UGV01-X3/1 产品介绍.md",
+    "4 Archives/6 APPLIED SCIENCES. MEDICINE. TECHNOLOGY/62 Engineering/MicroROS机器人控制板/MicroROS机器人控制板.md",
+    "4 Archives/6 APPLIED SCIENCES. MEDICINE. TECHNOLOGY/62 Engineering/UGV01-X3/资料/0.91inch_OLED_Module_Schematic.pdf",
+    "4 Archives/6 APPLIED SCIENCES. MEDICINE. TECHNOLOGY/62 Engineering/UGV01-X3/资料/UGV01-X3.pdf",
+    "4 Archives/6 APPLIED SCIENCES. MEDICINE. TECHNOLOGY/62 Engineering/ROS专用USB遥控手柄/无线手柄/ROS无线手柄课程.pdf",
+    "4 Archives/6 APPLIED SCIENCES. MEDICINE. TECHNOLOGY/62 Engineering/RoboMaster/RoboMaster 开发者页面/Pasted image 20250104194923.png",
+    "4 Archives/6 APPLIED SCIENCES. MEDICINE. TECHNOLOGY/62 Engineering/RoboMaster/RoboMaster 开发者页面/RoboMaster_EP_Programming_Manual_CHS.pdf",
+    "4 Archives/6 APPLIED SCIENCES. MEDICINE. TECHNOLOGY/62 Engineering/MicroROS机器人控制板/0 开发环境搭建/6 flash-tool烧录固件.md.backup",
+    "4 Archives/6 APPLIED SCIENCES. MEDICINE. TECHNOLOGY/62 Engineering/MicroROS机器人控制板/0 开发环境搭建/5 安装和启动microros代理.md.backup",
+    "4 Archives/6 APPLIED SCIENCES. MEDICINE. TECHNOLOGY/62 Engineering/MicroROS机器人控制板/0 开发环境搭建/4 安装ESP32-microros组件.md.backup",
+    "0 Inbox/Pasted image 20260219005834.png",
+    "0 Inbox/Pasted image 20260219005727.png",
+    "0 Inbox/Pasted image 20260219005528.png"
   ]
 }
