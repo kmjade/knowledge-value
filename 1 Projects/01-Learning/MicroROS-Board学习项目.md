@@ -272,7 +272,7 @@ MicroROS:
 ## 📚 学习资源
 
 ### 官方资料
-- [[3 Resources/01-Tech/MicroROS机器人控制板]] - 产品资料汇总
+- [[3 Resources/01-Tech/智能小车/MicroROS机器人控制板]] - 产品资料汇总
 - 亚博智能官网课程资料
 - ESP32-IDF官方文档
 - ROS2官方文档

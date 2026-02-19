@@ -159,13 +159,13 @@
           "name": "🗂️ Resource Note Template",
           "type": "Template",
           "command": false,
-          "templatePath": "",
+          "templatePath": "_templates/para/📁 advanced/🗂️ Resource Note Template.md",
           "fileNameFormat": {
             "enabled": false,
             "format": ""
           },
           "folder": {
-            "enabled": false,
+            "enabled": true,
             "folders": [],
             "chooseWhenCreatingNote": false,
             "createInSameFolderAsActiveFile": false,
