@@ -4,6 +4,7 @@ aliases:
 para: resource
 domain:
   - "[[SolidWorks]]"
+  - "[[IntelliJ IDEA]]"
 ---
 
 ## 01-Tech
