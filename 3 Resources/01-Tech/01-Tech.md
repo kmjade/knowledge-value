@@ -3,6 +3,7 @@ aliases:
   - 技術類
 para: resource
 domain:
+  - "[[SolidWorks]]"
 ---
 
 ## 01-Tech
