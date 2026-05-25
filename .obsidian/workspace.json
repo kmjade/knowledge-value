@@ -54,35 +54,21 @@
             }
           },
           {
-            "id": "3f51b1bdadd5fe6c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "0 Inbox/Hermes+LLM wiki +Obsidian 工作流.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Hermes+LLM wiki +Obsidian 工作流"
-            }
-          },
-          {
             "id": "bda2bb0e5bf1db0f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3 Resources/01-Tech/Markdown/README.md",
+                "file": "3 Resources/01-Tech/Markdown/00-MOCs/Markdown 学习路径.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Markdown 学习路径"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -261,8 +247,31 @@
       "ioto-settings:關閉僅同步當前文件模式": false
     }
   },
-  "active": "bda2bb0e5bf1db0f",
+  "active": "460a9e42de521b6a",
   "lastOpenFiles": [
+    "3 Resources/03-Productivity/Methods/闪念笔记方法论.md",
+    "4 Archives/2026-工作报告/工作報告-2026-02-19.md",
+    "4 Archives/2026-工作报告/工作報告-2026-02-19-2.md",
+    "4 Archives/2026-工作报告/工作報告-2026-02-18.md",
+    "4 Archives/2026-工作报告",
+    "4 Archives/2026-周报/2026W07-周报.md",
+    "4 Archives/2026-周报/2026W07-周报-示例.md",
+    "3 Resources/02-Learning/医学/舌诊图谱/2026-02-18-61张高清舌诊图谱，图文对照.md",
+    "3 Resources/02-Learning/医学/舌诊图谱/2026-02-17-61张高清舌诊图谱，图文对照.md",
+    "3 Resources/01-Tech/属性里如何自动生成uuid.md",
+    "4 Archives/2026-周报",
+    "3 Resources/02-Learning/医学/舌诊图谱",
+    "3 Resources/03-Productivity/Tools/Obsidian Web Clipper完全指南：如何快速掌握网页内容捕获神器.md",
+    "3 Resources/01-Tech/LLM-Tech/Hermes+LLM wiki +Obsidian 工作流.md",
+    "3 Resources/05-Reference/Methods/Area-Management-Guidelines.md",
+    "3 Resources/01-Tech/Markdown/00-MOCs/Markdown 知识库总览.md",
+    "01-Learning.md",
+    "3 Resources/01-Tech/Markdown/02-扩展语法/02-扩展语法.md",
+    "3 Resources/Markdown.md",
+    "3 Resources/01-Tech/Markdown/01-基础语法/01-基础语法.md",
+    "4 Archives/by-type/Resources/Resources.md",
+    "4 Archives/by-status/On-Hold/On-Hold.md",
+    "3 Resources/01-Tech/Markdown/README.md",
     "3 Resources/01-Tech/Markdown/99-资源收集/Markdown 速查表.md",
     "3 Resources/01-Tech/Markdown/99-资源收集/Markdown 资源收集.md",
     "1 Projects/03-Personal/obsidian知識庫/obsidian知識庫.md",
@@ -270,34 +279,12 @@
     "3 Resources/01-Tech/Markdown/05-工具生态/05-工具生态.md",
     "3 Resources/01-Tech/Markdown/04-高级技巧/04-高级技巧.md",
     "3 Resources/01-Tech/Markdown/03-Obsidian语法/03-Obsidian 语法.md",
-    "3 Resources/01-Tech/Markdown/02-扩展语法/02-扩展语法.md",
-    "3 Resources/01-Tech/Markdown/01-基础语法/01-基础语法.md",
-    "3 Resources/01-Tech/Markdown/00-MOCs/Markdown 知识库总览.md",
-    "3 Resources/01-Tech/Markdown/00-MOCs/Markdown 学习路径.md",
-    "3 Resources/01-Tech/Markdown/README.md",
-    "2 Areas/02-Career/02-Career.md",
     "3 Resources/01-Tech/Markdown/03-Obsidian语法",
     "3 Resources/01-Tech/Markdown/05-工具生态",
     "3 Resources/01-Tech/Markdown/04-高级技巧",
     "3 Resources/01-Tech/Markdown/99-资源收集",
-    "2 Areas/📁 領域結構.md",
-    "1 Projects/01-Learning/Obsidian學習計劃.md",
     "3 Resources/01-Tech/Markdown/01-基础语法",
     "3 Resources/01-Tech/Markdown/02-扩展语法",
-    "3 Resources/01-Tech/Markdown/00-MOCs",
-    "3 Resources/01-Tech/Markdown",
-    "2 Areas/04-Relationships/余金泽.md",
-    "1 Projects/03-Personal/obsidian知識庫/obsidian知識庫.md.tmp.26828.908b95b77a74",
-    "1 Projects/1 Projects.md",
-    "01-Learning.md",
-    "1 Projects/01-Learning/01-learning.md",
-    "1 Projects/📁 項目結構.md",
-    "_templates/para/README.md",
-    "_templates/para/01-Concepts/Decision-Flow.md",
-    "2 Areas/2 Areas.md",
-    "_templates/para/📁 advanced/🎯 MOC_Project Template.md",
-    "_templates/para/📁 advanced/🌳 MOC_Area Template.md",
-    "_templates/para/📁 full/_template-area.md",
     "3 Resources/01-Tech/AI-Agent/images/Pasted image 20260524160938.png",
     "3 Resources/01-Tech/智能小车/RoboMaster/99-资源收集/images/Pasted image 20260524122959.png",
     "3 Resources/01-Tech/智能小车/RoboMaster/99-资源收集/images/Pasted image 20260524122701.png",
