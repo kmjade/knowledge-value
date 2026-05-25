@@ -28,15 +28,7 @@ SORT priority ASC, due ASC
 
 ---
 
-## 📁 項目結構
-
-```
-1 Projects/
-├── 01-Learning/              # 學習類項目
-├── 02-Work/                  # 工作類項目
-├── 03-Personal/              # 個人類項目
-└── 04-Creative/              # 創作類項目
-```
+## [[📁 項目結構]]
 
 ---
 

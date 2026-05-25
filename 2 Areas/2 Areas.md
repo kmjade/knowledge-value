@@ -14,6 +14,7 @@ tags:
 
 ## 📊 領域統計
 
+
 ```dataview
 TABLE without ID
   file.link AS "名稱",
@@ -26,33 +27,7 @@ SORT file.name ASC
 
 ---
 
-## 📁 領域結構
-
-```
-2 Areas/
-├── 01-Health/              # 健康
-# 管理
-│   └── 運動計劃.md
-│
-├── 02-Career/              # 職業
-│   ├── 職業發展.md
-│   └── 技能提升.md
-│
-├── 03-Finance/             # 財務
-│   ├── 財務規劃.md
-│   └── 投資組合.md
-│
-├── 04-Relationships/       # 人際
-│   ├── 家人關係.md
-│   └── 專業人脈.md
-│
-├── 05-Learning/            # 學習
-│   └── 持續學習.md
-│
-└── 06-Lifestyle/           # 生活
-    ├── 居住環境.md
-    └── 休閒娛樂.md
-```
+## [[📁 領域結構]]
 
 ---
 

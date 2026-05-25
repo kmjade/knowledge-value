@@ -31,12 +31,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3 Resources/01-Tech/AI-Agent/Hermes-Agent/Hermes-Agent.md",
+                "file": "2 Areas/2 Areas.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Hermes-Agent"
+              "title": "2 Areas"
             }
           },
           {
@@ -45,12 +45,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3 Resources/01-Tech/AI-Agent/Hermes-Agent/99-资源收集/国内安装 Hermes Agent 踩坑全记录：从 GitHub 超时到正常跑起来的每一步.md",
+                "file": "2 Areas/03-Finance/03-Finance.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "国内安装 Hermes Agent 踩坑全记录：从 GitHub 超时到正常跑起来的每一步"
+              "title": "03-Finance"
             }
           },
           {
@@ -66,9 +66,23 @@
               "icon": "lucide-file",
               "title": "Hermes+LLM wiki +Obsidian 工作流"
             }
+          },
+          {
+            "id": "bda2bb0e5bf1db0f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3 Resources/01-Tech/Markdown/README.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -247,44 +261,43 @@
       "ioto-settings:關閉僅同步當前文件模式": false
     }
   },
-  "active": "460a9e42de521b6a",
+  "active": "bda2bb0e5bf1db0f",
   "lastOpenFiles": [
-    "3 Resources/01-Tech/AI-Agent/Hermes-Agent/01-快速开始/3 第一个智能体.md",
-    "3 Resources/01-Tech/AI-Agent/Hermes-Agent/99-资源收集/国内安装 Hermes Agent 踩坑全记录：从 GitHub 超时到正常跑起来的每一步.md",
-    "3 Resources/01-Tech/AI-Agent/Hermes-Agent/01-快速开始/2 安装配置.md",
-    "3 Resources/01-Tech/AI-Agent/Hermes-Agent/99-资源收集/安装后的配置教程.md",
-    "3 Resources/01-Tech/AI-Agent/Hermes-Agent/99-资源收集/企业微信回调（自建应用）.md",
-    "Clippings/QQ 机器人.md",
-    "3 Resources/01-Tech/AI-Agent/Hermes-Agent/99-资源收集/企业微信 (WeCom).md",
-    "3 Resources/01-Tech/AI-Agent/Hermes-Agent/99-资源收集/消息网关.md",
-    "3 Resources/01-Tech/AI-Agent/Hermes-Agent/99-资源收集/微信 (WeChat).md",
-    "Clippings",
-    "6 Demo/6 Demo.md",
-    "0 Inbox/Clippings/Obsidian Web Clipper完全指南：如何快速掌握网页内容捕获神器.md",
-    "3 Resources/01-Tech/AI-Agent/Hermes-Agent/Hermes-Agent.md",
-    "3 Resources/01-Tech/AI-Agent/Hermes-Agent/01-快速开始/2 安装配置.md.tmp.31736.ef068be2b3cb",
-    "3 Resources/01-Tech/AI-Agent/Hermes-Agent/00-MOCs/MOC-總覽.md",
-    "3 Resources/01-Tech/AI-Agent/Hermes-Agent/00-MOCs/MOC-學習路徑.md",
-    "3 Resources/01-Tech/AI-Agent/Hermes-Agent/06-集成指南/AutoGen集成.md",
-    "3 Resources/01-Tech/AI-Agent/Hermes-Agent/07-高级主题/记忆与状态管理.md",
-    "3 Resources/01-Tech/AI-Agent/Hermes-Agent/07-高级主题/性能优化.md",
-    "3 Resources/01-Tech/AI-Agent/Hermes-Agent/06-集成指南/LlamaIndex集成.md",
-    "3 Resources/01-Tech/AI-Agent/Hermes-Agent/06-集成指南/LangChain集成.md",
-    "3 Resources/01-Tech/AI-Agent/Hermes-Agent/07-高级主题/自定义工具开发.md",
-    "3 Resources/01-Tech/AI-Agent/Hermes-Agent/06-集成指南/MCP协议集成.md",
-    "3 Resources/01-Tech/AI-Agent/Hermes-Agent/07-高级主题/多智能体协作.md",
-    "3 Resources/01-Tech/AI-Agent/Hermes-Agent/09-问题解决/Windows-WSL问题.md",
-    "3 Resources/01-Tech/AI-Agent/Hermes-Agent/02-核心概念/Agent概述.md",
-    "3 Resources/01-Tech/AI-Agent/Hermes-Agent/常用命令.md.tmp.31736.4fc340bfcb9c",
-    "3 Resources/01-Tech/AI-Agent/Hermes-Agent/常用命令.md",
-    "3 Resources/01-Tech/AI-Agent/Hermes-Agent/01-快速开始/常用命令.md",
-    "3 Resources/01-Tech/AI-Agent/Hermes-Agent/CLI速查表.md.tmp.31736.be11d6a84527",
-    "3 Resources/01-Tech/AI-Agent/Hermes-Agent/常用命令.md.tmp.31736.9f02c5232c4d",
-    "3 Resources/01-Tech/AI-Agent/Hermes-Agent/03-模型系列/Hermes-3-70B.md.tmp.31736.b42665b7bbef",
-    "3 Resources/01-Tech/AI-Agent/Hermes-Agent/03-模型系列/Hermes-3-8B.md.tmp.31736.37af1acc98a3",
-    "3 Resources/01-Tech/AI-Agent/Hermes-Agent/05-API参考/Agent-API.md.tmp.31736.a2e2a3503892",
-    "3 Resources/01-Tech/AI-Agent/Hermes-Agent/03-模型系列/Hermes-3概览.md.tmp.31736.eb55a0e1e20a",
-    "3 Resources/01-Tech/AI-Agent/Hermes-Agent/03-模型系列/Hermes-3概览.md.tmp.31736.5e8d99069328",
+    "3 Resources/01-Tech/Markdown/99-资源收集/Markdown 速查表.md",
+    "3 Resources/01-Tech/Markdown/99-资源收集/Markdown 资源收集.md",
+    "1 Projects/03-Personal/obsidian知識庫/obsidian知識庫.md",
+    "3 Resources/01-Tech/Markdown/99-资源收集/Markdown 速查表.md.tmp.26828.231cbd9b90d4",
+    "3 Resources/01-Tech/Markdown/05-工具生态/05-工具生态.md",
+    "3 Resources/01-Tech/Markdown/04-高级技巧/04-高级技巧.md",
+    "3 Resources/01-Tech/Markdown/03-Obsidian语法/03-Obsidian 语法.md",
+    "3 Resources/01-Tech/Markdown/02-扩展语法/02-扩展语法.md",
+    "3 Resources/01-Tech/Markdown/01-基础语法/01-基础语法.md",
+    "3 Resources/01-Tech/Markdown/00-MOCs/Markdown 知识库总览.md",
+    "3 Resources/01-Tech/Markdown/00-MOCs/Markdown 学习路径.md",
+    "3 Resources/01-Tech/Markdown/README.md",
+    "2 Areas/02-Career/02-Career.md",
+    "3 Resources/01-Tech/Markdown/03-Obsidian语法",
+    "3 Resources/01-Tech/Markdown/05-工具生态",
+    "3 Resources/01-Tech/Markdown/04-高级技巧",
+    "3 Resources/01-Tech/Markdown/99-资源收集",
+    "2 Areas/📁 領域結構.md",
+    "1 Projects/01-Learning/Obsidian學習計劃.md",
+    "3 Resources/01-Tech/Markdown/01-基础语法",
+    "3 Resources/01-Tech/Markdown/02-扩展语法",
+    "3 Resources/01-Tech/Markdown/00-MOCs",
+    "3 Resources/01-Tech/Markdown",
+    "2 Areas/04-Relationships/余金泽.md",
+    "1 Projects/03-Personal/obsidian知識庫/obsidian知識庫.md.tmp.26828.908b95b77a74",
+    "1 Projects/1 Projects.md",
+    "01-Learning.md",
+    "1 Projects/01-Learning/01-learning.md",
+    "1 Projects/📁 項目結構.md",
+    "_templates/para/README.md",
+    "_templates/para/01-Concepts/Decision-Flow.md",
+    "2 Areas/2 Areas.md",
+    "_templates/para/📁 advanced/🎯 MOC_Project Template.md",
+    "_templates/para/📁 advanced/🌳 MOC_Area Template.md",
+    "_templates/para/📁 full/_template-area.md",
     "3 Resources/01-Tech/AI-Agent/images/Pasted image 20260524160938.png",
     "3 Resources/01-Tech/智能小车/RoboMaster/99-资源收集/images/Pasted image 20260524122959.png",
     "3 Resources/01-Tech/智能小车/RoboMaster/99-资源收集/images/Pasted image 20260524122701.png",

@@ -18,18 +18,18 @@ modified: 2026-02-16
 
 ### 主要類目 Main Classes
 
-| 類目 Class | 英文 English | 中文 Chinese | 技術相關 Tech Related |
-|-----------|-------------|-------------|-------------------|
-| [[UDC-0|0]] | Generalities | 總類 | 資訊科學 |
-| [[UDC-1|1]] | Philosophy | 哲學 | 邏輯/倫理 |
-| [[UDC-2|2]] | Religion | 宗教 | 倫理 |
-| [[UDC-3|3]] | Social Sciences | 社會科學 | 資訊社會 |
-| [[UDC-4|4]] | Philology | 語言學 | 程式語言 |
-| [[UDC-5|5]] | Natural Sciences | 自然科學 | 電腦科學 |
-| [[UDC-6|6]] | Applied Sciences | 應用科學 | ★ 工程/技術 |
-| [[UDC-7|7]] | Arts and Recreation | 藝術與休閒 | UI/設計 |
-| [[UDC-8|8]] | Literature | 文學 | 技術寫作 |
-| [[UDC-9|9]] | History and Geography | 歷史與地理 | 科技史 |
+| 類目 Class  | 英文 English            | 中文 Chinese | 技術相關 Tech Related |
+| --------- | --------------------- | ---------- | ----------------- |
+| [[UDC-0]] | Generalities          | 總類         | 資訊科學              |
+| [[UDC-1]] | Philosophy            | 哲學         | 邏輯/倫理             |
+| [[UDC-2]] | Religion              | 宗教         | 倫理                |
+| [[UDC-3]] | Social Sciences       | 社會科學       | 資訊社會              |
+| [[UDC-4]] | Philology             | 語言學        | 程式語言              |
+| [[UDC-5]] | Natural Sciences      | 自然科學       | 電腦科學              |
+| [[UDC-6]] | Applied Sciences      | 應用科學       | ★ 工程/技術           |
+| [[UDC-7]] | Arts and Recreation   | 藝術與休閒      | UI/設計             |
+| [[UDC-8]] | Literature            | 文學         | 技術寫作              |
+| [[UDC-9]] | History and Geography | 歷史與地理      | 科技史               |
 
 ---
 
