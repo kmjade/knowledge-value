@@ -1,0 +1,24 @@
+{
+  "id": "conv-1779538148537-04bw9ru9g",
+  "providerId": "claude",
+  "title": "Update RoboMaster knowledge base documentation",
+  "titleGenerationStatus": "success",
+  "createdAt": 1779538148537,
+  "updatedAt": 1779602558526,
+  "lastResponseAt": 1779602558526,
+  "sessionId": "16d718f7-35a9-4de6-bb80-9deb576eafee",
+  "providerState": {
+    "providerSessionId": "16d718f7-35a9-4de6-bb80-9deb576eafee"
+  },
+  "currentNote": "3 Resources/01-Tech/智能小车/RoboMaster/RoboMaster开发指南.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 0,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 0,
+    "percentage": 0,
+    "contextWindowIsAuthoritative": true
+  }
+}

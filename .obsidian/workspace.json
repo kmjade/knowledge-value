@@ -4,39 +4,71 @@
     "type": "split",
     "children": [
       {
-        "id": "75a3f4c875b64d34",
+        "id": "e3560b5533bb0455",
         "type": "tabs",
         "children": [
           {
-            "id": "ad6252237b466b03",
+            "id": "04db5fa8b2a2b50d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "ioto-dashboard-view",
               "state": {
-                "file": "3 Resources/04-Interests/魔獸世界/魔獸世界-MOC.md",
-                "mode": "source",
-                "source": false
+                "isZenMode": false,
+                "activeCategory": "Input",
+                "activeTab": "Notes",
+                "activeQueryId": null,
+                "sortOption": "modified",
+                "sortOrder": "desc",
+                "groupOption": "none"
               },
-              "icon": "lucide-file",
-              "title": "魔獸世界-MOC"
+              "icon": "columns-3",
+              "title": "IOTO 儀表板"
             }
           },
           {
-            "id": "c93d146c8cbc98f6",
+            "id": "6fb40f076aad1fd8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4 Archives/6 APPLIED SCIENCES. MEDICINE. TECHNOLOGY/62 Engineering/M5stack/M5Stack硬件开发资源.md",
+                "file": "3 Resources/01-Tech/AI-Agent/Hermes-Agent/Hermes-Agent.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "M5Stack硬件开发资源"
+              "title": "Hermes-Agent"
+            }
+          },
+          {
+            "id": "c736bcb3bda8be48",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3 Resources/01-Tech/AI-Agent/Hermes-Agent/99-资源收集/国内安装 Hermes Agent 踩坑全记录：从 GitHub 超时到正常跑起来的每一步.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "国内安装 Hermes Agent 踩坑全记录：从 GitHub 超时到正常跑起来的每一步"
+            }
+          },
+          {
+            "id": "3f51b1bdadd5fe6c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "0 Inbox/Hermes+LLM wiki +Obsidian 工作流.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Hermes+LLM wiki +Obsidian 工作流"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -93,7 +125,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 445.5
+    "width": 284.5
   },
   "right": {
     "id": "19cea027a20285b0",
@@ -169,17 +201,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_templates/opencode/README.md",
+                "file": "3 Resources/03-Productivity/工作技巧/Claudian/Obsidian + Claudian 集成方案.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "README 的大綱"
+              "title": "Obsidian + Claudian 集成方案 的大纲"
             }
           },
           {
-            "id": "de06f48ddccdbeaa",
+            "id": "12ce29d2ceb39a3a",
             "type": "leaf",
             "state": {
               "type": "claudian-view",
@@ -197,64 +229,71 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "claudian:Open Claudian": false,
       "switcher:開啟快速切換": false,
       "graph:查看關聯圖": false,
       "canvas:建立新畫布": false,
       "daily-notes:開啟今天的每日筆記": false,
-      "templates:插入模板": false,
       "command-palette:開啟命令面板": false,
       "bases:建立新的 base": false,
-      "templater-obsidian:Templater": false
+      "templates:插入模板": false,
+      "templater-obsidian:Templater": false,
+      "claudian:Open Claudian": false,
+      "obsidian42-brat:BRAT": false,
+      "ioto-template-generator:打開生成器": false,
+      "ioto-dashboard:開啟 IOTO 儀表板": false,
+      "ioto-dashboard:開啟 IOTO 任務儀表板": false,
+      "ioto-dashboard:開啟 IOTO 筆記儀表板": false,
+      "ioto-settings:開啟僅同步當前文件模式": false,
+      "ioto-settings:關閉僅同步當前文件模式": false
     }
   },
   "active": "460a9e42de521b6a",
   "lastOpenFiles": [
-    "4 Archives/6 APPLIED SCIENCES. MEDICINE. TECHNOLOGY/62 Engineering/M5stack/M5Stack核心项目.md",
-    "4 Archives/6 APPLIED SCIENCES. MEDICINE. TECHNOLOGY/62 Engineering/M5stack/M5Stack硬件开发资源.md",
-    "4 Archives/6 APPLIED SCIENCES. MEDICINE. TECHNOLOGY/62 Engineering/M5stack/M5Stack产品总览.md",
-    "1 Projects/01-Learning/M5Stack GitHub仓库学习项目.md",
-    "4 Archives/6 APPLIED SCIENCES. MEDICINE. TECHNOLOGY/62 Engineering/M5stack/M5Stack解决方案应用案例.md",
-    "1 Projects/01-Learning/M5Stack解决方案学习项目.md",
-    "4 Archives/6 APPLIED SCIENCES. MEDICINE. TECHNOLOGY/62 Engineering/M5stack/UIFlow-Book-zh_cn.pdf",
-    "4 Archives/6 APPLIED SCIENCES. MEDICINE. TECHNOLOGY/62 Engineering/M5stack/Core系列产品.md",
-    "4 Archives/6 APPLIED SCIENCES. MEDICINE. TECHNOLOGY/62 Engineering/M5stack/ATOM系列产品.md",
-    "1 Projects/01-Learning/M5Stack学习项目.md",
-    "4 Archives/6 APPLIED SCIENCES. MEDICINE. TECHNOLOGY/62 Engineering/M5stack/M5StickC_Guide.pdf",
-    "4 Archives/6 APPLIED SCIENCES. MEDICINE. TECHNOLOGY/62 Engineering/M5stack/M5stack.md",
-    "4 Archives/6 APPLIED SCIENCES. MEDICINE. TECHNOLOGY/62 Engineering/大疆A型板/大疆A型板.md",
-    "4 Archives/6 APPLIED SCIENCES. MEDICINE. TECHNOLOGY/62 Engineering/62 Engineering.md",
-    "4 Archives/6 APPLIED SCIENCES. MEDICINE. TECHNOLOGY/62 Engineering/M5stack",
-    "4 Archives/6 APPLIED SCIENCES. MEDICINE. TECHNOLOGY/62 Engineering/RoboMaster/RoboMaster 开发者页面/欢迎来到 RoboMaster 开发者页面.md",
-    "4 Archives/6 APPLIED SCIENCES. MEDICINE. TECHNOLOGY/62 Engineering/RoboMaster/RoboMaster 开发者页面/Pasted image 20250104194923.png",
-    "4 Archives/6 APPLIED SCIENCES. MEDICINE. TECHNOLOGY/62 Engineering/RoboMaster/RoboMaster 开发者页面/RoboMaster_EP_Programming_Manual_CHS.pdf",
-    "4 Archives/6 APPLIED SCIENCES. MEDICINE. TECHNOLOGY/62 Engineering/RoboMaster/RoboMaster 开发者页面/0 快速开始/0 快速开始.md",
-    "4 Archives/6 APPLIED SCIENCES. MEDICINE. TECHNOLOGY/62 Engineering/RoboMaster/RoboMaster 开发者页面/RoboMaster 开发者页面.md",
-    "4 Archives/6 APPLIED SCIENCES. MEDICINE. TECHNOLOGY/62 Engineering/RoboMaster/RoboMaster.md",
-    "4 Archives/6 APPLIED SCIENCES. MEDICINE. TECHNOLOGY/62 Engineering/Transbot ROS机器人/1. Transbot各版本配件介绍.md",
-    "4 Archives/6 APPLIED SCIENCES. MEDICINE. TECHNOLOGY/62 Engineering/Transbot ROS机器人/2. Transbot说明书.md",
-    "4 Archives/6 APPLIED SCIENCES. MEDICINE. TECHNOLOGY/62 Engineering/Transbot ROS机器人/常见问题.md",
-    "4 Archives/6 APPLIED SCIENCES. MEDICINE. TECHNOLOGY/62 Engineering/Transbot ROS机器人/Pasted image 20250104234304.png",
-    "4 Archives/6 APPLIED SCIENCES. MEDICINE. TECHNOLOGY/62 Engineering/Transbot ROS机器人/Pasted image 20250104223129.png",
-    "4 Archives/6 APPLIED SCIENCES. MEDICINE. TECHNOLOGY/62 Engineering/Transbot ROS机器人/Transbot ROS教育机器人.md",
-    "4 Archives/6 APPLIED SCIENCES. MEDICINE. TECHNOLOGY/62 Engineering/Transbot ROS机器人/1 组装教程/7. 树莓派系统备份.md",
-    "4 Archives/6 APPLIED SCIENCES. MEDICINE. TECHNOLOGY/62 Engineering/Transbot ROS机器人/1 组装教程/6. 树莓派系统镜像的下载和烧写.md",
-    "4 Archives/6 APPLIED SCIENCES. MEDICINE. TECHNOLOGY/62 Engineering/Transbot ROS机器人/1 组装教程/5 . Transbot修改显示分辨率.md",
-    "4 Archives/6 APPLIED SCIENCES. MEDICINE. TECHNOLOGY/62 Engineering/Transbot ROS机器人/1 组装教程/4 . APP控制机械臂夹爪不紧的解决方案.md",
-    "4 Archives/6 APPLIED SCIENCES. MEDICINE. TECHNOLOGY/62 Engineering/Transbot ROS机器人/1 组装教程/3 . 使用注意事项与电池安全.md",
-    "4 Archives/6 APPLIED SCIENCES. MEDICINE. TECHNOLOGY/62 Engineering/Transbot ROS机器人/1 组装教程/2 . 组装步骤.md",
-    "3 Resources/01-Tech/智能小车",
-    "0 Inbox/Pasted image 20260219160715.png",
-    "4 Archives/6 APPLIED SCIENCES. MEDICINE. TECHNOLOGY/62 Engineering/UGV01-X3/6. 算法工具链开发指南",
-    "4 Archives/6 APPLIED SCIENCES. MEDICINE. TECHNOLOGY/62 Engineering/UGV01-X3/backup",
-    "4 Archives/6 APPLIED SCIENCES. MEDICINE. TECHNOLOGY/62 Engineering/UGV01-X3/5. C C++开发指南",
-    "4 Archives/6 APPLIED SCIENCES. MEDICINE. TECHNOLOGY/62 Engineering/UGV01-X3/4. Python开发指南/4.3. 40PIN 功能使用.md.backup",
-    "4 Archives/6 APPLIED SCIENCES. MEDICINE. TECHNOLOGY/62 Engineering/UGV01-X3/4. Python开发指南/4.2. 多媒体接口说明.md.backup",
-    "0 Inbox/Pasted image 20260219041742.png",
-    "0 Inbox/Pasted image 20260219041958.png",
-    "0 Inbox/Pasted image 20260219041524.png",
-    "0 Inbox/Pasted image 20260219041326.png",
-    "4 Archives/6 APPLIED SCIENCES. MEDICINE. TECHNOLOGY/62 Engineering/UGV01-X3/Pasted image 20250321070848.png",
-    "0 Inbox/Pasted image 20260219040921.png"
+    "3 Resources/01-Tech/AI-Agent/Hermes-Agent/01-快速开始/3 第一个智能体.md",
+    "3 Resources/01-Tech/AI-Agent/Hermes-Agent/99-资源收集/国内安装 Hermes Agent 踩坑全记录：从 GitHub 超时到正常跑起来的每一步.md",
+    "3 Resources/01-Tech/AI-Agent/Hermes-Agent/01-快速开始/2 安装配置.md",
+    "3 Resources/01-Tech/AI-Agent/Hermes-Agent/99-资源收集/安装后的配置教程.md",
+    "3 Resources/01-Tech/AI-Agent/Hermes-Agent/99-资源收集/企业微信回调（自建应用）.md",
+    "Clippings/QQ 机器人.md",
+    "3 Resources/01-Tech/AI-Agent/Hermes-Agent/99-资源收集/企业微信 (WeCom).md",
+    "3 Resources/01-Tech/AI-Agent/Hermes-Agent/99-资源收集/消息网关.md",
+    "3 Resources/01-Tech/AI-Agent/Hermes-Agent/99-资源收集/微信 (WeChat).md",
+    "Clippings",
+    "6 Demo/6 Demo.md",
+    "0 Inbox/Clippings/Obsidian Web Clipper完全指南：如何快速掌握网页内容捕获神器.md",
+    "3 Resources/01-Tech/AI-Agent/Hermes-Agent/Hermes-Agent.md",
+    "3 Resources/01-Tech/AI-Agent/Hermes-Agent/01-快速开始/2 安装配置.md.tmp.31736.ef068be2b3cb",
+    "3 Resources/01-Tech/AI-Agent/Hermes-Agent/00-MOCs/MOC-總覽.md",
+    "3 Resources/01-Tech/AI-Agent/Hermes-Agent/00-MOCs/MOC-學習路徑.md",
+    "3 Resources/01-Tech/AI-Agent/Hermes-Agent/06-集成指南/AutoGen集成.md",
+    "3 Resources/01-Tech/AI-Agent/Hermes-Agent/07-高级主题/记忆与状态管理.md",
+    "3 Resources/01-Tech/AI-Agent/Hermes-Agent/07-高级主题/性能优化.md",
+    "3 Resources/01-Tech/AI-Agent/Hermes-Agent/06-集成指南/LlamaIndex集成.md",
+    "3 Resources/01-Tech/AI-Agent/Hermes-Agent/06-集成指南/LangChain集成.md",
+    "3 Resources/01-Tech/AI-Agent/Hermes-Agent/07-高级主题/自定义工具开发.md",
+    "3 Resources/01-Tech/AI-Agent/Hermes-Agent/06-集成指南/MCP协议集成.md",
+    "3 Resources/01-Tech/AI-Agent/Hermes-Agent/07-高级主题/多智能体协作.md",
+    "3 Resources/01-Tech/AI-Agent/Hermes-Agent/09-问题解决/Windows-WSL问题.md",
+    "3 Resources/01-Tech/AI-Agent/Hermes-Agent/02-核心概念/Agent概述.md",
+    "3 Resources/01-Tech/AI-Agent/Hermes-Agent/常用命令.md.tmp.31736.4fc340bfcb9c",
+    "3 Resources/01-Tech/AI-Agent/Hermes-Agent/常用命令.md",
+    "3 Resources/01-Tech/AI-Agent/Hermes-Agent/01-快速开始/常用命令.md",
+    "3 Resources/01-Tech/AI-Agent/Hermes-Agent/CLI速查表.md.tmp.31736.be11d6a84527",
+    "3 Resources/01-Tech/AI-Agent/Hermes-Agent/常用命令.md.tmp.31736.9f02c5232c4d",
+    "3 Resources/01-Tech/AI-Agent/Hermes-Agent/03-模型系列/Hermes-3-70B.md.tmp.31736.b42665b7bbef",
+    "3 Resources/01-Tech/AI-Agent/Hermes-Agent/03-模型系列/Hermes-3-8B.md.tmp.31736.37af1acc98a3",
+    "3 Resources/01-Tech/AI-Agent/Hermes-Agent/05-API参考/Agent-API.md.tmp.31736.a2e2a3503892",
+    "3 Resources/01-Tech/AI-Agent/Hermes-Agent/03-模型系列/Hermes-3概览.md.tmp.31736.eb55a0e1e20a",
+    "3 Resources/01-Tech/AI-Agent/Hermes-Agent/03-模型系列/Hermes-3概览.md.tmp.31736.5e8d99069328",
+    "3 Resources/01-Tech/AI-Agent/images/Pasted image 20260524160938.png",
+    "3 Resources/01-Tech/智能小车/RoboMaster/99-资源收集/images/Pasted image 20260524122959.png",
+    "3 Resources/01-Tech/智能小车/RoboMaster/99-资源收集/images/Pasted image 20260524122701.png",
+    "3 Resources/01-Tech/智能小车/RoboMaster/99-资源收集/images/Pasted image 20260523201512.png",
+    "3 Resources/01-Tech/智能小车/ESP32例程集/01-开发环境/imgs/Pasted image 20260219005528.png",
+    "3 Resources/01-Tech/智能小车/ESP32例程集/01-开发环境/imgs/Pasted image 20260219005727.png",
+    "3 Resources/01-Tech/智能小车/ESP32例程集/01-开发环境/imgs/Pasted image 20260219005834.png",
+    "3 Resources/01-Tech/智能小车/ESP32例程集/01-开发环境/imgs/Pasted image 20260219160715.png",
+    "3 Resources/01-Tech/智能小车/ESP32例程集/01-开发环境/imgs/Pasted image 20260219041958.png",
+    "4 Archives/6 APPLIED SCIENCES. MEDICINE. TECHNOLOGY/62 Engineering/RoboMaster/RoboMaster 开发者页面/Pasted image 20250104194923.png"
   ]
 }

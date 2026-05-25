@@ -1,0 +1,26 @@
+{
+  "id": "conv-1779466498941-j1skpfu9a",
+  "providerId": "claude",
+  "title": "Update IOTO knowledge base",
+  "titleGenerationStatus": "success",
+  "createdAt": 1779466498941,
+  "updatedAt": 1779666804589,
+  "lastResponseAt": 1779666480677,
+  "sessionId": "cde90f5d-8359-4c62-924c-438394d544e0",
+  "providerState": {
+    "providerSessionId": "cde90f5d-8359-4c62-924c-438394d544e0",
+    "previousProviderSessionIds": [
+      "1b728eed-8828-49a0-8c6e-841740c67282"
+    ]
+  },
+  "usage": {
+    "model": "opus",
+    "inputTokens": 0,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 0,
+    "percentage": 0,
+    "contextWindowIsAuthoritative": true
+  }
+}

@@ -1,4 +1,13 @@
 {
-  "baseFontSize": 16,
-  "cssTheme": "Things"
+  "baseFontSize": 25,
+  "cssTheme": "Things",
+  "accentColor": "",
+  "theme": "obsidian",
+  "enabledCssSnippets": [
+    "IOTO-callouts",
+    "IOTO-dashboard",
+    "IOTO-hideProperties",
+    "IOTO-table",
+    "IOTO-TDL"
+  ]
 }

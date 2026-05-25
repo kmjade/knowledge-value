@@ -1,0 +1,24 @@
+{
+  "id": "conv-1779494556095-jn6d6e6p7",
+  "providerId": "claude",
+  "title": "Optimize system performance",
+  "titleGenerationStatus": "success",
+  "createdAt": 1779494556095,
+  "updatedAt": 1779538087876,
+  "lastResponseAt": 1779494596873,
+  "sessionId": "9117d382-531f-41bc-98b2-ccdf0c36e87c",
+  "providerState": {
+    "providerSessionId": "9117d382-531f-41bc-98b2-ccdf0c36e87c"
+  },
+  "currentNote": "0 Inbox/属性里如何自动生成uuid.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 0,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 0,
+    "percentage": 0,
+    "contextWindowIsAuthoritative": true
+  }
+}

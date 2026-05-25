@@ -1,0 +1,24 @@
+{
+  "id": "conv-1779666918003-hd1p75a3c",
+  "providerId": "claude",
+  "title": "Update Model Series",
+  "titleGenerationStatus": "success",
+  "createdAt": 1779666918004,
+  "updatedAt": 1779670077215,
+  "lastResponseAt": 1779670077214,
+  "sessionId": "9871d093-a05c-4360-b0da-39cb31c49686",
+  "providerState": {
+    "providerSessionId": "9871d093-a05c-4360-b0da-39cb31c49686"
+  },
+  "currentNote": "3 Resources/01-Tech/AI-Agent/Hermes-Agent/Hermes-Agent.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 0,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 0,
+    "percentage": 0,
+    "contextWindowIsAuthoritative": true
+  }
+}

@@ -145,7 +145,7 @@ claude --version
 - [[Claudian 技能系統]] - 了解技能包机制
 - [[Claudian MCP 服务器]] - 了解 MCP 服务器
 # 系統
-- [[3 Resources/Claudian/Obsidian + Claudian 集成方案.md]] - 了解整体架构
+- [[Obsidian + Claudian 集成方案]] - 了解整体架构
 
 ## 故障排除
 

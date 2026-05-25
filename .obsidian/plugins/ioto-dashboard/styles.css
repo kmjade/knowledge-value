@@ -1,0 +1,323 @@
+/* Dashboard Grid Layout - Adapted from ioto-template-generator */
+.ioto-dashboard-view {
+    height: 100%;
+    overflow: hidden;
+    padding: 0;
+}
+
+.ioto-dashboard-view .dashboard-grid {
+    display: grid;
+    grid-template-columns: 200px 1fr 300px;
+    height: 100%;
+    width: 100%;
+}
+
+.ioto-dashboard-view .dashboard-grid.usages-collapsed {
+    grid-template-columns: 40px 1fr 300px;
+}
+
+.ioto-dashboard-view .dashboard-grid.right-collapsed {
+    grid-template-columns: 200px 1fr 40px;
+}
+
+.ioto-dashboard-view .dashboard-grid.usages-collapsed.right-collapsed {
+    grid-template-columns: 40px 1fr 40px;
+}
+
+.ioto-dashboard-view .dashboard-grid.zen-mode {
+    grid-template-columns: 1fr;
+}
+
+.ioto-dashboard-view .dashboard-grid.zen-mode .dashboard-left,
+.ioto-dashboard-view .dashboard-grid.zen-mode .dashboard-right {
+    display: none;
+}
+
+/* Left Column: Navigation */
+.ioto-dashboard-view .dashboard-left {
+    border-right: 1px solid var(--background-modifier-border);
+    padding: 20px;
+    overflow-y: auto;
+    background-color: var(--background-secondary);
+    border-radius: 10px;
+}
+
+.ioto-dashboard-view .dashboard-left h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.ioto-dashboard-view .nav-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+    gap: 6px;
+}
+
+.ioto-dashboard-view .nav-header h3 {
+    margin: 0;
+    line-height: 1.2;
+}
+
+.ioto-dashboard-view .nav-toggle {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ioto-dashboard-view .nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.ioto-dashboard-view .nav-item {
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-bottom: 5px;
+    transition: background-color 0.2s;
+}
+
+.ioto-dashboard-view .nav-item:hover {
+    background-color: var(--background-modifier-hover);
+}
+
+.ioto-dashboard-view .nav-item.is-active {
+    background-color: var(--interactive-accent);
+    color: var(--text-on-accent);
+    font-weight: bold;
+}
+
+/* Middle Column: Content */
+.ioto-dashboard-view .dashboard-middle {
+    padding: 30px;
+    padding-bottom: 0;
+    overflow: hidden;
+    background-color: var(--background-primary);
+    display: flex;
+    flex-direction: column;
+}
+
+.ioto-dashboard-view .dashboard-grid.zen-mode .dashboard-middle {
+    padding: 0px;
+}
+
+.ioto-dashboard-view .file-list {
+    flex: 1;
+    overflow-y: auto;
+    min-height: 0;
+}
+
+.ioto-dashboard-view .dashboard-middle h2 {
+    margin-top: 0;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+/* Middle Column Tabs */
+.ioto-dashboard-view .content-tabs {
+    display: flex;
+    border-bottom: 1px solid var(--background-modifier-border);
+    margin-bottom: 20px;
+}
+
+.ioto-dashboard-view .content-tab {
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: 600;
+    color: var(--text-muted);
+    border-bottom: 2px solid transparent;
+    transition: all 0.2s;
+}
+
+.ioto-dashboard-view .content-tab:hover {
+    color: var(--text-normal);
+    background-color: var(--background-modifier-hover);
+}
+
+.ioto-dashboard-view .content-tab.is-active {
+    color: var(--text-normal);
+    border-bottom-color: var(--interactive-accent);
+}
+
+/* Task Item Styles */
+
+.ioto-dashboard-view .task-item .task-markdown-content a {
+    text-decoration: none;
+}
+
+.ioto-dashboard-view .task-item {
+    padding: 10px 15px;
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 6px;
+    margin-bottom: 10px;
+    background-color: var(--background-secondary);
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.ioto-dashboard-view .task-item:hover {
+    background-color: var(--background-modifier-hover);
+    border-color: var(--interactive-accent);
+}
+
+.ioto-dashboard-view .task-item.is-selected {
+    border-color: var(--interactive-accent);
+    background-color: var(--background-primary);
+    box-shadow: 0 0 0 1px var(--interactive-accent);
+}
+
+.ioto-dashboard-view .task-item-header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.85em;
+    color: var(--text-muted);
+    margin-bottom: 6px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid var(--background-modifier-border);
+}
+
+.ioto-dashboard-view .task-content {
+    font-size: 1em;
+    line-height: 1.4;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    align-content: center;
+}
+
+.ioto-dashboard-view .task-checkbox {
+    margin-top: 3px;
+    pointer-events: none; /* Display only */
+}
+
+.ioto-dashboard-view .file-item {
+    padding: 10px 15px;
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 6px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    background-color: var(--background-secondary-alt);
+}
+
+.ioto-dashboard-view .file-item:hover {
+    background-color: var(--background-modifier-hover);
+    border-color: var(--interactive-accent);
+}
+
+.ioto-dashboard-view .file-item h6 {
+    margin: 0 0 5px 0;
+    font-size: 1em;
+}
+
+.ioto-dashboard-view .file-meta {
+    display: flex;
+    gap: 15px;
+    font-size: 0.85em;
+    color: var(--text-muted);
+    align-items: center;
+}
+
+.ioto-dashboard-view .file-meta p {
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.ioto-dashboard-view .meta-icon {
+    display: flex;
+    align-items: center;
+    margin-right: 4px;
+}
+
+.ioto-dashboard-view .meta-icon svg {
+    width: 14px;
+    height: 14px;
+    color: var(--text-muted);
+}
+
+/* Right Column: Filters */
+.ioto-dashboard-view .dashboard-right {
+    border-left: 1px solid var(--background-modifier-border);
+    padding: 20px;
+    overflow-y: auto;
+    background-color: var(--background-secondary);
+    border-radius: 10px;
+}
+
+.ioto-dashboard-view .filter-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.ioto-dashboard-view .filter-item {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.ioto-dashboard-view .filter-item label {
+    font-weight: 600;
+    font-size: 0.9em;
+    color: var(--text-normal);
+}
+
+.ioto-dashboard-view .filter-item input,
+.ioto-dashboard-view .filter-item select {
+    width: 100%;
+}
+
+.ioto-dashboard-view .filter-actions {
+    margin-top: 10px;
+}
+
+.ioto-dashboard-view .header-actions {
+    gap: 8px;
+}
+
+.ioto-dashboard-view .clickable-icon {
+    cursor: pointer;
+    color: var(--text-muted);
+    transition: color 0.2s;
+    background: transparent;
+    border: none;
+    padding: 4px;
+    border-radius: 4px;
+}
+
+.ioto-dashboard-view .clickable-icon:hover {
+    color: var(--text-normal);
+    background-color: var(--background-modifier-hover);
+}
+
+.ioto-dashboard-view .view-header-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: var(--text-normal);
+}
+
+/* Quick Search */
+.ioto-dashboard-view .dashboard-search-container {
+    margin-bottom: 10px;
+}
+
+.ioto-dashboard-view .dashboard-search-input {
+    background-color: var(--background-modifier-form-field);
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 4px;
+    padding: 6px 12px;
+    transition: all 0.2s ease;
+}
+
+.ioto-dashboard-view .dashboard-search-input:focus {
+    border-color: var(--interactive-accent);
+    box-shadow: 0 0 0 2px var(--background-modifier-border-focus);
+}

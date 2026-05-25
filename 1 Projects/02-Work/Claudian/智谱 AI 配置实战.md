@@ -208,7 +208,7 @@ https://open.bigmodel.cn
 
 # 系統
 - [[Claudian MCP 服务器]] - MCP 服务器详解
-- [[3 Resources/Claudian/Obsidian + Claudian 集成方案.md]] - 整体架构
+- [[Obsidian + Claudian 集成方案]] - 整体架构
 
 ---
 

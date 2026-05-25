@@ -1,0 +1,44 @@
+{
+  "pluginList": [
+    "shawndotty/sync-script-generator",
+    "shawndotty/ioto-dashboard",
+    "shawndotty/ioto-template-generator",
+    "shawndotty/ioto-update",
+    "YishenTu/claudian"
+  ],
+  "pluginSubListFrozenVersion": [
+    {
+      "repo": "shawndotty/sync-script-generator",
+      "version": ""
+    },
+    {
+      "repo": "shawndotty/ioto-dashboard",
+      "version": ""
+    },
+    {
+      "repo": "shawndotty/ioto-template-generator",
+      "version": ""
+    },
+    {
+      "repo": "shawndotty/ioto-update",
+      "version": ""
+    },
+    {
+      "repo": "YishenTu/claudian",
+      "version": ""
+    }
+  ],
+  "themesList": [],
+  "updateAtStartup": true,
+  "updateThemesAtStartup": true,
+  "enableAfterInstall": true,
+  "loggingEnabled": false,
+  "loggingPath": "BRAT-log",
+  "loggingVerboseEnabled": false,
+  "debuggingMode": false,
+  "notificationsEnabled": true,
+  "globalTokenName": "",
+  "personalAccessToken": "",
+  "selectLatestPluginVersionByDefault": false,
+  "allowIncompatiblePlugins": false
+}

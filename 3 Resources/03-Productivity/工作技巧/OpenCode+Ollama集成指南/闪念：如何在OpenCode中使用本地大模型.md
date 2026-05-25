@@ -51,14 +51,19 @@ created: 2026-01-15
 ### 步骤 1: 安裝OpenCode
 
 ```bash
+
+[1] OpenCode 终端
+
 # 方法
 curl -fsSL https://opencode.ai/install | bash
 
 # 方法
-npm install -g @opencode-ai/cli
-
+npm i -g opencode-ai
 # 方法
-yarn global add @opencode-ai/cli
+bun add -g opencode-ai
+brew install anomalyco/tap/opencode
+paru -S opencode
+
 ```
 
 ### 步骤 2: 安裝Ollama

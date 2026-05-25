@@ -1,9 +1,14 @@
 [
   "dataview",
   "folder-notes",
-  "claudian",
   "templater-obsidian",
   "obsidian-tasks-plugin",
   "quickadd",
-  "ai-assistant"
+  "ai-assistant",
+  "claudian",
+  "obsidian42-brat",
+  "ioto-template-generator",
+  "ioto-dashboard",
+  "ioto-update",
+  "ioto-settings"
 ]

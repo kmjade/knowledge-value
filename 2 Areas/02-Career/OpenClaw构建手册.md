@@ -562,8 +562,6 @@ CMD ["nginx", "-g", "daemon off;"]
 
 # 部署
 
-# 部署
-
 #### 1. 生产Dockerfile
 ```dockerfile
 # Dockerfile.prod
@@ -1062,8 +1060,6 @@ kubectl exec -n $NAMESPACE deployment/openclaw-app -- alembic upgrade head
 ```
 
 ## 监控与运维
-
-# 配置
 
 # 配置
 ```yaml
