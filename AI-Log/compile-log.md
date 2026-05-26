@@ -21,6 +21,40 @@ purpose: compile
 
 ## 2026-05-27
 
+---
+
+**状态**: success
+
+**子库**: productivity (`3 Resources/productivity/`)
+
+**源文件** (103):
+- `raw/articles/` — GTD (11), IOTO (17), Notion (12), Obsidian (12), OKR (12), PARA (11), Zettelkasten (11), 飞书 (12), LLM-Wiki 相关 (3), 其他 (2)
+
+**概念提取** (8):
+- PARA-Method — PARA 方法论
+- LLM-Wiki — LLM-Wiki 知识编译方法论
+- GTD-Method — GTD 任务管理
+- Zettelkasten-Method — 卡片盒笔记法
+- OKR-Framework — 目标管理框架
+- Second-Brain — 第二大脑理论
+- Information-Lifecycle — 信息生命周期模型
+- Semantic-Pollution — 语义污染概念
+
+**实体提取** (4):
+- Obsidian — 知识库 IDE
+- Claude-Code — AI 编程代理
+- Notion — 全能工作空间
+- IOTO-Framework — Obsidian 工作流框架
+
+**产出** (15 文件):
+- `wiki/concepts/` — 创建 8 页面
+- `wiki/entities/` — 创建 4 页面
+- `wiki/sources/` — 创建 3 页面
+- `wiki/index.md` — 更新统计
+- `wiki/log.md` — 添加编译记录
+
+---
+
 **状态**: success
 
 **子库**: ai-ml (`3 Resources/ai-ml/`)
