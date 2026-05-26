@@ -1,0 +1,144 @@
+{
+  "templater-obsidian:_meta/IOTO/Templates/Templater/OBIOTO/IOTO-加载器-创建输入.md": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "1"
+    }
+  ],
+  "templater-obsidian:_meta/IOTO/Templates/Templater/OBIOTO/IOTO-加载器-创建输出.md": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "2"
+    }
+  ],
+  "templater-obsidian:_meta/IOTO/Templates/Templater/OBIOTO/IOTO-加载器-创建任务.md": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "3"
+    }
+  ],
+  "templater-obsidian:_meta/IOTO/Templates/Templater/OBIOTO/IOTO-加载器-创建成果.md": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "4"
+    }
+  ],
+  "templater-obsidian:_meta/IOTO/Templates/Templater/OBIOTO/IOTO-加载器-辅助工具.md": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "5"
+    }
+  ],
+  "templater-obsidian:_meta/IOTO/Templates/Templater/OBIOTO/IOTO同步模板/IOTO-OBSyncAirtable.md": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "A"
+    }
+  ],
+  "templater-obsidian:_meta/IOTO/Templates/Templater/OBIOTO/IOTO同步模板/IOTO-OBFetchAirtable.md": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "A"
+    }
+  ],
+  "templater-obsidian:_meta/IOTO/Templates/Templater/OBIOTO/IOTO同步模板/IOTO-OBSyncVika.md": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "V"
+    }
+  ],
+  "templater-obsidian:_meta/IOTO/Templates/Templater/OBIOTO/IOTO同步模板/IOTO-OBFetchVika.md": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "V"
+    }
+  ],
+  "templater-obsidian:_meta/IOTO/Templates/Templater/OBIOTO/IOTO同步模板/IOTO-OBSyncFeishu.md": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "F"
+    }
+  ],
+  "templater-obsidian:_meta/IOTO/Templates/Templater/OBIOTO/IOTO同步模板/IOTO-OBFetchFeishu.md": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "F"
+    }
+  ],
+  "templater-obsidian:_meta/IOTO/Templates/Templater/OBIOTO/IOTO同步模板/IOTO-OBSyncDing.md": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "D"
+    }
+  ],
+  "templater-obsidian:_meta/IOTO/Templates/Templater/OBIOTO/IOTO同步模板/IOTO-OBFetchDing.md": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "D"
+    }
+  ],
+  "templater-obsidian:_meta/IOTO/Templates/Templater/OBIOTO/IOTO同步模板/IOTO-OBSyncBaserow.md": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "B"
+    }
+  ],
+  "templater-obsidian:_meta/IOTO/Templates/Templater/OBIOTO/IOTO同步模板/IOTO-OBFetchBaserow.md": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "B"
+    }
+  ],
+  "templater-obsidian:_meta/IOTO/Templates/Templater/OBIOTO/IOTO同步模板/IOTO-OBSyncNotion.md": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "N"
+    }
+  ],
+  "templater-obsidian:_meta/IOTO/Templates/Templater/OBIOTO/IOTO同步模板/IOTO-OBFetchNotion.md": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "N"
+    }
+  ]
+}

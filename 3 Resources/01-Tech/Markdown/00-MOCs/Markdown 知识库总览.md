@@ -1,8 +1,14 @@
 ---
 title: Markdown 知识库总览
-tags: [markdown/moc, resources]
+para: resource
+tags:
+  - markdown/moc
+  - resources
 created: 2026-05-25
-aliases: [Markdown MOC, Markdown 总览]
+aliases:
+  - Markdown MOC
+  - Markdown 总览
+subtopic: MOCs
 ---
 
 # Markdown 知识库总览

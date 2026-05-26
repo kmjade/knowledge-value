@@ -1,6 +1,10 @@
 ---
 title: Markdown 学习路径
-tags: [markdown/moc, learning]
+para: resource
+subtopic: MOCs
+tags:
+  - markdown/moc
+  - learning
 created: 2026-05-25
 ---
 

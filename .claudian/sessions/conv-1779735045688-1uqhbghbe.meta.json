@@ -1,0 +1,24 @@
+{
+  "id": "conv-1779735045688-1uqhbghbe",
+  "providerId": "claude",
+  "title": "Create Obsidian IOTO knowledge base readme",
+  "titleGenerationStatus": "success",
+  "createdAt": 1779735045689,
+  "updatedAt": 1779755599269,
+  "lastResponseAt": 1779755599269,
+  "sessionId": "8dece5a5-7aef-46f6-aaab-ea5cf5a30fc8",
+  "providerState": {
+    "providerSessionId": "8dece5a5-7aef-46f6-aaab-ea5cf5a30fc8"
+  },
+  "currentNote": "3 Resources/01-Tech/IOTO/IOTO.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 0,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 0,
+    "percentage": 0,
+    "contextWindowIsAuthoritative": true
+  }
+}
