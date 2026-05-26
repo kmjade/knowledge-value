@@ -163,10 +163,12 @@ updated: 2026-01-22
 # 管理
 
 # 方法
+
 |------------------|------------------------|------------------------|
 | **OpenCode** | `opencode --version` | `npm install -g @opencode-ai/cli@latest` |
 | **Ollama** | `ollama --version` | `curl -fsSL https://ollama.ai/install.sh | sh` |
 | **模型** | `ollama list` | `ollama pull <model>:latest` |
+
 # 版本
 
 ---

@@ -4,57 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "e3560b5533bb0455",
+        "id": "5afde68db193449d",
         "type": "tabs",
         "children": [
           {
-            "id": "99a223cb80b38ee8",
-            "type": "leaf",
-            "state": {
-              "type": "ioto-dashboard-view",
-              "state": {
-                "isZenMode": false,
-                "activeCategory": "Input",
-                "activeTab": "Notes",
-                "activeQueryId": null,
-                "sortOption": "modified",
-                "sortOrder": "desc",
-                "groupOption": "none"
-              },
-              "icon": "columns-3",
-              "title": "IOTO 仪表盘"
-            }
-          },
-          {
-            "id": "34d6f37c1ef29241",
+            "id": "8ef8def20bcbfe74",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0 Inbox/3-任务/学习IOTO/学习IOTO-2026-05-26.md",
+                "file": "0 Inbox/Clippings/LifeOS × LLM-Wiki 融合系统.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "学习IOTO-2026-05-26"
-            }
-          },
-          {
-            "id": "45820f5718f9a79e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "0 Inbox/3-任务/学习IOTO/学习IOTO-2026-05-26.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "学习IOTO-2026-05-26"
+              "title": "LifeOS × LLM-Wiki 融合系统"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -77,7 +44,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "文件列表"
+              "title": "檔案瀏覽器"
             }
           },
           {
@@ -111,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 284.5
+    "width": 231.5
   },
   "right": {
     "id": "19cea027a20285b0",
@@ -187,17 +154,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3 Resources/03-Productivity/工作技巧/Claudian/Obsidian + Claudian 集成方案.md",
+                "file": "_templates/general/資源收集_繁體.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Obsidian + Claudian 集成方案 的大纲"
+              "title": "資源收集_繁體 的大綱"
             }
           },
           {
-            "id": "12ce29d2ceb39a3a",
+            "id": "de06f48ddccdbeaa",
             "type": "leaf",
             "state": {
               "type": "claudian-view",
@@ -211,75 +178,73 @@
       }
     ],
     "direction": "horizontal",
-    "width": 376.5
+    "width": 230.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:打开快速切换": false,
-      "graph:查看关系图谱": false,
-      "canvas:新建白板": false,
-      "daily-notes:打开/创建今天的日记": false,
-      "command-palette:打开命令面板": false,
-      "bases:新建数据库": false,
-      "ioto-dashboard:打开 IOTO 仪表盘": false,
-      "ioto-dashboard:打开 IOTO 任务仪表盘": false,
-      "ioto-dashboard:打开 IOTO 笔记仪表盘": false,
-      "ioto-template-generator:打开生成器": false,
-      "templates:插入模板": false,
       "templater-obsidian:Templater": false,
-      "claudian:Open Claudian": false,
       "obsidian42-brat:BRAT": false,
-      "ioto-settings:开启仅同步当前文件模式": false,
-      "ioto-settings:关闭仅同步当前文件模式": false
+      "ioto-dashboard:開啟 IOTO 儀表板": false,
+      "ioto-dashboard:開啟 IOTO 任務儀表板": false,
+      "ioto-dashboard:開啟 IOTO 筆記儀表板": false,
+      "ioto-template-generator:打開生成器": false,
+      "switcher:開啟快速切換": false,
+      "graph:查看關聯圖": false,
+      "canvas:建立新畫布": false,
+      "daily-notes:開啟今天的每日筆記": false,
+      "templates:插入模板": false,
+      "command-palette:開啟命令面板": false,
+      "bases:建立新的 base": false,
+      "claudian:Open Claudian": false
     }
   },
-  "active": "45820f5718f9a79e",
+  "active": "460a9e42de521b6a",
   "lastOpenFiles": [
-    "0 Inbox/3-任务/学习IOTO/任务-2026-05-26.md",
-    "0 Inbox/3-任务/学习IOTO/学习IOTO-2026-05-26.md",
-    "1 Projects/01-Learning/IOTO学习项目.md",
-    "1 Projects/01-Learning/Hermes-Agent学习项目.md",
-    "1 Projects/01-Learning/ESP32机器人控制项目.md",
-    "1 Projects/01-Learning/AutoCAD学习项目.md",
-    "1 Projects/01-Learning/閱讀分析拆解工作流專案.md",
-    "1 Projects/01-Learning/閱讀分析拆解工作流.md",
-    "1 Projects/01-Learning/旭日X3派学习项目.md",
-    "4 Archives/圣骑士键位-地心之战12.0.md",
-    "1 Projects/01-Learning/技術學習專案 2026.md",
-    "01-Learning.md",
-    "0 Inbox/1-输入/碎片笔记/学习AI Demo.md",
+    "0 Inbox/1-输入/LifeOS × LLM-Wiki 融合系统.md",
+    "0 Inbox/Clippings/LifeOS × LLM-Wiki 融合系统.md",
+    "0 Inbox/1-输入/Clippings/2026 大模型 API 价格对比（5月更新）：40+ 模型一表看清.md",
+    "0 Inbox/Clippings",
+    "0 Index/Clippings/LifeOS × LLM-Wiki 融合系统.md",
+    "0 Index/Clippings",
+    "0 Index",
+    "Clippings/LifeOS × LLM-Wiki 融合系统.md",
+    "Clippings",
+    "3 Resources/01-Tech/AI-ML/Claude Code/Claude Code 安装配置完整指南.md",
+    "3 Resources/01-Tech/AI-ML/Claudian/Obsidian + Claudian 集成方案.md",
+    "3 Resources/01-Tech/AI-ML/Claudian/Obsidian × Claudian × Skills：打造真正会“思考”的个人知识库.md",
+    "3 Resources/01-Tech/AI-ML/Claudian/obsidian安装claude报错：Claude Code native binary not found.md",
+    "3 Resources/03-Productivity/Tools/Obsidian Web Clipper完全指南：如何快速掌握网页内容捕获神器.md",
+    "3 Resources/03-Productivity/Methods/Methods.md",
+    "3 Resources/03-Productivity/工作技巧/Claude Code 使用整合指南.md",
+    "3 Resources/03-Productivity/工作技巧/解决“因为在此系统上禁止运行脚本”的问题.md",
+    "3 Resources/04-Interests/Travel/Travel.md",
+    "3 Resources/04-Interests/Hobbies/Hobbies.md",
+    "3 Resources/04-Interests/Cooking/Cooking.md",
+    "3 Resources/01-Tech/🧠 AI 知識(舊)/🛠️ 工具/Claude-Code/【2025最新教程】Claude Code国内使用_保姆级新手安装使用教程_最强AI编程工具.md",
+    "3 Resources/02-Learning/02-Learning.md",
+    "3 Resources/03-Productivity/03-Productivity.md",
+    "3 Resources/04-Interests/04-Interests.md",
+    "3 Resources/05-Reference/05-Reference.md",
+    "3 Resources/01-Tech/属性里如何自动生成uuid.md",
+    "3 Resources/01-Tech/WSL/02-安裝/安裝WSL.md",
+    "package.json",
+    "node_modules/node/bin/node.exe",
+    "node_modules/node/bin/node",
+    "node_modules/node/bin",
+    "node_modules/node/node_modules/node-win-x64/package.json",
+    "node_modules/node/node_modules/node-win-x64/bin/node.exe",
+    "node_modules/node/README.md",
+    "3 Resources/3 Resources.md",
     "0 Inbox/0 Inbox.md",
-    "0 Inbox/3-任务/学习IOTO/学习IOTO-2026-05-26.md.tmp.20660.34728b3a4219",
-    "_meta/IOTO/Help/IOTO使用指南-录播教程-建议先看这个.md",
-    "_meta/IOTO/Help/我为什么要把OB和多维表结合起来.md",
-    "_meta/🔗 知识关联/🔗 知识关联.md",
-    "_meta/⚙️ 系统配置/⚙️ 系统配置.md",
-    "5 Zettels/📌 permanent/卦象/20260201-0001 乾卦.md",
-    "5 Zettels/📁 structures/易经/MOC-易经知识库.md",
-    "5 Zettels/📁 structures/易经/易经核心概念汇总（0~9）.md",
-    "5 Zettels/📁 structures/易经/易经-应用领域.md",
-    "5 Zettels/📁 structures/易经/易经-六十四卦.md",
-    "5 Zettels/📁 structures/易经/易经-核心概念.md",
-    "5 Zettels/📁 structures/黄帝内经/02-灵枢/灵枢索引.md",
-    "5 Zettels/📁 structures/黄帝内经/黄帝内经-核心理论.md",
-    "0 Inbox/4-成果/学习AI/总结",
-    "0 Inbox/4-成果/学习AI/文章",
-    "0 Inbox/4-成果/学习AI",
-    "0 Inbox/3-任务/学习AI",
-    "0 Inbox/4-成果/学习IOTO/总结",
-    "0 Inbox/4-成果/学习IOTO/文章",
-    "0 Inbox/4-成果/学习IOTO",
-    "0 Inbox/3-任务/学习IOTO",
-    "0 Inbox/2-输出/卡片笔记",
-    "3 Resources/01-Tech/AI-Agent/images/Pasted image 20260524160938.png",
     "3 Resources/01-Tech/智能小车/RoboMaster/99-资源收集/images/Pasted image 20260524122959.png",
     "3 Resources/01-Tech/智能小车/RoboMaster/99-资源收集/images/Pasted image 20260524122701.png",
     "3 Resources/01-Tech/智能小车/RoboMaster/99-资源收集/images/Pasted image 20260523201512.png",
-    "3 Resources/01-Tech/智能小车/ESP32例程集/01-开发环境/imgs/Pasted image 20260219005528.png",
-    "3 Resources/01-Tech/智能小车/ESP32例程集/01-开发环境/imgs/Pasted image 20260219005727.png",
-    "3 Resources/01-Tech/智能小车/ESP32例程集/01-开发环境/imgs/Pasted image 20260219005834.png",
     "3 Resources/01-Tech/智能小车/ESP32例程集/01-开发环境/imgs/Pasted image 20260219160715.png",
     "3 Resources/01-Tech/智能小车/ESP32例程集/01-开发环境/imgs/Pasted image 20260219041958.png",
-    "4 Archives/6 APPLIED SCIENCES. MEDICINE. TECHNOLOGY/62 Engineering/RoboMaster/RoboMaster 开发者页面/Pasted image 20250104194923.png"
+    "3 Resources/01-Tech/智能小车/ESP32例程集/01-开发环境/imgs/Pasted image 20260219041742.png",
+    "3 Resources/01-Tech/智能小车/ESP32例程集/01-开发环境/imgs/Pasted image 20260219041524.png",
+    "3 Resources/01-Tech/智能小车/ESP32例程集/01-开发环境/imgs/Pasted image 20260219041326.png",
+    "3 Resources/01-Tech/智能小车/ESP32例程集/01-开发环境/imgs/Pasted image 20260219040921.png",
+    "3 Resources/01-Tech/智能小车/ESP32例程集/01-开发环境/imgs/Pasted image 20260219005834.png"
   ]
 }
