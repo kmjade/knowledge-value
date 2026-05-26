@@ -1,0 +1,8 @@
+{
+  "name": "context",
+  "description": "会话状态管理 - 快速加载 Vault 当前状态和上下文",
+  "instructions": "context.md",
+  "commands": ["context"],
+  "enabled": true
+}
+

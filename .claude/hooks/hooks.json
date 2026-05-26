@@ -1,0 +1,28 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "command": "echo '📊 Vault Status:' && echo '- Inbox files:' && find '0 Inbox' -name '*.md' -not -path '0 Inbox/_processed/*' 2>/dev/null | wc -l && echo '- Active projects:' && ls -d 1 Projects/*/ 2>/dev/null | wc -l",
+        "description": "Show vault status on session start"
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": {
+          "toolName": "Write|Edit"
+        },
+        "hooks": [
+          {
+            "command": "echo \"[$(date '+%Y-%m-%d %H:%M:%S')] Modified: {{file_path}}\" >> 'AI-Log/sessions/changes.log'",
+            "description": "Log file modifications"
+          }
+        ]
+      }
+    ]
+  },
+  "notes": {
+    "SessionStart": "Runs when a new Claude Code session starts. Displays quick status overview.",
+    "PostToolUse": "Runs after Write or Edit tools. Logs modifications to AI-Log/sessions/changes.log"
+  }
+}
+
