@@ -10,5 +10,7 @@
   "ioto-update",
   "ioto-dashboard",
   "ioto-template-generator",
-  "ioto-settings"
+  "ioto-settings",
+  "obsidian-git",
+  "wechat-converter"
 ]

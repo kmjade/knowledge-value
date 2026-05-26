@@ -259,4 +259,4 @@ code .
 - [[開始使用Docker遠端容器]] - Docker 開發
 
 ---
-> 📚 返回 [[../00-MOCs/MOC-總覽|WSL 知識庫總覽]]
+> 📚 返回 [[0 Inbox/_processed/01-Tech/WSL/00-MOCs/MOC-總覽|WSL 知識庫總覽]]

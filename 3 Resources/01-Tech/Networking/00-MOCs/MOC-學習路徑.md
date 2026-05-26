@@ -310,7 +310,7 @@ SORT file.mtime DESC
 
 ## 🔗 相關連結
 
-- 🔙 [[MOC-總覽|返回知識地圖]]
+- 🔙 [[0 Inbox/_processed/01-Tech/Networking/00-MOCs/MOC-總覽|返回知識地圖]]
 - 📖 [[README|返回知識庫首頁]]
 - 🛠️ [[06-實踐工具|實踐工具]]
 - 📝 [[08-筆記|學習筆記]]

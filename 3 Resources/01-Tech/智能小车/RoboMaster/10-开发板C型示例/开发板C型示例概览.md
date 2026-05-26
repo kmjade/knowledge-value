@@ -609,14 +609,14 @@ flowchart TD
 
 | 上一章 | 当前章 | 下一章 |
 |--------|--------|--------|
-| [[../09-开发板示例/开发板示例概览]] | **开发板 C 型示例概览** | [[../RoboMaster开发指南]] |
+| [[开发板示例概览]] | **开发板 C 型示例概览** | [[RoboMaster开发指南]] |
 
 ---
 
 ## 相关链接
 
-- [[../RoboMaster开发指南]] - 知识库主页
-- [[../09-开发板示例/开发板示例概览]] - 旧版开发板示例
+- [[RoboMaster开发指南]] - 知识库主页
+- [[开发板示例概览]] - 旧版开发板示例
 - [[C-RTOS 简化模板概览]] - 简化版 FreeRTOS 模板
 - [GitHub 仓库](https://github.com/RoboMaster/Development-Board-C-Examples)
 - [C-RTOS 简化模板](https://github.com/LinmingZhou234/C-RTOS)

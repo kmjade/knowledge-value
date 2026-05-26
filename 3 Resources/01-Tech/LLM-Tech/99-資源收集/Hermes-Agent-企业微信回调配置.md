@@ -149,4 +149,4 @@ WECOM_CALLBACK_ALLOWED_USERS=user1,user2
 - [Hermes Agent GitHub](https://github.com/NousResearch/hermes-agent)
 
 ---
-> 📚 相关: [[../../AI-ML/README|AI-ML 知识库]] | [[../00-MOCs/MOC-總覽|LLM-Tech 知识库]]
+> 📚 相关: [[../../AI-ML/README|AI-ML 知识库]] | [[0 Inbox/_processed/01-Tech/LLM-Tech/00-MOCs/MOC-總覽|LLM-Tech 知识库]]

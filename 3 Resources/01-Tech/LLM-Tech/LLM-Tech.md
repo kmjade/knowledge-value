@@ -21,7 +21,7 @@ modified: 2026-05-25
 # 大語言模型技術
 
 > [!info] 知識庫概述
-> 本知識庫系統化整理大語言模型（LLM）相關技術，涵蓋基礎概念、模型系列、訓練方法、提示工程、應用開發與部署優化。採用 [[wiki/index|LLM Wiki]] 方法論構建與維護。
+> 本知識庫系統化整理大語言模型（LLM）相關技術，涵蓋基礎概念、模型系列、訓練方法、提示工程、應用開發與部署優化。採用 [[0 Inbox/_processed/01-Tech/LLM-Tech/wiki/index|LLM Wiki]] 方法論構建與維護。
 
 ---
 
@@ -107,14 +107,14 @@ modified: 2026-05-25
 > [!note] LLM Wiki 方法論
 > 本知識庫採用 LLM Wiki 方法論，包含動態維護的 Wiki 頁面。
 
-- [[wiki/index]] - Wiki 內容索引
-- [[wiki/log]] - 操作日誌
+- [[0 Inbox/_processed/01-Tech/LLM-Tech/wiki/index]] - Wiki 內容索引
+- [[0 Inbox/_processed/01-Tech/LLM-Tech/wiki/log]] - 操作日誌
 
 ---
 
 ## 學習路徑
 
-詳見 [[00-MOCs/MOC-學習路徑|學習路徑]] 頁面。
+詳見 [[0 Inbox/_processed/01-Tech/LLM-Tech/00-MOCs/MOC-學習路徑|學習路徑]] 頁面。
 
 ---
 

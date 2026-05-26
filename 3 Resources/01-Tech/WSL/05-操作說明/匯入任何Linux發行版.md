@@ -251,4 +251,4 @@ sudo tar --numeric-owner -czvf distro.tar.gz /
 - [[安裝WSL]] - 安裝指南
 
 ---
-> 📚 返回 [[../00-MOCs/MOC-總覽|WSL 知識庫總覽]]
+> 📚 返回 [[0 Inbox/_processed/01-Tech/WSL/00-MOCs/MOC-總覽|WSL 知識庫總覽]]

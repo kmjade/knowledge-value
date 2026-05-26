@@ -187,4 +187,4 @@ wsl --update
 - [Reddit - r/bashonubuntuonwindows](https://www.reddit.com/r/bashonubuntuonwindows/)
 
 ---
-> 📚 返回 [[MOC-總覽|WSL 知識庫總覽]]
+> 📚 返回 [[0 Inbox/_processed/01-Tech/WSL/00-MOCs/MOC-總覽|WSL 知識庫總覽]]

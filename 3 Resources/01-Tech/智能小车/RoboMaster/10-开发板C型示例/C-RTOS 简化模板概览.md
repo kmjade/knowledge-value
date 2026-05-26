@@ -454,7 +454,7 @@ git clone https://github.com/LinmingZhou234/C-RTOS.git
 
 - [[开发板C型示例概览]] - 官方示例概览
 - [[ROBOMASTER开发板C型]] - 产品文档
-- [[../09-开发板示例/开发板示例概览]] - A 型板示例
+- [[开发板示例概览]] - A 型板示例
 - [GitHub 仓库](https://github.com/LinmingZhou234/C-RTOS)
 - [FreeRTOS 官方文档](https://www.freertos.org/)
 - [FreeRTOS 中文教程](https://doc.embedfire.com/rtos/freertos/zh/latest/index.html)

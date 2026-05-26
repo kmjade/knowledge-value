@@ -267,4 +267,4 @@ wsl --import Ubuntu-Restored D:\WSL\ D:\backup\ubuntu-20260525.tar
 - [[故障排除]] - 常見問題解決
 
 ---
-> 📚 返回 [[../00-MOCs/MOC-總覽|WSL 知識庫總覽]]
+> 📚 返回 [[0 Inbox/_processed/01-Tech/WSL/00-MOCs/MOC-總覽|WSL 知識庫總覽]]

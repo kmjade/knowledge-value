@@ -410,4 +410,4 @@ ss -tuln | grep LISTEN | wc -l
 - [[基本WSL命令]] - WSL 命令參考
 
 ---
-> 📚 返回 [[../00-MOCs/MOC-總覽|WSL 知識庫總覽]]
+> 📚 返回 [[0 Inbox/_processed/01-Tech/WSL/00-MOCs/MOC-總覽|WSL 知識庫總覽]]

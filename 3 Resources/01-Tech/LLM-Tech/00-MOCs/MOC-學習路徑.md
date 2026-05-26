@@ -48,5 +48,5 @@ modified: 2026-05-25
 
 ## 相關鏈接
 
-- [[MOC-總覽]]
-- [[../LLM-Tech|主索引頁]]
+- [[0 Inbox/_processed/01-Tech/LLM-Tech/00-MOCs/MOC-總覽]]
+- [[LLM-Tech|主索引頁]]

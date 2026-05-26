@@ -100,5 +100,5 @@ modified: YYYY-MM-DD
 ## 相關鏈接
 
 - [[LLM-Tech]] - 主索引頁
-- [[wiki/index]] - Wiki 內容索引
-- [[wiki/log]] - 操作日誌
+- [[0 Inbox/_processed/01-Tech/LLM-Tech/wiki/index]] - Wiki 內容索引
+- [[0 Inbox/_processed/01-Tech/LLM-Tech/wiki/log]] - 操作日誌

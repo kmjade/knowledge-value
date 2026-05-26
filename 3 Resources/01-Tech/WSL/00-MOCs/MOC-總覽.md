@@ -113,7 +113,7 @@ graph TD
 
 ## 學習路徑
 
-請參考 [[MOC-學習路徑]] 了解推薦的學習順序。
+請參考 [[0 Inbox/_processed/01-Tech/WSL/00-MOCs/MOC-學習路徑]] 了解推薦的學習順序。
 
 ## 外部資源
 

@@ -14,6 +14,37 @@ modified: 2026-05-25
 
 ---
 
+## [2026-05-27] ingest | 首批 raw 資料編譯
+
+**操作類型**: ingest
+
+**源文件**: 7 篇 raw 文章
+- `raw/articles/Hermes-LLM-Wiki-方法论.md`
+- `raw/articles/LLM-Wiki-三层架构.md`
+- `raw/articles/LLM-Wiki-Ingest流程.md`
+- `raw/articles/LLM-Wiki-Query流程.md`
+- `raw/articles/LLM-Wiki-Lint流程.md`
+- `raw/articles/Hermes-Agent简介.md`
+- `raw/articles/LLM基础概念.md`
+
+**創建頁面** (12):
+- `wiki/concepts/LLM-Wiki.md` - LLM Wiki 方法论
+- `wiki/concepts/Three-Layer-Architecture.md` - 三层架构
+- `wiki/concepts/Ingest-Workflow.md` - 导入工作流
+- `wiki/concepts/Query-Workflow.md` - 查询工作流
+- `wiki/concepts/Lint-Workflow.md` - 维护工作流
+- `wiki/concepts/LLM-Fundamentals.md` - LLM 基础概念
+- `wiki/entities/Hermes-Agent.md` - Hermes Agent 实体
+- `wiki/entities/Obsidian.md` - Obsidian 实体
+- `wiki/entities/IngestAgent.md` - IngestAgent 实体
+- `wiki/entities/QueryAgent.md` - QueryAgent 实体
+- `wiki/entities/LintAgent.md` - LintAgent 实体
+- `wiki/sources/source-Hermes-Workflow.md` - 来源溯源
+
+**說明**: 首次大规模编译，从 7 篇 raw 文章中提取出 6 個概念、5 個實體，建立完整 wikilinks 网络。
+
+---
+
 ## [2026-05-25] init | LLM-Tech 知識庫初始化
 
 **操作類型**: init
@@ -35,7 +66,7 @@ modified: 2026-05-25
 | 指標 | 數量 |
 |------|------|
 | 總操作次數 | 1 |
-| 導入次數 | 0 |
+| 導入次數 | 1 |
 | 查詢次數 | 0 |
 | 維護次數 | 0 |
 

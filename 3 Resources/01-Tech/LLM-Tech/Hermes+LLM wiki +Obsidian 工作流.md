@@ -6,8 +6,8 @@ aliases:
 para: resource
 domain:
   - "[[AI-Agent]]"
-  - "[[LLM-Wiki]]"
-  - "[[Hermes-Agent]]"
+  - "[[0 Inbox/_processed/01-Tech/LLM-Tech/wiki/concepts/LLM-Wiki]]"
+  - "[[0 Inbox/_processed/01-Tech/LLM-Tech/wiki/entities/Hermes-Agent]]"
 tags:
   - para/resource/tech
   - topic/ai-agent
@@ -641,8 +641,8 @@ def check_health():
 
 ### 內部鏈接
 
-- [[Hermes-Agent]] - Hermes Agent 知識庫
-- [[LLM-Wiki]] - LLM Wiki 方法論
+- [[0 Inbox/_processed/01-Tech/LLM-Tech/wiki/entities/Hermes-Agent]] - Hermes Agent 知識庫
+- [[0 Inbox/_processed/01-Tech/LLM-Tech/wiki/concepts/LLM-Wiki]] - LLM Wiki 方法論
 - [[三大操作]] - Ingest/Query/Lint 詳解
 - [[工作流]] - Hermes 工作流設計
 

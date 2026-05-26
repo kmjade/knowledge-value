@@ -4,7 +4,7 @@ tags:
   - index
   - topic/llm
 created: 2026-05-25
-modified: 2026-05-25
+modified: 2026-05-27
 ---
 
 # 知識庫索引
@@ -14,29 +14,28 @@ modified: 2026-05-25
 
 ---
 
-## 實體頁
-
-| 頁面 | 類型 | 說明 |
-|------|------|------|
-| (待創建) | 模型 | 主要 LLM 模型 |
-| (待創建) | 工具 | LLM 相關工具 |
-| (待創建) | 公司 | AI 公司與研究機構 |
-
----
-
 ## 概念頁
 
 | 頁面 | 說明 |
 |------|------|
-| (待創建) | 核心概念整理 |
+| [[0 Inbox/_processed/01-Tech/LLM-Tech/wiki/concepts/LLM-Wiki]] | LLM Wiki 方法论核心概念 |
+| [[Three-Layer-Architecture]] | 三层架构设计 |
+| [[Ingest-Workflow]] | 导入工作流 |
+| [[Query-Workflow]] | 查询工作流 |
+| [[Lint-Workflow]] | 维护工作流 |
+| [[LLM-Fundamentals]] | LLM 基础概念 |
 
 ---
 
-## 工作流頁
+## 實體頁
 
-| 頁面 | 說明 |
-|------|------|
-| (待創建) | 實踐工作流 |
+| 頁面 | 類型 | 說明 |
+|------|------|------|
+| [[0 Inbox/_processed/01-Tech/LLM-Tech/wiki/entities/Hermes-Agent]] | 工具 | AI Agent 框架 |
+| [[Obsidian]] | 工具 | 知识库 IDE 平台 |
+| [[IngestAgent]] | 工具 | Ingest 参考实现 |
+| [[QueryAgent]] | 工具 | Query 参考实现 |
+| [[LintAgent]] | 工具 | Lint 参考实现 |
 
 ---
 
@@ -44,7 +43,7 @@ modified: 2026-05-25
 
 | 頁面 | 來源 | 日期 |
 |------|------|------|
-| (待創建) | 資料摘要 | - |
+| [[source-Hermes-Workflow]] | Hermes+LLM wiki +Obsidian 工作流 | 2026-05-27 |
 
 ---
 
@@ -52,15 +51,14 @@ modified: 2026-05-25
 
 | 指標 | 數量 |
 |------|------|
-| 實體頁 | 0 |
-| 概念頁 | 0 |
-| 工作流頁 | 0 |
-| 資料摘要 | 0 |
-| **總計** | **0** |
+| 概念頁 | 6 |
+| 實體頁 | 5 |
+| 資料摘要 | 1 |
+| **總計** | **12** |
 
 ---
 
 ## 相關鏈接
 
-- [[log]] - 操作日誌
-- [[../LLM-Tech]] - 主索引頁
+- [[0 Inbox/_processed/01-Tech/LLM-Tech/wiki/log]] - 操作日誌
+- [[LLM-Tech]] - 主索引頁

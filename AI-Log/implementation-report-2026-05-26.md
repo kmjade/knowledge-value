@@ -406,7 +406,7 @@ AI-Log/sessions/
 - [x] Hooks 配置完成
 - [x] 日志文件创建
 - [x] 架构图文档化
-- [ ] 首次 `/triage` 运行
+- [x] 首次 `/triage` 运行 ✅ 2026-05-27
 - [ ] 首次 `/wiki-compile` 运行
 - [ ] Git 提交完成
 

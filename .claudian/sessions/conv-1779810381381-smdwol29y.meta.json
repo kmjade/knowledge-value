@@ -1,0 +1,24 @@
+{
+  "id": "conv-1779810381381-smdwol29y",
+  "providerId": "claude",
+  "title": "Implement PARA+LLM-Wiki knowledge management sy...",
+  "titleGenerationStatus": "success",
+  "createdAt": 1779810381382,
+  "updatedAt": 1779830558498,
+  "lastResponseAt": 1779830558497,
+  "sessionId": "5f469056-7234-43e2-be55-33e48a93b1c5",
+  "providerState": {
+    "providerSessionId": "5f469056-7234-43e2-be55-33e48a93b1c5"
+  },
+  "currentNote": "0 Inbox/_processed/LifeOS × LLM-Wiki 融合系统.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 162,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 73728,
+    "contextWindow": 200000,
+    "contextTokens": 73890,
+    "percentage": 37,
+    "contextWindowIsAuthoritative": true
+  }
+}

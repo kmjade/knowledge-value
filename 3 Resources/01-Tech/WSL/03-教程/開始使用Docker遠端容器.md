@@ -408,4 +408,4 @@ docker system df
 - [[網路相關考量]] - 網路設定
 
 ---
-> 📚 返回 [[../00-MOCs/MOC-總覽|WSL 知識庫總覽]]
+> 📚 返回 [[0 Inbox/_processed/01-Tech/WSL/00-MOCs/MOC-總覽|WSL 知識庫總覽]]

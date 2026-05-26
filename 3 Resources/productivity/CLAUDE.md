@@ -33,7 +33,7 @@ productivity/
 ## 核心概念域
 
 ### 方法论
-- GTD (Getting Things Done)
+- GTD(Getting Things Done)]]
 - PARA Method
 - Zettelkasten
 - Second Brain
@@ -41,7 +41,7 @@ productivity/
 - Time Blocking
 
 ### 工具类型
-- 笔记软件 (Obsidian, Notion, Roam)
+- 笔记软件 (Obsidian, Notion, Roam, 飞书)
 - 任务管理 (Todoist, Things, Tasks)
 - 时间追踪 (Toggl, RescueTime)
 - 知识管理 (Readwise, Pocket)

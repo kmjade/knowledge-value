@@ -4,24 +4,57 @@
     "type": "split",
     "children": [
       {
-        "id": "5afde68db193449d",
+        "id": "e3560b5533bb0455",
         "type": "tabs",
         "children": [
           {
-            "id": "8ef8def20bcbfe74",
+            "id": "99a223cb80b38ee8",
+            "type": "leaf",
+            "state": {
+              "type": "ioto-dashboard-view",
+              "state": {
+                "isZenMode": false,
+                "activeCategory": "Input",
+                "activeTab": "Notes",
+                "activeQueryId": null,
+                "sortOption": "modified",
+                "sortOrder": "desc",
+                "groupOption": "none"
+              },
+              "icon": "columns-3",
+              "title": "IOTO 仪表盘"
+            }
+          },
+          {
+            "id": "94406016762e86d4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0 Inbox/Clippings/LifeOS × LLM-Wiki 融合系统.md",
+                "file": "3 Resources/03-Productivity/Tools/Obsidian Web Clipper完全指南：如何快速掌握网页内容捕获神器.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "LifeOS × LLM-Wiki 融合系统"
+              "title": "Obsidian Web Clipper完全指南：如何快速掌握网页内容捕获神器"
+            }
+          },
+          {
+            "id": "615d66e1962440e7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3 Resources/productivity/raw/articles/Obsidian/99-资源收集/Obsidian 插件推荐.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Obsidian 插件推荐"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -44,7 +77,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "檔案瀏覽器"
+              "title": "文件列表"
             }
           },
           {
@@ -78,7 +111,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 231.5
+    "width": 284.5
   },
   "right": {
     "id": "19cea027a20285b0",
@@ -154,17 +187,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_templates/general/資源收集_繁體.md",
+                "file": "3 Resources/03-Productivity/工作技巧/Claudian/Obsidian + Claudian 集成方案.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "資源收集_繁體 的大綱"
+              "title": "Obsidian + Claudian 集成方案 的大纲"
             }
           },
           {
-            "id": "de06f48ddccdbeaa",
+            "id": "12ce29d2ceb39a3a",
             "type": "leaf",
             "state": {
               "type": "claudian-view",
@@ -178,64 +211,68 @@
       }
     ],
     "direction": "horizontal",
-    "width": 230.5
+    "width": 376.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "templater-obsidian:Templater": false,
-      "obsidian42-brat:BRAT": false,
-      "ioto-dashboard:開啟 IOTO 儀表板": false,
-      "ioto-dashboard:開啟 IOTO 任務儀表板": false,
-      "ioto-dashboard:開啟 IOTO 筆記儀表板": false,
-      "ioto-template-generator:打開生成器": false,
-      "switcher:開啟快速切換": false,
-      "graph:查看關聯圖": false,
-      "canvas:建立新畫布": false,
-      "daily-notes:開啟今天的每日筆記": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false,
+      "ioto-dashboard:打开 IOTO 仪表盘": false,
+      "ioto-dashboard:打开 IOTO 任务仪表盘": false,
+      "ioto-dashboard:打开 IOTO 笔记仪表盘": false,
+      "ioto-template-generator:打开生成器": false,
       "templates:插入模板": false,
-      "command-palette:開啟命令面板": false,
-      "bases:建立新的 base": false,
-      "claudian:Open Claudian": false
+      "templater-obsidian:Templater": false,
+      "claudian:Open Claudian": false,
+      "obsidian42-brat:BRAT": false,
+      "ioto-settings:开启仅同步当前文件模式": false,
+      "ioto-settings:关闭仅同步当前文件模式": false,
+      "obsidian-git:Open Git source control": false,
+      "wechat-converter:Obsidian 发布助手": false
     }
   },
-  "active": "460a9e42de521b6a",
+  "active": "94406016762e86d4",
   "lastOpenFiles": [
-    "0 Inbox/1-输入/LifeOS × LLM-Wiki 融合系统.md",
-    "0 Inbox/Clippings/LifeOS × LLM-Wiki 融合系统.md",
-    "0 Inbox/1-输入/Clippings/2026 大模型 API 价格对比（5月更新）：40+ 模型一表看清.md",
-    "0 Inbox/Clippings",
-    "0 Index/Clippings/LifeOS × LLM-Wiki 融合系统.md",
-    "0 Index/Clippings",
-    "0 Index",
-    "Clippings/LifeOS × LLM-Wiki 融合系统.md",
-    "Clippings",
-    "3 Resources/01-Tech/AI-ML/Claude Code/Claude Code 安装配置完整指南.md",
-    "3 Resources/01-Tech/AI-ML/Claudian/Obsidian + Claudian 集成方案.md",
-    "3 Resources/01-Tech/AI-ML/Claudian/Obsidian × Claudian × Skills：打造真正会“思考”的个人知识库.md",
-    "3 Resources/01-Tech/AI-ML/Claudian/obsidian安装claude报错：Claude Code native binary not found.md",
-    "3 Resources/03-Productivity/Tools/Obsidian Web Clipper完全指南：如何快速掌握网页内容捕获神器.md",
-    "3 Resources/03-Productivity/Methods/Methods.md",
-    "3 Resources/03-Productivity/工作技巧/Claude Code 使用整合指南.md",
-    "3 Resources/03-Productivity/工作技巧/解决“因为在此系统上禁止运行脚本”的问题.md",
-    "3 Resources/04-Interests/Travel/Travel.md",
-    "3 Resources/04-Interests/Hobbies/Hobbies.md",
-    "3 Resources/04-Interests/Cooking/Cooking.md",
-    "3 Resources/01-Tech/🧠 AI 知識(舊)/🛠️ 工具/Claude-Code/【2025最新教程】Claude Code国内使用_保姆级新手安装使用教程_最强AI编程工具.md",
-    "3 Resources/02-Learning/02-Learning.md",
-    "3 Resources/03-Productivity/03-Productivity.md",
-    "3 Resources/04-Interests/04-Interests.md",
-    "3 Resources/05-Reference/05-Reference.md",
-    "3 Resources/01-Tech/属性里如何自动生成uuid.md",
-    "3 Resources/01-Tech/WSL/02-安裝/安裝WSL.md",
-    "package.json",
-    "node_modules/node/bin/node.exe",
-    "node_modules/node/bin/node",
-    "node_modules/node/bin",
-    "node_modules/node/node_modules/node-win-x64/package.json",
-    "node_modules/node/node_modules/node-win-x64/bin/node.exe",
-    "node_modules/node/README.md",
-    "3 Resources/3 Resources.md",
-    "0 Inbox/0 Inbox.md",
+    "3 Resources/productivity/raw/articles/PARA/01-PARA概述/01-PARA 概述.md",
+    "3 Resources/productivity/raw/articles/PARA/README.md",
+    "3 Resources/productivity/raw/articles/OKR/01-概述/01-OKR 概述.md",
+    "3 Resources/productivity/raw/articles/OKR/README.md",
+    "3 Resources/productivity/raw/articles/Zettelkasten/03-链接/03-链接思维.md",
+    "3 Resources/productivity/raw/articles/Zettelkasten/02-原子笔记/02-原子笔记.md",
+    "3 Resources/productivity/raw/articles/Zettelkasten/01-概述/01-Zettelkasten 概述.md",
+    "3 Resources/productivity/raw/articles/Zettelkasten/00-MOCs/Zettelkasten 知识库总览.md",
+    "3 Resources/productivity/raw/articles/Zettelkasten/README.md",
+    "3 Resources/productivity/raw/articles/OKR/05-评分与复盘/05-评分与复盘.md",
+    "3 Resources/productivity/raw/articles/OKR/04-对齐与层级/04-对齐与层级.md",
+    "3 Resources/productivity/raw/articles/OKR/99-资源收集/OKR 资源收集.md",
+    "3 Resources/productivity/raw/articles/OKR/07-工具实践/07-工具实践.md",
+    "3 Resources/productivity/raw/articles/OKR/08-常见错误/08-常见错误.md",
+    "3 Resources/productivity/raw/articles/OKR/06-实施指南/06-实施指南.md",
+    "3 Resources/productivity/raw/articles/OKR/04-对齐与层级",
+    "3 Resources/productivity/raw/articles/OKR/99-资源收集",
+    "3 Resources/productivity/raw/articles/OKR/05-评分与复盘",
+    "3 Resources/productivity/raw/articles/OKR/07-工具实践",
+    "3 Resources/productivity/raw/articles/OKR/06-实施指南",
+    "3 Resources/productivity/raw/articles/OKR/08-常见错误",
+    "3 Resources/productivity/CLAUDE.md",
+    "3 Resources/productivity/raw/articles/OKR/00-MOCs/OKR 知识库总览.md",
+    "3 Resources/productivity/raw/articles/OKR/02-目标O/02-目标 Objective.md",
+    "3 Resources/productivity/raw/articles/OKR/00-MOCs/OKR 学习路径.md",
+    "3 Resources/productivity/raw/articles/OKR/03-关键结果KR/03-关键结果 Key Result.md",
+    "3 Resources/productivity/raw/articles/OKR/01-概述",
+    "3 Resources/productivity/raw/articles/OKR/02-目标O",
+    "3 Resources/productivity/raw/articles/OKR/00-MOCs",
+    "3 Resources/productivity/raw/articles/OKR/03-关键结果KR",
+    "3 Resources/productivity/raw/articles/Zettelkasten/99-资源收集/Zettelkasten 资源收集.md",
+    "3 Resources/productivity/raw/articles/Zettelkasten/07-方法对比/07-方法对比.md",
+    "3 Resources/productivity/raw/articles/Zettelkasten/04-编号系统/04-编号系统.md",
+    "3 Resources/productivity/raw/articles/Zettelkasten/05-写作流程/05-写作流程.md",
+    "3 Resources/productivity/raw/articles/Zettelkasten/06-工具实践/06-工具实践.md",
+    "3 Resources/productivity/raw/articles/Zettelkasten/00-MOCs/Zettelkasten 学习路径.md",
     "3 Resources/01-Tech/智能小车/RoboMaster/99-资源收集/images/Pasted image 20260524122959.png",
     "3 Resources/01-Tech/智能小车/RoboMaster/99-资源收集/images/Pasted image 20260524122701.png",
     "3 Resources/01-Tech/智能小车/RoboMaster/99-资源收集/images/Pasted image 20260523201512.png",

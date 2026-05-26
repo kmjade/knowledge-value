@@ -36,11 +36,11 @@ modified: 2026-05-25
 
 ## 學習路徑
 
-見 [[MOC-學習路徑]]
+見 [[0 Inbox/_processed/01-Tech/LLM-Tech/00-MOCs/MOC-學習路徑]]
 
 ---
 
 ## 相關鏈接
 
-- [[../LLM-Tech|主索引頁]]
-- [[../wiki/index|Wiki 索引]]
+- [[LLM-Tech|主索引頁]]
+- [[0 Inbox/_processed/01-Tech/LLM-Tech/wiki/index|Wiki 索引]]

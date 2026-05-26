@@ -181,7 +181,7 @@ dv.table(['指标', '当前值'], [
 # 文檔
 
 # AI 知識
-- [[3 Resources/01-Tech/AI-ML/Prompt模板.md]] - Prompt 模板库
+- [[Prompt模板]] - Prompt 模板库
 # 指南
 
 # 文檔

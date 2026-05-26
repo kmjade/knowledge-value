@@ -189,10 +189,10 @@ graph TD
 
 ## 🎯 快速導航
 
-- 📖 [[MOC-學習路徑|推薦學習路徑]]
+- 📖 [[0 Inbox/_processed/01-Tech/SolidWorks/00-MOCs/MOC-學習路徑|推薦學習路徑]]
 - 🛠️ [[../15-問題解決|常見問題解決]]
 - 📚 [[../99-資源收集|學習資源推薦]]
-- 🔙 [[../SolidWorks|返回模塊索引]]
+- 🔙 [[SolidWorks|返回模塊索引]]
 
 ---
 
@@ -217,7 +217,7 @@ GROUP BY status
 
 > [!tip] 使用說明
 > - 使用 `Ctrl/Cmd + K` 快速搜尋
-> - 建議按 [[MOC-學習路徑]] 順序學習
+> - 建議按 [[0 Inbox/_processed/01-Tech/SolidWorks/00-MOCs/MOC-學習路徑]] 順序學習
 > - 每個模塊都有對應的實踐建議
 > - 遇到問題查看 [[../15-問題解決|問題解決]]
 

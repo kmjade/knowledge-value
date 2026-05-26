@@ -236,7 +236,7 @@ skills_matrix = {
 ### 相關區域
 
 - [[2 Areas/02-Career/02-Career.md|02-Career 職業發展]] - 技能提升規劃
-- [[5 Zettels/5 Zettels.md|Zettels]] - 知識卡片系統
+- [[5 Zettels|Zettels]] - 知識卡片系統
 
 ### 相關資源
 

@@ -272,13 +272,13 @@ roslaunch roborts_bringup roborts.launch
 
 | 上一章 | 当前章 | 下一章 |
 |--------|--------|--------|
-| [[../RoboMaster开发指南]] | **RoboRTS 教程概览** | [[architecture]] |
+| [[RoboMaster开发指南]] | **RoboRTS 教程概览** | [[architecture]] |
 
 ---
 
 ## 相关链接
 
-- [[../RoboMaster开发指南]] - RoboMaster 知识库主页
-- [[../10-开发板C型示例/开发板C型示例概览]] - 开发板 C 型教程
+- [[RoboMaster开发指南]] - RoboMaster 知识库主页
+- [[开发板C型示例概览]] - 开发板 C 型教程
 - [RoboRTS GitHub](https://github.com/RoboMaster/RoboRTS)
 - [在线文档](https://robomaster.github.io/RoboRTS-Tutorial/)

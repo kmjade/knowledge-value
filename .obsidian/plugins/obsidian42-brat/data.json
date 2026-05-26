@@ -1,10 +1,20 @@
 {
   "pluginList": [
+    "davidlam-oss/obsidian-wechat-converter",
+    "vinzent03/obsidian-git",
     "zsviczian/obsidian-excalidraw-plugin",
     "shawndotty/ioto-update",
     "YishenTu/claudian"
   ],
   "pluginSubListFrozenVersion": [
+    {
+      "repo": "davidlam-oss/obsidian-wechat-converter",
+      "version": ""
+    },
+    {
+      "repo": "vinzent03/obsidian-git",
+      "version": ""
+    },
     {
       "repo": "zsviczian/obsidian-excalidraw-plugin",
       "version": ""

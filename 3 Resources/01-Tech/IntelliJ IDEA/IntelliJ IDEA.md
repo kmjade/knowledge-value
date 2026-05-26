@@ -25,8 +25,8 @@ created: 2026-05-21
 
 | 模塊 | 說明 | 狀態 |
 |------|------|------|
-| [[00-MOCs/MOC-總覽\|📖 知識體系]] | 完整架構與導航 | `#status/active` |
-| [[00-MOCs/MOC-學習路徑\|🎯 學習路徑]] | 推薦學習順序 | `#status/active` |
+| [[0 Inbox/_processed/01-Tech/IntelliJ IDEA/00-MOCs/MOC-總覽\|📖 知識體系]] | 完整架構與導航 | `#status/active` |
+| [[0 Inbox/_processed/01-Tech/WSL/00-MOCs/MOC-學習路徑\|🎯 學習路徑]] | 推薦學習順序 | `#status/active` |
 | [[01-基礎入門\|01 基礎入門]] | 界面、項目、配置 | `#status/to-learn` |
 | [[02-代碼編輯\|02 代碼編輯]] | 編輯器技巧、代碼生成 | `#status/to-learn` |
 | [[03-調試技巧\|03 調試技巧]] | 斷點、變量監控 | `#status/to-learn` |
@@ -44,8 +44,8 @@ created: 2026-05-21
 
 ## 快速導航
 
-- 📖 [[00-MOCs/MOC-總覽|知識體系總覽]]
-- 🎯 [[00-MOCs/MOC-學習路徑|推薦學習路徑]]
+- 📖 [[0 Inbox/_processed/01-Tech/IntelliJ IDEA/00-MOCs/MOC-總覽|知識體系總覽]]
+- 🎯 [[0 Inbox/_processed/01-Tech/WSL/00-MOCs/MOC-學習路徑|推薦學習路徑]]
 - ⌨️ [[11-快捷鍵大全|快捷鍵速查]]
 - 🔌 [[06-插件系統|插件推薦]]
 - 📚 [[99-資源收集|學習資源]]

@@ -25,8 +25,8 @@ created: 2026-05-21
 
 | 模塊 | 說明 | 狀態 |
 |------|------|------|
-| [[00-MOCs/MOC-總覽\|📖 知識體系]] | 完整架構與導航 | `#status/active` |
-| [[00-MOCs/MOC-學習路徑\|🎯 學習路徑]] | 推薦學習順序 | `#status/active` |
+| [[0 Inbox/_processed/01-Tech/SolidWorks/00-MOCs/MOC-總覽\|📖 知識體系]] | 完整架構與導航 | `#status/active` |
+| [[0 Inbox/_processed/01-Tech/SolidWorks/00-MOCs/MOC-學習路徑\|🎯 學習路徑]] | 推薦學習順序 | `#status/active` |
 | [[01-基礎入門\|01 基礎入門]] | 界面、文件、視圖、設置 | `#status/to-learn` |
 | [[02-草圖繪製\|02 草圖繪製]] | 草圖創建與約束 | `#status/to-learn` |
 | [[03-零件建模\|03 零件建模]] | 特徵建模技術 | `#status/to-learn` |
@@ -49,8 +49,8 @@ created: 2026-05-21
 
 ## 快速導航
 
-- 📖 [[00-MOCs/MOC-總覽|知識體系總覽]]
-- 🎯 [[00-MOCs/MOC-學習路徑|推薦學習路徑]]
+- 📖 [[0 Inbox/_processed/01-Tech/SolidWorks/00-MOCs/MOC-總覽|知識體系總覽]]
+- 🎯 [[0 Inbox/_processed/01-Tech/SolidWorks/00-MOCs/MOC-學習路徑|推薦學習路徑]]
 - 📚 [[99-資源收集|學習資源]]
 - 🛠️ [[15-問題解決|問題解決]]
 

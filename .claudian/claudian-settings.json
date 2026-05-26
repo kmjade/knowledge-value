@@ -12,7 +12,15 @@
   "systemPrompt": "",
   "persistentExternalContextPaths": [],
   "sharedEnvironmentVariables": "",
-  "envSnippets": [],
+  "envSnippets": [
+    {
+      "id": "snippet-1777220341390",
+      "name": "Zhipu GLM",
+      "description": "https://open.bigmodel.cn",
+      "envVars": "ANTHROPIC_AUTH_TOKEN=c2dbc2fff33140ea9817e21c83b83467.23lm0DPGFKMQnXJ5\nANTHROPIC_BASE_URL=https://open.bigmodel.cn/api/anthropic\nANTHROPIC_MODEL=glm-5.1",
+      "scope": "provider:claude"
+    }
+  ],
   "customContextLimits": {},
   "keyboardNavigation": {
     "scrollUpKey": "w",
@@ -26,8 +34,7 @@
       "cliPath": "",
       "cliPathsByHost": {
         "device:65cfab17-3531-458a-9bcb-bfaee63f03ca": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
-        "PC-DELL": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
-        "BaiFu-ThinkBook": "C:\\Users\\lenovo\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe"
+        "PC-DELL": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe"
       },
       "loadUserSettings": true,
       "enableChrome": false,
@@ -50,8 +57,7 @@
       "installationMethodsByHost": {
         "DESKTOP-4352T4A": "native-windows",
         "device:65cfab17-3531-458a-9bcb-bfaee63f03ca": "native-windows",
-        "PC-DELL": "native-windows",
-        "BaiFu-ThinkBook": "native-windows"
+        "PC-DELL": "native-windows"
       },
       "wslDistroOverridesByHost": {}
     },

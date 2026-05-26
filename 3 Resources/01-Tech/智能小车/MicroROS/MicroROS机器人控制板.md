@@ -48,8 +48,8 @@ modified: 2026-05-23
 
 | 模塊 | 說明 | 狀態 |
 |------|------|------|
-| [[00-MOCs/MOC-總覽\|📖 知識體系]] | 完整架構與導航 | `#status/active` |
-| [[00-MOCs/MOC-學習路徑\|🎯 學習路徑]] | 系統化學習順序 | `#status/active` |
+| [[0 Inbox/_processed/01-Tech/智能小车/MicroROS/00-MOCs/MOC-總覽\|📖 知識體系]] | 完整架構與導航 | `#status/active` |
+| [[0 Inbox/_processed/01-Tech/智能小车/MicroROS/00-MOCs/MOC-學習路徑\|🎯 學習路徑]] | 系統化學習順序 | `#status/active` |
 | [[01-硬件介绍\|01 硬件介紹]] | 控制板規格與接口 | `#status/active` |
 | [[02-开发环境\|02 開發環境]] | ESP32-IDF 環境搭建 | `#status/active` |
 | [[03-基础外设\|03 基礎外設]] | LED/按鍵/蜂鳴器/串口 | `#status/to-learn` |
@@ -64,9 +64,9 @@ modified: 2026-05-23
 
 ## 快速導航
 
-- 📖 [[00-MOCs/MOC-總覽|知識體系總覽]]
-- 🎯 [[00-MOCs/MOC-學習路徑|學習路徑規劃]]
-- 🔌 [[01-硬件介绍/MicroROS控制板硬件规格|硬件規格]]
+- 📖 [[0 Inbox/_processed/01-Tech/智能小车/MicroROS/00-MOCs/MOC-總覽|知識體系總覽]]
+- 🎯 [[0 Inbox/_processed/01-Tech/智能小车/MicroROS/00-MOCs/MOC-學習路徑|學習路徑規劃]]
+- 🔌 [[MicroROS控制板硬件规格|硬件規格]]
 - 🛠️ [[02-开发环境/开发环境搭建总览|開發環境搭建]]
 - 📚 [[99-资源收集|學習資源]]
 

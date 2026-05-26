@@ -28,9 +28,9 @@ udc: "004.9:62"
 
 | 模塊 | 說明 | 狀態 |
 |------|------|------|
-| [[00-MOCs/MOC-總覽\|📖 知識體系]] | 完整架構與導航 | `#status/active` |
-| [[00-MOCs/MOC-學習路徑\|🎯 學習路徑]] | 機械製圖學習順序 | `#status/active` |
-| [[01-基础入门\|01 基礎入門]] | 界面、文件、視圖、設置 | `#status/learning` |
+| [[0 Inbox/_processed/01-Tech/AutoCAD/00-MOCs/MOC-總覽\|📖 知識體系]] | 完整架構與導航 | `#status/active` |
+| [[0 Inbox/_processed/01-Tech/AutoCAD/00-MOCs/MOC-學習路徑\|🎯 學習路徑]] | 機械製圖學習順序 | `#status/active` |
+| [[3 Resources/productivity/raw/articles/Notion/01-基础入门/01-基础入门\|01 基礎入門]] | 界面、文件、視圖、設置 | `#status/learning` |
 | [[02-绘图基础\|02 繪圖基礎]] | 基本圖形、坐標系統 | `#status/to-learn` |
 | [[03-编辑修改\|03 編輯修改]] | 編輯命令、對象操作 | `#status/to-learn` |
 | [[04-图层管理\|04 圖層管理]] | 圖層系統 | `#status/to-learn` |
@@ -53,8 +53,8 @@ udc: "004.9:62"
 
 ## 快速導航
 
-- 📖 [[00-MOCs/MOC-總覽|知識體系總覽]]
-- 🎯 [[00-MOCs/MOC-學習路徑|學習路徑規劃]]
+- 📖 [[0 Inbox/_processed/01-Tech/AutoCAD/00-MOCs/MOC-總覽|知識體系總覽]]
+- 🎯 [[0 Inbox/_processed/01-Tech/AutoCAD/00-MOCs/MOC-學習路徑|學習路徑規劃]]
 - 📚 [[99-资源收集|學習資源]]
 - 🔗 [[../SolidWorks|SolidWorks 知識庫]] - 三維建模對比學習
 
