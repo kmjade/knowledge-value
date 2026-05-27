@@ -71,3 +71,4 @@ MetaTrader 是全球最广泛使用的零售在线交易平台，由 MetaQuotes 
 
 - [MetaTrader 官方网站](https://www.metatrader.com/zh)
 - [MetaTrader 百度百科](https://baike.baidu.com/item/MetaTrader)
+- [[3 Resources/finance/raw/MetaTrader/01-平台概览/01-平台概览.md]]

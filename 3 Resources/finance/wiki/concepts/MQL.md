@@ -98,3 +98,4 @@ void OnDeinit(const int reason) {
 - [MQL5 官方文档](https://www.mql5.com)
 - [MQL4 百度百科](https://baike.baidu.com/item/MQL4)
 - [MQL5 百度百科](https://baike.baidu.com/item/MQL5)
+- [[3 Resources/finance/raw/MetaTrader/07-MQL编程/07-MQL 编程.md]]

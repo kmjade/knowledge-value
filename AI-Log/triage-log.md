@@ -23,7 +23,14 @@ purpose: triage
 
 **主题**: 全量分拣
 
-### 文件: 原子化笔记：如何把一篇文章炼成10张可复用的知识卡片.md
+### 文件: 29 个 Inbox 文件批量分拣
+- 分类: reference
+- ai-ml: 15 个文件
+- productivity: 13 个文件
+- 已 triaged 直接移入 _processed: 1 个文件
+- 状态: success
+
+---
 - 分类: reference
 - 主题: Productivity
 - 目标: 3 Resources/productivity/raw/articles/

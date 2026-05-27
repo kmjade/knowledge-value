@@ -12,9 +12,9 @@ type: wiki-index
 
 ## 统计
 
-- 概念页面: 3
+- 概念页面: 8
 - 实体页面: 3
-- 来源页面: 0
+- 来源页面: 1
 
 ## 概念索引
 
@@ -22,7 +22,12 @@ type: wiki-index
 |------|------|
 | [[concepts/Algorithmic-Trading]] | 算法交易：使用程序自动执行交易决策 |
 | [[concepts/Expert-Advisor]] | EA 智能交易系统：MetaTrader 自动交易机器人 |
-| [[concepts/MQL]] | MQL 编程语言：MetaTrader 内置交易策略编写语言 |
+| [[concepts/MQL]] | MQL 编程语言：MQL4/MQL5 交易策略编写 |
+| [[concepts/Backtesting]] | 策略回测：历史数据验证策略表现 |
+| [[concepts/Risk-Management]] | 风险管理：仓位计算、止损、资金保护 |
+| [[concepts/Technical-Analysis]] | 技术分析：价格图表、指标、趋势判断 |
+| [[concepts/Order-Types]] | 订单类型：市价单、挂单（Limit/Stop） |
+| [[concepts/Broker-Selection]] | 经纪商选择：监管、成本、资金安全 |
 
 ## 实体索引
 
@@ -32,22 +37,36 @@ type: wiki-index
 | [[entities/MT4]] | 平台 | MetaTrader 4 — 外汇交易经典版本 |
 | [[entities/MT5]] | 平台 | MetaTrader 5 — 多资产升级版本 |
 
+## 来源索引
+
+| 页面 | 来源 | 日期 |
+|------|------|------|
+| [[sources/source-MetaTrader-Raw]] | MetaTrader 知识库原始资料 | 2026-05-26 |
+
 ## 知识关系
 
 ```
-MetaTrader (平台)
-    │
-    ├── MT4 ──── MQL4 ──── EA (自动交易)
-    │
-    └── MT5 ──── MQL5 ──── EA (多线程/多资产)
-                        │
-                        ▼
-                  Algorithmic Trading
+                    Algorithmic-Trading
+                           │
+              ┌────────────┼────────────┐
+              │            │            │
+         Expert-Advisor  Backtesting  Risk-Management
+              │            │            │
+              └─────┬──────┘      Technical-Analysis
+                    │
+                  MQL (语言)
+                    │
+              ┌─────┴─────┐
+              │           │
+            MT4         MT5
+              └─────┬─────┘
+                    │
+              MetaTrader (平台)
 ```
 
 ## 最近更新
 
-- 2026-05-27: 首次编译 — MetaTrader 知识库 3 概念 / 3 实体
+- 2026-05-27: 三次编译 — 新增 Order-Types, Broker-Selection, 共 8 概念
 
 ---
 
