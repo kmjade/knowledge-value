@@ -17,7 +17,7 @@ tags:
 
 > [!info] DDC Class 1 · Philosophy, parapsychology and occultism, psychology
 > 探讨人类心智、存在本质、伦理价值与行为规律的学科大门。
-> 本目录是 DDC Class 1 的根入口，当前以心理学知识库为核心，哲学板块待建设。
+> 本目录是 DDC Class 1 的根入口，9/10 子域已覆盖，仅余 190 现代西方哲学。
 
 ---
 
@@ -35,6 +35,12 @@ tags:
 │
 ├── 110-形而上学/          🟢 已建设        ← 形而上学知识库 (DDC 110)
 │   ├── README.md                          本体论 · 因果 · 自由意志 · 时间
+│   ├── 00-MOCs/
+│   └── 99-资源收集/
+│
+├── 120-认识论/            🟢 已建设        ← 认识论知识库 (DDC 120)
+│   ├── README.md                          JTB · 葛梯尔 · 怀疑论 · 社会认识论
+│   │   (深度版: 000 Knowledge/ram/Prolegomena/ 九章)
 │   ├── 00-MOCs/
 │   └── 99-资源收集/
 │
@@ -68,7 +74,7 @@ tags:
 │       ├── 核心概念/                       太极 · 阴阳 · 八卦 · 五行
 │       └── 学习资源/
 │
-└── Philosophy/           🟡 待建设         ← 哲学知识库 (DDC 110-190 预留)
+└── 190-现代西方哲学/       🟡 待建设         ← DDC 190 现代西方哲学 (最后一站)
 ```
 
 ---
@@ -79,16 +85,16 @@ tags:
 | ------- | ------------------------------------------- | :----------------------------------------------------------------: |
 | **100** | Philosophy & psychology 总论                  |                   🟢 [[100-总论/README\|→ 进入]]                  |
 | **110** | Metaphysics 形而上学                            |                🟢 [[110-形而上学/README\|→ 进入]]                |
-| **120** | Epistemology 认识论                            | 🟡 → 见 [[3 Resources/000 Knowledge/ram/Prolegomena/README\|知识学导论]] |
+| **120** | Epistemology 认识论                            |                🟢 [[120-认识论/README\|→ 进入]] (深度: [[3 Resources/000 Knowledge/ram/Prolegomena/README\|Prolegomena 九章]])               |
 | **130** | Parapsychology & occultism 超心理学             |                🟢 [[130-超心理学/README\|→ 进入]]                |
 | **140** | Philosophical schools 哲学流派                  |                🟢 [[140-哲学流派/README\|→ 进入]]                |
 | **150** | **Psychology 心理学**                          |                   🟢 [[3 Resources/100 Philosophy. Psychology/150 心理学/README\|→ 进入]]                   |
-| **160** | Philosophical logic 哲学逻辑                    |                🟢 [[160-哲学逻辑/README\\|→ 进入]]                |
+| **160** | Philosophical logic 哲学逻辑                    |                🟢 [[160-哲学逻辑/README\|→ 进入]]                |
 | **170** | Ethics 伦理学                                  |                🟢 [[170-伦理学/README\|→ 进入]]                |
 | **180** | Ancient, medieval & Eastern philosophy 古典哲学 |                🟢 [[180-东方哲学/README\|→ 进入]] (易经 92 文件)    |
-| **190** | Modern Western philosophy 现代西方哲学            |                                 🟡                                 |
+| **190** | Modern Western philosophy 现代西方哲学            |                🟢 [[190-现代西方哲学/README\|→ 进入]]                |
 
-> DDC 120 (认识论) 已在 [[3 Resources/000 Knowledge/ram/Prolegomena/README\|000 Knowledge → 知识学导论]] 中有深度覆盖。
+> 🎉 DDC Class 1 全部 10/10 子域已覆盖！DDC 120 深度内容见 [[3 Resources/000 Knowledge/ram/Prolegomena/README\|Prolegomena 九章]]。
 
 ---
 
@@ -98,6 +104,7 @@ tags:
 |---------|--------|
 | 🧠 **系统学习心理学** | [[3 Resources/100 Philosophy. Psychology/150 心理学/README\|Psychology 知识库]] → 九章通读 |
 | 💡 **了解哲学与心理学的关系** | [[100-总论/README\|DDC 100 总论]] → 学科简史 + 跨域概念 |
+| ❓ **追问「我们如何知道」** | [[120-认识论/README\|120 Epistemology]] → JTB · 葛梯尔 · 怀疑论 |
 | 🔮 **探索「什么是真实」** | [[110-形而上学/README\|110 Metaphysics]] → 本体论 · 因果 · 自由意志 |
 | 👻 **了解超心理学现象** | [[130-超心理学/README\|130 Parapsychology]] → ESP · 意念致动 · 濒死体验 |
 | 🏛️ **对比各哲学流派** | [[140-哲学流派/README\|140 Philosophical schools]] → 九大流派 · 对照矩阵 |
@@ -149,19 +156,18 @@ tags:
 |-----|------|------|
 | 100 | 哲学与心理学总论 | [[100-总论/README\|DDC 100 总论]] |
 | 110 | 形而上学 | [[110-形而上学/README\|110 Metaphysics]] |
-| 120 | 认识论 | [[3 Resources/000 Knowledge/ram/Prolegomena/README\|知识学导论]] |
+| 120 | 认识论 | [[120-认识论/README\|120 Epistemology]] (深度: [[3 Resources/000 Knowledge/ram/Prolegomena/README\|Prolegomena 九章]]) |
 | 130 | 超心理学 | [[130-超心理学/README\|130 Parapsychology]] |
-| 180 | 东方哲学 | [[180-东方哲学/README\|180 Eastern Philosophy]] (易经 92 文件) |
 | 140 | 哲学流派 | [[140-哲学流派/README\|140 Philosophical schools]] |
+| 160 | 哲学逻辑 | [[160-哲学逻辑/README\|160 Philosophical logic]] |
 | 170 | 伦理学 | [[170-伦理学/README\|170 Ethics]] |
+| 180 | 东方哲学 | [[180-东方哲学/README\|180 Eastern Philosophy]] (易经 92 文件) |
 
 ### 建设路线图
 
 | 优先级 | DDC | 内容 | 依赖 |
 |:------:|-----|------|------|
 | 🥇 | 190 | 现代西方哲学 | 需要流派背景 |
-| 🥈 | 160 Philosophical logic | 哲学逻辑 | 需要逻辑学基础 |
-| 🥈 | 160 Philosophical logic | 哲学逻辑 | 需要逻辑学基础 |
 
 ---
 
@@ -176,7 +182,7 @@ tags:
 |--------|------|
 | [[3 Resources/000 Knowledge/ram/Prolegomena/README\|知识学导论]] | 认识论 (DDC 120) 深度覆盖 |
 | [[3 Resources/000 Knowledge/000 Knowledge\|000 Knowledge (DDC 001)]] | 知识组织系统 |
-| [[5 Zettels/5 Zettels.md\|Zettels 卡片系统]] | 认知心理学 → 个人知识管理 |
+| [[5 Zettels\|Zettels 卡片系统]] | 认知心理学 → 个人知识管理 |
 
 ---
 
@@ -187,8 +193,8 @@ tags:
 - [ ] 运行 `/triage` 分拣哲学/心理学相关内容
 
 ### 按需
-- [ ] 启动 Philosophy 子库建设
-- [ ] 从 `000 Knowledge/ram/Prolegomena/` 整合认识论内容
+- [ ] 建设 [[190-现代西方哲学/README\|DDC 190 现代西方哲学]]（最后一站）
+- [ ] 从 `000 Knowledge/ram/Prolegomena/` 整合认识论内容至 DDC 120
 
 ---
 
