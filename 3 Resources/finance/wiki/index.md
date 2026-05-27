@@ -12,9 +12,10 @@ type: wiki-index
 
 ## 统计
 
-- 概念页面: 8
+- 概念页面: 9
 - 实体页面: 3
 - 来源页面: 1
+- 日历日期: 1
 
 ## 概念索引
 
@@ -28,6 +29,7 @@ type: wiki-index
 | [[concepts/Technical-Analysis]] | 技术分析：价格图表、指标、趋势判断 |
 | [[concepts/Order-Types]] | 订单类型：市价单、挂单（Limit/Stop） |
 | [[concepts/Broker-Selection]] | 经纪商选择：监管、成本、资金安全 |
+| [[concepts/Economic-Calendar]] | 经济日历：数据发布、央行决议、事件驱动 |
 
 ## 实体索引
 
@@ -66,7 +68,7 @@ type: wiki-index
 
 ## 最近更新
 
-- 2026-05-27: 三次编译 — 新增 Order-Types, Broker-Selection, 共 8 概念
+- 2026-05-27: 更新经济日历 + 新增 Economic-Calendar 概念 (9 概念)
 
 ---
 
