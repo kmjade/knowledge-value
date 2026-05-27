@@ -25,6 +25,30 @@ purpose: compile
 
 **状态**: success
 
+**子库**: finance (`3 Resources/finance/`) — MetaTrader 知识库
+
+**来源**: 网络搜索 (MetaTrader 官方, MQL5 社区, 百度百科)
+
+**概念提取** (3):
+- Algorithmic-Trading — 算法交易
+- Expert-Advisor — EA 自动交易系统
+- MQL — MQL4/MQL5 编程语言
+
+**实体提取** (3):
+- MetaTrader — 交易平台
+- MT4 — MetaTrader 4
+- MT5 — MetaTrader 5
+
+**产出** (8 文件):
+- `wiki/concepts/` — 创建 3 页面
+- `wiki/entities/` — 创建 3 页面
+- `wiki/index.md` — 更新统计
+- `wiki/log.md` — 添加编译记录
+
+---
+
+**状态**: success
+
 **子库**: productivity (`3 Resources/productivity/`)
 
 **源文件** (103):
