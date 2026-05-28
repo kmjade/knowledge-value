@@ -1,0 +1,15 @@
+---
+title: 组织学习
+tags: [knowledge-management]
+created: 2026-05-28
+---
+
+# Organizational Learning
+
+| 「学习型组织」(Senge): 不是「培训」——是组织有学习和适应的能力 |
+|------|
+| 双环学习: 不只是「我们做得对不？」——是「我们做对了事吗？」 |
+
+## 相关
+
+- [[../07-PKM/07-PKM\|07]]

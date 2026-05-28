@@ -6,31 +6,30 @@ topic: knowledge
 tags: [resources, knowledge, ddc-000]
 ---
 
-# KNOWLEDGE / 知识总论
+# KNOWLEDGE — DDC 000
 
 > [!info] DDC Class 0 · Knowledge
-> 知识的知识——如何组织、分类、管理和创造知识。
-> DDC 000 经历重构，从 ram/wiki/outputs 定制架构统一为11文件标准格式。
+> Knowledge about knowledge — how to organize, classify, manage, and create it.
+> Restructured from ram/wiki/outputs custom architecture to 11-file standard format.
 
-## DDC Class 0 全景
+## DDC Class 0 Overview
 
-| DDC | 名称 | 内容 | 状态 |
+| DDC | Name | Focus | Status |
 |-----|------|------|:---:|
-| **000** | 知识总论 | 本页 | 🟢 |
-| **010** | 知识学导论 | 什么是知识？真理·信念·辩护 | 🟢 |
-| **020** | 知识组织系统 | KOS——分类法·叙词表·本体·知识图谱 | 🟢 |
-| **030** | 图书情报学 | 图书馆·信息检索·信息服务 | 🟢 |
-| **040** | 信息科学 | 信息论·信息架构·信息行为 | 🟢 |
-| **050** | 分类法与元数据 | DDC·UDC·中图法·元数据标准 | 🟢 |
-| **060** | 知识管理 | SECI·实践社区·PKM | 🟢 |
-| **070** | 数字知识系统 | 语义网·RAG·LLM·知识图谱工程 | 🟢 |
+| **000** | Knowledge | This index | 🟢 |
+| **010** | Prolegomena: Epistemology | What is knowledge? Truth · Belief · Justification | 🟢 |
+| **020** | Knowledge Organization Systems | KOS — Classification · Thesauri · Ontology · KG | 🟢 |
+| **030** | Library & Information Science | Libraries · IR · Information Services | 🟢 |
+| **040** | Information Science | Information Theory · IA · Info Behavior | 🟢 |
+| **050** | Classification & Metadata | DDC · UDC · CLC · Metadata Standards | 🟢 |
+| **060** | Knowledge Management | SECI · CoP · PKM | 🟢 |
+| **070** | Digital Knowledge Systems | Semantic Web · RAG · LLM · KG Engineering | 🟢 |
 
-## 🔗 跨库连接
+## Cross-References
 
-- [[3 Resources/100 Philosophy & Psychology/README|DDC 100 哲学]] — 认识论基础
-- [[../400 Language/README|DDC 400 语言]] — 知识表示的语言基础
-- [[../500 Natural Sciences/510-Mathematics/README|DDC 510 数学]] — 知识的逻辑结构
+- [[../100 Philosophy & Psychology/README|DDC 100 Philosophy]] — Epistemology foundation
+- [[../400 Language/README|DDC 400 Language]] — Knowledge representation
 
 ---
 
-*分类: 3 Resources/000 Knowledge · DDC: 000*
+*Classification: 3 Resources/000 Knowledge · DDC: 000*
