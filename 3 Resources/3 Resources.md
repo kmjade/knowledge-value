@@ -43,9 +43,9 @@ tags:
 ├── 000 Knowledge/        # 🟢 知識組織 (18 concepts)
 ├── 100 Philosophy. Psychology/  # 🟢 哲學·心理學 (7 子庫)
 ├── 200 Religion & Theology/     # 🟡 宗教·神學 (框架已建 ↔ DDC 180)
-├── 300 Social Sciences/         # 🟡 社會科學 (框架已建 ↔ 伦理·心理·数学)
-├── 500 Natural Sciences/        # 🟢 自然科學 (數學 17 文件)
-│   └── 510-Mathematics/         # 數學
+├── 300 Social Sciences/         # 🟢 社會科學 (102 文件 · 9/9 完成)
+├── 400 Language/                # 🟢 語言學 (63 文件 · 9 子庫)
+├── 500 Natural Sciences/        # 🟢 自然科學 (107 文件 · 9/9 完成)
 ├── 06 Applied Sciences/         # 🟢 應用科學 (207 文件)
 ├── 07-Information/              # 🟢 資訊科學 (14 文件)
 ├── epistemology/                # 🟢 認識論
