@@ -44,9 +44,9 @@ tags:
 │
 ├── 260-教会与社会/         🟢 已建设       ← 社会神学、宣教学 (DDC 260)
 │
-├── 270-基督教历史/         🟡 待建设       ← 教会史 (DDC 270)
+├── 270-基督教历史/         🟢 已建设       ← 教会史 (DDC 270)
 │
-├── 280-基督教宗派/         🟡 待建设       ← 天主教 · 东正教 · 新教各派 (DDC 280)
+├── 280-基督教宗派/         🟢 已建设       ← 天主教 · 东正教 · 新教各派 (DDC 280)
 │
 └── 290-其他宗教/           🟡 待建设       ← 比较宗教学 (DDC 290)
     │                                      ← 佛教 · 印度教 · 伊斯兰教 · 道教
@@ -69,8 +69,8 @@ tags:
 | **240** | Christian practice & observance 灵修实践 | 🟢 |
 | **250** | Christian orders & local church 教牧实践 | 🟢 |
 | **260** | Social & ecclesiastical theology 社会神学 | 🟢 |
-| **270** | History of Christianity 教会史 | 🟡 |
-| **280** | Christian denominations 基督教宗派 | 🟡 |
+| **270** | History of Christianity 教会史 | 🟢 |
+| **280** | Christian denominations 基督教宗派 | 🟢 |
 | **290** | Other religions 其他宗教与比较宗教学 | 🟡 |
 
 > 东方宗教的哲学维度已在 DDC 180 有建设，见下方跨库关系。
