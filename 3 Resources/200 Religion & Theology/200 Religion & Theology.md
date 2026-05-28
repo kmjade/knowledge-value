@@ -38,7 +38,7 @@ tags:
 ├── 230-基督教神学/         🟢 已建设       ← 系统神学 (DDC 230)
 │                                          ← 上帝论 · 基督论 · 救赎论 · 末世论
 │
-├── 240-基督教实践/         🟡 待建设       ← 灵修、礼仪与牧养 (DDC 240)
+├── 240-基督教实践/         🟢 已建设       ← 灵修、礼仪与牧养 (DDC 240)
 │
 ├── 250-基督教教牧/         🟡 待建设       ← 讲道、牧职、地方教会 (DDC 250)
 │
@@ -66,7 +66,7 @@ tags:
 | **210** | Philosophy & theory of religion 宗教哲学 | 🟢 |
 | **220** | The Bible 圣经 | 🟢 |
 | **230** | Christianity / Christian theology 系统神学 | 🟢 |
-| **240** | Christian practice & observance 灵修实践 | 🟡 |
+| **240** | Christian practice & observance 灵修实践 | 🟢 |
 | **250** | Christian orders & local church 教牧实践 | 🟡 |
 | **260** | Social & ecclesiastical theology 社会神学 | 🟡 |
 | **270** | History of Christianity 教会史 | 🟡 |
