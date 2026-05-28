@@ -1,5 +1,6 @@
 {
   "pluginList": [
+    "lostpaul/obsidian-folder-notes",
     "davidlam-oss/obsidian-wechat-converter",
     "vinzent03/obsidian-git",
     "zsviczian/obsidian-excalidraw-plugin",
@@ -7,6 +8,10 @@
     "YishenTu/claudian"
   ],
   "pluginSubListFrozenVersion": [
+    {
+      "repo": "lostpaul/obsidian-folder-notes",
+      "version": ""
+    },
     {
       "repo": "davidlam-oss/obsidian-wechat-converter",
       "version": ""

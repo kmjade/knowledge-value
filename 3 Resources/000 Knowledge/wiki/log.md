@@ -10,7 +10,7 @@ topic: knowledge-systems
 
 ### 编译信息
 
-- **源库**: `3 Resources/000 Knowledge/ram/Knowledge-Systems/`
+- **源库**: `3 Resources/000 Knowledge/ram/Knowledge-Systems-知识系统/`
 - **源文件**: 9 章 + 2 MOC + README (14 文件)
 - **新概念**: 11
 - **新实体**: 7
@@ -24,15 +24,15 @@ topic: knowledge-systems
 |---|------|--------|
 | 1 | [[Knowledge-Organization-Systems]] | 01-概述 |
 | 2 | [[DIKW-Pyramid]] | 01-概述 |
-| 3 | [[Classification-Systems]] | 02-分类法 |
-| 4 | [[Thesaurus]] | 03-叙词表 |
-| 5 | [[Ontology]] | 04-本体论 |
-| 6 | [[Knowledge-Graph]] | 05-知识图谱 |
-| 7 | [[Linked-Data]] | 06-关联数据 |
-| 8 | [[SECI-Model]] | 07-知识管理 |
-| 9 | [[RAG]] | 08-AI与知识系统 |
-| 10 | [[PKM]] | 09-个人知识管理 |
-| 11 | [[PARA-Method]] | 09-个人知识管理 |
+| 3 | [[Classification-Systems]] | 02-Classification |
+| 4 | [[Thesaurus]] | 03-Thesauri |
+| 5 | [[Ontology]] | 04-Ontologies |
+| 6 | [[Knowledge-Graph]] | 05-Knowledge-Graphs |
+| 7 | [[Linked-Data]] | 06-Linked-Data |
+| 8 | [[SECI-Model]] | 07-Knowledge-Management |
+| 9 | [[RAG]] | 08-AI-Knowledge-Systems |
+| 10 | [[PKM]] | 09-Personal-KM |
+| 11 | [[PARA-Method]] | 09-Personal-KM |
 
 ### 实体产出
 

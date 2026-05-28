@@ -9,7 +9,7 @@ type: concept
 topic: knowledge-systems
 status: reviewed
 sources:
-  - "[[3 Resources/000 Knowledge/ram/Knowledge-Systems/06-关联数据/06-关联数据.md]]"
+  - "[[3 Resources/000 Knowledge/ram/Knowledge-Systems/06-Linked-Data/06-Linked-Data.md]]"
 ---
 
 # Linked Data (关联数据)
@@ -18,7 +18,7 @@ sources:
 
 关联数据是 Tim Berners-Lee 提出的语义网实现路径——Web 不仅是文档的互联，更是**数据的互联**。每个数据实体用 URI 标识，通过 RDF 格式发布，并链接到其他数据源。
 
-> 来源: [[3 Resources/000 Knowledge/ram/Knowledge-Systems/06-关联数据/06-关联数据.md|06-关联数据与语义网]]
+> 来源: [[3 Resources/000 Knowledge/ram/Knowledge-Systems/06-Linked-Data/06-Linked-Data.md|06-Linked-Data与语义网]]
 
 ## 核心原理
 
@@ -66,4 +66,4 @@ SPARQL 是 W3C 标准，可以在任何 SPARQL endpoint 上执行跨数据集查
 
 ## Sources
 
-- [[3 Resources/000 Knowledge/ram/Knowledge-Systems/06-关联数据/06-关联数据.md]]
+- [[3 Resources/000 Knowledge/ram/Knowledge-Systems/06-Linked-Data/06-Linked-Data.md]]

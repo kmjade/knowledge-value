@@ -27,7 +27,7 @@ topic: epistemology
 | **上游** | [[3 Resources/100 Philosophy. Psychology/100-总论/README\|DDC 100 总论]] — 学科全景 |
 | **前置** | [[3 Resources/100 Philosophy. Psychology/110-形而上学/README\|110 Metaphysics]] — 知道「什么存在」之前先问「如何知道」 |
 | **平行** | [[3 Resources/100 Philosophy. Psychology/140-哲学流派/README\|140 Philosophical schools]] (理性主义 vs 经验主义)、[[3 Resources/100 Philosophy. Psychology/160-哲学逻辑/README\|160 Logic]] (推理规则) |
-| **深度版** | [[3 Resources/000 Knowledge/ram/Prolegomena/README\|知识学导论 (Prolegomena)]] — 九章完整知识库 |
+| **深度版** | [[3 Resources/000 Knowledge/ram/Prolegomena-知识学导论/README\|知识学导论 (Prolegomena)]] — 九章完整知识库 |
 
 > 「在形而上学追问实在本质的地方，认识论追问我们如何能够知道那个本质。」
 
@@ -131,7 +131,7 @@ topic: epistemology
 | **先天知识 (a priori)** | 不依赖经验 | 2+2=4、「所有单身汉都未婚」 |
 | **后天知识 (a posteriori)** | 依赖经验 | 「水在 100°C 沸腾」 |
 
-> 关联：[[3 Resources/000 Knowledge/ram/Prolegomena/02-知识的来源/02-知识的来源\|Prolegomena 02]] · [[3 Resources/000 Knowledge/ram/Prolegomena/03-知识的类型/03-知识的类型\|Prolegomena 03]]
+> 关联：[[3 Resources/000 Knowledge/ram/Prolegomena-知识学导论/02-知识的来源/02-知识的来源\|Prolegomena 02]] · [[3 Resources/000 Knowledge/ram/Prolegomena-知识学导论/03-知识的类型/03-知识的类型\|Prolegomena 03]]
 
 ---
 
@@ -146,7 +146,7 @@ topic: epistemology
 | **语义论 (Semantic)** | 由语言结构定义真 | Tarski's T-schema | Tarski |
 
 > Tarski: 「『雪是白的』是真的，当且仅当雪是白的。」
-> 关联：[[3 Resources/000 Knowledge/ram/Prolegomena/04-真理理论/04-真理理论\|Prolegomena 04]]
+> 关联：[[3 Resources/000 Knowledge/ram/Prolegomena-知识学导论/04-真理理论/04-真理理论\|Prolegomena 04]]
 
 ---
 
@@ -170,7 +170,7 @@ topic: epistemology
 | **可谬论** | 知识不需要绝对确定性；可错的知识仍然是知识 | — |
 | **自然化认识论** | 别问「我们能知道吗」，去研究我们实际如何认知 | 奎因 |
 
-> 关联：[[3 Resources/000 Knowledge/ram/Prolegomena/01-什么是知识/01-什么是知识\|Prolegomena 01]]
+> 关联：[[3 Resources/000 Knowledge/ram/Prolegomena-知识学导论/01-什么是知识/01-什么是知识\|Prolegomena 01]]
 
 ---
 
@@ -196,7 +196,7 @@ topic: epistemology
 | **集体知识** | 群体/组织/文化能够「知道」吗？还是只有个体能知道？ |
 | **回音室与过滤泡** | 数字时代：社会结构如何扭曲知识获取？ |
 
-> 关联：[[3 Resources/000 Knowledge/ram/Prolegomena/05-知识与文化/05-知识与文化\|Prolegomena 05]] · [[3 Resources/000 Knowledge/ram/Prolegomena/09-应用认识论/09-应用认识论\|Prolegomena 09]]
+> 关联：[[3 Resources/000 Knowledge/ram/Prolegomena-知识学导论/05-知识与文化/05-知识与文化\|Prolegomena 05]] · [[3 Resources/000 Knowledge/ram/Prolegomena-知识学导论/09-应用认识论/09-应用认识论\|Prolegomena 09]]
 
 ---
 
@@ -247,14 +247,14 @@ Day 3: 怀疑论 + 社会认识论
 
 | 章节 | 入口 |
 |------|------|
-| 01 什么是知识 | [[3 Resources/000 Knowledge/ram/Prolegomena/01-什么是知识/01-什么是知识\|Prolegomena 01]] |
-| 02 知识的来源 | [[3 Resources/000 Knowledge/ram/Prolegomena/02-知识的来源/02-知识的来源\|Prolegomena 02]] |
-| 03 知识的类型 | [[3 Resources/000 Knowledge/ram/Prolegomena/03-知识的类型/03-知识的类型\|Prolegomena 03]] |
-| 04 真理理论 | [[3 Resources/000 Knowledge/ram/Prolegomena/04-真理理论/04-真理理论\|Prolegomena 04]] |
-| 05 知识与文化 | [[3 Resources/000 Knowledge/ram/Prolegomena/05-知识与文化/05-知识与文化\|Prolegomena 05]] |
-| 08 知识论简史 | [[3 Resources/000 Knowledge/ram/Prolegomena/08-知识论简史/08-知识论简史\|Prolegomena 08]] |
-| 09 应用认识论 | [[3 Resources/000 Knowledge/ram/Prolegomena/09-应用认识论/09-应用认识论\|Prolegomena 09]] |
-| 📖 总览 | [[3 Resources/000 Knowledge/ram/Prolegomena/Prolegomena\|知识学导论 主入口]] |
+| 01 什么是知识 | [[3 Resources/000 Knowledge/ram/Prolegomena-知识学导论/01-什么是知识/01-什么是知识\|Prolegomena 01]] |
+| 02 知识的来源 | [[3 Resources/000 Knowledge/ram/Prolegomena-知识学导论/02-知识的来源/02-知识的来源\|Prolegomena 02]] |
+| 03 知识的类型 | [[3 Resources/000 Knowledge/ram/Prolegomena-知识学导论/03-知识的类型/03-知识的类型\|Prolegomena 03]] |
+| 04 真理理论 | [[3 Resources/000 Knowledge/ram/Prolegomena-知识学导论/04-真理理论/04-真理理论\|Prolegomena 04]] |
+| 05 知识与文化 | [[3 Resources/000 Knowledge/ram/Prolegomena-知识学导论/05-知识与文化/05-知识与文化\|Prolegomena 05]] |
+| 08 知识论简史 | [[3 Resources/000 Knowledge/ram/Prolegomena-知识学导论/08-知识论简史/08-知识论简史\|Prolegomena 08]] |
+| 09 应用认识论 | [[3 Resources/000 Knowledge/ram/Prolegomena-知识学导论/09-应用认识论/09-应用认识论\|Prolegomena 09]] |
+| 📖 总览 | [[3 Resources/000 Knowledge/ram/Prolegomena-知识学导论/Prolegomena\|知识学导论 主入口]] |
 
 ---
 

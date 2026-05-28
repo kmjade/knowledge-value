@@ -8,7 +8,7 @@ type: concept
 topic: knowledge-systems
 status: reviewed
 sources:
-  - "[[3 Resources/000 Knowledge/ram/Knowledge-Systems/09-个人知识管理/09-个人知识管理.md]]"
+  - "[[3 Resources/000 Knowledge/ram/Knowledge-Systems/09-Personal-KM/09-Personal-KM.md]]"
 ---
 
 # PARA Method
@@ -17,7 +17,7 @@ sources:
 
 PARA 是由 Tiago Forte 提出的个人知识组织方法，将数字生活分为四个层级：Projects (项目)、Areas (领域)、Resources (资源)、Archives (归档)。
 
-> 来源: [[3 Resources/000 Knowledge/ram/Knowledge-Systems/09-个人知识管理/09-个人知识管理.md|09-个人知识管理]]
+> 来源: [[3 Resources/000 Knowledge/ram/Knowledge-Systems/09-Personal-KM/09-Personal-KM.md|09-Personal-KM]]
 
 ## 核心原理
 
@@ -52,4 +52,4 @@ Inbox → Projects (行动) → Archives (完成)
 
 ## Sources
 
-- [[3 Resources/000 Knowledge/ram/Knowledge-Systems/09-个人知识管理/09-个人知识管理.md]]
+- [[3 Resources/000 Knowledge/ram/Knowledge-Systems/09-Personal-KM/09-Personal-KM.md]]

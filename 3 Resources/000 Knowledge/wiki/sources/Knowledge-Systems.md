@@ -15,21 +15,21 @@ source_type: knowledge-base
 - **来源类型**: 知识库 (14 文件)
 - **覆盖范围**: KOS 从分类法到 AI 的完整谱系
 - **章节**: 9 章 + MOC/README
-- **路径**: `3 Resources/000 Knowledge/ram/Knowledge-Systems/`
+- **路径**: `3 Resources/000 Knowledge/ram/Knowledge-Systems-知识系统/`
 
 ## 章节概览
 
 | 章节 | 核心主题 | Wiki 编译产出 |
 |------|----------|---------------|
 | 01-概述 | KOS 谱系、DIKW | [[Knowledge-Organization-Systems]], [[DIKW-Pyramid]] |
-| 02-分类法 | DDC/UDC/CLC/LCC | [[Classification-Systems]], [[3 Resources/000 Knowledge/epistemology/wiki/entities/DDC]], [[3 Resources/000 Knowledge/epistemology/wiki/entities/UDC]] |
-| 03-叙词表 | BT/NT/RT, MeSH | [[Thesaurus]], [[MeSH]] |
-| 04-本体论 | OWL/RDF, Gene Ontology | [[Ontology]], [[Gene-Ontology]] |
-| 05-知识图谱 | Wikidata/KG/DBpedia | [[Knowledge-Graph]], [[Wikidata]] |
-| 06-关联数据 | Linked Data, SPARQL | [[Linked-Data]], [[SPARQL]], [[Tim-Berners-Lee]] |
-| 07-知识管理 | SECI, KM 工具 | [[SECI-Model]] |
-| 08-AI与知识系统 | LLM, RAG, 向量数据库 | [[RAG]] |
-| 09-个人知识管理 | PKM, PARA, Zettelkasten | [[PKM]], [[PARA-Method]], [[Zettelkasten]] |
+| 02-Classification | DDC/UDC/CLC/LCC | [[Classification-Systems]], [[3 Resources/000 Knowledge/wiki/entities/DDC]], [[3 Resources/000 Knowledge/wiki/entities/UDC]] |
+| 03-Thesauri | BT/NT/RT, MeSH | [[Thesaurus]], [[MeSH]] |
+| 04-Ontologies | OWL/RDF, Gene Ontology | [[Ontology]], [[Gene-Ontology]] |
+| 05-Knowledge-Graphs | Wikidata/KG/DBpedia | [[Knowledge-Graph]], [[Wikidata]] |
+| 06-Linked-Data | Linked Data, SPARQL | [[Linked-Data]], [[SPARQL]], [[Tim-Berners-Lee]] |
+| 07-Knowledge-Management | SECI, KM 工具 | [[SECI-Model]] |
+| 08-AI-Knowledge-Systems | LLM, RAG, 向量数据库 | [[RAG]] |
+| 09-Personal-KM | PKM, PARA, Zettelkasten | [[PKM]], [[PARA-Method]], [[Zettelkasten]] |
 
 ## 编译记录
 

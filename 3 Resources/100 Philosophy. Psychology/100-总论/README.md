@@ -150,7 +150,7 @@ topic: philosophy-psychology
 | 路径 | 适合人群 | 推荐顺序 |
 |------|----------|----------|
 | 🧠 **心理优先** | 对心智科学好奇 | 总论 → [[3 Resources/100 Philosophy. Psychology/150 心理学/README\|150 Psychology]] → 回溯 120 认识论 |
-| 💭 **哲学优先** | 对存在意义好奇 | 总论 → [[3 Resources/000 Knowledge/ram/Prolegomena/README\|120 Epistemology]] → 拓展 150 Psychology |
+| 💭 **哲学优先** | 对存在意义好奇 | 总论 → [[3 Resources/000 Knowledge/ram/Prolegomena-知识学导论/README\|120 Epistemology]] → 拓展 150 Psychology |
 | 🔄 **对比阅读** | 已有基础 | 总论 → 跨域概念表 → 双向深入 |
 
 ---
@@ -177,5 +177,5 @@ topic: philosophy-psychology
 ## 相关
 
 - [[3 Resources/000 Knowledge/000 Knowledge\|DDC 000 Knowledge]]
-- [[3 Resources/000 Knowledge/ram/Prolegomena/README\|知识学导论 (DDC 120)]]
+- [[3 Resources/000 Knowledge/ram/Prolegomena-知识学导论/README\|知识学导论 (DDC 120)]]
 - [[3 Resources/100 Philosophy. Psychology/150 心理学/README\|Psychology 知识库 (DDC 150)]]

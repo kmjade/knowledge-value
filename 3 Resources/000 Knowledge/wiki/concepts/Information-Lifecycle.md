@@ -9,7 +9,7 @@ type: concept
 topic: knowledge-systems
 status: reviewed
 sources:
-  - "[[3 Resources/000 Knowledge/ram/Information Science/01-信息科学概述/01-信息科学概述.md]]"
+  - "[[3 Resources/000 Knowledge/ram/07-Information/01-Overview/01-Overview.md]]"
   - "[[3 Resources/productivity/raw/articles/LifeOS × LLM-Wiki 融合系统.md]]"
   - "[[3 Resources/productivity/raw/articles/PARA + LLM-WIKI 架构，实现个人知识与生活管理的自动化革命.md]]"
 domain:
@@ -292,12 +292,12 @@ raw/ 原始资料          /wiki-compile        wiki/ 编译产物
 
 ## 9. 相关实体
 
-- [[3 Resources/000 Knowledge/epistemology/wiki/entities/DDC]] — 图书馆分类法中的生命周期管理
+- [[3 Resources/000 Knowledge/wiki/entities/DDC]] — 图书馆分类法中的生命周期管理
 - [[KOS-Architecture-Design]]— 生命周期在系统架构中的位置
 
 ## Sources
 
-- [[3 Resources/000 Knowledge/ram/Information Science/01-信息科学概述/01-信息科学概述.md]] — 经典信息生命周期模型
+- [[3 Resources/000 Knowledge/ram/07-Information/01-Overview/01-Overview.md]] — 经典信息生命周期模型
 - [[3 Resources/productivity/raw/articles/LifeOS × LLM-Wiki 融合系统.md]] — KOS 时效性分类
 - [[3 Resources/productivity/raw/articles/PARA + LLM-WIKI 架构，实现个人知识与生活管理的自动化革命.md]] — 生命周期在 PARA 中的应用
 - [[3 Resources/productivity/raw/articles/知识工作者的 AI-Agentic LifeOS 落地手册.md]] — 生命周期自动化实践

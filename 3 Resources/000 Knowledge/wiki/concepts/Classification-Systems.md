@@ -8,7 +8,7 @@ type: concept
 topic: knowledge-systems
 status: reviewed
 sources:
-  - "[[3 Resources/000 Knowledge/ram/Knowledge-Systems/02-分类法/02-分类法.md]]"
+  - "[[3 Resources/000 Knowledge/ram/Knowledge-Systems/02-Classification/02-Classification.md]]"
 ---
 
 # Classification Systems (分类法)
@@ -17,7 +17,7 @@ sources:
 
 分类法是最古老也是最基础的知识组织系统——将知识划分为层级结构，让相似主题的信息聚集在一起。每本书（或每个概念）在分类体系中有且仅有一个位置。
 
-> 来源: [[3 Resources/000 Knowledge/ram/Knowledge-Systems/02-分类法/02-分类法.md|02-分类法体系]]
+> 来源: [[3 Resources/000 Knowledge/ram/Knowledge-Systems/02-Classification/02-Classification.md|02-Classification体系]]
 
 ## 核心原理
 
@@ -65,9 +65,9 @@ sources:
 
 - [[Knowledge-Organization-Systems]] - 分类法是 KOS 的基石
 - [[Thesaurus]] - 叙词表允许更灵活的多维度组织
-- [[3 Resources/000 Knowledge/epistemology/wiki/entities/DDC]] - 最广泛使用的分类法
-- [[3 Resources/000 Knowledge/epistemology/wiki/entities/UDC]] - 更灵活的国际分类法
+- [[3 Resources/000 Knowledge/wiki/entities/DDC]] - 最广泛使用的分类法
+- [[3 Resources/000 Knowledge/wiki/entities/UDC]] - 更灵活的国际分类法
 
 ## Sources
 
-- [[3 Resources/000 Knowledge/ram/Knowledge-Systems/02-分类法/02-分类法.md]]
+- [[3 Resources/000 Knowledge/ram/Knowledge-Systems/02-Classification/02-Classification.md]]

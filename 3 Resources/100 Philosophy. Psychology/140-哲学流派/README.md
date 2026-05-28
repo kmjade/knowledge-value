@@ -24,7 +24,7 @@ topic: philosophical-schools
 | **DDC** | 140 Philosophical schools & systems |
 | **中文** | 哲学流派与体系 |
 | **上游** | [[3 Resources/100 Philosophy. Psychology/100-总论/README\|DDC 100 总论]] — 学科全景 |
-| **前置** | [[3 Resources/100 Philosophy. Psychology/110-形而上学/README\|110 Metaphysics]] (存在)、[[3 Resources/000 Knowledge/ram/Prolegomena/README\|120 Epistemology]] (知识) |
+| **前置** | [[3 Resources/100 Philosophy. Psychology/110-形而上学/README\|110 Metaphysics]] (存在)、[[3 Resources/000 Knowledge/ram/Prolegomena-知识学导论/README\|120 Epistemology]] (知识) |
 | **平行** | [[3 Resources/100 Philosophy. Psychology/170-伦理学/README\|170 Ethics]] (行动)、[[3 Resources/100 Philosophy. Psychology/160-哲学逻辑/README\|160 Logic]] (推理) |
 
 > 每一套流派都回答三个问题：什么是真实 (形而上学)？我们如何知道 (认识论)？应当怎么做 (伦理学)。
@@ -300,6 +300,6 @@ Week 3: 20世纪的分裂
 ## 相关
 
 - [[3 Resources/100 Philosophy. Psychology/110-形而上学/README\|110 Metaphysics]] — 各流派的形而上学立场
-- [[3 Resources/000 Knowledge/ram/Prolegomena/README\|120 Epistemology]] — 各流派的认识论立场
+- [[3 Resources/000 Knowledge/ram/Prolegomena-知识学导论/README\|120 Epistemology]] — 各流派的认识论立场
 - [[3 Resources/100 Philosophy. Psychology/150 心理学/README\|150 Psychology]] — 哲学流派如何影响心理学
 - [[3 Resources/100 Philosophy. Psychology/170-伦理学/README\|170 Ethics]] — 各流派的伦理立场 (待建设)

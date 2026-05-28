@@ -156,7 +156,7 @@ purpose: compile
 **子库**: 000 Knowledge (`3 Resources/000 Knowledge/`)
 
 **源文件** (14):
-- `ram/Knowledge-Systems/` — 9 章 + 2 MOC + README + 资源收集
+- `ram/Knowledge-Systems-知识系统/` — 9 章 + 2 MOC + README + 资源收集
 
 **概念提取** (11):
 - Knowledge-Organization-Systems — 知识组织系统全景

@@ -24,7 +24,7 @@ topic: ethics
 | **DDC** | 170 Ethics (Moral philosophy) |
 | **中文** | 伦理学 / 道德哲学 |
 | **上游** | [[3 Resources/100 Philosophy. Psychology/100-总论/README\|DDC 100 总论]] — 学科全景 |
-| **前置** | [[3 Resources/100 Philosophy. Psychology/110-形而上学/README\|110 Metaphysics]] (自由意志)、[[3 Resources/000 Knowledge/ram/Prolegomena/README\|120 Epistemology]] (道德知识) |
+| **前置** | [[3 Resources/100 Philosophy. Psychology/110-形而上学/README\|110 Metaphysics]] (自由意志)、[[3 Resources/000 Knowledge/ram/Prolegomena-知识学导论/README\|120 Epistemology]] (道德知识) |
 | **平行** | [[3 Resources/100 Philosophy. Psychology/140-哲学流派/README\|140 Philosophical schools]] (各流派的伦理立场) |
 | **下游** | 应用伦理学 (生物伦理、AI 伦理、商业伦理) |
 
@@ -306,4 +306,4 @@ Week 3: 道德心理学 + 当代议题
 - [[3 Resources/100 Philosophy. Psychology/110-形而上学/README\|110 Metaphysics]] — 自由意志是道德责任的前提
 - [[3 Resources/100 Philosophy. Psychology/140-哲学流派/README\|140 Philosophical schools]] — 各流派的伦理立场
 - [[../Psychology/05-社会心理学/05-社会心理学\|社会心理学]] — 道德判断的心理学基础
-- [[3 Resources/000 Knowledge/ram/Prolegomena/README\|120 Epistemology]] — 道德知识如何可能
+- [[3 Resources/000 Knowledge/ram/Prolegomena-知识学导论/README\|120 Epistemology]] — 道德知识如何可能

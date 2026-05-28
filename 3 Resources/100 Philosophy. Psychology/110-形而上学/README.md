@@ -204,6 +204,6 @@ Week 3: 时间与可能世界
 
 ## 相关
 
-- [[3 Resources/000 Knowledge/ram/Prolegomena/README\|知识学导论]] — 认识论视角 (DDC 120)
+- [[3 Resources/000 Knowledge/ram/Prolegomena-知识学导论/README\|知识学导论]] — 认识论视角 (DDC 120)
 - [[3 Resources/100 Philosophy. Psychology/150 心理学/README\|Psychology 知识库]] — 心智如何运作 (DDC 150)
 - [[3 Resources/100 Philosophy. Psychology/140-哲学流派/README\|Philosophical schools]] — 各流派的形而上学立场 (DDC 140, 待建设)

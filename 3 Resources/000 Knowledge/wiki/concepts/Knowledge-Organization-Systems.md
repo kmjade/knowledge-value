@@ -8,7 +8,7 @@ type: concept
 topic: knowledge-systems
 status: reviewed
 sources:
-  - "[[3 Resources/000 Knowledge/ram/Knowledge-Systems/01-概述/01-概述.md]]"
+  - "[[3 Resources/000 Knowledge/ram/Knowledge-Systems/01/01-概述.md]]"
 ---
 
 # Knowledge Organization Systems (KOS)
@@ -17,7 +17,7 @@ sources:
 
 知识组织系统 (KOS) 是将知识结构化、使之可发现、可理解、可复用的体系。从图书馆的书架到 Google 的知识图谱，本质相同——**让正确的知识在正确的时间到达正确的人**。
 
-> 来源: [[3 Resources/000 Knowledge/ram/Knowledge-Systems/01-概述/01-概述.md|01-知识系统概述]]
+> 来源: [[3 Resources/000 Knowledge/ram/Knowledge-Systems/01/01-概述.md|01]]
 
 ## 核心原理
 
@@ -83,5 +83,5 @@ KOS 建立在信息层级之上：
 
 ## Sources
 
-- [[3 Resources/000 Knowledge/ram/Knowledge-Systems/01-概述/01-概述.md]]
+- [[3 Resources/000 Knowledge/ram/Knowledge-Systems/01/01-概述.md]]
 - [[3 Resources/000 Knowledge/ram/Knowledge-Systems/Knowledge-Systems.md]]

@@ -4,7 +4,7 @@ type: session-log
 project: 知识系统架构设计
 status: completed
 ---
-
+ /ASDF123AASDASSSDFSDFG123
 # 会话记录：知识系统架构设计
 
 **日期**: 2026-05-28
@@ -90,7 +90,7 @@ status: completed
 ## 相关笔记
 
 - [[09-个人知识管理|09-个人知识管理]] — 产出文档
-- [[3 Resources/000 Knowledge/ram/Knowledge-Systems/README|Knowledge Systems README]]
+- [[3 Resources/000 Knowledge/ram/Knowledge-Systems-知识系统/README|Knowledge Systems README]]
 - [[知识系统 知识库总览|KOS MOC]]
 - [[3 Resources/03-Productivity/Methods/PARA/07-系统架构与优化|PARA 系统架构]]
 - [[CLAUDE.md]] — vault 级别的系统规则

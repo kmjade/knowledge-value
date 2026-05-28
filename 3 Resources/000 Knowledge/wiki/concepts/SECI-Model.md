@@ -8,7 +8,7 @@ type: concept
 topic: knowledge-systems
 status: reviewed
 sources:
-  - "[[3 Resources/000 Knowledge/ram/Knowledge-Systems/07-知识管理/07-知识管理.md]]"
+  - "[[3 Resources/000 Knowledge/ram/Knowledge-Systems/07-Knowledge-Management/07-Knowledge-Management.md]]"
 ---
 
 # SECI Model
@@ -17,7 +17,7 @@ sources:
 
 SECI 模型是由野中郁次郎 (Ikujiro Nonaka) 提出的组织知识创造理论，描述隐性知识和显性知识之间的四种转化模式：Socialization (社会化)、Externalization (外化)、Combination (组合)、Internalization (内化)。
 
-> 来源: [[3 Resources/000 Knowledge/ram/Knowledge-Systems/07-知识管理/07-知识管理.md|07-知识管理]]
+> 来源: [[3 Resources/000 Knowledge/ram/Knowledge-Systems/07-Knowledge-Management/07-Knowledge-Management.md|07-Knowledge-Management]]
 
 ## 核心原理
 
@@ -60,4 +60,4 @@ SECI 模型是由野中郁次郎 (Ikujiro Nonaka) 提出的组织知识创造理
 
 ## Sources
 
-- [[3 Resources/000 Knowledge/ram/Knowledge-Systems/07-知识管理/07-知识管理.md]]
+- [[3 Resources/000 Knowledge/ram/Knowledge-Systems/07-Knowledge-Management/07-Knowledge-Management.md]]

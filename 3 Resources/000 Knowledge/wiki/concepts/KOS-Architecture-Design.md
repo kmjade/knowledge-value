@@ -382,7 +382,7 @@ knowledge-value/                    # Vault 根目录
 | People | `3 Resources/people/` | 🟡 规划中 |
 | Finance | `3 Resources/finance/` | 🟡 规划中 |
 | Productivity | `3 Resources/productivity/` | 🟢 活跃 |
-| Epistemology | `3 Resources/epistemology/` | 🟢 活跃 |
+| Epistemology | `3 Resources/000 Knowledge/010-Prolegomena-知识学导论/` | 🟢 活跃 |
 
 ### 9.2 子库 CLAUDE.md 标准
 

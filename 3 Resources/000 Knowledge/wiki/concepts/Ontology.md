@@ -9,7 +9,7 @@ type: concept
 topic: knowledge-systems
 status: reviewed
 sources:
-  - "[[3 Resources/000 Knowledge/ram/Knowledge-Systems/04-本体论/04-本体论.md]]"
+  - "[[3 Resources/000 Knowledge/ram/Knowledge-Systems/04-Ontologies/04-Ontologies.md]]"
 ---
 
 # Ontology (本体论)
@@ -18,7 +18,7 @@ sources:
 
 本体是知识系统的最高形式——不仅定义概念和术语，还定义概念之间的逻辑关系和推理规则。如果分类法是"索引"，本体就是"知识模型"。
 
-> 来源: [[3 Resources/000 Knowledge/ram/Knowledge-Systems/04-本体论/04-本体论.md|04-本体论]]
+> 来源: [[3 Resources/000 Knowledge/ram/Knowledge-Systems/04-Ontologies/04-Ontologies.md|04-Ontologies]]
 
 ## 核心原理
 
@@ -87,4 +87,4 @@ RDF 是一切语义网技术的基础：
 
 ## Sources
 
-- [[3 Resources/000 Knowledge/ram/Knowledge-Systems/04-本体论/04-本体论.md]]
+- [[3 Resources/000 Knowledge/ram/Knowledge-Systems/04-Ontologies/04-Ontologies.md]]

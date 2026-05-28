@@ -9,7 +9,7 @@ entity_type: system
 topic: knowledge-systems
 status: reviewed
 sources:
-  - "[[3 Resources/000 Knowledge/ram/Knowledge-Systems/04-本体论/04-本体论.md]]"
+  - "[[3 Resources/000 Knowledge/ram/Knowledge-Systems/04-Ontologies/04-Ontologies.md]]"
 ---
 
 # Gene Ontology (GO)
@@ -47,4 +47,4 @@ Gene Ontology 是生命科学领域最成功的本体工程。它为基因功能
 
 ## Sources
 
-- [[3 Resources/000 Knowledge/ram/Knowledge-Systems/04-本体论/04-本体论.md]]
+- [[3 Resources/000 Knowledge/ram/Knowledge-Systems/04-Ontologies/04-Ontologies.md]]

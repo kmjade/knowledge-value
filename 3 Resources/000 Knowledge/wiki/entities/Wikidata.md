@@ -8,7 +8,7 @@ entity_type: platform
 topic: knowledge-systems
 status: reviewed
 sources:
-  - "[[3 Resources/000 Knowledge/ram/Knowledge-Systems/05-知识图谱/05-知识图谱.md]]"
+  - "[[3 Resources/000 Knowledge/ram/Knowledge-Systems/05-Knowledge-Graphs/05-Knowledge-Graphs.md]]"
 ---
 
 # Wikidata
@@ -58,4 +58,4 @@ SELECT ?work ?workLabel WHERE {
 
 ## Sources
 
-- [[3 Resources/000 Knowledge/ram/Knowledge-Systems/05-知识图谱/05-知识图谱.md]]
+- [[3 Resources/000 Knowledge/ram/Knowledge-Systems/05-Knowledge-Graphs/05-Knowledge-Graphs.md]]

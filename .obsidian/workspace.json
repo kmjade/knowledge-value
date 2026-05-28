@@ -22,35 +22,21 @@
                 "groupOption": "none"
               },
               "icon": "columns-3",
-              "title": "IOTO 仪表盘"
+              "title": "IOTO 儀表板"
             }
           },
           {
-            "id": "e0dd768d5423502e",
+            "id": "7edd99b917bc8602",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3 Resources/000 Knowledge/000 Knowledge.md",
+                "file": "AI-Log/sessions/2026-05-28-knowledge-system-architecture.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "000 Knowledge"
-            }
-          },
-          {
-            "id": "185f4e660349b451",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AI-Log/optimization-report-380-Commerce-Transport.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "optimization-report-380-Commerce-Transport"
+              "title": "2026-05-28-knowledge-system-architecture"
             }
           }
         ],
@@ -111,7 +97,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 284.5
+    "width": 415.5
   },
   "right": {
     "id": "19cea027a20285b0",
@@ -187,17 +173,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3 Resources/03-Productivity/工作技巧/Claudian/Obsidian + Claudian 集成方案.md",
+                "file": "AI-Log/sessions/2026-05-28-knowledge-system-architecture.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Obsidian + Claudian 集成方案 的大纲"
+              "title": "2026-05-28-knowledge-system-architecture 的大綱"
             }
           },
           {
-            "id": "12ce29d2ceb39a3a",
+            "id": "d8c12a0f6eab5c63",
             "type": "leaf",
             "state": {
               "type": "claudian-view",
@@ -205,13 +191,23 @@
               "icon": "bot",
               "title": "Claudian"
             }
+          },
+          {
+            "id": "9829c194c041494d",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
         ],
         "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 336.5
+    "width": 381.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -232,47 +228,50 @@
       "ioto-settings:开启仅同步当前文件模式": false,
       "ioto-settings:关闭仅同步当前文件模式": false,
       "obsidian-git:Open Git source control": false,
-      "wechat-converter:Obsidian 发布助手": false
+      "wechat-converter:Obsidian 发布助手": false,
+      "realclaudian:Open Claudian": false
     }
   },
-  "active": "e0dd768d5423502e",
+  "active": "7edd99b917bc8602",
   "lastOpenFiles": [
-    "3 Resources/000 Knowledge/wiki/concepts/PARA-Method.md",
-    "3 Resources/000 Knowledge/070-Digital-Knowledge/09-Agent与知识/09-Agent与知识.md",
-    "3 Resources/000 Knowledge/070-Digital-Knowledge/08-知识推理/08-知识推理.md",
-    "3 Resources/000 Knowledge/070-Digital-Knowledge/07-知识抽取/07-知识抽取.md",
-    "3 Resources/000 Knowledge/070-Digital-Knowledge/06-LLM与知识/06-LLM与知识.md",
-    "3 Resources/000 Knowledge/070-Digital-Knowledge/05-RAG/05-RAG.md",
-    "3 Resources/000 Knowledge/070-Digital-Knowledge/04-关联数据实践/04-关联数据实践.md",
-    "3 Resources/000 Knowledge/070-Digital-Knowledge/03-知识图谱工程/03-知识图谱工程.md",
-    "3 Resources/000 Knowledge/070-Digital-Knowledge/02-语义网/02-语义网.md",
-    "3 Resources/000 Knowledge/070-Digital-Knowledge/01-数字知识概述/01-数字知识概述.md",
-    "3 Resources/000 Knowledge/070-Digital-Knowledge/README.md",
-    "3 Resources/000 Knowledge/070-Digital-Knowledge/09-Agent与知识",
-    "3 Resources/000 Knowledge/070-Digital-Knowledge/08-知识推理",
-    "3 Resources/000 Knowledge/070-Digital-Knowledge/070-数字知识系统.md",
-    "3 Resources/000 Knowledge/070-Digital-Knowledge/07-知识抽取",
-    "3 Resources/000 Knowledge/070-Digital-Knowledge/06-LLM与知识",
-    "3 Resources/000 Knowledge/070-Digital-Knowledge/05-RAG",
-    "3 Resources/000 Knowledge/070-Digital-Knowledge/04-关联数据实践",
-    "3 Resources/000 Knowledge/070-Digital-Knowledge/03-知识图谱工程",
-    "3 Resources/000 Knowledge/070-Digital-Knowledge/02-语义网",
-    "3 Resources/000 Knowledge/070-Digital-Knowledge/01-数字知识概述",
-    "3 Resources/000 Knowledge/070-Digital-Knowledge",
-    "3 Resources/000 Knowledge/060-Knowledge-Management/09-KM未来/09-KM未来.md",
-    "3 Resources/000 Knowledge/060-Knowledge-Management/08-KM工具/08-KM工具.md",
-    "3 Resources/000 Knowledge/060-Knowledge-Management/07-PKM/07-PKM.md",
-    "3 Resources/000 Knowledge/060-Knowledge-Management/06-组织学习/06-组织学习.md",
-    "3 Resources/000 Knowledge/060-Knowledge-Management/05-知识共享/05-知识共享.md",
-    "3 Resources/000 Knowledge/060-Knowledge-Management/04-知识审计/04-知识审计.md",
-    "3 Resources/000 Knowledge/060-Knowledge-Management/03-实践社区/03-实践社区.md",
-    "3 Resources/000 Knowledge/060-Knowledge-Management/02-SECI模型/02-SECI模型.md",
-    "3 Resources/000 Knowledge/060-Knowledge-Management/01-KM概述/01-KM概述.md",
-    "3 Resources/000 Knowledge/060-Knowledge-Management/README.md",
-    "3 Resources/000 Knowledge/060-Knowledge-Management/060-知识管理.md",
-    "3 Resources/000 Knowledge/050-Classification-Metadata/09-数字时代分类/09-数字时代分类.md",
-    "3 Resources/000 Knowledge/050-Classification-Metadata/08-分类法应用/08-分类法应用.md",
-    "3 Resources/000 Knowledge/050-Classification-Metadata/07-元数据标准/07-元数据标准.md",
+    "3 Resources/000 Knowledge/070-Digital-Knowledge/08-Knowledge-Reasoning/08-Knowledge-Reasoning-知识推理.md",
+    "3 Resources/000 Knowledge/070-Digital-Knowledge/08-Knowledge-Reasoning",
+    "3 Resources/000 Knowledge/070-Digital-Knowledge/070-Digital-Knowledge.md",
+    "3 Resources/000 Knowledge/070-Digital-Knowledge/07-Knowledge-Extraction/07-Knowledge-Extraction-知识抽取.md",
+    "3 Resources/000 Knowledge/070-Digital-Knowledge/07-Knowledge-Extraction",
+    "3 Resources/000 Knowledge/070-Digital-Knowledge/04-Linked-Data-Practice/04-Linked-Data-Practice-关联数据实践.md",
+    "3 Resources/000 Knowledge/070-Digital-Knowledge/04-Linked-Data-Practice",
+    "3 Resources/000 Knowledge/070-Digital-Knowledge/03-KG-Engineering/03-KG-Engineering-知识图谱工程.md",
+    "3 Resources/000 Knowledge/070-Digital-Knowledge/03-KG-Engineering",
+    "3 Resources/000 Knowledge/070-Digital-Knowledge/02-Semantic-Web/02-Semantic-Web-语义网.md",
+    "3 Resources/000 Knowledge/070-Digital-Knowledge/02-Semantic-Web",
+    "3 Resources/000 Knowledge/070-Digital-Knowledge/01-Digital-Knowledge-Overview/01-Digital-Knowledge-Overview-数字知识概述.md",
+    "3 Resources/000 Knowledge/070-Digital-Knowledge/01-Digital-Knowledge-Overview",
+    "3 Resources/000 Knowledge/060-Knowledge-Management/07-Personal-KM/07-Personal-KM-个人知识管理.md",
+    "3 Resources/000 Knowledge/060-Knowledge-Management/07-Personal-KM",
+    "3 Resources/000 Knowledge/060-Knowledge-Management/060-Knowledge-Management.md",
+    "3 Resources/000 Knowledge/060-Knowledge-Management/06-Organizational-Learning/06-Organizational-Learning-组织学习.md",
+    "3 Resources/000 Knowledge/060-Knowledge-Management/06-Organizational-Learning",
+    "3 Resources/000 Knowledge/060-Knowledge-Management/05-Knowledge-Sharing/05-Knowledge-Sharing-知识共享.md",
+    "3 Resources/000 Knowledge/060-Knowledge-Management/05-Knowledge-Sharing",
+    "3 Resources/000 Knowledge/060-Knowledge-Management/04-Knowledge-Audit/04-Knowledge-Audit-知识审计.md",
+    "3 Resources/000 Knowledge/060-Knowledge-Management/04-Knowledge-Audit",
+    "3 Resources/000 Knowledge/060-Knowledge-Management/03-Communities-of-Practice/03-Communities-of-Practice-实践社区.md",
+    "3 Resources/000 Knowledge/050-Classification-Metadata/09-Digital-Age-Classification/09-Digital-Age-Classification-数字时代分类.md",
+    "3 Resources/000 Knowledge/050-Classification-Metadata/08-Classification-Applications/08-Classification-Applications-分类法应用.md",
+    "3 Resources/000 Knowledge/050-Classification-Metadata/07-Metadata-Standards/07-Metadata-Standards-元数据标准.md",
+    "3 Resources/000 Knowledge/050-Classification-Metadata/06-Comparative-Analysis/06-Comparative-Analysis-对比分析.md",
+    "3 Resources/000 Knowledge/050-Classification-Metadata/050-Classification-Metadata.md",
+    "3 Resources/000 Knowledge/050-Classification-Metadata/05-Chinese-Classification/05-Chinese-Classification-中国分类法.md",
+    "3 Resources/000 Knowledge/050-Classification-Metadata/02-Classification-Principles/02-Classification-Principles-分类法原理.md",
+    "3 Resources/000 Knowledge/050-Classification-Metadata/01-Classification-Overview/01-Classification-Overview-分类法概述.md",
+    "3 Resources/000 Knowledge/040-Information-Science/09-Information-Society/09-Information-Society-信息社会.md",
+    "3 Resources/000 Knowledge/040-Information-Science/08-Information-Economics/08-Information-Economics-信息经济.md",
+    "3 Resources/000 Knowledge/040-Information-Science/07-Information-Policy/07-Information-Policy-信息政策.md",
+    "3 Resources/000 Knowledge/040-Information-Science/06-Information-Visualization/06-Information-Visualization-信息可视化.md",
+    "3 Resources/000 Knowledge/040-Information-Science/05-Information-Behavior/05-Information-Behavior-信息行为.md",
+    "3 Resources/004-Computer-Science/Artificial-Intelligence/06-强化学习/AI-Agent/images/Pasted image 20260524160938.png",
+    "3 Resources/004-Computer science and technology/Artificial-Intelligence/06-强化学习/AI-Agent/images/Pasted image 20260524160938.png",
     "3 Resources/000 Knowledge/wiki/diagram/entropy-cycle@2x.png",
     "3 Resources/000 Knowledge/wiki/diagram/entropy-cycle.svg",
     "3 Resources/000 Knowledge/wiki/diagram/information-lifecycle@2x.png",
@@ -280,8 +279,6 @@
     "3 Resources/000 Knowledge/wiki/diagram/KOS-architecture.svg",
     "3 Resources/000 Knowledge/wiki/diagram/KOS-knowledge-pyramid@2x.png",
     "3 Resources/000 Knowledge/wiki/diagram/KOS-knowledge-pyramid.svg",
-    "3 Resources/000 Knowledge/wiki/diagram/KOS-architecture@2x.png",
-    "0 Inbox/images/Pasted image 20260528032510.png",
-    "3 Resources/000 Knowledge/Computer-Science/Artificial-Intelligence/06-强化学习/AI-Agent/images/Pasted image 20260524160938.png"
+    "3 Resources/000 Knowledge/wiki/diagram/KOS-architecture@2x.png"
   ]
 }

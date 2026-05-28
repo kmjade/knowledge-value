@@ -8,7 +8,7 @@ type: concept
 topic: knowledge-systems
 status: reviewed
 sources:
-  - "[[3 Resources/000 Knowledge/ram/Knowledge-Systems/01-概述/01-概述.md]]"
+  - "[[3 Resources/000 Knowledge/ram/Knowledge-Systems/01/01-概述.md]]"
 ---
 
 # DIKW Pyramid
@@ -17,7 +17,7 @@ sources:
 
 DIKW 金字塔是描述数据 (Data)、信息 (Information)、知识 (Knowledge)、智慧 (Wisdom) 四个层级及其转化关系的信息科学基础模型。
 
-> 来源: [[3 Resources/000 Knowledge/ram/Knowledge-Systems/01-概述/01-概述.md|01-知识系统概述]]
+> 来源: [[3 Resources/000 Knowledge/ram/Knowledge-Systems/01/01-概述.md|01]]
 
 ## 核心原理
 
@@ -53,4 +53,4 @@ DIKW 金字塔是描述数据 (Data)、信息 (Information)、知识 (Knowledge)
 
 ## Sources
 
-- [[3 Resources/000 Knowledge/ram/Knowledge-Systems/01-概述/01-概述.md]]
+- [[3 Resources/000 Knowledge/ram/Knowledge-Systems/01/01-概述.md]]

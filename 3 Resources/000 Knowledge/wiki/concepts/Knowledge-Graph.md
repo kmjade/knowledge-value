@@ -8,7 +8,7 @@ type: concept
 topic: knowledge-systems
 status: reviewed
 sources:
-  - "[[3 Resources/000 Knowledge/ram/Knowledge-Systems/05-知识图谱/05-知识图谱.md]]"
+  - "[[3 Resources/000 Knowledge/ram/Knowledge-Systems/05-Knowledge-Graphs/05-Knowledge-Graphs.md]]"
 ---
 
 # Knowledge Graph (知识图谱)
@@ -17,7 +17,7 @@ sources:
 
 知识图谱是本体的工业级实现——将亿万实体和关系组织为可查询、可推理的网络。Google 在 2012 年提出这个概念，但比利时学者 Paul Otlet 在 100 年前已有雏形。
 
-> 来源: [[3 Resources/000 Knowledge/ram/Knowledge-Systems/05-知识图谱/05-知识图谱.md|05-知识图谱]]
+> 来源: [[3 Resources/000 Knowledge/ram/Knowledge-Systems/05-Knowledge-Graphs/05-Knowledge-Graphs.md|05-Knowledge-Graphs]]
 
 ## 核心原理
 
@@ -78,4 +78,4 @@ sources:
 
 ## Sources
 
-- [[3 Resources/000 Knowledge/ram/Knowledge-Systems/05-知识图谱/05-知识图谱.md]]
+- [[3 Resources/000 Knowledge/ram/Knowledge-Systems/05-Knowledge-Graphs/05-Knowledge-Graphs.md]]

@@ -1,0 +1,15 @@
+---
+title: 信息政策
+tags: [information-science]
+created: 2026-05-28
+---
+
+# Information Policy
+
+| 版权·隐私·审查·网络中立——信息不是免费的——政策决定谁可以知道什么 |
+|------|
+| GDPR: 欧洲通用数据保护条例——被遗忘权——影响全球 |
+
+## 相关
+
+- [[../08-Information-Economics/08-Information-Economics\|08]]

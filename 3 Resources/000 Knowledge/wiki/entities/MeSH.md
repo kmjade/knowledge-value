@@ -9,7 +9,7 @@ entity_type: system
 topic: knowledge-systems
 status: reviewed
 sources:
-  - "[[3 Resources/000 Knowledge/ram/Knowledge-Systems/03-叙词表/03-叙词表.md]]"
+  - "[[3 Resources/000 Knowledge/ram/Knowledge-Systems/03-Thesauri/03-Thesauri.md]]"
 ---
 
 # Medical Subject Headings (MeSH)
@@ -50,4 +50,4 @@ Anatomy [A]
 
 ## Sources
 
-- [[3 Resources/000 Knowledge/ram/Knowledge-Systems/03-叙词表/03-叙词表.md]]
+- [[3 Resources/000 Knowledge/ram/Knowledge-Systems/03-Thesauri/03-Thesauri.md]]

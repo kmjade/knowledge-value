@@ -9,7 +9,7 @@ entity_type: person
 topic: knowledge-systems
 status: reviewed
 sources:
-  - "[[3 Resources/000 Knowledge/ram/Knowledge-Systems/06-关联数据/06-关联数据.md]]"
+  - "[[3 Resources/000 Knowledge/ram/Knowledge-Systems/06-Linked-Data/06-Linked-Data.md]]"
 ---
 
 # Tim Berners-Lee
@@ -48,4 +48,4 @@ Tim Berners-Lee 是 Web 的发明者，也是语义网 (Semantic Web) 和关联�
 
 ## Sources
 
-- [[3 Resources/000 Knowledge/ram/Knowledge-Systems/06-关联数据/06-关联数据.md]]
+- [[3 Resources/000 Knowledge/ram/Knowledge-Systems/06-Linked-Data/06-Linked-Data.md]]

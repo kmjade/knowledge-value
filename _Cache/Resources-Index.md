@@ -1,185 +1,102 @@
 ---
 title: Resources Cache
-date: 2026-01-26
+date: 2026-05-28
+updated: 2026-05-28
 tags: [cache, resources]
+type: cache
 ---
 
-# Resources 緩存索引
+# Resources 缓存索引
 
-# 更新
+## 统计
 
----
-
-# 資訊
-
-| 指標 | 數值 |
+| 指标 | 数值 |
 |------|------|
-| 總筆記數 | 28 |
-# 檔案
-# 更新
+| 总笔记数 | 2517 |
+| 顶级子库数 | 20 |
+| 子目录数 | 200+ |
+
+## 按子库分类
+
+### DDC 知识分类体系
+
+| 子库 | 路径 | 文件数 | 状态 |
+|------|------|--------|------|
+| 000 Knowledge | `000 Knowledge/` | 536 | 🟢 活跃 |
+| 100 Philosophy & Psychology | `100 Philosophy. Psychology/` | 200 | 🟢 活跃 |
+| 200 Religion & Theology | `200 Religion & Theology/` | 126 | 🟡 框架 |
+| 300 Social Sciences | `300 Social Sciences/` | 102 | 🟡 框架 |
+| 400 Language | `400 Language/` | 100 | 🟡 框架 |
+| 500 Natural Sciences | `500 Natural Sciences/` | 107 | 🟢 活跃 |
+| 600 Applied Sciences | `600 Applied Sciences/` | 207 | 🟢 活跃 |
+| 700 Arts | `700 Arts/` | 100 | 🟡 框架 |
+| 800 Literature | `800 Literature/` | 100 | 🟡 框架 |
+| 900 History & Geography | `900 History & Geography/` | 100 | 🟡 框架 |
+
+### 技术类
+
+| 子库 | 路径 | 文件数 | 状态 |
+|------|------|--------|------|
+| 01-Tech | `01-Tech/` | 290 | 🟢 活跃 |
+| 0 Department | `0 Department/` | 6 | 🟡 迁移中 |
+
+### 学习与生产力
+
+| 子库 | 路径 | 文件数 | 状态 |
+|------|------|--------|------|
+| 02-Learning | `02-Learning/` | 52 | 🟢 活跃 |
+| 03-Productivity | `03-Productivity/` | 67 | 🟢 活跃 |
+| productivity | `productivity/` | 137 | 🟢 活跃 |
+
+### 兴趣与参考
+
+| 子库 | 路径 | 文件数 | 状态 |
+|------|------|--------|------|
+| 04-Interests | `04-Interests/` | 192 | 🟢 活跃 |
+| 05-Reference | `05-Reference/` | 59 | 🟢 活跃 |
+
+### 专项
+
+| 子库 | 路径 | 文件数 | 状态 |
+|------|------|--------|------|
+| finance | `finance/` | 29 | 🟡 规划中 |
+| people | `people/` | 4 | 🟡 规划中 |
 
 ---
 
-## 📁 按主題分類
+## 按状态分类
 
-### 01-Tech/
-
-#### Programming/
-# 檔案
-|--------|----------|
-| Programming.md | - |
-
-#### AI-ML/
-# 檔案
-|--------|----------|
-| AI-ML.md | - |
-| 機器學習.md | - |
-
-#### Data-Science/
-# 檔案
-|--------|----------|
-| Data-Science.md | - |
-# 方法
-
-### 02-Learning/
-
-#### Courses/
-# 檔案
-|--------|----------|
-| Courses.md | - |
-| PARA學習與實施計劃.md | - |
-
-#### Books/
-# 檔案
-|--------|----------|
-| Books.md | - |
-
-### 03-Productivity/
-
-#### Tools/
-# 檔案
-|--------|----------|
-| Tools.md | - |
-| Obsidian 外掛精選.md | ⭐⭐⭐⭐⭐ |
-# 工作流
-| PARA歸檔結構.md | ⭐⭐⭐⭐⭐ |
-# 管理
-
-#### Methods/
-# 檔案
-|--------|----------|
-| Methods.md | - |
-# 指南
-# 管理
-# 指南
-| 前端數據可視化.md | ⭐⭐⭐⭐⭐ |
-# 工作流
-| Getting Things Done.md | ⭐⭐⭐⭐⭐ |
-
-### 04-Interests/
-
-#### Travel/
-# 檔案
-|--------|----------|
-| Travel.md | - |
-
-#### Cooking/
-# 檔案
-|--------|----------|
-| Cooking.md | - |
-
-#### Hobbies/
-# 檔案
-|--------|----------|
-| Hobbies.md | - |
-
-### 05-Reference/
-
-#### Documents/
-# 檔案
-|--------|----------|
-| Documents.md | - |
-
-#### Templates/
-# 檔案
-|--------|----------|
-| Templates.md | - |
+| 状态 | 子库数 | 占比 |
+|------|--------|------|
+| 🟢 活跃 | 11 | 55% |
+| 🟡 框架/规划中 | 9 | 45% |
 
 ---
 
-## 🔥 熱門資源 (Top 10)
+## 热门资源 (Top 10 子库按文件数)
 
-# 檔案
-|------|--------|----------|----------|
-| 1 | Obsidian 外掛精選.md | ⭐⭐⭐⭐⭐ | 2026-01-26 |
-# 工作流
-| 3 | PARA歸檔結構.md | ⭐⭐⭐⭐⭐ | 2026-01-26 |
-# 指南
-# 管理
-# 指南
-| 7 | 前端數據可視化.md | ⭐⭐⭐⭐⭐ | 2026-01-26 |
-# 工作流
-| 9 | Getting Things Done.md | ⭐⭐⭐⭐⭐ | 2026-01-26 |
-# 管理
-
----
-
-## 📊 按興趣程度分類
-
-### ⭐⭐⭐⭐⭐
-- Obsidian 外掛精選.md
-# 工作流
-- PARA歸檔結構.md
-# 指南
-# 管理
-# 指南
-- 前端數據可視化.md
-# 工作流
-- Getting Things Done.md
-
-### ⭐⭐⭐⭐
-- (無)
-
-### ⭐⭐⭐
-- (無)
-
-### ⭐⭐
-- (無)
-
-### ⭐
-- (無)
-
-### 未評級
-- Programming.md
-- AI-ML.md
-- 機器學習.md
-- Data-Science.md
-# 方法
-- Courses.md
-- PARA學習與實施計劃.md
-- Books.md
-- Tools.md
-# 管理
-- Methods.md
-- Travel.md
-- Cooking.md
-- Hobbies.md
-- Documents.md
-- Templates.md
-- Projects-Index.md (待移至 _Cache)
-- Areas-Index.md (待移至 _Cache)
-- Resources-Index.md (待移至 _Cache)
-- PARA-Overview.md (待移至 _Cache)
+| 排名 | 子库 | 文件数 |
+|------|------|--------|
+| 1 | 000 Knowledge | 536 |
+| 2 | 01-Tech | 290 |
+| 3 | 600 Applied Sciences | 207 |
+| 4 | 100 Philosophy & Psychology | 200 |
+| 5 | 04-Interests | 192 |
+| 6 | productivity | 137 |
+| 7 | 200 Religion & Theology | 126 |
+| 8 | 500 Natural Sciences | 107 |
+| 9 | 300 Social Sciences | 102 |
+| 10 | 400/700/800/900 (并列) | 100 |
 
 ---
 
-## 🔗 相關項目和領域
+## 关联项目和领域
 
 ```dataview
 TABLE without ID
-  file.link AS "資源",
-  file.outlinks.length AS "連結數",
-  filter(file.outlinks, (l) => startswith(l.path, "1 Projects")) AS "關聯項目"
+  file.link AS "资源",
+  file.outlinks.length AS "链接数",
+  filter(file.outlinks, (l) => startswith(l.path, "1 Projects")) AS "关联项目"
 FROM "3 Resources"
 WHERE file.name != this.file.name AND !startswith(file.name, "_Cache")
 SORT file.outlinks.length DESC
@@ -188,13 +105,17 @@ LIMIT 10
 
 ---
 
-## ⚠️ 待處理項目
+## 待处理项目
 
-# 新增
-# 新增
-- [ ] 建立資源與項目/領域的關聯
-# 檔案
+- [ ] 完成 DDC 框架子库的内容填充（200/300/400/700/800/900）
+- [ ] 整理 0 Department/ 迁移至对应 DDC 分类
+- [ ] 清理 學習AI/ 空目录
+- [ ] 为顶级笔记添加 frontmatter 属性
 
 ---
 
-# 檔案
+## 维护
+
+**最后更新**: 2026-05-28
+**维护者**: Claudian
+**下次更新**: 2026-06-04

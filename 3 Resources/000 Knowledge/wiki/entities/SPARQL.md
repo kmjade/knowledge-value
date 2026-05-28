@@ -8,7 +8,7 @@ entity_type: standard
 topic: knowledge-systems
 status: reviewed
 sources:
-  - "[[3 Resources/000 Knowledge/ram/Knowledge-Systems/06-关联数据/06-关联数据.md]]"
+  - "[[3 Resources/000 Knowledge/ram/Knowledge-Systems/06-Linked-Data/06-Linked-Data.md]]"
 ---
 
 # SPARQL
@@ -58,4 +58,4 @@ SELECT ?work ?workLabel WHERE {
 
 ## Sources
 
-- [[3 Resources/000 Knowledge/ram/Knowledge-Systems/06-关联数据/06-关联数据.md]]
+- [[3 Resources/000 Knowledge/ram/Knowledge-Systems/06-Linked-Data/06-Linked-Data.md]]

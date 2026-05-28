@@ -8,7 +8,7 @@ type: concept
 topic: knowledge-systems
 status: reviewed
 sources:
-  - "[[3 Resources/000 Knowledge/ram/Knowledge-Systems/09-个人知识管理/09-个人知识管理.md]]"
+  - "[[3 Resources/000 Knowledge/ram/Knowledge-Systems/09-Personal-KM/09-Personal-KM.md]]"
 ---
 
 # Personal Knowledge Management (PKM)
@@ -17,7 +17,7 @@ sources:
 
 个人知识管理 (PKM) 是将 KOS 理论应用于个人层面的实践——通过系统化的方法捕获、组织、提炼和表达个人知识，构建"第二大脑"。
 
-> 来源: [[3 Resources/000 Knowledge/ram/Knowledge-Systems/09-个人知识管理/09-个人知识管理.md|09-个人知识管理]]
+> 来源: [[3 Resources/000 Knowledge/ram/Knowledge-Systems/09-Personal-KM/09-Personal-KM.md|09-Personal-KM]]
 
 ## 核心原理
 
@@ -71,5 +71,5 @@ sources:
 
 ## Sources
 
-- [[3 Resources/000 Knowledge/ram/Knowledge-Systems/09-个人知识管理/09-个人知识管理.md]]
+- [[3 Resources/000 Knowledge/ram/Knowledge-Systems/09-Personal-KM/09-Personal-KM.md]]
 - [[3 Resources/000 Knowledge/ram/Knowledge-Systems/Knowledge-Systems.md]]

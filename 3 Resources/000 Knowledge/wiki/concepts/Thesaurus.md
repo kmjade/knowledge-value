@@ -9,7 +9,7 @@ type: concept
 topic: knowledge-systems
 status: reviewed
 sources:
-  - "[[3 Resources/000 Knowledge/ram/Knowledge-Systems/03-叙词表/03-叙词表.md]]"
+  - "[[3 Resources/000 Knowledge/ram/Knowledge-Systems/03-Thesauri/03-Thesauri.md]]"
 ---
 
 # Thesaurus (叙词表)
@@ -18,7 +18,7 @@ sources:
 
 叙词表是比分类法更精细的知识组织工具——它不仅列出术语，还定义术语间的层级、等同和关联关系 (BT/NT/RT)，支持多维度检索。
 
-> 来源: [[3 Resources/000 Knowledge/ram/Knowledge-Systems/03-叙词表/03-叙词表.md|03-叙词表与受控词表]]
+> 来源: [[3 Resources/000 Knowledge/ram/Knowledge-Systems/03-Thesauri/03-Thesauri.md|03-Thesauri与受控词表]]
 
 ## 核心原理
 
@@ -71,4 +71,4 @@ sources:
 
 ## Sources
 
-- [[3 Resources/000 Knowledge/ram/Knowledge-Systems/03-叙词表/03-叙词表.md]]
+- [[3 Resources/000 Knowledge/ram/Knowledge-Systems/03-Thesauri/03-Thesauri.md]]

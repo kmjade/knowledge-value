@@ -122,4 +122,4 @@ aliases: [DDC vs UDC, 杜威 vs 国际十进, Dewey vs UDC]
 ---
 
 > 📌 本表参考: DDC 23 (2011), UDC MRF (2026), udcsummary.info  
-> 关联笔记: [[3 Resources/000 Knowledge/ram/DDC/README\|DDC 知识库]] | [[3 Resources/000 Knowledge/ram/UDC/README\|UDC 知识库]] | [[03-知识组织\|LIS·知识组织]]
+> 关联笔记: [[3 Resources/000 Knowledge/ram/DDC/README\|DDC 知识库]] | [[3 Resources/000 Knowledge/ram/UDC/README\|UDC 知识库]] | [[03-Knowledge-Organization\|LIS·知识组织]]

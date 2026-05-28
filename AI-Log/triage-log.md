@@ -171,7 +171,7 @@ purpose: triage
 ### 待处理: Epistemology 重复
 - `3 Resources/epistemology/` (17 文件, 活跃)
 - `4 Archives/by-type/Resources/epistemology/` (43 文件, 归档)
-- DDC 100 入口页已指向 `000 Knowledge/ram/Prolegomena/` 作为 DDC 120
+- DDC 100 入口页已指向 `000 Knowledge/ram/Prolegomena-知识学导论/` 作为 DDC 120
 - 建议: 合并或明确三个 epistemology 位置的关系
 - 状态: pending
 

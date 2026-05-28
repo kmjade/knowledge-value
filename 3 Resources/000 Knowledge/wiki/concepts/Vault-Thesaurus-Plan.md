@@ -324,5 +324,5 @@ SORT file.name ASC
 
 ## Sources
 
-- [[3 Resources/000 Knowledge/ram/Knowledge-Systems/03-叙词表/03-叙词表.md]]
-- [[3 Resources/000 Knowledge/ram/Knowledge-Systems/01-概述/01-概述.md]]
+- [[3 Resources/000 Knowledge/ram/Knowledge-Systems/03-Thesauri/03-Thesauri.md]]
+- [[3 Resources/000 Knowledge/ram/Knowledge-Systems/01/01-概述.md]]

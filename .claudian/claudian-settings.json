@@ -27,14 +27,14 @@
     "scrollDownKey": "s",
     "focusInputKey": "i"
   },
+  "requireCommandOrControlEnterToSend": false,
   "locale": "zh-TW",
   "providerConfigs": {
     "claude": {
       "safeMode": "acceptEdits",
       "cliPath": "",
       "cliPathsByHost": {
-        "device:65cfab17-3531-458a-9bcb-bfaee63f03ca": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe",
-        "PC-DELL": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe"
+        "device:65cfab17-3531-458a-9bcb-bfaee63f03ca": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe"
       },
       "loadUserSettings": true,
       "enableChrome": false,
@@ -51,50 +51,58 @@
       "safeMode": "workspace-write",
       "cliPath": "",
       "cliPathsByHost": {},
+      "customModels": "",
       "reasoningSummary": "detailed",
       "environmentVariables": "",
       "environmentHash": "",
       "installationMethodsByHost": {
         "DESKTOP-4352T4A": "native-windows",
-        "device:65cfab17-3531-458a-9bcb-bfaee63f03ca": "native-windows",
-        "PC-DELL": "native-windows"
+        "device:65cfab17-3531-458a-9bcb-bfaee63f03ca": "native-windows"
       },
       "wslDistroOverridesByHost": {}
     },
     "opencode": {
       "cliPath": "",
-      "cliPathsByHost": {},
-      "enabled": false,
+      "cliPathsByHost": {
+        "device:65cfab17-3531-458a-9bcb-bfaee63f03ca": "C:\\Users\\Administrator\\AppData\\Roaming\\npm\\node_modules\\opencode-ai\\bin\\opencode.exe"
+      },
+      "enabled": true,
       "environmentHash": "",
       "environmentVariables": "",
       "modelAliases": {},
       "preferredThinkingByModel": {},
-      "selectedMode": "",
+      "selectedMode": "claudian-yolo",
       "thinkingOptionsByModel": {},
-      "visibleModels": []
+      "visibleModels": [
+        "opencode/big-pickle"
+      ]
     }
   },
   "settingsProvider": "claude",
   "savedProviderModel": {
-    "claude": "opus"
+    "claude": "opus",
+    "opencode": "opencode:opencode/big-pickle"
   },
   "savedProviderEffort": {
-    "claude": "high"
+    "claude": "high",
+    "opencode": "default"
   },
   "savedProviderServiceTier": {},
   "savedProviderThinkingBudget": {
-    "claude": "medium"
+    "claude": "medium",
+    "opencode": "default"
+  },
+  "savedProviderPermissionMode": {
+    "claude": "yolo",
+    "opencode": "yolo"
   },
   "lastCustomModel": "glm-5.1",
   "maxTabs": 3,
   "tabBarPosition": "input",
   "enableAutoScroll": true,
-  "openInMainTab": false,
-  "hiddenProviderCommands": {},
-  "requireCommandOrControlEnterToSend": false,
-  "savedProviderPermissionMode": {},
   "deferMathRenderingDuringStreaming": true,
   "chatViewPlacement": "right-sidebar",
+  "hiddenProviderCommands": {},
   "claudeCliPaths": {
     "macos": "",
     "linux": "",
