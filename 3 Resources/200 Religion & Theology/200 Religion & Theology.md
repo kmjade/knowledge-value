@@ -42,7 +42,7 @@ tags:
 │
 ├── 250-基督教教牧/         🟢 已建设       ← 讲道、牧职、地方教会 (DDC 250)
 │
-├── 260-教会与社会/         🟡 待建设       ← 社会神学、宣教学 (DDC 260)
+├── 260-教会与社会/         🟢 已建设       ← 社会神学、宣教学 (DDC 260)
 │
 ├── 270-基督教历史/         🟡 待建设       ← 教会史 (DDC 270)
 │
@@ -68,7 +68,7 @@ tags:
 | **230** | Christianity / Christian theology 系统神学 | 🟢 |
 | **240** | Christian practice & observance 灵修实践 | 🟢 |
 | **250** | Christian orders & local church 教牧实践 | 🟢 |
-| **260** | Social & ecclesiastical theology 社会神学 | 🟡 |
+| **260** | Social & ecclesiastical theology 社会神学 | 🟢 |
 | **270** | History of Christianity 教会史 | 🟡 |
 | **280** | Christian denominations 基督教宗派 | 🟡 |
 | **290** | Other religions 其他宗教与比较宗教学 | 🟡 |
