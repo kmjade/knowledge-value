@@ -24,4 +24,4 @@ created: 2026-05-28
 
 ## 隶属
 
-[[3 Resources/100 Philosophy. Psychology/180-东方哲学 1/README\|DDC 180 东方哲学]] → 道家哲学
+[[../180-东方哲学|DDC 180 东方哲学]] → 道家哲学

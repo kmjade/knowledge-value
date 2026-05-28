@@ -24,4 +24,8 @@ created: 2026-05-28
 
 ## 隶属
 
-[[../../README\|DDC 180 东方哲学]] → 佛学
+[[../180-东方哲学|DDC 180 东方哲学]] → 佛学
+
+## 关联
+
+- [[3 Resources/200 Religion & Theology/200 Religion & Theology|DDC 200 宗教·神学]] — 佛教的宗教实践维度
