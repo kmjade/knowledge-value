@@ -120,12 +120,12 @@ DDC 在组织东方传统时有一个关键区分：
 
 ### 关联知识库
 
-| 知识库 | 关系 |
-|--------|------|
+| 知识库                                                                        | 关系                                    |
+| -------------------------------------------------------------------------- | ------------------------------------- |
 | [[3 Resources/100 Philosophy. Psychology/180-东方哲学 1/README\|DDC 180 东方哲学]] | 东方宗教的哲学维度（道家 14 文件、儒家 14 文件、易经 92 文件） |
-| [[3 Resources/100 Philosophy. Psychology/110-形而上学/README\|DDC 110 形而上学]] | 上帝存在、自由意志、灵魂——哲学与神学的交叉议题 |
-| [[3 Resources/100 Philosophy. Psychology/170-伦理学/README\|DDC 170 伦理学]] | 宗教伦理学：神圣命令理论、自然法 |
-| [[3 Resources/100 Philosophy & Psychology/100 Philosophy & Psychology\|DDC 100 哲学]] | 父级学科大门 |
+| [[3 Resources/100 Philosophy. Psychology/110-形而上学/README\|DDC 110 形而上学]]   | 上帝存在、自由意志、灵魂——哲学与神学的交叉议题              |
+| [[3 Resources/100 Philosophy. Psychology/170-伦理学/README\|DDC 170 伦理学]]     | 宗教伦理学：神圣命令理论、自然法                      |
+| [[100 Philosophy. Psychology\|DDC 100 哲学]]                                 | 父级学科大门                                |
 
 ---
 

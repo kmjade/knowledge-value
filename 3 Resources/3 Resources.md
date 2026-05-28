@@ -41,8 +41,8 @@ tags:
 │
 ├── 📚 按 DDC 分類 ──────────────────────────────────
 ├── 000 Knowledge/        # 🟢 知識組織 (18 concepts)
-├── 100 Philosophy. Psychology/  # 🟢 哲學·心理學 (7 子庫)
-├── 200 Religion & Theology/     # 🟡 宗教·神學 (框架已建 ↔ DDC 180)
+├── 100 Philosophy. Psychology/  # 🟢 哲學·心理學 (200 文件 · 10/10)
+├── 200 Religion & Theology/     # 🟢 宗教·神學 (10/10 完成)
 ├── 300 Social Sciences/         # 🟢 社會科學 (102 文件 · 9/9 完成)
 ├── 400 Language/                # 🟢 語言學 (63 文件 · 9 子庫)
 ├── 500 Natural Sciences/        # 🟢 自然科學 (107 文件 · 9/9 完成)

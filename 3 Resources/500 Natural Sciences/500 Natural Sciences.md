@@ -86,18 +86,18 @@ tags:
 
 ## 🧭 按意图导航
 
-| 我想... | 去这里 |
-|---------|--------|
-| 🔢 **系统学习数学** | [[510-Mathematics/README\|DDC 510 数学]] (17 文件) |
-| 🚀 **探索宇宙** | [[520-Astronomy/README\|DDC 520 天文学]] |
-| ⚛️ **理解物理学** | [[530-Physics/README\|DDC 530 物理学]] |
-| 🧪 **学习化学** | [[540-Chemistry/README\|DDC 540 化学]] |
-| 🌍 **了解地球** | [[550-Earth-Sciences/README\|DDC 550 地球科学]] |
-| 🦖 **探索古生物** | [[560-Paleontology/README\|DDC 560 古生物学]] |
-| 🧬 **学习生命科学** | [[570-Life-Sciences/README\|DDC 570 生命科学]] |
-| 🌿 **研究植物** | [[580-Plants/README\|DDC 580 植物学]] |
-| 🐾 **了解动物** | [[590-Animals/README\|DDC 590 动物学]] |
-| 🔬 **看应用如何落地** | [[3 Resources/06 Applied Sciences/06 Applied Sciences\|DDC 600 应用科学]] — 科学→技术→工程 |
+| 我想...          | 去这里                                               |
+| -------------- | ------------------------------------------------- |
+| 🔢 **系统学习数学**  | [[510-Mathematics/README\|DDC 510 数学]] (17 文件)    |
+| 🚀 **探索宇宙**    | [[520-Astronomy/README\|DDC 520 天文学]]             |
+| ⚛️ **理解物理学**   | [[530-Physics/README\|DDC 530 物理学]]               |
+| 🧪 **学习化学**    | [[540-Chemistry/README\|DDC 540 化学]]              |
+| 🌍 **了解地球**    | [[550-Earth-Sciences/README\|DDC 550 地球科学]]       |
+| 🦖 **探索古生物**   | [[560-Paleontology/README\|DDC 560 古生物学]]         |
+| 🧬 **学习生命科学**  | [[570-Life-Sciences/README\|DDC 570 生命科学]]        |
+| 🌿 **研究植物**    | [[580-Plants/README\|DDC 580 植物学]]                |
+| 🐾 **了解动物**    | [[590-Animals/README\|DDC 590 动物学]]               |
+| 🔬 **看应用如何落地** | [[600 Applied Sciences\|DDC 600 应用科学]] — 科学→技术→工程 |
 
 ---
 
@@ -116,11 +116,11 @@ tags:
 
 ## 🔗 跨库连接
 
-| 知识库 | 关系 |
-|--------|------|
-| [[3 Resources/06 Applied Sciences/06 Applied Sciences\|DDC 600 应用科学]] | 下游：科学→技术→工程 (207 文件) |
-| [[3 Resources/100 Philosophy. Psychology/100 Philosophy. Psychology\|DDC 100 哲学]] | 科学哲学·认识论 |
-| [[3 Resources/000 Knowledge/000 Knowledge\|DDC 001 知识组织]] | 科学分类法 |
+| 知识库                                                                               | 关系                   |
+| --------------------------------------------------------------------------------- | -------------------- |
+| [[600 Applied Sciences\|DDC 600 应用科学]]                                            | 下游：科学→技术→工程 (207 文件) |
+| [[3 Resources/100 Philosophy. Psychology/100 Philosophy. Psychology\|DDC 100 哲学]] | 科学哲学·认识论             |
+| [[3 Resources/000 Knowledge/000 Knowledge\|DDC 001 知识组织]]                         | 科学分类法                |
 
 ---
 

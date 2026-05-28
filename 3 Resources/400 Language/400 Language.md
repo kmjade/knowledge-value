@@ -53,11 +53,11 @@ tags:
 
 ## 🔗 跨库连接
 
-| 知识库 | 关系 |
-|--------|------|
-| [[3 Resources/200 Religion & Theology/README\|DDC 200 宗教]] | 宗教经典的语言——希伯来/希腊/阿拉伯/梵语 |
-| [[3 Resources/100 Philosophy & Psychology/README\|DDC 100 哲学]] | 语言哲学——意义·指称·真值条件 |
-| [[../300 Social Sciences/370-教育学/README\|DDC 370 教育学]] | 语言教学与教育 |
+| 知识库                                                    | 关系                     |
+| ------------------------------------------------------ | ---------------------- |
+| [[200 Religion & Theology\|DDC 200 宗教]]                | 宗教经典的语言——希伯来/希腊/阿拉伯/梵语 |
+| [[100 Philosophy. Psychology\|DDC 100 哲学]]             | 语言哲学——意义·指称·真值条件       |
+| [[../300 Social Sciences/370-教育学/README\|DDC 370 教育学]] | 语言教学与教育                |
 
 ---
 

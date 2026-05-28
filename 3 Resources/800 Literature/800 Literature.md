@@ -31,8 +31,8 @@ tags: [resources, literature, ddc-800]
 
 ## 🔗 跨库连接
 
-- [[3 Resources/400 Language/README|DDC 400 语言]] — 语言是文学的媒介
-- [[3 Resources/700 Arts/README|DDC 700 艺术]] — 文学与艺术的交叉
+- [[400 Language|DDC 400 语言]] — 语言是文学的媒介
+- [[700 Arts|DDC 700 艺术]] — 文学与艺术的交叉
 
 ---
 
