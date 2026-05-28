@@ -29,7 +29,7 @@ tags:
 │
 ├── 200 Religion & Theology.md             ← 本文件：DDC 2 入口索引
 │
-├── 210-宗教哲学/           🟡 待建设       ← 宗教哲学与理论 (DDC 210)
+├── 210-宗教哲学/           🟢 已建设       ← 宗教哲学与理论 (DDC 210)
 │                                          ← 神学 · 宗教认识论 · 信仰与理性
 │
 ├── 220-圣经研究/           🟡 待建设       ← 基督教圣经 (DDC 220)
@@ -63,7 +63,7 @@ tags:
 | DDC | 领域 | 本库状态 |
 |-----|------|:------:|
 | **200** | Religion 总论 | 🟢 本页 |
-| **210** | Philosophy & theory of religion 宗教哲学 | 🟡 |
+| **210** | Philosophy & theory of religion 宗教哲学 | 🟢 |
 | **220** | The Bible 圣经 | 🟡 |
 | **230** | Christianity / Christian theology 系统神学 | 🟡 |
 | **240** | Christian practice & observance 灵修实践 | 🟡 |
