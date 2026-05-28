@@ -1,19 +1,32 @@
 ---
-title: DDC 000 知识库 README
-tags: [ddc-000, readme, archived]
+title: 信息科学 知识库 README
+tags: [information-science, ddc-000, readme]
 created: 2026-05-27
 updated: 2026-05-28
 ---
 
-# DDC 000 知识库 → 已迁移
+# 信息科学 (Information Science / DDC 000)
 
-> DDC 000 内容已整合至 [[3 Resources/07-Information/README\|07-Information (DDC 000)]]。
+> 信息科学九章——从分类法到数字人文，从检索到保存。
 
-## 迁移说明
+## 九章覆盖
 
-原 `000 Knowledge/07-Information/` 和 `000 Knowledge/ram/Information Science/` 已合并为 `3 Resources/07-Information/`。
+| # | 章节 | 核心 |
+|:--:|------|------|
+| 1 | [[01-信息科学概述\|01]] | 学科全景 |
+| 2 | [[02-知识组织\|02]] | 分类法·本体 |
+| 3 | [[03-信息检索\|03]] | 检索·搜索 |
+| 4 | [[04-图书馆学\|04]] | 图书馆 |
+| 5 | [[05-文献与出版\|05]] | 文献·出版 |
+| 6 | [[06-档案学与数字保存\|06]] | 档案·保存 |
+| 7 | [[07-信息计量学\|07]] | 文献计量 |
+| 8 | [[08-信息机构与管理\|08]] | 机构·政策 |
+| 9 | [[09-数字人文与数据管理\|09]] | 数字人文 |
+
+## 隶属
+
+[[3 Resources\|3 Resources]] → [[07-Information\|07-Information (DDC 000)]]
 
 ## 关联
 
-- [[3 Resources/07-Information/07-Information\|信息科学]] — 主入口
-- [[3 Resources/05-图书情报学/README\|图书情报学]] — 扩展版 LIS
+> 本知识库内容已扩展为 [[3 Resources/000 Knowledge/ram/05-图书情报学/README\|图书情报学 (LIS)]]，覆盖更广的学科视野。

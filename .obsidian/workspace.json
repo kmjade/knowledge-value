@@ -26,31 +26,17 @@
             }
           },
           {
-            "id": "94406016762e86d4",
+            "id": "e0dd768d5423502e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3 Resources/03-Productivity/MetaTrader/99-资源收集/经济日历.md",
+                "file": "3 Resources/200 Religion & Theology/200 Religion & Theology.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "经济日历"
-            }
-          },
-          {
-            "id": "615d66e1962440e7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3 Resources/productivity/raw/articles/Obsidian/99-资源收集/Obsidian 插件推荐.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Obsidian 插件推荐"
+              "title": "200 Religion & Theology"
             }
           }
         ],
@@ -211,7 +197,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 376.5
+    "width": 336.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -235,53 +221,53 @@
       "wechat-converter:Obsidian 发布助手": false
     }
   },
-  "active": "12ce29d2ceb39a3a",
+  "active": "e0dd768d5423502e",
   "lastOpenFiles": [
-    "0 Inbox/知识库建设报告 2026-05-27.md",
-    "3 Resources/finance/wiki/index.md.tmp.32880.82100046ec9e",
-    "3 Resources/finance/wiki/index.md.tmp.32880.3a20894b32e4",
-    "3 Resources/finance/wiki/concepts/Economic-Calendar.md",
-    "3 Resources/finance/wiki/concepts/Economic-Calendar.md.tmp.32880.749391e8f579",
-    "3 Resources/finance/raw/economic-calendar/2026-05-27.md",
-    "3 Resources/finance/raw/economic-calendar/2026-05-27.md.tmp.32880.f76971420564",
-    "3 Resources/finance/raw/economic-calendar",
-    "3 Resources/finance/wiki/concepts/Technical-Analysis.md",
-    "3 Resources/03-Productivity/MetaTrader/99-资源收集/经济日历.md",
-    "3 Resources/03-Productivity/MetaTrader/99-资源收集",
-    "3 Resources/03-Productivity/MetaTrader",
-    "3 Resources/finance/wiki/concepts/Risk-Management.md",
-    "3 Resources/finance/wiki/concepts/Order-Types.md",
-    "3 Resources/finance/wiki/concepts/MQL.md",
-    "3 Resources/finance/raw/MetaTrader/README.md.tmp.32880.e4a74935b245",
-    "3 Resources/finance/wiki/concepts/Expert-Advisor.md",
-    "3 Resources/finance/wiki/index.md.tmp.32880.d66006b97d70",
-    "3 Resources/finance/wiki/index.md.tmp.32880.cb2035f008b4",
-    "3 Resources/finance/raw/MetaTrader/99-资源收集/MetaTrader 资源收集.md",
-    "3 Resources/finance/wiki/concepts/Broker-Selection.md",
-    "3 Resources/finance/wiki/sources/source-MetaTrader-Raw.md",
-    "3 Resources/finance/wiki/concepts/Backtesting.md",
-    "0 Inbox/_processed/🚀 生產力資源整合指南.md",
-    "3 Resources/productivity/raw/articles/🚀 生產力資源整合指南.md",
-    "0 Inbox/_processed/让数字大脑自己「长脑子」.md",
-    "3 Resources/ai-ml/raw/articles/让数字大脑自己「长脑子」.md",
-    "0 Inbox/_processed/程序员的 AI-Agentic LifeOS 落地手册.md",
-    "3 Resources/ai-ml/raw/articles/程序员的 AI-Agentic LifeOS 落地手册.md",
-    "0 Inbox/_processed/知识库建设报告 2026-05-26.md",
-    "3 Resources/productivity/raw/articles/知识库建设报告 2026-05-26.md",
-    "0 Inbox/_processed/知识库建设报告 2026-05-25.md",
-    "3 Resources/productivity/raw/articles/知识库建设报告 2026-05-25.md",
-    "0 Inbox/_processed/知识工作者的 AI-Agentic LifeOS 落地手册.md",
-    "3 Resources/ai-ml/raw/articles/知识工作者的 AI-Agentic LifeOS 落地手册.md",
-    "0 Inbox/_processed/用Obsidian×AI搭建六边形数字大脑：5000+条笔记的完整系统（附模板）.md",
-    "3 Resources/01-Tech/AI-Agent/images/Pasted image 20260524160938.png",
-    "3 Resources/01-Tech/智能小车/RoboMaster/99-资源收集/images/Pasted image 20260524122959.png",
-    "3 Resources/01-Tech/智能小车/RoboMaster/99-资源收集/images/Pasted image 20260524122701.png",
-    "3 Resources/01-Tech/智能小车/RoboMaster/99-资源收集/images/Pasted image 20260523201512.png",
-    "3 Resources/01-Tech/智能小车/ESP32例程集/01-开发环境/imgs/Pasted image 20260219160715.png",
-    "3 Resources/01-Tech/智能小车/ESP32例程集/01-开发环境/imgs/Pasted image 20260219041958.png",
-    "3 Resources/01-Tech/智能小车/ESP32例程集/01-开发环境/imgs/Pasted image 20260219041742.png",
-    "3 Resources/01-Tech/智能小车/ESP32例程集/01-开发环境/imgs/Pasted image 20260219041524.png",
-    "3 Resources/01-Tech/智能小车/ESP32例程集/01-开发环境/imgs/Pasted image 20260219041326.png",
-    "3 Resources/01-Tech/智能小车/ESP32例程集/01-开发环境/imgs/Pasted image 20260219040921.png"
+    "3 Resources/100 Philosophy. Psychology/180-东方哲学/儒家哲学/儒家哲学.md",
+    "3 Resources/100 Philosophy & Psychology/100 Philosophy & Psychology.md",
+    "3 Resources/100 Philosophy. Psychology/180-东方哲学/道家哲学/道家哲学.md",
+    "3 Resources/100 Philosophy. Psychology/180-东方哲学/佛学/README.md",
+    "3 Resources/100 Philosophy. Psychology/180-东方哲学/佛学/佛学.md",
+    "3 Resources/100 Philosophy. Psychology/CLAUDE.md",
+    "3 Resources/100 Philosophy. Psychology/180-东方哲学/佛学/99-资源收集/佛学 资源收集.md",
+    "3 Resources/100 Philosophy. Psychology/180-东方哲学/佛学/99-资源收集",
+    "3 Resources/100 Philosophy. Psychology/100-总论/100-总论.md",
+    "3 Resources/100 Philosophy. Psychology/180-东方哲学/佛学/08-佛教中国化/08-佛教中国化.md",
+    "3 Resources/100 Philosophy. Psychology/180-东方哲学/佛学/07-藏传佛教/07-藏传佛教.md",
+    "3 Resources/100 Philosophy. Psychology/180-东方哲学/佛学/09-现代佛学/09-现代佛学.md",
+    "3 Resources/100 Philosophy. Psychology/180-东方哲学/佛学/08-佛教中国化",
+    "3 Resources/100 Philosophy. Psychology/180-东方哲学/佛学/07-藏传佛教",
+    "3 Resources/100 Philosophy. Psychology/180-东方哲学/佛学/09-现代佛学",
+    "AI-Log/optimization-report-300-Social-Sciences.md",
+    "AI-Log/optimization-report-300-Social-Sciences.md.tmp.20468.39798fe76abb",
+    "CLAUDE.md.tmp.20468.ce5adf620035",
+    "3 Resources/100 Philosophy. Psychology/180-东方哲学/佛学/05-中观与唯识/05-中观与唯识.md",
+    "3 Resources/100 Philosophy. Psychology/180-东方哲学/佛学/06-禅宗/06-禅宗.md",
+    "3 Resources/100 Philosophy. Psychology/180-东方哲学/佛学/05-中观与唯识",
+    "3 Resources/100 Philosophy. Psychology/180-东方哲学/佛学/06-禅宗",
+    "CLAUDE.md.tmp.20468.fa7b07855b0c",
+    "3 Resources/3 Resources.md.tmp.20468.593b89ef3ddb",
+    "3 Resources/200 Religion & Theology/200 Religion & Theology.md",
+    "3 Resources/300 Social Sciences/300 Social Sciences.md",
+    "3 Resources/100 Philosophy. Psychology/180-东方哲学/佛学/02-佛陀与原始佛教/02-佛陀与原始佛教.md",
+    "3 Resources/100 Philosophy. Psychology/180-东方哲学/佛学/04-大乘佛教/04-大乘佛教.md",
+    "3 Resources/100 Philosophy. Psychology/180-东方哲学/佛学/03-上座部佛教/03-上座部佛教.md",
+    "3 Resources/100 Philosophy. Psychology/180-东方哲学/佛学/00-MOCs/佛学 学习路径.md",
+    "3 Resources/100 Philosophy. Psychology/180-东方哲学/佛学/01-佛学概述/01-佛学概述.md",
+    "3 Resources/100 Philosophy. Psychology/180-东方哲学/佛学/00-MOCs/佛学 知识库总览.md",
+    "AI-Log/optimization-report-200-Religion-Theology.md",
+    "3 Resources/000 Knowledge/wiki/diagram/knowledge-architecture.md",
+    "3 Resources/000 Knowledge/000 Knowledge.md",
+    "3 Resources/000 Knowledge/ram/Knowledge-Systems/README.md",
+    "3 Resources/000 Knowledge/wiki/diagram/entropy-cycle@2x.png",
+    "3 Resources/000 Knowledge/wiki/diagram/entropy-cycle.svg",
+    "3 Resources/000 Knowledge/wiki/diagram/information-lifecycle@2x.png",
+    "3 Resources/000 Knowledge/wiki/diagram/information-lifecycle.svg",
+    "3 Resources/000 Knowledge/wiki/diagram/KOS-architecture.svg",
+    "3 Resources/000 Knowledge/wiki/diagram/KOS-knowledge-pyramid@2x.png",
+    "3 Resources/000 Knowledge/wiki/diagram/KOS-knowledge-pyramid.svg",
+    "3 Resources/000 Knowledge/wiki/diagram/KOS-architecture@2x.png",
+    "0 Inbox/images/Pasted image 20260528032510.png",
+    "3 Resources/000 Knowledge/Computer-Science/Artificial-Intelligence/06-强化学习/AI-Agent/images/Pasted image 20260524160938.png"
   ]
 }

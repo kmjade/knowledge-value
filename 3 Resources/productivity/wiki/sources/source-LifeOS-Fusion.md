@@ -20,7 +20,7 @@ type: source
 
 ## 衍生概念
 
-- [[LLM-Wiki]] — 核心概念
+- [[3 Resources/productivity/wiki/concepts/LLM-Wiki]] — 核心概念
 - [[Information-Lifecycle]] — 信息生命周期
 - [[Semantic-Pollution]] — 语义污染
 - [[Second-Brain]] — AI 增强第二大脑
@@ -28,5 +28,5 @@ type: source
 
 ## 关联页面
 
-- [[Obsidian]] — 系统宿主平台
-- [[Claude-Code]] — AI 编译引擎
+- [[3 Resources/productivity/wiki/entities/Obsidian]] — 系统宿主平台
+- [[3 Resources/000 Knowledge/Computer-Science/Artificial-Intelligence/02-机器学习/ai-ml/wiki/entities/Claude-Code]] — AI 编译引擎

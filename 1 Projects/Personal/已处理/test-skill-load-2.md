@@ -41,7 +41,7 @@ type: test
 # 筆記
 
 - [[0 Personals/📥 00_InBox]]
-- [[Obsidian]]
+- [[3 Resources/productivity/wiki/entities/Obsidian]]
 - [[3 Resources/Learning]]
 
 ## ✅ 待办 / 后续行动

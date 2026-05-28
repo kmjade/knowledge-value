@@ -20,10 +20,10 @@ type: source
 
 ## 衍生概念
 
-- [[LLM-Wiki]] — 核心方法论
-- [[Claude-Code]] — 实现工具
+- [[3 Resources/productivity/wiki/concepts/LLM-Wiki]] — 核心方法论
+- [[3 Resources/000 Knowledge/Computer-Science/Artificial-Intelligence/02-机器学习/ai-ml/wiki/entities/Claude-Code]] — 实现工具
 
 ## 关联页面
 
-- [[Obsidian]] — 知识库平台
+- [[3 Resources/productivity/wiki/entities/Obsidian]] — 知识库平台
 - [[Andrej-Karpathy]] — LLM-Wiki 概念提出者

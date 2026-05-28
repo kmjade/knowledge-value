@@ -71,7 +71,7 @@ Objective (目标)   +   3-5 Key Results (关键结果)
 
 ## 参考资源
 
-- [[Obsidian]] — OKR 追踪工具
+- [[3 Resources/productivity/wiki/entities/Obsidian]] — OKR 追踪工具
 - [[Notion]] — OKR 模板和数据库
 
 ## Sources

@@ -74,8 +74,8 @@ wiki/       →    AI 生成的结构化知识
 ## 参考资源
 
 - [[Andrej-Karpathy]] — LLM-Wiki 概念提出者
-- [[Claude-Code]] — 实现 LLM-Wiki 的 AI 编程工具
-- [[Hermes-Agent]] — LLM-Wiki 的参考实现
+- [[3 Resources/000 Knowledge/Computer-Science/Artificial-Intelligence/02-机器学习/ai-ml/wiki/entities/Claude-Code]] — 实现 LLM-Wiki 的 AI 编程工具
+- [[3 Resources/000 Knowledge/Computer-Science/Artificial-Intelligence/06-强化学习/AI-Agent/Hermes-Agent/Hermes-Agent]] — LLM-Wiki 的参考实现
 
 ## Sources
 

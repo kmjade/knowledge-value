@@ -22,10 +22,10 @@ type: source
 
 - [[Semantic-Pollution]] — 本文档系统化了此概念
 - [[Context-Switching-Cost]] — 多库方案的致命缺陷
-- [[LLM-Wiki]] — 核心方法论
+- [[3 Resources/productivity/wiki/concepts/LLM-Wiki]] — 核心方法论
 - [[PARA-Method]] — 组织框架
 
 ## 关联页面
 
-- [[LifeOS × LLM-Wiki 融合系统]]
+- [[0 Inbox/_processed/LifeOS × LLM-Wiki 融合系统]]
 - [[Information-Lifecycle]]

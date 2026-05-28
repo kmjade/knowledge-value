@@ -55,7 +55,7 @@ Zettelkasten 是德国社会学家 Niklas Luhmann 发明的知识管理方法，
 - [[PARA-Method]] — PARA 适合项目信息组织，Zettelkasten 适合知识创造
 - [[GTD-Method]] — GTD 管理行动，Zettelkasten 管理知识
 - [[Second-Brain]] — 两者都是第二大脑的实现路径
-- [[LLM-Wiki]] — LLM-Wiki 使 Zettelkasten 的编译自动化
+- [[3 Resources/productivity/wiki/concepts/LLM-Wiki]] — LLM-Wiki 使 Zettelkasten 的编译自动化
 
 ## 实践应用
 
@@ -66,7 +66,7 @@ Zettelkasten 是德国社会学家 Niklas Luhmann 发明的知识管理方法，
 
 ## 参考资源
 
-- [[Obsidian]] — Zettelkasten 首选数字工具
+- [[3 Resources/productivity/wiki/entities/Obsidian]] — Zettelkasten 首选数字工具
 - [[IOTO-Framework]] — 基于 Obsidian 的完整 Zettelkasten 工作流
 
 ## Sources

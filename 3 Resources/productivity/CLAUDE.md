@@ -33,7 +33,7 @@ productivity/
 ## 核心概念域
 
 ### 方法论
-- GTD(Getting Things Done)]]
+- GTD(Getting Things Done)
 - PARA Method
 - Zettelkasten
 - Second Brain

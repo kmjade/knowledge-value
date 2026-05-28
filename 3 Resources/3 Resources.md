@@ -42,8 +42,8 @@ tags:
 ├── 📚 按 DDC 分類 ──────────────────────────────────
 ├── 000 Knowledge/        # 🟢 知識組織 (18 concepts)
 ├── 100 Philosophy. Psychology/  # 🟢 哲學·心理學 (7 子庫)
-├── 200 RELIGION. THEOLOGY/      # 🟡 宗教·神學
-├── 300 Social Sciences/         # 🟡 社會科學
+├── 200 Religion & Theology/     # 🟡 宗教·神學 (框架已建 ↔ DDC 180)
+├── 300 Social Sciences/         # 🟡 社會科學 (框架已建 ↔ 伦理·心理·数学)
 ├── 500 Natural Sciences/        # 🟢 自然科學 (數學 17 文件)
 │   └── 510-Mathematics/         # 數學
 ├── 06 Applied Sciences/         # 🟢 應用科學 (207 文件)
@@ -99,7 +99,7 @@ sort file.name asc
 |----------|------|:----:|
 | 000 知識 | [[000 Knowledge/000 Knowledge\|→ 進入]] | 🟢 |
 | 100 哲學·心理學 | [[100 Philosophy & Psychology\|→ 進入]] | 🟢 |
-| 200 宗教·神學 | [[200 RELIGION. THEOLOGY/200 RELIGION. THEOLOGY\|→ 進入]] | 🟡 |
+| 200 宗教·神學 | [[200 Religion & Theology\|→ 進入]] | 🟡 |
 | 300 社會科學 | [[300 Social Sciences/300 Social Sciences\|→ 進入]] | 🟡 |
 | 500 自然科學 | [[500 Natural Sciences/500 Natural Sciences\|→ 進入]] | 🟢 |
 | 600 應用科學 | [[06 Applied Sciences/06 Applied Sciences\|→ 進入]] | 🟢 |

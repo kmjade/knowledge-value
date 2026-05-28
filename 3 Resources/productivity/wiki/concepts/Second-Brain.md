@@ -58,7 +58,7 @@ Layer 5: 重新组合创造
 - [[PARA-Method]] — 第二大脑的核心组织框架
 - [[GTD-Method]] — GTD 处理"做"的层面，第二大脑处理"知"的层面
 - [[Zettelkasten-Method]] — Zettelkasten 是第二大脑的一种实现
-- [[LLM-Wiki]] — AI 使第二大脑从被动存储升级为主动编译
+- [[3 Resources/productivity/wiki/concepts/LLM-Wiki]] — AI 使第二大脑从被动存储升级为主动编译
 
 ## 实践应用
 
@@ -69,8 +69,8 @@ Layer 5: 重新组合创造
 
 ## 参考资源
 
-- [[Obsidian]] — 实现第二大脑的主要工具
-- [[Claude-Code]] — AI 编译引擎
+- [[3 Resources/productivity/wiki/entities/Obsidian]] — 实现第二大脑的主要工具
+- [[3 Resources/000 Knowledge/Computer-Science/Artificial-Intelligence/02-机器学习/ai-ml/wiki/entities/Claude-Code]] — AI 编译引擎
 
 ## Sources
 

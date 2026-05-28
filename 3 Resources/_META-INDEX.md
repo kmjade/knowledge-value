@@ -13,10 +13,11 @@ created: 2026-05-26
 
 | 子库 | 路径 | 状态 | 描述 |
 |------|------|------|------|
-| AI/ML | [[ai-ml/CLAUDE.md\|ai-ml]] | 🟢 活跃 | AI 与机器学习知识库 |
+| AI/ML | [[3 Resources/000 Knowledge/Computer-Science/Artificial-Intelligence/02-机器学习/ai-ml/CLAUDE\|ai-ml]] | 🟢 活跃 | AI 与机器学习知识库 |
 | People | [[people/CLAUDE.md\|people]] | 🟡 规划中 | 人物 CRM 与关系管理 |
 | Finance | [[finance/CLAUDE.md\|finance]] | 🟡 规划中 | 财务理财知识 |
 | Productivity | [[productivity/CLAUDE.md\|productivity]] | 🟡 规划中 | 生产力工具与方法 |
+| Epistemology | [[4 Archives/by-type/Resources/epistemology/CLAUDE\|epistemology]] | 🟢 活跃 | 科学-知识-学科体系 |
 
 ## 其他资源目录
 
@@ -58,5 +59,5 @@ SORT file.mtime DESC
 
 ---
 
-*最后更新: 2026-05-26*
+*最后更新: 2026-05-27*
 

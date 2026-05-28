@@ -24,4 +24,4 @@ created: 2026-05-28
 
 ## 隶属
 
-[[../100 Philosophy. Psychology.md\|DDC 100 Philosophy & Psychology]] → DDC 190
+[[100 Philosophy & Psychology\|DDC 100 Philosophy & Psychology]] → DDC 190

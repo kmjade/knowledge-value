@@ -149,6 +149,47 @@ purpose: compile
 
 ---
 
+---
+
+**状态**: success
+
+**子库**: 000 Knowledge (`3 Resources/000 Knowledge/`)
+
+**源文件** (14):
+- `ram/Knowledge-Systems/` — 9 章 + 2 MOC + README + 资源收集
+
+**概念提取** (11):
+- Knowledge-Organization-Systems — 知识组织系统全景
+- DIKW-Pyramid — DIKW 金字塔
+- Classification-Systems — 分类法体系
+- Thesaurus — 叙词表与受控词表
+- Ontology — 本体论与知识表示
+- Knowledge-Graph — 知识图谱
+- Linked-Data — 关联数据与语义网
+- SECI-Model — SECI 知识创造模型
+- RAG — 检索增强生成
+- PKM — 个人知识管理
+- PARA-Method — PARA 方法论
+
+**实体提取** (8):
+- DDC — 杜威十进分类法
+- UDC — 国际十进分类法
+- MeSH — 医学主题词表
+- Gene-Ontology — 基因本体
+- Wikidata — 开放知识图谱平台
+- SPARQL — 语义网查询标准
+- Zettelkasten — 卡片盒笔记法
+- Tim-Berners-Lee — Web 发明者
+
+**产出** (22 文件):
+- `wiki/concepts/` — 创建 11 页面
+- `wiki/entities/` — 创建 8 页面
+- `wiki/sources/` — 创建 1 页面
+- `wiki/index.md` — 创建知识索引
+- `wiki/log.md` — 添加编译记录
+
+---
+
 ## 2026-05-26
 
 系统初始化，等待第一次编译操作...

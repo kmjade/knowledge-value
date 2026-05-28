@@ -47,7 +47,7 @@ AI 输出质量急剧下降 ← 垃圾进，垃圾出 (GIGO)
 ## 相关概念
 
 - [[Information-Lifecycle]] — 生命周期分类直接解决语义污染
-- [[LLM-Wiki]] — LLM-Wiki 通过 raw/wiki 分离消除污染
+- [[3 Resources/productivity/wiki/concepts/LLM-Wiki]] — LLM-Wiki 通过 raw/wiki 分离消除污染
 - [[PARA-Method]] — PARA 按行动性分类是最基础的污染隔离
 
 ## 实践应用

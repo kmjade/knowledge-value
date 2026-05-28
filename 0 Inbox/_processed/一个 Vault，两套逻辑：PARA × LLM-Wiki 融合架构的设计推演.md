@@ -676,22 +676,3 @@ related_projects: []                # 关联的 Projects（由 AI 维护）
 *第三篇：AI 作为系统管理员——用 Agent Schema 激活你的 Obsidian 生活操作系统*
 
 ---
-
-**我是一只阿木木 | AI数字大脑实践者**
-
-**扫码加入行动营👇**
-
-![图片](data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='1px' height='1px' viewBox='0 0 1 1' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Ctitle%3E%3C/title%3E%3Cg stroke='none' stroke-width='1' fill='none' fill-rule='evenodd' fill-opacity='0'%3E%3Cg transform='translate(-249.000000, -126.000000)' fill='%23FFFFFF'%3E%3Crect x='249' y='126' width='1' height='1'%3E%3C/rect%3E%3C/g%3E%3C/g%3E%3C/svg%3E)
-
-**或搜索公众号：一只阿木木**  
-获取更多Obsidian + AI数字大脑方法论
-
-**微信扫一扫赞赏作者**
-
-作者提示: 个人观点，仅供参考
-
-继续滑动看下一个
-
-一只阿木木
-
-向上滑动看下一个

@@ -55,13 +55,13 @@ Obsidian 是 **PARA+LLM-Wiki 系统的宿主平台**：
 
 - [[PARA-Method]] — Obsidian 中实现 PARA 的主要工具
 - [[Zettelkasten-Method]] — Obsidian 是 Zettelkasten 的完美数字化实现
-- [[LLM-Wiki]] — Obsidian 是 LLM-Wiki 的基础设施
+- [[3 Resources/productivity/wiki/concepts/LLM-Wiki]] — Obsidian 是 LLM-Wiki 的基础设施
 - [[GTD-Method]] — Obsidian Tasks 插件实现 GTD 工作流
 
 ## 相关实体
 
 - [[Notion]] — 主要竞品，云端 vs 本地
-- [[Claude-Code]] — AI 编译引擎，直接操作 Obsidian Vault
+- [[3 Resources/productivity/wiki/entities/Claude-Code]] — AI 编译引擎，直接操作 Obsidian Vault
 - [[IOTO-Framework]] — 基于 Obsidian 的完整工作流框架
 
 ## Sources

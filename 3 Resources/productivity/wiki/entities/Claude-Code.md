@@ -45,15 +45,15 @@ Claude Code 是 **LLM-Wiki 编译引擎**：
 
 ## 相关概念
 
-- [[LLM-Wiki]] — Claude Code 是 LLM-Wiki 的执行引擎
+- [[3 Resources/productivity/wiki/concepts/LLM-Wiki]] — Claude Code 是 LLM-Wiki 的执行引擎
 - [[PARA-Method]] — Claude Code 维护 PARA 架构
 - [[Second-Brain]] — Claude Code 使第二大脑自动化
 
 ## 相关实体
 
-- [[Obsidian]] — Vault 宿主平台
+- [[3 Resources/productivity/wiki/entities/Obsidian]] — Vault 宿主平台
 - [[Andrej-Karpathy]] — LLM-Wiki 概念提出者
-- [[Hermes-Agent]] — LLM-Wiki 参考实现（已被 Claude Code 替代）
+- [[3 Resources/000 Knowledge/Computer-Science/Artificial-Intelligence/06-强化学习/AI-Agent/Hermes-Agent/Hermes-Agent]] — LLM-Wiki 参考实现（已被 Claude Code 替代）
 
 ## Sources
 

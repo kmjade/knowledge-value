@@ -793,7 +793,7 @@ type: source
 #### ai-ml
 | 属性 | 值 |
 |------|------|
-| Schema | [[3 Resources/ai-ml/CLAUDE.md]] |
+| Schema | [[3 Resources/000 Knowledge/Computer-Science/Artificial-Intelligence/02-机器学习/ai-ml/CLAUDE]] |
 | 状态 | 🟢 活跃 |
 | 核心概念域 | LLM, Transformer, Agent, RAG, Training |
 | 实体类型 | 模型, 公司, 框架, 论文 |
@@ -1283,7 +1283,7 @@ para:     PARA 同步     para: sync daily changes
 
 - [[CLAUDE.md]] - 系统宪法
 - [[3 Resources/_META-INDEX.md]] - 知识导航
-- [[3 Resources/ai-ml/CLAUDE.md]] - AI/ML 子库 Schema
+- [[3 Resources/000 Knowledge/Computer-Science/Artificial-Intelligence/02-机器学习/ai-ml/CLAUDE]] - AI/ML 子库 Schema
 - [[3 Resources/people/CLAUDE.md]] - People 子库 Schema
 - [[3 Resources/finance/CLAUDE.md]] - Finance 子库 Schema
 - [[3 Resources/productivity/CLAUDE.md]] - Productivity 子库 Schema

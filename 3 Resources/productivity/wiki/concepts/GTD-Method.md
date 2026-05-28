@@ -69,7 +69,7 @@ Calendar      → 硬性时间的约会
 
 ## 参考资源
 
-- [[Obsidian]] — 实现 GTD 的推荐工具
+- [[3 Resources/productivity/wiki/entities/Obsidian]] — 实现 GTD 的推荐工具
 - [[Notion]] — 另一主流 GTD 实现平台
 
 ## Sources

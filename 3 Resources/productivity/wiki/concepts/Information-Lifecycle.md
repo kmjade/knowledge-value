@@ -59,7 +59,7 @@ status: reviewed
 
 ## 相关概念
 
-- [[LLM-Wiki]] — 生命周期是 LLM-Wiki 的核心分类维度
+- [[3 Resources/productivity/wiki/concepts/LLM-Wiki]] — 生命周期是 LLM-Wiki 的核心分类维度
 - [[Semantic-Pollution]] — 不加区分的存储导致语义污染
 - [[PARA-Method]] — PARA 的 Archives 层对应生命周期的末端
 

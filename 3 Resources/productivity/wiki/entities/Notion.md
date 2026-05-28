@@ -54,7 +54,7 @@ Notion 是一款集笔记、数据库、Wiki、任务管理于一体的全能工
 
 ## 相关实体
 
-- [[Obsidian]] — 本地离线对手
+- [[3 Resources/productivity/wiki/entities/Obsidian]] — 本地离线对手
 - [[IOTO-Framework]] — Obsidian 生态的工作流框架
 
 ## Sources

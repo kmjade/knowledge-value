@@ -139,21 +139,31 @@ triaged_to: [目标路径]
 ### 活跃子库
 | 子库 | 路径 | Schema | 状态 |
 |------|------|--------|------|
-| AI/ML | `3 Resources/ai-ml/` | [[3 Resources/ai-ml/CLAUDE.md\|schema]] | 🟢 活跃 |
+| AI/ML | `3 Resources/0 Department/Computer-Science/Artificial-Intelligence/02-机器学习/ai-ml/` | [[3 Resources/000 Knowledge/Computer-Science/Artificial-Intelligence/02-机器学习/ai-ml/CLAUDE\|schema]] | 🟢 活跃 |
+| Epistemology | `4 Archives/by-type/Resources/epistemology/` | [[4 Archives/by-type/Resources/epistemology/CLAUDE\|schema]] | 🟢 活跃 |
+| Productivity | `3 Resources/productivity/` | [[3 Resources/productivity/CLAUDE.md\|schema]] | 🟢 活跃 |
+| Knowledge-Systems | `3 Resources/000 Knowledge/` | DDC 001 知识组织 | 🟢 活跃 |
+| Philosophy-Psychology | `3 Resources/100 Philosophy & Psychology/` | DDC 100 哲学·心理学 | 🟢 活跃 |
+| Religion-Theology | `3 Resources/200 Religion & Theology/` | DDC 200 宗教·神学 | 🟡 框架 |
+| Social-Sciences | `3 Resources/300 Social Sciences/` | DDC 300 社会科学 | 🟡 框架 |
+| Natural-Sciences | `3 Resources/500 Natural Sciences/` | DDC 500 自然科学 | 🟢 活跃 |
+| Applied-Sciences | `3 Resources/06 Applied Sciences/` | DDC 600 应用科学 | 🟢 活跃 |
 | People | `3 Resources/people/` | [[3 Resources/people/CLAUDE.md\|schema]] | 🟡 规划中 |
 | Finance | `3 Resources/finance/` | [[3 Resources/finance/CLAUDE.md\|schema]] | 🟡 规划中 |
-| Productivity | `3 Resources/productivity/` | [[3 Resources/productivity/CLAUDE.md\|schema]] | 🟡 规划中 |
 
 ### 子库结构
 ```
 3 Resources/[topic]/
 ├── CLAUDE.md          # 子库 schema
-├── raw/               # 原始资料（人类维护）
+├── README.md          # 知识库入口
+├── 00-MOCs/           # 总览与学习路径
+├── 01~09-章节/        # 核心内容章
+├── raw/               # 原始资料（人类维护，AI 只读）
 │   ├── articles/      # 文章摘录
 │   ├── papers/        # 论文笔记
 │   ├── books/         # 书籍笔记
 │   └── conversations/ # 对话记录
-├── wiki/              # LLM 编译产物
+├── wiki/              # LLM 编译产物（AI 独占写入）
 │   ├── index.md       # 知识索引
 │   ├── log.md         # 编译日志
 │   ├── concepts/      # 概念页面
@@ -204,5 +214,21 @@ triaged_to: [目标路径]
 
 ---
 
-*最后更新: 2026-05-26*
+*最后更新: 2026-05-28*
+
+---
+
+## 变更记录
+
+| 日期 | 变更 |
+|------|------|
+| 2026-05-28 | 新增 Social-Sciences (DDC 300) 框架 + 跨库连接矩阵 |
+| 2026-05-28 | 新增 Religion-Theology (DDC 200) 框架 + DDC 180↔200 双向链接 |
+| 2026-05-28 | 新增 Natural-Sciences (DDC 500)、Applied-Sciences (DDC 600) 子库 |
+| 2026-05-28 | DDC 180 古典哲学：易经知识库整合 (92 文件) |
+| 2026-05-28 | 数学知识库迁移：`02-Learning/` → `500 Natural Sciences/510-Mathematics/` (17 文件) |
+| 2026-05-28 | 新增 Knowledge-Systems (DDC 001)、Psychology (DDC 150) 子库 |
+| 2026-05-28 | 优化 5 个 Areas 入口页面 + 3 个 Resources 入口页面 |
+| 2026-05-28 | Inbox 全量分拣（19 文件），修复 MOC 断链 5 处 |
+| 2026-05-27 | 初始版本
 

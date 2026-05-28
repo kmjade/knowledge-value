@@ -418,7 +418,7 @@ AI-Log/sessions/
 
 - [[CLAUDE.md]] - 项目配置文件
 - [[3 Resources/_META-INDEX.md]] - 知识导航入口
-- [[3 Resources/ai-ml/CLAUDE.md]] - AI/ML 子库 Schema
+- [[3 Resources/000 Knowledge/Computer-Science/Artificial-Intelligence/02-机器学习/ai-ml/CLAUDE]] - AI/ML 子库 Schema
 - [[3 Resources/people/CLAUDE.md]] - People 子库 Schema
 - [[3 Resources/finance/CLAUDE.md]] - Finance 子库 Schema
 - [[3 Resources/productivity/CLAUDE.md]] - Productivity 子库 Schema

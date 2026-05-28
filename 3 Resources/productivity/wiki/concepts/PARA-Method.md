@@ -54,7 +54,7 @@ A → Archives   已完成或暂停的内容
 - [[GTD-Method]] — GTD 补充了任务执行层面，PARA 补充了信息组织层面
 - [[Zettelkasten-Method]] — Zettelkasten 适合知识创造，PARA 适合信息管理
 - [[Second-Brain]] — PARA 是"第二大脑"理念的具体实现
-- [[LLM-Wiki]] — LLM-Wiki 与 PARA 融合形成 AI 驱动知识系统
+- [[3 Resources/productivity/wiki/concepts/LLM-Wiki]] — LLM-Wiki 与 PARA 融合形成 AI 驱动知识系统
 - [[Information-Lifecycle]] — 信息生命周期管理
 
 ## 实践应用
@@ -65,7 +65,7 @@ A → Archives   已完成或暂停的内容
 
 ## 参考资源
 
-- [[Obsidian]] — 实现 PARA 的主要工具
+- [[3 Resources/productivity/wiki/entities/Obsidian]] — 实现 PARA 的主要工具
 - [[IOTO-Framework]] — 基于 Obsidian 的 PARA 工作流实现
 
 ## Sources

@@ -76,11 +76,11 @@ Andrej Karpathy 是当代最具影响力的 AI 研究者和教育者之一。他
 - [[OpenAI]] — 联合创始人（2015-2017），重返任职（2023-2024）
 - [[Tesla-Autopilot]] — 前 AI 高级总监，主导自动驾驶视觉系统
 - [[Li-Fei-Fei]] — 博士导师（斯坦福大学）
-- [[LLM-Wiki]] — 提出的知识管理概念，本 Vault 的核心参考
+- [[3 Resources/productivity/wiki/concepts/LLM-Wiki]] — 提出的知识管理概念，本 Vault 的核心参考
 - [[Software-2.0]] — 提出的软件范式概念
-- [[Hermes-Agent]] — LLM-Wiki 的参考实现
-- [[Claude-Code]] — 其在 LLM-Wiki 中使用的主要 AI 编程工具
-- [[Obsidian]] — 知识库管理工具，LLM-Wiki 生态系统组件
+- [[3 Resources/000 Knowledge/Computer-Science/Artificial-Intelligence/06-强化学习/AI-Agent/Hermes-Agent/Hermes-Agent]] — LLM-Wiki 的参考实现
+- [[3 Resources/000 Knowledge/Computer-Science/Artificial-Intelligence/02-机器学习/ai-ml/wiki/entities/Claude-Code]] — 其在 LLM-Wiki 中使用的主要 AI 编程工具
+- [[3 Resources/productivity/wiki/entities/Obsidian]] — 知识库管理工具，LLM-Wiki 生态系统组件
 
 ### 社交媒体
 
