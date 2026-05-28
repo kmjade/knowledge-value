@@ -121,12 +121,13 @@ tags:
 
 ### 关联知识库
 
-| 知识库 | 关系 |
-|--------|------|
+| 知识库                                                                   | 关系          |
+| --------------------------------------------------------------------- | ----------- |
 | [[3 Resources/06 Applied Sciences/06 Applied Sciences\|DDC 600 应用科学]] | 下游：科学→技术→工程 |
-| [[3 Resources/0 Department/Computer-Science/Computer-Science\|计算机科学]] | 数学是计算的理论基础 |
-| [[3 Resources/000 Knowledge/000 Knowledge\|000 Knowledge (DDC 001)]] | 知识组织系统 |
-| [[100 Philosophy & Psychology\|DDC 100 哲学]] | 科学哲学、认识论 |
+| [[3 Resources/0 Department/Computer-Science/Computer-Science\|计算机科学]] | 数学是计算的理论基础  |
+| [[3 Resources/000 Knowledge/000 Knowledge\|000 Knowledge (DDC 001)]]  | 知识组织系统      |
+| [[100 Philosophy. Psychology\|DDC 100 哲学]]                            | 科学哲学、认识论    |
+| [[100 Philosophy. Psychology]]                                        |             |
 
 ---
 

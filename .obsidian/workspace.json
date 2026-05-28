@@ -31,12 +31,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3 Resources/300 Social Sciences/380-商业与交通/01-商业概论/01-商业概论.md",
+                "file": "3 Resources/300 Social Sciences/380-商业与交通/99-资源收集/99-资源收集.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01-商业概论"
+              "title": "99-资源收集"
+            }
+          },
+          {
+            "id": "81728537ff38e617",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3 Resources/300 Social Sciences/300 Social Sciences.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "300 Social Sciences"
             }
           },
           {
@@ -69,7 +83,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -251,44 +265,44 @@
       "obsidian-excalidraw-plugin:新建繪圖檔案": false
     }
   },
-  "active": "e0dd768d5423502e",
+  "active": "12ce29d2ceb39a3a",
   "lastOpenFiles": [
-    "3 Resources/300 Social Sciences/380-商业与交通/380-商业与交通.md",
-    "3 Resources/300 Social Sciences/380-商业与交通/README.md",
-    "3 Resources/300 Social Sciences/370-教育学/370-教育学.md",
-    "3 Resources/300 Social Sciences/370-教育学/09-终身教育/09-终身教育.md",
-    "3 Resources/300 Social Sciences/370-教育学/08-比较教育/08-比较教育.md",
-    "3 Resources/500 Natural Sciences/590-Animals/09-动物保护/09-动物保护.md",
-    "3 Resources/500 Natural Sciences/590-Animals/09-动物保护",
-    "3 Resources/500 Natural Sciences/590-Animals/08-脊椎动物/08-脊椎动物.md",
-    "3 Resources/500 Natural Sciences/590-Animals/08-脊椎动物",
-    "3 Resources/500 Natural Sciences/590-Animals/07-海洋动物/07-海洋动物.md",
-    "3 Resources/500 Natural Sciences/590-Animals/07-海洋动物",
-    "3 Resources/500 Natural Sciences/590-Animals/06-昆虫世界/06-昆虫世界.md",
-    "3 Resources/500 Natural Sciences/590-Animals/06-昆虫世界",
-    "3 Resources/500 Natural Sciences/590-Animals/05-进化与适应/05-进化与适应.md",
-    "3 Resources/500 Natural Sciences/590-Animals/05-进化与适应",
-    "3 Resources/500 Natural Sciences/590-Animals/04-动物生理/04-动物生理.md",
-    "3 Resources/500 Natural Sciences/590-Animals/04-动物生理",
-    "3 Resources/500 Natural Sciences/590-Animals/03-动物行为/03-动物行为.md",
-    "3 Resources/500 Natural Sciences/590-Animals/03-动物行为",
-    "3 Resources/500 Natural Sciences/590-Animals/02-动物分类/02-动物分类.md",
-    "3 Resources/500 Natural Sciences/590-Animals/02-动物分类",
-    "3 Resources/500 Natural Sciences/590-Animals/01-动物学概述/01-动物学概述.md",
-    "3 Resources/500 Natural Sciences/590-Animals/01-动物学概述",
-    "3 Resources/500 Natural Sciences/580-Plants/09-植物保护/09-植物保护.md",
-    "3 Resources/500 Natural Sciences/580-Plants/09-植物保护",
-    "3 Resources/500 Natural Sciences/580-Plants/08-植物进化/08-植物进化.md",
-    "3 Resources/500 Natural Sciences/580-Plants/07-经济植物/07-经济植物.md",
-    "3 Resources/500 Natural Sciences/580-Plants/06-植物生态/06-植物生态.md",
-    "3 Resources/500 Natural Sciences/580-Plants/05-植物生理/05-植物生理.md",
-    "3 Resources/500 Natural Sciences/580-Plants/04-植物分类/04-植物分类.md",
-    "3 Resources/500 Natural Sciences/580-Plants/03-光合作用/03-光合作用.md",
-    "3 Resources/500 Natural Sciences/580-Plants/02-植物解剖/02-植物解剖.md",
-    "3 Resources/500 Natural Sciences/580-Plants/01-植物学概述/01-植物学概述.md",
-    "3 Resources/300 Social Sciences/370-教育学/07-教育政策/07-教育政策.md",
-    "3 Resources/300 Social Sciences/370-教育学/06-教育技术/06-教育技术.md",
-    "3 Resources/300 Social Sciences/370-教育学/05-教育评估/05-教育评估.md",
+    "3 Resources/300 Social Sciences/300 Social Sciences.md.tmp.33620.192f4002770f",
+    "3 Resources/400 Language/440-印欧语系/09-全球化影响/09-全球化影响.md",
+    "3 Resources/400 Language/440-印欧语系/09-全球化影响",
+    "3 Resources/400 Language/440-印欧语系/08-印欧语历史/08-印欧语历史.md",
+    "3 Resources/400 Language/440-印欧语系/08-印欧语历史",
+    "3 Resources/400 Language/440-印欧语系/07-印欧比较/07-印欧比较.md",
+    "3 Resources/400 Language/440-印欧语系/07-印欧比较",
+    "3 Resources/400 Language/440-印欧语系/06-凯尔特与希腊/06-凯尔特与希腊.md",
+    "3 Resources/400 Language/440-印欧语系/06-凯尔特与希腊",
+    "3 Resources/400 Language/440-印欧语系/05-印度伊朗语族/05-印度伊朗语族.md",
+    "3 Resources/400 Language/440-印欧语系/05-印度伊朗语族",
+    "3 Resources/400 Language/440-印欧语系/04-斯拉夫语族/04-斯拉夫语族.md",
+    "3 Resources/400 Language/440-印欧语系/04-斯拉夫语族",
+    "3 Resources/400 Language/440-印欧语系/03-罗曼语族/03-罗曼语族.md",
+    "3 Resources/400 Language/440-印欧语系/03-罗曼语族",
+    "3 Resources/400 Language/440-印欧语系/02-日耳曼语族/02-日耳曼语族.md",
+    "3 Resources/400 Language/440-印欧语系/02-日耳曼语族",
+    "3 Resources/400 Language/440-印欧语系/01-印欧概述/01-印欧概述.md",
+    "3 Resources/400 Language/440-印欧语系/01-印欧概述",
+    "3 Resources/400 Language/430-汉藏语系/09-濒危语言/09-濒危语言.md",
+    "3 Resources/400 Language/430-汉藏语系/09-濒危语言",
+    "3 Resources/400 Language/430-汉藏语系/08-汉藏比较/08-汉藏比较.md",
+    "3 Resources/400 Language/430-汉藏语系/07-声调系统/07-声调系统.md",
+    "3 Resources/400 Language/430-汉藏语系/06-语言接触/06-语言接触.md",
+    "3 Resources/400 Language/430-汉藏语系/05-壮侗语族/05-壮侗语族.md",
+    "3 Resources/400 Language/430-汉藏语系/04-苗瑶语族/04-苗瑶语族.md",
+    "3 Resources/400 Language/430-汉藏语系/03-藏缅语族/03-藏缅语族.md",
+    "3 Resources/400 Language/430-汉藏语系/02-汉语族/02-汉语族.md",
+    "3 Resources/400 Language/430-汉藏语系/01-汉藏概述/01-汉藏概述.md",
+    "3 Resources/400 Language/420-汉语语言学/09-汉语教学/09-汉语教学.md",
+    "3 Resources/400 Language/420-汉语语言学/08-现代汉语演变/08-现代汉语演变.md",
+    "3 Resources/400 Language/420-汉语语言学/07-古代汉语/07-古代汉语.md",
+    "3 Resources/400 Language/420-汉语语言学/06-汉语方言/06-汉语方言.md",
+    "3 Resources/400 Language/420-汉语语言学/05-汉语语法/05-汉语语法.md",
+    "3 Resources/400 Language/420-汉语语言学/04-汉语词汇/04-汉语词汇.md",
+    "3 Resources/400 Language/420-汉语语言学/03-汉字系统/03-汉字系统.md",
     "3 Resources/000 Knowledge/wiki/diagram/entropy-cycle@2x.png",
     "3 Resources/000 Knowledge/wiki/diagram/entropy-cycle.svg",
     "3 Resources/000 Knowledge/wiki/diagram/information-lifecycle@2x.png",
