@@ -35,7 +35,7 @@ tags:
 ├── 220-圣经研究/           🟢 已建设       ← 基督教圣经 (DDC 220)
 │                                          ← 旧约 · 新约 · 释经学
 │
-├── 230-基督教神学/         🟡 待建设       ← 系统神学 (DDC 230)
+├── 230-基督教神学/         🟢 已建设       ← 系统神学 (DDC 230)
 │                                          ← 上帝论 · 基督论 · 救赎论 · 末世论
 │
 ├── 240-基督教实践/         🟡 待建设       ← 灵修、礼仪与牧养 (DDC 240)
@@ -65,7 +65,7 @@ tags:
 | **200** | Religion 总论 | 🟢 本页 |
 | **210** | Philosophy & theory of religion 宗教哲学 | 🟢 |
 | **220** | The Bible 圣经 | 🟢 |
-| **230** | Christianity / Christian theology 系统神学 | 🟡 |
+| **230** | Christianity / Christian theology 系统神学 | 🟢 |
 | **240** | Christian practice & observance 灵修实践 | 🟡 |
 | **250** | Christian orders & local church 教牧实践 | 🟡 |
 | **260** | Social & ecclesiastical theology 社会神学 | 🟡 |
