@@ -54,14 +54,14 @@ tags:
 | ------- | ------------------------------------------- | :------: |
 | **500** | Natural sciences 总论                       | 🟢 本页 |
 | **510** | Mathematics 数学                            | 🟢 [[510-Mathematics/README\|→ 进入]] (17 文件) |
-| **520** | Astronomy 天文学                            | 🟡       |
-| **530** | Physics 物理学                              | 🟡       |
-| **540** | Chemistry 化学                              | 🟡       |
-| **550** | Earth sciences & geology 地球科学           | 🟡       |
-| **560** | Fossils & prehistoric life 古生物学         | 🟡       |
-| **570** | Life sciences / Biology 生命科学            | 🟡       |
-| **580** | Plants (Botany) 植物学                      | 🟡       |
-| **590** | Animals (Zoology) 动物学                    | 🟡       |
+| **520** | Astronomy 天文学                            | 🟢 [[520-Astronomy/README\|→ 11文件]] |
+| **530** | Physics 物理学                              | 🟢 [[530-Physics/README\|→ 11文件]] |
+| **540** | Chemistry 化学                              | 🟢 [[540-Chemistry/README\|→ 11文件]] |
+| **550** | Earth sciences & geology 地球科学           | 🟢 [[550-Earth-Sciences/README\|→ 11文件]] |
+| **560** | Fossils & prehistoric life 古生物学         | 🟢 [[560-Paleontology/README\|→ 11文件]] |
+| **570** | Life sciences / Biology 生命科学            | 🟢 [[570-Life-Sciences/README\|→ 11文件]] |
+| **580** | Plants (Botany) 植物学                      | 🟢 [[580-Plants/README\|→ 11文件]] |
+| **590** | Animals (Zoology) 动物学                    | 🟢 [[590-Animals/README\|→ 11文件]] |
 
 ---
 
@@ -70,9 +70,9 @@ tags:
 | 我想... | 去这里 |
 |---------|--------|
 | 🔢 **系统学习数学** | [[510-Mathematics/README\|510 Mathematics]] → 从基础到高等 |
-| 🚀 **探索天文学** | DDC 520 — 待建设 |
-| ⚛️ **了解物理学** | DDC 530 — 待建设 |
-| 🧬 **学习生命科学** | DDC 570 — 待建设 |
+| 🚀 **探索天文学** | [[520-Astronomy/README\|DDC 520 天文学]] (11文件) |
+| ⚛️ **了解物理学** | [[530-Physics/README\|DDC 530 物理学]] (11文件) |
+| 🧬 **学习生命科学** | [[570-Life-Sciences/README\|DDC 570 生命科学]] (11文件) |
 | 🔬 **看应用如何落地** | [[3 Resources/06 Applied Sciences/06 Applied Sciences\|DDC 600 应用科学]] — 科学→技术→工程 |
 
 ---
@@ -137,8 +137,8 @@ tags:
 - [ ] 新自然科学资料按 DDC 子分类归档
 
 ### 按需
-- [ ] 启动 Physics (DDC 530) 子库建设
-- [ ] 启动 Life Sciences (DDC 570) 子库建设
+- [x] 启动 Physics (DDC 530) [[530-Physics/README\|→ 11文件]] 子库建设
+- [x] 启动 Life Sciences (DDC 570) [[570-Life-Sciences/README\|→ 11文件]] 子库建设
 - [ ] 从 `0 Department/` 整合数学/物理/化学相关内容
 
 ---

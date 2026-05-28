@@ -31,12 +31,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3 Resources/200 Religion & Theology/290-其他宗教/00-MOCs/其他宗教 知识库总览.md",
+                "file": "3 Resources/300 Social Sciences/380-商业与交通/01-商业概论/01-商业概论.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "其他宗教 知识库总览"
+              "title": "01-商业概论"
             }
           },
           {
@@ -45,12 +45,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3 Resources/300 Social Sciences/310-统计学/02-描述统计/02-描述统计.md",
+                "file": "3 Resources/300 Social Sciences/340-法律学/05-行政法/05-行政法.md",
                 "mode": "source",
-                "source": false
+                "source": false,
+                "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "02-描述统计"
+              "title": "05-行政法"
             }
           },
           {
@@ -68,7 +69,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -250,44 +251,44 @@
       "obsidian-excalidraw-plugin:新建繪圖檔案": false
     }
   },
-  "active": "b87a03d23ec27a1d",
+  "active": "e0dd768d5423502e",
   "lastOpenFiles": [
-    "3 Resources/300 Social Sciences/310-统计学/04-推断统计/04-推断统计.md",
-    "3 Resources/300 Social Sciences/310-统计学/05-回归分析/05-回归分析.md",
-    "3 Resources/300 Social Sciences/310-统计学/06-贝叶斯方法/06-贝叶斯方法.md",
-    "3 Resources/300 Social Sciences/310-统计学/06-实验设计/06-实验设计.md",
-    "3 Resources/300 Social Sciences/310-统计学/07-抽样与实验/07-抽样与实验.md",
-    "3 Resources/300 Social Sciences/310-统计学/07-贝叶斯统计/07-贝叶斯统计.md",
-    "3 Resources/300 Social Sciences/310-统计学/08-统计软件/08-统计软件.md",
-    "3 Resources/300 Social Sciences/310-统计学/08-统计学习/08-统计学习.md",
-    "3 Resources/300 Social Sciences/310-统计学/09-软件与应用/09-软件与应用.md",
-    "3 Resources/300 Social Sciences/340-法律学/09-法律与社会/09-法律与社会.md",
-    "3 Resources/300 Social Sciences/340-法律学/09-法律与社会",
-    "3 Resources/300 Social Sciences/340-法律学/08-司法制度/08-司法制度.md",
-    "3 Resources/300 Social Sciences/340-法律学/08-司法制度",
-    "3 Resources/300 Social Sciences/340-法律学/07-法理学/07-法理学.md",
-    "3 Resources/300 Social Sciences/340-法律学/07-法理学",
-    "3 Resources/300 Social Sciences/340-法律学/06-国际法/06-国际法.md",
-    "3 Resources/300 Social Sciences/340-法律学/06-国际法",
-    "3 Resources/300 Social Sciences/340-法律学/05-行政法/05-行政法.md",
-    "3 Resources/300 Social Sciences/340-法律学/05-行政法",
-    "3 Resources/300 Social Sciences/310-统计学/09-数据伦理/09-数据伦理.md",
-    "3 Resources/300 Social Sciences/330-经济学/09-经济思想史/09-经济思想史.md",
-    "3 Resources/300 Social Sciences/330-经济学/09-经济思想史",
-    "3 Resources/300 Social Sciences/330-经济学/07-金融与货币/07-金融与货币.md",
-    "3 Resources/300 Social Sciences/330-经济学/07-金融与货币",
-    "3 Resources/300 Social Sciences/330-经济学/06-发展经济学/06-发展经济学.md",
-    "3 Resources/300 Social Sciences/330-经济学/06-发展经济学",
-    "3 Resources/300 Social Sciences/330-经济学/05-行为经济学/05-行为经济学.md",
-    "3 Resources/300 Social Sciences/330-经济学/05-行为经济学",
-    "3 Resources/300 Social Sciences/310-统计学/01-统计学概述/01-统计学概述.md",
-    "3 Resources/300 Social Sciences/310-统计学/02-描述统计/02-描述统计.md",
-    "3 Resources/300 Social Sciences/310-统计学/03-概率论基础/03-概率论基础.md",
-    "3 Resources/300 Social Sciences/320-政治学/08-政治行为/08-政治行为.md",
-    "3 Resources/300 Social Sciences/320-政治学/08-政治行为",
-    "3 Resources/300 Social Sciences/320-政治学/06-政治经济学/06-政治经济学.md",
-    "3 Resources/300 Social Sciences/320-政治学/05-国际关系/05-国际关系.md",
-    "3 Resources/300 Social Sciences/310-统计学/04-概率论/04-概率论.md",
+    "3 Resources/300 Social Sciences/380-商业与交通/380-商业与交通.md",
+    "3 Resources/300 Social Sciences/380-商业与交通/README.md",
+    "3 Resources/300 Social Sciences/370-教育学/370-教育学.md",
+    "3 Resources/300 Social Sciences/370-教育学/09-终身教育/09-终身教育.md",
+    "3 Resources/300 Social Sciences/370-教育学/08-比较教育/08-比较教育.md",
+    "3 Resources/500 Natural Sciences/590-Animals/09-动物保护/09-动物保护.md",
+    "3 Resources/500 Natural Sciences/590-Animals/09-动物保护",
+    "3 Resources/500 Natural Sciences/590-Animals/08-脊椎动物/08-脊椎动物.md",
+    "3 Resources/500 Natural Sciences/590-Animals/08-脊椎动物",
+    "3 Resources/500 Natural Sciences/590-Animals/07-海洋动物/07-海洋动物.md",
+    "3 Resources/500 Natural Sciences/590-Animals/07-海洋动物",
+    "3 Resources/500 Natural Sciences/590-Animals/06-昆虫世界/06-昆虫世界.md",
+    "3 Resources/500 Natural Sciences/590-Animals/06-昆虫世界",
+    "3 Resources/500 Natural Sciences/590-Animals/05-进化与适应/05-进化与适应.md",
+    "3 Resources/500 Natural Sciences/590-Animals/05-进化与适应",
+    "3 Resources/500 Natural Sciences/590-Animals/04-动物生理/04-动物生理.md",
+    "3 Resources/500 Natural Sciences/590-Animals/04-动物生理",
+    "3 Resources/500 Natural Sciences/590-Animals/03-动物行为/03-动物行为.md",
+    "3 Resources/500 Natural Sciences/590-Animals/03-动物行为",
+    "3 Resources/500 Natural Sciences/590-Animals/02-动物分类/02-动物分类.md",
+    "3 Resources/500 Natural Sciences/590-Animals/02-动物分类",
+    "3 Resources/500 Natural Sciences/590-Animals/01-动物学概述/01-动物学概述.md",
+    "3 Resources/500 Natural Sciences/590-Animals/01-动物学概述",
+    "3 Resources/500 Natural Sciences/580-Plants/09-植物保护/09-植物保护.md",
+    "3 Resources/500 Natural Sciences/580-Plants/09-植物保护",
+    "3 Resources/500 Natural Sciences/580-Plants/08-植物进化/08-植物进化.md",
+    "3 Resources/500 Natural Sciences/580-Plants/07-经济植物/07-经济植物.md",
+    "3 Resources/500 Natural Sciences/580-Plants/06-植物生态/06-植物生态.md",
+    "3 Resources/500 Natural Sciences/580-Plants/05-植物生理/05-植物生理.md",
+    "3 Resources/500 Natural Sciences/580-Plants/04-植物分类/04-植物分类.md",
+    "3 Resources/500 Natural Sciences/580-Plants/03-光合作用/03-光合作用.md",
+    "3 Resources/500 Natural Sciences/580-Plants/02-植物解剖/02-植物解剖.md",
+    "3 Resources/500 Natural Sciences/580-Plants/01-植物学概述/01-植物学概述.md",
+    "3 Resources/300 Social Sciences/370-教育学/07-教育政策/07-教育政策.md",
+    "3 Resources/300 Social Sciences/370-教育学/06-教育技术/06-教育技术.md",
+    "3 Resources/300 Social Sciences/370-教育学/05-教育评估/05-教育评估.md",
     "3 Resources/000 Knowledge/wiki/diagram/entropy-cycle@2x.png",
     "3 Resources/000 Knowledge/wiki/diagram/entropy-cycle.svg",
     "3 Resources/000 Knowledge/wiki/diagram/information-lifecycle@2x.png",
