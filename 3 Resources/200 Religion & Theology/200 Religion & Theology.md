@@ -48,7 +48,7 @@ tags:
 │
 ├── 280-基督教宗派/         🟢 已建设       ← 天主教 · 东正教 · 新教各派 (DDC 280)
 │
-└── 290-其他宗教/           🟡 待建设       ← 比较宗教学 (DDC 290)
+└── 290-其他宗教/           🟢 已建设       ← 比较宗教学 (DDC 290)
     │                                      ← 佛教 · 印度教 · 伊斯兰教 · 道教
     │
     ├── 佛教/  🟡                          ← → 哲学维度见 [[3 Resources/100 Philosophy & Psychology/180-东方哲学/README\|DDC 180]]
@@ -71,7 +71,7 @@ tags:
 | **260** | Social & ecclesiastical theology 社会神学 | 🟢 |
 | **270** | History of Christianity 教会史 | 🟢 |
 | **280** | Christian denominations 基督教宗派 | 🟢 |
-| **290** | Other religions 其他宗教与比较宗教学 | 🟡 |
+| **290** | Other religions 其他宗教与比较宗教学 | 🟢 |
 
 > 东方宗教的哲学维度已在 DDC 180 有建设，见下方跨库关系。
 
