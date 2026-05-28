@@ -14,15 +14,6 @@ tags:
 
 ## 📊 資源統計
 
-```dataview
-TABLE without ID
-  file.link AS "名稱",
-  interest-level AS "興趣程度",
-  regexreplace(join(filter(file.tags, (t) => startswith(t, "#resource/")), ", "), "#resource/", "") AS "分類"
-FROM "3 Resources"
-WHERE file.name != this.file.name
-SORT interest-level DESC
-```
 
 ---
 
@@ -30,6 +21,8 @@ SORT interest-level DESC
 
 ```
 3 Resources/
+│
+├── 📚 按 PARA 分類 ──────────────────────────────────
 ├── 01-Tech/              # 技術類
 │   ├── Programming/
 │   ├── AI-ML/
@@ -42,11 +35,24 @@ SORT interest-level DESC
 │   └── Methods/
 ├── 04-Interests/         # 興趣類
 │   ├── Travel/
-│   ├── Cooking/
 │   └── Hobbies/
-└── 05-Reference/         # 參考類
-    ├── Documents/
-    └── Templates/
+├── 05-Reference/         # 參考類
+│   └── Documents/
+│
+├── 📚 按 DDC 分類 ──────────────────────────────────
+├── 000 Knowledge/        # 🟢 知識組織 (18 concepts)
+├── 100 Philosophy. Psychology/  # 🟢 哲學·心理學 (7 子庫)
+├── 200 RELIGION. THEOLOGY/      # 🟡 宗教·神學
+├── 300 Social Sciences/         # 🟡 社會科學
+├── 500 Natural Sciences/        # 🟢 自然科學 (數學 17 文件)
+│   └── 510-Mathematics/         # 數學
+├── 06 Applied Sciences/         # 🟢 應用科學 (207 文件)
+├── 07-Information/              # 🟢 資訊科學 (14 文件)
+├── epistemology/                # 🟢 認識論
+├── finance/                     # 🟡 金融
+├── people/                      # 🟡 人物
+├── productivity/                # 🟢 生產力
+└── 0 Department/                # 🟡 學科基礎
 ```
 
 ---
@@ -87,6 +93,19 @@ sort file.name asc
 
 ---
 
+## 📚 DDC 分類導航
+
+| DDC 大類 | 入口 | 狀態 |
+|----------|------|:----:|
+| 000 知識 | [[000 Knowledge/000 Knowledge\|→ 進入]] | 🟢 |
+| 100 哲學·心理學 | [[100 Philosophy & Psychology\|→ 進入]] | 🟢 |
+| 200 宗教·神學 | [[200 RELIGION. THEOLOGY/200 RELIGION. THEOLOGY\|→ 進入]] | 🟡 |
+| 300 社會科學 | [[300 Social Sciences/300 Social Sciences\|→ 進入]] | 🟡 |
+| 500 自然科學 | [[500 Natural Sciences/500 Natural Sciences\|→ 進入]] | 🟢 |
+| 600 應用科學 | [[06 Applied Sciences/06 Applied Sciences\|→ 進入]] | 🟢 |
+
+---
+
 ## ⭐ 精選資源
 
 ### 高優先級資源
@@ -114,22 +133,18 @@ LIMIT 5
 
 ---
 
-# 管理
+## 📋 管理
 
-# 更新
+1. **收集資訊**：發現有趣資源時記錄
 2. **評估價值**：每季檢視是否仍需
 3. **建立連結**：連接相關資源和項目
-# 收藏
-# 分享
 
----
-
-# 更新
+### 維護頻率
 
 | 頻率 | 動作 |
 |------|------|
 | 每日 | 發現有趣資源時記錄 |
-# 整理
+| 每週 | 整理 Inbox |
 | 每月 | 深度閱讀 1-2 個資源 |
 | 每季 | 清理過時資源 |
 
@@ -137,6 +152,7 @@ LIMIT 5
 
 ## 🔗 相關
 
-# 工作流
 - [[1 Projects|Projects]] - 相關項目
 - [[2 Areas|Areas]] - 相關領域
+- [[0 Inbox/0 Inbox|Inbox]] - 待分揀資源
+- [[AI-Log/optimization-report-2026-05-28|優化報告]] - 最近一次優化報告

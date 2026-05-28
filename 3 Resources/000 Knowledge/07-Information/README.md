@@ -1,0 +1,19 @@
+---
+title: DDC 000 知识库 README
+tags: [ddc-000, readme, archived]
+created: 2026-05-27
+updated: 2026-05-28
+---
+
+# DDC 000 知识库 → 已迁移
+
+> DDC 000 内容已整合至 [[3 Resources/07-Information/README\|07-Information (DDC 000)]]。
+
+## 迁移说明
+
+原 `000 Knowledge/07-Information/` 和 `000 Knowledge/ram/Information Science/` 已合并为 `3 Resources/07-Information/`。
+
+## 关联
+
+- [[3 Resources/07-Information/07-Information\|信息科学]] — 主入口
+- [[3 Resources/05-图书情报学/README\|图书情报学]] — 扩展版 LIS
