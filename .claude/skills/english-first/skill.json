@@ -1,0 +1,9 @@
+{
+  "name": "english-first",
+  "description": "Enforce English-first coding and writing practices",
+  "instructions": "english-first.md",
+  "commands": [
+    "english-first"
+  ],
+  "enabled": true
+}

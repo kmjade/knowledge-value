@@ -1,0 +1,13 @@
+{
+  "baseFontSize": 20,
+  "cssTheme": "Things",
+  "accentColor": "",
+  "theme": "obsidian",
+  "enabledCssSnippets": [
+    "IOTO-callouts",
+    "IOTO-dashboard",
+    "IOTO-hideProperties",
+    "IOTO-table",
+    "IOTO-TDL"
+  ]
+}

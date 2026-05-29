@@ -1,0 +1,9 @@
+{
+  "name": "first-cn-zh",
+  "description": "Enforce Chinese-first (中文优先) coding and writing practices",
+  "instructions": "first-cn-zh.md",
+  "commands": [
+    "first-cn-zh"
+  ],
+  "enabled": true
+}

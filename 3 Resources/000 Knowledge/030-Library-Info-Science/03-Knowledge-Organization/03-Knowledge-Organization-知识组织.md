@@ -1,0 +1,16 @@
+---
+title: 知识组织
+tags: [lis]
+created: 2026-05-28
+---
+
+# Knowledge Organization
+
+| 编目: AACR2→RDA——从卡片到关联数据——「描述资源以便找到」 |
+|------|
+| 元数据: Dublin Core(15个元素)——简单的跨领域描述 |
+| FRBR(书目记录功能需求): 作品·表达·载体·单件——四层模型 |
+
+## 相关
+
+- [[../04-Information-Retrieval/04-Information-Retrieval\|04]]

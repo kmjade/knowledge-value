@@ -1,0 +1,7 @@
+{
+  "skills": [
+    "./skills/obsidian-skills/obsidian-markdown",
+    "./skills/obsidian-skills/json-canvas",
+    "./skills/obsidian-skills/obsidian-bases"
+  ]
+}

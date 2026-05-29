@@ -1,0 +1,159 @@
+---
+title: AI Applications & Tools
+tags: [ai, tools, engineering]
+created: 2026-05-29
+aliases: [AI工具, AI應用, MLOps]
+---
+
+# 09 — AI Applications & Tools 人工智慧應用與工具
+
+> From experiment to production — the engineering practices, toolchains, and methodologies needed to turn AI models into real-world applications.
+> 從實驗到產品——將 AI 模型轉化為實際可用應用系統所需的工程實踐、工具鏈和方法論。
+
+---
+
+## ML 專案生命週期 ML Project Lifecycle
+
+```
+實驗階段 Experimental                    生產階段 Production
+┌──────────────────┐                  ┌─────────────────────┐
+│ Data → Train → Eval │  ────────→  │ Deploy → Monitor → Retrain │
+└──────────────────┘                  └─────────────────────┘
+    Jupyter / Colab                    CI/CD + Monitoring
+    快速迭代                              穩定可靠
+```
+
+| 階段 Phase | 關注點 Focus | 典型環境 Environment |
+|-----------|-------------|-------------------|
+| 實驗 | 快速試錯、模型效果 | Jupyter, Colab, 本地 GPU |
+| 生產 | 穩定性、延遲、成本、監控 | Docker + K8s, 雲服務 |
+
+---
+
+## 模型部署 Model Deployment
+
+### 部署方式 Deployment Methods
+
+| 方式 Method | 說明 Description | 適合場景 Use Case |
+|------------|-----------------|------------------|
+| **REST API** | 模型包裝為 HTTP 服務 | 最常見的方式 |
+| **Streaming (SSE)** | Server-Sent Events | LLM 逐 token 輸出 |
+| **Edge Deployment** | 模型部署在裝置本地 | 行動端、IoT |
+| **Batch Processing** | 離線大批量推理 | 資料標註、ETL 管道 |
+| **WebAssembly** | 瀏覽器內執行小模型 | 客戶端推理 |
+
+### LLM 推理引擎 LLM Inference Engines
+
+| 引擎 Engine | 特點 |
+|------------|------|
+| **vLLM** | PagedAttention，高吞吐量，連續批處理 |
+| **TensorRT-LLM** | NVIDIA 最佳化，最高效能 |
+| **llama.cpp** | CPU + GPU 混合推理，量化支援好 |
+| **Ollama** | 一鍵本地部署，適合個人使用 |
+| **SGLang** | 結構化生成，程式設計式 LLM 調用 |
+
+---
+
+## MLOps 工具鏈 MLOps Toolchain
+
+| 類別 Category | 工具 Tools | 說明 |
+|--------------|-----------|------|
+| **實驗追蹤** | W&B, MLflow, TensorBoard | 記錄實驗參數、指標和產出 |
+| **資料處理** | DVC, Pachyderm | 資料版本化 |
+| **模型註冊** | MLflow Model Registry, Hugging Face Hub | 模型版本管理 |
+| **管線編排** | Airflow, Prefect, Dagster | ML 管線調度 |
+| **CI/CD** | GitHub Actions + custom | 自動化測試和部署 |
+| **監控** | Evidently, WhyLabs, Arize | 資料漂移、模型退化檢測 |
+| **特徵儲存** | Feast, Tecton | 特徵工程和復用 |
+
+---
+
+## 訓練基礎設施 Training Infrastructure
+
+| 規模 Scale | 方案 Solution |
+|-----------|--------------|
+| **個人/學習** | Google Colab, single GPU (RTX 30xx/40xx), Lambda Labs |
+| **小團隊** | 單機多 GPU, RunPod, Vast.ai |
+| **中等規模** | 雲 GPU 集群 (AWS p4d, GCP TPU), 多節點 |
+| **大模型預訓練** | 數千 GPU 集群，需要分散式訓練 (FSDP, DeepSpeed) |
+
+### 分散式訓練 Distributed Training
+
+| 策略 Strategy | 說明 Description |
+|--------------|-----------------|
+| **Data Parallel (DP)** | 每 GPU 一份模型副本，不同 batch 資料 |
+| **Model Parallel (MP)** | 模型層分佈到不同 GPU |
+| **Pipeline Parallel (PP)** | 微批次管線處理 |
+| **Tensor Parallel (TP)** | 單層內的參數切分 |
+| **ZeRO / FSDP** | 優化器狀態、梯度和參數分片 (DeepSpeed, PyTorch FSDP) |
+
+---
+
+## LLM 應用工程實務 LLM Engineering Practices
+
+### LLM 應用架構模式
+
+```
+User → Gateway (rate-limit/auth) → Orchestration (LangChain/DSPy)
+                                      ├── LLM Call
+                                      ├── Vector Retrieval (RAG)
+                                      ├── Tool Calling
+                                      └── Cache / Fallback
+```
+
+### 關鍵考量 Key Considerations
+
+| 方面 Aspect | 實踐 Practice |
+|------------|-------------|
+| **快取 Caching** | 相同/相似查詢快取結果，節省成本 |
+| **回退 Fallback** | 主模型故障時切換到備用模型 |
+| **限流 Rate Limiting** | 保護 API 不被濫用 |
+| **評估 Evaluation** | 自動評估 + 人工抽查 |
+| **可觀測性 Observability** | 記錄每次調用的 token 數、延遲、成功率 |
+| **A/B Testing** | 對比不同 prompt / 模型的線上效果 |
+
+### LLM 評估 LLM Evaluation
+
+| 方法 Method | 說明 Description |
+|------------|-----------------|
+| **基準評估** | MMLU, HumanEval, GSM8K 等標準基準 |
+| **LLM-as-Judge** | 用更強的 LLM 評估輸出品質 |
+| **人工評估** | Elo 評分，A/B 對比 |
+| **任務特定指標** | RAG 的忠實度和相關性、程式碼的通過率 |
+
+---
+
+## 提示管理 Prompt Management
+
+| 工具 | 用途 |
+|------|------|
+| **LangSmith** | Prompt 版本管理和線上監控 |
+| **PromptLayer** | Prompt 日誌和分析 |
+| **Git 管理 prompt 檔案** | 簡單場景下的版本控制 |
+
+---
+
+## 成本最佳化 Cost Optimization
+
+| 策略 Strategy | 節省 Savings |
+|-------------|-------------|
+| 使用更小的模型處理簡單任務 | 7B 模型比 70B 便宜 10–100 倍 |
+| Prompt Caching | 復用 system prompt，減少重複 token |
+| 量化 (INT8/INT4) | 減少顯存和計算 |
+| 批量推理 | 合併多個請求一起處理 |
+| 路由 Routing | 簡單問題用小模型，複雜問題用大模型 |
+
+---
+
+## 相關模組 Related Modules
+
+| 模組 | 關聯 |
+|------|------|
+| [[02-Machine Learning]] — ML 專案流程 | ML 生命週期 |
+| [[07-Generative AI & LLMs]] — LLM 應用設計 | LLM 工程實踐 |
+| [[AI Resources]] — 框架和工具的教程 | 工具資源 |
+| [[3 Resources/000 Knowledge/005 Software/005 Software\|Software (DDC 005)]] — DevOps / CI/CD | 軟體工程實踐 |
+
+---
+
+> 💡 **Key Insight**: The gap between a Jupyter notebook and a production system is wider than most people think. MLOps bridges that gap. Jupyter notebook 與生產系統之間的鴻溝比大多數人想像的更寬——MLOps 就是橋樑。

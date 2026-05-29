@@ -1,0 +1,8 @@
+{
+  "name": "lint",
+  "description": "系统健康检查 - 检查 PARA+LLM-Wiki 系统状态并报告问题",
+  "instructions": "lint.md",
+  "commands": ["lint"],
+  "enabled": true
+}
+

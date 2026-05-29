@@ -1,0 +1,8 @@
+{
+  "name": "triage",
+  "description": "Inbox 分拣引擎 - 自动扫描并智能路由文件到正确位置",
+  "instructions": "triage.md",
+  "commands": ["triage"],
+  "enabled": true
+}
+

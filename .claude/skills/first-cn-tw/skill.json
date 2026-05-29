@@ -1,0 +1,9 @@
+{
+  "name": "first-cn-tw",
+  "description": "Enforce Traditional Chinese (繁體中文) first coding and writing practices",
+  "instructions": "first-cn-tw.md",
+  "commands": [
+    "first-cn-tw"
+  ],
+  "enabled": true
+}
