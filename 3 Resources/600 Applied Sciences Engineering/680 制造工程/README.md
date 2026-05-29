@@ -1,11 +1,18 @@
 ---
 title: 製造工程 README
-tags: [製造, readme]
+ddc: 680
+udc: 68
+clc: TS
+lcc: TS
+tags: [製造, readme, ddc/680, udc/68, clc/TS, lcc/TS]
 created: 2026-05-29
 ---
 
 # 製造工程 知識庫
 
+> **DDC 680** · 各類產品專業製造 — **UDC 68** Finished products. Packaging
+> **CLC TS** 輕工業、手工業 — **LCC TS** Manufactures
+>
 > DDC 680 — Manufacture for specific uses. 各類產品的專業製造技術。
 
 ## 快速導航
