@@ -100,11 +100,11 @@ Paradigms  Arch  Patterns  Methodo- Testing  VCS    Languages  FOSS  Tools
 
 ## 跨庫關聯 Cross-KB Links
 
-| 相關知識庫 | 關聯說明 |
-|-----------|---------|
-| [[3 Resources/000 Knowledge/004 Computer Science & technology/README\|CS (DDC 004)]] | 硬體、OS、網路、演算法 —— 軟體的底層基礎 |
-| [[3 Resources/000 Knowledge/006 Artificial-Intelligence/README\|AI (DDC 006)]] | AI 輔助程式設計、LLM Agent、MLOps |
-| [[3 Resources/000 Knowledge/000 Knowledge\|Knowledge (DDC 000)]] | 知識組織與分類體系 |
+| 相關知識庫                                                                                | 關聯說明                      |
+| ------------------------------------------------------------------------------------ | ------------------------- |
+| [[3 Resources/000 Knowledge/004 Computer Science & technology/README\|CS (DDC 004)]] | 硬體、OS、網路、演算法 —— 軟體的底層基礎   |
+| [[3 Resources/000 Knowledge/006 Artificial-Intelligence/README\|AI (DDC 006)]]       | AI 輔助程式設計、LLM Agent、MLOps |
+| [[3 Resources/000 Knowledge/000 Knowledge\|Knowledge (DDC 000)]]                     | 知識組織與分類體系                 |
 
 ---
 
