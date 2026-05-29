@@ -2,12 +2,19 @@
 aliases:
   - Automation README
   - 自动化控制知识库
+ddc: 629.8
+udc: 62-5
+clc: TP273
+lcc: TJ213
 created: 2026-05-27
 type: reference
 topic: applied-sciences
 tags:
+  - ddc/629.8
   - udc/62-5
   - udc/6xx
+  - clc/TP273
+  - lcc/TJ213
   - automation/readme
 ---
 

@@ -5,18 +5,27 @@ aliases:
   - Industrial Automation
   - Control Engineering
   - UDC 62-5
+ddc: 629.8
+udc: 62-5
+clc: TP273
+lcc: TJ213
 created: 2026-05-27
 type: reference
 topic: applied-sciences
 tags:
+  - ddc/629.8
   - udc/62-5
   - udc/6xx
+  - clc/TP273
+  - lcc/TJ213
   - automation/core
 ---
 
 # 自动化控制
 
-> **UDC 62-5**: Control devices. Regulators. Automatic control engineering
+> **DDC 629.8** · 自动控制工程 — **UDC 62-5** Control devices. Regulators. Automatic control engineering
+> **CLC TP273** 自动控制系统 — **LCC TJ213** Automatic control engineering
+>
 > 从继电器到工业 4.0——自动化是工业的神经系统
 
 自动化控制研究如何让机器和过程在**无人干预**（或最少干预）下按预定目标运行。它横跨从传感器信号的物理世界到云端 AI 的数字世界——是全栈跨度最大的工程分支之一。
