@@ -31,12 +31,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3 Resources/600 Applied Sciences/600 Applied Sciences.md",
+                "file": "3 Resources/000 Knowledge/050-Classification-Metadata/03-DDC-in-Depth/DDC23-完整分类表.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "600 Applied Sciences"
+              "title": "DDC23-完整分类表"
             }
           }
         ],
@@ -232,6 +232,10 @@
   },
   "active": "abc3c29afd44bcc0",
   "lastOpenFiles": [
+    "3 Resources/000 Knowledge/050-Classification-Metadata/03-DDC-in-Depth/03-DDC-in-Depth.md",
+    "3 Resources/000 Knowledge/050-Classification-Metadata/050-Classification-Metadata.md",
+    "3 Resources/000 Knowledge/000 Knowledge.md",
+    "3 Resources/600 Applied Sciences/600 Applied Sciences.md",
     "3 Resources/05-Reference/Methods/Area-Management-Guidelines.md",
     "3 Resources/000 Knowledge/004 Computer Science & technology/004.6 计算机网络/03-Network Architecture/Wireless Networks.md",
     "3 Resources/000 Knowledge/004 Computer Science & technology/004.6 计算机网络/03-Network Architecture/WAN.md",
@@ -254,10 +258,6 @@
     "3 Resources/000 Knowledge/004 Computer Science & technology/004.6 计算机网络/07-Templates/Troubleshooting Template.md",
     "3 Resources/000 Knowledge/004 Computer Science & technology/004.6 计算机网络/07-Templates/Protocol Learning Template.md",
     "3 Resources/000 Knowledge/004 Computer Science & technology/004.6 计算机网络/06-Practical Tools/Packet Analysis Tools.md",
-    "3 Resources/000 Knowledge/004 Computer Science & technology/004.6 计算机网络/06-Practical Tools/Network Diagnostic Tools.md",
-    "3 Resources/000 Knowledge/004 Computer Science & technology/004.6 计算机网络/05-Network Management/Troubleshooting.md",
-    "3 Resources/000 Knowledge/004 Computer Science & technology/004.6 计算机网络/05-Network Management/Network Monitoring.md",
-    "3 Resources/000 Knowledge/004 Computer Science & technology/004.6 计算机网络/05-Network Management/Performance Optimization.md",
     "3 Resources/000 Knowledge/004 Computer Science & technology/004.6 计算机网络/03-Network Architecture",
     "3 Resources/000 Knowledge/004 Computer Science & technology/004.6 计算机网络/02-Core Protocols",
     "3 Resources/000 Knowledge/004 Computer Science & technology/004.6 计算机网络/01-Fundamentals",
