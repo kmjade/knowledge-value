@@ -20,17 +20,17 @@ tags: [lis, ddc-030, knowledge, resources]
 
 ## 🗂️ 章节目录
 
-| # | 章节 | 核心 |
-|:--:|------|------|
-| 1 | [[01-LIS-Overview/01-LIS-Overview\|01 概述]] |
-| 2 | [[02-Science-Epistemology/02-Science-Epistemology\|02 科学学]] |
-| 3 | [[03-Knowledge-Organization/03-Knowledge-Organization\|03 知识组织]] |
-| 4 | [[04-Information-Retrieval/04-Information-Retrieval\|04 检索]] |
-| 5 | [[05-Information-Services/05-Information-Services\|05 服务]] |
-| 6 | [[06-Digital-Libraries/06-Digital-Libraries\|06 数字图书馆]] |
-| 7 | [[07-Information-Literacy/07-Information-Literacy\|07 素养]] |
-| 8 | [[08-Information-Ethics/08-Information-Ethics\|08 伦理]] |
-| 9 | [[09-Information-Institutions/09-Information-Institutions\|09 机构]] |
+|  #  | 章节                                                                 | 核心  |
+| :-: | ------------------------------------------------------------------ | --- |
+|  1  | [[01-LIS-Overview/01-LIS-Overview\|01 概述]]                         |     |
+|  2  | [[02-Science-Epistemology/02-Science-Epistemology\|02 科学学]]        |     |
+|  3  | [[03-Knowledge-Organization/03-Knowledge-Organization\|03 知识组织]]   |     |
+|  4  | [[04-Information-Retrieval/04-Information-Retrieval\|04 检索]]       |     |
+|  5  | [[05-Information-Services/05-Information-Services\|05 服务]]         |     |
+|  6  | [[06-Digital-Libraries/06-Digital-Libraries\|06 数字图书馆]]            |     |
+|  7  | [[07-Information-Literacy/07-Information-Literacy\|07 素养]]         |     |
+|  8  | [[08-Information-Ethics/08-Information-Ethics\|08 伦理]]             |     |
+|  9  | [[09-Information-Institutions/09-Information-Institutions\|09 机构]] |     |
 
 ## 🔗 跨库连接
 

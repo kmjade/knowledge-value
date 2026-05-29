@@ -299,7 +299,7 @@ DDC/UDC 回答「知识在哪里」，Prolegomena 回答「知识是什么」，
 ### 分类系统
 - [[../DDC/README|DDC 知识库]] — 学科分类
 - [[../UDC/README|UDC 知识库]] — 分面分类
-- [[../DDC-UDC对比表|DDC vs UDC 对比表]]
+- [[DDC-UDC对比表|DDC vs UDC 对比表]]
 - [[../../wiki/concepts/Classification-Systems|分类法体系 (Wiki)]]
 
 ### 哲学地基

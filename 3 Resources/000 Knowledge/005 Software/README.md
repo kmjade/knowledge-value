@@ -69,4 +69,4 @@ created: 2026-05-29
 
 - [[005 Software|DDC 005 索引]] — 杜威分類法總入口
 - [[3 Resources/000 Knowledge/004 Computer Science & technology/README|CS 知識庫]] — 電腦科學基礎
-- [[3 Resources/000 Knowledge/006 Artificial-Intelligence/README|AI 知識庫]] — 人工智慧
+- [[3 Resources/000 Knowledge/006 Artificial Intelligence/README|AI 知識庫]] — 人工智慧

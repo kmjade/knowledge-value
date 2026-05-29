@@ -29,7 +29,7 @@ aliases: [UDC MOC, Universal Decimal Classification, 国际十进分类法]
 - [[03]] — + / : = () [] 等组合符号
 - [[04-UDC 6详解]] — 应用科学、医学、科技（对应本库 Applied Sciences）
 - [[05-UDC vs DDC vs CLC]] — 三大分类法深度对比
-→ 📊 [[../../DDC-UDC对比表\|DDC 23 vs UDC 完整对比表]]（繁简英混排）
+→ 📊 [[DDC-UDC对比表\|DDC 23 vs UDC 完整对比表]]（繁简英混排）
 - [[06-UDC在数字时代]] — UDC MRF、关联数据、多语言
 - [[07]] — 如何用 UDC 给文献分类
 - [[08-UDC历史]] — 从国际书目到现代分类法

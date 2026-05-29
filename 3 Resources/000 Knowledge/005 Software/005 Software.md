@@ -104,7 +104,7 @@ aliases: [軟體, 軟體知識庫, Software KB, DDC 005]
 | 知識庫 KB | 說明 Description | 路徑 Path |
 |-----------|-----------------|-----------|
 | [[3 Resources/000 Knowledge/004 Computer Science & technology/README\|Computer Science]] | DDC 004 — 硬體、OS、網路、演算法 | `004 Computer Science & technology/` |
-| [[3 Resources/000 Knowledge/006 Artificial-Intelligence/README\|Artificial Intelligence]] | DDC 006 — ML、DL、NLP、GenAI | `006 Artificial-Intelligence/` |
+| [[3 Resources/000 Knowledge/006 Artificial Intelligence/README\|Artificial Intelligence]] | DDC 006 — ML、DL、NLP、GenAI | `006 Artificial-Intelligence/` |
 | [[3 Resources/000 Knowledge/000 Knowledge\|Knowledge (DDC 000)]] | DDC 000 — 知識組織、分類法總入口 | `000 Knowledge/` |
 
 ---

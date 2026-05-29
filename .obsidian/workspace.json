@@ -22,21 +22,21 @@
                 "groupOption": "none"
               },
               "icon": "columns-3",
-              "title": "IOTO 儀表板"
+              "title": "IOTO 仪表盘"
             }
           },
           {
-            "id": "7edd99b917bc8602",
+            "id": "abc3c29afd44bcc0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI-Log/sessions/2026-05-28-knowledge-system-architecture.md",
+                "file": "3 Resources/600 Applied Sciences/600 Applied Sciences.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-05-28-knowledge-system-architecture"
+              "title": "600 Applied Sciences"
             }
           }
         ],
@@ -63,7 +63,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "檔案瀏覽器"
+              "title": "文件列表"
             }
           },
           {
@@ -97,7 +97,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 415.5
+    "width": 320.5
   },
   "right": {
     "id": "19cea027a20285b0",
@@ -211,20 +211,18 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:開啟快速切換": false,
-      "graph:查看關聯圖": false,
-      "canvas:建立新畫布": false,
-      "daily-notes:開啟今天的每日筆記": false,
-      "command-palette:開啟命令面板": false,
-      "bases:建立新的 base": false,
-      "ioto-dashboard:開啟 IOTO 儀表板": false,
-      "ioto-dashboard:開啟 IOTO 任務儀表板": false,
-      "ioto-dashboard:開啟 IOTO 筆記儀表板": false,
-      "ioto-template-generator:打開生成器": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false,
+      "ioto-dashboard:打开 IOTO 仪表盘": false,
+      "ioto-dashboard:打开 IOTO 任务仪表盘": false,
+      "ioto-dashboard:打开 IOTO 笔记仪表盘": false,
+      "ioto-template-generator:打开生成器": false,
       "templates:插入模板": false,
       "templater-obsidian:Templater": false,
-      "claudian:Open Claudian": false,
-      "obsidian42-brat:BRAT": false,
       "ioto-settings:开启仅同步当前文件模式": false,
       "ioto-settings:关闭仅同步当前文件模式": false,
       "obsidian-git:Open Git source control": false,
@@ -232,44 +230,46 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "7edd99b917bc8602",
+  "active": "abc3c29afd44bcc0",
   "lastOpenFiles": [
-    "3 Resources/000 Knowledge/070-Digital-Knowledge/08-Knowledge-Reasoning/08-Knowledge-Reasoning-知识推理.md",
-    "3 Resources/000 Knowledge/070-Digital-Knowledge/08-Knowledge-Reasoning",
-    "3 Resources/000 Knowledge/070-Digital-Knowledge/070-Digital-Knowledge.md",
-    "3 Resources/000 Knowledge/070-Digital-Knowledge/07-Knowledge-Extraction/07-Knowledge-Extraction-知识抽取.md",
-    "3 Resources/000 Knowledge/070-Digital-Knowledge/07-Knowledge-Extraction",
-    "3 Resources/000 Knowledge/070-Digital-Knowledge/04-Linked-Data-Practice/04-Linked-Data-Practice-关联数据实践.md",
-    "3 Resources/000 Knowledge/070-Digital-Knowledge/04-Linked-Data-Practice",
-    "3 Resources/000 Knowledge/070-Digital-Knowledge/03-KG-Engineering/03-KG-Engineering-知识图谱工程.md",
-    "3 Resources/000 Knowledge/070-Digital-Knowledge/03-KG-Engineering",
-    "3 Resources/000 Knowledge/070-Digital-Knowledge/02-Semantic-Web/02-Semantic-Web-语义网.md",
-    "3 Resources/000 Knowledge/070-Digital-Knowledge/02-Semantic-Web",
-    "3 Resources/000 Knowledge/070-Digital-Knowledge/01-Digital-Knowledge-Overview/01-Digital-Knowledge-Overview-数字知识概述.md",
-    "3 Resources/000 Knowledge/070-Digital-Knowledge/01-Digital-Knowledge-Overview",
-    "3 Resources/000 Knowledge/060-Knowledge-Management/07-Personal-KM/07-Personal-KM-个人知识管理.md",
-    "3 Resources/000 Knowledge/060-Knowledge-Management/07-Personal-KM",
-    "3 Resources/000 Knowledge/060-Knowledge-Management/060-Knowledge-Management.md",
-    "3 Resources/000 Knowledge/060-Knowledge-Management/06-Organizational-Learning/06-Organizational-Learning-组织学习.md",
-    "3 Resources/000 Knowledge/060-Knowledge-Management/06-Organizational-Learning",
-    "3 Resources/000 Knowledge/060-Knowledge-Management/05-Knowledge-Sharing/05-Knowledge-Sharing-知识共享.md",
-    "3 Resources/000 Knowledge/060-Knowledge-Management/05-Knowledge-Sharing",
-    "3 Resources/000 Knowledge/060-Knowledge-Management/04-Knowledge-Audit/04-Knowledge-Audit-知识审计.md",
-    "3 Resources/000 Knowledge/060-Knowledge-Management/04-Knowledge-Audit",
-    "3 Resources/000 Knowledge/060-Knowledge-Management/03-Communities-of-Practice/03-Communities-of-Practice-实践社区.md",
-    "3 Resources/000 Knowledge/050-Classification-Metadata/09-Digital-Age-Classification/09-Digital-Age-Classification-数字时代分类.md",
-    "3 Resources/000 Knowledge/050-Classification-Metadata/08-Classification-Applications/08-Classification-Applications-分类法应用.md",
-    "3 Resources/000 Knowledge/050-Classification-Metadata/07-Metadata-Standards/07-Metadata-Standards-元数据标准.md",
-    "3 Resources/000 Knowledge/050-Classification-Metadata/06-Comparative-Analysis/06-Comparative-Analysis-对比分析.md",
-    "3 Resources/000 Knowledge/050-Classification-Metadata/050-Classification-Metadata.md",
-    "3 Resources/000 Knowledge/050-Classification-Metadata/05-Chinese-Classification/05-Chinese-Classification-中国分类法.md",
-    "3 Resources/000 Knowledge/050-Classification-Metadata/02-Classification-Principles/02-Classification-Principles-分类法原理.md",
-    "3 Resources/000 Knowledge/050-Classification-Metadata/01-Classification-Overview/01-Classification-Overview-分类法概述.md",
-    "3 Resources/000 Knowledge/040-Information-Science/09-Information-Society/09-Information-Society-信息社会.md",
-    "3 Resources/000 Knowledge/040-Information-Science/08-Information-Economics/08-Information-Economics-信息经济.md",
-    "3 Resources/000 Knowledge/040-Information-Science/07-Information-Policy/07-Information-Policy-信息政策.md",
-    "3 Resources/000 Knowledge/040-Information-Science/06-Information-Visualization/06-Information-Visualization-信息可视化.md",
-    "3 Resources/000 Knowledge/040-Information-Science/05-Information-Behavior/05-Information-Behavior-信息行为.md",
+    "3 Resources/05-Reference/Methods/Area-Management-Guidelines.md",
+    "3 Resources/000 Knowledge/004 Computer Science & technology/004.6 计算机网络/03-Network Architecture/Wireless Networks.md",
+    "3 Resources/000 Knowledge/004 Computer Science & technology/004.6 计算机网络/03-Network Architecture/WAN.md",
+    "3 Resources/000 Knowledge/004 Computer Science & technology/004.6 计算机网络/03-Network Architecture/VLAN.md",
+    "3 Resources/000 Knowledge/004 Computer Science & technology/004.6 计算机网络/03-Network Architecture/Switches.md",
+    "3 Resources/000 Knowledge/004 Computer Science & technology/004.6 计算机网络/03-Network Architecture/SDN.md",
+    "3 Resources/000 Knowledge/004 Computer Science & technology/004.6 计算机网络/03-Network Architecture/LAN.md",
+    "3 Resources/000 Knowledge/004 Computer Science & technology/004.6 计算机网络/03-Network Architecture/Cloud Networking.md",
+    "3 Resources/000 Knowledge/004 Computer Science & technology/004 Computer Science & technology.md",
+    "0 Inbox/Clippings/“因为在此系统上禁止运行脚本”解决办法.md",
+    "3 Resources/03-Productivity/工作技巧/解决“因为在此系统上禁止运行脚本”的问题.md",
+    "3 Resources/02-Learning/数学知识库/数学知识库.md",
+    "3 Resources/000 Knowledge/004 Computer Science & technology/004.6 计算机网络/01-Fundamentals/IP Addressing & Subnetting.md",
+    "3 Resources/000 Knowledge/004 Computer Science & technology/004.6 计算机网络/00-MOCs/MOC-Learning Path.md",
+    "3 Resources/000 Knowledge/004 Computer Science & technology/004.6 计算机网络/00-MOCs/MOC-Overview.md",
+    "3 Resources/000 Knowledge/004 Computer Science & technology/004.6 计算机网络/08-Notes/Issue Log.md",
+    "3 Resources/000 Knowledge/004 Computer Science & technology/004.6 计算机网络/08-Notes/Learning Notes.md",
+    "3 Resources/000 Knowledge/004 Computer Science & technology/004.6 计算机网络/08-Notes/Practical Cases.md",
+    "3 Resources/000 Knowledge/004 Computer Science & technology/004.6 计算机网络/08-Notes/Data Collection.md",
+    "3 Resources/000 Knowledge/004 Computer Science & technology/004.6 计算机网络/07-Templates/Troubleshooting Template.md",
+    "3 Resources/000 Knowledge/004 Computer Science & technology/004.6 计算机网络/07-Templates/Protocol Learning Template.md",
+    "3 Resources/000 Knowledge/004 Computer Science & technology/004.6 计算机网络/06-Practical Tools/Packet Analysis Tools.md",
+    "3 Resources/000 Knowledge/004 Computer Science & technology/004.6 计算机网络/06-Practical Tools/Network Diagnostic Tools.md",
+    "3 Resources/000 Knowledge/004 Computer Science & technology/004.6 计算机网络/05-Network Management/Troubleshooting.md",
+    "3 Resources/000 Knowledge/004 Computer Science & technology/004.6 计算机网络/05-Network Management/Network Monitoring.md",
+    "3 Resources/000 Knowledge/004 Computer Science & technology/004.6 计算机网络/05-Network Management/Performance Optimization.md",
+    "3 Resources/000 Knowledge/004 Computer Science & technology/004.6 计算机网络/03-Network Architecture",
+    "3 Resources/000 Knowledge/004 Computer Science & technology/004.6 计算机网络/02-Core Protocols",
+    "3 Resources/000 Knowledge/004 Computer Science & technology/004.6 计算机网络/01-Fundamentals",
+    "3 Resources/000 Knowledge/004 Computer Science & technology/004.6 计算机网络/08-Notes",
+    "3 Resources/000 Knowledge/004 Computer Science & technology/004.6 计算机网络/07-Templates",
+    "3 Resources/000 Knowledge/004 Computer Science & technology/004.6 计算机网络/06-Practical Tools",
+    "3 Resources/000 Knowledge/004 Computer Science & technology/004.6 计算机网络/05-Network Management",
+    "3 Resources/000 Knowledge/004 Computer Science & technology/004.6 计算机网络/04-Network Security",
+    "3 Resources/000 Knowledge/006 Artificial Intelligence/09-AI Applications & Tools/sedY1j3ut",
+    "3 Resources/000 Knowledge/006 Artificial Intelligence/06-Reinforcement Learning/Hermes-Agent/99-资源收集/sedjxLT5W",
+    "3 Resources/000 Knowledge/006 Artificial Intelligence/07-Generative AI & LLMs/Hermes-Agent/images/Pasted image 20260524160938.png",
+    "3 Resources/000 Knowledge/006 Artificial Intelligence/06-强化学习/Hermes-Agent/images/Pasted image 20260524160938.png",
     "3 Resources/004-Computer-Science/Artificial-Intelligence/06-强化学习/AI-Agent/images/Pasted image 20260524160938.png",
     "3 Resources/004-Computer science and technology/Artificial-Intelligence/06-强化学习/AI-Agent/images/Pasted image 20260524160938.png",
     "3 Resources/000 Knowledge/wiki/diagram/entropy-cycle@2x.png",
@@ -277,8 +277,6 @@
     "3 Resources/000 Knowledge/wiki/diagram/information-lifecycle@2x.png",
     "3 Resources/000 Knowledge/wiki/diagram/information-lifecycle.svg",
     "3 Resources/000 Knowledge/wiki/diagram/KOS-architecture.svg",
-    "3 Resources/000 Knowledge/wiki/diagram/KOS-knowledge-pyramid@2x.png",
-    "3 Resources/000 Knowledge/wiki/diagram/KOS-knowledge-pyramid.svg",
-    "3 Resources/000 Knowledge/wiki/diagram/KOS-architecture@2x.png"
+    "3 Resources/000 Knowledge/wiki/diagram/KOS-knowledge-pyramid@2x.png"
   ]
 }
