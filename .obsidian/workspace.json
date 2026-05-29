@@ -31,16 +31,36 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3 Resources/600 Applied Sciences Engineering/620 工程科学/02-土木工程/02-土木工程.md",
+                "file": "3 Resources/600 Applied Sciences Engineering/620 工程科学/624 土木工程/624 土木工程.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02-土木工程"
+              "title": "624 土木工程"
             }
           }
         ],
         "currentTab": 1
+      },
+      {
+        "id": "4371c8b868698672",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cf366a46212b2752",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3 Resources/000 Knowledge/050-Classification-Metadata/04-UDC-in-Depth/UDC-完整分类表.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "UDC-完整分类表"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -230,17 +250,18 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "460a9e42de521b6a",
+  "active": "cf366a46212b2752",
   "lastOpenFiles": [
+    "3 Resources/600 Applied Sciences Engineering/620 工程科学/624 土木工程/624 土木工程.md",
+    "3 Resources/600 Applied Sciences Engineering/620 工程科学/03-机械工程/03-机械工程.md",
+    "3 Resources/600 Applied Sciences Engineering/620 工程科学/01-機械工程/01-機械工程.md",
     "3 Resources/600 Applied Sciences Engineering/620 工程科学/03-土木工程/03-土木工程.md",
-    "3 Resources/600 Applied Sciences Engineering/620 工程科学/02-土木工程/02-土木工程.md",
     "3 Resources/600 Applied Sciences Engineering/620 工程科学/01-工程学概述/01-工程学概述.md",
     "3 Resources/600 Applied Sciences Engineering/630 农业科学/07-农业技术/07-农业技术.md",
     "3 Resources/600 Applied Sciences Engineering/630 农业科学/630 农业科学.md",
     "3 Resources/600 Applied Sciences Engineering/620 工程科学/620 工程科学.md",
     "3 Resources/600 Applied Sciences Engineering/620 工程科学/Technology/03-通信技术/03-通信技术.md",
     "3 Resources/600 Applied Sciences Engineering/620 工程科学/Engineering/04-电气与电子工程/04-电气与电子工程.md",
-    "3 Resources/600 Applied Sciences Engineering/620 工程科学/Engineering/03-机械工程/03-机械工程.md",
     "3 Resources/600 Applied Sciences Engineering/670 制造与工艺/670 制造与工艺.md",
     "3 Resources/600 Applied Sciences Engineering/650 管理科学/650 管理科学.md",
     "3 Resources/600 Applied Sciences Engineering/650 管理科学/09-品質管理/09-品質管理.md",
@@ -257,7 +278,6 @@
     "3 Resources/600 Applied Sciences Engineering/620 工程科学/05-化工/05-化工.md",
     "3 Resources/600 Applied Sciences Engineering/620 工程科学/04-材料工程/04-材料工程.md",
     "3 Resources/600 Applied Sciences Engineering/620 工程科学/Engineering/Digital-Twin/Digital-Twin.md",
-    "3 Resources/600 Applied Sciences Engineering/670 制造与工艺/670.42 制造工程/670.42 制造工程.md",
     "3 Resources/600 Applied Sciences/619.1 中醫學/ram/舌診圖譜",
     "3 Resources/600 Applied Sciences/619.1 中醫學/ram/耳穴知識庫/10-日记",
     "3 Resources/600 Applied Sciences/619.1 中醫學/ram/耳穴知識庫/08_实践指南",
