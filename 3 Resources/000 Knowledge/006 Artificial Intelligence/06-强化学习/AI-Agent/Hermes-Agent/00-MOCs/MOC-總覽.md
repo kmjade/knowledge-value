@@ -96,5 +96,5 @@ modified: 2026-05-25
 
 ## 相关链接
 
-- [[Agent/Hermes-Agent/00-MOCs/MOC-學習路徑]] — 学习路径规划
+- [[3 Resources/000 Knowledge/006 Artificial Intelligence/06-强化学习/AI-Agent/Hermes-Agent/00-MOCs/MOC-總覽|MOC-總覽]] — 学习路径规划
 - [[0 Inbox/_processed/AI-Agent/Hermes-Agent/Hermes-Agent]] — 知识库首页

@@ -1,85 +1,120 @@
 ---
-title: AI 资源收集
+title: AI Resources
 tags: [ai, resources]
-created: 2026-05-27
-aliases: [AI资源, 人工智能资源]
+created: 2026-05-29
+aliases: [AI 資源收集, AI Resources]
 ---
 
-# AI 资源收集
+# AI Resources 資源收集
 
-## 📚 经典书籍
+> 人工智慧領域的精選資源——經典書籍、線上課程、核心框架、必讀論文、實戰專案。
+> Curated resources for AI — classic books, online courses, core frameworks, must-read papers, and hands-on projects.
 
-| 书名 | 作者 | 适合 |
+---
+
+## 📖 經典書籍 Classic Books
+
+### 基礎與入門 Foundations
+
+| 書名 | 作者 | 說明 |
 |------|------|------|
-| 《人工智能：一种现代方法》(AIMA) 第4版 | Russell & Norvig | AI 领域标准教材（百科全书式） |
-| 《机器学习》(西瓜书) | 周志华 | 中文读者 ML 入门首选 |
-| 《深度学习》(花书) | Goodfellow, Bengio, Courville | DL 经典教材（需要数学基础） |
-| 《动手学深度学习》 | 李沐等 | 代码驱动的 DL 学习（d2l.ai 免费在线阅读） |
-| 《统计学习方法》 | 李航 | ML 算法推导，面试必备 |
-| 《Pattern Recognition and Machine Learning》 | Bishop | 贝叶斯视角的 ML 经典 |
-| 《强化学习》 | Sutton & Barto | RL 圣经（第二版免费在线） |
+| *Artificial Intelligence: A Modern Approach* (4th ed.) | Russell & Norvig | AI 領域的聖經，大學標準教材 |
+| *Deep Learning* | Goodfellow, Bengio, Courville | 深度學習的權威著作 |
+| *Pattern Recognition and Machine Learning* | Christopher Bishop | ML 的數學基礎，貝氏視角 |
+| *The Hundred-Page Machine Learning Book* | Andriy Burkov | ML 速成口袋書 |
 
-## 🎓 在线课程
+### 實務與工程 Practice & Engineering
 
-| 课程 | 讲师 | 平台 |
+| 書名 | 作者 | 說明 |
 |------|------|------|
-| Machine Learning Specialization | Andrew Ng | Coursera |
-| Deep Learning Specialization | Andrew Ng | Coursera |
-| CS231n: CNNs for Visual Recognition | Fei-Fei Li | Stanford / YouTube |
-| CS224n: NLP with Deep Learning | Chris Manning | Stanford / YouTube |
-| CS285: Deep Reinforcement Learning | Sergey Levine | UC Berkeley / YouTube |
-| Practical Deep Learning for Coders | Jeremy Howard | fast.ai（免费，代码优先） |
-| 动手学深度学习 | 李沐 | B站 / d2l.ai |
+| *Hands-On Machine Learning* (3rd ed.) | Aurélien Géron | Scikit-Learn, Keras, TensorFlow 實戰 |
+| *Machine Learning Engineering* | Andriy Burkov | ML 工程的實用指南 |
+| *Designing Machine Learning Systems* | Chip Huyen | ML 系統設計 |
+| *Building LLM Apps* | Valentina Alto | LLM 應用的工程實踐 |
 
-## 🔧 核心框架与工具
+### 前沿主題 Advanced Topics
 
-| 类别 | 工具 | 用途 |
+| 書名 | 作者 | 說明 |
 |------|------|------|
-| DL 框架 | PyTorch, TensorFlow, JAX | 模型训练 |
-| ML 框架 | scikit-learn, XGBoost, LightGBM | 经典 ML |
-| LLM 框架 | LangChain, LlamaIndex | LLM 应用开发 |
-| 模型库 | Hugging Face Transformers, Diffusers | 预训练模型 |
-| 部署 | vLLM, TensorRT, ONNX | 模型推理加速 |
-| 实验追踪 | Weights & Biases, MLflow | 实验管理 |
-| 向量数据库 | Pinecone, Weaviate, Chroma | RAG 应用 |
-| 数据标注 | Label Studio, CVAT | 数据标注 |
+| *Speech and Language Processing* | Jurafsky & Martin | NLP 權威教材（免費線上版） |
+| *Reinforcement Learning: An Introduction* | Sutton & Barto | RL 聖經 |
+| *Interpretable Machine Learning* | Christoph Molnar | XAI 可解釋性（免費線上版） |
 
-## 📄 必读论文
+---
 
-| 论文 | 关键词 | 年份 |
-|------|--------|------|
-| "Attention Is All You Need" | Transformer | 2017 |
-| "BERT: Pre-training of Deep Bidirectional Transformers" | BERT | 2018 |
-| "Language Models are Few-Shot Learners" | GPT-3 | 2020 |
-| "Training language models to follow instructions" | InstructGPT | 2022 |
-| "Denoising Diffusion Probabilistic Models" | Diffusion | 2020 |
-| "Generative Adversarial Nets" | GAN | 2014 |
-| "Deep Residual Learning for Image Recognition" | ResNet | 2015 |
-| "Playing Atari with Deep Reinforcement Learning" | DQN | 2013 |
+## 🎓 線上課程 Online Courses
 
-## 🌐 中文资源
+| 課程 | 平台 | 說明 |
+|------|------|------|
+| Machine Learning | Andrew Ng (Coursera) | ML 入門首選 |
+| Deep Learning Specialization | Andrew Ng (Coursera) | 深度學習五門課 |
+| Fast.ai Practical Deep Learning | fast.ai | 實戰導向的深度學習 |
+| Stanford CS224n: NLP with DL | Stanford Online | NLP 經典課程 |
+| Stanford CS231n: CNNs for Visual Recognition | Stanford Online | CV 經典課程 |
+| MIT 6.S191: Intro to Deep Learning | MIT | MIT 深度學習入門 |
+| Hugging Face NLP Course | Hugging Face | Transformers 實戰 |
+| Full Stack LLM Bootcamp | The Full Stack | LLM 全棧開發 |
 
-- **B站**：李沐《动手学深度学习》系列、3Blue1Brown 神经网络（中字）
-- **知乎**：关注话题「机器学习」「深度学习」「自然语言处理」
-- **微信公众号**：机器之心、量子位、新智元
-- **社区**：Hugging Face 中文社区、Datawhale
+---
 
-## 🎙️ 播客推荐
+## 🛠️ 核心框架 Core Frameworks
 
-| 播客 | 内容 |
+### 深度學習 Deep Learning
+
+| 框架 | 說明 |
 |------|------|
-| Lex Fridman Podcast | 深度访谈 AI 研究者 |
-| Machine Learning Street Talk | 学术讨论 + 前沿辩论 |
-| The Gradient Podcast | AI 研究者和论文作者访谈 |
-| Practical AI | AI 工程实践 |
+| [PyTorch](https://pytorch.org/) | 最流行的 DL 框架，研究首選 |
+| [TensorFlow/Keras](https://www.tensorflow.org/) | Google 的 DL 框架，生產環境成熟 |
+| [JAX](https://jax.readthedocs.io/) | Google 的高效能數值計算，TPU 友好 |
 
-## 🏗️ 练手项目思路
+### LLM 開發 LLM Development
 
-| 级别 | 项目 | 涉及领域 |
-|------|------|----------|
-| 入门 | 手写数字识别 (MNIST) | CV + 分类 |
-| 入门 | 电影评论情感分析 | NLP + 分类 |
-| 中级 | 图像风格迁移 | CV + GAN |
-| 中级 | RAG 文档问答系统 | NLP + LLM |
-| 进阶 | 用 RL 训练玩 Atari 游戏 | RL |
-| 进阶 | 从零实现 GPT-2 | LLM + 训练 |
+| 框架 | 說明 |
+|------|------|
+| [LangChain](https://www.langchain.com/) | LLM 應用框架 |
+| [LlamaIndex](https://www.llamaindex.ai/) | 資料框架，RAG 首選 |
+| [DSPy](https://dspy.ai/) | 宣告式 LLM 程式設計 |
+| [Hugging Face Transformers](https://huggingface.co/) | 預訓練模型庫 |
+| [Ollama](https://ollama.com/) | 本地 LLM 部署 |
+
+### MLOps
+
+| 工具 | 說明 |
+|------|------|
+| [MLflow](https://mlflow.org/) | ML 生命週期管理 |
+| [Weights & Biases](https://wandb.ai/) | 實驗追蹤 |
+| [DVC](https://dvc.org/) | 資料版本控制 |
+| [BentoML](https://www.bentoml.com/) | 模型服務化 |
+
+---
+
+## 📝 必讀論文 Must-Read Papers
+
+| 論文 | 作者/年份 | 說明 |
+|------|----------|------|
+| [*Attention Is All You Need*](https://arxiv.org/abs/1706.03762) | Vaswani et al., 2017 | Transformer 架構 |
+| [*Deep Residual Learning*](https://arxiv.org/abs/1512.03385) | He et al., 2015 | ResNet |
+| [*BERT*](https://arxiv.org/abs/1810.04805) | Devlin et al., 2018 | 預訓練 NLP |
+| [*Language Models are Few-Shot Learners* (GPT-3)](https://arxiv.org/abs/2005.14165) | Brown et al., 2020 | LLM 湧現能力 |
+| [*Training language models to follow instructions* (InstructGPT)](https://arxiv.org/abs/2203.02155) | Ouyang et al., 2022 | RLHF |
+| [*LoRA: Low-Rank Adaptation*](https://arxiv.org/abs/2106.09685) | Hu et al., 2021 | 高效 Fine-tuning |
+| [*Denoising Diffusion Probabilistic Models*](https://arxiv.org/abs/2006.11239) | Ho et al., 2020 | Diffusion Models |
+
+---
+
+## 🚀 練手專案 Hands-On Projects
+
+| 階段 | 專案 Idea |
+|------|----------|
+| **入門** | Iris 分類、MNIST 手寫數字、房價預測 |
+| **中階** | 訓練一個 CNN 分類器、Fine-tune BERT 做情感分析 |
+| **進階** | 構建 RAG QA 系統、訓練 RL agent 玩遊戲 |
+| **專業** | 從頭訓練小型 LLM、構建多 Agent 系統 |
+
+---
+
+## 🔗 相關模組 Related Modules
+
+- [[AI 常见问题]] — 常見誤解與 FAQ
+- [[AI 學習路徑]] — 學習路線圖
+- [[01-AI概述]] — AI 概述
