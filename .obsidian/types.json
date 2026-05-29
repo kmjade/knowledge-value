@@ -30,6 +30,7 @@
     "TQ_show_urgency": "checkbox",
     "updated": "date",
     "creation date": "text",
-    "TQ_show_toolbar": "checkbox"
+    "TQ_show_toolbar": "checkbox",
+    "classification": "text"
   }
 }

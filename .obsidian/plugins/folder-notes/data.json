@@ -80,7 +80,7 @@
   "excludeFolderDefaultSettings": {
     "type": "folder",
     "path": "",
-    "id": "7a6588d3-a2e4-4855-ac5b-b82bec82240f",
+    "id": "14a25d85-0d92-48bc-ae5d-42f589cf6f32",
     "subFolders": true,
     "disableSync": true,
     "disableAutoCreate": true,
@@ -96,7 +96,7 @@
   "excludePatternDefaultSettings": {
     "type": "pattern",
     "path": "",
-    "id": "ddb77724-89ae-421f-b5f1-14dd3bbf5f2a",
+    "id": "49a346f4-8844-4fff-800d-f33d7b13c7aa",
     "subFolders": true,
     "disableSync": true,
     "disableAutoCreate": true,
