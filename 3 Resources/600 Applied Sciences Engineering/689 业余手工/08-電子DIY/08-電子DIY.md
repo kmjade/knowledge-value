@@ -1,6 +1,10 @@
 ---
 title: 業餘電子DIY
-tags: [手工, 電子, DIY]
+ddc: 689
+udc: 621.38
+clc: TN-49
+lcc: TK9965
+tags: [手工, 電子, DIY, ddc/689, udc/621.38, clc/TN-49, lcc/TK9965]
 created: 2026-05-29
 ---
 
