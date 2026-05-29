@@ -166,10 +166,10 @@ Return answer (with citations)
 
 | 模組 | 關聯 |
 |------|------|
-| [[03-深度学习]] — Transformer 架構 | LLM 的技術基礎 |
-| [[04-自然语言处理]] — NLP 基礎 | LLM 的前身和演化 |
-| [[06-强化学习]] — RLHF | LLM 對齊的核心技術 |
-| [[08-AI伦理与安全]] — 安全與偏見 | LLM 治理 |
+| [[03-Deep Learning]] — Transformer 架構 | LLM 的技術基礎 |
+| [[04-Natural Language Processing]] — NLP 基礎 | LLM 的前身和演化 |
+| [[06-Reinforcement Learning]] — RLHF | LLM 對齊的核心技術 |
+| [[08-AI Ethics & Safety]] — 安全與偏見 | LLM 治理 |
 | [[3 Resources/000 Knowledge/005 Software/005 Software\|Software (DDC 005)]] — AI 輔助程式設計 | 軟體工程中的 LLM 應用 |
 
 ---

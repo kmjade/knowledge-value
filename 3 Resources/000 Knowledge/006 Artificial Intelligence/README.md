@@ -23,17 +23,17 @@ created: 2026-05-29
 |--------------|-----------|
 | 全部內容總覽 | [[AI 知識庫總覽]] |
 | 從零系統自學 | [[AI 學習路徑]] |
-| AI 是什麼 | [[01-AI概述]] |
-| 機器學習基礎 | [[02-机器学习]] |
-| 神經網路與深度學習 | [[03-深度学习]] |
-| 自然語言處理 (NLP) | [[04-自然语言处理]] |
-| 電腦視覺 (CV) | [[05-计算机视觉]] |
-| 強化學習 (RL) | [[06-强化学习]] |
-| 大模型與生成式 AI | [[07-生成式AI与大模型]] |
-| AI 倫理與安全 | [[08-AI伦理与安全]] |
-| 工程實踐與工具 | [[09-AI应用与工具]] |
-| 課程/書籍/論文 | [[AI 资源收集]] |
-| 破解常見誤解 | [[AI 常见问题]] |
+| AI 是什麼 | [[01-AI Overview]] |
+| 機器學習基礎 | [[02-Machine Learning]] |
+| 神經網路與深度學習 | [[03-Deep Learning]] |
+| 自然語言處理 (NLP) | [[04-Natural Language Processing]] |
+| 電腦視覺 (CV) | [[05-Computer Vision]] |
+| 強化學習 (RL) | [[06-Reinforcement Learning]] |
+| 大模型與生成式 AI | [[07-Generative AI & LLMs]] |
+| AI 倫理與安全 | [[08-AI Ethics & Safety]] |
+| 工程實踐與工具 | [[09-AI Applications & Tools]] |
+| 課程/書籍/論文 | [[AI Resources]] |
+| 破解常見誤解 | [[AI FAQ]] |
 
 ## 目錄結構 Directory Structure
 

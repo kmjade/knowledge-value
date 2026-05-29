@@ -92,11 +92,11 @@ aliases: [人工智能概述, 什麼是AI, AI入門, 01-AI]
 
 | 模組 Module | 關聯 |
 |------------|------|
-| [[02-机器学习]] — ML 的核心概念和演算法 | 機器學習基礎 |
-| [[03-深度学习]] — 神經網路的原理 | 深度學習深入 |
-| [[07-生成式AI与大模型]] — 21 世紀 AI 的旗艦應用 | GenAI 前沿 |
-| [[08-AI伦理与安全]] — AI 治理 | 倫理與安全 |
-| [[AI 常见问题]] — AI ≠ 人類思維 | 常見誤解 |
+| [[02-Machine Learning]] — ML 的核心概念和演算法 | 機器學習基礎 |
+| [[03-Deep Learning]] — 神經網路的原理 | 深度學習深入 |
+| [[07-Generative AI & LLMs]] — 21 世紀 AI 的旗艦應用 | GenAI 前沿 |
+| [[08-AI Ethics & Safety]] — AI 治理 | 倫理與安全 |
+| [[AI FAQ]] — AI ≠ 人類思維 | 常見誤解 |
 | [[3 Resources/000 Knowledge/005 Software/005 Software\|Software (DDC 005)]] — AI 輔助軟體開發 | 跨域應用 |
 
 ---

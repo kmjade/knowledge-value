@@ -122,9 +122,9 @@ aliases: [NLP, 自然語言處理]
 
 | 模組 | 關聯 |
 |------|------|
-| [[03-深度学习]] — Transformer 架構 | NLP 的核心技術 |
-| [[07-生成式AI与大模型]] — LLM | NLP 的終極應用 |
-| [[08-AI伦理与安全]] — 偏見與安全 | LLM 中的倫理問題 |
+| [[03-Deep Learning]] — Transformer 架構 | NLP 的核心技術 |
+| [[07-Generative AI & LLMs]] — LLM | NLP 的終極應用 |
+| [[08-AI Ethics & Safety]] — 偏見與安全 | LLM 中的倫理問題 |
 
 ---
 

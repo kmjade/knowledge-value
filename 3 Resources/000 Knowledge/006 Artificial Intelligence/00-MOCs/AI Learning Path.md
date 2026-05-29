@@ -31,9 +31,9 @@ Phase 1            Phase 2             Phase 3              Phase 4
 
 | 順序 | 模組 Module | 學習重點 Focus | 預計時間 |
 |------|------------|---------------|---------|
-| 1.1 | [[01-AI概述]] | What is AI? ANI/AGI/ASI, three paradigms, AI history | 3–5 hrs |
-| 1.2 | [[AI 常见问题]] | 破除常見誤解：AI ≠ 人類思維、LLM 不是全知 | 1–2 hrs |
-| 1.3 | [[08-AI伦理与安全]] (skim) | AI 偏見、對齊問題的基本概念 | 2–3 hrs |
+| 1.1 | [[01-AI Overview]] | What is AI? ANI/AGI/ASI, three paradigms, AI history | 3–5 hrs |
+| 1.2 | [[AI FAQ]] | 破除常見誤解：AI ≠ 人類思維、LLM 不是全知 | 1–2 hrs |
+| 1.3 | [[08-AI Ethics & Safety]] (skim) | AI 偏見、對齊問題的基本概念 | 2–3 hrs |
 
 **檢驗 Checkpoint**: 能用自己的話解釋 AI/ML/DL 的區別，能說出 AI 發展的三個範式。
 
@@ -45,9 +45,9 @@ Phase 1            Phase 2             Phase 3              Phase 4
 
 | 順序 | 模組 Module | 學習重點 Focus | 預計時間 |
 |------|------------|---------------|---------|
-| 2.1 | [[02-机器学习]] | 監督/非監督/強化學習、經典演算法（LR/SVM/RF/XGBoost） | 10–15 hrs |
-| 2.2 | [[03-深度学习]] | MLP、CNN、RNN、Transformer、訓練技巧 | 12–18 hrs |
-| 2.3 | [[09-AI应用与工具]] (partial) | Jupyter、PyTorch/TensorFlow 基礎、實驗管理 | 5–8 hrs |
+| 2.1 | [[02-Machine Learning]] | 監督/非監督/強化學習、經典演算法（LR/SVM/RF/XGBoost） | 10–15 hrs |
+| 2.2 | [[03-Deep Learning]] | MLP、CNN、RNN、Transformer、訓練技巧 | 12–18 hrs |
+| 2.3 | [[09-AI Applications & Tools]] (partial) | Jupyter、PyTorch/TensorFlow 基礎、實驗管理 | 5–8 hrs |
 
 **檢驗 Checkpoint**: 能用 PyTorch 訓練一個 CNN 做影像分類，能用 scikit-learn 完成特徵工程 + 模型訓練 + 評估。
 
@@ -61,23 +61,23 @@ Phase 1            Phase 2             Phase 3              Phase 4
 
 | 順序 | 模組 Module | 學習重點 Focus |
 |------|------------|---------------|
-| A.1 | [[04-自然语言处理]] | NLP 五個時代、核心任務、BERT vs GPT |
-| A.2 | [[07-生成式AI与大模型]] | LLM、Prompt Engineering、RAG、AI Agent |
+| A.1 | [[04-Natural Language Processing]] | NLP 五個時代、核心任務、BERT vs GPT |
+| A.2 | [[07-Generative AI & LLMs]] | LLM、Prompt Engineering、RAG、AI Agent |
 | A.3 | Practice | 構建一個 RAG 應用 |
 
 ### Track B: CV 路線
 
 | 順序 | 模組 Module | 學習重點 Focus |
 |------|------------|---------------|
-| B.1 | [[05-计算机视觉]] | CNN 骨幹演進、YOLO、ViT、Diffusion |
+| B.1 | [[05-Computer Vision]] | CNN 骨幹演進、YOLO、ViT、Diffusion |
 | B.2 | Practice | 訓練物件檢測模型、Fine-tune 影像生成模型 |
 
 ### Track C: RL + Agent 路線
 
 | 順序 | 模組 Module | 學習重點 Focus |
 |------|------------|---------------|
-| C.1 | [[06-强化学习]] | Q-Learning、Policy Gradient、PPO、RLHF |
-| C.2 | [[07-生成式AI与大模型]] (Agent section) | AI Agent 架構、工具調用、多步推理 |
+| C.1 | [[06-Reinforcement Learning]] | Q-Learning、Policy Gradient、PPO、RLHF |
+| C.2 | [[07-Generative AI & LLMs]] (Agent section) | AI Agent 架構、工具調用、多步推理 |
 | C.3 | Practice | 構建一個簡單的 RL 環境或 AI Agent |
 
 **檢驗 Checkpoint**: 能在選定領域獨立完成一個中等複雜度的專案。
@@ -111,7 +111,7 @@ Phase 1            Phase 2             Phase 3              Phase 4
 | 🛠️ 實踐 | Kaggle competitions | Phase 2+ |
 | 🛠️ 實踐 | Hugging Face — build and share models | Phase 3+ |
 
-完整資源清單見 [[AI 资源收集]]。
+完整資源清單見 [[AI Resources]]。
 
 ---
 

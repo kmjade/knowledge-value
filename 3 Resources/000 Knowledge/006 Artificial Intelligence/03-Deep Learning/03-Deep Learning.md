@@ -115,7 +115,7 @@ Input → [Conv → ReLU → Pool] × N → FC → Output
 | **Pooling** | 降採樣，增加平移不變性 |
 | **Fully Connected** | 高層語義推理 |
 
-詳見 [[05-计算机视觉]]。
+詳見 [[05-Computer Vision]]。
 
 ### RNN / LSTM / GRU
 
@@ -145,7 +145,7 @@ Input → [Self-Attention → FFN] × N → Output
 | **Layer Normalization** | 穩定訓練 |
 | **Residual Connection** | 梯度流動，支援深層網路 |
 
-詳見 [[07-生成式AI与大模型]]。
+詳見 [[07-Generative AI & LLMs]]。
 
 ---
 
@@ -165,10 +165,10 @@ Input → [Self-Attention → FFN] × N → Output
 
 | 模組 | 關聯 |
 |------|------|
-| [[02-机器学习]] — ML 基礎 | 深度學習的理論根基 |
-| [[04-自然语言处理]] — NLP | Transformer 的核心應用 |
-| [[05-计算机视觉]] — CV | CNN 與 ViT 的核心應用 |
-| [[07-生成式AI与大模型]] — LLM | Transformer 的終極應用 |
+| [[02-Machine Learning]] — ML 基礎 | 深度學習的理論根基 |
+| [[04-Natural Language Processing]] — NLP | Transformer 的核心應用 |
+| [[05-Computer Vision]] — CV | CNN 與 ViT 的核心應用 |
+| [[07-Generative AI & LLMs]] — LLM | Transformer 的終極應用 |
 
 ---
 

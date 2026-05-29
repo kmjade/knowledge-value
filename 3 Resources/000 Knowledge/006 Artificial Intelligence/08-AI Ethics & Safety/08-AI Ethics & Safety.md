@@ -119,8 +119,8 @@ aliases: [AI倫理, AI安全, 負責任AI, Responsible AI]
 
 | 模組 | 關聯 |
 |------|------|
-| [[06-强化学习]] — RLHF、DPO | AI 對齊的核心技術 |
-| [[07-生成式AI与大模型]] — LLM 偏見 | 大模型的倫理挑戰 |
+| [[06-Reinforcement Learning]] — RLHF、DPO | AI 對齊的核心技術 |
+| [[07-Generative AI & LLMs]] — LLM 偏見 | 大模型的倫理挑戰 |
 | [[3 Resources/000 Knowledge/005 Software/005 Software\|Software (DDC 005)]] — 開源許可證 | 軟體自由與 AI 開源的交叉 |
 
 ---

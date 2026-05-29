@@ -149,9 +149,9 @@ User → Gateway (rate-limit/auth) → Orchestration (LangChain/DSPy)
 
 | 模組 | 關聯 |
 |------|------|
-| [[02-机器学习]] — ML 專案流程 | ML 生命週期 |
-| [[07-生成式AI与大模型]] — LLM 應用設計 | LLM 工程實踐 |
-| [[AI 资源收集]] — 框架和工具的教程 | 工具資源 |
+| [[02-Machine Learning]] — ML 專案流程 | ML 生命週期 |
+| [[07-Generative AI & LLMs]] — LLM 應用設計 | LLM 工程實踐 |
+| [[AI Resources]] — 框架和工具的教程 | 工具資源 |
 | [[3 Resources/000 Knowledge/005 Software/005 Software\|Software (DDC 005)]] — DevOps / CI/CD | 軟體工程實踐 |
 
 ---

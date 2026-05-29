@@ -134,9 +134,9 @@ Reverse: Pure Noise → (denoise step by step) → Image
 
 | 模組 | 關聯 |
 |------|------|
-| [[03-深度学习]] — CNN / ViT 架構 | CV 的核心技術 |
-| [[07-生成式AI与大模型]] — 多模態模型 | 影像生成的 LLM 時代 |
-| [[08-AI伦理与安全]] — 偏見、深度偽造 | CV 的倫理問題 |
+| [[03-Deep Learning]] — CNN / ViT 架構 | CV 的核心技術 |
+| [[07-Generative AI & LLMs]] — 多模態模型 | 影像生成的 LLM 時代 |
+| [[08-AI Ethics & Safety]] — 偏見、深度偽造 | CV 的倫理問題 |
 
 ---
 

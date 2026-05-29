@@ -40,25 +40,25 @@ aliases: [AI Overview, AI Knowledge Base Map, AI 全景地圖]
 
 | 模組 Module | 核心問題 Core Question | 關鍵概念 Key Concepts |
 |-------------|----------------------|----------------------|
-| [[01-AI概述]] | What is AI and where did it come from? | ANI/AGI/ASI, 三大範式, AI 簡史 |
-| [[02-机器学习]] | How do machines learn from data? | 監督/非監督/強化學習, 經典演算法, 特徵工程 |
-| [[03-深度学习]] | How do neural networks work? | MLP, CNN, RNN, Transformer, 反向傳播 |
+| [[01-AI Overview]] | What is AI and where did it come from? | ANI/AGI/ASI, 三大範式, AI 簡史 |
+| [[02-Machine Learning]] | How do machines learn from data? | 監督/非監督/強化學習, 經典演算法, 特徵工程 |
+| [[03-Deep Learning]] | How do neural networks work? | MLP, CNN, RNN, Transformer, 反向傳播 |
 
 ### 2. 應用領域 Domains
 
 | 模組 Module | 核心問題 Core Question | 關鍵概念 Key Concepts |
 |-------------|----------------------|----------------------|
-| [[04-自然语言处理]] | How do machines understand language? | NLP 五個時代, BERT vs GPT, 核心任務 |
-| [[05-计算机视觉]] | How do machines see? | CNN 骨幹, YOLO, ViT, Diffusion |
-| [[06-强化学习]] | How do agents learn from interaction? | Q-Learning, PPO, RLHF |
-| [[07-生成式AI与大模型]] | How does Generative AI work? | LLM, Prompt Engineering, RAG, AI Agent |
+| [[04-Natural Language Processing]] | How do machines understand language? | NLP 五個時代, BERT vs GPT, 核心任務 |
+| [[05-Computer Vision]] | How do machines see? | CNN 骨幹, YOLO, ViT, Diffusion |
+| [[06-Reinforcement Learning]] | How do agents learn from interaction? | Q-Learning, PPO, RLHF |
+| [[07-Generative AI & LLMs]] | How does Generative AI work? | LLM, Prompt Engineering, RAG, AI Agent |
 
 ### 3. 工程實踐 Practice
 
 | 模組 Module | 核心問題 Core Question | 關鍵概念 Key Concepts |
 |-------------|----------------------|----------------------|
-| [[08-AI伦理与安全]] | How do we make AI safe and fair? | 偏見, 對齊 (RLHF/DPO), 隱私, 監管 |
-| [[09-AI应用与工具]] | How do we deploy AI in production? | MLOps, 模型部署, 成本最佳化 |
+| [[08-AI Ethics & Safety]] | How do we make AI safe and fair? | 偏見, 對齊 (RLHF/DPO), 隱私, 監管 |
+| [[09-AI Applications & Tools]] | How do we deploy AI in production? | MLOps, 模型部署, 成本最佳化 |
 
 ---
 

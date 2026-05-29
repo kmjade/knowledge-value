@@ -137,9 +137,9 @@ aliases: [AI 常見問題, AI FAQ]
 
 ## 相關模組 Related Modules
 
-- [[AI 资源收集]] — 學習資源與工具
-- [[01-AI概述]] — 從基礎了解 AI
-- [[08-AI伦理与安全]] — AI 的倫理與風險管理
+- [[AI Resources]] — 學習資源與工具
+- [[01-AI Overview]] — 從基礎了解 AI
+- [[08-AI Ethics & Safety]] — AI 的倫理與風險管理
 
 ---
 

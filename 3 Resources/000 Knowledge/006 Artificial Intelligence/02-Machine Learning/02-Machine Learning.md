@@ -112,9 +112,9 @@ Raw Data → Feature Engineering → Model Training → Evaluation → Deploymen
 
 | 模組 | 關聯 |
 |------|------|
-| [[03-深度学习]] — 神經網路方法深入 | ML 的進階延伸 |
-| [[06-强化学习]] — 第三種 ML 範式 | 強化學習詳解 |
-| [[09-AI应用与工具]] — MLOps 實務 | 模型部署與管理 |
+| [[03-Deep Learning]] — 神經網路方法深入 | ML 的進階延伸 |
+| [[06-Reinforcement Learning]] — 第三種 ML 範式 | 強化學習詳解 |
+| [[09-AI Applications & Tools]] — MLOps 實務 | 模型部署與管理 |
 | [[3 Resources/000 Knowledge/005 Software/005 Software\|Software (DDC 005)]] — ML 工程實踐 | Python 生態、測試策略 |
 
 ---

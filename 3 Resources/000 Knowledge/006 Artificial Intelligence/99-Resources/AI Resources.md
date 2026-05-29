@@ -115,6 +115,6 @@ aliases: [AI 資源收集, AI Resources]
 
 ## 🔗 相關模組 Related Modules
 
-- [[AI 常见问题]] — 常見誤解與 FAQ
+- [[AI FAQ]] — 常見誤解與 FAQ
 - [[AI 學習路徑]] — 學習路線圖
-- [[01-AI概述]] — AI 概述
+- [[01-AI Overview]] — AI 概述

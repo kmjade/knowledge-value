@@ -140,10 +140,10 @@ Step 3: PPO Optimization
 
 | 模組 | 關聯 |
 |------|------|
-| [[02-机器学习]] — 第三種 ML 範式 | RL 的理論基礎 |
-| [[03-深度学习]] — DQN/PPO 使用神經網路 | 深度 RL |
-| [[07-生成式AI与大模型]] — RLHF | LLM 對齊的核心技術 |
-| [[08-AI伦理与安全]] — AI 對齊 | RL 在安全中的應用 |
+| [[02-Machine Learning]] — 第三種 ML 範式 | RL 的理論基礎 |
+| [[03-Deep Learning]] — DQN/PPO 使用神經網路 | 深度 RL |
+| [[07-Generative AI & LLMs]] — RLHF | LLM 對齊的核心技術 |
+| [[08-AI Ethics & Safety]] — AI 對齊 | RL 在安全中的應用 |
 
 ---
 
