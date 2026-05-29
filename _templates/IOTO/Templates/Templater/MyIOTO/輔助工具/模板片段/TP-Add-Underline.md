@@ -1,1 +1,0 @@
-<%* if(tp.file.selection()) { _%><u><% tp.file.selection() %></u><%* } else { -%><u><% tp.file.cursor(0) %></u><%* } _%>
