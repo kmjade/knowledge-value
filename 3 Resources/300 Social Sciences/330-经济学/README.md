@@ -27,7 +27,7 @@ created: 2026-05-28
 - [[../300 Social Sciences|DDC 300 Social Sciences]] → DDC 330 经济学
 - 个人实践: [[3 Resources/finance/\|finance/]] (29 文件) · [[3 Resources/03-Productivity/MetaTrader/\|MetaTrader]]
 - 方法基础: [[../310-统计学/README\|DDC 310 统计学]] · [[../320-政治学/README\|DDC 320 政治学]]
-- 伦理基础: [[3 Resources/100 Philosophy. Psychology/170-伦理学/README\|DDC 170 伦理学]] (分配正义)
+- 伦理基础: [[3 Resources/100 Philosophy & Psychology/170-伦理学/README\|DDC 170 伦理学]] (分配正义)
 
 ## 📅 更新日志
 

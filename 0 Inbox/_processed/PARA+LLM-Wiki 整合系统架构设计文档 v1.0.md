@@ -822,7 +822,7 @@ type: source
 #### people
 | 属性 | 值 |
 |------|------|
-| Schema | [[3 Resources/people/CLAUDE.md]] |
+| Schema | [[0 Inbox/people/CLAUDE]] |
 | 状态 | 🟡 规划中 |
 | 核心概念域 | 人物类型, 关系维度, 互动记录 |
 | 实体类型 | 个人, 组织, 关系 |
@@ -1287,7 +1287,7 @@ para:     PARA 同步     para: sync daily changes
 - [[CLAUDE.md]] - 系统宪法
 - [[3 Resources/_META-INDEX.md]] - 知识导航
 - [[3 Resources/ai-ml/CLAUDE.md]] - AI/ML 子库 Schema
-- [[3 Resources/people/CLAUDE.md]] - People 子库 Schema
+- [[0 Inbox/people/CLAUDE]] - People 子库 Schema
 - [[3 Resources/finance/CLAUDE.md]] - Finance 子库 Schema
 - [[3 Resources/productivity/CLAUDE.md]] - Productivity 子库 Schema
 - [[AI-Log/implementation-report-2026-05-26.md]] - 实施报告

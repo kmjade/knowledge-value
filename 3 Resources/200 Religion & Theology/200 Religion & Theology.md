@@ -14,7 +14,7 @@ tags:
   - ddc-200
 ---
 
-# RELIGION. THEOLOGY / 宗教、神學
+# RELIGION & THEOLOGY / 宗教、神學
 
 > [!info] DDC Class 2 · Religion
 > 宗教信仰、神学体系、经典文献、宗派比较与实践仪轨。
@@ -81,14 +81,14 @@ tags:
 
 | 我想... | 去这里 |
 |---------|--------|
-| 📖 **研读道家/老庄哲学** | [[3 Resources/100 Philosophy. Psychology/180-东方哲学/道家哲学/README\|DDC 180 道家哲学]] (14 文件) |
-| 📜 **研读儒家/孔孟哲学** | [[3 Resources/100 Philosophy. Psychology/180-东方哲学/儒家哲学/README\|DDC 180 儒家哲学]] (14 文件) |
-| 🔮 **研读易经** | [[3 Resources/100 Philosophy. Psychology/180-东方哲学 1/易经/README\|DDC 180 易经]] (92 文件) |
-| 🧘 **了解佛教** | [[290-其他宗教/05-佛教/05-佛教\|DDC 290 佛教(宗教)]] (哲学维度: [[3 Resources/100 Philosophy. Psychology/180-东方哲学/佛学/佛学\|DDC 180 佛学]]) |
+| 📖 **研读道家/老庄哲学** | [[3 Resources/100 Philosophy & Psychology/180-东方哲学/道家哲学/README\|DDC 180 道家哲学]] (14 文件) |
+| 📜 **研读儒家/孔孟哲学** | [[3 Resources/100 Philosophy & Psychology/180-东方哲学/儒家哲学/README\|DDC 180 儒家哲学]] (14 文件) |
+| 🔮 **研读易经** | [[3 Resources/100 Philosophy & Psychology/180-东方哲学/易经/README\|DDC 180 易经]] (92 文件) |
+| 🧘 **了解佛教** | [[290-其他宗教/05-佛教/05-佛教\|DDC 290 佛教(宗教)]] (哲学维度: [[佛学\|DDC 180 佛学]]) |
 | ✝️ **研究基督教神学** | [[230-基督教神学/README\|DDC 230-280]] — 全部已建设 |
 | ☪️ **了解伊斯兰教** | [[290-其他宗教/03-伊斯兰教/03-伊斯兰教\|DDC 290 伊斯兰教]] |
 | ⚖️ **比较各宗教** | [[290-其他宗教/README\|DDC 290 比较宗教学]] (14文件) |
-| 🤔 **思辨信仰与理性** | DDC 210 宗教哲学 — 待建设 (关联: [[3 Resources/100 Philosophy. Psychology/110-形而上学/README\|DDC 110 形而上学]]) |
+| 🤔 **思辨信仰与理性** | DDC 210 宗教哲学 — 待建设 (关联: [[3 Resources/100 Philosophy & Psychology/110-形而上学/README\|DDC 110 形而上学]]) |
 
 ---
 
@@ -122,10 +122,10 @@ DDC 在组织东方传统时有一个关键区分：
 
 | 知识库                                                                        | 关系                                    |
 | -------------------------------------------------------------------------- | ------------------------------------- |
-| [[3 Resources/100 Philosophy. Psychology/180-东方哲学 1/README\|DDC 180 东方哲学]] | 东方宗教的哲学维度（道家 14 文件、儒家 14 文件、易经 92 文件） |
-| [[3 Resources/100 Philosophy. Psychology/110-形而上学/README\|DDC 110 形而上学]]   | 上帝存在、自由意志、灵魂——哲学与神学的交叉议题              |
-| [[3 Resources/100 Philosophy. Psychology/170-伦理学/README\|DDC 170 伦理学]]     | 宗教伦理学：神圣命令理论、自然法                      |
-| [[100 Philosophy. Psychology\|DDC 100 哲学]]                                 | 父级学科大门                                |
+| [[3 Resources/100 Philosophy & Psychology/180-东方哲学 1/README\|DDC 180 东方哲学]] | 东方宗教的哲学维度（道家 14 文件、儒家 14 文件、易经 92 文件） |
+| [[3 Resources/100 Philosophy & Psychology/110-形而上学/README\|DDC 110 形而上学]]   | 上帝存在、自由意志、灵魂——哲学与神学的交叉议题              |
+| [[3 Resources/100 Philosophy & Psychology/170-伦理学/README\|DDC 170 伦理学]]     | 宗教伦理学：神圣命令理论、自然法                      |
+| [[100 Philosophy & Psychology\|DDC 100 哲学]]                                 | 父级学科大门                                |
 
 ---
 

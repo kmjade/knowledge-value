@@ -198,4 +198,4 @@ type: concept
 - [[2 Areas/05-Learning]]
 - [[3 Resources]]
 - [[4 Archives]]
-- [[3 Resources/03-Productivity/Methods/0 Inbox]]
+- [[0 Inbox/03-Productivity/Methods/0 Inbox]]

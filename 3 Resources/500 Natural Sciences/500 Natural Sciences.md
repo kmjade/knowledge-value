@@ -119,7 +119,7 @@ tags:
 | 知识库                                                                               | 关系                   |
 | --------------------------------------------------------------------------------- | -------------------- |
 | [[600 Applied Sciences\|DDC 600 应用科学]]                                            | 下游：科学→技术→工程 (207 文件) |
-| [[3 Resources/100 Philosophy. Psychology/100 Philosophy. Psychology\|DDC 100 哲学]] | 科学哲学·认识论             |
+| [[100 Philosophy & Psychology\|DDC 100 哲学]] | 科学哲学·认识论             |
 | [[3 Resources/000 Knowledge/000 Knowledge\|DDC 001 知识组织]]                         | 科学分类法                |
 
 ---

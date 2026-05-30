@@ -1,41 +1,45 @@
 ---
-title: 图书情报学
-aliases: [LIS, DDC 030]
+title: 圖書情報學
+aliases: [Library & Information Science, LIS, DDC 030]
 created: 2026-05-28
+updated: 2026-05-30
 tags: [lis, ddc-030, knowledge, resources]
+version: "1.1"
 ---
 
-# 图书情报学 — LIS (DDC 030)
+# 圖書情報學 — Library & Information Science (DDC 030)
 
 > [!info] DDC 030
-> Library & Information Science——图书馆·信息检索·信息服务
+> 圖書館學·資訊檢索·資訊服務——人類知識的公共管理
 
-## 📊 知识库概览
+## 📊 知識庫概覽
 
-| 指标 | 数值 |
+| 指標 | 數值 |
 |------|------|
-| 总文件 | 11 |
-| 核心章节 | 9 |
-| 状态 | 🟢 活跃 |
+| 總文件 | 11 |
+| 核心章節 | 9 |
+| 狀態 | 🟢 活躍 |
 
-## 🗂️ 章节目录
+## 🗂️ 章節目錄
 
-|  #  | 章节                                                                 | 核心  |
-| :-: | ------------------------------------------------------------------ | --- |
-|  1  | [[01-LIS-Overview/01-LIS-Overview\|01 概述]]                         |     |
-|  2  | [[02-Science-Epistemology/02-Science-Epistemology\|02 科学学]]        |     |
-|  3  | [[03-Knowledge-Organization/03-Knowledge-Organization\|03 知识组织]]   |     |
-|  4  | [[04-Information-Retrieval/04-Information-Retrieval\|04 检索]]       |     |
-|  5  | [[05-Information-Services/05-Information-Services\|05 服务]]         |     |
-|  6  | [[06-Digital-Libraries/06-Digital-Libraries\|06 数字图书馆]]            |     |
-|  7  | [[07-Information-Literacy/07-Information-Literacy\|07 素养]]         |     |
-|  8  | [[08-Information-Ethics/08-Information-Ethics\|08 伦理]]             |     |
-|  9  | [[09-Information-Institutions/09-Information-Institutions\|09 机构]] |     |
+| # | 章節 | 核心 |
+|:--:|------|------|
+| 1 | [[01-LIS-Overview-LIS概述/01-LIS-Overview-LIS概述\|01 概述]] | 學科定位與範圍 |
+| 2 | [[02-Science-of-Science/02-Science-of-Science\|02 科學學]] | 科學學與知識論 |
+| 3 | [[03-Knowledge-Organization/03-Knowledge-Organization\|03 知識組織]] | 分類·編目·元數據 |
+| 4 | [[04-Information-Retrieval/04-Information-Retrieval\|04 資訊檢索]] | 檢索模型·系統·評估 |
+| 5 | [[05-Information-Services/05-Information-Services\|05 資訊服務]] | 參考諮詢·用戶服務 |
+| 6 | [[06-Digital-Libraries/06-Digital-Libraries\|06 數位圖書館]] | 數位館藏·長期保存 |
+| 7 | [[07-Information-Literacy/07-Information-Literacy\|07 資訊素養]] | 資訊素養教育 |
+| 8 | [[08-Information-Ethics/08-Information-Ethics\|08 資訊倫理]] | 智慧財產·開放獲取 |
+| 9 | [[09-Information-Institutions/09-Information-Institutions\|09 資訊機構]] | 圖書館·檔案館·博物館 |
 
-## 🔗 跨库连接
+## 🔗 跨庫連接
 
-- [[../000 Knowledge.md|DDC 000 知识总论]]
+- [[../000 Knowledge.md|DDC 000 知識總論]]
+- [[../020-Knowledge-Organization/020-Knowledge-Organization|DDC 020 知識組織]]
+- [[../050-Classification-Metadata/050-Classification-Metadata|DDC 050 分類法與元數據]]
 
 ---
 
-*分类: 3 Resources/000 Knowledge/030-图书情报学 · DDC: 030*
+*分類: 3 Resources/000 Knowledge/030-圖書情報學 · DDC: 030 · v1.1*

@@ -133,12 +133,12 @@ DDC 500 自然科学
 
 | 知识库 | 关系 |
 |--------|------|
-| [[3 Resources/100 Philosophy. Psychology/170-伦理学/README\|DDC 170 伦理学]] | 政治哲学·法哲学·社会正义 |
-| [[3 Resources/100 Philosophy. Psychology/150 心理学/README\|DDC 150 心理学]] | 社会心理学·消费者行为·教育心理 |
+| [[3 Resources/100 Philosophy & Psychology/170-伦理学/README\|DDC 170 伦理学]] | 政治哲学·法哲学·社会正义 |
+| [[3 Resources/100 Philosophy & Psychology/150 心理学/README\|DDC 150 心理学]] | 社会心理学·消费者行为·教育心理 |
 | [[3 Resources/500 Natural Sciences/510-Mathematics/README\|DDC 510 数学]] | 统计与计量方法 |
 | [[3 Resources/finance/\|finance/]] | 个人金融——经济学的微观实践 |
 | [[3 Resources/02-Learning/\|02-Learning]] | 教育实践——学习方法 |
-| [[3 Resources/100 Philosophy. Psychology/180-东方哲学/儒家哲学/06-儒家政治伦理/06-儒家政治伦理\|儒家政治伦理 (DDC 180)]] | 东方政治哲学 |
+| [[06-儒家政治伦理\|儒家政治伦理 (DDC 180)]] | 东方政治哲学 |
 
 ---
 

@@ -25,9 +25,9 @@ created: 2026-05-28
 ## 隶属
 
 - [[../300 Social Sciences|DDC 300 Social Sciences]] → DDC 340 法律学
-- 哲学基础: [[3 Resources/100 Philosophy. Psychology/170-伦理学/README\|DDC 170 伦理学]]
+- 哲学基础: [[3 Resources/100 Philosophy & Psychology/170-伦理学/README\|DDC 170 伦理学]]
 - 实践关联: [[../320-政治学/README\|DDC 320 政治学]] (宪法) · [[../330-经济学/README\|DDC 330 经济学]] (法律与经济)
-- 社会关联: [[../360-社会问题/README\|DDC 360 社会问题]] · [[3 Resources/100 Philosophy. Psychology/180-东方哲学/儒家哲学/06-儒家政治伦理/06-儒家政治伦理\|儒家政治伦理 (DDC 180)]]
+- 社会关联: [[../360-社会问题/README\|DDC 360 社会问题]] · [[06-儒家政治伦理\|儒家政治伦理 (DDC 180)]]
 
 ## 📅 更新日志
 

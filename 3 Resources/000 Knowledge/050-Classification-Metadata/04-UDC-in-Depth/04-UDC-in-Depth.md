@@ -100,13 +100,13 @@ UDC 最偉大的創新：用符號讓類號可以**組合**。
 
 | 資源 | 說明 | 位置 |
 |------|------|------|
-| [[3 Resources/000 Knowledge/ram/UDC-国际十进分类法/00-MOCs/UDC 知识库总览\|UDC 知識庫總覽]] | 完整 UDC 知識庫入口 | `ram/UDC-国际十进分类法/` |
-| [[3 Resources/000 Knowledge/ram/UDC-国际十进分类法/01-UDC概述/01-UDC概述\|UDC 概述]] | Otlet 生平、符號哲學 | `ram/UDC-国际十进分类法/01-UDC概述/` |
-| [[3 Resources/000 Knowledge/ram/UDC-国际十进分类法/00-MOCs/UDC 学习路径\|UDC 學習路徑]] | 三步入門指南 | `ram/UDC-国际十进分类法/00-MOCs/` |
+| [[UDC 知识库总览\|UDC 知識庫總覽]] | 完整 UDC 知識庫入口 | `ram/UDC-国际十进分类法/` |
+| [[01-UDC概述\|UDC 概述]] | Otlet 生平、符號哲學 | `ram/UDC-国际十进分类法/01-UDC概述/` |
+| [[UDC 学习路径\|UDC 學習路徑]] | 三步入門指南 | `ram/UDC-国际十进分类法/00-MOCs/` |
 | [[3 Resources/000 Knowledge/ram/articles/DDC-UDC对比表\|DDC vs UDC 對比表]] | 繁簡英三語全面對比 | `ram/articles/` |
-| [[3 Resources/000 Knowledge/ram/UDC-国际十进分类法/04-UDC6详解/04-UDC6详解\|UDC 6 應用科學詳解]] | 600-699 類深度展開 | `ram/UDC-国际十进分类法/04-UDC6详解/` |
+| [[04-UDC6详解\|UDC 6 應用科學詳解]] | 600-699 類深度展開 | `ram/UDC-国际十进分类法/04-UDC6详解/` |
 | [[3 Resources/000 Knowledge/wiki/entities/UDC\|UDC 實體]] | Wiki 知識庫實體定義 | `wiki/entities/` |
-| [[3 Resources/05-Reference/📰 参考资料/UDC/UDC 知識庫\|UDC 參考資料]] | 各類目展開參考 | `05-Reference/UDC/` |
+| [[UDC 知識庫\|UDC 參考資料]] | 各類目展開參考 | `05-Reference/UDC/` |
 
 ---
 

@@ -1,41 +1,46 @@
 ---
-title: 知识组织系统
+title: 知識組織系統
 aliases: [KOS, DDC 020]
 created: 2026-05-28
+updated: 2026-05-30
 tags: [kos, ddc-020, knowledge, resources]
+version: "1.1"
 ---
 
-# 知识组织系统 — KOS (DDC 020)
+# 知識組織系統 — KOS (DDC 020)
 
 > [!info] DDC 020
-> Knowledge Organization Systems——分类法·叙词表·本体·知识图谱
+> Knowledge Organization Systems——分類法·敘詞表·本體·知識圖譜
 
-## 📊 知识库概览
+## 📊 知識庫概覽
 
-| 指标 | 数值 |
+| 指標 | 數值 |
 |------|------|
-| 总文件 | 11 |
-| 核心章节 | 9 |
-| 状态 | 🟢 活跃 |
+| 總文件 | 11 |
+| 核心章節 | 9 |
+| 狀態 | 🟢 活躍 |
 
-## 🗂️ 章节目录
+## 🗂️ 章節目錄
 
-| # | 章节 | 核心 |
+| # | 章節 | 核心 |
 |:--:|------|------|
-| 1 | [[01-KOS-Overview/01-KOS-Overview\|01 概述]] |
-| 2 | [[02-Classification/02-Classification\|02 分类法]] |
-| 3 | [[03-Thesauri/03-Thesauri\|03 叙词表]] |
-| 4 | [[04-Ontologies/04-Ontologies\|04 本体]] |
-| 5 | [[05-Knowledge-Graphs/05-Knowledge-Graphs\|05 知识图谱]] |
-| 6 | [[06-Linked-Data/06-Linked-Data\|06 关联数据]] |
-| 7 | [[07-Knowledge-Management/07-Knowledge-Management\|07 知识管理]] |
-| 8 | [[08-AI-Knowledge-Systems/08-AI-Knowledge-Systems\|08 AI+知识]] |
-| 9 | [[09-Personal-KM/09-Personal-KM\|09 PKM]] |
+| 1 | [[01-KOS-Overview/01-KOS-Overview\|01 概述]] | KOS 譜系與 DIKW |
+| 2 | [[02-Classification/02-Classification\|02 分類法]] | 樹狀層級體系 |
+| 3 | [[03-Thesaurus/03-Thesaurus\|03 敘詞表]] | 圖狀多維度詞表 |
+| 4 | [[04-Ontology/04-Ontology\|04 本體]] | 邏輯推理層 |
+| 5 | [[05-Knowledge-Graph/05-Knowledge-Graph\|05 知識圖譜]] | 工業級實現 |
+| 6 | [[06-Linked-Data/06-Linked-Data\|06 關聯數據]] | Web 化發布 |
+| 7 | [[07-Knowledge-Management/07-Knowledge-Management\|07 知識管理]] | SECI 與實踐社區 |
+| 8 | [[08-AI-and-Knowledge-Systems/08-AI-and-Knowledge-Systems\|08 AI+知識]] | LLM + KG = RAG |
+| 9 | [[09-Personal-KM/09-Personal-KM\|09 PKM]] | Zettelkasten·PARA·Obsidian |
 
-## 🔗 跨库连接
+## 🔗 跨庫連接
 
-- [[../000 Knowledge.md|DDC 000 知识总论]]
+- [[../000 Knowledge.md|DDC 000 知識總論]]
+- [[../050-Classification-Metadata/050-Classification-Metadata|DDC 050 分類法與元數據]]
+- [[../070-Digital-Knowledge/070-Digital-Knowledge|DDC 070 數字知識系統]]
+- [[../wiki/index|Wiki 知識索引]]
 
 ---
 
-*分类: 3 Resources/000 Knowledge/020-知识组织系统 · DDC: 020*
+*分類: 3 Resources/000 Knowledge/020-知識組織 · DDC: 020 · v1.1*

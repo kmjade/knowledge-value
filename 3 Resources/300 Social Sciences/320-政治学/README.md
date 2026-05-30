@@ -34,9 +34,9 @@ topic: political-science
 
 | 内容 | 位置 | 关系 |
 |------|------|------|
-| **儒家政治伦理** | [[3 Resources/100 Philosophy. Psychology/180-东方哲学/儒家哲学/06-儒家政治伦理/06-儒家政治伦理\|DDC 180 儒家]] | 东方政治哲学——德治·王道·内圣外王 |
-| **伦理学** | [[3 Resources/100 Philosophy. Psychology/170-伦理学/README\|DDC 170 伦理学]] | 政治哲学的规范性基础——正义·权利·义务 |
-| **现代西方哲学** | [[3 Resources/100 Philosophy. Psychology/190-现代西方哲学/09-当代哲学/09-当代哲学\|DDC 190 当代哲学]] | 罗尔斯《正义论》——当代政治哲学的里程碑 |
+| **儒家政治伦理** | [[06-儒家政治伦理\|DDC 180 儒家]] | 东方政治哲学——德治·王道·内圣外王 |
+| **伦理学** | [[3 Resources/100 Philosophy & Psychology/170-伦理学/README\|DDC 170 伦理学]] | 政治哲学的规范性基础——正义·权利·义务 |
+| **现代西方哲学** | [[09-当代哲学\|DDC 190 当代哲学]] | 罗尔斯《正义论》——当代政治哲学的里程碑 |
 | **经济学** | [[../330-经济学/README\|DDC 330 经济学]] | 政治经济学——国家与市场的博弈 |
 | **法律学** | [[../340-法律学/README\|DDC 340 法律学]] | 宪法——政治权力的法律框架 |
 
@@ -45,7 +45,7 @@ topic: political-science
 ## 隶属
 
 - [[../300 Social Sciences|DDC 300 Social Sciences]] → DDC 320 政治学
-- 哲学基础: [[3 Resources/100 Philosophy. Psychology/170-伦理学/README|DDC 170 伦理学]]
+- 哲学基础: [[3 Resources/100 Philosophy & Psychology/170-伦理学/README|DDC 170 伦理学]]
 
 ---
 

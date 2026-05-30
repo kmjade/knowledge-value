@@ -70,7 +70,9 @@
       "environmentHash": "",
       "environmentVariables": "",
       "modelAliases": {},
-      "preferredThinkingByModel": {},
+      "preferredThinkingByModel": {
+        "deepseek/deepseek-v4-pro": "low"
+      },
       "selectedMode": "claudian-yolo",
       "thinkingOptionsByModel": {},
       "visibleModels": [
@@ -85,7 +87,7 @@
   },
   "savedProviderEffort": {
     "claude": "high",
-    "opencode": "default"
+    "opencode": "low"
   },
   "savedProviderServiceTier": {},
   "savedProviderThinkingBudget": {

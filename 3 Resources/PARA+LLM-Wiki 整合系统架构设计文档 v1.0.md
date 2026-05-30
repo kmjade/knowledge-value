@@ -819,7 +819,7 @@ type: source
 #### people
 | 属性 | 值 |
 |------|------|
-| Schema | [[3 Resources/people/CLAUDE.md]] |
+| Schema | [[0 Inbox/people/CLAUDE]] |
 | 状态 | 🟡 规划中 |
 | 核心概念域 | 人物类型, 关系维度, 互动记录 |
 | 实体类型 | 个人, 组织, 关系 |
@@ -1266,7 +1266,7 @@ Wiki 页面:
 
 ```
 feat:     新功能        feat: 实施 PARA+LLM-Wiki 整合系统
-fix:      Bug 修复       fix: 修复 triage 路由错误
+fix:      Bug 修复      fix: 修复 triage 路由错误
 refactor: 重构          refactor: 优化 wiki-compile 编译逻辑
 docs:     文档          docs: 更新 CLAUDE.md
 chore:    杂项          chore: 清理 Inbox
@@ -1284,7 +1284,7 @@ para:     PARA 同步     para: sync daily changes
 - [[CLAUDE.md]] - 系统宪法
 - [[3 Resources/_META-INDEX.md]] - 知识导航
 - [[3 Resources/000 Knowledge/Computer-Science/Artificial-Intelligence/02-机器学习/ai-ml/CLAUDE]] - AI/ML 子库 Schema
-- [[3 Resources/people/CLAUDE.md]] - People 子库 Schema
+- [[0 Inbox/people/CLAUDE]] - People 子库 Schema
 - [[3 Resources/finance/CLAUDE.md]] - Finance 子库 Schema
 - [[3 Resources/productivity/CLAUDE.md]] - Productivity 子库 Schema
 - [[AI-Log/implementation-report-2026-05-26.md]] - 实施报告
@@ -1298,7 +1298,7 @@ para:     PARA 同步     para: sync daily changes
 - [x] Hooks 配置
 - [x] 日志系统建立
 - [x] 首次分拣执行
-- [ ] 首次编译执行
+- [x] 首次编译执行 ✅ 2026-05-29
 - [ ] 定期维护流程建立
 - [ ] 性能优化调优
 

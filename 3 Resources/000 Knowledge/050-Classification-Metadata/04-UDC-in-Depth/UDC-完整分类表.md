@@ -271,9 +271,9 @@ UDC 類號構建步驟：
 | 資源 | 說明 | 位置 |
 |------|------|------|
 | [[04-UDC-in-Depth/04-UDC-in-Depth\|UDC In-Depth]] | UDC 深度導覽 | `04-UDC-in-Depth/` |
-| [[3 Resources/000 Knowledge/ram/UDC-国际十进分类法/00-MOCs/UDC 知识库总览\|UDC 知識庫總覽]] | 完整 UDC 知識庫入口 | `ram/UDC-国际十进分类法/` |
+| [[UDC 知识库总览\|UDC 知識庫總覽]] | 完整 UDC 知識庫入口 | `ram/UDC-国际十进分类法/` |
 | [[3 Resources/000 Knowledge/ram/articles/DDC-UDC对比表\|DDC vs UDC 對比表]] | 繁簡英三語全面對比 | `ram/articles/` |
-| [[3 Resources/05-Reference/📰 参考资料/UDC/UDC 知識庫\|UDC 參考資料]] | 類目展開與技術分類指南 | `05-Reference/UDC/` |
+| [[UDC 知識庫\|UDC 參考資料]] | 類目展開與技術分類指南 | `05-Reference/UDC/` |
 | [[03-DDC-in-Depth/DDC23-完整分类表\|DDC 23 完整分類表]] | DDC 對應完整類目表 | `03-DDC-in-Depth/` |
 
 ---

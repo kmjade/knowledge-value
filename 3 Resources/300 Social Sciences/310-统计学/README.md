@@ -38,7 +38,7 @@ topic: statistics
 | **概率论基础** | [[3 Resources/500 Natural Sciences/510-Mathematics/统计学与概率/概率论基础\|DDC 510 概率论]] | 概率的公理化定义与经典分布 |
 | **机器学习中的数学** | [[3 Resources/500 Natural Sciences/510-Mathematics/应用数学/机器学习中的数学\|DDC 510 ML数学]] | 统计学习理论 — 从概率到模型 |
 | **数据科学** | [[3 Resources/01-Tech/Data-Science/Data-Science\|Data-Science]] | 统计方法在数据分析中的应用 |
-| **心理学研究方法** | [[3 Resources/100 Philosophy. Psychology/150 心理学/08-研究方法/08-研究方法\|DDC 150 研究方法]] | 实验设计·统计检验·效应量 |
+| **心理学研究方法** | [[08-研究方法\|DDC 150 研究方法]] | 实验设计·统计检验·效应量 |
 | **计量经济学** | [[../330-经济学/README\|DDC 330 经济学]] | 回归分析在经济中的应用 |
 
 ---

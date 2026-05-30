@@ -500,7 +500,7 @@ dv.list(filtered.map(p => p.file.link));
 
 ### 相關筆記
 # 指南
-- [[3 Resources/03-Productivity/Methods/前端數據可視化]]
+- [[前端數據可視化]]
 
 ---
 

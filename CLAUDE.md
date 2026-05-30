@@ -148,7 +148,7 @@ triaged_to: [目标路径]
 | Social-Sciences | `3 Resources/300 Social Sciences/` | DDC 300 社会科学 | 🟡 框架 |
 | Natural-Sciences | `3 Resources/500 Natural Sciences/` | DDC 500 自然科学 | 🟢 活跃 |
 | Applied-Sciences | `3 Resources/06 Applied Sciences/` | DDC 600 应用科学 | 🟢 活跃 |
-| People | `3 Resources/people/` | [[3 Resources/people/CLAUDE.md\|schema]] | 🟡 规划中 |
+| People | `3 Resources/people/` | [[0 Inbox/people/CLAUDE\|schema]] | 🟡 规划中 |
 | Finance | `3 Resources/finance/` | [[3 Resources/finance/CLAUDE.md\|schema]] | 🟡 规划中 |
 
 ### 子库结构

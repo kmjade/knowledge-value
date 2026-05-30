@@ -1,0 +1,177 @@
+{
+  "schemaVersion": 1,
+  "quickAddVersion": "2.9.4",
+  "choices": [
+    {
+      "id": "opencode-root",
+      "name": "🦙 OpenCode + Ollama",
+      "type": "Multi",
+      "choices": [
+        {
+          "id": "opencode-request",
+          "name": "📋 本地请求 / Local Request",
+          "type": "Template",
+          "templatePath": "index/OpenCode+Ollama集成指南/Obsidian模板/OpenCode 请求.md",
+          "fileName": {
+            "format": {
+              "type": "AndThen",
+              "items": [
+                {
+                  "type": "Date",
+                  "format": "YYYY-MM-DD"
+                },
+                {
+                  "type": "Text",
+                  "text": "-OpenCode请求"
+                }
+              ]
+            }
+          },
+          "folder": {
+            "type": "Variable",
+            "name": "FOLDER"
+          }
+        },
+        {
+          "id": "opencode-batch",
+          "name": "⚡ 批处理操作 / Batch Operations",
+          "type": "Template",
+          "templatePath": "index/OpenCode+Ollama集成指南/Obsidian模板/批处理操作.md",
+          "fileName": {
+            "format": {
+              "type": "AndThen",
+              "items": [
+                {
+                  "type": "Date",
+                  "format": "YYYY-MM-DD"
+                },
+                {
+                  "type": "Text",
+                  "text": "-批处理操作"
+                }
+              ]
+            }
+          },
+          "folder": {
+            "type": "Variable",
+            "name": "FOLDER"
+          }
+        },
+        {
+          "id": "opencode-model-setup",
+          "name": "🔧 模型配置 / Model Setup",
+          "type": "Template",
+          "templatePath": "index/OpenCode+Ollama集成指南/Obsidian模板/模型配置.md",
+          "fileName": {
+            "format": {
+              "type": "AndThen",
+              "items": [
+                {
+                  "type": "Date",
+                  "format": "YYYY-MM-DD"
+                },
+                {
+                  "type": "Text",
+                  "text": "-模型配置"
+                }
+              ]
+            }
+          },
+          "folder": {
+            "type": "Variable",
+            "name": "FOLDER"
+          }
+        },
+        {
+          "id": "opencode-quick-action",
+          "name": "⚡ 快速操作 / Quick Actions",
+          "type": "Multi",
+          "choices": [
+            {
+              "id": "quick-code-review",
+              "name": "🔍 代码审查 / Code Review",
+              "type": "Template",
+              "templatePath": "index/OpenCode+Ollama集成指南/Obsidian模板/快速操作.md",
+              "command": "opencode run \"审查当前文件的代码质量，指出潜在问题并提供改进建议\" --model ollama/qwen2.5-coder:7b"
+            },
+            {
+              "id": "quick-documentation",
+              "name": "📝 生成文档 / Generate Docs",
+              "type": "Template",
+              "templatePath": "index/OpenCode+Ollama集成指南/Obsidian模板/快速操作.md",
+              "command": "opencode run \"为当前代码生成完整的文档，包括函数说明和使用示例\" --model ollama/qwen2.5-coder:7b"
+            },
+            {
+              "id": "quick-refactor",
+              "name": "🛠️ 重构代码 / Refactor Code",
+              "type": "Template",
+              "templatePath": "index/OpenCode+Ollama集成指南/Obsidian模板/快速操作.md",
+              "command": "opencode run \"重构当前代码，提高可读性、性能和可维护性\" --model ollama/qwen2.5-coder:7b"
+            },
+            {
+              "id": "quick-debug",
+              "name": "🐛 调试助手 / Debug Helper",
+              "type": "Template",
+              "templatePath": "index/OpenCode+Ollama集成指南/Obsidian模板/快速操作.md",
+              "command": "opencode run \"分析当前代码中的潜在错误和问题，提供修复建议\" --model ollama/qwen2.5-coder:7b"
+            }
+          ]
+        },
+        {
+          "id": "opencode-project-analysis",
+          "name": "🏗️ 项目分析 / Project Analysis",
+          "type": "Template",
+          "templatePath": "index/OpenCode+Ollama集成指南/Obsidian模板/项目分析.md",
+          "fileName": {
+            "format": {
+              "type": "AndThen",
+              "items": [
+                {
+                  "type": "Date",
+                  "format": "YYYY-MM-DD"
+                },
+                {
+                  "type": "Text",
+                  "text": "-项目分析"
+                }
+              ]
+            }
+          },
+          "folder": {
+            "type": "Variable",
+            "name": "FOLDER"
+          }
+        }
+      ]
+    }
+  ],
+  "macros": [
+    {
+      "name": "OpenCode Model Check",
+      "type": "Script",
+      "command": "opencode models",
+      "path": "./opencodeHelper.js"
+    },
+    {
+      "name": "OpenCode Status Check",
+      "type": "Script", 
+      "command": "opencode status",
+      "path": "./opencodeHelper.js"
+    },
+    {
+      "name": "Ollama Model List",
+      "type": "Script",
+      "command": "ollama list",
+      "path": "./opencodeHelper.js"
+    }
+  ],
+  "settings": {
+    "runOnStartup": false,
+    "showInMenuBar": true,
+    "hotkey": {
+      "opencode-request": "Ctrl+Shift+O",
+      "opencode-batch": "Ctrl+Shift+B",
+      "quick-code-review": "Ctrl+Shift+R"
+    }
+  }
+}
