@@ -2,7 +2,7 @@
 # 配置
 status: active
 priority: high
-tags: [resource/tech/programming/python, python/setup, python/beginner]
+tags: [DDC/004.432, python, beginner]
 aliases: [Python環境搭建]
 created: 2026-02-01
 ---
