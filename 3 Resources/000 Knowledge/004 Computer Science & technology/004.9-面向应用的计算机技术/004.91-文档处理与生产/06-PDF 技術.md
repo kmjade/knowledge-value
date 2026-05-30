@@ -1,6 +1,6 @@
 ---
 aliases: [PDF Technology, Portable Document Format]
-tags: [DDC/004.9.1, pdf]
+tags: [UDC/004.91, pdf]
 ---
 # 06 PDF 技術
 

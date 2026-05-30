@@ -1,5 +1,6 @@
 ---
-aliases: [Adobe InDesign] · created: 2026-05-30
+aliases: [Adobe InDesign]
+created: 2026-05-30
 type: entity · entity_type: software-product
 ---
 # Adobe InDesign

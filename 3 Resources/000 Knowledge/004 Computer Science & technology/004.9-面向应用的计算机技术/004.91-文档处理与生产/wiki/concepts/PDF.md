@@ -1,6 +1,9 @@
 ---
-aliases: [PDF, Portable Document Format] · created: 2026-05-30
-type: concept · category: doc-processing · status: reviewed
+aliases: [PDF, Portable Document Format]
+created: 2026-05-30
+type: concept
+category: doc-processing
+status: reviewed
 ---
 # PDF Portable Document Format
 

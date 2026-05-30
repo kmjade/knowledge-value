@@ -1,5 +1,6 @@
 ---
-aliases: [Microsoft Word, MS Word] · created: 2026-05-30
+aliases: [Microsoft Word, MS Word]
+created: 2026-05-30
 type: entity · entity_type: software-product
 ---
 # Microsoft Word

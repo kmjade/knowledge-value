@@ -1,6 +1,9 @@
 ---
-aliases: [V&V, Verification & Validation] · created: 2026-05-30
-type: concept · category: simulation · status: reviewed
+aliases: [V&V, Verification & Validation] 
+created: 2026-05-30
+type: concept
+category: simulation
+status: reviewed
 ---
 # Verification & Validation 驗證與確認
 

@@ -68,3 +68,14 @@ Obsidian 是 **PARA+LLM-Wiki 系统的宿主平台**：
 
 - [[3 Resources/productivity/raw/articles/Obsidian/README.md]]
 - [[3 Resources/productivity/raw/articles/LifeOS × LLM-Wiki 融合系统.md]]
+
+## 分类码
+
+| 体系 | 类号 | 说明 |
+|:----:|:----:|------|
+| **UDC** | `004.91Obsidian` | 文本处理/桌面出版应用 |
+| **DDC** | `005.52` | 文字处理 / 桌面出版 |
+| **CLC** | `TP317.1` | 办公自动化系统 |
+| **LCC** | `QA76.76.T49` | 文本编辑器 |
+
+> 详见 [[3 Resources/000 Knowledge/004 Computer Science & technology/004.43-计算机语言/计算机语言-分类码|计算机语言分类码]]

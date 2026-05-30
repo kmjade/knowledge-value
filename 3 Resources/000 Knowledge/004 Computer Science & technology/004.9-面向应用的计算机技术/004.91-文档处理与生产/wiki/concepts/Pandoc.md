@@ -1,6 +1,9 @@
 ---
-aliases: [Pandoc] · created: 2026-05-30
-type: concept · category: doc-processing · status: reviewed
+aliases: [Pandoc]
+created: 2026-05-30
+type: concept
+category: doc-processing
+status: reviewed
 ---
 # Pandoc
 
@@ -32,4 +35,4 @@ pandoc *.md -o book.epub --toc                        # 多文件 → EPUB
 
 ## 關鍵擴展: pandoc-citeproc/citeproc (引用處理)、pandoc-crossref (交叉引用)、pandoc-plot (圖表)、Lua filters (自訂轉換)
 
-## 相關: [[3 Resources/000 Knowledge/004 Computer Science & technology/004.9-面向应用的计算机技术/004.91-文档处理与生产/wiki/concepts/Markdown]] · [[LaTeX]] · [[PDF]] · Sources: [[source-DocProc-KB]]
+## 相關: [[Markdown]] · [[LaTeX]] · [[PDF]] · Sources: [[../sources/source-DocProc-KB]]

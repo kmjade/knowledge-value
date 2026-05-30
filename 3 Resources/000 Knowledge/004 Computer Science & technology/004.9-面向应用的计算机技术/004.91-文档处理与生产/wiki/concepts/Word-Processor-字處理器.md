@@ -1,6 +1,9 @@
 ---
-aliases: [Word Processor] · created: 2026-05-30
-type: concept · category: doc-processing · status: reviewed
+aliases: [Word Processor]
+created: 2026-05-30
+type: concept
+category: doc-processing
+status: reviewed
 ---
 # 字處理器 Word Processor
 
@@ -24,4 +27,4 @@ type: concept · category: doc-processing · status: reviewed
 
 ## WYSIWYG 範式: 使用者直接操作格式化的文檔外觀，無需學習標記語法。學習門檻低但程式化控制弱。
 
-## 相關: [[3 Resources/000 Knowledge/004 Computer Science & technology/004.9-面向应用的计算机技术/004.91-文档处理与生产/wiki/concepts/Markdown]] · [[LaTeX]] · [[Microsoft-Word]] · Sources: [[source-DocProc-KB]]
+## 相關: [[Markdown]] · [[LaTeX]] · [[Microsoft-Word]] · Sources: [[../sources/source-DocProc-KB]]

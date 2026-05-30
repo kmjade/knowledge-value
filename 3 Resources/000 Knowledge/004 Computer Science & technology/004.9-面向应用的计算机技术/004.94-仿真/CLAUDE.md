@@ -1,5 +1,8 @@
 ---
-type: wiki-schema · topic: simulation · domain: 004.94 · created: 2026-05-30
+type: wiki-schema
+topic: simulation
+domain: 4.94
+created: 2026-05-30
 ---
 # 仿真 Wiki Schema
 核心: Simulation 定義與分類、DES、蒙地卡羅方法、Agent-Based Modeling、Digital Twin、系統動力學、物理仿真、V&V

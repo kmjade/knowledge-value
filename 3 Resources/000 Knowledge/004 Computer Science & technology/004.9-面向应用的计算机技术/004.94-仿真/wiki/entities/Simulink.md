@@ -1,6 +1,8 @@
 ---
-aliases: [Simulink, MATLAB Simulink] · created: 2026-05-30
-type: entity · entity_type: software-platform
+aliases: [Simulink, MATLAB Simulink] 
+created: 2026-05-30
+type: entity
+entity_type: software-platform
 ---
 # Simulink
 

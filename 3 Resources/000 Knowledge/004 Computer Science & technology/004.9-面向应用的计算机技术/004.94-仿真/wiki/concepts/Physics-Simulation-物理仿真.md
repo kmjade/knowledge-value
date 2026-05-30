@@ -1,6 +1,9 @@
 ---
-aliases: [Physics Simulation] · created: 2026-05-30
-type: concept · category: simulation · status: reviewed
+aliases: [Physics Simulation] 
+created: 2026-05-30
+type: concept
+category: simulation
+status: reviewed
 ---
 # Physics Simulation 物理仿真
 

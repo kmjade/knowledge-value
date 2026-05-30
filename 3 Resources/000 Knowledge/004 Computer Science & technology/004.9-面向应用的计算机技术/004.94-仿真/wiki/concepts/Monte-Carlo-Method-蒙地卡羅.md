@@ -1,6 +1,9 @@
 ---
-aliases: [Monte Carlo, MCMC] · created: 2026-05-30
-type: concept · category: simulation · status: reviewed
+aliases: [Monte Carlo, MCMC] 
+created: 2026-05-30
+type: concept
+category: simulation
+status: reviewed
 ---
 # Monte Carlo Method 蒙地卡羅方法
 

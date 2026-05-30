@@ -1,5 +1,6 @@
 ---
-aliases: [Simulation FAQ] · tags: [DDC/004.94, faq]
+aliases: [Simulation FAQ] 
+tags: [DDC/004.94, faq]
 ---
 # 仿真 FAQ
 

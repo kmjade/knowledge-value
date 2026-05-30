@@ -1,6 +1,9 @@
 ---
-aliases: [LaTeX, TeX] · created: 2026-05-30
-type: concept · category: doc-processing · status: reviewed
+aliases: [LaTeX, TeX]
+created: 2026-05-30
+type: concept
+category: doc-processing
+status: reviewed
 ---
 # LaTeX
 
@@ -27,4 +30,8 @@ LaTeX (Lamport TeX) 是 Leslie Lamport 於 1985 年基於 Donald Knuth 的 TeX �
 
 ## 現代工具鏈: Overleaf (雲端協作) + TeX Live (本機) + VS Code + LaTeX Workshop (編輯)
 
-## 相關: [[3 Resources/000 Knowledge/004 Computer Science & technology/004.9-面向应用的计算机技术/004.91-文档处理与生产/wiki/concepts/Markdown]] · [[PDF]] · [[Desktop-Publishing-桌面出版]] · Sources: [[source-DocProc-KB]]
+## 相關
+
+- [[Markdown]] · [[PDF]] · [[Desktop-Publishing-桌面出版]]
+- [[3 Resources/000 Knowledge/004 Computer Science & technology/004.43-计算机语言/计算机语言-分类码\|語言分類碼]] — UDC 004.439LaTeX · DDC 686.22544
+- Sources: [[../sources/source-DocProc-KB]]

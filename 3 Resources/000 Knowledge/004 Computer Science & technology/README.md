@@ -32,7 +32,7 @@ classification:
 | 操作系统原理   | [[04-操作系统]]                                                                               |
 | 计算机网络    | [[004.6-计算机网络/004.6 Computer Networks\|004.6 CN]] · [[004.6-计算机网络/004.7-计算机网络\|004.7 中文]] |
 | 数据库系统    | [[06-数据库系统]] · [[004.5-数据库与数据结构/004.5-数据库与数据结构\|004.5 深度]]                                |
-| 编程语言原理   | [[07-编程语言]]                                                                               |
+| 编程语言原理   | [[004.43-计算机语言]]                                                                               |
 | 软件工程实践   | [[08-软件工程]]                                                                               |
 | 分布式与大数据  | [[09-数据处理与分布式系统]]                                                                         |
 | 人工智能     | [[004.8-人工智能/004.8-人工智能\|004.8 AI]]                                                       |
@@ -58,7 +58,7 @@ Computer-Science/
 ├── 03-计算机组成原理/
 ├── 04-操作系统/ (+ WSL/)
 ├── 06-数据库系统/
-├── 07-编程语言/ (+ Markdown/ Python/)
+├── 004.43-计算机语言/ (+ Markdown/ Python/)
 ├── 08-软件工程/
 ├── 09-数据处理与分布式系统/
 ├── 99-资源收集/
@@ -106,4 +106,4 @@ Computer-Science/
 
 - [[004 Computer Science & technology|DDC 004 索引]] — 杜威分類法中的 004 完整結構
 - [[3 Resources/004 Computer Science & technology/Artificial-Intelligence/README|AI 知识库]] — CS 的应用分支
-- [[3 Resources/000 Knowledge/004 Computer Science & technology/07-编程语言/Markdown/Markdown|Markdown 知识库]] — 技术文档基础
+- [[3 Resources/000 Knowledge/004 Computer Science & technology/004.43 计算机语言/Markdown/Markdown|Markdown 知识库]] — 技术文档基础

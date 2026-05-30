@@ -1,6 +1,9 @@
 ---
-aliases: [DMS, Document Management System] · created: 2026-05-30
-type: concept · category: doc-processing · status: reviewed
+aliases: [DMS, Document Management System]
+created: 2026-05-30
+type: concept
+category: doc-processing
+status: reviewed
 ---
 # 文檔管理系統 Document Management System (DMS)
 
@@ -29,4 +32,4 @@ DMS 是管理文檔**存儲、版本控制、權限、檢索與生命週期**的
 
 ## 協作技術: OT (Operational Transformation — Google Docs) vs CRDT (Conflict-free Replicated Data Types — Notion/Obsidian) → 即時多人編輯的兩種數學模型
 
-## 相關: [[PDF]] · [[3 Resources/000 Knowledge/004 Computer Science & technology/004.9-面向应用的计算机技术/004.91-文档处理与生产/wiki/concepts/Markdown]] · Sources: [[source-DocProc-KB]]
+## 相關: [[PDF]] · [[Markdown]] · Sources: [[../sources/source-DocProc-KB]]

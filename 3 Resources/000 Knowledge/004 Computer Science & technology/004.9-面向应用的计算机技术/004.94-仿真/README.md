@@ -1,5 +1,6 @@
 ---
-aliases: [Simulation README] · tags: [DDC/004.94]
+aliases: [Simulation README] 
+tags: [DDC/004.94]
 ---
 # 004.94 仿真 README
 

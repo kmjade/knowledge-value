@@ -109,7 +109,7 @@ version: "1.1"
 | 9 | [[Zettelkasten\|Zettelkasten]] | 盧曼卡片盒筆記法 | 方法 | 060 |
 | 10 | [[IOTO-Framework\|IOTO]] | IOTO 框架 | 框架 | 060 |
 | 11 | [[Notion\|Notion]] | 多功能筆記協作平臺 | 工具 | 060 |
-| 12 | [[Obsidian\|Obsidian]] | 本地 Markdown 知識管理 | 工具 | 060 |
+| 12 | [[3 Resources/000 Knowledge/wiki/entities/Obsidian\|Obsidian]] | 本地 Markdown 知識管理 | 工具 | 060 |
 
 ### 人物 (12)
 

@@ -1,7 +1,9 @@
 ---
-aliases: [DocProc README] · tags: [DDC/004.9.1]
+aliases: [DocProc README]
+tags: [DDC/004, UDC/004.91, document-processing]
+created: 2026-05-30
 ---
-# 004.9.1 文檔處理與生產 README
+# 004.91 文檔處理與生產 README
 
 從打字機到雲端協作，全面掌握文檔技術棧。
 

@@ -1,6 +1,9 @@
 ---
-aliases: [DTP, Desktop Publishing] · created: 2026-05-30
-type: concept · category: doc-processing · status: reviewed
+aliases: [DTP, Desktop Publishing]
+created: 2026-05-30
+type: concept
+category: doc-processing
+status: reviewed
 ---
 # 桌面出版 Desktop Publishing (DTP)
 

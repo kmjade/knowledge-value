@@ -1,5 +1,5 @@
 ---
-aliases: [DocProc FAQ] · tags: [DDC/004.9.1, faq]
+aliases: [DocProc FAQ] · tags: [UDC/004.91, faq]
 ---
 # 文檔處理 FAQ
 

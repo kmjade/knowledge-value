@@ -1,6 +1,9 @@
 ---
-aliases: [Simulation] · created: 2026-05-30
-type: concept · category: simulation · status: reviewed
+aliases: [Simulation] 
+created: 2026-05-30
+type: concept
+category: simulation
+status: reviewed
 ---
 # Simulation 仿真
 

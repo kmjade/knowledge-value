@@ -1,6 +1,9 @@
 ---
-aliases: [ABM, Agent-Based Modeling] · created: 2026-05-30
-type: concept · category: simulation · status: reviewed
+aliases: [ABM, Agent-Based Modeling] 
+created: 2026-05-30
+type: concept
+category: simulation
+status: reviewed
 ---
 # Agent-Based Modeling 基於代理的建模
 

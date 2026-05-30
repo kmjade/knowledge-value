@@ -1,5 +1,7 @@
 ---
-type: log · topic: doc-processing · created: 2026-05-30
+type: log
+topic: doc-processing
+created: 2026-05-30
 ---
 # DocProc Wiki 編譯日誌 · ✅ 8 concepts + 2 entities + 1 source
 

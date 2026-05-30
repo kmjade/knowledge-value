@@ -1,5 +1,8 @@
 ---
-type: index · topic: simulation · created: 2026-05-30 · total_concepts: 8
+type: index
+topic: simulation
+created: 2026-05-30
+total_concepts: 8
 ---
 # 仿真 Wiki 索引 Simulation Wiki Index
 
