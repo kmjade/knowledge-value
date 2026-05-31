@@ -3,7 +3,7 @@ aliases:
   - Open Graphics Library
 created: 2026-05-30
 type: concept
-category: cg-api
+topic: cg-api
 status: reviewed
 ---
 

@@ -6,7 +6,7 @@ aliases:
 created: 2026-05-30
 type: concept
 topic: generative-art
-source: "[[algorithmic-art-skill]]"
+source: "[[0 Inbox/generative-art/raw/algorithmic-art-skill]]"
 ---
 
 # Seeded Randomness · 种子随机性
@@ -34,7 +34,7 @@ noiseSeed(seed);    // 所有 noise() 调用由此决定
 
 ## 在 Cartographic Drift 中的应用
 
-在 [[cartographic-drift]] 中，种子决定了：
+在 [[0 Inbox/generative-art/wiki/concepts/cartographic-drift]] 中，种子决定了：
 - Perlin 噪声地形的具体形态（哪些区域是"开阔"的，哪些是"迷宫"的）
 - 代理的初始位置和朝向
 - 随机扰动的时机和方向
@@ -51,6 +51,6 @@ noiseSeed(seed);    // 所有 noise() 调用由此决定
 
 ## 相关
 
-- [[algorithmic-philosophy]] — 种子是算法哲学的核心表达工具
-- [[generative-art-artifact]] — 交互制品中种子导航的标准实现
-- [[p5js|p5.js]] — `randomSeed()` / `noiseSeed()` API
+- [[0 Inbox/generative-art/wiki/concepts/algorithmic-philosophy]] — 种子是算法哲学的核心表达工具
+- [[0 Inbox/generative-art/wiki/concepts/generative-art-artifact]] — 交互制品中种子导航的标准实现
+- [[0 Inbox/generative-art/wiki/entities/p5js|p5.js]] — `randomSeed()` / `noiseSeed()` API

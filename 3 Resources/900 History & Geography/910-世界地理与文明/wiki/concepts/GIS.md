@@ -2,7 +2,7 @@
 aliases: [GIS, Geographic Information Systems]
 created: 2026-05-29
 type: concept
-category: 地理
+topic: 地理
 status: reviewed
 ---
 # GIS 地理資訊系統

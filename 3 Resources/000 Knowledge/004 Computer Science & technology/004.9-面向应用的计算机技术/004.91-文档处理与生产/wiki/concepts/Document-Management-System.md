@@ -2,7 +2,7 @@
 aliases: [DMS, Document Management System]
 created: 2026-05-30
 type: concept
-category: doc-processing
+topic: doc-processing
 status: reviewed
 ---
 # 文檔管理系統 Document Management System (DMS)

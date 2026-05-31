@@ -2,7 +2,7 @@
 aliases: [Word Processor]
 created: 2026-05-30
 type: concept
-category: doc-processing
+topic: doc-processing
 status: reviewed
 ---
 # 字處理器 Word Processor

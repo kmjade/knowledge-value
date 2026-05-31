@@ -2,7 +2,7 @@
 aliases: [Digital Twin] 
 created: 2026-05-30
 type: concept
-category: simulation
+topic: simulation
 status: reviewed
 ---
 # Digital Twin 數字孿生

@@ -2,7 +2,7 @@
 aliases: [Embedded Linux, Yocto, Buildroot]
 created: 2026-05-30
 type: concept
-category: 嵌入式系統
+topic: 嵌入式系統
 status: reviewed
 ---
 # 嵌入式 Linux Embedded Linux

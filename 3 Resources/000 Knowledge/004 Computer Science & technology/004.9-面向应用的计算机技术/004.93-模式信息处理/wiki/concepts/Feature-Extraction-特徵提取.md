@@ -3,7 +3,7 @@ aliases:
   - Feature Extraction
 created: 2026-05-30
 type: concept
-category: pattern-recog
+topic: pattern-recog
 status: reviewed
 ---
 # Feature Extraction 特徵提取

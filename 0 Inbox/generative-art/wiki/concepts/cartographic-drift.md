@@ -63,6 +63,6 @@ nv += 0.25 * noise(nx * 4.7, ny * 4.7);
 
 ## 相关
 
-- [[algorithmic-philosophy]] — 父概念：算法哲学方法论
-- [[seeded-randomness]] — 每次种子生成独一无二的探索世界
+- [[0 Inbox/generative-art/wiki/concepts/algorithmic-philosophy]] — 父概念：算法哲学方法论
+- [[0 Inbox/generative-art/wiki/concepts/seeded-randomness]] — 每次种子生成独一无二的探索世界
 - [[1 Projects/富福-履带式智能小车/富福-v1-方案|富福智能小车]] — 灵感来源

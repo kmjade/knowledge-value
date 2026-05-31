@@ -4,7 +4,7 @@ aliases:
   - Classifier
 created: 2026-05-30
 type: concept
-category: pattern-recog
+topic: pattern-recog
 status: reviewed
 ---
 # Classification 分類器

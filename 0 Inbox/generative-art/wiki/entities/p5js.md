@@ -7,7 +7,7 @@ created: 2026-05-30
 type: entity
 entity_type: software-library
 topic: generative-art
-source: "[[algorithmic-art-skill]]"
+source: "[[0 Inbox/generative-art/raw/algorithmic-art-skill]]"
 ---
 
 # p5.js
@@ -58,6 +58,6 @@ p5.js 是 algorithmic-art skill 的**唯一运行时依赖**。所有生成艺�
 
 ## 相关
 
-- [[generative-art-artifact]] — p5.js 是制品的核心引擎
-- [[seeded-randomness]] — `randomSeed()` / `noiseSeed()` 的底层实现
-- [[algorithmic-philosophy]] — p5.js 是将哲学转化为代码的媒介
+- [[0 Inbox/generative-art/wiki/concepts/generative-art-artifact]] — p5.js 是制品的核心引擎
+- [[0 Inbox/generative-art/wiki/concepts/seeded-randomness]] — `randomSeed()` / `noiseSeed()` 的底层实现
+- [[0 Inbox/generative-art/wiki/concepts/algorithmic-philosophy]] — p5.js 是将哲学转化为代码的媒介

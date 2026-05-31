@@ -2,7 +2,7 @@
 aliases: [Markdown]
 created: 2026-05-30
 type: concept
-category: doc-processing
+topic: doc-processing
 status: reviewed
 ---
 # Markdown

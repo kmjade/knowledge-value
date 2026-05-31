@@ -14,6 +14,28 @@ This vault is version-controlled with Git and synced to GitHub at https://github
 - **Sync with remote**: `git push` to push changes, `git pull` to fetch
 - **Branch strategy**: Multiple feature branches for plugin configurations (e.g., `plugins_Tasks`, `plugins_Copilot`)
 
+### Git 操作护栏 (FR-060, FR-062)
+
+**关键操作前后必须检查 Git 状态**:
+1. 操作前: `git status --porcelain` — 确认工作区状态
+2. 操作后: `git status --short` — 确认变更范围
+
+**批量保护阈值**:
+| 变更文件数 | 行为 |
+|-----------|------|
+| ≤10 | 自动执行 |
+| 11-20 | 显示变更列表 + 确认 |
+| >20 | 强制分步，每批 ≤10 |
+
+**Conventional Commits 映射**:
+| 操作 | type | 示例 |
+|------|------|------|
+| 分拣 (/triage) | `triage` | `triage: route 8 files to 3 Resources/` |
+| 编译 (/wiki-compile) | `compile` | `compile: ai-ml — 3 concepts, 2 entities` |
+| 健康检查 (/lint) | `chore` | `chore: fix N broken wikilinks` |
+| 基础设施 | `chore` | `chore: create wiki/log.md for DDC 400` |
+| 文档 | `docs` | `docs: update SRS checklist` |
+
 ## Key Obsidian Plugins
 
 - **Claudian**: AI-assisted note creation and editing

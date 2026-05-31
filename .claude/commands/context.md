@@ -6,9 +6,10 @@
 
 ```
 /context              # 加载完整上下文（五维度）
-/context --quick      # 快速加载（仅状态概览）
-/context --projects   # 仅加载项目状态
-/context --inbox      # 仅加载 Inbox 状态
+/context --quick      # 快速概览（仅关键指标，< 30s）
+/context --projects   # 仅项目状态 — 活跃项目列表 + 进度
+/context --inbox      # 仅 Inbox 状态 — 积压详情 + 分类
+/context --summary    # 操作建议 — 阈值检查 + 推荐动作
 ```
 
 ## 执行流程
@@ -58,29 +59,91 @@
 - 上次会话的待跟进事项
 - 未完成的 AI 建议
 
+### Step 6：操作建议生成 (FR-032)
+
+**`--summary` 模式** — 基于阈值规则自动生成操作建议：
+
+| 条件 | 阈值 | 建议 |
+|------|:----:|------|
+| Inbox 积压文件 | > 5 | 🟡 运行 `/triage` 清理积压 |
+| Inbox 积压文件 | > 20 | 🔴 严重积压！立即运行 `/triage` |
+| 最旧 Inbox 文件 | > 7 天 | 🟡 有长期未处理文件 |
+| raw/ 未编译文件 | > 3 | 🟡 运行 `/wiki-compile [topic]` |
+| 距上次 `/lint` | > 7 天 | 🟡 运行 `/lint` 健康检查 |
+| 距上次 Git commit | > 1 天 | ℹ️ 建议 `git commit` 保存进度 |
+| 有未跟踪 .md 文件 | > 0 | ℹ️ 可能需要 `/triage` 分拣 |
+
+**建议优先级算法**:
+1. Inbox 积压 > 20 → **P0** 立即分拣
+2. 有 Git 冲突 → **P0** 先解决冲突
+3. raw/ 未编译 > 3 → **P1** 编译知识库
+4. 距上次 lint > 7 天 → **P1** 系统检查
+5. Inbox 积压 > 5 → **P2** 日常分拣
+
 ## 输出格式
 
+### `--quick` 快速概览
 ```markdown
-📍 当前状态快照 — YYYY-MM-DD
+📍 Context — YYYY-MM-DD
 
-🎯 活跃项目（N 个）：
-- [[项目A]] — active — 截止：YYYY-MM-DD
-- [[项目B]] — active — 无截止
-- [[项目C]] — stalled ⚠️ — 30 天无更新
+| 指标 | 数值 | 状态 |
+|------|:----:|:----:|
+| 活跃项目 | N | 🟢 |
+| Inbox 积压 | N | 🟡/🔴 |
+| 待编译 raw/ | N | 🟢/🟡 |
+| Wiki 页面 | N | 🟢 |
+| 上次 lint | YYYY-MM-DD | 🟢/🟡 |
+| Git 状态 | clean/dirty | 🟢/🟡 |
 
-📋 今日待办（来自日记）：
-- [ ] 任务1 — 截止今天
-- [ ] 任务2 — 已过期
+💡 建议: [最高优先级操作]
+```
 
-📥 Inbox 待处理：N 个文件（运行 /triage 处理）
+### `--projects` 项目状态
+```markdown
+🎯 活跃项目（N 个）:
 
-⏮️ 上次会话遗留：
-- 待跟进事项
+| 项目 | 状态 | 截止 | 最后更新 | 下一步 |
+|------|:----:|------|----------|--------|
+| [[项目A]] | 🟢 active | YYYY-MM-DD | N天前 | [action] |
+| [[项目B]] | 🟡 stalled | — | 30天前 | ⚠️ 需回顾 |
+| [[项目C]] | 🔴 overdue | YYYY-MM-DD | N天前 | 🔴 已过期 |
+```
 
-💡 建议本次优先处理：
-1. [最紧急事项]
-2. [次紧急事项]
-3. [建议操作]
+### `--inbox` Inbox 状态
+```markdown
+📥 Inbox 状态:
+
+| 指标 | 数值 |
+|------|:----:|
+| 总文件 | N |
+| 最旧文件 | N 天前 |
+| Clippings/ | N |
+| fleeting/ | N |
+| 已处理 | N |
+
+📂 待处理文件列表:
+- file1.md (N天前) — [主题猜测]
+- file2.md (N天前) — [主题猜测]
+
+💡 建议: /triage [--dry-run]
+```
+
+### `--summary` 操作建议
+```markdown
+💡 操作建议 — YYYY-MM-DD
+
+**优先级排序**:
+
+🔴 P0 (立即):
+1. Inbox 积压 N 个文件 — 运行 `/triage`
+2. Git 有未提交更改 — 运行 `git status`
+
+🟡 P1 (今日):
+3. N 个 raw/ 待编译 — 运行 `/wiki-compile [topic]`
+4. 距上次 /lint N 天 — 运行 `/lint`
+
+ℹ️ P2 (本周):
+5. 项目B 停滞 30 天 — 考虑归档到 4 Archives/
 ```
 
 ## 与其他命令的配合

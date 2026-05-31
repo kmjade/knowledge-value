@@ -44,20 +44,64 @@
    建议: 移动到 4 Archives/ 或添加链接
 ```
 
-### 3. Frontmatter 规范检查
+### 3. Frontmatter 规范检查 (FR-042)
 
-#### 必需字段
-- [ ] 所有 Wiki 页面有 `type` 字段
-- [ ] 所有 Wiki 页面有 `created` 字段
-- [ ] 所有 Wiki 页面有 `topic` 字段
+#### A. Wiki 页面强制字段 (`wiki/**/*.md`)
 
-#### 格式规范
+| 字段 | 类型 | 规则 | 自动修复 |
+|------|------|------|----------|
+| `type` | Enum | **必填**。值: `concept`, `entity`, `source`, `wiki-index`, `compile-log` | ❌ 需人工 |
+| `topic` | String | **必填**。匹配子库 topic 值 | ❌ 需人工 |
+| `created` | Date | **必填**。格式 `YYYY-MM-DD` | ✅ 格式修正 |
+| `sources` | Array | **必填** (除 `compile-log` 外)。指向 raw/ 的 wikilink | ❌ 需人工 |
+
+**特殊页面规则**:
+- `wiki/log.md`: 仅需 `type: log`, `topic`, `created`（无需 `sources`）
+- `wiki/index.md`: 需 `type: wiki-index`, `topic`, `created`
+- `wiki/concepts/*.md`: 全部四字段强制
+- `wiki/entities/*.md`: 全部四字段 + `entity_type` 推荐
+
+#### B. 原始资料页面 (`raw/**/*.md`)
+
+| 字段 | 类型 | 规则 | 自动修复 |
+|------|------|------|----------|
+| `source` | String | **推荐**。来源 URL 或描述 | ❌ 需人工 |
+| `tags` | Array | **推荐**。至少 1 个标签 | ❌ 需人工 |
+| `created` | Date | **推荐**。格式 `YYYY-MM-DD` | ✅ 格式修正 |
+
+#### C. 格式校验规则
+
 ```markdown
-❌ 格式错误: file.md
-   问题: created 字段格式不正确
-   期望: YYYY-MM-DD
-   实际: 2026/05/26
+错误类型:
+❌ MISSING_TYPE      — wiki/ 文件缺少 type 字段
+❌ MISSING_TOPIC     — wiki/ 文件缺少 topic 字段
+❌ MISSING_CREATED   — wiki/ 文件缺少 created 字段
+❌ MISSING_SOURCES   — wiki/ 文件缺少 sources 字段
+⚠️  INVALID_TYPE     — type 值不在枚举中
+⚠️  INVALID_DATE     — created 格式不是 YYYY-MM-DD
+⚠️  RAW_NO_SOURCE    — raw/ 文件缺少 source 字段
+⚠️  RAW_NO_TAGS      — raw/ 文件缺少 tags 字段
+ℹ️  UNKNOWN_TOPIC    — topic 值未匹配已知子库
 ```
+
+#### D. 已知子库 topic 值
+
+| topic | 子库 |
+|-------|------|
+| `knowledge-systems` | DDC 000 |
+| `philosophy-psychology` | DDC 100 |
+| `epistemology` | DDC 120 |
+| `religion-theology` | DDC 200 |
+| `social-sciences` | DDC 300 |
+| `language` | DDC 400 |
+| `natural-sciences` | DDC 500 |
+| `applied-sciences` | DDC 600 |
+| `arts` | DDC 700 |
+| `literature` | DDC 800 |
+| `history-geography` | DDC 900 |
+| `ai-ml` | AI/ML |
+| `people` | People |
+| `generative-art` | Generative Art |
 
 ### 4. 系统状态检查
 
@@ -95,15 +139,58 @@
 - [ ] hooks.json 格式正确
 - [ ] SessionStart hook 配置正确
 
-### 6. Git 状态检查
+### 6. Git 状态检查 (FR-060)
 
+#### 操作前检查 (`git status --porcelain`)
 ```markdown
-📊 Git 状态:
+📊 操作前 Git 状态:
 - 分支: main
-- 未提交更改: 5
-- 未跟踪文件: 3
-- 建议: 提交当前更改
+- 未暂存: 3 | 未跟踪: 2 | 待提交: 0
+- 状态: 🟢 可以安全操作 / 🟡 建议先提交 / 🔴 有冲突
 ```
+
+**阻断规则**:
+- 🔴 有未解决的合并冲突 → **阻断操作**，要求先解决
+- 🟡 有 >10 个变更文件 → **警告**，建议先提交
+- 🟡 有未跟踪的 .md 文件 → 提示可能需要先 /triage
+- 🟢 干净工作区 → 允许操作
+
+#### 操作后检查
+```markdown
+📊 操作后变更:
+- 新增: 5 文件
+- 修改: 3 文件
+- 删除: 2 文件
+- 建议: 分步提交 (triage 变更 / compile 变更 分开)
+```
+
+#### 批量操作保护 (FR-062)
+| 阈值 | 行为 |
+|------|------|
+| ≤10 文件 | ✅ 自动执行 |
+| 11-20 文件 | ⚠️ 显示变更列表 + 请求确认 |
+| >20 文件 | 🔴 强制分步执行，每批 ≤10 |
+
+#### Conventional Commits 执行 (FR-061)
+```bash
+# 分拣操作
+git add -A && git commit -m "triage: route N files to [target]"
+
+# 编译操作
+git add -A && git commit -m "compile: [topic] — N concepts, M entities"
+
+# 维护操作
+git add -A && git commit -m "chore: update [component]"
+```
+
+**提交类型映射**:
+| 操作 | type | 示例 |
+|------|------|------|
+| /triage | `triage` | `triage: route 8 files to resources` |
+| /wiki-compile | `compile` | `compile: ai-ml — 3 concepts, 2 entities` |
+| /lint | `chore` | `chore: fix N broken links` |
+| 基础设施 | `chore` | `chore: create wiki/log.md for DDC 400` |
+| 文档 | `docs` | `docs: update SRS checklist` |
 
 ## 报告格式
 

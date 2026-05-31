@@ -4,7 +4,7 @@ aliases:
   - ASR
 created: 2026-05-30
 type: concept
-category: pattern-recog
+topic: pattern-recog
 status: reviewed
 ---
 # Speech Recognition 語音識別

@@ -2,7 +2,7 @@
 aliases: [System Dynamics, SD] 
 created: 2026-05-30
 type: concept
-category: simulation
+topic: simulation
 status: reviewed
 ---
 # System Dynamics 系統動力學

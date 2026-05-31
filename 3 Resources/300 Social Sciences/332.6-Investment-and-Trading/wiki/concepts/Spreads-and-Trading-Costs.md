@@ -2,7 +2,7 @@
 aliases: [Spread, Trading Costs]
 created: 2026-05-29
 type: concept
-category: 外匯
+topic: 外匯
 status: reviewed
 ---
 

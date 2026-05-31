@@ -4,7 +4,7 @@ aliases:
   - Optical Character Recognition
 created: 2026-05-30
 type: concept
-category: pattern-recog
+topic: pattern-recog
 status: reviewed
 ---
 # OCR 光學字符識別

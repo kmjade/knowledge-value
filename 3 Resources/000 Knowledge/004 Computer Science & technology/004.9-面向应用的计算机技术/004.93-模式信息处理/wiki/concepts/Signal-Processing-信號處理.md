@@ -3,7 +3,7 @@ aliases:
   - Signal Processing
 created: 2026-05-30
 type: concept
-category: pattern-recog
+topic: pattern-recog
 status: reviewed
 ---
 # Signal Processing 信號處理

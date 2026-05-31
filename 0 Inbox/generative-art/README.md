@@ -14,13 +14,8 @@ aliases: [生成艺术 KB, Algorithmic Art Knowledge Base]
 
 | 想看什么 | 点这里 |
 |----------|--------|
-| 知识索引 | [[0 Inbox/generative-art/wiki/index\|Wiki 索引]] |
-| 原始 Skill 文档 | [[algorithmic-art-skill\|SKILL.md 原文]] |
-| 算法哲学方法论 | [[algorithmic-philosophy\|Algorithmic Philosophy]] |
-| 种子随机性 | [[seeded-randomness\|Seeded Randomness]] |
-| 生成艺术制品 | [[generative-art-artifact\|Artifact 结构]] |
-| Cartographic Drift | [[cartographic-drift\|制图漂移]] |
-| p5.js 实体 | [[p5js\|p5.js]] |
+| 知识索引 | [[0 Inbox/generative-art/wiki/index\|Wiki 索引]] |[[0 Inbox/generative-art/raw/algorithmic-art-skill\|SKILL.md 原文]]ll\|SKILL.md 原文[[0 Inbox/generative-art/wiki/concepts/algorithmic-philosophy\|Algorithmic Philosophy]]thmic Philoso[[0 Inbox/generative-art/wiki/concepts/seeded-randomness\|Seeded Randomness]]Seeded Randomn[[0 Inbox/generative-art/wiki/concepts/generative-art-artifact\|Artifact 结构]]ifact\|Artifact 结构]] |
+| [[0 Inbox/generative-art/wiki/concepts/cartographic-drift\|制图漂移]]graphic-drift\|制[[0 Inbox/generative-art/wiki/entities/p5js\|p5.js]]s 实体 | [[p5js\|p5.js]] |
 | 编译日志 | [[0 Inbox/generative-art/wiki/log\|Compile Log]] |
 
 ## 目录结构

@@ -55,8 +55,8 @@ LIMIT 10
 
 ## 📄 系统文档
 
-- [[PARA+LLM-Wiki 整合系统架构设计文档 v1.1|系统架构 v1.1]]
-- [[Knowledge+PARA+LLM-Wiki融合系统|融合系统说明]]
+- [[PARA+LLM-Wiki 整合系统架构设计文档 v1.1 1|系统架构 v1.1]]
+- [[4 Archives/Knowledge+PARA+LLM-Wiki融合系统|融合系统说明]]
 - [[_META-INDEX|Wiki 全局导航]]
 
 ---

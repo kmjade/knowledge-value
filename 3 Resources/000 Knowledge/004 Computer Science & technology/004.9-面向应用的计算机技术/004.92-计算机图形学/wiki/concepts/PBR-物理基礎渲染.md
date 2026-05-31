@@ -5,7 +5,7 @@ aliases:
   - PBR 材質
 created: 2026-05-30
 type: concept
-category: cg-lighting
+topic: cg-lighting
 status: reviewed
 ---
 

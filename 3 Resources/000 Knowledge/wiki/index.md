@@ -91,16 +91,16 @@ version: "1.1"
 
 ### 系統與標準 (8)
 
-| # | 實體 | 英文名 | 類型 | 對應 DDC |
-|---|------|--------|------|:--------:|
-| 1 | [[DDC\|DDC]] | Dewey Decimal Classification | 系統 | 050 |
-| 2 | [[UDC\|UDC]] | Universal Decimal Classification | 系統 | 050 |
-| 3 | [[CLC-中國圖書館分類法\|CLC]] | Chinese Library Classification | 系統 | 050 |
-| 4 | [[LCC-國會圖書館分類法\|LCC]] | Library of Congress Classification | 系統 | 050 |
-| 5 | [[MeSH\|MeSH]] | Medical Subject Headings | 系統 | 050 |
-| 6 | [[Gene-Ontology\|GO]] | Gene Ontology | 系統 | 020 |
-| 7 | [[Wikidata\|Wikidata]] | 開放知識圖譜平臺 | 平臺 | 070 |
-| 8 | [[SPARQL\|SPARQL]] | 語義網查詢語言 | 標準 | 070 |
+| #   | 實體                     | 英文名                                | 類型  | 對應 DDC |
+| --- | ---------------------- | ---------------------------------- | --- | :----: |
+| 1   | [[DDC\|DDC]]           | Dewey Decimal Classification       | 系統  |  050   |
+| 2   | [[UDC\|UDC]]           | Universal Decimal Classification   | 系統  |  050   |
+| 3   | [[CLC-中國圖書館分類法\|CLC]]  | Chinese Library Classification     | 系統  |  050   |
+| 4   | [[LCC-國會圖書館分類法\|LCC]]  | Library of Congress Classification | 系統  |  050   |
+| 5   | [[MeSH\|MeSH]]         | Medical Subject Headings           | 系統  |  050   |
+| 6   | [[Gene-Ontology\|GO]]  | Gene Ontology                      | 系統  |  020   |
+| 7   | [[Wikidata\|Wikidata]] | 開放知識圖譜平臺                           | 平臺  |  070   |
+| 8   | [[SPARQL\|SPARQL]]     | 語義網查詢語言                            | 標準  |  070   |
 
 ### 方法與工具 (4)
 

@@ -2,7 +2,7 @@
 aliases: [ODF, Open Document Format]
 created: 2026-05-30
 type: concept
-category: doc-processing
+topic: doc-processing
 status: reviewed
 ---
 # 開放文檔格式 Open Document Format (ODF)

@@ -5,7 +5,7 @@ aliases:
   - Graphics Processing Unit
 created: 2026-05-30
 type: concept
-category: cg-hardware
+topic: cg-hardware
 status: reviewed
 ---
 

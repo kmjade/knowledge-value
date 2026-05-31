@@ -2,7 +2,7 @@
 aliases: [V&V, Verification & Validation] 
 created: 2026-05-30
 type: concept
-category: simulation
+topic: simulation
 status: reviewed
 ---
 # Verification & Validation 驗證與確認

@@ -6,7 +6,7 @@ aliases:
 created: 2026-05-30
 type: concept
 topic: generative-art
-source: "[[algorithmic-art-skill]]"
+source: "[[0 Inbox/generative-art/raw/algorithmic-art-skill]]"
 ---
 
 # Generative Art Artifact · 生成艺术制品
@@ -77,7 +77,7 @@ source: "[[algorithmic-art-skill]]"
 
 ## 相关
 
-- [[algorithmic-philosophy]] — 制品是哲学的执行
-- [[seeded-randomness]] — 种子 UX 的标准实现
-- [[cartographic-drift]] — 完整制品案例
-- [[p5js|p5.js]] — 底层技术
+- [[0 Inbox/generative-art/wiki/concepts/algorithmic-philosophy]] — 制品是哲学的执行
+- [[0 Inbox/generative-art/wiki/concepts/seeded-randomness]] — 种子 UX 的标准实现
+- [[0 Inbox/generative-art/wiki/concepts/cartographic-drift]] — 完整制品案例
+- [[0 Inbox/generative-art/wiki/entities/p5js|p5.js]] — 底层技术

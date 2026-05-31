@@ -2,7 +2,7 @@
 aliases: [ARM Architecture]
 created: 2026-05-30
 type: concept
-category: 嵌入式系統
+topic: 嵌入式系統
 status: reviewed
 ---
 # ARM 架構 ARM Architecture

@@ -2,7 +2,7 @@
 aliases: [Central Bank Policy]
 created: 2026-05-29
 type: concept
-category: 基本面
+topic: 基本面
 status: reviewed
 ---
 

@@ -5,7 +5,7 @@ aliases:
   - Epic Games 引擎
 created: 2026-05-30
 type: entity
-category: game-engine
+topic: game-engine
 domain: cg
 status: reviewed
 ---

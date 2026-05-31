@@ -2,7 +2,7 @@
 aliases: [RTOS, FreeRTOS, Real-Time OS]
 created: 2026-05-30
 type: concept
-category: 嵌入式系統
+topic: 嵌入式系統
 status: reviewed
 ---
 # 即時作業系統 RTOS

@@ -2,7 +2,7 @@
 aliases: [Monte Carlo, MCMC] 
 created: 2026-05-30
 type: concept
-category: simulation
+topic: simulation
 status: reviewed
 ---
 # Monte Carlo Method 蒙地卡羅方法

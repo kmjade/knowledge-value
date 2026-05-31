@@ -2,7 +2,7 @@
 aliases: [Order Types]
 created: 2026-05-29
 type: concept
-category: 基礎
+topic: 基礎
 status: reviewed
 ---
 

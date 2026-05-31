@@ -45,12 +45,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 Projects/📁 已完成/PARA+LLM-Wiki 融合系统需求文档 v1.0.md",
+                "file": "1 Projects/📁 已完成/PARA+LLM-Wiki 融合系统/开发工作清单.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PARA+LLM-Wiki 融合系统需求文档 v1.0"
+              "title": "开发工作清单"
             }
           }
         ],
@@ -111,7 +111,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 285.5
+    "width": 260.5
   },
   "right": {
     "id": "19cea027a20285b0",
@@ -221,7 +221,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 329.5
+    "width": 511.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -244,44 +244,44 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "460a9e42de521b6a",
+  "active": "d8c12a0f6eab5c63",
   "lastOpenFiles": [
-    "3 Resources/600 Applied Sciences/630 农业科学/ram/智能农业-资讯/2026-05-31_1500-智能农业资讯.md",
-    "1 Projects/📁 已完成/PARA+LLM-Wiki 融合系统需求文档 v1.0.md.tmp.20056.bb23d1be128c",
-    "1 Projects/📁 已完成/SRS 10-附录.md",
-    "1 Projects/📁 已完成/SRS 10-附录.md.tmp.20056.e1ba9d17b8db",
-    "1 Projects/📁 已完成/SRS 09-可追溯矩阵.md",
-    "1 Projects/📁 已完成/SRS 09-可追溯矩阵.md.tmp.20056.5c0acb7dd1f6",
-    "1 Projects/📁 已完成/SRS 08-验收标准.md",
-    "1 Projects/📁 已完成/SRS 08-验收标准.md.tmp.20056.138157907cad",
-    "1 Projects/📁 已完成/SRS 07-约束与假设.md",
-    "1 Projects/📁 已完成/SRS 07-约束与假设.md.tmp.20056.d35c84414179",
-    "1 Projects/📁 已完成/SRS 06-数据需求.md",
-    "1 Projects/📁 已完成/SRS 06-数据需求.md.tmp.20056.84e0ef940425",
-    "1 Projects/📁 已完成/SRS 05-接口需求.md",
-    "1 Projects/📁 已完成/SRS 05-接口需求.md.tmp.20056.a499ca951a30",
-    "1 Projects/📁 已完成/SRS 04-非功能需求.md",
-    "1 Projects/📁 已完成/SRS 04-非功能需求.md.tmp.20056.730ab6a044ef",
-    "1 Projects/📁 已完成/SRS 03-功能需求.md",
-    "1 Projects/📁 已完成/SRS 03-功能需求.md.tmp.20056.79543ed959b9",
-    "1 Projects/📁 已完成/SRS 02-总体描述.md",
-    "1 Projects/📁 已完成/SRS 02-总体描述.md.tmp.20056.a8175e9e0f93",
-    "1 Projects/📁 已完成/SRS 01-文档概述.md",
-    "1 Projects/📁 已完成/PARA+LLM-Wiki 整合系统架构设计文档 v1.0.md",
-    "1 Projects/📁 已完成/PARA+LLM-Wiki 融合系统需求文档 v1.0.md",
-    "Periodic/daily/2026/2026-05-31.md",
-    "Periodic/daily/2026/2026-05-30.md",
-    "3 Resources/600 Applied Sciences Engineering/681 精密仪器/99-資源收集/精密儀器資源收集.md",
-    "3 Resources/600 Applied Sciences Engineering/681 精密仪器/99-資源收集/精密儀器常見問題.md",
-    "3 Resources/600 Applied Sciences Engineering/681 精密仪器/09-校準與標準/09-校準與標準.md",
-    "3 Resources/600 Applied Sciences Engineering/681 精密仪器/08-自動化儀器/08-自動化儀器.md",
-    "3 Resources/600 Applied Sciences Engineering/681 精密仪器/07-檢測儀器/07-檢測儀器.md",
-    "3 Resources/600 Applied Sciences Engineering/681 精密仪器/03-分析儀器/03-分析儀器.md",
-    "3 Resources/600 Applied Sciences Engineering/681 精密仪器/05-醫療儀器/05-醫療儀器.md",
-    "3 Resources/600 Applied Sciences Engineering/681 精密仪器/02-光學儀器/02-光學儀器.md",
-    "3 Resources/600 Applied Sciences Engineering/681 精密仪器/01-計量儀器/01-計量儀器.md",
-    "3 Resources/600 Applied Sciences Engineering/681 精密仪器/00-MOCs/精密儀器知識庫總覽.md",
-    "3 Resources/600 Applied Sciences Engineering/681 精密仪器/00-MOCs/精密儀器學習路徑.md",
+    "1 Projects/📁 已完成/PARA+LLM-Wiki 融合系统/开发工作清单.md.tmp.11152.226c317780a5",
+    "1 Projects/📁 已完成/PARA+LLM-Wiki 融合系统/开发工作清单.md.tmp.11152.7a47264606e3",
+    "1 Projects/📁 已完成/PARA+LLM-Wiki 融合系统/开发工作清单.md.tmp.11152.13f47a404eb9",
+    "1 Projects/📁 已完成/PARA+LLM-Wiki 融合系统/开发工作清单.md.tmp.11152.413a5d1aeaa2",
+    "AI-Log/implementation-report-2026-05-31.md",
+    "AI-Log/frontmatter-audit-2026-05-31.md",
+    "1 Projects/📁 已完成/PARA+LLM-Wiki 融合系统/开发工作清单.md",
+    "AI-Log/implementation-report-2026-05-31.md.tmp.11152.25c983c0fe59",
+    "1 Projects/📁 已完成/PARA+LLM-Wiki 融合系统/开发工作清单.md.tmp.11152.03096b822294",
+    "1 Projects/📁 已完成/PARA+LLM-Wiki 融合系统/开发工作清单.md.tmp.11152.ccf936f4ae20",
+    "1 Projects/📁 已完成/PARA+LLM-Wiki 融合系统/开发工作清单.md.tmp.11152.9a37dd1ae6a3",
+    "1 Projects/📁 已完成/PARA+LLM-Wiki 融合系统/开发工作清单.md.tmp.11152.c2b2fe9c24d2",
+    "1 Projects/📁 已完成/PARA+LLM-Wiki 融合系统/开发工作清单.md.tmp.11152.0df7e6fe1347",
+    "1 Projects/📁 已完成/PARA+LLM-Wiki 融合系统/开发工作清单.md.tmp.11152.80421576e8a6",
+    "0 Inbox/_processed/02-Learning/02-Learning.md",
+    "0 Inbox/_processed/02-工具製造/02-工具製造.md",
+    "0 Inbox/技術學習資源.md",
+    "CLAUDE.md",
+    "0 Inbox/people/wiki/log.md",
+    "3 Resources/600 Applied Sciences/630 农业科学/ram/智能农业-资讯/2026-05-31_1600-智能农业资讯.md",
+    "3 Resources/900 History & Geography/wiki/index.md",
+    "3 Resources/800 Literature/wiki/index.md",
+    "04-導航儀器/04-導航儀器.md",
+    "3 Resources/700 Arts/wiki/index.md",
+    "4 Archives/PARA+LLM-Wiki 整合系统架构设计文档 v1.1 1.md",
+    "4 Archives/PARA+LLM-Wiki 整合系统架构设计文档 v1.0 1.md",
+    "4 Archives/Knowledge+PARA+LLM-Wiki融合系统.md",
+    "4 Archives/generative-art/README.md",
+    "3 Resources/600 Applied Sciences/wiki/index.md",
+    "0 Inbox/Applied Sciences + LLM-Wiki 整合系统架构设计 v1.0.md",
+    "0 Inbox/Applied Sciences + LLM-Wiki.md",
+    "3 Resources/500 Natural Sciences/wiki/index.md",
+    "3 Resources/400 Language/wiki/index.md",
+    "3 Resources/200 Religion & Theology/wiki/index.md",
+    "3 Resources/100 Philosophy & Psychology/wiki/index.md",
+    "3 Resources/100 Philosophy & Psychology/100 Philosophy & Psychology.md",
     "3 Resources/600 Applied Sciences Engineering/689 业余手工/08-電子DIY/智能小车/RoboMaster/99-资源收集/images/Pasted image 20260524122959.png",
     "3 Resources/600 Applied Sciences Engineering/689 业余手工/08-電子DIY/智能小车/RoboMaster/99-资源收集/images/Pasted image 20260524122701.png",
     "3 Resources/600 Applied Sciences Engineering/689 业余手工/08-電子DIY/智能小车/RoboMaster/99-资源收集/images/Pasted image 20260523201512.png",

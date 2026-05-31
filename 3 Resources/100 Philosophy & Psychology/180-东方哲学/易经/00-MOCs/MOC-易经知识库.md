@@ -57,7 +57,7 @@ last-updated: 2026-02-09
 
 ## 🔑 核心概念
 
-详见：[[3 Resources/100 Philosophy & Psychology/180-东方哲学/易经/00-MOCs/易经-核心概念|易经核心概念索引]]
+详见：[[0 Inbox/5 Zettels/📁 structures/易经/易经-核心概念|易经核心概念索引]]
 
 ### 本源哲学
 - [[0 Inbox/5 Zettels/📌 permanent/易经/20260201-0001 太极|太极]] - 宇宙万物的本源，混沌未分的状态
@@ -84,13 +84,13 @@ last-updated: 2026-02-09
 - [[0 Inbox/5 Zettels/📌 permanent/卦象/20260201-0063 既济卦|既济卦]] (䷾) - 水火既济，阴阳平衡
 
 ### 卦象索引
-详见：[[3 Resources/100 Philosophy & Psychology/180-东方哲学/易经/00-MOCs/易经-六十四卦]]
+详见：[[0 Inbox/5 Zettels/📁 structures/易经/易经-六十四卦]]
 
 ---
 
 ## 🎯 应用领域
 
-详见：[[3 Resources/100 Philosophy & Psychology/180-东方哲学/易经/00-MOCs/易经-应用领域|易经应用领域索引]]
+详见：[[0 Inbox/5 Zettels/📁 structures/易经/易经-应用领域|易经应用领域索引]]
 
 ### 主要应用方向
 - **管理学应用** - 组织管理，决策理论

@@ -4,7 +4,7 @@ aliases:
   - NVIDIA Corporation
 created: 2026-05-30
 type: entity
-category: hardware-vendor
+topic: hardware-vendor
 domain: cg
 status: reviewed
 ---

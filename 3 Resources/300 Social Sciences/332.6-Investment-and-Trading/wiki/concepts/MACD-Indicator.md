@@ -2,7 +2,7 @@
 aliases: [MACD, Moving Average Convergence Divergence]
 created: 2026-05-29
 type: concept
-category: 技術分析
+topic: 技術分析
 status: reviewed
 ---
 

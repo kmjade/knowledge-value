@@ -25,6 +25,29 @@ purpose: compile
 
 **状态**: success
 
+**操作**: 基礎設施 — CM-09 編譯日誌系統搭建
+
+**範圍**: 全 Vault (10 DDC 子庫 + People)
+
+**產出**:
+- `3 Resources/100 Philosophy & Psychology/wiki/log.md` — DDC 100
+- `3 Resources/200 Religion & Theology/wiki/log.md` — DDC 200
+- `3 Resources/300 Social Sciences/wiki/log.md` — DDC 300
+- `3 Resources/400 Language/wiki/log.md` — DDC 400
+- `3 Resources/500 Natural Sciences/wiki/log.md` — DDC 500
+- `3 Resources/600 Applied Sciences/wiki/log.md` — DDC 600
+- `3 Resources/700 Arts/wiki/log.md` — DDC 700
+- `3 Resources/800 Literature/wiki/log.md` — DDC 800
+- `3 Resources/900 History & Geography/wiki/log.md` — DDC 900
+- `0 Inbox/people/wiki/log.md` — People
+- `.claude/skills/wiki-compile/wiki-compile.md` — 強化日誌規則 (雙寫強制)
+
+**備註**: 9 個子庫缺少 `wiki/` 目錄已一併創建。日誌格式對標 `000 Knowledge/wiki/log.md` 標準。
+
+---
+
+**状态**: success
+
 **操作**: Skill/Command 创建 — `/weekly-review` 双轨实现
 
 **来源**: [[1 Projects/Work/PARA × LLM-Wiki 融合系统/03-Skills 完整设计.md|设计文档 Skill 5]]

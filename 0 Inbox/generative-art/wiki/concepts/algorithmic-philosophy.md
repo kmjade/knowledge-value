@@ -5,7 +5,7 @@ aliases:
 created: 2026-05-30
 type: concept
 topic: generative-art
-source: "[[algorithmic-art-skill]]"
+source: "[[0 Inbox/generative-art/raw/algorithmic-art-skill]]"
 ---
 
 # Algorithmic Philosophy · 算法哲学
@@ -50,6 +50,6 @@ source: "[[algorithmic-art-skill]]"
 
 ## 相关
 
-- [[seeded-randomness]] — 种子随机性范式
-- [[cartographic-drift]] — 本知识库的实际应用案例
-- [[generative-art-artifact]] — 从哲学到制品的转化
+- [[0 Inbox/generative-art/wiki/concepts/seeded-randomness]] — 种子随机性范式
+- [[0 Inbox/generative-art/wiki/concepts/cartographic-drift]] — 本知识库的实际应用案例
+- [[0 Inbox/generative-art/wiki/concepts/generative-art-artifact]] — 从哲学到制品的转化

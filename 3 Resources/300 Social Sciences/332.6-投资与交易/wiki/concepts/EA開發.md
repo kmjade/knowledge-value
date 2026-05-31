@@ -2,7 +2,7 @@
 aliases: [Expert Advisor Development, EA Programming]
 created: 2026-05-29
 type: concept
-category: 量化
+topic: 量化
 status: reviewed
 ---
 

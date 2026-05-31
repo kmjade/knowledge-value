@@ -20,7 +20,7 @@ source_type: skill-documentation
 | **类型** | Claude Code Skill 定义 |
 | **捕获方式** | 通过 Claude skill 系统加载（WebFetch 不可用） |
 | **捕获日期** | 2026-05-30 |
-| **本地原始文件** | [[algorithmic-art-skill]] |
+| **本地原始文件** | [[0 Inbox/generative-art/raw/algorithmic-art-skill]] |
 
 ## 内容概要
 
@@ -35,13 +35,13 @@ source_type: skill-documentation
 
 | 页面 | 类型 |
 |------|:---|
-| [[algorithmic-philosophy\|Algorithmic Philosophy]] | 概念 |
-| [[seeded-randomness\|Seeded Randomness]] | 概念 |
-| [[generative-art-artifact\|Generative Art Artifact]] | 概念 |
-| [[cartographic-drift\|Cartographic Drift]] | 概念 (应用) |
-| [[p5js\|p5.js]] | 实体 |
+| [[0 Inbox/generative-art/wiki/concepts/algorithmic-philosophy\|Algorithmic Philosophy]] | 概念 |
+| [[0 Inbox/generative-art/wiki/concepts/seeded-randomness\|Seeded Randomness]] | 概念 |
+| [[0 Inbox/generative-art/wiki/concepts/generative-art-artifact\|Generative Art Artifact]] | 概念 |
+| [[0 Inbox/generative-art/wiki/concepts/cartographic-drift\|Cartographic Drift]] | 概念 (应用) |
+| [[0 Inbox/generative-art/wiki/entities/p5js\|p5.js]] | 实体 |
 
 ## 相关
 
-- [[algorithmic-art-skill]] — 本地原始捕获
+- [[0 Inbox/generative-art/raw/algorithmic-art-skill]] — 本地原始捕获
 - [[0 Inbox/people/wiki/index]] — 知识索引

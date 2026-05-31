@@ -2,7 +2,7 @@
 aliases: [Trading Discipline]
 created: 2026-05-29
 type: concept
-category: 心理
+topic: 心理
 status: reviewed
 ---
 

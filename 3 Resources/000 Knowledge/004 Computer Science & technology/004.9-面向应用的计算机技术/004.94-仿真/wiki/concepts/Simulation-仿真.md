@@ -2,7 +2,7 @@
 aliases: [Simulation] 
 created: 2026-05-30
 type: concept
-category: simulation
+topic: simulation
 status: reviewed
 ---
 # Simulation 仿真

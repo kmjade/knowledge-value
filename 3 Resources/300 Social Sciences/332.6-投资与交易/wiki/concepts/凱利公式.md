@@ -2,7 +2,7 @@
 aliases: [Kelly Criterion]
 created: 2026-05-29
 type: concept
-category: 風險
+topic: 風險
 status: reviewed
 ---
 

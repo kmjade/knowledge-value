@@ -4,7 +4,7 @@ aliases:
   - Scanline Conversion
 created: 2026-05-30
 type: concept
-category: cg-core
+topic: cg-core
 status: reviewed
 ---
 

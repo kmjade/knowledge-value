@@ -1,29 +1,38 @@
 ---
-aliases:
-  - 人物知识索引
-created: 2026-05-26
+created: 2026-05-31
 type: wiki-index
+topic: people
+status: awaiting-first-compile
 ---
 
-# People Wiki Index
+# People Wiki 索引
 
-人物 CRM 知识库索引页面。
+> 人物 CRM 與關係管理知識庫。待首次編譯。
 
-## 统计
+## 📊 統計
 
-- 概念页面: 0
-- 实体页面: 0
-- 来源页面: 0
+| 指標 | 數值 |
+|------|------|
+| 人物頁 | 0 |
+| 關係頁 | 0 |
+| 狀態 | 🟢 框架就緒，待首次編譯 |
 
-## 人物类型索引
+## 🏗️ 人物類型
 
-> 待编译后自动生成
+- family — 家人
+- friend — 朋友
+- colleague — 同事
+- mentor — 導師
+- network — 社交網絡
 
-## 最近更新
+## 關係維度
 
-> 待编译后自动生成
+- professional — 專業關係
+- personal — 個人關係
+- collaborative — 協作關係
 
----
+## 🔗 跨庫鏈接
 
-*最后编译: 待首次编译*
-
+- Schema: [[../CLAUDE.md]]
+- 編譯日誌: [[0 Inbox/people/wiki/log]]
+- 知識組織: [[3 Resources/000 Knowledge/wiki/index]]
