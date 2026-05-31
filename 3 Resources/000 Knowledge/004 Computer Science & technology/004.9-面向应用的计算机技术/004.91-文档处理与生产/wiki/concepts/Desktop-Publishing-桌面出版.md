@@ -34,4 +34,15 @@ status: reviewed
 | 網點 (Halftone) | 模擬連續色調的印刷技術 |
 | 主頁 (Master Page) | 統一套用頁碼/頁首/頁尾的模板 |
 
+## 分類碼 Classification
+
+| 體系 | 類號 |
+|:---:|:---:|
+| DDC | `006.686` |
+| UDC | `004.915` |
+| CLC | `TP317.4` |
+| LCC | `Z253.53` |
+
+> 完整對照見 [[Adobe-InDesign]] 實體頁
+
 ## 相關: [[Adobe-InDesign]] · [[PDF]] · [[LaTeX]] · Sources: [[source-DocProc-KB]]

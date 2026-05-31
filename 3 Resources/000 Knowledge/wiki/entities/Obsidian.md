@@ -69,13 +69,13 @@ Obsidian 是 **PARA+LLM-Wiki 系统的宿主平台**：
 - [[3 Resources/productivity/raw/articles/Obsidian/README.md]]
 - [[3 Resources/productivity/raw/articles/LifeOS × LLM-Wiki 融合系统.md]]
 
-## 分类码
+## 分类码 Classification
 
-| 体系 | 类号 | 说明 |
-|:----:|:----:|------|
-| **UDC** | `004.91Obsidian` | 文本处理/桌面出版应用 |
-| **DDC** | `005.52` | 文字处理 / 桌面出版 |
-| **CLC** | `TP317.1` | 办公自动化系统 |
-| **LCC** | `QA76.76.T49` | 文本编辑器 |
+| 体系 | 类号 | 名称 | 层级 |
+|:---:|:---:|------|------|
+| **DDC** | `005.52` | Word processing | 005 计算机编程 → 005.5 通用应用 |
+| **UDC** | `004.91` | Document processing | 004 计算机科学 → 004.9 应用技术 |
+| **CLC** | `TP317.1` | 办公自动化系统 | T 工业技术 → TP 计算机 → TP31 软件 |
+| **LCC** | `QA76.76.T48` | Text editors | Q 科学 → QA76 计算机软件 |
 
-> 详见 [[3 Resources/000 Knowledge/004 Computer Science & technology/004.43-计算机语言/Python/99-資源收集/计算机语言-分类码|计算机语言分类码]]
+> 完整层级树 + 8 工具对照表 → [[Obsidian 分类码]]（独立分类码参考页）
