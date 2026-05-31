@@ -1,0 +1,7 @@
+{
+  "name": "weekly-review",
+  "description": "每週回顧與知識蒸餾 — 生成週記、批量編譯、過期歸檔、專案審查、Wiki 健康檢查",
+  "instructions": "weekly-review.md",
+  "commands": ["weekly-review"],
+  "enabled": true
+}

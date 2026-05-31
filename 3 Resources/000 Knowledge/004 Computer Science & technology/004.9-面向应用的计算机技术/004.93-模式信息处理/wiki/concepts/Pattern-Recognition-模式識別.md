@@ -1,6 +1,10 @@
 ---
-aliases: [Pattern Recognition] · created: 2026-05-30
-type: concept · category: pattern-recog · status: reviewed
+aliases:
+  - Pattern Recognition
+created: 2026-05-30
+type: concept
+category: pattern-recog
+status: reviewed
 ---
 # Pattern Recognition 模式識別
 
@@ -21,4 +25,6 @@ type: concept · category: pattern-recog · status: reviewed
 - **句法模式識別**: 結構化語法規則 (形式語言、語法解析)
 - **神經網絡**: 端到端可微學習 (CNN, Transformer)
 
-## 相關: [[Feature-Extraction-特徵提取]]、[[Classification-分類器]] · Sources: [[source-Pattern-KB]]
+## 相關: [[Feature-Extraction-特徵提取]]、[[Classification-分類器]] 
+
+· Sources: [[source-Pattern-KB]]

@@ -106,6 +106,7 @@ not done
 path includes obsidian知識庫
 sort by due
 sort by created reverse
+limit 10
 ```
 
 ---

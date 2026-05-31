@@ -21,9 +21,9 @@
 
 ## Cross-References
 
-- [[../004-Computer-Science/004-Computer science & technology|DDC 004 Computer Science]] — Moved to own DDC slot (was under 000)
-- [[../100 Philosophy & Psychology/README|DDC 100 Philosophy]] — Epistemology foundation
-- [[../400 Language/README|DDC 400 Language]] — 知識表示
+- [[004 Computer science & technology|DDC 004 Computer Science]] — Moved to own DDC slot (was under 000)
+- [[100 Philosophy & Psychology|DDC 100 Philosophy]] — Epistemology foundation
+- [[400 Language|DDC 400 Language]] — 知識表示
 
 ---
 

@@ -7,7 +7,7 @@ aliases:
 created: 2026-05-29
 version: "1.0"
 status: stable
-domain: 600 Applied Sciences Engineering
+domain: 600 Applied Sciences
 parent: "[[Knowledge+PARA+LLM-Wiki融合系统|融合系統總架構]]"
 ---
 
@@ -86,9 +86,9 @@ DDC 600 Technology (Applied Sciences) 涵蓋人類將科學知識轉化為實用
 ### 2.1 架構全景
 
 ```
-600 Applied Sciences Engineering/
+600 Applied Sciences/
 │
-├── 600 Applied Sciences Engineering.md   ← MOC 主入口
+├── 600 Applied Sciences.md               ← MOC 主入口
 ├── README.md                              ← 領域簡介
 │
 ├── 00-MOCs/                               ← 總覽與導航
@@ -109,7 +109,7 @@ DDC 600 Technology (Applied Sciences) 涵蓋人類將科學知識轉化為實用
 ├── 640 家政科学/
 ├── 650 管理科学/
 ├── 660 化学工程/
-├── 670 制造与工艺/
+├── 670 工業工程/
 ├── 680 制造工程/
 ├── 681 精密仪器/
 ├── 689 业余手工/        ←   含深度子 KB：
@@ -146,7 +146,7 @@ DDC 600 Technology (Applied Sciences) 涵蓋人類將科學知識轉化為實用
 600 級 MOC 作為所有子 KB 的統一中樞：
 
 ```markdown
-# 600 Applied Sciences Engineering
+# 600 Applied Sciences
 
 ## 快速導航
 
@@ -260,7 +260,7 @@ DDC 600 Technology (Applied Sciences) 涵蓋人類將科學知識轉化為實用
 
 | 層級 | 深度 | 範例 | MOC 類型 |
 |------|:---:|------|---------|
-| L0 | 600 | `600 Applied Sciences Engineering/` | 領域 MOC |
+| L0 | 600 | `600 Applied Sciences/` | 領域 MOC |
 | L1 | DDC | `689 业余手工/` | DDC KB MOC |
 | L2 | 子 KB | `08-電子DIY/` | 子 KB MOC |
 | L3 | 專案 | `智能小车/` | 專案 MOC (Dataview) |
@@ -465,7 +465,7 @@ DDC 600 子 KB 覆蓋：
 ✅ 610 医学健康         ✅ 620 工程科学
 ✅ 630 农业科学         ✅ 640 家政科学
 ✅ 650 管理科学         ✅ 660 化学工程
-✅ 670 制造与工艺       ✅ 680 制造工程
+✅ 670 工業工程       ✅ 680 制造工程
 ✅ 681 精密仪器         ✅ 689 业余手工 ← 🔥 最活躍
 ✅ 690 建筑科学
 

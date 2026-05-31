@@ -24,4 +24,4 @@ created: 2026-05-28
 
 ## 隶属
 
-[[../200 Religion & Theology.md\|DDC 200]] → 230 基督教神学
+[[200 Religion & Theology\|DDC 200]] → 230 基督教神学

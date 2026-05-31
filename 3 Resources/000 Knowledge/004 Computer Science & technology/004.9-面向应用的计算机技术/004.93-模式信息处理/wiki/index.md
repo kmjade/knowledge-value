@@ -1,5 +1,8 @@
 ---
-type: index · topic: pattern-recognition · created: 2026-05-30 · total_concepts: 8
+type: index
+topic: pattern-recognition
+created: 2026-05-30
+total_concepts: 8
 ---
 # 模式信息處理 Wiki 索引
 | 概念 | English |

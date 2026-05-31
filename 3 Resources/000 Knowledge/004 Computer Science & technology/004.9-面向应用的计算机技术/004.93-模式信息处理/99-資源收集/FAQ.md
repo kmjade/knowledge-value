@@ -1,5 +1,9 @@
 ---
-aliases: [Pattern FAQ] · tags: [DDC/004.93, faq]
+aliases:
+  - Pattern FAQ
+tags:
+  - DDC/004.93
+  - faq
 ---
 # 模式信息處理 FAQ
 

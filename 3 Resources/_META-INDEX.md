@@ -11,13 +11,14 @@ created: 2026-05-26
 
 ## Wiki 子库
 
-| 子库 | 路径 | 状态 | 描述 |
-|------|------|------|------|
-| AI/ML | [[3 Resources/000 Knowledge/Computer-Science/Artificial-Intelligence/02-机器学习/ai-ml/CLAUDE\|ai-ml]] | 🟢 活跃 | AI 与机器学习知识库 |
-| People | [[0 Inbox/people/CLAUDE\|people]] | 🟡 规划中 | 人物 CRM 与关系管理 |
-| Finance | [[finance/CLAUDE.md\|finance]] | 🟡 规划中 | 财务理财知识 |
-| Productivity | [[productivity/CLAUDE.md\|productivity]] | 🟡 规划中 | 生产力工具与方法 |
-| Epistemology | [[4 Archives/by-type/Resources/epistemology/CLAUDE\|epistemology]] | 🟢 活跃 | 科学-知识-学科体系 |
+| 子库                   | 路径                             | 状态     | 描述    |
+| -------------------- | ------------------------------ | ------ | ----- |
+| 000 Knowledge        | [[000 Knowledge\|知識入口]]        | 🟢 活跃  | 知識知識库 |
+| 300 Social Sciences  | [[300 Social Sciences\|社会科学]]  | 🟡 规划中 | 社会科学  |
+| 400 Language         | [[400 Language\|语言学科]]         | 🟡 规划中 | 语言学科  |
+| 500 Natural Sciences | [[500 Natural Sciences\|自然科学]] | 🟡 规划中 | 自然科学  |
+| 600 Applied Sciences | [[600 Applied Sciences]]       | 🟢 活跃  | 应用科学  |
+| 700 Arts             | [[700 Arts\|艺术]]               | 🟡 规划中 |       |
 
 ## 其他资源目录
 
@@ -32,6 +33,7 @@ created: 2026-05-26
 ## 快速导航
 
 ### 最近更新
+
 ```dataview
 TABLE file.mtime as "更新时间"
 FROM "3 Resources"
@@ -46,6 +48,7 @@ LIST
 FROM "1 Projects"
 WHERE !completed
 SORT file.mtime DESC
+LIMIT 10
 ```
 
 ## 信息生命周期

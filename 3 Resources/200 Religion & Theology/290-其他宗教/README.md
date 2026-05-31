@@ -47,7 +47,7 @@ created: 2026-05-28
 
 ## 隶属
 
-- [[../200 Religion & Theology.md|DDC 200]] → 290
+- [[200 Religion & Theology|DDC 200]] → 290
 - [[180-东方哲学/README|DDC 180 东方哲学]] — 佛教·道家·儒家的哲学维度
 
 ## 子库规划（待建 🟡）

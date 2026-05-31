@@ -78,4 +78,4 @@ Obsidian 是 **PARA+LLM-Wiki 系统的宿主平台**：
 | **CLC** | `TP317.1` | 办公自动化系统 |
 | **LCC** | `QA76.76.T49` | 文本编辑器 |
 
-> 详见 [[3 Resources/000 Knowledge/004 Computer Science & technology/004.43-计算机语言/计算机语言-分类码|计算机语言分类码]]
+> 详见 [[3 Resources/000 Knowledge/004 Computer Science & technology/004.43-计算机语言/Python/99-資源收集/计算机语言-分类码|计算机语言分类码]]

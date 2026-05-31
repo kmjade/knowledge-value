@@ -1,6 +1,11 @@
 ---
-aliases: [Classification, Classifier] · created: 2026-05-30
-type: concept · category: pattern-recog · status: reviewed
+aliases:
+  - Classification
+  - Classifier
+created: 2026-05-30
+type: concept
+category: pattern-recog
+status: reviewed
 ---
 # Classification 分類器
 

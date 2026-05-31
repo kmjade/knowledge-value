@@ -1,6 +1,10 @@
 ---
-aliases: [Tesseract, Tesseract OCR] · created: 2026-05-30
-type: entity · entity_type: software-library
+aliases:
+  - Tesseract
+  - Tesseract OCR
+created: 2026-05-30
+type: entity
+entity_type: software-library
 ---
 # Tesseract OCR
 

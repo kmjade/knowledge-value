@@ -24,4 +24,4 @@ created: 2026-05-28
 
 ## 隶属
 
-[[../200 Religion & Theology.md\|DDC 200 Religion]] → 210 宗教哲学
+[[200 Religion & Theology\|DDC 200 Religion]] → 210 宗教哲学

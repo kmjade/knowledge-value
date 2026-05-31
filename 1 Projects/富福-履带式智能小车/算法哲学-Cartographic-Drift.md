@@ -45,7 +45,7 @@ source: 智能小车
 
 ## 相关
 
-- [[3 Resources/generative-art/README|生成艺术知识库]] — Algorithmic Art 完整知识体系
-- [[3 Resources/generative-art/wiki/concepts/algorithmic-philosophy|算法哲学方法论]]
-- [[3 Resources/generative-art/wiki/concepts/seeded-randomness|种子随机性范式]]
-- [[3 Resources/generative-art/wiki/entities/p5js|p5.js]]
+- [[0 Inbox/generative-art/README|生成艺术知识库]] — Algorithmic Art 完整知识体系
+- [[algorithmic-philosophy|算法哲学方法论]]
+- [[seeded-randomness|种子随机性范式]]
+- [[p5js|p5.js]]

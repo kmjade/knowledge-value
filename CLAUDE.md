@@ -91,6 +91,12 @@ This vault is version-controlled with Git and synced to GitHub at https://github
 ### 规则 5: 使用 Wikilinks 建立连接
 使用 `[[]]` 语法连接相关概念和实体。
 
+1. **永远不修改 raw/ 中的文件** — 原始资料是不可变的事实基线
+2. **永远不删除文件** — 只移动到 04-Archive/（删除需明确二次确认）
+3. **所有 AI 写入 wiki/ 的内容必须有来源标注** — frontmatter 中的 sources 字段
+4. **0 Inbox/ 中的文件在分拣前不要读取用于其他目的** — 防止未分拣信息污染 Wiki
+5. **每次修改 wiki/ 文件后必须追加到 AI-Log/compile-log.md**
+
 ## 信息生命周期
 
 | 阶段 | 描述 | 存放位置 | 保留期 |
@@ -102,8 +108,20 @@ This vault is version-controlled with Git and synced to GitHub at https://github
 
 ## Frontmatter 标准
 
+```
+---yaml
+created: YYYY-MM-DD
+updated: YYYY-MM-DD
+type: [note|task|wiki-concept|wiki-entity|wiki-source|daily|weekly|project|area]
+lifecycle: [ephemeral|operational|reference|evergreen]
+status: [inbox|active|review|archived]
+tags: []
+sources: []      # wiki/ 文件专用，记录来源 raw/ 文件路径
+origin: [manual|webclipper|voice|email|ai-generated]
+---
+```
 ### Wiki 页面标准格式
-```yaml
+```
 ---
 aliases:
   - [别名1]
@@ -115,7 +133,7 @@ topic: ai-ml | people | finance | productivity
 ```
 
 ### 原始资料标准格式
-```yaml
+```
 ---
 created: YYYY-MM-DD
 source: [来源 URL 或描述]
@@ -126,7 +144,7 @@ tags:
 ```
 
 ### 分拣标记
-```yaml
+```
 ---
 triaged: true
 triaged_at: YYYY-MM-DDTHH:MM:SS
@@ -137,19 +155,19 @@ triaged_to: [目标路径]
 ## Wiki 子库目录
 
 ### 活跃子库
-| 子库 | 路径 | Schema | 状态 |
-|------|------|--------|------|
-| AI/ML | `3 Resources/0 Department/Computer-Science/Artificial-Intelligence/02-机器学习/ai-ml/` | [[3 Resources/000 Knowledge/Computer-Science/Artificial-Intelligence/02-机器学习/ai-ml/CLAUDE\|schema]] | 🟢 活跃 |
-| Epistemology | `4 Archives/by-type/Resources/epistemology/` | [[4 Archives/by-type/Resources/epistemology/CLAUDE\|schema]] | 🟢 活跃 |
-| Productivity | `3 Resources/productivity/` | [[3 Resources/productivity/CLAUDE.md\|schema]] | 🟢 活跃 |
-| Knowledge-Systems | `3 Resources/000 Knowledge/` | DDC 001 知识组织 | 🟢 活跃 |
-| Philosophy-Psychology | `3 Resources/100 Philosophy & Psychology/` | DDC 100 哲学·心理学 | 🟢 活跃 |
-| Religion-Theology | `3 Resources/200 Religion & Theology/` | DDC 200 宗教·神学 | 🟡 框架 |
-| Social-Sciences | `3 Resources/300 Social Sciences/` | DDC 300 社会科学 | 🟡 框架 |
-| Natural-Sciences | `3 Resources/500 Natural Sciences/` | DDC 500 自然科学 | 🟢 活跃 |
-| Applied-Sciences | `3 Resources/06 Applied Sciences/` | DDC 600 应用科学 | 🟢 活跃 |
-| People | `3 Resources/people/` | [[0 Inbox/people/CLAUDE\|schema]] | 🟡 规划中 |
-| Finance | `3 Resources/finance/` | [[3 Resources/finance/CLAUDE.md\|schema]] | 🟡 规划中 |
+| 子库                    | 路径                                                                                 | Schema                                                                                             | 状态     |
+| --------------------- | ---------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | ------ |
+| Epistemology          | `4 Archives/by-type/Resources/epistemology/`                                       | [[4 Archives/by-type/Resources/epistemology/CLAUDE\|schema]]                                       | 🟢 活跃  |
+| Knowledge-Systems     | `3 Resources/000 Knowledge/`                                                       | DDC 001 知识组织                                                                                       | 🟢 活跃  |
+| Philosophy-Psychology | `4 Archives/by-type/Resources/100 Philosophy & Psychology/`                        | DDC 100 哲学·心理学                                                                                     | 🟢 活跃  |
+| Religion-Theology     | `4 Archives/by-type/Resources/200 Religion & Theology/`                            | DDC 200 宗教·神学                                                                                      | 🟡 框架  |
+| Social-Sciences       | `3 Resources/300 Social Sciences/`                                                 | DDC 300 社会科学                                                                                       | 🟡 框架  |
+| Natural-Sciences      | `3 Resources/500 Natural Sciences/`                                                | DDC 500 自然科学                                                                                       | 🟢 活跃  |
+| Applied-Sciences      | `3 Resources/600 Applied Sciences/`                                                | [[3 Resources/600 Applied Sciences/CLAUDE\|schema]]                                                | 🟢 活跃  |
+| Literature            | `4 Archives/by-type/Resources/800 Literature/`                                     | DDC 800 文学                                                                                         | 🟡 框架  |
+| History-Geography     | `4 Archives/by-type/Resources/900 History & Geography/`                            | DDC 900 历史·地理                                                                                      | 🟡 框架  |
+| People                | `0 Inbox/people/`                                                                  | [[0 Inbox/people/CLAUDE\|schema]]                                                                  | 🔴 未创建 |
+
 
 ### 子库结构
 ```

@@ -1,6 +1,10 @@
 ---
-aliases: [OpenCV, Open Source Computer Vision Library] · created: 2026-05-30
-type: entity · entity_type: software-library
+aliases:
+  - OpenCV
+  - Open Source Computer Vision Library
+created: 2026-05-30
+type: entity
+entity_type: software-library
 ---
 # OpenCV
 

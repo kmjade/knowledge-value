@@ -1,6 +1,11 @@
 ---
-aliases: [OCR, Optical Character Recognition] · created: 2026-05-30
-type: concept · category: pattern-recog · status: reviewed
+aliases:
+  - OCR
+  - Optical Character Recognition
+created: 2026-05-30
+type: concept
+category: pattern-recog
+status: reviewed
 ---
 # OCR 光學字符識別
 
@@ -22,4 +27,9 @@ type: concept · category: pattern-recog · status: reviewed
 - **TrOCR**: Transformer Encoder-Decoder，SOTA 場景文字
 - **CRAFT**: 字符級區域檢測
 
-## 相關: [[Tesseract-OCR]]、[[Image-Processing-圖像處理]] · Sources: [[source-Pattern-KB]]
+## 相關:
+
+[[Tesseract-OCR]]
+[[Image-Processing-圖像處理]] 
+
+· Sources: [[source-Pattern-KB]]

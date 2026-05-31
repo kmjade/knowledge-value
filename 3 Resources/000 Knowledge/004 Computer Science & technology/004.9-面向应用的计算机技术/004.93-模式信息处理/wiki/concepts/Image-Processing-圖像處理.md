@@ -1,6 +1,10 @@
 ---
-aliases: [Image Processing] · created: 2026-05-30
-type: concept · category: pattern-recog · status: reviewed
+aliases:
+  - Image Processing
+created: 2026-05-30
+type: concept
+category: pattern-recog
+status: reviewed
 ---
 # Image Processing 圖像處理
 

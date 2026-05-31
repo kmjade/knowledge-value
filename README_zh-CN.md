@@ -1,301 +1,315 @@
 ---
 language: zh-cn
+updated: 2026-05-31
 ---
 
-# 🧠 AI-value 知识管理系统
+# 🧠 knowledge-value — PARA × LLM-Wiki 融合系统
 
 ![PARA Method](https://img.shields.io/badge/PARA-Method-blue?style=for-the-badge)
 ![Obsidian](https://img.shields.io/badge/Obsidian-📎-7C3AED?style=for-the-badge)
 ![Claude Code](https://img.shields.io/badge/Claude-Code-🤖-10B981?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-Apache--2.0-FF6B6B?style=for-the-badge)
 
-[English](README.md) | [[README_zh-CN|简体中文]] | [[README_zh-TW| 繁体中文]]
+[English](README.md) | [[README_zh-CN|简体中文]] | [[README_zh-TW|繁体中文]]
 
 ---
 
 ## 概述
 
-> PARA 是由 [Tiago Forte](https://fortelabs.co/) 提出的一种生产力方法论，用于组织个人知识和任务。
+> 基于 **PARA 方法论** 与 **LLM-Wiki** 深度融合的个人知识管理系统。Claude Code 作为 AI Agent，在 Obsidian Vault 中承担信息路由与知识编译的职责——从「检索」到「编译」，将维护成本降到零。
 
-> 基于 PARA 方法论的个人知识管理系统，集成 Obsidian，系统化地组织信息。
+**核心理念**：一个 Vault、全部 Markdown、Claude Code 完全可访问。人类是信息的生产者和消费者，AI 负责中间所有的整理工作。
 
 ---
 
 ## 目录
 
-- [特性亮点](#-特性亮点)
-- [系统结构](#-系统结构)
-- [PARA 方法论](#-para-方法论)
+- [系统架构](#-系统架构)
+- [Vault 结构](#-vault-结构)
+- [PARA 分类法](#-para-分类法)
+- [DDC Wiki 子库](#-ddc-wiki-子库)
+- [_INDEX 导航系统](#-index-导航系统)
+- [核心规则](#-核心规则)
 - [工作流程](#-工作流程)
+- [Skills 技能库](#-skills-技能库)
 - [标签系统](#-标签系统)
-- [Claude Code 命令](#-claude-code-命令)
-- [最佳实践](#-最佳实践)
+- [快速开始](#-快速开始)
 - [文档资源](#-文档资源)
-- [贡献指南](#-贡献指南)
-- [常见问题](#-常见问题)
 
 ---
 
-## 特性亮点
+## 🏗️ 系统架构
 
-| 特性 | 说明 | 状态 |
+```
+┌─────────────────────────────────────────────────────────────┐
+│                 📥 Layer 1 — 信息捕获层                      │
+│            0 Inbox/ → /triage 智能分拣                       │
+└──────────────────────────┬──────────────────────────────────┘
+                           ↓
+┌─────────────────────────────────────────────────────────────┐
+│                 🧭 Layer 2 — PARA 行动管理层                 │
+│    1 Projects/ → 2 Areas/ → 3 Resources/ → 4 Archives/     │
+└──────────────────────────┬──────────────────────────────────┘
+                           ↓
+┌─────────────────────────────────────────────────────────────┐
+│                 📚 Layer 3 — Wiki 知识编译层                 │
+│        raw/ → /wiki-compile → wiki/ → outputs/              │
+│          (人类写入·AI只读)      (AI独占·人类只读)            │
+└─────────────────────────────────────────────────────────────┘
+                           ↕
+                   🧠 CLAUDE.md 根宪法
+                   Skills 技能库驱动
+```
+
+![[_meta/diagram/para-llm-wiki-architecture.svg]]
+
+---
+
+## 📁 Vault 结构
+
+```
+knowledge-value/
+├── 📥 0 Inbox/                  # 唯一入口 — 所有信息汇集处
+│   ├── _INDEX.md               #   收件箱快速导航
+│   ├── _processed/             #   已分拣存档
+│   ├── Clippings/              #   网页剪藏
+│   └── [临时文件直接放这里]
+│
+├── 🎯 1 Projects/              # 有截止日期的短期任务
+│   ├── _INDEX.md               #   项目快速导航
+│   ├── Creative/               #   创作类
+│   ├── Learning/               #   学习类 (AutoCAD, ESP32, Python…)
+│   ├── Personal/               #   个人类
+│   ├── Work/                   #   工作类
+│   └── 📁 已完成/              #   已完成项目
+│
+├── 🧭 2 Areas/                 # 持续维护的生活责任
+│   ├── _INDEX.md               #   领域快速导航
+│   ├── 01-Health/              #   健康
+│   ├── 02-Career/              #   职业
+│   ├── 03-Finance/             #   财务
+│   ├── 04-Relationships/       #   人际
+│   ├── 05-Learning/            #   学习
+│   └── 06-Lifestyle/           #   生活
+│
+├── 📚 3 Resources/             # 知识资源库 + DDC Wiki 子库
+│   ├── _INDEX.md               #   资源快速导航
+│   ├── _META-INDEX.md          #   全局知识图谱入口
+│   ├── 000 Knowledge/          #   知识组织 (DDC 000)
+│   ├── 300 Social Sciences/    #   社会科学 (DDC 300)
+│   ├── 400 Language/           #   语言 (DDC 400)
+│   ├── 500 Natural Sciences/   #   自然科学 (DDC 500)
+│   ├── 600 Applied Sciences/   #   应用科学 (DDC 600)
+│   └── 700 Arts/               #   艺术 (DDC 700)
+│
+├── 🗄️ 4 Archives/              # 已完成项目 · 过时资源
+│   └── _INDEX.md               #   归档快速导航
+│
+├── ⚙️ _meta/                   # 系统元数据
+│   ├── _INDEX.md               #   Vault 总仪表板
+│   ├── ⚙️ 系统配置/            #   模板·标签·结构配置
+│   └── 🔗 知识关联/            #   Dashboard & Index
+│
+├── 📋 _templates/              # 模板库
+├── 🤖 AI-Log/                  # AI 操作日志 (sessions, triage-log, compile-log)
+├── 📐 CLAUDE.md                # Agent 根宪法 (最重要的文件)
+└── 📖 README.md                # 本文件
+```
+
+---
+
+## 📊 PARA 分类法
+
+| 分类 | 文件夹 | 说明 | 判断标准 |
+|:---:|--------|------|----------|
+| 🔴 **Projects** | `1 Projects/` | 有明确目标和截止日期的短期任务 | "有截止日期吗？"→ 是 |
+| 🟢 **Areas** | `2 Areas/` | 持续维护，没有「完成」状态 | "需要持续维护吗？"→ 是 |
+| 🔵 **Resources** | `3 Resources/` | 感兴趣的主题、参考资料 | "感兴趣但不需要立即行动？"→ 是 |
+| ⚪ **Archives** | `4 Archives/` | 已完成/过时/不再需要 | 以上都不是 → 归档 |
+
+### 决策树
+
+```
+❓ 有明确目标和截止日期吗？
+  └─ ✅ 是 → 1 Projects
+  └─ ❌ 否 → 需要持续维护吗？
+               └─ ✅ 是 → 2 Areas
+               └─ ❌ 否 → 有参考价值吗？
+                           └─ ✅ 是 → 3 Resources
+                           └─ ❌ 否 → 4 Archives
+```
+
+---
+
+## 🏛️ DDC Wiki 子库
+
+知识资源按 **杜威十进分类法 (DDC)** 组织为 Wiki 子库（活跃子库在 `3 Resources/`，已归档子库在 `4 Archives/`）：
+
+| DDC | 子库 | 位置 | 状态 | 说明 |
+|:---:|------|------|:---:|------|
+| 000 | [[000 Knowledge\|知识组织]] | `3 Resources/` | 🟢 | 信息科学·知识管理·计算机科学 |
+| 100 | 哲学·心理学 | `4 Archives/` | 🗄️ | 古典哲学·易经·心理学 |
+| 200 | 宗教·神学 | `4 Archives/` | 🗄️ | 基督教神学·宗教哲学 |
+| 300 | [[300 Social Sciences\|社会科学]] | `3 Resources/` | 🟢 | 社会学·教育·公共行政 |
+| 400 | [[400 Language\|语言学科]] | `3 Resources/` | 🟡 | 语言学概论·汉语·印欧语系 |
+| 500 | [[500 Natural Sciences\|自然科学]] | `3 Resources/` | 🟢 | 数学·物理·化学·生物 |
+| 600 | [[600 Applied Sciences\|应用科学]] | `3 Resources/` | 🟢 | 医学·工程·制造·管理 |
+| 700 | [[700 Arts\|艺术]] | `3 Resources/` | 🟡 | 绘画·音乐·设计·书法 |
+| 800 | 文学 | `4 Archives/` | 🗄️ | 中外文学·文学理论 |
+| 900 | 历史·地理 | `4 Archives/` | 🗄️ | 传记·世界历史 |
+
+每个子库结构：
+```
+[Topic]/
+├── CLAUDE.md          # 子库 schema
+├── raw/               # 原始资料 (人类独占 · AI 只读)
+├── wiki/              # 编译产物 (AI 独占 · 人类只读)
+│   ├── concepts/      #   概念页面
+│   ├── entities/      #   实体页面
+│   └── sources/       #   来源溯源
+└── outputs/           # 基于 Wiki 生成的制品
+```
+
+---
+
+## 🧭 _INDEX 导航系统
+
+每个 PARA 目录配备了 MOC 式 `_INDEX.md` 快速入口：
+
+| 入口 | 用途 |
+|------|------|
+| [[_meta/_INDEX\|Vault 总仪表板]] | 全局导航 + 信息流图 + 系统链接 |
+| [[0 Inbox/_INDEX\|Inbox 入口]] | 待分拣区域 + 分拣工作流 |
+| [[1 Projects/_INDEX\|项目入口]] | Creative/Learning/Personal/Work 四分类 |
+| [[2 Areas/_INDEX\|领域入口]] | 六大领域 + 检视频率 + 领域↔项目流 |
+| [[3 Resources/_INDEX\|资源入口]] | DDC 子库导航 + Wiki 编译流 |
+| [[4 Archives/_INDEX\|归档入口]] | 按类型/时间/状态三维归档 |
+
+---
+
+## ⛔ 核心规则
+
+来自 [[CLAUDE]] — 绝对不可违反：
+
+| # | 规则 | 说明 |
+|:---:|------|------|
+| 1 | **禁止修改 `raw/`** | 原始资料是人类的知识基线，AI 只读 |
+| 2 | **永不删除文件** | 只移动到 `4 Archives/`，删除需二次确认 |
+| 3 | **Wiki 必须有 Sources** | 每个编译页面标注来源 raw/ 文件 |
+| 4 | **Inbox 分拣前不读取** | 防止未分拣信息污染 Wiki |
+
+---
+
+## 🔄 工作流程
+
+### 端到端信息流
+
+```
+📥 捕获 ──→ /triage ──→ {1 Projects · 2 Areas · 3 Resources} ──→ raw/
+                                                                      │
+                                                               /wiki-compile
+                                                                      │
+                                                                      ▼
+                                                                   wiki/
+                                                                      │
+                                                                      ▼
+                                                                 outputs/
+```
+
+### 每日工作流
+
+| 时刻 | 操作 | 命令 |
 |------|------|------|
-| 📥 **InBox 收件箱** | 快速捕获想法和笔记 | ✅ 已启用 |
-| 🎯 **PARA 组织** | 按可执行性分类信息 | ✅ 已启用 |
-| 🧠 **Zettelkasten** | 原子化知识网络 | ✅ 已启用 |
-| 🤖 **Claude Code** | AI 辅助知识管理 | ✅ 已启用 |
-| 📊 **Skills 系统** | 按需加载模块 | ✅ 已启用 |
-| 🏷️ **标签系统** | 统一的标签体系 | ✅ 已启用 |
-| 🌐 **多语言支持** | 简体中文/繁体中文/English | ✅ 已启用 |
+| 🌅 早晨 | 加载会话状态 | `/context` |
+| 🌅 早晨 | 创建/初始化今日日记 | `/daily-open` |
+| 📥 全天 | 所有信息扔进 Inbox | 手动 / Web Clipper |
+| 🌙 睡前 | 分拣 Inbox | `/triage` |
 
----
+### 每周工作流
 
-## 系统结构
-
-```
-AI-value/
-├── 📁 0 Personals/              # 📥 个人项目与收件箱
-│   └── 📥 00_InBox/           #   快速捕获 / Inbox
-├── 📁 1 Projects/               # 🎯 有截止日期的活跃项目
-├── 📁 2 Areas/                  # 🌳 长期责任领域
-├── 📁 3 Resources/              # 📚 持续感兴趣的主题
-├── 📁 4 Archives/               # 🗃️ 已完成或非活跃内容
-├── 📁 5 Zettels/                # 💎 原子化笔记
-│   ├── 💡 fleeting/           #   闪念笔记
-│   ├── 📌 permanent/          #   永久笔记
-│   ├── 📚 literature/         #   文献笔记
-│   └── 📁 structure/          #   结构笔记
-├── 📁 _templates/               # 📋 模板库
-├── 📁 _meta/                    # ⚙️ 系统元数据
-└── 📁 .claude/                  # 🤖 Claude Code 配置
-```
-
----
-
-## PARA 方法论
-
-| 分类               | 文件夹            | 说明         | 示例                                            |
-| ---------------- | -------------- | ---------- | --------------------------------------------- |
-| 🔴 **Projects**  | `1 Projects/`  | 有截止日期的活跃项目 | "2026年度计划", "产品发布", "发布新网站", "完成报税"           |
-| 🟢 **Areas**     | `2 Areas/`     | 长期责任领域     | "健康管理", "职业发展"                                |
-| 🔵 **Resources** | `3 Resources/` | 持续感兴趣的主题   | "Obsidian技巧", "AI资讯", "生产力技巧", "烹饪食谱", "市场调研" |
-| ⚪ **Archives**   | `4 Archives/`  | 已完成或非活跃内容  | "2025年度总结", 旧项目, 过时的资源                        |
-
-### 分类决策树
-
-```
-❓ 这件事有明确的目标和截止日期吗？
-  └─ ✅ 是 → Projects（有期限项目）
-  └─ ❌ 否 → 继续
-
-❓ 这件事需要持续维护吗？
-  └─ ✅ 是 → Areas（长期责任）
-  └─ ❌ 否 → 继续
-
-❓ 这件事我感兴趣但不需要立即行动？
-  └─ ✅ 是 → Resources（感兴趣话题）
-  └─ ❌ 否 → 归档
-```
-
----
-
-## 工作流程
-
-### PARA 工作流
-
-```mermaid
-flowchart LR
-    A[📥 捕获] --> B[🧹 整理]
-    B --> C[👀 复查]
-    C --> D[📦 归档]
-
-    A -.-> |"添加到收件箱"| A1[0 Personals/📥 00_InBox/]
-    B -.-> |"移动到合适位置"| B1[PARA 分类]
-    C -.-> |"/para-库概览"| C1[审查状态]
-    D -.-> |"移动到"| D1[4 Archives/]
-```
-
-| 步骤 | 操作 | 命令 |
+| 时刻 | 操作 | 命令 |
 |------|------|------|
-| 1️⃣ 捕获 | 将新信息添加到收件箱 | 手动添加 |
-| 2️⃣ 整理 | 分类到合适位置 | `/para-整理收集` 或手动移动 |
-| 3️⃣ 复查 | 审查库状态 | `/para-库概览` |
-| 4️⃣ 归档 | 移至已完成 | 手动移动 |
-
-### Zettelkasten 工作流
-
-```mermaid
-flowchart LR
-    A[💡 闪念] --> B[📌 处理]
-    B --> C[🔗 连接]
-    C --> D[📚 发展]
-    D --> E[📁 结构化]
-
-    A -.-> |"5 Zettels/💡 fleeting/"| A1[捕获灵感]
-    B -.-> |"5 Zettels/📌 permanent/"| B1[转换为永久笔记]
-    C -.-> |"[[wikilinks]]"| C1[建立连接]
-    D -.-> |"5 Zettels/📚 literature/"| D1[添加文献]
-    E -.-> |"5 Zettels/📁 structure/"| E1[建立概览]
-```
-
-| 步骤 | 操作 | 位置 |
-|------|------|------|
-| 1️⃣ 创建 | 快速捕获想法 | `💡 fleeting/` |
-| 2️⃣ 处理 | 转换为永久笔记 | `📌 permanent/` |
-| 3️⃣ 连接 | 连接相关概念 | wikilinks |
-| 4️⃣ 发展 | 添加文献笔记 | `📚 literature/` |
-| 5️⃣ 结构化 | 建立概览笔记 | `📁 structure/` |
+| 📅 周末 | 周回顾 + 知识蒸馏 + 过期归档 | `/weekly-review` |
+| 🔍 随时 | 系统健康检查 | `/lint` |
 
 ---
 
-## 标签系统
-
-本知识库使用统一的标签系统来组织和分类所有笔记。
-
-### 标签架构
-
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                    统一标签体系                              │
-└─────────────────────────────────────────────────────────────────┘
-                              │
-        ┌─────────────────────┼─────────────────────┐
-        │                     │                     │
-   PARA 核心               专用知识库             通用功能
-   标签体系                标签系统                辅助标签
-        │                     │                     │
-   ┌────┴────┐           ┌────┴────┐           ┌────┴────┐
-   │         │           │         │           │         │
- #para   #status   #type   #system   #report  #zettel
-           #priority  #topic   #workflow
-                     #discipline  #method
-```
-
-### 快速标签参考
-
-| 类别 | 标签 | 用途 |
-|------|------|------|
-| **PARA 领域** | `#para/area/health`, `#para/area/career` 等 | 长期责任领域 |
-| **PARA 项目** | `#para/project/work`, `#para/project/learning` | 活跃项目 |
-| **PARA 资源** | `#para/resource/tech`, `#para/resource/learning` | 参考资料 |
-| **状态** | `#status/active`, `#status/completed` | 跟踪进度 |
-| **优先级** | `#priority/high`, `#priority/urgent` | 任务重要性 |
-| **Zettelkasten** | `#zettel/type/permanent`, `#zettel/type/literature` | 笔记分类 |
-| **专用知识库** | `#type/`, `#topic/`, `#discipline/`, `#method/` | 知识库组织 |
-| **易学** | `#yixue/basics`, `#yixue/hexagram` | 易学知识库 |
-
-### 文档链接
-
-完整的标签系统规范和使用示例：
-
-- [[tag-system-guide]] - 完整的标签系统指南
-- [[tag-quick-reference]] - 快速查找表
-- [[示例笔记-领域标签使用]] - 领域标签示例
-- [[示例笔记-项目标签使用]] - 项目标签示例
-- [[示例笔记-资源标签使用]] - 资源标签示例
-- [[示例笔记-Zettelkasten标签使用]] - Zettelkasten 标签示例
-
----
-
-## Claude Code 命令
-
-### PARA 管理命令
+## 🤖 Skills 技能库
 
 | 命令 | 功能 | 说明 |
 |------|------|------|
-| `/para-库概览` | 📊 显示库概览 | 查看各分类的文件数量和状态 |
-| `/para-整理收集` | 🧹 整理收件箱 | 将收件箱中的文件分类到 PARA |
+| `/triage` | 📥 智能分拣 | 分析 Inbox 文件 → 路由到 PARA + Wiki raw/ |
+| `/wiki-compile` | 📚 知识编译 | raw/ → 提取概念/实体 → 写入 wiki/ |
+| `/context` | 📍 状态加载 | 加载活跃项目、今日待办、Inbox 状态 |
+| `/daily-open` | 🌅 每日开启 | 创建今日日记 + 自动填充任务 |
+| `/weekly-review` | 📊 每周回顾 | 汇总周数据 + 批量编译 + 过期归档 |
+| `/lint` | 🔍 健康检查 | 死链检测·孤立页·未编译原料·矛盾汇总 |
 
-### 辅助命令
+### 辅助 Skills
 
-| 命令 | 功能 | 说明 |
-|------|------|------|
-| `/search` | 🔍 搜索内容 | 快速搜索收件箱和 PARA |
-| `/obsidian` | 📎 自动选择技能 | 根据文件类型选择 Obsidian 技能 |
-| `/claudian` | 🤖 PARA 助手 | PARA 管理的交互式菜单 |
-| `/export: weekly` | 📅 导出周报 | 从日报生成周报 |
-| `/export: monthly` | 📆 导出月报 | 从周报生成月报 |
-
-### 快速操作
-
-```bash
-# 搜索包含 "Obsidian" 的笔记
-/search Obsidian
-
-# 查看 PARA 库状态
-/para-库概览
-
-# 整理收件箱
-/para-整理收集
-
-# 自动选择技能
-/obsidian
-```
+| 命令 | 功能 |
+|------|------|
+| `/search` | 🔍 搜索内容 |
+| `/obsidian` | 📎 Obsidian 语法/插件辅助 |
+| `/first-cn-zh` | 简体中文优先 |
+| `/english-first` | English First |
 
 ---
 
-## 最佳实践
+## 🏷️ 标签系统
 
-### 使用收件箱
+统一标签体系，覆盖 PARA、状态、知识分类：
 
-- 📝 **快速捕获** - 不要担心格式，先记下来
-- 📅 **定期整理** - 每天或每周整理一次
-- 🧹 **清空原则** - 保持收件箱最小化
+| 类别 | 标签示例 | 用途 |
+|------|----------|------|
+| **PARA** | `#project/`, `#area/`, `#resource/` | 按可执行性分类 |
+| **状态** | `#status/active`, `#status/archived` | 生命周期跟踪 |
+| **类型** | `#type/concept`, `#type/entity`, `#type/daily` | 笔记类型 |
+| **专题** | `#topic/ai-ml`, `#topic/philosophy` | 主题归类 |
+| **生命周期** | `#lifecycle/ephemeral`, `#lifecycle/evergreen` | 信息时效分级 |
 
-### PARA 分类
-
-- 🎯 **有截止日期** → Projects
-- 🌳 **长期责任** → Areas
-- 📚 **感兴趣话题** → Resources
-- 📦 **已完成** → Archives
-
-### Zettelkasten 原则
-
-- 💎 **原子性** - 每个笔记一个想法
-- 🔢 **独特 ID** - 使用 `YYYYMMDD-XXXX`
-- 🔗 **充分连接** - 连接相关概念
-- 📦 **自包含** - 独立可理解
-
-### 文件命名
-
-- 📛 **描述性名称** - 清晰描述内容
-- ␣ **使用空格** - Obsidian wikilinks 支持
-- 🚫 **避免特殊字符** - `: * ? " < > | /`
-- 📋 **模板前缀** - `_template-`
+完整规范见 [[_meta/⚙️ 系统配置/tag-system-guide|标签系统指南]] 和 [[_meta/⚙️ 系统配置/tag-quick-reference|快速参考]]。
 
 ---
 
-## 文档资源
+## 🚀 快速开始
+
+1. **打开 Obsidian** → 加载 `knowledge-value` Vault
+2. **启动 Claude Code** → `claude` 在 Vault 根目录
+3. **加载状态** → `/context`
+4. **开始捕获** → 所有新信息直接扔进 `0 Inbox/`
+5. **分拣整理** → `/triage`
+6. **编译知识** → `/wiki-compile [topic]`
+
+### 最小可用集
+
+只需三个文件就能启动：
+
+- `CLAUDE.md` — Agent 宪法
+- `.claude/skills/triage.md` — 分拣引擎
+- `.claude/skills/wiki-compile.md` — 知识编译
+
+---
+
+## 📚 文档资源
 
 ### 核心文档
 
-| 文档                                                        | 说明               | 优先级 |
-| --------------------------------------------------------- | ---------------- | --- |
-| [📘 CLAUDE.md](CLAUDE.md)                                 | Claude Code 核心规则 | ⭐⭐⭐ |
-| [[tag-system-guide]]                                      | 标签系统完整指南         | ⭐⭐⭐ |
-| [PARA 工作流](.claude/skills/para-methodology/SKILL.md)      | 完整 PARA 指南       | ⭐⭐⭐ |
-| [📎 Obsidian 语法](.claude/skills/obsidian-syntax/SKILL.md) | 语法参考             | ⭐⭐⭐ |
+| 文档                                                                                  | 说明                     | 优先级 |
+| ----------------------------------------------------------------------------------- | ---------------------- | :-: |
+| [[CLAUDE]]                                                                          | Claude Code 根宪法 + 系统指令 | ⭐⭐⭐ |
+| [[1 Projects/Work/PARA × LLM-Wiki 融合系统/PARA × LLM-Wiki 融合系统\|PARA × LLM-Wiki 融合系统]] | 完整架构设计文档 v1.0          | ⭐⭐⭐ |
+| [[_meta/_INDEX]]                                                                    | Vault 总仪表板             | ⭐⭐  |
+| [[3 Resources/_META-INDEX]]                                                         | 全局 Wiki 导航             | ⭐⭐  |
 
-### Skills 文档
+### 系统配置
 
-| Skill                                                                  | 说明               |
-| ---------------------------------------------------------------------- | ---------------- |
-| [para-methodology](.claude/skills/para-methodology/SKILL.md)           | PARA 结构、工作流、元数据  |
-| [obsidian-syntax](.claude/skills/obsidian-syntax/SKILL.md)             | Wikilinks、提示块、属性 |
-| [repo-context](.claude/skills/repo-context/SKILL.md)                   | 仓库结构、路径、Git      |
-| [markdown-standards](.claude/skills/markdown-standards/SKILL.md)       | 文件命名、多语言支持       |
-| [claude-commands](.claude/skills/claude-commands/SKILL.md)             | 命令使用和工作流         |
-| [zettelkasten-workflow](.claude/skills/zettelkasten-workflow/SKILL.md) | 原子笔记、连接、唯一 ID    |
-
----
-
-## 贡献指南
-
-欢迎贡献！您可以：
-
-- 📝 **提交改进建议** - 报告问题或功能请求
-- 🔧 **提交 Pull Requests** - 贡献代码或文档
-- 💬 **参与讨论** - 在 Issues 中交流
+| 文档 | 说明 |
+|------|------|
+| [[_meta/⚙️ 系统配置/⚙️ 系统配置]] | 系统配置总览 |
+| [[_meta/⚙️ 系统配置/tag-system-guide]] | 标签系统完整指南 |
+| [[_meta/⚙️ 系统配置/知识库结构概览]] | Vault 结构详细说明 |
+| [[_meta/⚙️ 系统配置/PARA 模板库]] | 模板索引 |
 
 ---
 
@@ -304,46 +318,47 @@ flowchart LR
 <details>
 <summary>如何开始使用？</summary>
 
-1. 打开 Obsidian
-2. 导入 AI-value 仓库
-3. 开始在 `0 Personals/📥 00_InBox/` 中捕获想法
-4. 使用 `/para-整理收集` 整理内容
+1. 打开 Obsidian，加载本 Vault
+2. 所有新信息直接放进 `0 Inbox/`
+3. 运行 `/triage` 让 AI 自动分拣
+4. 运行 `/wiki-compile [topic]` 编译知识
 
 </details>
 
 <details>
-<summary>PARA 和 Zettelkasten 有什么区别？</summary>
+<summary>PARA 和 LLM-Wiki 如何协同？</summary>
 
-- **PARA** - 按可执行性组织信息（Projects/Areas/Resources/Archives）
-- **Zettelkasten** - 按知识原子化组织（闪念/永久/文献/结构）
+- **PARA** — 按可执行性组织（Projects/Areas/Resources/Archives）
+- **LLM-Wiki** — 按知识深度组织（raw/ → wiki/ → outputs/）
+- 两者通过 `3 Resources/` 融合——它是 Resources 文件夹，也是 Wiki 子库挂载点
 
-两者可以结合使用！
+</details>
+
+<details>
+<summary>AI 能修改我的笔记吗？</summary>
+
+分区域控制：
+- `0 Inbox/` — AI 读取并分拣
+- `1 Projects/`, `2 Areas/` — AI 辅助整理
+- `3 Resources/raw/` — **人类独占**，AI 只读
+- `3 Resources/wiki/` — **AI 独占**，人类只读
+- `4 Archives/` — AI 自动归档
 
 </details>
 
 <details>
 <summary>如何添加新笔记？</summary>
 
-1. 在收件箱捕获想法
-2. 使用 `/para-整理收集` 自动分类
-3. 或手动移动到对应文件夹
+1. 所有内容先进 `0 Inbox/`（手动、Web Clipper、移动端均可）
+2. 运行 `/triage` — AI 自动分析时效性/主题/人物，路由到正确位置
+3. 参考资料进入 `raw/` 后，运行 `/wiki-compile` 编译为 Wiki 页面
 
 </details>
 
 <details>
 <summary>支持多语言吗？</summary>
 
-是的！系统支持：
-- 简体中文（默认）
-- 繁体中文
-- English
-
-</details>
-
-<details>
-<summary>标签系统如何使用？</summary>
-
-新创建的笔记应直接使用统一的标签体系。参考 [[tag-system-guide]] 获取完整规范，查看示例笔记了解正确的标签组合方式。
+是的！系统支持 简体中文（默认）、繁体中文、English。
 
 </details>
 
@@ -368,14 +383,14 @@ Apache License 2.0
 
 ---
 
-> 💡 **提示**：使用 `/obsidian` 命令可以根据文件类型自动选择合适的技能！
+> 💡 **提示**：不确定从哪里开始？运行 `/context` 加载当前状态，AI 会告诉你今天该做什么。
 
-**🌟 开始你的知识管理之旅！**
+**🌟 一个 Vault，全部知识，AI 驱动。**
 
 ---
 
 <div align="center">
 
-Made with ❤️ by AI-value Team
+Made with ❤️ by knowledge-value Team
 
 </div>

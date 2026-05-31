@@ -35,6 +35,6 @@ Markdown 是 John Gruber 於 2004 年創建的輕量標記語言 (Lightweight Ma
 
 - [[LaTeX]] · [[Pandoc]] · [[Word-Processor-字處理器]]
 - [[3 Resources/000 Knowledge/004 Computer Science & technology/004.43-计算机语言/Markdown/Markdown\|Markdown KB]] — 完整 Markdown 知識庫
-- [[3 Resources/000 Knowledge/004 Computer Science & technology/004.43-计算机语言/计算机语言-分类码\|語言分類碼]] — UDC 004.439Markdown
+- [[3 Resources/000 Knowledge/004 Computer Science & technology/004.43-计算机语言/Python/99-資源收集/计算机语言-分类码\|語言分類碼]] — UDC 004.439Markdown
 - [[3 Resources/000 Knowledge/wiki/entities/Obsidian\|Obsidian]] — 基於 Markdown 的 PKM 工具
 - Sources: [[../sources/source-DocProc-KB]]

@@ -24,4 +24,4 @@ created: 2026-05-28
 
 ## 隶属
 
-[[../200 Religion & Theology.md\|DDC 200]] → 240 基督教实践
+[[200 Religion & Theology\|DDC 200]] → 240 基督教实践

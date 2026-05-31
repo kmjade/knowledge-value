@@ -19,6 +19,81 @@ purpose: compile
 
 ---
 
+## 2026-05-31
+
+---
+
+**状态**: success
+
+**操作**: Skill/Command 创建 — `/weekly-review` 双轨实现
+
+**来源**: [[1 Projects/Work/PARA × LLM-Wiki 融合系统/03-Skills 完整设计.md|设计文档 Skill 5]]
+
+**产出**:
+- `.claude/skills/weekly-review/skill.json` — 技能元数据
+- `.claude/skills/weekly-review/weekly-review.md` — 六步执行逻辑 (8.7KB)
+- `.claude/commands/weekly-review.md` — 精简指令入口 (4.6KB)
+- `1 Projects/Work/PARA × LLM-Wiki 融合系统/weekly-review-使用指南.md` — 使用指南
+- `AI-Log/sessions/2026-05-31-weekly-review-skill-creation.md` — 会话记录
+- `AI-Log/implementation-report-weekly-review-2026-05-31.md` — 实现报告
+
+---
+
+**状态**: success
+
+**操作**: 使用指南创建 — `/daily-open` 使用指南
+
+**来源**: [[1 Projects/Work/PARA × LLM-Wiki 融合系统/03-Skills 完整设计.md|设计文档 Skill 4]]
+
+**产出**:
+- `1 Projects/Work/PARA × LLM-Wiki 融合系统/daily-open-使用指南.md` — 使用指南
+
+---
+
+**状态**: success
+
+**操作**: 使用指南创建 — `/context` 使用指南
+
+**来源**: [[1 Projects/Work/PARA × LLM-Wiki 融合系统/03-Skills 完整设计.md|设计文档 Skill 3]]
+
+**产出**:
+- `1 Projects/Work/PARA × LLM-Wiki 融合系统/context-使用指南.md` — 使用指南
+
+---
+
+**状态**: success
+
+**操作**: Command 创建 — `/context` 指令文件
+
+**来源**: [[1 Projects/Work/PARA × LLM-Wiki 融合系统/03-Skills 完整设计.md|设计文档 Skill 3]]
+
+**产出**:
+- `.claude/commands/context.md` — 精简指令入口
+
+---
+
+**状态**: success
+
+**操作**: README 三语同步 — 根据 README_zh-CN 更新 README (EN) 和 README_zh-TW
+
+**来源**: [[README_zh-CN]]
+
+**产出**:
+- `README.md` — English 版 (396 行)
+- `README_zh-TW.md` — 繁体中文版 (396 行)
+
+**主要变更**:
+- 标题统一为 `knowledge-value — PARA × LLM-Wiki 融合系统`
+- 新增系统架构三层图、Vault 结构树、DDC Wiki 子库表
+- 新增 `_INDEX` 导航系统章节
+- 新增核心规则（4 条）
+- 更新 Skills 表（triage/wiki-compile/context/daily-open/weekly-review/lint）
+- 更新每日/每周工作流
+- 统一 GitHub 链接为 knowledge-value
+- 移除过时的 Zettelkasten、旧命令引用
+
+---
+
 ## 2026-05-27
 
 ---

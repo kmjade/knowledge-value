@@ -33,5 +33,5 @@ LaTeX (Lamport TeX) 是 Leslie Lamport 於 1985 年基於 Donald Knuth 的 TeX �
 ## 相關
 
 - [[Markdown]] · [[PDF]] · [[Desktop-Publishing-桌面出版]]
-- [[3 Resources/000 Knowledge/004 Computer Science & technology/004.43-计算机语言/计算机语言-分类码\|語言分類碼]] — UDC 004.439LaTeX · DDC 686.22544
+- [[3 Resources/000 Knowledge/004 Computer Science & technology/004.43-计算机语言/Python/99-資源收集/计算机语言-分类码\|語言分類碼]] — UDC 004.439LaTeX · DDC 686.22544
 - Sources: [[../sources/source-DocProc-KB]]

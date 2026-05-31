@@ -1,0 +1,7 @@
+{
+  "name": "daily-open",
+  "description": "每日開啟儀式 — 檢查/創建今日日記，自動填充活躍任務、Inbox 狀態及昨日回顧",
+  "instructions": "daily-open.md",
+  "commands": ["daily-open"],
+  "enabled": true
+}

@@ -1,6 +1,10 @@
 ---
-aliases: [Biometrics] · created: 2026-05-30
-type: concept · category: pattern-recog · status: reviewed
+aliases:
+  - Biometrics
+created: 2026-05-30
+type: concept
+category: pattern-recog
+status: reviewed
 ---
 # Biometrics 生物特徵識別
 

@@ -1,5 +1,6 @@
 ---
-aliases: [Pattern Info Processing README] · tags: [DDC/004.93]
+aliases: [Pattern Info Processing README] 
+tags: [DDC/004.93]
 ---
 # 004.93 模式信息處理 README
 

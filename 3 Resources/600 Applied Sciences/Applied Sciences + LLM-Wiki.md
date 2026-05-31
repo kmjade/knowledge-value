@@ -43,6 +43,6 @@ ram/ 原始素材 (PDF, 網頁文檔)
 
 ## 相關
 
-- [[600 Applied Sciences Engineering|600 MOC 主入口]]
+- [[600 Applied Sciences|600 MOC 主入口]]
 - [[689 业余手工/689 业余手工|689 業餘手工]]
 - [[3 Resources/_META-INDEX|全域導航]]

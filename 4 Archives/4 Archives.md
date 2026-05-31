@@ -14,15 +14,7 @@ tags:
 
 ## 📊 歸檔統計
 
-```dataview
-TABLE without ID
-  file.link AS "名稱",
-  archived AS "歸檔日期",
-  regexreplace(file.name, "^\d{4}-\d{2}-\d{2}_", "") AS "原名稱"
-FROM "4 Archives"
-WHERE file.name != this.file.name
-SORT archived DESC
-```
+
 
 ---
 

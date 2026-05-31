@@ -1,0 +1,42 @@
+---
+aliases: [Currency Pairs]
+created: 2026-05-29
+type: concept
+category: 外匯
+status: reviewed
+---
+
+# 貨幣對 Currency Pairs
+
+## 結構
+
+```
+EUR/USD = 1.0850
+ ↑    ↑      ↑
+基幣  報價幣  匯率 (1 EUR = 1.0850 USD)
+```
+
+## 主要貨幣對 Majors
+
+| 貨幣對 | 暱稱 | 典型點差 | 特點 |
+|--------|------|:--:|------|
+| **EUR/USD** | Fiber | 0.1–1.0 | 流動性最高 |
+| **GBP/USD** | Cable | 0.5–2.0 | 波動大 |
+| **USD/JPY** | Yen | 0.5–1.5 | 與美債相關 |
+| AUD/USD | Aussie | 0.5–1.5 | 商品貨幣 |
+| USD/CHF | Swissy | 0.5–1.5 | 避險貨幣 |
+
+## 交叉貨幣對
+
+| 貨幣對 | 特點 |
+|--------|------|
+| **GBP/JPY** | 波動之王，日內幅度可達 200+ 點 |
+| EUR/GBP | 低波動、窄點差 |
+| EUR/JPY | 高波動 |
+
+## 相關概念
+- [[點差與交易成本]]、[[央行政策]]
+
+## Sources
+- [[source-投資與交易-KB]]
+- [[../../03-外匯交易|外匯交易]]

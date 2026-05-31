@@ -1,0 +1,310 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1360 960">
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1e293b" stroke-width="0.5"/>
+    </pattern>
+
+    <marker id="arrow" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#64748b"/>
+    </marker>
+    <marker id="arrow-cyan" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#22d3ee"/>
+    </marker>
+    <marker id="arrow-emerald" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#34d399"/>
+    </marker>
+    <marker id="arrow-violet" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#a78bfa"/>
+    </marker>
+    <marker id="arrow-amber" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#fbbf24"/>
+    </marker>
+    <marker id="arrow-blue" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#60a5fa"/>
+    </marker>
+    <marker id="arrow-rose" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#fb7185"/>
+    </marker>
+  </defs>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&amp;display=swap');
+    text { font-family: 'JetBrains Mono', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif; }
+  </style>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#0f172a"/>
+  <rect width="100%" height="100%" fill="url(#grid)"/>
+
+  <!-- ============================================================ -->
+  <!-- TITLE -->
+  <!-- ============================================================ -->
+  <text x="680" y="36" fill="#f8fafc" font-size="18" font-weight="700" text-anchor="middle">PARA × LLM-Wiki 融合系统架构</text>
+  <text x="680" y="54" fill="#94a3b8" font-size="9" text-anchor="middle">Obsidian Vault · Claude Code · 三层知识管理架构</text>
+
+  <!-- ============================================================ -->
+  <!-- LAYER 1: CAPTURE — Region -->
+  <!-- ============================================================ -->
+  <rect x="190" y="72" width="930" height="144" rx="12" fill="none" stroke="#22d3ee" stroke-width="1" stroke-dasharray="8,4"/>
+  <text x="205" y="90" fill="#22d3ee" font-size="10" font-weight="600">📥 Layer 1 — Capture 信息捕获层</text>
+
+  <!-- Inbox Box -->
+  <rect x="230" y="104" width="200" height="66" rx="6" fill="#0f172a"/>
+  <rect x="230" y="104" width="200" height="66" rx="6" fill="rgba(8,51,68,0.4)" stroke="#22d3ee" stroke-width="1.5"/>
+  <text x="330" y="130" fill="#f8fafc" font-size="12" font-weight="600" text-anchor="middle">00-Inbox</text>
+  <text x="330" y="148" fill="#94a3b8" font-size="9" text-anchor="middle">唯一入口 · 所有信息汇集处</text>
+  <text x="330" y="162" fill="#64748b" font-size="8" text-anchor="middle">人类写入 · AI 读取</text>
+
+  <!-- Arrow: Inbox → Triage -->
+  <path d="M 430 137 L 480 137" fill="none" stroke="#22d3ee" stroke-width="1.5" marker-end="url(#arrow-cyan)"/>
+
+  <!-- Triage Box -->
+  <rect x="490" y="104" width="200" height="66" rx="6" fill="#0f172a"/>
+  <rect x="490" y="104" width="200" height="66" rx="6" fill="rgba(8,51,68,0.4)" stroke="#22d3ee" stroke-width="1.5"/>
+  <text x="590" y="130" fill="#f8fafc" font-size="12" font-weight="600" text-anchor="middle">/triage</text>
+  <text x="590" y="148" fill="#94a3b8" font-size="9" text-anchor="middle">智能分拣引擎</text>
+  <text x="590" y="162" fill="#64748b" font-size="8" text-anchor="middle">时效性·主题·人物分析</text>
+
+  <!-- Arrow labels from triage to PARA -->
+  <path d="M 590 170 L 590 195" fill="none" stroke="#22d3ee" stroke-width="1.2" marker-end="url(#arrow-cyan)"/>
+  <path d="M 520 170 L 350 195" fill="none" stroke="#22d3ee" stroke-width="1" stroke-opacity="0.5"/>
+  <path d="M 520 170 L 830 195" fill="none" stroke="#22d3ee" stroke-width="1" stroke-opacity="0.5"/>
+
+  <!-- ============================================================ -->
+  <!-- LAYER 2: PARA — Region -->
+  <!-- ============================================================ -->
+  <rect x="190" y="240" width="930" height="320" rx="12" fill="none" stroke="#34d399" stroke-width="1" stroke-dasharray="8,4"/>
+  <text x="205" y="258" fill="#34d399" font-size="10" font-weight="600">🧭 Layer 2 — PARA 行动管理层</text>
+
+  <!-- 1 Projects -->
+  <rect x="230" y="278" width="200" height="128" rx="6" fill="#0f172a"/>
+  <rect x="230" y="278" width="200" height="128" rx="6" fill="rgba(6,78,59,0.3)" stroke="#34d399" stroke-width="1.5"/>
+  <text x="330" y="302" fill="#34d399" font-size="11" font-weight="600" text-anchor="middle">01-Projects 项目</text>
+  <text x="330" y="320" fill="#94a3b8" font-size="9" text-anchor="middle">有截止日期的短期任务</text>
+  <line x1="250" y1="330" x2="410" y2="330" stroke="#1e293b" stroke-width="1"/>
+  <text x="330" y="348" fill="#64748b" font-size="8" text-anchor="middle">Creative · Learning</text>
+  <text x="330" y="363" fill="#64748b" font-size="8" text-anchor="middle">Personal · Work</text>
+  <text x="330" y="382" fill="#64748b" font-size="8" text-anchor="middle">富福小车 · 學習AI · IOTO</text>
+  <text x="330" y="398" fill="#475569" font-size="7" text-anchor="middle">→ 完成后 → 04-Archive</text>
+
+  <!-- 2 Areas -->
+  <rect x="460" y="278" width="200" height="128" rx="6" fill="#0f172a"/>
+  <rect x="460" y="278" width="200" height="128" rx="6" fill="rgba(6,78,59,0.3)" stroke="#34d399" stroke-width="1.5"/>
+  <text x="560" y="302" fill="#34d399" font-size="11" font-weight="600" text-anchor="middle">02-Areas 领域</text>
+  <text x="560" y="320" fill="#94a3b8" font-size="9" text-anchor="middle">持续维护的生活责任</text>
+  <line x1="480" y1="330" x2="640" y2="330" stroke="#1e293b" stroke-width="1"/>
+  <text x="560" y="348" fill="#64748b" font-size="8" text-anchor="middle">🏥 健康 · 💼 职业</text>
+  <text x="560" y="363" fill="#64748b" font-size="8" text-anchor="middle">💰 财务 · 👥 人际</text>
+  <text x="560" y="378" fill="#64748b" font-size="8" text-anchor="middle">📖 学习 · 🌿 生活</text>
+  <text x="560" y="398" fill="#475569" font-size="7" text-anchor="middle">无完成状态 · 持续维护</text>
+
+  <!-- 3 Resources -->
+  <rect x="690" y="278" width="200" height="128" rx="6" fill="#0f172a"/>
+  <rect x="690" y="278" width="200" height="128" rx="6" fill="rgba(6,78,59,0.3)" stroke="#34d399" stroke-width="1.5"/>
+  <text x="790" y="300" fill="#34d399" font-size="11" font-weight="600" text-anchor="middle">03-Resources 资源</text>
+  <text x="790" y="318" fill="#94a3b8" font-size="9" text-anchor="middle">知识资源库 · Wiki 挂载点</text>
+  <line x1="710" y1="328" x2="870" y2="328" stroke="#1e293b" stroke-width="1"/>
+  <text x="790" y="346" fill="#64748b" font-size="8" text-anchor="middle">DDC 000-900 十个子库</text>
+  <text x="790" y="362" fill="#64748b" font-size="8" text-anchor="middle">000 知识 · 100 哲学·心理</text>
+  <text x="790" y="378" fill="#64748b" font-size="8" text-anchor="middle">300 社科 · 500 自然科学</text>
+  <text x="790" y="398" fill="#475569" font-size="7" text-anchor="middle">600 应用科学 · 更多...</text>
+
+  <!-- 4 Archives -->
+  <rect x="920" y="278" width="180" height="128" rx="6" fill="#0f172a"/>
+  <rect x="920" y="278" width="180" height="128" rx="6" fill="rgba(30,41,59,0.5)" stroke="#94a3b8" stroke-width="1.5"/>
+  <text x="1010" y="302" fill="#94a3b8" font-size="11" font-weight="600" text-anchor="middle">04-Archive</text>
+  <text x="1010" y="320" fill="#64748b" font-size="9" text-anchor="middle">已完结 · 过期内容</text>
+  <line x1="940" y1="330" x2="1080" y2="330" stroke="#1e293b" stroke-width="1"/>
+  <text x="1010" y="348" fill="#64748b" font-size="8" text-anchor="middle">按年份 · 按类型</text>
+  <text x="1010" y="366" fill="#64748b" font-size="8" text-anchor="middle">按状态 · 模板</text>
+  <text x="1010" y="398" fill="#475569" font-size="7" text-anchor="middle">不删除 · 只归档</text>
+
+  <!-- PARA flow arrows -->
+  <!-- Projects → Archive -->
+  <path d="M 430 320 L 915 320" fill="none" stroke="#64748b" stroke-width="1" stroke-opacity="0.4" stroke-dasharray="6,3"/>
+  <!-- Areas ↔ Projects bidirectional -->
+  <path d="M 460 340 L 435 340" fill="none" stroke="#34d399" stroke-width="0.8" stroke-opacity="0.4" marker-end="url(#arrow-emerald)"/>
+  <path d="M 435 350 L 460 350" fill="none" stroke="#34d399" stroke-width="0.8" stroke-opacity="0.4" marker-end="url(#arrow-emerald)"/>
+
+  <!-- Resources → Wiki downward arrow -->
+  <path d="M 790 406 L 790 440" fill="none" stroke="#a78bfa" stroke-width="1.5" marker-end="url(#arrow-violet)"/>
+
+  <!-- ============================================================ -->
+  <!-- LAYER 3: WIKI — Region -->
+  <!-- ============================================================ -->
+  <rect x="190" y="584" width="930" height="210" rx="12" fill="none" stroke="#a78bfa" stroke-width="1" stroke-dasharray="8,4"/>
+  <text x="205" y="602" fill="#a78bfa" font-size="10" font-weight="600">📚 Layer 3 — Wiki 知识编译层</text>
+
+  <!-- raw/ box -->
+  <rect x="240" y="620" width="240" height="90" rx="6" fill="#0f172a"/>
+  <rect x="240" y="620" width="240" height="90" rx="6" fill="rgba(76,29,149,0.3)" stroke="#a78bfa" stroke-width="1.5"/>
+  <text x="360" y="646" fill="#a78bfa" font-size="12" font-weight="600" text-anchor="middle">raw/ 原始资料</text>
+  <text x="360" y="664" fill="#94a3b8" font-size="9" text-anchor="middle">人类独占写入 · AI 只读</text>
+  <text x="360" y="682" fill="#64748b" font-size="8" text-anchor="middle">articles · papers · books</text>
+  <text x="360" y="697" fill="#64748b" font-size="8" text-anchor="middle">conversations · webclips</text>
+
+  <!-- Arrow: raw → wiki-compile -->
+  <path d="M 480 665 L 540 665" fill="none" stroke="#a78bfa" stroke-width="1.5" marker-end="url(#arrow-violet)"/>
+
+  <!-- /wiki-compile box -->
+  <rect x="550" y="620" width="180" height="90" rx="6" fill="#0f172a"/>
+  <rect x="550" y="620" width="180" height="90" rx="6" fill="rgba(76,29,149,0.3)" stroke="#a78bfa" stroke-width="1.5"/>
+  <text x="640" y="648" fill="#a78bfa" font-size="12" font-weight="600" text-anchor="middle">/wiki-compile</text>
+  <text x="640" y="666" fill="#94a3b8" font-size="9" text-anchor="middle">知识编译引擎</text>
+  <text x="640" y="684" fill="#64748b" font-size="8" text-anchor="middle">来源分析 → 页面创建</text>
+  <text x="640" y="699" fill="#64748b" font-size="8" text-anchor="middle">交叉引用 → 索引更新</text>
+
+  <!-- Arrow: wiki-compile → wiki -->
+  <path d="M 730 665 L 790 665" fill="none" stroke="#a78bfa" stroke-width="1.5" marker-end="url(#arrow-violet)"/>
+
+  <!-- wiki/ box -->
+  <rect x="800" y="620" width="300" height="90" rx="6" fill="#0f172a"/>
+  <rect x="800" y="620" width="300" height="90" rx="6" fill="rgba(76,29,149,0.3)" stroke="#a78bfa" stroke-width="1.5"/>
+  <text x="950" y="646" fill="#a78bfa" font-size="12" font-weight="600" text-anchor="middle">wiki/ 编译产物</text>
+  <text x="950" y="664" fill="#94a3b8" font-size="9" text-anchor="middle">AI 独占写入 · 人类只读</text>
+  <text x="950" y="682" fill="#64748b" font-size="8" text-anchor="middle">concepts · entities · sources</text>
+  <text x="950" y="697" fill="#64748b" font-size="8" text-anchor="middle">comparisons · index · log</text>
+
+  <!-- output arrow -->
+  <path d="M 950 710 L 950 740" fill="none" stroke="#a78bfa" stroke-width="1" stroke-opacity="0.5"/>
+
+  <!-- outputs/ box -->
+  <rect x="850" y="744" width="200" height="36" rx="6" fill="#0f172a"/>
+  <rect x="850" y="744" width="200" height="36" rx="6" fill="rgba(76,29,149,0.2)" stroke="#a78bfa" stroke-width="1" stroke-dasharray="4,2"/>
+  <text x="950" y="766" fill="#94a3b8" font-size="10" font-weight="500" text-anchor="middle">outputs/ 制品（报告·文章·草稿）</text>
+
+  <!-- ============================================================ -->
+  <!-- LEFT SIDEBAR: Information Lifecycle -->
+  <!-- ============================================================ -->
+  <rect x="12" y="72" width="160" height="722" rx="8" fill="none" stroke="#60a5fa" stroke-width="1" stroke-dasharray="8,4" stroke-opacity="0.5"/>
+  <text x="92" y="92" fill="#60a5fa" font-size="9" font-weight="600" text-anchor="middle">Information Lifecycle</text>
+
+  <!-- ephemeral -->
+  <rect x="24" y="108" width="136" height="34" rx="4" fill="rgba(59,130,246,0.2)" stroke="#60a5fa" stroke-width="1"/>
+  <text x="92" y="122" fill="#f8fafc" font-size="9" font-weight="600" text-anchor="middle">ephemeral</text>
+  <text x="92" y="135" fill="#64748b" font-size="7" text-anchor="middle">临时 · &lt; 14天 · 自动归档</text>
+
+  <!-- operational -->
+  <rect x="24" y="154" width="136" height="34" rx="4" fill="rgba(59,130,246,0.15)" stroke="#60a5fa" stroke-width="1" stroke-opacity="0.6"/>
+  <text x="92" y="168" fill="#f8fafc" font-size="9" font-weight="600" text-anchor="middle">operational</text>
+  <text x="92" y="181" fill="#64748b" font-size="7" text-anchor="middle">项目周期 · 完结归档</text>
+
+  <!-- reference -->
+  <rect x="24" y="200" width="136" height="34" rx="4" fill="rgba(59,130,246,0.15)" stroke="#60a5fa" stroke-width="1" stroke-opacity="0.6"/>
+  <text x="92" y="214" fill="#f8fafc" font-size="9" font-weight="600" text-anchor="middle">reference</text>
+  <text x="92" y="227" fill="#64748b" font-size="7" text-anchor="middle">参考资料 · 编译进 Wiki</text>
+
+  <!-- evergreen -->
+  <rect x="24" y="246" width="136" height="34" rx="4" fill="rgba(59,130,246,0.1)" stroke="#60a5fa" stroke-width="1" stroke-opacity="0.4"/>
+  <text x="92" y="260" fill="#f8fafc" font-size="9" font-weight="600" text-anchor="middle">evergreen</text>
+  <text x="92" y="273" fill="#64748b" font-size="7" text-anchor="middle">长期知识 · 永久 Wiki 页面</text>
+
+  <!-- vertical connecting lines between lifecycle stages -->
+  <line x1="92" y1="142" x2="92" y2="154" stroke="#60a5fa" stroke-width="0.8" stroke-opacity="0.4"/>
+  <line x1="92" y1="188" x2="92" y2="200" stroke="#60a5fa" stroke-width="0.8" stroke-opacity="0.4"/>
+  <line x1="92" y1="234" x2="92" y2="246" stroke="#60a5fa" stroke-width="0.8" stroke-opacity="0.4"/>
+
+  <!-- Horizontal mapping lines to layers -->
+  <path d="M 160 290 L 185 290" fill="none" stroke="#60a5fa" stroke-width="0.6" stroke-opacity="0.3" stroke-dasharray="3,3"/>
+  <path d="M 160 340 L 185 340" fill="none" stroke="#60a5fa" stroke-width="0.6" stroke-opacity="0.3" stroke-dasharray="3,3"/>
+  <path d="M 160 640 L 185 640" fill="none" stroke="#60a5fa" stroke-width="0.6" stroke-opacity="0.3" stroke-dasharray="3,3"/>
+
+  <text x="92" y="325" fill="#475569" font-size="7" text-anchor="middle">← 对齐 →</text>
+
+  <!-- ============================================================ -->
+  <!-- RIGHT SIDEBAR: Core Drivers -->
+  <!-- ============================================================ -->
+  <rect x="1140" y="72" width="208" height="296" rx="8" fill="none" stroke="#fbbf24" stroke-width="1" stroke-dasharray="8,4" stroke-opacity="0.6"/>
+  <text x="1244" y="92" fill="#fbbf24" font-size="9" font-weight="600" text-anchor="middle">🧠 Core Drivers 核心驱动</text>
+
+  <!-- CLAUDE.md -->
+  <rect x="1152" y="106" width="184" height="40" rx="4" fill="rgba(120,53,15,0.2)" stroke="#fbbf24" stroke-width="1"/>
+  <text x="1244" y="122" fill="#fbbf24" font-size="10" font-weight="600" text-anchor="middle">CLAUDE.md</text>
+  <text x="1244" y="138" fill="#94a3b8" font-size="8" text-anchor="middle">根宪法 · Agent 常驻指令</text>
+
+  <!-- Skills list -->
+  <text x="1158" y="168" fill="#94a3b8" font-size="9" font-weight="600">Skills 技能库</text>
+
+  <rect x="1152" y="178" width="184" height="22" rx="3" fill="rgba(120,53,15,0.15)" stroke="#fbbf24" stroke-width="0.8" stroke-opacity="0.6"/>
+  <text x="1244" y="193" fill="#f8fafc" font-size="9" font-weight="500" text-anchor="middle">/triage 智能分拣</text>
+
+  <rect x="1152" y="204" width="184" height="22" rx="3" fill="rgba(120,53,15,0.15)" stroke="#fbbf24" stroke-width="0.8" stroke-opacity="0.6"/>
+  <text x="1244" y="219" fill="#f8fafc" font-size="9" font-weight="500" text-anchor="middle">/wiki-compile 知识编译</text>
+
+  <rect x="1152" y="230" width="184" height="22" rx="3" fill="rgba(120,53,15,0.15)" stroke="#fbbf24" stroke-width="0.8" stroke-opacity="0.6"/>
+  <text x="1244" y="245" fill="#f8fafc" font-size="9" font-weight="500" text-anchor="middle">/context 会话状态加载</text>
+
+  <rect x="1152" y="256" width="184" height="22" rx="3" fill="rgba(120,53,15,0.15)" stroke="#fbbf24" stroke-width="0.8" stroke-opacity="0.6"/>
+  <text x="1244" y="271" fill="#f8fafc" font-size="9" font-weight="500" text-anchor="middle">/daily-open 每日开启</text>
+
+  <rect x="1152" y="282" width="184" height="22" rx="3" fill="rgba(120,53,15,0.15)" stroke="#fbbf24" stroke-width="0.8" stroke-opacity="0.6"/>
+  <text x="1244" y="297" fill="#f8fafc" font-size="9" font-weight="500" text-anchor="middle">/weekly-review 每周回顾</text>
+
+  <rect x="1152" y="308" width="184" height="22" rx="3" fill="rgba(120,53,15,0.15)" stroke="#fbbf24" stroke-width="0.8" stroke-opacity="0.6"/>
+  <text x="1244" y="323" fill="#f8fafc" font-size="9" font-weight="500" text-anchor="middle">/lint 系统健康检查</text>
+
+  <!-- Audit logs -->
+  <text x="1158" y="358" fill="#94a3b8" font-size="9" font-weight="600">⏺ 审计日志</text>
+  <text x="1244" y="375" fill="#64748b" font-size="8" text-anchor="middle">AI-Log/ · sessions/</text>
+  <text x="1244" y="390" fill="#64748b" font-size="8" text-anchor="middle">triage-log · compile-log</text>
+
+  <!-- ============================================================ -->
+  <!-- RIGHT SIDEBAR: Core Rules -->
+  <!-- ============================================================ -->
+  <rect x="1140" y="384" width="208" height="160" rx="8" fill="none" stroke="#fb7185" stroke-width="1" stroke-dasharray="8,4" stroke-opacity="0.5"/>
+  <text x="1244" y="404" fill="#fb7185" font-size="9" font-weight="600" text-anchor="middle">⛔ Core Rules 核心规则</text>
+
+  <rect x="1152" y="416" width="184" height="24" rx="3" fill="rgba(136,19,55,0.2)" stroke="#fb7185" stroke-width="1" stroke-opacity="0.6"/>
+  <text x="1244" y="432" fill="#fb7185" font-size="8" font-weight="500" text-anchor="middle">禁止修改 raw/ 目录</text>
+
+  <rect x="1152" y="444" width="184" height="24" rx="3" fill="rgba(136,19,55,0.2)" stroke="#fb7185" stroke-width="1" stroke-opacity="0.6"/>
+  <text x="1244" y="460" fill="#fb7185" font-size="8" font-weight="500" text-anchor="middle">永不删除 · 只移动到 Archive</text>
+
+  <rect x="1152" y="472" width="184" height="24" rx="3" fill="rgba(136,19,55,0.2)" stroke="#fb7185" stroke-width="1" stroke-opacity="0.6"/>
+  <text x="1244" y="488" fill="#fb7185" font-size="8" font-weight="500" text-anchor="middle">Wiki 页面必须有 Sources</text>
+
+  <rect x="1152" y="500" width="184" height="24" rx="3" fill="rgba(136,19,55,0.2)" stroke="#fb7185" stroke-width="1" stroke-opacity="0.6"/>
+  <text x="1244" y="516" fill="#fb7185" font-size="8" font-weight="500" text-anchor="middle">Inbox 分拣前不读取</text>
+
+  <!-- ============================================================ -->
+  <!-- RIGHT SIDEBAR: Tooling -->
+  <!-- ============================================================ -->
+  <rect x="1140" y="560" width="208" height="132" rx="8" fill="none" stroke="#94a3b8" stroke-width="1" stroke-dasharray="8,4" stroke-opacity="0.4"/>
+  <text x="1244" y="580" fill="#94a3b8" font-size="9" font-weight="600" text-anchor="middle">🔧 Tooling 工具栈</text>
+  <text x="1244" y="598" fill="#64748b" font-size="8" text-anchor="middle">Obsidian · Templater</text>
+  <text x="1244" y="614" fill="#64748b" font-size="8" text-anchor="middle">Dataview · Obsidian Git</text>
+  <text x="1244" y="630" fill="#64748b" font-size="8" text-anchor="middle">Claude Code · Web Clipper</text>
+  <text x="1244" y="646" fill="#64748b" font-size="8" text-anchor="middle">Obsidian Bases · Tasks</text>
+  <text x="1244" y="662" fill="#64748b" font-size="8" text-anchor="middle">Bases · Periodic Notes</text>
+
+  <!-- ============================================================ -->
+  <!-- RIGHT SIDEBAR: Wiki Sub-libs summary -->
+  <!-- ============================================================ -->
+  <rect x="1140" y="708" width="208" height="86" rx="8" fill="none" stroke="#a78bfa" stroke-width="1" stroke-dasharray="8,4" stroke-opacity="0.4"/>
+  <text x="1244" y="728" fill="#a78bfa" font-size="9" font-weight="600" text-anchor="middle">🏛 DDC Wiki 子库</text>
+  <text x="1244" y="746" fill="#64748b" font-size="8" text-anchor="middle">000 知识 · 100 哲学·心理</text>
+  <text x="1244" y="761" fill="#64748b" font-size="8" text-anchor="middle">200 宗教 · 300 社会科学</text>
+  <text x="1244" y="776" fill="#64748b" font-size="8" text-anchor="middle">400 语言 · 500 自然科学</text>
+  <text x="1244" y="791" fill="#64748b" font-size="8" text-anchor="middle">600 应用科学 · 700 艺术</text>
+
+  <!-- ============================================================ -->
+  <!-- BOTTOM: Flow Summary -->
+  <!-- ============================================================ -->
+  <rect x="190" y="846" width="930" height="36" rx="6" fill="rgba(30,41,59,0.4)" stroke="#1e293b" stroke-width="1"/>
+  <text x="655" y="869" fill="#64748b" font-size="9" text-anchor="middle">🔄 信息流：📥 Inbox → /triage → （Projects | Areas | Resources） → raw/ → /wiki-compile → wiki/ → outputs/</text>
+
+  <!-- ============================================================ -->
+  <!-- LEGEND (bottom-left) -->
+  <!-- ============================================================ -->
+  <rect x="14" y="858" width="156" height="68" rx="6" fill="rgba(30,41,59,0.6)" stroke="#1e293b" stroke-width="1"/>
+  <text x="24" y="878" fill="#94a3b8" font-size="8" font-weight="600">图例</text>
+  <rect x="24" y="886" width="12" height="12" rx="2" fill="rgba(8,51,68,0.4)" stroke="#22d3ee" stroke-width="1"/>
+  <text x="42" y="896" fill="#64748b" font-size="8">捕获层</text>
+  <rect x="80" y="886" width="12" height="12" rx="2" fill="rgba(6,78,59,0.3)" stroke="#34d399" stroke-width="1"/>
+  <text x="98" y="896" fill="#64748b" font-size="8">行动层</text>
+  <rect x="24" y="906" width="12" height="12" rx="2" fill="rgba(76,29,149,0.3)" stroke="#a78bfa" stroke-width="1"/>
+  <text x="42" y="916" fill="#64748b" font-size="8">编译层</text>
+  <rect x="80" y="906" width="12" height="12" rx="2" fill="none" stroke="#fb7185" stroke-width="1" stroke-dasharray="4,2"/>
+  <text x="98" y="916" fill="#64748b" font-size="8">规则约束</text>
+
+</svg>

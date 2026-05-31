@@ -3,7 +3,7 @@ aliases: [Optical Character Recognition]
 tags: [DDC/004.93, ocr]
 ---
 # 06 文字識別 OCR
-
+---
 ## OCR Pipeline
 | 階段 | 功能 | 技術 |
 |------|------|------|

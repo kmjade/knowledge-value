@@ -8,7 +8,7 @@ version: "1.0"
 
 # 600 Applied Sciences — LLM-Wiki Schema Template
 
-> 本文件為 DDC 600 Applied Sciences Engineering 領域下所有子庫的 **LLM-Wiki Schema 模板**。各子庫可基於此模板創建自己的 `CLAUDE.md`。
+> 本文件為 DDC 600 Applied Sciences 領域下所有子庫的 **LLM-Wiki Schema 模板**。各子庫可基於此模板創建自己的 `CLAUDE.md`。
 
 ## 通用目錄結構
 

@@ -1,6 +1,11 @@
 ---
-aliases: [Speech Recognition, ASR] · created: 2026-05-30
-type: concept · category: pattern-recog · status: reviewed
+aliases:
+  - Speech Recognition
+  - ASR
+created: 2026-05-30
+type: concept
+category: pattern-recog
+status: reviewed
 ---
 # Speech Recognition 語音識別
 
@@ -23,4 +28,6 @@ type: concept · category: pattern-recog · status: reviewed
 
 ## 評估: WER (Word Error Rate) = (S+D+I)/N · 實時率 (RTF)
 
-## 相關: [[Signal-Processing-信號處理]]、[[Classification-分類器]] · Sources: [[source-Pattern-KB]]
+## 相關: [[Signal-Processing-信號處理]]、[[Classification-分類器]] 
+
+· Sources: [[source-Pattern-KB]]

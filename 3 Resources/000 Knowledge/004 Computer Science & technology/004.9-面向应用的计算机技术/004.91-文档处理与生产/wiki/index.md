@@ -38,5 +38,5 @@ total_entities: 2
 | 連結 | 說明 |
 |------|------|
 | [[3 Resources/000 Knowledge/004 Computer Science & technology/004.43-计算机语言/Markdown/Markdown\|Markdown KB]] | 完整 Markdown 知識庫 |
-| [[3 Resources/000 Knowledge/004 Computer Science & technology/004.43-计算机语言/计算机语言-分类码\|語言分類碼]] | 30+ 語言四大體系 |
+| [[3 Resources/000 Knowledge/004 Computer Science & technology/004.43-计算机语言/Python/99-資源收集/计算机语言-分类码\|語言分類碼]] | 30+ 語言四大體系 |
 | [[3 Resources/000 Knowledge/wiki/entities/Obsidian\|Obsidian]] | PKM 工具實體 |
