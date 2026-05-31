@@ -27,5 +27,5 @@ type: source
 
 ## 关联页面
 
-- [[0 Inbox/_processed/LifeOS × LLM-Wiki 融合系统]]
+- [[1 Projects/📁 已完成/PARA+LLM-Wiki 融合系统/99-收集资源/LifeOS × LLM-Wiki 融合系统]]
 - [[Information-Lifecycle]]
