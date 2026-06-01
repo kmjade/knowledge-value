@@ -103,7 +103,7 @@ UDC 最偉大的創新：用符號讓類號可以**組合**。
 | [[UDC 知识库总览\|UDC 知識庫總覽]] | 完整 UDC 知識庫入口 | `ram/UDC-国际十进分类法/` |
 | [[01-UDC概述\|UDC 概述]] | Otlet 生平、符號哲學 | `ram/UDC-国际十进分类法/01-UDC概述/` |
 | [[UDC 学习路径\|UDC 學習路徑]] | 三步入門指南 | `ram/UDC-国际十进分类法/00-MOCs/` |
-| [[3 Resources/000 Knowledge/ram/articles/DDC-UDC对比表\|DDC vs UDC 對比表]] | 繁簡英三語全面對比 | `ram/articles/` |
+| [[DDC-UDC对比表\|DDC vs UDC 對比表]] | 繁簡英三語全面對比 | `ram/articles/` |
 | [[04-UDC6详解\|UDC 6 應用科學詳解]] | 600-699 類深度展開 | `ram/UDC-国际十进分类法/04-UDC6详解/` |
 | [[3 Resources/000 Knowledge/wiki/entities/UDC\|UDC 實體]] | Wiki 知識庫實體定義 | `wiki/entities/` |
 | [[UDC 知識庫\|UDC 參考資料]] | 各類目展開參考 | `05-Reference/UDC/` |
@@ -112,6 +112,7 @@ UDC 最偉大的創新：用符號讓類號可以**組合**。
 
 ## 相關筆記
 
-- [[03-DDC-in-Depth/03-DDC-in-Depth\|DDC In-Depth]] — UDC 的「父」系統
-- [[05-Chinese-Classification/05-Chinese-Classification\|中圖法 CLC]] — 中國圖書館分類法
-- [[../050-Classification-Metadata\|分類法與元數據]] — 知識庫總入口
+- [[01-UDC概述/01-UDC概述|UDC 概述]] · [[03-辅助符号/03-辅助符号|辅助符号]]
+- [[UDC-类目参考/|UDC 0-9 类目参考]] (10 文件) — 各大类详解
+- [[UDC-完整分类表]] — 完整类目
+- [[../03-DDC-in-Depth/03-DDC-in-Depth|DDC In-Depth]] — UDC 的「父」系統

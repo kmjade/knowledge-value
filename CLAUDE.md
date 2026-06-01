@@ -21,6 +21,7 @@ This vault is version-controlled with Git and synced to GitHub at https://github
 2. 操作后: `git status --short` — 确认变更范围
 
 **批量保护阈值**:
+
 | 变更文件数 | 行为 |
 |-----------|------|
 | ≤10 | 自动执行 |
@@ -28,6 +29,7 @@ This vault is version-controlled with Git and synced to GitHub at https://github
 | >20 | 强制分步，每批 ≤10 |
 
 **Conventional Commits 映射**:
+
 | 操作 | type | 示例 |
 |------|------|------|
 | 分拣 (/triage) | `triage` | `triage: route 8 files to 3 Resources/` |
@@ -187,7 +189,7 @@ triaged_to: [目标路径]
 | Natural-Sciences      | `3 Resources/500 Natural Sciences/`                                                | DDC 500 自然科学                                                                                       | 🟢 活跃  |
 | Applied-Sciences      | `3 Resources/600 Applied Sciences/`                                                | [[3 Resources/600 Applied Sciences/CLAUDE\|schema]]                                                | 🟢 活跃  |
 | Literature            | `4 Archives/by-type/Resources/800 Literature/`                                     | DDC 800 文学                                                                                         | 🟡 框架  |
-| History-Geography     | `4 Archives/by-type/Resources/900 History & Geography/`                            | DDC 900 历史·地理                                                                                      | 🟡 框架  |
+| History-Geography     | `3 Resources/900 History & Geography/`                                             | DDC 900 历史·地理 (7 子庫 · 14 concepts · 2 entities)                                                   | 🟢 活跃  |
 | People                | `0 Inbox/people/`                                                                  | [[0 Inbox/people/CLAUDE\|schema]]                                                                  | 🔴 未创建 |
 
 
@@ -304,6 +306,7 @@ triaged_to: [目标路径]
 
 | 日期 | 变更 |
 |------|------|
+| 2026-06-02 | DDC 900 巡檢：wiki/index.md 統計修正 · 00-MOC 展開 7 子庫 · 🟡→🟢 活躍 |
 | 2026-05-28 | 新增 Social-Sciences (DDC 300) 框架 + 跨库连接矩阵 |
 | 2026-05-28 | 新增 Religion-Theology (DDC 200) 框架 + DDC 180↔200 双向链接 |
 | 2026-05-28 | 新增 Natural-Sciences (DDC 500)、Applied-Sciences (DDC 600) 子库 |
