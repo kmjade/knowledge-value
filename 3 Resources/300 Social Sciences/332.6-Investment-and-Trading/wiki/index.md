@@ -64,7 +64,7 @@ topic: 332.6-Investment-and-Trading
 | # | Material | Type | Compiled |
 |---|----------|------|----------|
 | 1 | [[3 Resources/300 Social Sciences/332.6-Investment-and-Trading/raw/economic-calendar/Economic-Calendar\|Economic Calendar]] | trading-tool | ✅ |
-| 2 | [[Economic-Calendar-2026-05-28\|Economic Calendar 2026-05-28]] | data | ✅ |
+| 2 | [[2 Areas/03-Finance/daily-finance/Economic-Calendar-2026-05-28\|Economic Calendar 2026-05-28]] | data | ✅ |
 | 3 | [[3 Resources/300 Social Sciences/332.6-Investment-and-Trading/raw/articles/MQL/README\|MQL Knowledge Base]] | programming | ✅ |
 | 4 | [[3 Resources/300 Social Sciences/332.6-Investment-and-Trading/raw/articles/MetaTrader/README\|MetaTrader Knowledge Base]] | platform | ✅ |
 

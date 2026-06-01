@@ -50,13 +50,13 @@ purpose: compile
 
 **操作**: Skill/Command 创建 — `/weekly-review` 双轨实现
 
-**来源**: [[1 Projects/Work/PARA × LLM-Wiki 融合系统/03-Skills 完整设计.md|设计文档 Skill 5]]
+**来源**: [[03-Skills 完整设计|设计文档 Skill 5]]
 
 **产出**:
 - `.claude/skills/weekly-review/skill.json` — 技能元数据
 - `.claude/skills/weekly-review/weekly-review.md` — 六步执行逻辑 (8.7KB)
 - `.claude/commands/weekly-review.md` — 精简指令入口 (4.6KB)
-- `1 Projects/Work/PARA × LLM-Wiki 融合系统/weekly-review-使用指南.md` — 使用指南
+- `1 Projects/📁 已完成/PARA+LLM-Wiki 融合系统/weekly-review-使用指南.md` — 使用指南
 - `AI-Log/sessions/2026-05-31-weekly-review-skill-creation.md` — 会话记录
 - `AI-Log/implementation-report-weekly-review-2026-05-31.md` — 实现报告
 
@@ -66,10 +66,10 @@ purpose: compile
 
 **操作**: 使用指南创建 — `/daily-open` 使用指南
 
-**来源**: [[1 Projects/Work/PARA × LLM-Wiki 融合系统/03-Skills 完整设计.md|设计文档 Skill 4]]
+**来源**: [[03-Skills 完整设计|设计文档 Skill 4]]
 
 **产出**:
-- `1 Projects/Work/PARA × LLM-Wiki 融合系统/daily-open-使用指南.md` — 使用指南
+- `1 Projects/📁 已完成/PARA+LLM-Wiki 融合系统/daily-open-使用指南.md` — 使用指南
 
 ---
 
@@ -77,10 +77,10 @@ purpose: compile
 
 **操作**: 使用指南创建 — `/context` 使用指南
 
-**来源**: [[1 Projects/Work/PARA × LLM-Wiki 融合系统/03-Skills 完整设计.md|设计文档 Skill 3]]
+**来源**: [[03-Skills 完整设计|设计文档 Skill 3]]
 
 **产出**:
-- `1 Projects/Work/PARA × LLM-Wiki 融合系统/context-使用指南.md` — 使用指南
+- `1 Projects/📁 已完成/PARA+LLM-Wiki 融合系统/context-使用指南.md` — 使用指南
 
 ---
 
@@ -88,7 +88,7 @@ purpose: compile
 
 **操作**: Command 创建 — `/context` 指令文件
 
-**来源**: [[1 Projects/Work/PARA × LLM-Wiki 融合系统/03-Skills 完整设计.md|设计文档 Skill 3]]
+**来源**: [[03-Skills 完整设计|设计文档 Skill 3]]
 
 **产出**:
 - `.claude/commands/context.md` — 精简指令入口

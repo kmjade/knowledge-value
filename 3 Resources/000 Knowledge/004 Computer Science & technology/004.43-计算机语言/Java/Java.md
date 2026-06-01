@@ -84,7 +84,7 @@ version: "1.0"
 | 7 | IO 與網路 | [[07-IO与网络]] | 🟡 | BIO/NIO/AIO, Netty, 序列化 |
 | 8 | 工程化實踐 | [[08-工程化实践]] | 🟡 | Maven/Gradle, Spring Boot, 測試 |
 | 9 | 設計模式實戰 | [[09-设计模式实战]] | 🟡🔴 | Singleton, Factory, Strategy, Spring patterns |
-| 10 | 資源收集 | [[99-資源收集/FAQ]] [[99-資源收集/資源總覽]] | 🟢 | FAQ, 工具, 書籍, 社群 |
+| 10 | 資源收集 | [[3 Resources/000 Knowledge/004 Computer Science & technology/004.43-计算机语言/Java/99-資源收集/FAQ]] [[3 Resources/000 Knowledge/004 Computer Science & technology/004.43-计算机语言/Java/99-資源收集/資源總覽]] | 🟢 | FAQ, 工具, 書籍, 社群 |
 
 ---
 

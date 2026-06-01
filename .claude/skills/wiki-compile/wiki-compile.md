@@ -5,10 +5,74 @@
 ## 使用方式
 
 ```
-/wiki-compile              # 编译所有子库
-/wiki-compile ai-ml        # 编译指定子库
-/wiki-compile --dry-run    # 仅预览，不执行
-/wiki-compile --incremental  # 仅处理新增/修改的文件
+/wiki-compile [topic]              # 编译指定子库 (默认增量)
+/wiki-compile [topic] --dry-run    # 仅预览提取结果，不写入 (CM-08)
+/wiki-compile [topic] --incremental # 仅处理新增/未编译文件 (CM-06)
+/wiki-compile [topic] --force       # 全量重编译所有源文件 (CM-07)
+/wiki-compile --all                 # 编译所有活跃子库
+```
+
+### 子模式详解
+
+#### `--dry-run` 预览模式 (CM-08)
+
+仅执行扫描 + 提取阶段，输出预览结果，**不创建/修改任何 wiki/ 文件**。
+
+```markdown
+🔍 Compile Dry-Run — [topic]
+
+📂 扫描: raw/articles (N) + raw/papers (M) + raw/books (K)
+📋 待编译: X 文件 (Y 未编译 + Z 已修改)
+
+🔮 预期产出:
+- 新概念: N → wiki/concepts/*.md
+- 新实体: M → wiki/entities/*.md
+- 更新页面: K (源文件已修改)
+- 新来源: S → wiki/sources/*.md
+
+💡 执行 /wiki-compile [topic] 以开始编译。
+```
+
+#### `--incremental` 增量编译 (CM-06) — 默认模式
+
+仅处理 **未编译** 或 **源文件已修改** 的文件。
+
+**判定逻辑**:
+1. 扫描 raw/ 目录，读取每个源文件的 Frontmatter
+2. 跳过 `compiled: true` 且源文件修改时间 ≤ 编译时间的文件
+3. 处理 `compiled: false` 或缺失编译标记的文件
+4. 处理源文件修改时间 > 编译时间的文件 (重新编译)
+
+```markdown
+🔨 Incremental Compile — [topic]
+
+⏭️ 跳过: X 文件 (已编译且未修改)
+📋 处理: Y 文件
+├── 🆕 新编译: A
+└── 🔄 重编译: B (源文件已更新)
+```
+
+#### `--force` 全量重编译 (CM-07)
+
+忽略所有编译标记，**重新处理所有 raw/ 源文件**。
+
+⚠️ **使用前确认**:
+```
+⚠️ --force 模式将重新编译所有 N 个源文件
+   现有 wiki/ 页面将被覆盖。
+   继续? (yes/no)
+```
+
+```markdown
+🔨 Force Compile — [topic]
+
+📋 全量重编译: N 源文件 → M wiki 页面
+├── concepts: A
+├── entities: B
+└── sources: C
+
+⚠️ 已覆盖: K 个现有页面
+🆕 新增: L 个页面
 ```
 
 ## 核心理念
@@ -17,8 +81,24 @@
 
 ## 执行流程
 
-### 1. 扫描阶段
+### 0. 编译前检查 (Preflight)
+
+每次编译前必须执行：
+
+```
+1. 读取 3 Resources/[topic]/CLAUDE.md    → 子库 schema + 概念域
+2. 读取 3 Resources/[topic]/wiki/index.md → 现有知识结构 + 统计
+3. 读取 3 Resources/[topic]/wiki/log.md   → 最近 10 条编译历史
+4. 检查 wiki/ 目录结构                     → 缺失则 mkdir -p
+
+if !schema:  warn("无 CLAUDE.md，使用默认规则")
+if !index:   warn("无 index.md，将创建")
+```
+
+### 1. 扫描阶段 (Scanner)
+
 扫描指定 Wiki 子库的 `raw/` 目录：
+
 ```
 3 Resources/[topic]/raw/
 ├── articles/      # 文章摘录
@@ -27,20 +107,36 @@
 └── conversations/ # 对话记录
 ```
 
+**增量模式判定**:
+```
+for each file in raw/:
+    fm = parseFrontmatter(file)
+    
+    if mode == INCREMENTAL:
+        if fm.compiled == true AND file.mtime <= fm.compiled_at:
+            continue  // 跳过
+    if mode == FORCE:
+        // 不跳过任何文件
+    
+    files.append(file)
+```
+
 识别未编译的文件（没有 `compiled: true` frontmatter）。
 
-### 2. 提取阶段
-对每个原始文件执行：
+### 2. 提取阶段 (Extractor)
+
+对每个原始文件执行三层提取：
 
 #### 概念提取
-- 识别核心概念和定义
-- 提取概念之间的关系
-- 识别概念在不同上下文中的应用
+
+从源文件识别核心概念，优先级:
+1. **标题匹配**: `## 定义` / `### 概念` 标题下的首段
+2. **术语密度**: 高频专业术语 (≥3 次出现)
+3. **命名规范**: PascalCase 命名 (如 `LLM-Pricing-Model`)
 
 #### 实体提取
-- 识别关键实体（人名、组织、工具、产品等）
-- 提取实体属性
-- 识别实体之间的关系
+
+正则模式自动匹配 5 种实体类型:
 
 #### 关系提取 (FR-023)
 
@@ -87,6 +183,29 @@
 | "X 与 Y 相关"、"X 和 Y 共同" | `related` | 中 |
 | "X 替代了 Y"、"X vs Y" | `competes` | 中 |
 | 同一段落中多次共现 | `related` | 低→中 |
+
+##### 关系信号正则表 (EX-03)
+
+编译时自动匹配以下模式，提取关系:
+
+```
+C→C 概念关系:
+  is-a:     /(是一种|属于|是.*类型|继承自|为.*子类)/
+  part-of:  /(组成|包含|由.*构成|是.*部分|隶属于)/
+  related:  /(相关|关联|参见|参考|涉及|联系)/
+  precedes: /(先于|前置|依赖|需要.*先|基于.*之上)/
+
+C→E 概念→实体:
+  implements: /(实现|开发|搭建|构建|提供|支持)/
+  uses:       /(使用|采用|利用|借助|基于|调用)/
+  exemplifies: /(例如|比如|典型|代表|实例|体现)/
+
+E→E 实体关系:
+  created:     /(创建|发明|提出|开发|发布|推出)/
+  collaborates: /(合作|协作|联合|共同|携手)/
+  competes:    /(vs\.?|对比|替代|竞争|对手|挑战)/
+  evolved-from: /(源自|演化|前身|继承|基于.*改进)/
+```
 
 ##### 关系文档化规则
 
@@ -218,11 +337,73 @@ AI 永远不修改 `raw/` 目录下的文件。
 - [[raw/papers/paper-name.md]]
 ```
 
-### 规则 4: 增量更新
-优先更新现有页面，而非创建新页面：
-- 检查概念是否已存在
-- 合并信息，避免重复
-- 保留现有链接
+### 规则 4: 去重合并 (FR-028)
+
+**核心原则**: 一个概念 = 一个页面。多源信息合并而非创建重复。
+
+#### 去重判定流程
+
+```
+扫描新概念 → 检查是否已有同名/相似页面
+  ├── 完全匹配 (同名) → 合并信息到现有页面，追加 Sources
+  ├── 别名匹配 (aliases) → 合并，补充别名
+  ├── 高相似 (>80% 关键词重叠) → 合并，标注多来源
+  └── 新概念 → 创建新页面
+```
+
+#### 合并策略
+
+当发现重复/相似概念时：
+
+1. **保留主页面** — 保留内容最完整的页面作为主页面
+2. **追加来源** — 将新来源添加到 `sources` 数组
+3. **合并别名** — 将新发现的中英文名称加入 `aliases`
+4. **标注多来源** — 在 `## Sources` 中列出所有来源文件
+5. **创建重定向** (可选) — 如发现旧版命名 → 创建 `[[old-name]]` 重定向到主页面
+
+```markdown
+## Sources
+- [[raw/articles/llm-pricing-2026.md]] ← 首次编译
+- [[raw/articles/api-comparison-may.md]] ← 合并: 2026-05-31
+```
+
+#### 关键词重叠去重 (DD-03)
+
+当概念名称不完全匹配但内容高度相似时，计算 Jaccard 相似度:
+
+```
+Jaccard(A, B) = |A.keywords ∩ B.keywords| / |A.keywords ∪ B.keywords|
+
+if Jaccard > 0.8:
+    MERGE  // "LLM-Pricing" 与 "LLM-Pricing-Model" → 合并
+if Jaccard 0.5-0.8:
+    REVIEW // 标记需人工判断
+if Jaccard < 0.5:
+    CREATE_NEW
+```
+
+#### 跨库去重 (DD-04)
+
+编译前扫描其他 DDC 子库的 `wiki/concepts/` 目录:
+
+```
+function checkCrossLibrary(concept: Concept): Action {
+    for ddc in ["000", "100", "200", ..., "900"]:
+        if conceptMatches(ddc.wiki.concepts, concept.name):
+            return CROSS_REFERENCE  // 不创建，添加 [[]] 引用
+    return CREATE_NEW
+}
+```
+
+特殊处理: 跨库概念放在概念最核心的 DDC 子库，其他子库通过 `[[]]` 引用。
+
+#### 清理检查
+
+编译完成后检查：
+- [ ] 同一概念无重复页面
+- [ ] 所有 Sources 指向有效的 raw/ 文件
+- [ ] 跨库概念链接正确
+- [ ] 无孤立重定向页
 
 ### 规则 5: 链接优先
 使用 `[[]]` 建立知识连接：
@@ -242,6 +423,7 @@ aliases:
 created: YYYY-MM-DD
 type: concept
 topic: [topic]
+confidence: high | medium | low    ← EX-04: 置信度标注
 ---
 
 # [概念名称]

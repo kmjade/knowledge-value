@@ -45,3 +45,4 @@ topic: 332.6-Investment-and-Trading
 | 2026-05-29 | 13 | 7 | 5 | English rename + tree merge |
 | 2026-05-29 | 7 | 5 | 1 | Economic calendar compile |
 | 2026-05-29 | 5 | 2 | 1 | Initial compile |
+| 2026-06-01 | 17 | 12 | 1 | P0+P1 complete: 交易策略·央行政策·倉位計算·保證金與槓桿·凱利公式·交易紀律 + CPI·NFP·PMI·GDP |

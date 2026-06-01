@@ -104,5 +104,5 @@ topic: FAQ & Troubleshooting
 <<<<<<< HEAD
 > **See also:** [[3 Resources/000 Knowledge/004 Computer Science & technology/04-操作系统/004.451.8-Windows-Server/99-資源收集/資源總覽]] — 完整資源彙整
 =======
-> **See also:** [[資源總覽]] — 完整資源彙整
+> **See also:** [[3 Resources/000 Knowledge/004 Computer Science & technology/004.45-操作系统/004.451.8-Windows-Server/99-資源收集/資源總覽]] — 完整資源彙整
 >>>>>>> origin/main

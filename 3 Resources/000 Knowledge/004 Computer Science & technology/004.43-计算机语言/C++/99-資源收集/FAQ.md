@@ -87,4 +87,4 @@ updated: 2026-05-30
 
 | 上一層 | 相關資源 |
 |:---:|:---:|
-| [[C++]] | [[資源總覽]] |
+| [[C++]] | [[3 Resources/000 Knowledge/004 Computer Science & technology/004.43-计算机语言/C++/99-資源收集/資源總覽]] |

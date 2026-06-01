@@ -13,7 +13,7 @@ tags:
 # 實現報告：weekly-review 技能與指令
 
 **日期**: 2026-05-31
-**來源設計**: [[1 Projects/Work/PARA × LLM-Wiki 融合系统/03-Skills 完整设计.md|第三章 Skill 5]]
+**來源設計**: [[03-Skills 完整设计|第三章 Skill 5]]
 
 ---
 

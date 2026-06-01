@@ -17,7 +17,7 @@ tags: [knowledge-system, architecture, meta]
 
 | 文檔 | 說明 |
 |------|------|
-| [[PARA+LLM-Wiki 整合系统架构设计文档 v1.1\|📐 架構設計 v1.1]] | 完整[[1 Projects/📁 已完成/PARA+LLM-Wiki 融合系统/PARA+LLM-Wiki 整合系统架构设计文档 v1.0\|📐 架構設計 v1.0]]v1.0\|📐 架構設計 v1.0]] | 初始設計文檔 |
+| [[PARA+LLM-Wiki 整合系统架构设计文档 v1.1\|📐 架構設計 v1.1]] | 完整[[1 Projects/📁 已完成/PARA+LLM-Wiki 融合系统/设计文档/PARA+LLM-Wiki 整合系统架构设计文档 v1.0\|📐 架構設計 v1.0]]v1.0\|📐 架構設計 v1.0]] | 初始設計文檔 |
 | [[_META-INDEX]] | 全局導航入口 |
 
 ## 三大支柱

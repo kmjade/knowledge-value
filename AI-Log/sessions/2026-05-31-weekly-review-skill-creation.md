@@ -12,7 +12,7 @@ tags:
 # 会话记录：weekly-review 技能与指令创建
 
 **日期**: 2026-05-31
-**主题**: 基于 [[1 Projects/Work/PARA × LLM-Wiki 融合系统/03-Skills 完整设计.md|03-Skills 完整设计]] Skill 5 规范，创建 `/weekly-review` 的完整双轨实现
+**主题**: 基于 [[03-Skills 完整设计|03-Skills 完整设计]] Skill 5 规范，创建 `/weekly-review` 的完整双轨实现
 **状态**: ✅ 已完成
 
 ---
@@ -38,7 +38,7 @@ tags:
 |------|------|------|
 | `weekly-review.md` | 4.6KB | 精简版指令，六步骤概要 + 参数说明 |
 
-### 3. 使用指南 `1 Projects/Work/PARA × LLM-Wiki 融合系统/weekly-review-使用指南.md`
+### 3. 使用指南 `1 Projects/📁 已完成/PARA+LLM-Wiki 融合系统/weekly-review-使用指南.md`
 
 独立使用指南，包含快速上手、参数说明、典型场景、FAQ。
 

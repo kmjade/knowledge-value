@@ -1,6 +1,6 @@
 ---
 language: zh-tw
-updated: 2026-05-31
+updated: 2026-06-01
 ---
 
 # 🧠 knowledge-value — PARA × LLM-Wiki 融合系統
@@ -10,13 +10,13 @@ updated: 2026-05-31
 ![Claude Code](https://img.shields.io/badge/Claude-Code-🤖-10B981?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-Apache--2.0-FF6B6B?style=for-the-badge)
 
-[English](README.md) | [[README_zh-CN|簡體中文]] | [[README_zh-TW|繁體中文]]
+[English](README.md) | [[README_zh-CN|简体中文]] | [[README_zh-TW|繁体中文]]
 
 ---
 
 ## 概述
 
-> 基於 **PARA 方法論** 與 **LLM-Wiki** 深度融合的個人知識管理系統。Claude Code 作為 AI Agent，在 Obsidian Vault 中承擔資訊路由與知識編譯的職責——從「檢索」到「編譯」，將維護成本降為零。
+> 基於 **PARA 方法論** 與 **LLM-Wiki** 深度融合的個人知識管理系統。Claude Code 作為 AI Agent，在 Obsidian Vault 中承擔資訊路由與知識編譯的職責——從「檢索」到「編譯」，將維護成本降到零。
 
 **核心理念**：一個 Vault、全部 Markdown、Claude Code 完全可存取。人類是資訊的生產者和消費者，AI 負責中間所有的整理工作。
 
@@ -47,14 +47,14 @@ updated: 2026-05-31
 └──────────────────────────┬──────────────────────────────────┘
                            ↓
 ┌─────────────────────────────────────────────────────────────┐
-│                 🧭 Layer 2 — PARA 行動管理層                  │
+│                 🧭 Layer 2 — PARA 行動管理層                 │
 │    1 Projects/ → 2 Areas/ → 3 Resources/ → 4 Archives/     │
 └──────────────────────────┬──────────────────────────────────┘
                            ↓
 ┌─────────────────────────────────────────────────────────────┐
-│                 📚 Layer 3 — Wiki 知識編譯層                  │
+│                 📚 Layer 3 — Wiki 知識編譯層                 │
 │        raw/ → /wiki-compile → wiki/ → outputs/              │
-│          (人類寫入·AI 唯讀)      (AI 獨占·人類唯讀)           │
+│          (人類寫入·AI唯讀)      (AI獨佔·人類唯讀)            │
 └─────────────────────────────────────────────────────────────┘
                            ↕
                    🧠 CLAUDE.md 根憲法
@@ -69,7 +69,7 @@ updated: 2026-05-31
 
 ```
 knowledge-value/
-├── 📥 0 Inbox/                  # 唯一入口 — 所有資訊匯集處
+├── 📥 0 Inbox/                  # 唯一入口 — 所有資訊彙集處
 │   ├── _INDEX.md               #   收件匣快速導航
 │   ├── _processed/             #   已分揀存檔
 │   ├── Clippings/              #   網頁剪藏
@@ -122,9 +122,9 @@ knowledge-value/
 
 | 分類 | 資料夾 | 說明 | 判斷標準 |
 |:---:|--------|------|----------|
-| 🔴 **Projects** | `1 Projects/` | 有明確目標和截止日期的短期任務 | 「有截止日期嗎？」→ 是 |
-| 🟢 **Areas** | `2 Areas/` | 持續維護，沒有「完成」狀態 | 「需要持續維護嗎？」→ 是 |
-| 🔵 **Resources** | `3 Resources/` | 感興趣的主題、參考資料 | 「感興趣但不需要立即行動？」→ 是 |
+| 🔴 **Projects** | `1 Projects/` | 有明確目標和截止日期的短期任務 | "有截止日期嗎？"→ 是 |
+| 🟢 **Areas** | `2 Areas/` | 持續維護，沒有「完成」狀態 | "需要持續維護嗎？"→ 是 |
+| 🔵 **Resources** | `3 Resources/` | 感興趣的主題、參考資料 | "感興趣但不需要立即行動？"→ 是 |
 | ⚪ **Archives** | `4 Archives/` | 已完成/過時/不再需要 | 以上都不是 → 歸檔 |
 
 ### 決策樹
@@ -162,8 +162,8 @@ knowledge-value/
 ```
 [Topic]/
 ├── CLAUDE.md          # 子庫 schema
-├── raw/               # 原始資料 (人類獨占 · AI 唯讀)
-├── wiki/              # 編譯產物 (AI 獨占 · 人類唯讀)
+├── raw/               # 原始資料 (人類獨佔 · AI 唯讀)
+├── wiki/              # 編譯產物 (AI 獨佔 · 人類唯讀)
 │   ├── concepts/      #   概念頁面
 │   ├── entities/      #   實體頁面
 │   └── sources/       #   來源溯源
@@ -218,7 +218,7 @@ knowledge-value/
 
 ### 每日工作流
 
-| 時刻 | 操作 | 命令 |
+| 時刻 | 操作 | 指令 |
 |------|------|------|
 | 🌅 早晨 | 載入會話狀態 | `/context` |
 | 🌅 早晨 | 建立/初始化今日日記 | `/daily-open` |
@@ -227,7 +227,7 @@ knowledge-value/
 
 ### 每週工作流
 
-| 時刻 | 操作 | 命令 |
+| 時刻 | 操作 | 指令 |
 |------|------|------|
 | 📅 週末 | 週回顧 + 知識蒸餾 + 過期歸檔 | `/weekly-review` |
 | 🔍 隨時 | 系統健康檢查 | `/lint` |
@@ -236,22 +236,22 @@ knowledge-value/
 
 ## 🤖 Skills 技能庫
 
-| 命令 | 功能 | 說明 |
+| 指令 | 功能 | 說明 |
 |------|------|------|
 | `/triage` | 📥 智慧分揀 | 分析 Inbox 檔案 → 路由到 PARA + Wiki raw/ |
 | `/wiki-compile` | 📚 知識編譯 | raw/ → 提取概念/實體 → 寫入 wiki/ |
 | `/context` | 📍 狀態載入 | 載入活躍專案、今日待辦、Inbox 狀態 |
 | `/daily-open` | 🌅 每日開啟 | 建立今日日記 + 自動填充任務 |
-| `/weekly-review` | 📊 每週回顧 | 匯總週數據 + 批量編譯 + 過期歸檔 |
-| `/lint` | 🔍 健康檢查 | 死鏈檢測·孤立頁·未編譯原料·矛盾匯總 |
+| `/weekly-review` | 📊 每週回顧 | 彙總週資料 + 批次編譯 + 過期歸檔 |
+| `/lint` | 🔍 健康檢查 | 死鏈偵測·孤立頁·未編譯原料·矛盾彙總 |
 
 ### 輔助 Skills
 
-| 命令 | 功能 |
+| 指令 | 功能 |
 |------|------|
 | `/search` | 🔍 搜尋內容 |
 | `/obsidian` | 📎 Obsidian 語法/外掛輔助 |
-| `/first-cn-tw` | 繁體中文優先 |
+| `/first-cn-zh` | 簡體中文優先 |
 | `/english-first` | English First |
 
 ---
@@ -268,7 +268,7 @@ knowledge-value/
 | **專題** | `#topic/ai-ml`, `#topic/philosophy` | 主題歸類 |
 | **生命週期** | `#lifecycle/ephemeral`, `#lifecycle/evergreen` | 資訊時效分級 |
 
-完整規範見 [[_meta/⚙️ 系统配置/tag-system-guide|標籤系統指南]] 和 [[_meta/⚙️ 系统配置/tag-quick-reference|快速參考]]。
+完整規範見 [[_meta/⚙️ 系統配置/tag-system-guide|標籤系統指南]] 和 [[_meta/⚙️ 系統配置/tag-quick-reference|快速參考]]。
 
 ---
 
@@ -296,9 +296,9 @@ knowledge-value/
 ### 核心文件
 
 | 文件 | 說明 | 優先級 |
-| --- | --- | :-: |
+|------|------|:---:|
 | [[CLAUDE]] | Claude Code 根憲法 + 系統指令 | ⭐⭐⭐ |
-| [[1 Projects/Work/PARA × LLM-Wiki 融合系统/PARA × LLM-Wiki 融合系统\|PARA × LLM-Wiki 融合系統]] | 完整架構設計文件 v1.0 | ⭐⭐⭐ |
+| [[1 Projects/📁 已完成/PARA+LLM-Wiki 融合系统/PARA+LLM-Wiki 融合系统\|PARA × LLM-Wiki 融合系統]] | 完整架構設計文件 v1.0 | ⭐⭐⭐ |
 | [[_meta/_INDEX]] | Vault 總儀表板 | ⭐⭐ |
 | [[3 Resources/_META-INDEX]] | 全域 Wiki 導航 | ⭐⭐ |
 
@@ -306,10 +306,10 @@ knowledge-value/
 
 | 文件 | 說明 |
 |------|------|
-| [[_meta/⚙️ 系统配置/⚙️ 系统配置]] | 系統配置總覽 |
-| [[_meta/⚙️ 系统配置/tag-system-guide]] | 標籤系統完整指南 |
-| [[_meta/⚙️ 系统配置/知识库结构概览]] | Vault 結構詳細說明 |
-| [[_meta/⚙️ 系统配置/PARA 模板库]] | 範本索引 |
+| [[_meta/⚙️ 系統配置/⚙️ 系統配置]] | 系統配置總覽 |
+| [[_meta/⚙️ 系統配置/tag-system-guide]] | 標籤系統完整指南 |
+| [[_meta/⚙️ 系統配置/知識庫結構概覽]] | Vault 結構詳細說明 |
+| [[_meta/⚙️ 系統配置/PARA 模板庫]] | 範本索引 |
 
 ---
 
@@ -337,28 +337,19 @@ knowledge-value/
 <details>
 <summary>AI 能修改我的筆記嗎？</summary>
 
-分區控制：
+分區域控制：
 - `0 Inbox/` — AI 讀取並分揀
-- `1 Projects/`、`2 Areas/` — AI 輔助整理
-- `3 Resources/raw/` — **人類獨占**，AI 唯讀
-- `3 Resources/wiki/` — **AI 獨占**，人類唯讀
+- `1 Projects/`, `2 Areas/` — AI 輔助整理
+- `3 Resources/raw/` — **人類獨佔**，AI 唯讀
+- `3 Resources/wiki/` — **AI 獨佔**，人類唯讀
 - `4 Archives/` — AI 自動歸檔
-
-</details>
-
-<details>
-<summary>如何新增筆記？</summary>
-
-1. 所有內容先進 `0 Inbox/`（手動、Web Clipper、行動端均可）
-2. 執行 `/triage` — AI 自動分析時效性/主題/人物，路由到正確位置
-3. 參考資料進入 `raw/` 後，執行 `/wiki-compile` 編譯為 Wiki 頁面
 
 </details>
 
 <details>
 <summary>支援多語言嗎？</summary>
 
-是的！系統支援簡體中文（預設）、繁體中文、English。
+是的！系統支援 簡體中文（預設）、繁體中文、English。
 
 </details>
 

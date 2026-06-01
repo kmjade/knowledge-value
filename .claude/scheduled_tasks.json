@@ -1,0 +1,25 @@
+{
+  "tasks": [
+    {
+      "id": "7a313cb1",
+      "cron": "3 9 * * *",
+      "prompt": "执行每日自动分拣: 1) 运行 /context --inbox 检查积压；2) 如有新文件且 >3 个，提示用户执行 /triage --dry-run；3) 如 >10 个且用户在过去 2 天内有活动，自动执行 /triage --scope clippings",
+      "createdAt": 1780219515661,
+      "recurring": true,
+      "createdBySessionId": "336f03ff-c6b5-49b2-ab78-7c3f5ecac511",
+      "createdByPid": 27292,
+      "lastFiredAt": 1780277580183
+    },
+    {
+      "id": "9e09c761",
+      "cron": "7 8 * * *",
+      "prompt": "检查待编译源文件: 1) 扫描 3 Resources/*/raw/ 目录查找 compiled: false 的文件；2) 如任何子库未编译文件 > 3 个，列出并提示用户；3) 如单个子库未编译 > 10 且用户近期活跃，运行 /wiki-compile [topic] --incremental --dry-run 预览",
+      "createdAt": 1780219588576,
+      "lastFiredAt": 1780274220326,
+      "recurring": true,
+      "createdBySessionId": "336f03ff-c6b5-49b2-ab78-7c3f5ecac511",
+      "createdByPid": 27292,
+      "createdByProcStart": "639158514225788920"
+    }
+  ]
+}

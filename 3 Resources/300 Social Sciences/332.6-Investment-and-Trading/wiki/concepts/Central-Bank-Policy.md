@@ -36,7 +36,7 @@ status: reviewed
 | **NFP 非農就業** | 每月 | ⭐⭐⭐⭐⭐ |
 | CPI 通膨 | 每月 | ⭐⭐⭐⭐⭐ |
 | 央行行長[[3 Resources/300 Social Sciences/332.6-Investment-and-Trading/wiki/concepts/Economic-Calendar]]## 相關概念
-- [[貨幣對]]、[[Economic-Calendar]]
+- [[貨幣對]]、[[3 Resources/300 Social Sciences/332.6-Investment-and-Trading/wiki/concepts/Economic-Calendar]]
 
 ## Sources
 - [[source-投資與交易-KB]]、[[source-財經數據]]

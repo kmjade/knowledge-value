@@ -75,7 +75,7 @@ version: "1.1"
 | 17 | [[OKR-Framework\|OKR]] — Objectives and Key Results | `OKR` | productivity |
 | 18 | [[Zettelkasten-Method\|Zettelkasten]] — 卡片盒筆記法 | `Zettelkasten` | productivity |
 | 19 | [[Second-Brain\|第二大腦]] — Building a Second Brain | `Second-Brain` | productivity |
-| 20 | [[LLM-Wiki\|LLM-Wiki]] — AI 知識編譯方法論 | `LLM-Wiki` | productivity / 060 |
+| 20 | [[3 Resources/000 Knowledge/wiki/concepts/LLM-Wiki\|LLM-Wiki]] — AI 知識編譯方法論 | `LLM-Wiki` | productivity / 060 |
 
 ### 系統理論
 

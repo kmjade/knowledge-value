@@ -45,6 +45,6 @@ source: 智能小车
 
 ## 相关
 
-- [[0 Inbox/generative-a[[0 Inbox/generative-art/wiki/concepts/algorithmic-philosophy|算法哲学方法论]]Art[[0 Inbox/generative-art/wiki/concepts/seeded-randomness|种子随机性范式]]oso[[0 Inbox/generative-art/wiki/entities/p5js|p5.js]]
-- [[seeded-randomness|种子随机性范式]]
-- [[p5js|p5.js]]
+- [[0 Inbox/generative-a[[0 Inbox/_processed/generative-art/wiki/concepts/algorithmic-philosophy|算法哲学方法论]]Art[[0 Inbox/_processed/generative-art/wiki/concepts/seeded-randomness|种子随机性范式]]oso[[0 Inbox/_processed/generative-art/wiki/entities/p5js|p5.js]]
+- [[0 Inbox/_processed/generative-art/wiki/concepts/seeded-randomness|种子随机性范式]]
+- [[0 Inbox/_processed/generative-art/wiki/entities/p5js|p5.js]]

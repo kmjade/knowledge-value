@@ -298,7 +298,7 @@ knowledge-value/
 | 文档                                                                                  | 说明                     | 优先级 |
 | ----------------------------------------------------------------------------------- | ---------------------- | :-: |
 | [[CLAUDE]]                                                                          | Claude Code 根宪法 + 系统指令 | ⭐⭐⭐ |
-| [[1 Projects/📁 已完成/PARA+LLM-Wiki 融合系统/PARA × LLM-Wiki 融合系统\|PARA × LLM-Wiki 融合系统]] | 完整架构设计文档 v1.0          | ⭐⭐⭐ |
+| [[1 Projects/📁 已完成/PARA+LLM-Wiki 融合系统/PARA+LLM-Wiki 融合系统\|PARA × LLM-Wiki 融合系统]] | 完整架构设计文档 v1.0          | ⭐⭐⭐ |
 | [[_meta/_INDEX]]                                                                    | Vault 总仪表板             | ⭐⭐  |
 | [[3 Resources/_META-INDEX]]                                                         | 全局 Wiki 导航             | ⭐⭐  |
 

@@ -14,6 +14,75 @@
 
 ## 执行流程
 
+### Pipeline 架构
+
+```
+/context ──┬── --quick ────► QuickPipeline    (6 指标表)
+           ├── --projects ─► ProjectPipeline  (项目详情)
+           ├── --inbox ────► InboxPipeline    (积压详情)
+           └── --summary ──► SummaryPipeline   (阈值建议)
+```
+
+### QuickPipeline (--quick)
+
+仅统计关键指标，不读取文件内容。目标 < 30s。
+
+```
+function quick():
+    return {
+        projects:   countActive("1 Projects/"),
+        inbox:      countFiles("0 Inbox/", exclude="_processed"),
+        raw:        countUncompiled("3 Resources/*/raw/"),
+        wiki:       countWikiPages("3 Resources/*/wiki/"),
+        lastLint:   readLastLintDate(),
+        git:        gitStatus()
+    }
+```
+
+### ProjectPipeline (--projects)
+
+```
+function projects():
+    for proj in scan("1 Projects/"):
+        status = 
+            fm.status == "archived":  skip
+            days > 30:               "🟡 stalled"
+            fm.deadline < today():    "🔴 overdue"
+            else:                    "🟢 active"
+        
+        suggestion = 
+            days > 30: "考虑归档"
+            fm.deadline < today(): "🔴 已过期"
+            else: "继续"
+```
+
+### InboxPipeline (--inbox)
+
+```
+function inbox():
+    files = scan("0 Inbox/", exclude="_processed")
+    return {
+        total: files.length,
+        oldest: max(files.map(daysSince)),
+        byDir: groupBy(files, dir),
+        preview: files.slice(0,5).map(guessTopic)
+    }
+```
+
+### SummaryPipeline (--summary)
+
+```
+THRESHOLDS = {
+    inbox_high:     20,   // 🔴
+    inbox_medium:    5,   // 🟡
+    raw_uncompiled:  3,   // 🟡
+    lint_gap:        7,   // 🟡
+    project_stale:  30,   // 🟡
+}
+```
+
+---
+
 ### Step 1：读取今日日记
 
 路径：`Periodic/daily/YYYY/YYYY-MM-DD.md`

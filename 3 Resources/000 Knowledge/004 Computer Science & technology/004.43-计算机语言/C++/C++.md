@@ -38,8 +38,8 @@ updated: 2026-05-30
 | 07 | [[07-现代C++特性]] | move semantics/perfect forwarding、Lambda、constexpr/consteval、Ranges (C++20)、Modules (C++20)、`std::optional/variant/expected` | 🟡 進階 |
 | 08 | [[08-工程化实践]] | CMake、vcpkg/Conan、GoogleTest/Catch2、clang-tidy/cppcheck、ASan/TSan/UBSan | 🟡 進階 |
 | 09 | [[09-性能优化]] | compiler flags (-O2/-O3/LTO/PGO)、cache-friendly、inlining、Benchmark | 🔴 高階 |
-| 99 | [[99-資源收集/FAQ]] | 常見問題與解決方案 | 🟢 |
-| 99 | [[99-資源收集/資源總覽]] | 書籍、網站、工具、社群資源總覽 | 🟢 |
+| 99 | [[3 Resources/000 Knowledge/004 Computer Science & technology/004.43-计算机语言/C++/99-資源收集/FAQ]] | 常見問題與解決方案 | 🟢 |
+| 99 | [[3 Resources/000 Knowledge/004 Computer Science & technology/004.43-计算机语言/C++/99-資源收集/資源總覽]] | 書籍、網站、工具、社群資源總覽 | 🟢 |
 
 ---
 
