@@ -1,150 +1,91 @@
 ---
 title: Reinforcement Learning
 tags: [ai, reinforcement-learning]
-created: 2026-05-29
-aliases: [RL, 強化學習]
+created: 2026-06-01
+aliases: [RL, 強化學習, 增強學習]
 ---
 
 # 06 — Reinforcement Learning 強化學習
 
-> RL is about learning from interaction: an agent takes actions in an environment, receives rewards (or penalties), and learns to maximize cumulative reward over time.
-> 強化學習是從互動中學習：智能體在環境中採取行動，獲得獎勵（或懲罰），學習最大化長期累積獎勵。
+> Reinforcement Learning is the third paradigm of ML: an agent learns by interacting with an environment, receiving rewards or penalties, and optimizing its behavior through trial and error.
+> 強化學習是 ML 的第三種範式：智能體通過與環境互動、接收獎勵或懲罰，通過試錯來最佳化其行為策略。
 
 ---
 
-## 核心框架 Core Framework
+## MDP 基礎 Markov Decision Process
 
-### Agent-Environment Loop
-
-```
-        ┌── Action aₜ ──→
-   ┌────┴────┐       ┌──────────┐
-   │  Agent   │       │Environment│
-   └────┬────┘       └─────┬────┘
-        ←── State sₜ, Reward rₜ ──
-```
-
-| 元件 | 說明 |
-|------|------|
-| **Agent** | 學習和決策的主體 |
-| **Environment** | Agent 所處和互動的世界 |
-| **State (s)** | 環境的當前狀態 |
-| **Action (a)** | Agent 可執行的動作 |
-| **Reward (r)** | 環境給予的即時反饋信號 |
-| **Policy π(a\|s)** | 在狀態 s 下選擇動作 a 的策略 |
-| **Value Function V(s)** | 狀態 s 的長期預期回報 |
+| 概念 Concept | 說明 Description |
+|-------------|-----------------|
+| **State s ∈ S** | 環境的當前狀態 |
+| **Action a ∈ A** | 智能體可執行的動作 |
+| **Reward R(s,a)** | 執行動作後獲得的即時獎勵 |
+| **Policy π(a|s)** | 在狀態 s 下選擇動作 a 的機率分佈 |
+| **Value Function V(s)** | 從狀態 s 開始的期望累積獎勵 |
+| **Q-Function Q(s,a)** | 在狀態 s 執行動作 a 後的期望累積獎勵 |
+| **Discount Factor γ** | 未來獎勵的折現率 (0 < γ ≤ 1) |
+| **Bellman Equation** | Q(s,a) = R(s,a) + γ·max Q(s',a')，RL 的理論基石 |
 
 ---
 
-## RL 的兩大流派 Two Main Approaches
+## 基礎方法 Foundation Methods
 
-### Value-Based（學習價值函數）
-
-| 演算法 | 核心思想 |
-|--------|---------|
-| **Q-Learning** | 學習 Q(s,a)：在狀態 s 採取 a 的預期回報 |
-| **DQN** (Deep Q-Network) | Q-Learning + 神經網路 + Experience Replay + Target Network |
-| **Double DQN** | 解決 Q 值過估計問題 |
-| **Dueling DQN** | 分離狀態價值和動作優勢 |
-
-### Policy-Based（直接學習策略）
-
-| 演算法 | 核心思想 |
-|--------|---------|
-| **REINFORCE** | Monte Carlo Policy Gradient |
-| **Actor-Critic** | Actor (策略) + Critic (價值) 雙網路 |
-| **A2C/A3C** | Advantage Actor-Critic，降低方差 |
-| **PPO** | Proximal Policy Optimization，限制更新步長，當前最流行的 RL 演算法 |
-| **TRPO** | Trust Region Policy Optimization，PPO 的前身 |
+| 方法 Method | 類型 Type | 核心思想 Core Idea |
+|-----------|---------|-------------------|
+| **Q-Learning** | Value-based | 學習最優 Q 值表，離策略更新 |
+| **SARSA** | Value-based | 在策略 Q 值更新，更保守 |
+| **DQN** (Deep Q-Network) | Value-based | 深度網路 + 經驗回放 + 目標網路，玩 Atari 超人類 |
+| **Policy Gradient** | Policy-based | 直接最佳化策略參數：∇J(θ) = E[∇log π(a|s) · R] |
+| **REINFORCE** | Policy-based | Monte Carlo 策略梯度，高方差 |
 
 ---
 
-## PPO: Proximal Policy Optimization
+## 進階方法 Advanced Methods
 
-PPO 是當前最廣泛使用的 RL 演算法，也是 RLHF 的核心。
-
-### PPO 的核心思想
-
-```
-Policy Gradient: θ ← θ + α·∇J(θ)
-PPO:             限制每次更新的幅度，防止策略崩潰
-                 用 clipped surrogate objective
-```
-
-| 特點 | 說明 |
-|------|------|
-| **Clipping** | 限制新舊策略的 ratio 在 [1−ε, 1+ε] |
-| **Multiple epochs** | 重複使用同一批資料訓練多次 |
-| **Stability** | 比 TRPO 簡單，效能接近 |
+| 方法 Method | 類型 Type | 核心創新 Core Innovation |
+|-----------|---------|------------------------|
+| **A2C / A3C** | Actor-Critic | Actor (策略) + Critic (價值)，降低方差 |
+| **PPO** | Policy Gradient | 信任區域裁剪，穩定訓練，RLHF 預設演算法 |
+| **TRPO** | Policy Gradient | KL 散度約束，PPO 的前身 |
+| **DDPG** | Actor-Critic | 連續動作空間，DDPG → TD3 → SAC 演進 |
+| **SAC** (Soft Actor-Critic) | Actor-Critic | 熵正則化，探索性強，樣本效率高 |
 
 ---
 
-## RLHF: Reinforcement Learning from Human Feedback
+## 里程碑系統 Milestone Systems
 
-**ChatGPT / Claude 背後的核心對齊技術**。
-
-### RLHF 三步驟
-
-```
-Step 1: SFT (Supervised Fine-Tuning)
-  收集人類示範的高品質回答 → Fine-tune 基礎 LLM
-
-Step 2: Reward Model Training
-  對同一 prompt 生成多個回答 → 人類排序 → 訓練 Reward Model
-
-Step 3: PPO Optimization
-  用 Reward Model 作為 reward signal → PPO 最佳化 LLM
-```
-
-| 步驟 | 目標 | 資料 |
-|------|------|------|
-| **SFT** | 讓模型學會「好的回答長什麼樣」 | 人類撰寫的高品質回答 |
-| **Reward Model** | 能自動評分回答的好壞 | 人類排名（A > B > C） |
-| **PPO** | 最大化 Reward Model 的評分 | 模型自行生成 + RM 評分 |
-
-### 超越 RLHF
-
-| 方法 | 說明 |
-|------|------|
-| **DPO** (Direct Preference Optimization) | 跳過 Reward Model，直接從偏好資料最佳化 |
-| **RLVR** (RL with Verifiable Rewards) | 用可驗證的獎勵（數學正確性、程式碼通過測試） |
-| **Constitutional AI** | 用 AI 反饋取代人類反饋（Anthropic 的方法） |
+| 系統 System | 年份 Year | 意義 Significance |
+|------------|----------|------------------|
+| **DQN plays Atari** | 2013/2015 | 深度 RL 的開端，從像素學習 |
+| **AlphaGo** | 2016 | 擊敗圍棋世界冠軍李世石，RL + MCTS + 人類知識 |
+| **AlphaGo Zero** | 2017 | 無人類知識，純自我對弈訓練，超越 AlphaGo |
+| **AlphaZero** | 2018 | 統一框架玩圍棋/象棋/將棋，通用棋類 AI |
+| **OpenAI Five** | 2019 | Dota 2 擊敗世界冠軍，多智能體協作 |
+| **AlphaStar** | 2019 | 星海爭霸 II 達宗師級，非完全資訊博弈 |
 
 ---
 
-## Exploration vs Exploitation 探索與利用
+## RLHF 與 LLM 對齊 RLHF for LLM Alignment
 
-| 策略 | 說明 |
-|------|------|
-| **ε-Greedy** | 以 ε 機率隨機探索，1−ε 機率選擇最佳 |
-| **UCB** (Upper Confidence Bound) | 選擇不確定性高的動作 |
-| **Thompson Sampling** | 貝氏方法，按機率取樣 |
-| **Entropy Bonus** | 在 loss 中加入熵獎勵，鼓勵探索 |
+> RLHF 是 ChatGPT 成功的關鍵技術，將 RL 應用於語言模型的行為對齊。
 
----
-
-## 關鍵應用 Key Applications
-
-| 領域 | 應用 |
-|------|------|
-| **遊戲** | AlphaGo, AlphaZero, OpenAI Five (Dota 2) |
-| **機器人** | 抓取、導航、操作 |
-| **LLM 對齊** | RLHF / DPO — 讓 LLM 安全且有用 |
-| **自動駕駛** | 路徑規劃、決策 |
-| **推薦系統** | 長期使用者參與度最佳化 |
-| **晶片設計** | Google 用 RL 設計 TPU 佈局 |
+| 階段 Stage | 說明 Description |
+|-----------|-----------------|
+| **Step 1: SFT 監督微調** | 用高品質人類示範資料微調基座模型 |
+| **Step 2: RM 獎勵模型** | 收集人類偏好對比資料，訓練獎勵模型 |
+| **Step 3: PPO 強化學習** | 用獎勵模型引導 PPO 最佳化策略，使輸出符合人類偏好 |
+| **DPO (替代方案)** | 直接從偏好資料最佳化，無需顯式獎勵模型，簡化 RLHF |
 
 ---
 
 ## 相關模組 Related Modules
 
-| 模組 | 關聯 |
-|------|------|
-| [[02-Machine Learning]] — 第三種 ML 範式 | RL 的理論基礎 |
-| [[03-Deep Learning]] — DQN/PPO 使用神經網路 | 深度 RL |
-| [[07-Generative AI & LLMs]] — RLHF | LLM 對齊的核心技術 |
-| [[08-AI Ethics & Safety]] — AI 對齊 | RL 在安全中的應用 |
+| 模組 Module | 關聯 |
+|------------|------|
+| [[02-Machine Learning]] — 監督/非監督學習 | RL 是第三種 ML 範式 |
+| [[03-Deep Learning]] — DQN/PPO 的網路架構 | 深度 RL 的基礎 |
+| [[07-Generative AI & LLMs]] — RLHF 應用 | LLM 對齊的核心技術 |
+| [[08-AI Ethics & Safety]] — AI 對齊 | RL 在 AI 安全中的角色 |
 
 ---
 
-> 💡 **Key Insight**: RL 是最接近「通用智慧」的學習範式——從試錯中學習，無需標籤資料。但也是最難訓練的：sample inefficient + 不穩定。RL is the closest we have to how biological intelligence learns.
+> 💡 **Key Insight**: RL is about learning from consequences, not examples. 強化學習是從後果中學習，而非從範例中學習。這使它成為最接近人類學習方式的 AI 範式——也是最難駕馭的。

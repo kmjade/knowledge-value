@@ -1,175 +1,98 @@
 ---
 title: Deep Learning
 tags: [ai, deep-learning]
-created: 2026-05-29
-aliases: [DL, 深度學習, 神經網路]
+created: 2026-06-01
+aliases: [深度學習, DL, 神經網路, Neural Networks]
 ---
 
 # 03 — Deep Learning 深度學習
 
-> Deep Learning uses multi-layer neural networks to automatically learn hierarchical representations from data. It powers everything from image recognition to LLMs.
-> 深度學習使用多層神經網路，從資料中自動學習階層化表徵。它驅動從影像辨識到 LLM 的一切。
+> Deep Learning is a subfield of ML that uses multi-layered neural networks to automatically learn hierarchical representations from data. It powers modern AI breakthroughs from image recognition to LLMs.
+> 深度學習是機器學習的子領域，使用多層神經網路從資料中自動學習階層化表徵。從影像辨識到 LLM，它驅動了現代 AI 的突破。
 
 ---
 
 ## 神經網路基礎 Neural Network Basics
 
-### 神經元模型 Neuron Model
-
-```
-Inputs   Weights
-  x₁ ──── w₁ ──╮
-  x₂ ──── w₂ ──┼── Σ ──→ Activation ──→ Output
-  x₃ ──── w₃ ──╯         f(z)
-                  + bias
-```
-
-| 元件 | 說明 |
-|------|------|
-| **Weights (w)** | 學習參數，決定每個輸入的重要性 |
-| **Bias (b)** | 偏移量，讓模型更靈活 |
-| **Activation Function** | 引入非線性，讓網路能學習複雜模式 |
-
-### 激活函數 Activation Functions
-
-| 函數 | 公式 | 特點 |
-|------|------|------|
-| **Sigmoid** | σ(x) = 1/(1+e⁻ˣ) | [0,1] 輸出，用於二元分類輸出層 |
-| **Tanh** | tanh(x) | [−1,1] 輸出，零中心 |
-| **ReLU** | max(0, x) | 計算簡單，緩解梯度消失，最常用 |
-| **Leaky ReLU** | max(0.01x, x) | 解決 ReLU 的 "dying neuron" 問題 |
-| **GELU** | x·Φ(x) | Transformer 預設，平滑近似 |
-| **Softmax** | eˣⁱ/Σeˣʲ | 多分類輸出，轉換為機率分佈 |
+| 概念 Concept | 說明 Description |
+|-------------|-----------------|
+| **Perceptron 感知機** | 最簡單的神經元：y = σ(w·x + b)，線性分類的基礎單元 |
+| **MLP 多層感知機** | 多層全連接神經網路，通過隱藏層學習非線性映射 |
+| **Activation 激活函數** | ReLU / GELU / Sigmoid / Tanh，引入非線性 |
+| **Backpropagation 反向傳播** | 鏈式法則計算梯度，從輸出層逐層回傳誤差 |
+| **Gradient Descent 梯度下降** | 沿損失函數梯度方向更新權重：w ← w − η·∇L |
 
 ---
 
-## 訓練過程 Training Process
+## CNN 卷積神經網路 Evolution
 
-### Forward + Backward Propagation
-
-```
-Forward Pass:  Input → Hidden Layers → Output → Loss
-Backward Pass: Loss → Gradient ← Weights ← ∂L/∂w
-                 │                         │
-                 └─── Update: w = w − η·∂L/∂w ───┘
-```
-
-| 步驟 | 說明 |
-|------|------|
-| **Forward Pass** | 輸入經過網路產生預測 |
-| **Loss Calculation** | 比較預測與真實值的差距 |
-| **Backward Pass (Backpropagation)** | 計算每個參數對 loss 的梯度 |
-| **Weight Update** | 用 optimizer 更新權重：w = w − η·∇L |
-
-### 損失函數 Loss Functions
-
-| 任務 | 損失函數 | 說明 |
-|------|---------|------|
-| Regression | MSE (L2 Loss) | 平方誤差 |
-| Regression | MAE (L1 Loss) | 絕對誤差，對 outliers 穩健 |
-| Binary Classification | Binary Cross-Entropy | 二元分類 |
-| Multi-Class | Categorical Cross-Entropy | 多分類 |
-
-### 優化器 Optimizers
-
-| Optimizer | 特點 |
-|-----------|------|
-| **SGD** | 最基礎，加 momentum 可改善 |
-| **Adam** | 自適應學習率，最通用，預設首選 |
-| **AdamW** | Adam + decoupled weight decay，Transformer 常用 |
-| **RMSprop** | 適合 RNN 和非平穩目標 |
+| 架構 Architecture | 年份 Year | 關鍵創新 Key Innovation |
+|------------------|----------|----------------------|
+| **LeNet-5** | 1998 | 首個成功 CNN，手寫數字辨識 |
+| **AlexNet** | 2012 | ReLU + Dropout + GPU，ImageNet 冠軍，DL 革命引爆點 |
+| **VGGNet** | 2014 | 小卷積核 (3×3) 堆疊，簡單但參數量大 |
+| **GoogLeNet / Inception** | 2014 | Inception 模組，多尺度並行卷積 |
+| **ResNet** | 2015 | 殘差連接 (Skip Connection)，解決梯度消失，可訓練 152 層 |
+| **EfficientNet** | 2019 | 複合縮放 (深度/寬度/分辨率)，效率→精度最優 |
 
 ---
 
-## 正則化 Regularization
+## RNN 序列模型 Sequence Models
 
-| 技術 | 說明 | 防止 |
-|------|------|------|
-| **L1/L2 Regularization** | 在 loss 中加入權重大小懲罰 | Overfitting |
-| **Dropout** | 隨機丟棄神經元（訓練時） | Co-adaptation |
-| **Batch Normalization** | 標準化每層的輸入分佈 | Internal covariate shift |
-| **Data Augmentation** | 隨機變換訓練資料 | Overfitting（資料不足時） |
-| **Early Stopping** | 驗證 loss 不再下降時停止 | Overfitting |
+| 架構 Architecture | 特點 Feature | 問題 Issue |
+|------------------|-------------|-----------|
+| **RNN** | 循環連接，處理序列資料 | 梯度消失/爆炸，長期依賴差 |
+| **LSTM** | 遺忘門 + 輸入門 + 輸出門 | 參數多，訓練慢 |
+| **GRU** | 簡化版 LSTM（重置門 + 更新門） | 參數少，效果接近 LSTM |
 
 ---
 
-## 核心架構 Core Architectures
+## Transformer 注意力機制 Attention Mechanism
 
-### MLP (Multi-Layer Perceptron)
-
-```
-Input → [Dense → ReLU] × N → Output
-```
-
-基礎全連接網路，適合結構化資料。
-
-### CNN (Convolutional Neural Network)
-
-```
-Input → [Conv → ReLU → Pool] × N → FC → Output
-```
-
-| 層 | 作用 |
-|----|------|
-| **Convolution** | 局部特徵提取（邊緣、紋理 → 形狀 → 物件） |
-| **Pooling** | 降採樣，增加平移不變性 |
-| **Fully Connected** | 高層語義推理 |
-
-詳見 [[05-Computer Vision]]。
-
-### RNN / LSTM / GRU
-
-處理序列資料：時間序列、文字、語音。
-
-| 變體 | 解決的問題 |
-|------|-----------|
-| **Vanilla RNN** | 基礎但梯度消失嚴重 |
-| **LSTM** | 長短期記憶，三個門控（input/forget/output） |
-| **GRU** | 簡化版 LSTM，兩個門控，參數更少 |
-| **Bi-LSTM** | 雙向，同時利用前後文 |
-
-### Transformer
-
-> "Attention Is All You Need" (Vaswani et al., 2017)
-
-```
-Input → [Self-Attention → FFN] × N → Output
-```
-
-| 元件 | 作用 |
-|------|------|
-| **Self-Attention** | 每個 token 關注序列中的所有 token |
-| **Multi-Head Attention** | 多個注意力頭並行，捕捉不同關係 |
-| **Positional Encoding** | 注入位置資訊（Transformer 無內建順序） |
-| **Feed-Forward Network** | 非線性轉換 |
-| **Layer Normalization** | 穩定訓練 |
-| **Residual Connection** | 梯度流動，支援深層網路 |
-
-詳見 [[07-Generative AI & LLMs]]。
+| 組件 Component | 作用 Role |
+|---------------|----------|
+| **Self-Attention 自注意力** | 每個 token 與序列中所有 token 計算關聯權重 |
+| **Multi-Head Attention 多頭注意力** | 多組並行注意力，捕捉不同子空間的關係 |
+| **Q/K/V 查詢/鍵/值** | Attention(Q,K,V) = softmax(QKᵀ/√dₖ)V |
+| **Positional Encoding 位置編碼** | 注入序列位置資訊（Transformer 無內建順序感知） |
+| **Layer Norm + Residual** | 穩定訓練，防止梯度問題 |
 
 ---
 
-## 訓練技巧 Training Tips
+## 訓練技巧 Training Techniques
 
-| 技巧 | 說明 |
-|------|------|
-| **Transfer Learning** | 使用預訓練權重初始化，加速收斂 |
-| **Fine-tuning** | 在特定任務上微調預訓練模型 |
-| **Learning Rate Scheduling** | 訓練過程中動態調整學習率（Cosine, Step, Warmup） |
-| **Gradient Clipping** | 限制梯度最大值，防止梯度爆炸 |
-| **Mixed Precision (FP16/BF16)** | 加速訓練，減少顯存 |
+| 技巧 Technique | 作用 Purpose |
+|---------------|-------------|
+| **Dropout** | 隨機丟棄神經元，防止過擬合 |
+| **Batch Normalization (BN)** | 每層輸入標準化，加速收斂、允許更高學習率 |
+| **Layer Normalization (LN)** | Transformer 標配，對每個樣本獨立歸一化 |
+| **Residual Connection 殘差連接** | 跳層連接，讓深層網路可訓練 |
+| **Transfer Learning 遷移學習** | 預訓練模型 → 微調下游任務，節省資料與算力 |
+| **Data Augmentation 資料增強** | 旋轉/翻轉/裁剪/雜訊，擴充訓練集多樣性 |
+
+---
+
+## 優化器 Optimizers
+
+| 優化器 Optimizer | 特點 Feature |
+|-----------------|-------------|
+| **SGD + Momentum** | 經典方法，動量加速收斂 |
+| **Adam** | 自適應學習率 + 動量，預設首選 |
+| **AdamW** | Adam + 解耦權重衰減，Transformer 訓練標配 |
+| **RMSprop** | 自適應學習率，適合 RNN |
+| **LAMB / LARS** | 大批量訓練 (>32K batch) 專用 |
 
 ---
 
 ## 相關模組 Related Modules
 
-| 模組 | 關聯 |
-|------|------|
-| [[02-Machine Learning]] — ML 基礎 | 深度學習的理論根基 |
-| [[04-Natural Language Processing]] — NLP | Transformer 的核心應用 |
-| [[05-Computer Vision]] — CV | CNN 與 ViT 的核心應用 |
-| [[07-Generative AI & LLMs]] — LLM | Transformer 的終極應用 |
+| 模組 Module | 關聯 |
+|------------|------|
+| [[02-Machine Learning]] — ML 基礎理論 | 深度學習的基礎 |
+| [[04-NLP]] — Transformer 在 NLP 的應用 | NLP 核心架構 |
+| [[05-Computer Vision]] — CNN 架構深入 | CV 骨幹網路 |
+| [[07-Generative AI & LLMs]] — LLM = 超大 Transformer | 深度學習的前沿應用 |
 
 ---
 
-> 💡 **Key Insight**: Deep Learning's power comes from **representation learning** — the network learns what features matter, rather than requiring hand-crafted features. 深度學習的力量來自表徵學習——讓網路自己學什麼特徵重要。
+> 💡 **Key Insight**: Deep Learning is not magic — it's just gradient descent over a very large computational graph. 深度學習不是魔法——它只是在一個非常大的計算圖上做梯度下降。Scale matters, but fundamentals rule.
