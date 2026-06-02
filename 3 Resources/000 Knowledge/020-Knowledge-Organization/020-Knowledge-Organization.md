@@ -24,22 +24,22 @@ version: "1.1"
 
 | # | 章節 | 核心 |
 |:--:|------|------|
-| 1 | [[01-KOS-Overview/01-KOS-Overview\|01 概述]] | KOS 譜系與 DIKW |
-| 2 | [[02-Classification/02-Classification\|02 分類法]] | 樹狀層級體系 |
-| 3 | [[03-Thesaurus/03-Thesaurus\|03 敘詞表]] | 圖狀多維度詞表 |
-| 4 | [[04-Ontology/04-Ontology\|04 本體]] | 邏輯推理層 |
-| 5 | [[05-Knowledge-Graph/05-Knowledge-Graph\|05 知識圖譜]] | 工業級實現 |
-| 6 | [[06-Linked-Data/06-Linked-Data\|06 關聯數據]] | Web 化發布 |
-| 7 | [[07-Knowledge-Management/07-Knowledge-Management\|07 知識管理]] | SECI 與實踐社區 |
-| 8 | [[08-AI-and-Knowledge-Systems/08-AI-and-Knowledge-Systems\|08 AI+知識]] | LLM + KG = RAG |
-| 9 | [[09-Personal-KM/09-Personal-KM\|09 PKM]] | Zettelkasten·PARA·Obsidian |
+| 1 | [[01-KOS-Overview\|01 概述]] | KOS 譜系與 DIKW |
+| 2 | [[02-Classification-分类法\|02 分類法]] | 樹狀層級體系 |
+| 3 | [[03-Thesaurus-叙词表\|03 敘詞表]] | 圖狀多維度詞表 |
+| 4 | [[04-Ontology-本体论\|04 本體]] | 邏輯推理層 |
+| 5 | [[05-Knowledge-Graph-知识图谱\|05 知識圖譜]] | 工業級實現 |
+| 6 | [[06-Linked-Data-关联数据\|06 關聯數據]] | Web 化發布 |
+| 7 | [[07-Knowledge-Management-知识管理\|07 知識管理]] | SECI 與實踐社區 |
+| 8 | [[08-AI-and-Knowledge-Systems\|08 AI+知識]] | LLM + KG = RAG |
+| 9 | [[09-Personal-KM\|09 PKM]] | Zettelkasten·PARA·Obsidian |
 
 ## 🔗 跨庫連接
 
-- [[../000 Knowledge.md|DDC 000 知識總論]]
+- [[../../000 Knowledge/000 Knowledge|DDC 000 知識總論]]
 - [[../050-Classification-Metadata/050-Classification-Metadata|DDC 050 分類法與元數據]]
-- [[../070-Digital-Knowledge/070-Digital-Knowledge|DDC 070 數字知識系統]]
-- [[../wiki/index|Wiki 知識索引]]
+- [[wiki/index|Wiki 知識索引]]
+- [[wiki/concepts/KOS|KOS]] · [[wiki/concepts/叙词表|敘詞表]] · [[wiki/concepts/本体论|本體論]]
 
 ---
 

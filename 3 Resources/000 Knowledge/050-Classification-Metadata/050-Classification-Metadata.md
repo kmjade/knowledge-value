@@ -22,17 +22,17 @@ version: "1.1"
 
 ## 🗂️ 章節目錄
 
-| # | 章節 | 核心 |
-|:--:|------|------|
-| 1 | [[01-Classification-Overview/01-Classification-Overview\|01 概述]] | 分類學原理與歷史 |
-| 2 | [[02-Classification-Principles/02-Classification-Principles\|02 原理]] | 劃分·層級·面向 |
-| 3 | [[03-DDC-in-Depth/03-DDC-in-Depth\|03 DDC]] | 杜威十進分類法 |
-| 4 | [[04-UDC-in-Depth/04-UDC-in-Depth\|04 UDC]] | 國際十進分類法 |
-| 5 | [[05-Chinese-Classification/05-Chinese-Classification\|05 中圖法]] | 中國圖書館分類法 |
-| 6 | [[06-Comparative-Analysis/06-Comparative-Analysis\|06 對比]] | DDC·UDC·CLC·LCC |
-| 7 | [[07-Metadata-Standards/07-Metadata-Standards\|07 元數據]] | Dublin Core·MARC·RDF |
-| 8 | [[08-Classification-Applications/08-Classification-Applications\|08 應用]] | 分類實踐·自動分類 |
-| 9 | [[09-Digital-Age-Classification/09-Digital-Age-Classification\|09 數字]] | 數字時代的分類 |
+|  #  | 章節                                        | 核心                   |
+| :-: | ----------------------------------------- | -------------------- |
+|  1  | [[01-Classification-Overview\|01 概述]]     | 分類學原理與歷史             |
+|  2  | [[02-Classification-Principles\|02 原理]]   | 劃分·層級·面向             |
+|  3  | [[03-DDC-in-Depth\|03 DDC]]               | 杜威十進分類法              |
+|  4  | [[04-UDC-in-Depth\|04 UDC]]               | 國際十進分類法              |
+|  5  | [[05-CLC-in-Depth\|05 中圖法]]               | 中國圖書館分類法             |
+|  6  | [[06-LCC-in-Depth\|06 LCC]]               | 美国国会图书馆分类法           |
+|  7  | [[07-Metadata-Standards\|07 元數據]]         | Dublin Core·MARC·RDF |
+|  8  | [[08-Classification-Applications\|08 應用]] | 分類實踐·自動分類            |
+|  9  | [[09-Digital-Age-Classification\|09 數字]]  | 數字時代的分類              |
 
 ## 🔗 跨庫連接
 
