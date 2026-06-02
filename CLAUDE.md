@@ -179,18 +179,17 @@ triaged_to: [目标路径]
 ## Wiki 子库目录
 
 ### 活跃子库
-| 子库                    | 路径                                                                                 | Schema                                                                                             | 状态     |
-| --------------------- | ---------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | ------ |
-| Epistemology          | `4 Archives/by-type/Resources/epistemology/`                                       | [[4 Archives/by-type/Resources/epistemology/CLAUDE\|schema]]                                       | 🟢 活跃  |
-| Knowledge-Systems     | `3 Resources/000 Knowledge/`                                                       | DDC 001 知识组织                                                                                       | 🟢 活跃  |
-| Philosophy-Psychology | `4 Archives/by-type/Resources/100 Philosophy & Psychology/`                        | DDC 100 哲学·心理学                                                                                     | 🟢 活跃  |
-| Religion-Theology     | `4 Archives/by-type/Resources/200 Religion & Theology/`                            | DDC 200 宗教·神学                                                                                      | 🟡 框架  |
-| Social-Sciences       | `3 Resources/300 Social Sciences/`                                                 | DDC 300 社会科学                                                                                       | 🟡 框架  |
-| Natural-Sciences      | `3 Resources/500 Natural Sciences/`                                                | DDC 500 自然科学                                                                                       | 🟢 活跃  |
-| Applied-Sciences      | `3 Resources/600 Applied Sciences/`                                                | [[3 Resources/600 Applied Sciences/CLAUDE\|schema]]                                                | 🟢 活跃  |
-| Literature            | `4 Archives/by-type/Resources/800 Literature/`                                     | DDC 800 文学                                                                                         | 🟡 框架  |
-| History-Geography     | `3 Resources/900 History & Geography/`                                             | DDC 900 历史·地理 (7 子庫 · 14 concepts · 2 entities)                                                   | 🟢 活跃  |
-| People                | `0 Inbox/people/`                                                                  | [[0 Inbox/people/CLAUDE\|schema]]                                                                  | 🔴 未创建 |
+| 子库                    | 路径                                                          | Schema                                                       | 状态     |
+| --------------------- | ----------------------------------------------------------- | ------------------------------------------------------------ | ------ |
+| Knowledge-Systems     | `3 Resources/000 Knowledge/`                                | DDC 001 知识组织                                                 | 🟢 活跃  |
+| Philosophy-Psychology | `4 Archives/by-type/Resources/100 Philosophy & Psychology/` | DDC 100 哲学·心理学                                               | 🟢 活跃  |
+| Religion-Theology     | `4 Archives/by-type/Resources/200 Religion & Theology/`     | DDC 200 宗教·神学                                                | 🟡 框架  |
+| Social-Sciences       | `3 Resources/300 Social Sciences/`                          | DDC 300 社会科学                                                 | 🟡 框架  |
+| Natural-Sciences      | `3 Resources/500 Natural Sciences/`                         | DDC 500 自然科学                                                 | 🟢 活跃  |
+| Applied-Sciences      | `3 Resources/600 Applied Sciences/`                         | [[3 Resources/600 Applied Sciences/CLAUDE\|schema]]          | 🟢 活跃  |
+| Literature            | `4 Archives/by-type/Resources/800 Literature/`              | DDC 800 文学                                                   | 🟡 框架  |
+| History-Geography     | `3 Resources/900 History & Geography/`                      | DDC 900 历史·地理 (7 子庫 · 14 concepts · 2 entities)              | 🟢 活跃  |
+| People                | `0 Inbox/people/`                                           | [[0 Inbox/people/CLAUDE\|schema]]                            | 🔴 未创建 |
 
 
 ### 子库结构

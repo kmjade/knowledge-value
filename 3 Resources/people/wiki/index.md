@@ -14,18 +14,23 @@ topic: people
 
 | Metric | Value |
 |--------|-------|
-| Person Entities | **29** |
-| Tier 3 Stubs | 29 |
-| Tier 2 (enriched) | 0 |
-| Tier 1 (deep profiles) | 0 |
+| Person Entities | **30** |
+| Tier 3 Stubs | 28 |
+| Tier 2 (enriched) | 1 |
+| Tier 1 (deep profiles) | 1 |
 | Last Compile | 2026-06-01 |
 
 ## Entities by Domain
 
+### Knowledge Systems & Epistemology (14)
+| # | Person | Tier |
+|---|--------|------|
+| 1 | [[entities/Henri-La-Fontaine\|Henri La Fontaine]] | 2 🆕 |
+
 ### Knowledge Systems & Epistemology (13)
 | # | Person | Tier |
 |---|--------|------|
-| 1 | [[entities/Andrej-Karpathy\|Andrej Karpathy]] | 3 |
+| 1 | [[3 Resources/people/wiki/entities/Andrej-Karpathy\|Andrej Karpathy]] | 3 |
 | 2 | [[entities/Bruno-Latour-拉图尔\|Bruno Latour]] | 3 |
 | 3 | [[entities/David-Bloor-布鲁尔\|David Bloor]] | 3 |
 | 4 | [[entities/Imre-Lakatos-拉卡托斯\|Imre Lakatos]] | 3 |
@@ -83,7 +88,17 @@ topic: people
 | 28 | [[entities/李白\|Li Bai]] | 3 |
 | 29 | [[entities/羅蘭·巴特\|Roland Barthes]] | 3 |
 
+## UDC 映射
+
+| 指標 | 數值 |
+|:----|:----:|
+| DDC 主分類 | 060 |
+| UDC 基礎號 | 659.2 |
+| UDC 人物標記 | `929[LastName]` 傳記號 + 字母擴展 |
+| 人物 UDC 覆蓋 | 28/29 |
+| UDC 標籤 | `#udc/060` `#udc/929` |
+
 ## Linked Wikis
 
-- [[3 Resources/000 Knowledge/wiki/index\|000 Knowledge Wiki]]
-- [[3 Resources/100 Philosophy & Psychology/150 心理学/wiki/index\|150 Psychology Wiki]]
+- [[3 Resources/000 Knowledge/wiki/index|000 Knowledge Wiki]]
+- [[3 Resources/100 Philosophy/wiki/index|100 Philosophy Wiki]]
