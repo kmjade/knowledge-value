@@ -4,33 +4,30 @@ aliases:
   - Wiki Index
   - Global Navigation
 created: 2026-05-26
-updated: 2026-06-01
+updated: 2026-06-02
 type: meta-index
 ---
 
 # META-INDEX — 全局知识导航
 
-> 连接所有 DDC Wiki 子库的全局入口。最后更新: 2026-05-31
+> 连接所有 DDC Wiki 子库的全局入口。基础设施工已完成，待内容编译。
 
 ---
 
 ## Wiki 子库总览
 
-| DDC | 子库 | 状态 | MOC | Wiki 索引 | 编译日志 |
-|:---:|------|:----:|-----|:---------:|:--------:|
-| 000 | Knowledge-Systems | 🟢 | [[000 Knowledge/000 Knowledge.md\|MOC]] | [[000 Knowledge/wiki/index\|索引]] | [[000 Knowledge/wiki/log\|日志]] |
-| 100 | Philosophy & Psychology | 🟢 | [[100 Philosophy & Psychology/00-MOCs/100-知识地图\|MOC]] | [[100 Philosophy & Psychology/wiki/index\|索引]] | [[100 Philosophy & Psychology/wiki/log\|日志]] |
-| 120 | Epistemology | 🟢 | [[4 Archives/by-type/Resources/epistemology/CLAUDE\|Schema]] | [[4 Archives/by-type/Resources/epistemology/wiki/index\|索引]] | [[4 Archives/by-type/Resources/epistemology/wiki/log\|日志]] |
-| 200 | Religion & Theology | 🟡 | [[200 Religion & Theology/00-MOCs/200-知识地图\|MOC]] | [[200 Religion & Theology/wiki/index\|索引]] | [[200 Religion & Theology/wiki/log\|日志]] |
-| 300 | Social Sciences | 🟡 | [[300 Social Sciences/00-MOCs/300-知识地图\|MOC]] | [[300 Social Sciences/wiki/index\|索引]] | [[300 Social Sciences/wiki/log\|日志]] |
-| 400 | Language | 🟢 | [[400 Language/00-MOCs/400-知识地图\|MOC]] | [[400 Language/wiki/index\|索引]] | [[400 Language/wiki/log\|日志]] |
-| 500 | Natural Sciences | 🟢 | [[500 Natural Sciences/00-MOCs/500-知识地图\|MOC]] | [[500 Natural Sciences/wiki/index\|索引]] | [[500 Natural Sciences/wiki/log\|日志]] |
-| 600 | Applied Sciences | 🟢 | [[600 Applied Sciences/600 Applied Sciences.md\|MOC]] | [[600 Applied Sciences/wiki/index\|索引]] | [[600 Applied Sciences/wiki/log\|日志]] |
-| 700 | Arts | 🟢 | [[700 Arts/00-MOCs/700-知识地图\|MOC]] | [[700 Arts/wiki/index\|索引]] | [[700 Arts/wiki/log\|日志]] |
-| 800 | Literature | 🟢 | [[800 Literature/00-MOCs/800-知识地图\|MOC]] | [[800 Literature/wiki/index\|索引]] | [[800 Literature/wiki/log\|日志]] |
-| 900 | History & Geography | 🟡 | [[900 History & Geography/00-MOCs/900-知识地图\|MOC]] | [[900 History & Geography/wiki/index\|索引]] | [[900 History & Geography/wiki/log\|日志]] |
-| — | People CRM | 🟢 | [[people/people\|MOC]] | [[people/wiki/index\|索引]] | [[people/wiki/log\|日志]] |
-| — | Generative Art | 🟢 | [[generative-art/CLAUDE\|Schema]] | [[generative-art/wiki/index\|索引]] | [[generative-art/wiki/log\|日志]] |
+| DDC | 子库 | CLAUDE.md | wiki/ | Wiki 索引 | 编译日志 | 状态 |
+|:---:|------|:--------:|:----:|:---------:|:--------:|:----:|
+| 000 | 知识组织 | ✅ | ✅ | [[000 Knowledge/wiki/index\|索引]] | [[000 Knowledge/wiki/log\|日志]] | 🟡 待编译 |
+| 100 | 哲学 | ✅ | ✅ | [[100 Philosophy/wiki/index\|索引]] | [[100 Philosophy/wiki/log\|日志]] | 🟡 待编译 |
+| 200 | 宗教·神学 | ✅ | ✅ | [[200 Religion/wiki/index\|索引]] | [[200 Religion/wiki/log\|日志]] | 🟡 待编译 |
+| 300 | 社会科学 | ✅ | ✅ | [[300 Social/wiki/index\|索引]] | [[300 Social/wiki/log\|日志]] | 🟡 待编译 |
+| 400 | 语言 | ✅ | ✅ | [[400 Language/wiki/index\|索引]] | [[400 Language/wiki/log\|日志]] | 🟡 待编译 |
+| 500 | 自然科学 | ✅ | ✅ | [[500 Natural/wiki/index\|索引]] | [[500 Natural/wiki/log\|日志]] | 🟡 待编译 |
+| 600 | 应用科学 | ✅ | ✅ | [[600 Applied/wiki/index\|索引]] | [[600 Applied/wiki/log\|日志]] | 🟡 待编译 |
+| 700 | 艺术 | ✅ | ✅ | [[700 Arts/wiki/index\|索引]] | [[700 Arts/wiki/log\|日志]] | 🟡 待编译 |
+| 800 | 文学 | ✅ | ✅ | [[800 Literature/wiki/index\|索引]] | [[800 Literature/wiki/log\|日志]] | 🟡 待编译 |
+| 900 | 历史·地理 | ✅ | ✅ | [[900 History/wiki/index\|索引]] | [[900 History/wiki/log\|日志]] | 🟡 待编译 |
 
 ---
 
@@ -61,6 +58,124 @@ type: meta-index
 | 500 → 600 | 自然科学基础 → 应用科学 |
 | 700 ↔ 800 | 艺术 ↔ 文学 |
 | 800 ↔ 900 | 文学 ↔ 历史语境 |
+
+---
+
+## UDC↔DDC 双向导航 (UC-26)
+
+> 从 UDC 编码 → 查询对应 DDC 子库 · 从 DDC 子库 → 查询对应 UDC 编码
+> 完整映射参见 [[_meta/⚙️ 系统配置/DDC-UDC 映射表]]
+> 标签体系参见 [[_meta/⚙️ 系统配置/UDC 標籤體系]] · [[_meta/⚙️ 系统配置/DDC 标签体系]]
+
+### DDC → UDC 正向导航
+
+| DDC | 子库名称 | UDC 基础号 | #udc/ 标签 | #ddc/ 标签 |
+|:---:|:---------|:----------:|:-----------|:-----------|
+| **000** | 知识组织 | 001/004 | `#udc/001` `#udc/004` | `#ddc/001` |
+| **060** | 人物 CRM | 659.2 | `#udc/060` `#udc/929` | `#ddc/060` |
+| **100** | 哲学·心理学 | 1 | `#udc/1` | `#ddc/100` |
+| **120** | 认识论 | 165 | `#udc/165` | `#ddc/120` |
+| **200** | 宗教·神学 | 2 | `#udc/2` | `#ddc/200` |
+| **300** | 社会科学 | 3 | `#udc/3` | `#ddc/300` |
+| **400** | 语言 | 81 | `#udc/81` | `#ddc/400` |
+| **500** | 自然科学 | 5 | `#udc/5` | `#ddc/500` |
+| **600** | 应用科学 | 62 | `#udc/62` | `#ddc/600` |
+| **700** | 艺术 | 7 | `#udc/7` | `#ddc/700` |
+| **800** | 文学 | 82 | `#udc/82` | `#ddc/800` |
+| **900** | 历史·地理 | 9 | `#udc/9` | `#ddc/900` |
+
+### UDC → DDC 反向导航
+
+| #udc/ 标签 | UDC 含义 | DDC | 子库 |
+|:-----------|:---------|:---:|:-----|
+| `#udc/001` | 知识论 | 000 | 知识组织 |
+| `#udc/004` | 计算机科学 | 000 | 知识组织 |
+| `#udc/004.8` | 人工智能 | 006.3 | 知识组织 (AI) |
+| `#udc/7.05` | 生成艺术 | 700 | 艺术 (generative-art) |
+| `#udc/060` | 人物 CRM | 060 | people |
+| `#udc/929` | 传记 | 920 | people |
+| `#udc/1` | 哲学 | 100 | 哲学 |
+| `#udc/165` | 认识论 | 120 | 认识论 |
+| `#udc/11` | 形而上学 | 110 | 哲学 |
+| `#udc/17` | 伦理学 | 170 | 哲学 |
+| `#udc/2` | 宗教 | 200 | 宗教 |
+| `#udc/3` | 社会科学 | 300 | 社会科学 |
+| `#udc/81` | 语言学 | 400 | 语言 |
+| `#udc/5` | 自然科学 | 500 | 自然科学 |
+| `#udc/51` | 数学 | 510 | 自然科学 |
+| `#udc/53` | 物理学 | 530 | 自然科学 |
+| `#udc/54` | 化学 | 540 | 自然科学 |
+| `#udc/57` | 生物学 | 570 | 自然科学 |
+| `#udc/62` | 工程 | 600 | 应用科学 |
+| `#udc/61` | 医学 | 610 | 应用科学 |
+| `#udc/63` | 农业 | 630 | 应用科学 |
+| `#udc/65` | 管理 | 650 | 应用科学 |
+| `#udc/7` | 艺术 | 700 | 艺术 |
+| `#udc/82` | 文学 | 800 | 文学 |
+| `#udc/9` | 历史·地理 | 900 | 历史·地理 |
+| `#udc/93/94` | 世界史 | 909 | 历史·地理 |
+
+### 使用方式
+
+```
+# 从 DDC 出发查 UDC (正向)
+DDC 006.3 (AI)  →  UDC 004.8  →  #udc/004.8  →  查找含此标签的页面
+
+# 从 UDC 出发查 DDC (反向)
+#udc/004.8      →  UDC 004.8  →  DDC 006.3   →  000 Knowledge wiki/
+
+# 双标签互查
+#udc/004.8  ↔  #ddc/006.3  (同一概念的两套分类编码)
+```
+
+---
+
+## UDC 分类索引视图 (Phase 3)
+
+> UDC 知识图谱核心关系网 · 密度: **4.4** 链接/节点 (目标 ≥ 2.0 ✅)
+
+### UDC 核心节点图谱
+
+```
+Paul Otlet ──created──► UDC ◄──co-created── Henri La Fontaine
+    │                      │                       │
+    ├──founded──► Documentation ◄──co-founded──────┤
+    │                      │                       │
+    └──founded──► Mundaneum ◄──co-founded──────────┘
+                    │
+                    ├──► Information-Science
+                    ├──► Knowledge-Graph
+                    └──► Semantic-Web
+```
+
+### 按 UDC 编码的页面分布
+
+| UDC 编码 | 含义 | 概念页 | 实体页 | 子库 |
+|:---------|:-----|:------:|:------:|:-----|
+| 001 | 知识论·文献学 | 3 | 0 | 000 Knowledge |
+| 004.8 | 人工智能 | 2 | 0 | 000 Knowledge |
+| 1 | 哲学 | 6 | 4 | 100 Philosophy |
+| 165 | 认识论 | — | — | Epistemology (38 概念) |
+| 2 | 宗教 | 4 | 1 | 200 Religion |
+| 3 | 社会科学 | 4 | 3 | 300 Social |
+| 81 | 语言学 | 4 | 2 | 400 Language |
+| 5 | 自然科学 | 4 | 2 | 500 Natural |
+| 62 | 应用科学 | 3 | 1 | 600 Applied |
+| 7 | 艺术 | 2+4 | 1+1 | 700 Arts + gen-art |
+| 82 | 文学 | 2 | 1 | 800 Literature |
+| 9 | 历史·地理 | 3 | 1 | 900 History |
+| 929 | 传记·人物 | 0 | 30 | People CRM |
+
+### UDC 覆盖率概览
+
+| 指标 | Phase 1 | Phase 3 |
+|:----|:-------:|:-------:|
+| 概念页 ddc+udc | 100% | 100% |
+| 实体页 ddc+udc | 98% | 100% |
+| Concepts with `#udc/` | 0% | 100% |
+| Entities with `#udc/` | 2% | 100% |
+| 图谱密度 (avg links/node) | ~0.5 | **4.4** ✅ |
+| 跨库链接 | ~10 | **30+** |
 
 ---
 
