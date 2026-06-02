@@ -1,39 +1,40 @@
 ---
-created: 2026-05-31
+created: 2026-06-02
+updated: 2026-06-02
 type: wiki-index
 topic: language
-status: awaiting-first-compile
+status: active
+total_concepts: 4
+total_entities: 2
+total_sources: 1
 ---
+# 語言學 Wiki 索引 — DDC 400
 
-# DDC 400 — Language Wiki 索引
-
-> 語言學知識庫 — 從語言學概論到漢語、印歐語系。待首次編譯。
-
-## 📊 統計
-
+## 編譯統計
 | 指標 | 數值 |
-|------|------|
-| 概念頁 | 0 |
-| 實體頁 | 0 |
-| 狀態 | 🟢 框架就緒，待首次編譯 |
+|:----|:----:|
+| 概念頁 | 4 |
+| 實體頁 | 2 |
+| 來源頁 | 1 |
+|
+## UDC 映射
+| 指標 | 數值 |
+|:----|:----:|
+| DDC 主分類 | 400 |
+| UDC 基礎號 | 81 |
+| UDC 標籤 | `#udc/81` |
+| 概念 UDC 覆蓋 | 4/4 |
 
-## 🏗️ 子庫
+## 概念
+| 概念 | English | 類別 |
+|:----|:--------|:----:|
+| [[语言学]] | Linguistics | 語言學理論 |
+| [[语音学与音韵学]] | Phonetics & Phonology | 語音與音韻 |
+| [[句法语义词用]] | Syntax·Semantics·Pragmatics | 語法與語義 |
+| [[历史语言学]] | Historical Linguistics | 歷史語言學 |
 
-| DDC | 子庫 | 狀態 |
-|:---:|------|:----:|
-| 410 | 語言學概論 | 🟢 已部署 |
-| 420 | 漢語語言學 | 🟢 已部署 |
-| 430 | 漢藏語系 | 🟢 |
-| 440 | 印歐語系 | 🟢 |
-| 450 | 閃含語系 | 🟢 |
-| 460 | 阿爾泰·烏拉爾語系 | 🟢 |
-| 470 | 古典語言 | 🟢 |
-| 480 | 非洲·美洲語言 | 🟢 |
-| 490 | 應用語言學 | 🟢 |
-
-## 🔗 跨庫鏈接
-
-- MOC: [[../400 Language.md]]
-- Schema: [[../CLAUDE.md]]
-- 編譯日誌: [[3 Resources/400 Language/wiki/log]]
-- 知識組織: [[../../000 Knowledge/wiki/index]]
+## 實體
+| 實體 | English | 貢獻 |
+|:----|:--------|:----|
+| [[索绪尔]] | Saussure | 現代語言學之父 |
+| [[乔姆斯基]] | Chomsky | 生成語法 |
