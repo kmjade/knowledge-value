@@ -8,6 +8,27 @@ purpose: triage
 
 记录 Inbox 分拣操作的日志。
 
+---
+
+## 2026-06-02
+
+**操作**: Learning 归档
+**來源**: `0 Inbox/_processed/02-Learning/`
+**目標**: `4 Archives/by-type/02-Learning/`
+**內容**: Books · Courses · 醫學 · 數學知識庫 · 易經
+**狀態**: success
+
+---
+
+## 2026-06-02
+
+**操作**: 形而上學.md 分揀
+**來源**: `0 Inbox/形而上學.md`
+**目標**: `3 Resources/100 Philosophy & Psychology/110-形而上学/README.md`
+**分類**: reference → knowledge-base
+**狀態**: success
+**備註**: 完整的 DDC 110 入口文檔，含核心問題地圖、歷史脈絡、書目與學習路徑
+
 ## 格式说明
 
 每次分拣操作记录：
