@@ -1,63 +1,66 @@
 ---
 title: 知識管理
-aliases:
-  - Knowledge Management
-  - DDC 005
-created: 2026-05-28
+aliases: [Knowledge Management, DDC 005, KM 總入口]
+created: 2026-06-02
 ddc: "005"
 udc: "659.2"
-updated: 2026-06-02
-tags:
-  - knowledge-management
-  - ddc-005
-  - knowledge
-  - resources
-  - udc/060
-version: "1.2"
+tags: [knowledge-management, ddc-005, knowledge, resources]
 ---
-
 
 # 知識管理 — Knowledge Management (DDC 005)
 
-> [!info] DDC 005
-> KM——組織如何創造·共享·保留知識；個人如何管理·編譯·應用知識
-
-## 📊 知識庫概覽
-
-| 指標 | 數值 |
-|------|------|
-| 總文件 | 11+ |
-| 核心章節 | 9 |
-| 子知識庫 | PARA-LLM-Wiki 整合系統 |
-| 狀態 | 🟢 活躍 |
-
-## 🗂️ 章節目錄
-
-| # | 章節 | 核心 |
-|:--:|------|------|
-| 1 | [[01-KM-Overview-KM概述/01-KM-Overview-KM概述\\|01 概述]] | KM 定義與發展 |
-| 2 | [[02-SECI-Model-SECI模型/02-SECI-Model-SECI模型\\|02 SECI]] | 知識創造螺旋 |
-| 3 | [[03-Communities-of-Practice/03-Communities-of-Practice\\|03 實踐社區]] | CoP 設計與管理 |
-| 4 | [[04-Knowledge-Audit/04-Knowledge-Audit\\|04 知識審計]] | 知識盤點與診斷 |
-| 5 | [[05-Knowledge-Sharing/05-Knowledge-Sharing\\|05 知識共享]] | 動機·障礙·機制 |
-| 6 | [[06-Organizational-Learning/06-Organizational-Learning\\|06 組織學習]] | 單環·雙環·三環 |
-| 7 | [[07-Personal-KM/07-Personal-KM\\|07 PKM]] | Zettelkasten·PARA·第二大腦 |
-| 8 | [[08-KM-Tools-KM工具/08-KM-Tools-KM工具\\|08 工具]] | Obsidian·Notion·飛書 |
-| 9 | [[09-Future-of-KM/09-Future-of-KM\\|09 未來]] | AI+KM 新範式 |
-
-### 子知識庫
-
-| 名稱                     | 說明          |
-| ---------------------- | ----------- |
-| [[PARA-LLM-Wiki 整合系统]] | v1.1 融合架構文件 |
-
-## 🔗 跨庫連接
-
-- [[../000 Knowledge.md|DDC 000 知識總論]]
-- [[../020-Knowledge-Organization/020-Knowledge-Organization|DDC 020 知識組織]]
-- [[../070-Digital-Knowledge/070-Digital-Knowledge|DDC 070 數字知識系統]]
-- [[../wiki/index|Wiki 知識索引]]
+> 知識是唯一的無限資源。管理的不是知識本身，而是知識**流動的條件**。
 
 ---
 
-*分類: 3 Resources/000 Knowledge/005-Management · DDC: 005 · v1.2*
+## 📂 目錄結構
+
+```
+005-Management/
+├── README.md                   ← 快速導航
+├── 005-Management.md           ← 本文件（總入口）
+├── 00-MOCs/
+│   ├── 知識管理知識庫總覽.md     ← 全景圖譜·關鍵人物·核心問題
+│   └── 知識管理學習路徑.md       ← 4 週學習路線
+├── 01-KM概述/                  ← 定義·DIKW·學派
+├── 02-SECI模型/                ← Nonaka 知識創造螺旋
+├── 03-實踐社區/                 ← CoP 設計與管理
+├── 04-知識審計/                 ← 盤點·診斷·地圖
+├── 05-知識共享/                 ← 動機·障礙·機制
+├── 06-組織學習/                 ← 單環/雙環/三環
+├── 07-個人KM/                  ← Zettelkasten·PARA·第二大腦
+├── 08-KM工具/                  ← 工具生態與選型
+├── 09-未來趨勢/                 ← AI+KM·知識激活
+└── 99-資源收集/                 ← 書籍·課程·工具
+```
+
+---
+
+## 📊 快速導航
+
+| 章節 | 核心 | 關鍵概念 |
+|:-----|:-----|:---------|
+| [[01-KM概述/01-KM概述\|01 概述]] | KM 是什麼？ | DIKW·隱性/顯性·知識經濟 |
+| [[02-SECI模型/02-SECI模型\|02 SECI]] | 知識如何被創造？ | 社會化·外化·組合·內化·Ba |
+| [[03-實踐社區/03-實踐社區\|03 社區]] | 知識在哪裡流動？ | 領域·社區·實踐·生命週期 |
+| [[04-知識審計/04-知識審計\|04 審計]] | 我們知道什麼？ | 知識地圖·庫存·流量·差距 |
+| [[05-知識共享/05-知識共享\|05 共享]] | 為什麼不共享？ | 動機·信任·激勵·故事化 |
+| [[06-組織學習/06-組織學習\|06 學習]] | 組織如何學習？ | 單環/雙環/三環·五項修練 |
+| [[07-個人KM/07-個人KM\|07 PKM]] | 我如何管理知識？ | Zettelkasten·PARA·GTD |
+| [[08-KM工具/08-KM工具\|08 工具]] | 用什麼工具？ | Obsidian·Notion·企業 KM |
+| [[09-未來趨勢/09-未來趨勢\|09 未來]] | KM 去哪裡？ | RAG·LLM Wiki·Agent KM |
+
+---
+
+## 🔗 跨庫連接
+
+| DDC | 知識庫 | 關係 |
+|:---:|:------|:-----|
+| 000 | [[../000 Knowledge|DDC 000 知識總論]] | 知識組織系統 |
+| 020 | [[../020-Knowledge-Organization/020-Knowledge-Organization|DDC 020]] | 分類法·元數據 |
+| 100 | [[../../100 Philosophy/120-认识论/README|DDC 120 認識論]] | 知識的哲學基礎 |
+| 004 | [[../004 Computer Science & technology/004.8-人工智能/README|DDC 004.8 AI]] | AI 驅動的 KM |
+
+---
+
+*分類: 3 Resources/000 Knowledge/005-Management · DDC: 005 · UDC: 659.2*
